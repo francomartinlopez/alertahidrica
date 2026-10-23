@@ -5,7 +5,7 @@
   "actualizado_texto": "22 de octubre de 2026",
   "proxima": "Se actualiza todos los días por la mañana.",
   "autor": "Franco Martín López",
-  "version": 5,
+  "version": 6,
   "cambios": [
    "Tercera muerte: un trabajador rural en Villa Ocampo, Santa Fe.",
    "Nuevas secciones: evolución de ríos, evacuados, alertas, rutas, impacto, salud, fondos, glosario e historial."
@@ -73,6 +73,16 @@
   }
  ],
  "hoy": [
+  {
+   "fecha": "22 oct",
+   "f": "2026-10-22",
+   "lugar": "Neuquén",
+   "prov": "Neuquén",
+   "texto": "**Cortan todas las rutas de la provincia** desde las 20 hasta las 6 del viernes por tormentas intensas. Tres comunidades aisladas, 50 cm de granizo cerca de Piedra del Águila y la Ruta 5 cortada por la crecida del arroyo Carranza.",
+   "url": "https://www.noticiasnqn.com.ar/noticias/2026/10/22/357757-desde-la-secretaria-de-emergencia-advierten-que-el-riesgo-continuara",
+   "fuente": "Noticias NQN",
+   "tipo": "tormenta"
+  },
   {
    "fecha": "22 oct",
    "f": "2026-10-22",
@@ -195,6 +205,16 @@
   }
  ],
  "eventos_previos": [
+  {
+   "fecha": "20 oct",
+   "f": "2026-10-20",
+   "lugar": "Arroyo Carranza",
+   "prov": "Neuquén",
+   "texto": "La crecida del arroyo corta la Ruta Provincial 5; las rutas 8 y 46 quedan con circulación restringida.",
+   "url": "https://www.urbanazapala.com.ar/rutas-cortadas-en-neuquen/",
+   "fuente": "Urbana Zapala",
+   "tipo": "rio"
+  },
   {
    "fecha": "15 oct",
    "f": "2026-10-15",
@@ -1603,17 +1623,27 @@
    ]
   },
   "Neuquén": {
-   "estado": "sin_datos",
-   "impacto": "positivo",
-   "situacion": "Embalses del Comahue (El Chocón, Piedra del Águila, Arroyito) debajo de lo normal en septiembre; el efecto positivo llegaría con retraso.",
+   "estado": "plan",
+   "impacto": "medio",
+   "situacion": "**Tormentas desde el 20 de octubre con suelo saturado.** El 22 la provincia suspendió la circulación en todas las rutas nacionales y provinciales desde las 20. Ruta 5 cortada por la crecida del arroyo Carranza; rutas 6 y 8 y accesos a Vaca Muerta afectados; unos 50 cm de granizo cerca de Piedra del Águila; tres comunidades de pueblos originarios aisladas. Se esperan mayores caudales en el río Neuquén, sin riesgo de rotura de presas según las mediciones técnicas. [Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/22/357757-desde-la-secretaria-de-emergencia-advierten-que-el-riesgo-continuara)",
    "emergencia": "**Sin emergencia declarada.**",
-   "medidas": [],
+   "medidas": [
+    "Suspensión preventiva de la circulación en todas las rutas desde las 20 del 22 de octubre hasta las 6 del 23, sujeta a evaluación.",
+    "Secretaría de Emergencias y Gestión de Riesgos: relevamiento de familias en zonas ribereñas para trasladarlas a centros de evacuación con colchones, alimentos y agua.",
+    "Centro de evacuación habilitado en Añelo; bolsas de arena en Piedra del Águila; clases suspendidas en Zapala.",
+    "Se analiza suspender navegación, pesca y recreación en espacios acuáticos.",
+    "Estado de rutas: dpvneuquen.gov.ar o 2942-572138 (Vialidad Provincial)."
+   ],
    "historico": [],
    "no_encontrado": [
-    "No se encontraron declaraciones, medidas ni planes específicos por El Niño en las fuentes revisadas."
+    "Cifra total de evacuados.",
+    "Norma de emergencia."
    ],
    "fuentes": [
-    "[COHIFE](https://www.cohife.org.ar/wp-content/uploads/2026/09/INFORME-el-Nino-Nro1-040926.pdf)"
+    "[Neuquén Informa](https://www.neuqueninforma.gob.ar/noticias/2026/10/22/266053-por-las-tormentas-suspenden-el-transito-en-las-rutas-desde-las-20)",
+    "[Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/22/357757-desde-la-secretaria-de-emergencia-advierten-que-el-riesgo-continuara)",
+    "[Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/22/357745-alerta-por-lluvias-en-neuquen-restringen-la-circulacion-en-todas-las-rutas-nacionales)",
+    "[Urbana Zapala](https://www.urbanazapala.com.ar/rutas-cortadas-en-neuquen/)"
    ]
   },
   "Catamarca": {
@@ -2246,6 +2276,31 @@
     {
      "t": "EsChaco, reunión de la AFE en Resistencia",
      "u": "https://www.eschaco.com/vernota.asp?id_noticia=133810"
+    }
+   ]
+  },
+  {
+   "grupo": "Neuquén, tormentas y rutas (20 a 22 de octubre)",
+   "items": [
+    {
+     "t": "Neuquén Informa, suspensión del tránsito en las rutas",
+     "u": "https://www.neuqueninforma.gob.ar/noticias/2026/10/22/266053-por-las-tormentas-suspenden-el-transito-en-las-rutas-desde-las-20"
+    },
+    {
+     "t": "Noticias NQN, advertencia de la Secretaría de Emergencias",
+     "u": "https://www.noticiasnqn.com.ar/noticias/2026/10/22/357757-desde-la-secretaria-de-emergencia-advierten-que-el-riesgo-continuara"
+    },
+    {
+     "t": "Noticias NQN, restricción en rutas nacionales",
+     "u": "https://www.noticiasnqn.com.ar/noticias/2026/10/22/357745-alerta-por-lluvias-en-neuquen-restringen-la-circulacion-en-todas-las-rutas-nacionales"
+    },
+    {
+     "t": "Urbana Zapala, Ruta 5 cortada por el arroyo Carranza",
+     "u": "https://www.urbanazapala.com.ar/rutas-cortadas-en-neuquen/"
+    },
+    {
+     "t": "Neuquén al Instante, rutas interrumpidas (20 oct)",
+     "u": "https://www.neuquenalinstante.com.ar/noticias/2026/10/20/145304-lluvias-y-tormentas-en-la-provincia-hay-rutas-interrumpidas-y-sectores-con-circulacion-complicada"
     }
    ]
   },
@@ -3272,9 +3327,9 @@
   },
   "comahue": {
    "nombre": "Comahue y norte patagónico",
-   "nivel": "bajo",
-   "tipo": "Efecto positivo con retraso",
-   "situacion": "Embalses bajos en septiembre; más lluvia esperada en el norte de la Patagonia.",
+   "nivel": "medio",
+   "tipo": "Tormentas y crecidas de arroyos",
+   "situacion": "**Tormentas desde el 20 de octubre en Neuquén:** rutas cortadas, granizo acumulado y comunidades aisladas. Embalses que venían bajos y ahora con mayor caudal esperado en el río Neuquén.",
    "vigilar": "Caudales del Limay y Neuquén.",
    "guia": "patagonia",
    "provs": "Neuquén, Río Negro, oeste de La Pampa"
@@ -3926,12 +3981,13 @@
    "zona": "comahue",
    "tam": "grande",
    "tipos": [
-    "lluvia"
+    "lluvia",
+    "rio"
    ],
-   "nivel": "bajo",
-   "datos": "Embalses del Comahue bajos en septiembre.",
+   "nivel": "medio",
+   "datos": "Se esperan mayores caudales en la cuenca del río Neuquén; sin riesgo de rotura de presas según la provincia. Pacientes de diálisis del interior quedaron en la capital por el corte de rutas.",
    "defensa": "—",
-   "fuentes": ""
+   "fuentes": "[Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/22/357757-desde-la-secretaria-de-emergencia-advierten-que-el-riesgo-continuara)"
   },
   {
    "n": "Santa Rosa",
@@ -3993,6 +4049,38 @@
    "datos": "El 15 de octubre un trabajador rural de 70 años **murió ahogado** arreando hacienda en un bañado inundado (El Víbora), a 15 km de la ciudad.",
    "defensa": "—",
    "fuentes": "[Infobae](https://www.infobae.com/sociedad/2026/10/16/un-hombre-de-70-anos-murio-ahogado-en-santa-fe-arriaba-animales-por-la-creciente-de-los-rios-por-el-nino/) · [Conclusión](https://www.conclusion.com.ar/?p=1463520)"
+  },
+  {
+   "n": "Zapala",
+   "prov": "Neuquén",
+   "lon": -70.07,
+   "lat": -38.9,
+   "zona": "comahue",
+   "tam": "mediana",
+   "tipos": [
+    "lluvia",
+    "crecida_repentina"
+   ],
+   "nivel": "alto",
+   "datos": "Tormentas intensas previstas para la noche del 22 de octubre; clases suspendidas. Rutas de acceso cortadas o restringidas.",
+   "defensa": "—",
+   "fuentes": "[Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/22/357757-desde-la-secretaria-de-emergencia-advierten-que-el-riesgo-continuara)"
+  },
+  {
+   "n": "Piedra del Águila",
+   "prov": "Neuquén",
+   "lon": -70.08,
+   "lat": -40.05,
+   "zona": "comahue",
+   "tam": "chica",
+   "tipos": [
+    "granizo",
+    "lluvia"
+   ],
+   "nivel": "alto",
+   "datos": "Unos 50 cm de granizo acumulado en un tramo de ruta; bolsas de arena para evitar que entre agua a las casas; una comunidad cercana aislada.",
+   "defensa": "—",
+   "fuentes": "[Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/22/357757-desde-la-secretaria-de-emergencia-advierten-que-el-riesgo-continuara)"
   }
  ],
  "ciudades_tipos": {
@@ -4799,9 +4887,60 @@
     "fuentes": [
      "[Todo Jujuy](https://www.todojujuy.com/salta-refuerza-la-prevencion-la-posible-llegada-el-nino-miran-atencion-al-verano-n295281)"
     ]
+   },
+   {
+    "nombre": "Neuquén",
+    "m": {
+     "anticipacion": {
+      "m": "sin_datos",
+      "t": "No se halló un plan específico por El Niño anterior a octubre."
+     },
+     "norma": {
+      "m": "sin_datos",
+      "t": "Sin emergencia declarada."
+     },
+     "fondos": {
+      "m": "sin_datos",
+      "t": "Sin montos."
+     },
+     "obras": {
+      "m": "tarde",
+      "t": "Las obras del puente sobre el arroyo Carranza seguían en curso cuando llegó la crecida; el desvío provisorio no resistió."
+     },
+     "alerta": {
+      "m": "a_tiempo",
+      "t": "Avisos oficiales con recomendaciones y suspensión anticipada del tránsito antes del pico de tormentas."
+     },
+     "transparencia": {
+      "m": "parcial",
+      "t": "Partes oficiales sobre rutas; sin cifra de evacuados."
+     },
+     "salud": {
+      "m": "parcial",
+      "t": "Se reconocen problemas para trasladar pacientes e insumos hospitalarios."
+     },
+     "respuesta": {
+      "m": "a_tiempo",
+      "t": "Corte preventivo de todas las rutas, relevamiento de familias ribereñas y centros de evacuación (22 de octubre)."
+     }
+    },
+    "bien": [
+     "Corte preventivo de rutas antes del pico, una medida poco común y que reduce el riesgo de vida.",
+     "Partes oficiales con recomendaciones claras."
+    ],
+    "mal": [
+     "Obra del puente del arroyo Carranza sin terminar en temporada de lluvias.",
+     "Comunidades aisladas por caminos destruidos."
+    ],
+    "conclusion": "**Respuesta rápida y preventiva ante un evento que no estaba en el radar de la temporada.** La provincia cortó todas las rutas antes del pico, pero su red vial mostró puntos débiles, como el desvío del arroyo Carranza.",
+    "fuentes": [
+     "[Neuquén Informa](https://www.neuqueninforma.gob.ar/noticias/2026/10/22/266053-por-las-tormentas-suspenden-el-transito-en-las-rutas-desde-las-20)",
+     "[Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/22/357757-desde-la-secretaria-de-emergencia-advierten-que-el-riesgo-continuara)",
+     "[Urbana Zapala](https://www.urbanazapala.com.ar/rutas-cortadas-en-neuquen/)"
+    ]
    }
   ],
-  "sin_evaluar": "Jujuy, La Pampa, San Luis, San Juan, La Rioja, Catamarca, Neuquén, Chubut, Santa Cruz y Tierra del Fuego: **no se encontró información suficiente** para evaluarlas con estos criterios."
+  "sin_evaluar": "Jujuy, La Pampa, San Luis, San Juan, La Rioja, Catamarca, Chubut, Santa Cruz y Tierra del Fuego: **no se encontró información suficiente** para evaluarlas con estos criterios."
  },
  "rios_hist_nota": "Puntos tomados de notas periodísticas que citan a Prefectura y al INA: no es una serie oficial completa. La línea punteada es proyección del INA. Cada día la actualización agrega la medición nueva.",
  "evacuados": {
@@ -4972,6 +5111,38 @@
  "rutas": {
   "nota": "**No se encontró un parte oficial consolidado de rutas cortadas por la crecida.** Lista armada con notas de prensa; antes de viajar consultá a Vialidad Nacional, Vialidad provincial o la policía caminera.",
   "lista": [
+   {
+    "via": "Todas las rutas nacionales y provinciales",
+    "lugar": "Neuquén",
+    "estado": "Cortada",
+    "desde": "22 oct, 20 h",
+    "detalle": "Suspensión preventiva de la circulación hasta las 6 del 23 de octubre, sujeta a evaluación, por tormentas intensas y riesgo de crecidas, deslaves y derrumbes. Solo se habilitó el paso de 4x4; no camiones.",
+    "fuente": "[Neuquén Informa](https://www.neuqueninforma.gob.ar/noticias/2026/10/22/266053-por-las-tormentas-suspenden-el-transito-en-las-rutas-desde-las-20) · [Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/22/357745-alerta-por-lluvias-en-neuquen-restringen-la-circulacion-en-todas-las-rutas-nacionales)"
+   },
+   {
+    "via": "Ruta Provincial 5",
+    "lugar": "Arroyo Carranza (Neuquén)",
+    "estado": "Cortada",
+    "desde": "20 oct",
+    "detalle": "La crecida del arroyo afectó el desvío provisorio; se frenaron las obras del puente. Consultas: dpvneuquen.gov.ar o 2942-572138.",
+    "fuente": "[Urbana Zapala](https://www.urbanazapala.com.ar/rutas-cortadas-en-neuquen/) · [Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/22/357757-desde-la-secretaria-de-emergencia-advierten-que-el-riesgo-continuara)"
+   },
+   {
+    "via": "Rutas Provinciales 6 y 8 y accesos a Vaca Muerta",
+    "lugar": "Neuquén",
+    "estado": "Restringida",
+    "desde": "20 oct",
+    "detalle": "Agua y barro acumulados; máquinas viales y camionetas atascadas cerca de Chos Malal.",
+    "fuente": "[Urbana Zapala](https://www.urbanazapala.com.ar/rutas-cortadas-en-neuquen/) · [Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/22/357757-desde-la-secretaria-de-emergencia-advierten-que-el-riesgo-continuara)"
+   },
+   {
+    "via": "Ruta Provincial 46",
+    "lugar": "Entre el empalme con la RP 24 y Rahue (Neuquén)",
+    "estado": "Restringida",
+    "desde": "20 oct",
+    "detalle": "Cadenas obligatorias; se recomienda no viajar de noche.",
+    "fuente": "[Urbana Zapala](https://www.urbanazapala.com.ar/rutas-cortadas-en-neuquen/)"
+   },
    {
     "via": "Ruta Provincial 155",
     "lugar": "La Cruz (Corrientes)",
@@ -5286,6 +5457,18 @@
    ],
    "muertes": 3,
    "evac": "~2.300"
+  },
+  {
+   "v": 6,
+   "fecha": "2026-10-22",
+   "resumen": "Tormentas en Neuquén: corte de todas las rutas, comunidades aisladas y granizo acumulado; Neuquén evaluada.",
+   "prob": [
+    45,
+    40,
+    15
+   ],
+   "muertes": 3,
+   "evac": "~2.300"
   }
  ],
  "tormentas": {
@@ -5303,6 +5486,19 @@
     "texto": "**Granizo del tamaño de un huevo** en Rafaela, Ataliva, Colonia Bigand, Susana y Ramona, y en Freyre y Porteña (Córdoba). Una franja de granizo de 3 a 5 km cruzó el departamento San Justo.",
     "danos": "Maíz y girasol dañados entre Videla y San Justo; en Fortín Olmos murieron ovejas, cabras y aves. Viviendas anegadas y techos dañados en Ataliva (una familia evacuada, clases suspendidas); voladuras de techos en Colonia Mascías; autos abollados en Rafaela; cortes de luz breves.",
     "fuente": "[La Capital](https://www.lacapital.com.ar/la-region/fuerte-temporal-granizo-localidades-santa-fe-piedras-del-tamano-un-huevo-destrozos-y-cortes-luz-n10288145.html) · [Elonce](https://www.elonce.com/sociedad/temporal-en-santa-fe-granizo-destruyo-cultivos-mato-animales-y-provoco-danos-en-viviendas.htm)"
+   },
+   {
+    "f": "2026-10-22",
+    "fecha": "20 a 22 oct",
+    "lugar": "Centro y norte de Neuquén",
+    "prov": "Neuquén",
+    "tipos": [
+     "lluvia",
+     "granizo"
+    ],
+    "texto": "Varios días de tormentas con suelo saturado. Cerca de Piedra del Águila se acumularon **unos 50 cm de granizo** en uno o dos kilómetros de ruta. La provincia suspendió la circulación en **todas las rutas** desde las 20 del 22 de octubre.",
+    "danos": "Ruta Provincial 5 cortada por la crecida del arroyo Carranza; rutas 6 y 8 y accesos a Vaca Muerta afectados; **tres comunidades de pueblos originarios aisladas** (cerca de Piedra del Águila, Loncopué y Chos Malal); pacientes de diálisis y embarazadas sin poder volver a sus localidades; dificultades para llevar insumos a Rincón de los Sauces; clases suspendidas en Zapala.",
+    "fuente": "[Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/22/357757-desde-la-secretaria-de-emergencia-advierten-que-el-riesgo-continuara) · [Neuquén Informa](https://www.neuqueninforma.gob.ar/noticias/2026/10/22/266053-por-las-tormentas-suspenden-el-transito-en-las-rutas-desde-las-20)"
    },
    {
     "f": "2026-10-07",
@@ -5389,6 +5585,7 @@
    "**Seguros:** el 86% de las pólizas agrícolas cubre solo granizo, así que este daño suele estar asegurado; el anegamiento casi nunca. [Bichos de Campo](https://bichosdecampo.com/otro-exito-argentino-los-productores-duplicaron-el-uso-de-seguros-agricolas-desde-2003-pero-las-polizas-multirriesgo-que-los-protegen-de-sequias-o-inundaciones-apenas-representan-el-001/)"
   ],
   "luz": [
+   "En Neuquén se pidió cargar los celulares por posibles cortes de servicios durante las tormentas del 22 de octubre. [Neuquén Informa](https://www.neuqueninforma.gob.ar/noticias/2026/10/22/266053-por-las-tormentas-suspenden-el-transito-en-las-rutas-desde-las-20)",
    "El 31 de julio un temporal dejó hasta **67.000 usuarios sin luz** en el AMBA. [Todo Jujuy](https://www.todojujuy.com/feroz-temporal-buenos-aires-inundaciones-destrozos-y-miles-usuarios-luz-n293962)",
    "El 7 de octubre Rosario tuvo ocho incidencias por cables o columnas caídas.",
    "El 22 de octubre hubo cortes breves en Ataliva, Galisteo, Humberto Primo, Constanza y Virginia (Santa Fe). [La Capital](https://www.lacapital.com.ar/la-region/fuerte-temporal-granizo-localidades-santa-fe-piedras-del-tamano-un-huevo-destrozos-y-cortes-luz-n10288145.html)",
