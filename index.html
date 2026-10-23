@@ -285,7 +285,7 @@ footer{padding-block:40px 60px;color:var(--muted);font-size:.86rem}
   <div class="wrap">
     <div class="brand"><b>Súper Niño · Argentina</b><span class="stamp" id="stamp"><span class="dot"></span>Cargando datos…</span></div>
     <nav class="idx" id="idx" aria-label="Secciones">
-      <a href="#hoy">Hoy</a><a href="#mapa">Provincias</a><a href="#zonas">Zonas y ciudades</a><a href="#rios">Ríos</a><a href="#nino">El Niño</a><a href="#mundo">Mundo</a><a href="#escenarios">Escenarios</a><a href="#impacto">Impacto y fondos</a><a href="#calendario">Calendario</a><a href="#guia">Qué hacer</a><a href="#nacion">Nación</a><a href="#evaluacion">Evaluación</a><a href="#vigilar">Qué vigilar</a><a href="#analisis">Análisis</a><a href="#glosario">Glosario</a><a href="#fuentes">Fuentes</a>
+      <a href="#hoy">Hoy</a><a href="#mapa">Provincias</a><a href="#zonas">Zonas y ciudades</a><a href="#rios">Ríos</a><a href="#tormentas">Tormentas</a><a href="#nino">El Niño</a><a href="#mundo">Mundo</a><a href="#escenarios">Escenarios</a><a href="#impacto">Impacto y fondos</a><a href="#calendario">Calendario</a><a href="#guia">Qué hacer</a><a href="#nacion">Nación</a><a href="#evaluacion">Evaluación</a><a href="#vigilar">Qué vigilar</a><a href="#analisis">Análisis</a><a href="#glosario">Glosario</a><a href="#fuentes">Fuentes</a>
     </nav>
   </div>
 </header>
@@ -381,6 +381,15 @@ function render(D,M,ZG){
     <div class="card chart"><div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center"><h3>Evolución por puerto</h3></div><div class="where" id="rsel">${D.rios.filter(r=>(r.hist||[]).length).map((r,i)=>`<button data-r="${esc(r.puerto)}" aria-pressed="${r.puerto==='Corrientes'}">${esc(r.puerto)}</button>`).join('')}</div><div id="rchart"></div><p class="small muted">${md(D.rios_hist_nota)}</p></div>
     <p class="small muted src">Fuentes: ${md(D.rios_fuentes)}</p>`);
 
+  // TORMENTAS
+  const TO=D.tormentas,TTY={granizo:['Granizo','t-acc'],viento:['Viento','t-alert'],tornado:['Tornado','t-evac'],lluvia:['Lluvia intensa','t-rise']};
+  h+=sect('tormentas','Tormentas','Tormentas, viento y granizo',TO.tesis,
+   `<div class="card"><div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center"><h3>Temporales registrados</h3>
+      <div class="toggle" role="group" aria-label="Tipo de evento"><button data-tt="todos" aria-pressed="true">Todos</button><button data-tt="granizo" aria-pressed="false">Granizo</button><button data-tt="viento" aria-pressed="false">Viento</button><button data-tt="tornado" aria-pressed="false">Tornado</button></div></div>
+      <div class="tl" id="ttl"></div><p class="small muted">${md(TO.nota)}</p></div>
+    <div class="two"><div class="card"><h3>Daños en el campo</h3>${ul(TO.campo)}</div><div class="card"><h3>Luz y servicios</h3>${ul(TO.luz)}</div></div>
+    <p><a href="#guia" class="small">Ver qué hacer ante granizo y viento fuerte</a></p>`);
+
   // NIÑO
   const nI=D.nino.indicadores.map(x=>`<div class="card"><span class="eyebrow">${esc(x.label)}</span><span class="v num">${esc(x.valor)}</span><p class="small">${md(x.nota)}</p><span class="small">${md(x.fuente)}</span></div>`).join('');
   const maxp=Math.max(...D.nino.comparacion.map(c=>c.pico))*1.08;
@@ -438,6 +447,8 @@ function render(D,M,ZG){
     <p class="small muted">${md(G.telefonos_fuente)} ${md(G.telefonos_prov)}</p>
     <div class="two"><div class="card"><h3>Dónde informarte</h3>${ul(G.canales)}</div>
     <div class="card"><h3>Centros de evacuación conocidos</h3>${G.centros.map(c=>`<p><strong>${esc(c.lugar)}:</strong> ${md(c.txt)} ${c.fuente?`<span class="small src">${md(c.fuente)}</span>`:''}</p>`).join('')}<p class="small muted">Los centros cambian según la crecida: confirmá siempre con tu municipio.</p></div></div>
+    <div class="two"><div class="card"><h3>Ante granizo</h3>${ul(G.severas.granizo)}</div><div class="card"><h3>Ante viento fuerte</h3>${ul(G.severas.viento)}</div></div>
+    <p class="small muted">${md(G.severas.nota)}</p>
     <div class="card"><h3>Cómo ayudar</h3>${G.ayuda.map(a=>`<div class="row"><span class="lbl">${esc(a.quien)}</span><p>${md(a.que)} ${a.fuente?`<span class="small src">${md(a.fuente)}</span>`:''}</p></div>`).join('')}</div>`);
 
   // NACIÓN
@@ -631,6 +642,12 @@ function render(D,M,ZG){
     document.querySelectorAll('#evaluacion tr[data-j]').forEach(r=>r.classList.toggle('on',r.dataset.j==i));};
   document.querySelectorAll('#evaluacion tr[data-j]').forEach(r=>{r.onclick=()=>{evs(+r.dataset.j);if(window.innerWidth<=860)$('#evficha').scrollIntoView({block:'start'})};r.onkeydown=e=>{if(e.key==='Enter'){evs(+r.dataset.j)}}});
   evs(0);
+
+  // tormentas
+  const ttl=f=>{const L=TO.eventos.filter(e=>f==='todos'||e.tipos.includes(f));
+    $('#ttl').innerHTML=L.length?L.map(e=>`<div class="ev tormenta"><span class="f">${esc(e.fecha)}</span><div><span class="l">${esc(e.lugar)}</span> ${e.tipos.map(t=>`<span class="tag ${(TTY[t]||['','t-nd'])[1]}">${(TTY[t]||[t])[0]}</span>`).join(' ')}<p>${md(e.texto)}</p><p class="small"><strong>Daños:</strong> ${md(e.danos)} <span class="src">${md(e.fuente)}</span></p></div></div>`).join(''):'<p class="muted">Sin eventos de este tipo registrados.</p>';
+    document.querySelectorAll('#tormentas [data-tt]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.tt===f));};
+  document.querySelectorAll('#tormentas [data-tt]').forEach(b=>b.onclick=()=>ttl(b.dataset.tt));ttl('todos');
 
   // gráfico de ríos
   const rch=name=>{const r=D.rios.find(x=>x.puerto===name);if(!r)return;const H=r.hist||[],PJ=r.proy||[];

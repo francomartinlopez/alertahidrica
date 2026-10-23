@@ -5,7 +5,7 @@
   "actualizado_texto": "22 de octubre de 2026",
   "proxima": "Se actualiza todos los días por la mañana.",
   "autor": "Franco Martín López",
-  "version": 4,
+  "version": 5,
   "cambios": [
    "Tercera muerte: un trabajador rural en Villa Ocampo, Santa Fe.",
    "Nuevas secciones: evolución de ríos, evacuados, alertas, rutas, impacto, salud, fondos, glosario e historial."
@@ -73,6 +73,16 @@
   }
  ],
  "hoy": [
+  {
+   "fecha": "22 oct",
+   "f": "2026-10-22",
+   "lugar": "Rafaela, Ataliva y San Justo",
+   "prov": "Santa Fe",
+   "texto": "**Granizo del tamaño de un huevo** en el centro de Santa Fe y el este de Córdoba: cultivos de maíz y girasol dañados, animales muertos en Fortín Olmos, techos dañados y una familia evacuada en Ataliva.",
+   "url": "https://www.lacapital.com.ar/la-region/fuerte-temporal-granizo-localidades-santa-fe-piedras-del-tamano-un-huevo-destrozos-y-cortes-luz-n10288145.html",
+   "fuente": "La Capital",
+   "tipo": "tormenta"
+  },
   {
    "fecha": "10 a 12 oct",
    "lugar": "Cataratas del Iguazú",
@@ -1313,7 +1323,7 @@
   "Santa Fe": {
    "estado": "vigente",
    "impacto": "alto",
-   "situacion": "El Paraná sigue bajo alerta: 3,85 m en Santa Fe (alerta 5,30 m) y 3,42 m en Rosario (alerta 5,00 m). El INA prevé 4,56 m en Santa Fe el 27 de octubre. El riesgo cercano en Rosario es la lluvia intensa: el 7 de octubre hubo 73,2 mm por hora y 76 anegamientos. Protección Civil cuenta unas cien localidades con riesgo hídrico. **Una muerte:** el 15 de octubre un trabajador rural de 70 años se ahogó arreando hacienda cerca de Villa Ocampo (General Obligado). [Infobae](https://www.infobae.com/sociedad/2026/10/16/un-hombre-de-70-anos-murio-ahogado-en-santa-fe-arriaba-animales-por-la-creciente-de-los-rios-por-el-nino/)",
+   "situacion": "El Paraná sigue bajo alerta: 3,85 m en Santa Fe (alerta 5,30 m) y 3,42 m en Rosario (alerta 5,00 m). El INA prevé 4,56 m en Santa Fe el 27 de octubre. El riesgo cercano en Rosario es la lluvia intensa: el 7 de octubre hubo 73,2 mm por hora y 76 anegamientos. Protección Civil cuenta unas cien localidades con riesgo hídrico. **Una muerte:** el 15 de octubre un trabajador rural de 70 años se ahogó arreando hacienda cerca de Villa Ocampo (General Obligado). [Infobae](https://www.infobae.com/sociedad/2026/10/16/un-hombre-de-70-anos-murio-ahogado-en-santa-fe-arriaba-animales-por-la-creciente-de-los-rios-por-el-nino/) **Granizo del 22 de octubre:** piedras del tamaño de un huevo en Rafaela, Ataliva y el departamento San Justo, con cultivos y animales perdidos. [La Capital](https://www.lacapital.com.ar/la-region/fuerte-temporal-granizo-localidades-santa-fe-piedras-del-tamano-un-huevo-destrozos-y-cortes-luz-n10288145.html)",
    "emergencia": "**Emergencia hídrica vigente.** Ley 14.477 (aprobada en agosto) y decreto del gobernador Pullaro de septiembre: toda la provincia hasta el 30 de abril de 2027, prorrogable 6 meses. Habilita licitación acelerada, contratación directa, obras y uso de predios privados. Crea el **Fondo de Emergencia Hídrica**, con partidas propias y aportes del Tesoro nacional.",
    "medidas": [
     "$132.219 M en más de 400 obras hídricas desde 2023; 259 km de canales intervenidos; cerca del 70% de la red operativa.",
@@ -2240,6 +2250,51 @@
    ]
   },
   {
+   "grupo": "Tormentas, viento y granizo",
+   "items": [
+    {
+     "t": "La Capital, granizo en Santa Fe (22 oct)",
+     "u": "https://www.lacapital.com.ar/la-region/fuerte-temporal-granizo-localidades-santa-fe-piedras-del-tamano-un-huevo-destrozos-y-cortes-luz-n10288145.html"
+    },
+    {
+     "t": "Elonce, granizo destruyó cultivos y mató animales (22 oct)",
+     "u": "https://www.elonce.com/sociedad/temporal-en-santa-fe-granizo-destruyo-cultivos-mato-animales-y-provoco-danos-en-viviendas.htm"
+    },
+    {
+     "t": "RosarioPlus, granizo y evacuados (22 oct)",
+     "u": "https://www.rosarioplus.com/actualidad/sociedad/temporal-en-santa-fe--granizo-gigante--destrozos-y-evacuados_a6ada764e5c9f5798b2eb32ca"
+    },
+    {
+     "t": "El Ancasti, ráfagas en Catamarca (2 oct)",
+     "u": "https://elancasti.com.ar/edicion-impresa/rafagas-viento-provocaron-la-caida-arboles-y-postes-luz-n623040"
+    },
+    {
+     "t": "Medios Rioja, granizo en el centro del país (21 sep)",
+     "u": "https://mediosrioja.com.ar/temporal-en-el-centro-del-pais-granizo-del-tamano-de-pelotas-de-tenis-y-severos-destrozos-en-cordoba-santa-fe-y-entre-rios/"
+    },
+    {
+     "t": "C5N, temporal en Córdoba y Santa Fe (27 ago)",
+     "u": "https://www.c5n.com/sociedad/fuerte-temporal-cordoba-y-santa-fe-granizo-y-rafagas-destruyeron-techos-y-tumbaron-arboles-n247339"
+    },
+    {
+     "t": "El Litoral, tornado en San Genaro (agosto)",
+     "u": "https://www.ellitoral.com/internacionales/tornado-pedroosorio-frentedetormentas-brasil-santafe-sangenaro-bernardodeirigoyen-argentina-vientosrotatorios_0_A70n6z3SwK.html"
+    },
+    {
+     "t": "Todo Jujuy, temporal en el AMBA (31 jul)",
+     "u": "https://www.todojujuy.com/feroz-temporal-buenos-aires-inundaciones-destrozos-y-miles-usuarios-luz-n293962"
+    },
+    {
+     "t": "Defensa Civil de Mendoza, lluvias y granizo",
+     "u": "https://www.mendoza.gov.ar/prensa/recomendaciones-ante-el-alerta-de-lluvias-y-caida-de-granizo-en-mendoza/"
+    },
+    {
+     "t": "Defensa Civil de Neuquén, fuertes vientos",
+     "u": "https://www.rionegro.com.ar/?p=810076"
+    }
+   ]
+  },
+  {
    "grupo": "Evacuados, rutas, salud, fondos y provincias nuevas",
    "items": [
     {
@@ -3033,7 +3088,24 @@
     "fuente": ""
    }
   ],
-  "telefonos_prov": "**Teléfonos de Defensa Civil por provincia: no encontrados.** Las páginas oficiales de Protección Civil de Santa Fe y otras provincias no se pudieron consultar desde esta herramienta. Usá el 103 (Defensa Civil) o el 911."
+  "telefonos_prov": "**Teléfonos de Defensa Civil por provincia: no encontrados.** Las páginas oficiales de Protección Civil de Santa Fe y otras provincias no se pudieron consultar desde esta herramienta. Usá el 103 (Defensa Civil) o el 911.",
+  "severas": {
+   "granizo": [
+    "Guardá el auto bajo techo o cubrilo con una manta gruesa; si estás manejando, detenete en un lugar seguro con balizas y quedate adentro, lejos de árboles y carteles. [Defensa Civil de Mendoza](https://www.mendoza.gov.ar/prensa/recomendaciones-ante-el-alerta-de-lluvias-y-caida-de-granizo-en-mendoza/)",
+    "Revisá y limpiá techos, canaletas y desagües antes de la temporada: el granizo los tapa y el agua entra a las casas, como pasó en Ataliva. [Defensa Civil de Mendoza](https://www.mendoza.gov.ar/prensa/recomendaciones-ante-el-alerta-de-lluvias-y-caida-de-granizo-en-mendoza/)",
+    "Durante la caída, quedate adentro y alejado de ventanas, claraboyas y techos de chapa o policarbonato.",
+    "Si estás afuera, buscá un techo firme; no te refugies bajo árboles, marquesinas ni cables. [Defensa Civil de Mendoza](https://www.mendoza.gov.ar/prensa/recomendaciones-ante-el-alerta-de-lluvias-y-caida-de-granizo-en-mendoza/)",
+    "En el campo, resguardá la hacienda menor y las aves bajo techo cuando hay alerta por tormentas fuertes."
+   ],
+   "viento": [
+    "Asegurá o guardá todo lo que pueda volar: macetas, chapas sueltas, toldos, muebles de patio. [La Capital, niveles del SMN](https://www.lacapital.com.ar/informacion-general/alerta-amarilla-naranja-y-roja-que-significa-cada-color-las-advertencias-mal-tiempo-n10213486.html)",
+    "Manejá despacio: el viento puede desestabilizar el vehículo, sobre todo camiones y autos con carga. [Defensa Civil de Neuquén](https://www.rionegro.com.ar/?p=810076)",
+    "No enciendas fuego al aire libre. [Defensa Civil de Neuquén](https://www.rionegro.com.ar/?p=810076)",
+    "Mantené los árboles podados y lejos del tendido eléctrico; desenchufá equipos sensibles ante cortes. [Defensa Civil de Neuquén](https://www.rionegro.com.ar/?p=810076)",
+    "No toques cables caídos ni postes: avisá a la distribuidora eléctrica o al 911."
+   ],
+   "nota": "Recomendaciones de Defensa Civil de Mendoza (2021) y de Neuquén (2017), todavía vigentes en lo general; las que no tienen enlace son criterio general de seguridad."
+  }
  },
  "zonas": {
   "parana_nea": {
@@ -3670,12 +3742,13 @@
    "zona": "nucleo",
    "tam": "mediana",
    "tipos": [
-    "lluvia"
+    "lluvia",
+    "granizo"
    ],
-   "nivel": "bajo",
-   "datos": "La napa a 5 m da margen (en 2016 estaba a 0,6 m en el centro santafesino).",
+   "nivel": "medio",
+   "datos": "El 22 de octubre cayó granizo del tamaño de un huevo en el sur de la ciudad, con autos abollados y techos dañados; en la vecina Ataliva hubo casas anegadas. La napa a 5 m da margen ante lluvias largas.",
    "defensa": "—",
-   "fuentes": "[UNL](https://www.unl.edu.ar/noticias/news/view/cómo_planificar_cultivos_y_acondicionar_tambos_frente_a_el_niño_1)"
+   "fuentes": "[La Capital](https://www.lacapital.com.ar/la-region/fuerte-temporal-granizo-localidades-santa-fe-piedras-del-tamano-un-huevo-destrozos-y-cortes-luz-n10288145.html)"
   },
   {
    "n": "Rufino y laguna La Picasa",
@@ -3929,7 +4002,8 @@
   "sudestada": "Sudestada",
   "crecida_repentina": "Crecida repentina",
   "aluvion": "Aluvión",
-  "anegamiento": "Anegamiento de llanura"
+  "anegamiento": "Anegamiento de llanura",
+  "granizo": "Granizo"
  },
  "evaluacion": {
   "tesis": "**La preparación fue temprana en coordinación y planes, pero floja en normas, dinero y datos públicos.** Nación y la mayoría de las provincias se organizaron con meses de anticipación; casi nadie publicó cuánto va a gastar, y nadie publica un balance oficial de evacuados y daños.",
@@ -4948,6 +5022,7 @@
    "**Agua en superficie en Corrientes:** 28% a mediados de octubre, contra 53% en 1998 y un rango normal de 23 a 28%. Todavía lejos del escenario de 1997-98.",
    "**Islas frente a San Nicolás:** unos 5.000 animales en evacuación, con dos o tres viajes por día. [Conclusión](https://www.conclusion.com.ar/?p=1463520)",
    "**Arroz en Entre Ríos:** 44.000 ha, 20% menos, por decisión previa a la siembra.",
+   "**Granizo del 22 de octubre:** dañó maíz y girasol en una franja de 3 a 5 km del departamento San Justo y mató animales en Fortín Olmos (Santa Fe). Pérdidas en evaluación. [Elonce](https://www.elonce.com/sociedad/temporal-en-santa-fe-granizo-destruyo-cultivos-mato-animales-y-provoco-danos-en-viviendas.htm)",
    "**Trigo:** mejoró unos 2,8 Mt por la semana seca en la pampa (23,8 Mt según la BCR).",
    "**Pérdidas económicas, hectáreas anegadas y animales muertos: no encontrados.** Ninguna entidad publicó todavía una estimación."
   ],
@@ -5141,6 +5216,14 @@
   {
    "t": "Escenario",
    "d": "Futuro posible con su probabilidad estimada. En esta web, los escenarios y sus rangos son estimación propia."
+  },
+  {
+   "t": "Granizo en seco",
+   "d": "Granizo que cae sin lluvia o antes de ella. Suele venir de tormentas muy intensas."
+  },
+  {
+   "t": "Ráfaga",
+   "d": "Aumento brusco y corto de la velocidad del viento. El SMN la informa en km/h dentro de las alertas."
   }
  ],
  "historial": [
@@ -5191,6 +5274,126 @@
    ],
    "muertes": 3,
    "evac": "~2.300"
+  },
+  {
+   "v": 5,
+   "fecha": "2026-10-22",
+   "resumen": "Nueva sección de tormentas, viento y granizo, con el granizo del 22 de octubre en Santa Fe y Córdoba y recomendaciones para granizo y viento.",
+   "prob": [
+    45,
+    40,
+    15
+   ],
+   "muertes": 3,
+   "evac": "~2.300"
   }
- ]
+ ],
+ "tormentas": {
+  "tesis": "**El Niño no solo trae agua: en primavera y verano también aumenta el riesgo de tormentas severas, con granizo grande y ráfagas.** Son eventos cortos y locales que golpean cultivos, techos, autos y la red eléctrica. En las ciudades, el mayor riesgo para la vida sigue siendo el anegamiento súbito que dejan esas tormentas.",
+  "eventos": [
+   {
+    "f": "2026-10-22",
+    "fecha": "22 oct",
+    "lugar": "Centro y norte de Santa Fe; este de Córdoba",
+    "prov": "Santa Fe",
+    "tipos": [
+     "granizo",
+     "viento"
+    ],
+    "texto": "**Granizo del tamaño de un huevo** en Rafaela, Ataliva, Colonia Bigand, Susana y Ramona, y en Freyre y Porteña (Córdoba). Una franja de granizo de 3 a 5 km cruzó el departamento San Justo.",
+    "danos": "Maíz y girasol dañados entre Videla y San Justo; en Fortín Olmos murieron ovejas, cabras y aves. Viviendas anegadas y techos dañados en Ataliva (una familia evacuada, clases suspendidas); voladuras de techos en Colonia Mascías; autos abollados en Rafaela; cortes de luz breves.",
+    "fuente": "[La Capital](https://www.lacapital.com.ar/la-region/fuerte-temporal-granizo-localidades-santa-fe-piedras-del-tamano-un-huevo-destrozos-y-cortes-luz-n10288145.html) · [Elonce](https://www.elonce.com/sociedad/temporal-en-santa-fe-granizo-destruyo-cultivos-mato-animales-y-provoco-danos-en-viviendas.htm)"
+   },
+   {
+    "f": "2026-10-07",
+    "fecha": "7 oct",
+    "lugar": "Córdoba, AMBA y Rosario",
+    "prov": "Córdoba",
+    "tipos": [
+     "granizo",
+     "lluvia",
+     "viento"
+    ],
+    "texto": "Granizo en Altas Cumbres, Calamuchita y Río Cuarto; anegamientos en el AMBA y 73,2 mm por hora en Rosario.",
+    "danos": "En Rosario, 93 incidencias: 76 por anegamientos y ocho por cables o columnas.",
+    "fuente": "[Diario Panorama](https://diariopanorama.com/noticia/568993/fuerte-temporal-golpeo-varias-provincias-granizo-calles-inundadas-familias-evacuadas)"
+   },
+   {
+    "f": "2026-10-02",
+    "fecha": "2 oct",
+    "lugar": "Gran Catamarca",
+    "prov": "Catamarca",
+    "tipos": [
+     "viento"
+    ],
+    "texto": "Ráfagas en la Capital, Fray Mamerto Esquiú y Valle Viejo.",
+    "danos": "Un árbol cayó en el predio del Hospital de Niños; dos postes de luz caídos en la Ruta 41 y otros en riesgo; un transformador humeando y cortes de luz.",
+    "fuente": "[El Ancasti](https://elancasti.com.ar/edicion-impresa/rafagas-viento-provocaron-la-caida-arboles-y-postes-luz-n623040)"
+   },
+   {
+    "f": "2026-09-21",
+    "fecha": "21 sep",
+    "lugar": "Córdoba, Santa Fe y Entre Ríos",
+    "prov": "Córdoba",
+    "tipos": [
+     "granizo",
+     "viento"
+    ],
+    "texto": "Granizo del tamaño de pelotas de tenis y hasta de una naranja en el sur de Córdoba y Calamuchita; ráfagas fuertes y granizo en Paraná.",
+    "danos": "Techos, ventanas, parabrisas y vehículos dañados; calles anegadas.",
+    "fuente": "[Medios Rioja](https://mediosrioja.com.ar/temporal-en-el-centro-del-pais-granizo-del-tamano-de-pelotas-de-tenis-y-severos-destrozos-en-cordoba-santa-fe-y-entre-rios/)"
+   },
+   {
+    "f": "2026-08-27",
+    "fecha": "27 ago",
+    "lugar": "Sur de Santa Fe y este de Córdoba",
+    "prov": "Santa Fe",
+    "tipos": [
+     "granizo",
+     "viento"
+    ],
+    "texto": "Tormenta de Santa Rosa con \"piedra grande\" y viento en Las Rosas, Díaz, Clason, Armstrong y Las Parejas; granizo en seco en Bell Ville, Río Cuarto y Marcos Juárez.",
+    "danos": "Al menos 15 viviendas con voladura de techos, árboles caídos, cortes de luz severos en Las Rosas; sin heridos graves.",
+    "fuente": "[C5N](https://www.c5n.com/sociedad/fuerte-temporal-cordoba-y-santa-fe-granizo-y-rafagas-destruyeron-techos-y-tumbaron-arboles-n247339)"
+   },
+   {
+    "f": "2026-07-31",
+    "fecha": "31 jul",
+    "lugar": "AMBA, Campana y Salto",
+    "prov": "Buenos Aires",
+    "tipos": [
+     "viento",
+     "lluvia"
+    ],
+    "texto": "Temporal nocturno con ráfagas, lluvia intensa y anegamientos.",
+    "danos": "**Hasta 67.000 usuarios sin luz** (55.000 de Edesur y 12.000 de Edenor); árboles y postes caídos; ocho techos volados en Salto; demoras en Aeroparque y Ezeiza.",
+    "fuente": "[Todo Jujuy](https://www.todojujuy.com/feroz-temporal-buenos-aires-inundaciones-destrozos-y-miles-usuarios-luz-n293962)"
+   },
+   {
+    "f": "2026-07-30",
+    "fecha": "fin de julio",
+    "lugar": "San Genaro (Santa Fe) y Bernardo de Irigoyen",
+    "prov": "Santa Fe",
+    "tipos": [
+     "tornado"
+    ],
+    "texto": "Tornado registrado cerca de San Genaro, a unos 100 km de Rosario; ráfagas rotatorias en zona rural.",
+    "danos": "Daños materiales menores en parcelas agrícolas y ningún herido.",
+    "fuente": "[El Litoral](https://www.ellitoral.com/internacionales/tornado-pedroosorio-frentedetormentas-brasil-santafe-sangenaro-bernardodeirigoyen-argentina-vientosrotatorios_0_A70n6z3SwK.html)"
+   }
+  ],
+  "campo": [
+   "**Granizo sobre cultivos:** el 22 de octubre una franja de 3 a 5 km dañó maíz y girasol en el departamento San Justo (Santa Fe); los productores todavía evalúan las pérdidas. [Elonce](https://www.elonce.com/sociedad/temporal-en-santa-fe-granizo-destruyo-cultivos-mato-animales-y-provoco-danos-en-viviendas.htm)",
+   "**Animales:** en Fortín Olmos (Vera) el granizo mató ovejas, cabras y aves. [Elonce](https://www.elonce.com/sociedad/temporal-en-santa-fe-granizo-destruyo-cultivos-mato-animales-y-provoco-danos-en-viviendas.htm)",
+   "**Trigo:** está en llenado y cerca de cosecha, la etapa más vulnerable al granizo. **No se encontraron estimaciones de hectáreas dañadas** en lo que va de la temporada.",
+   "**Seguros:** el 86% de las pólizas agrícolas cubre solo granizo, así que este daño suele estar asegurado; el anegamiento casi nunca. [Bichos de Campo](https://bichosdecampo.com/otro-exito-argentino-los-productores-duplicaron-el-uso-de-seguros-agricolas-desde-2003-pero-las-polizas-multirriesgo-que-los-protegen-de-sequias-o-inundaciones-apenas-representan-el-001/)"
+  ],
+  "luz": [
+   "El 31 de julio un temporal dejó hasta **67.000 usuarios sin luz** en el AMBA. [Todo Jujuy](https://www.todojujuy.com/feroz-temporal-buenos-aires-inundaciones-destrozos-y-miles-usuarios-luz-n293962)",
+   "El 7 de octubre Rosario tuvo ocho incidencias por cables o columnas caídas.",
+   "El 22 de octubre hubo cortes breves en Ataliva, Galisteo, Humberto Primo, Constanza y Virginia (Santa Fe). [La Capital](https://www.lacapital.com.ar/la-region/fuerte-temporal-granizo-localidades-santa-fe-piedras-del-tamano-un-huevo-destrozos-y-cortes-luz-n10288145.html)",
+   "**No se encontró un registro consolidado** de usuarios sin luz por temporales en el país."
+  ],
+  "nota": "Registro armado con notas de prensa; no existe un conteo oficial de eventos de granizo, viento o tornados. Para el pronóstico, seguí las alertas del SMN, que incluyen granizo y ráfagas dentro de las alertas por tormentas."
+ }
 }
