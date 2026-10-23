@@ -70,6 +70,24 @@
    "detalle": "No se encontró decreto, resolución ni ley",
    "tono": "alerta",
    "fuente": ""
+  },
+  {
+   "id": "impacto",
+   "label": "Impacto económico neto",
+   "valor": "Sin balance",
+   "unidad": "oficial",
+   "detalle": "Proyección propia de la temporada: **saldo positivo** en el escenario más probable; daño de **USD 2.500 a 6.000 M** si se repite 1997-98. [Ver escenarios](#escenarios)",
+   "tono": "neutro",
+   "fuente": ""
+  },
+  {
+   "id": "costo",
+   "label": "Costo estatal",
+   "valor": "$2,46",
+   "unidad": "billones anunciados",
+   "detalle": "**Ejecutado: sin datos.** Suma de los montos en pesos anunciados por Nación y provincias: el 94% es el plan de Buenos Aires; de Nación solo hay $12.000 M para el sistema de alertas AlertAR. [Ver fondos](#impacto)",
+   "tono": "neutro",
+   "fuente": ""
   }
  ],
  "hoy": [
