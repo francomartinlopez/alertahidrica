@@ -5,13 +5,12 @@
   "actualizado_texto": "23 de octubre de 2026",
   "proxima": "Se actualiza todos los días por la mañana.",
   "autor": "Franco Martín López",
-  "version": 8,
+  "version": 9,
   "cambios": [
-   "Yacyretá recibe 32.500 m³/s, sobre su nivel de evacuación: se cumple el disparador de la repetición de 1997-98 y cambian las probabilidades (40/45/15).",
-   "Reconquista superó la alerta (5,19 m) y el INA prevé que pase la evacuación el 27 de octubre; Goya y Reconquista declararon emergencia municipal.",
-   "Nuevas alertas del SMN del 23 de octubre, granizo en Misiones y Chaco, cortes en Chaco (RP 63) y Rosario con proyección del INA.",
-   "Dengue: 6 casos confirmados en la temporada, todos importados (BEN 830).",
-   "Neuquén y Río Negro: crece el río Neuquén (hasta 750 m³/s en 48 horas) y se desbordan arroyos."
+   "Análisis del Plan ENOS 2026/2027 de Nación (documento completo): sin presupuesto, metas, obras ni medidas para el campo.",
+   "Temporal del 22 y 23 en Misiones: 66 viviendas dañadas, dos familias evacuadas y rutas 7 y 204 y puentes cortados.",
+   "Chaco: hasta 68 mm en Barranqueras, Paraná en 7,26 m y casi 250 familias fuera de sus casas; Neuquén: Rincón de los Sauces aislada y evacuaciones preventivas.",
+   "Granizo en Santa Fe: cerca de 100 animales muertos en un campo de Fortín Olmos."
   ]
  },
  "alerta": {
@@ -263,6 +262,36 @@
    "tipo": "tormenta",
    "url": "https://www.lagaceta.com.ar/nota/1159220/sociedad/tormentas-granizo-rafagas-hasta-90-km-h-zonas-estan-alerta-este-viernes.html",
    "fuente": "La Gaceta"
+  },
+  {
+   "fecha": "22 y 23 oct",
+   "f": "2026-10-23",
+   "lugar": "Aristóbulo del Valle, Gobernador Roca y Dos de Mayo",
+   "prov": "Misiones",
+   "texto": "El temporal dejó **66 viviendas dañadas** (35 en Aristóbulo del Valle, unas 30 en Gobernador Roca por un arroyo desbordado), dos familias evacuadas, las rutas provinciales 7 y 204 cortadas, puentes cerrados en 25 de Mayo y el acceso a Moconá cerrado. Sin muertos ni heridos graves.",
+   "tipo": "tormenta",
+   "url": "https://nortemisionero.com.ar/actualidad/ascienden-a-66-las-viviendas-afectadas-por-el-temporal-en-misiones-con-familias-evacuadas-y-nuevos-cortes-de-rutas-y-puentes/",
+   "fuente": "Norte Misionero"
+  },
+  {
+   "fecha": "23 oct",
+   "f": "2026-10-23",
+   "lugar": "Gran Resistencia",
+   "prov": "Chaco",
+   "texto": "Lluvias de hasta **68 mm en Barranqueras** y ráfagas de 70 km/h complicaron a los evacuados: casi 250 familias fuera de sus casas por la crecida. El Paraná marcó 7,26 m en Barranqueras.",
+   "tipo": "lluvia",
+   "url": "https://www.diariolavozdelchaco.com/2026/10/23/la-tormenta-complico-la-situacion-de-los-evacuados-y-los-anegamientos/",
+   "fuente": "La Voz del Chaco"
+  },
+  {
+   "fecha": "23 oct",
+   "f": "2026-10-23",
+   "lugar": "Rincón de los Sauces",
+   "prov": "Neuquén",
+   "texto": "La provincia la definió como \"el punto rojo\": sectores aislados por el desborde del arroyo Carranza, **evacuaciones preventivas** en evaluación y traslado de pacientes de diálisis a Neuquén capital. Afectaciones también en Añelo (25 familias asistidas), Chos Malal, Las Lajas, Zapala y Piedra del Águila.",
+   "tipo": "evacuacion",
+   "url": "https://diarioneuquino.com.ar/temporal-en-neuquen-rincon-de-los-sauces-es-la-zona-mas-critica-y-preparan-evacuaciones-preventivas/",
+   "fuente": "Diario Neuquino"
   }
  ],
  "eventos_previos": [
@@ -476,12 +505,12 @@
   {
    "puerto": "Barranqueras",
    "rio": "Paraná",
-   "altura": 7.29,
-   "fecha": "22 oct",
+   "altura": 7.26,
+   "fecha": "23 oct",
    "alerta": 6.0,
    "evac": 6.5,
    "estado": "evacuacion",
-   "lectura": "Sobre evacuación; el INA prevé que siga en aguas altas",
+   "lectura": "Sobre evacuación, casi sin cambios; el INA prevé que siga en aguas altas",
    "lon": -58.93,
    "lat": -27.49,
    "hist": [
@@ -496,6 +525,10 @@
     [
      "2026-10-22",
      7.29
+    ],
+    [
+     "2026-10-23",
+     7.26
     ]
    ],
    "proy": []
@@ -1360,7 +1393,7 @@
    {
     "titulo": "Res. 559/2026: Plan de Coordinación Federal ENOS 2026/2027",
     "estado": "vigente",
-    "texto": "Firmada el 19 de junio y publicada el 7 de julio. Escala recursos nacionales cuando la emergencia supera a las provincias. **No se encontró un monto asignado.** [Perfil](https://www.perfil.com/noticias/amp/clima/el-gobierno-nacional-lanzo-un-plan-de-coordinacion-nacional-ante-el-fenomeno-de-el-nino-y-crecidas-previstas-desde-diciembre-a50.phtml)"
+    "texto": "Firmada el 19 de junio y publicada el 7 de julio. Es un plan de coordinación operativa de la Agencia Federal de Emergencias para la Cuenca del Plata (Buenos Aires, CABA, Chaco, Corrientes, Entre Ríos, Formosa, Misiones y Santa Fe), vigente de 2026 a 2027. Son 19 páginas. [Documento completo (PDF)](https://www.magyp.gob.ar/evento-climatico/enos/cuenca-del-plata.pdf) **Qué tiene:** un diagnóstico general (Niño con más de 70% de probabilidad y lluvias sobre lo normal), el reparto de roles entre organismos, un comando unificado con fuerzas federales, apoyo logístico y sanitario y comunicaciones de respaldo. Es, en esencia, un protocolo de quién hace qué cuando una provincia queda desbordada. **Qué no tiene:** **plata** (ni presupuesto, ni montos, ni fondos para provincias o municipios); medidas para el **campo**, aunque está publicado en el sitio del Ministerio de Agricultura y el agro es el sector con más daño potencial en todos los escenarios; **obras** nuevas o un calendario para las demoradas, como el tramo IV del Salado; **metas y control** (plazos, indicadores, informes de avance); ni **riesgo concreto**: no nombra los 18 municipios cuyo riesgo modeló la AFE, ni trae mapas ni cotas de evacuación por ciudad. **Frente a la magnitud del evento:** se prevé el Niño más intenso del registro y el escenario más probable es una repetición de 1997-98, con un daño de USD 2.500 a 6.000 M según nuestra proyección. El plan toma como referencia 2015, con unos 10 millones de afectados, pero no traduce esa escala en recursos. **Frente a otros:** Buenos Aires anunció un plan de $2,3 billones; Santa Fe aprobó por ley una emergencia hídrica con un fondo propio y lleva $132.219 M en obras desde 2023; en 2016, con un Niño más débil, Nación declaró la emergencia por el Decreto 266/2016. **Qué agrega:** casi nada que no se hubiera anunciado entre junio y agosto (firma del plan, cumbre en Resistencia, Tablero ENOS). Es un documento de coordinación, no un plan de preparación: ordena la respuesta, pero no suma recursos, obras ni compromisos verificables."
    },
    {
     "titulo": "Cumbre en Resistencia con Karina Milei y Diego Santilli (3 de agosto)",
@@ -1468,7 +1501,7 @@
   "Chaco": {
    "estado": "vencida",
    "impacto": "critico",
-   "situacion": "**Alerta roja desde el 17 de octubre.** Barranqueras en 7,29 m, sobre su nivel de evacuación de 6,50 m. 1.193 evacuados y autoevacuados al 22 de octubre; en Barranqueras, 74 familias (251 personas). La Ruta 63 quedó bajo agua hasta Isla del Cerrito. [La Voz del Chaco](https://www.diariolavozdelchaco.com/2026/10/22/emergencia-hidrica-en-chaco-mas-de-130-familias-evacuadas-entre-colonia-benitez-y-barranqueras/)",
+   "situacion": "**Alerta roja desde el 17 de octubre.** Barranqueras en 7,29 m, sobre su nivel de evacuación de 6,50 m. 1.193 evacuados y autoevacuados al 22 de octubre; en Barranqueras, 74 familias (251 personas). La Ruta 63 quedó bajo agua hasta Isla del Cerrito. [La Voz del Chaco](https://www.diariolavozdelchaco.com/2026/10/22/emergencia-hidrica-en-chaco-mas-de-130-familias-evacuadas-entre-colonia-benitez-y-barranqueras/) El 23 llovieron hasta 68 mm sobre la zona inundada; casi 250 familias fuera de sus casas. [La Voz del Chaco](https://www.diariolavozdelchaco.com/2026/10/23/la-tormenta-complico-la-situacion-de-los-evacuados-y-los-anegamientos/)",
    "emergencia": "**Sin emergencia vigente encontrada.** La emergencia hidrometeorológica por las lluvias de diciembre de 2025 (toda la provincia, fondo de hasta $1.500 M a cargo de la APA) **venció el 31 de agosto de 2026**.",
    "medidas": [
     "Alerta roja provincial.",
@@ -1551,7 +1584,7 @@
   "Misiones": {
    "estado": "plan",
    "impacto": "alto",
-   "situacion": "Récord de lluvia en el norte: unos 300 mm en dos días y medio en Iguazú; el río llegó a 32,20 m en Puerto Iguazú y el 22 de octubre seguía en 28,20 m, apenas sobre evacuación. 19 evacuados y siete pasos fronterizos cerrados el 16 de octubre. **Granizo el 22 de octubre** en Aristóbulo del Valle, Campo Viera y Dos de Mayo. [Primera Edición](https://www.primeraedicion.com.ar/nota/101153742/fuerte-temporal-en-misiones-intensas-granizadas-en-varias-localidades-y-lluvias-torrenciales/)",
+   "situacion": "Récord de lluvia en el norte: unos 300 mm en dos días y medio en Iguazú; el río llegó a 32,20 m en Puerto Iguazú y el 22 de octubre seguía en 28,20 m, apenas sobre evacuación. 19 evacuados y siete pasos fronterizos cerrados el 16 de octubre. **Granizo el 22 de octubre** en Aristóbulo del Valle, Campo Viera y Dos de Mayo. [Primera Edición](https://www.primeraedicion.com.ar/nota/101153742/fuerte-temporal-en-misiones-intensas-granizadas-en-varias-localidades-y-lluvias-torrenciales/) **Temporal del 23 de octubre:** 66 viviendas dañadas, dos familias evacuadas y las rutas 7 y 204 cortadas. [Norte Misionero](https://nortemisionero.com.ar/actualidad/ascienden-a-66-las-viviendas-afectadas-por-el-temporal-en-misiones-con-familias-evacuadas-y-nuevos-cortes-de-rutas-y-puentes/)",
    "emergencia": "**Sin emergencia declarada.**",
    "medidas": [
     "Plan de contingencia con unos 10.000 policías.",
@@ -1775,7 +1808,7 @@
   "Neuquén": {
    "estado": "plan",
    "impacto": "medio",
-   "situacion": "**Tormentas desde el 20 de octubre con suelo saturado.** El 22 la provincia suspendió la circulación en todas las rutas nacionales y provinciales desde las 20. Ruta 5 cortada por la crecida del arroyo Carranza; rutas 6 y 8 y accesos a Vaca Muerta afectados; unos 50 cm de granizo cerca de Piedra del Águila; tres comunidades de pueblos originarios aisladas. Se esperan mayores caudales en el río Neuquén, sin riesgo de rotura de presas según las mediciones técnicas. [Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/22/357757-desde-la-secretaria-de-emergencia-advierten-que-el-riesgo-continuara) El 23 la habilitación de las rutas quedó sujeta a nuevas evaluaciones, con alerta naranja vigente. [Diario Neuquino](https://diarioneuquino.com.ar/rutas-de-neuquen-la-restriccion-por-el-temporal-vence-a-las-6-pero-la-circulacion-depende-de-nuevas-evaluaciones/)",
+   "situacion": "**Tormentas desde el 20 de octubre con suelo saturado.** El 22 la provincia suspendió la circulación en todas las rutas nacionales y provinciales desde las 20. Ruta 5 cortada por la crecida del arroyo Carranza; rutas 6 y 8 y accesos a Vaca Muerta afectados; unos 50 cm de granizo cerca de Piedra del Águila; tres comunidades de pueblos originarios aisladas. Se esperan mayores caudales en el río Neuquén, sin riesgo de rotura de presas según las mediciones técnicas. [Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/22/357757-desde-la-secretaria-de-emergencia-advierten-que-el-riesgo-continuara) El 23 la habilitación de las rutas quedó sujeta a nuevas evaluaciones, con alerta naranja vigente. [Diario Neuquino](https://diarioneuquino.com.ar/rutas-de-neuquen-la-restriccion-por-el-temporal-vence-a-las-6-pero-la-circulacion-depende-de-nuevas-evaluaciones/) El 23 la provincia definió a **Rincón de los Sauces** como \"el punto rojo\": sectores aislados, evacuaciones preventivas en evaluación y traslado de pacientes de diálisis. [Diario Neuquino](https://diarioneuquino.com.ar/temporal-en-neuquen-rincon-de-los-sauces-es-la-zona-mas-critica-y-preparan-evacuaciones-preventivas/)",
    "emergencia": "**Sin emergencia declarada.**",
    "medidas": [
     "Suspensión preventiva de la circulación en todas las rutas desde las 20 del 22 de octubre hasta las 6 del 23, sujeta a evaluación.",
@@ -2479,6 +2512,14 @@
     {
      "t": "Diario Neuquino: rutas del 23 de octubre",
      "u": "https://diarioneuquino.com.ar/rutas-de-neuquen-la-restriccion-por-el-temporal-vence-a-las-6-pero-la-circulacion-depende-de-nuevas-evaluaciones/"
+    },
+    {
+     "t": "Diario Neuquino: Rincón de los Sauces, zona más crítica (23 oct)",
+     "u": "https://diarioneuquino.com.ar/temporal-en-neuquen-rincon-de-los-sauces-es-la-zona-mas-critica-y-preparan-evacuaciones-preventivas/"
+    },
+    {
+     "t": "Mejor Informado: evacuaciones y rutas cortadas en Neuquén (23 oct)",
+     "u": "https://www.mejorinformado.com/neuquen/evacuaciones-rutas-cortadas-localidades-aisladas-cuales-zonas-afectadas-temporal-neuquen_1792753288"
     }
    ]
   },
@@ -2540,6 +2581,26 @@
     {
      "t": "Diario Norte: granizo en girasol en Chaco (22 oct)",
      "u": "https://www.diarionorte.com/335355-el-granizo-afecto-varios-lotes-de-girasol-aunque-sin-registrarse-grandes-perdidas"
+    },
+    {
+     "t": "Norte Misionero: 66 viviendas afectadas en Misiones (23 oct)",
+     "u": "https://nortemisionero.com.ar/actualidad/ascienden-a-66-las-viviendas-afectadas-por-el-temporal-en-misiones-con-familias-evacuadas-y-nuevos-cortes-de-rutas-y-puentes/"
+    },
+    {
+     "t": "Noticias de la Calle: granizada en Dos de Mayo (23 oct)",
+     "u": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/23/202788-una-historica-granizada-cubrio-de-blanco-dos-de-mayo-y-provoco-danos-en-varias-viviendas"
+    },
+    {
+     "t": "La Voz del Chaco: la tormenta complicó a los evacuados (23 oct)",
+     "u": "https://www.diariolavozdelchaco.com/2026/10/23/la-tormenta-complico-la-situacion-de-los-evacuados-y-los-anegamientos/"
+    },
+    {
+     "t": "LM Neuquén: cerca de 100 animales muertos por granizo en Santa Fe (23 oct)",
+     "u": "https://www.lmneuquen.com/pais/una-tormenta-grandes-granizos-arraso-15-minutos-y-murieron-cerca-cien-animales-n1258450"
+    },
+    {
+     "t": "El Cronista: tormentas del sábado 24 en el NEA",
+     "u": "https://www.cronista.com/informacion-gral/siguen-las-tormentas-este-sabado-24-de-octubre-en-misiones-corrientes-y-chaco-cuales-son-las-zonas-afectadas/"
     }
    ]
   },
@@ -2772,6 +2833,10 @@
     {
      "t": "Infocielo: emergencia en Reconquista",
      "u": "https://www.infocielo.com/santa-fe/sociedad-santa-fe/reconquista-declaro-la-emergencia-por-la-crecida-del-rio-parana-y-el-fenomeno-de-el-nino"
+    },
+    {
+     "t": "Plan de Coordinación Federal ENOS 2026/2027 – Cuenca del Plata (PDF)",
+     "u": "https://www.magyp.gob.ar/evento-climatico/enos/cuenca-del-plata.pdf"
     }
    ]
   },
@@ -4475,7 +4540,8 @@
      "Sin emergencia nacional ni agropecuaria, que habilitan crédito externo y alivio a productores.",
      "Sin montos públicos ni fondos a provincias.",
      "Obra del Salado demorada.",
-     "Sin balance oficial de la emergencia."
+     "Sin balance oficial de la emergencia.",
+     "El plan publicado (19 páginas) no tiene presupuesto, metas, obras ni medidas para el campo. [Plan ENOS (PDF)](https://www.magyp.gob.ar/evento-climatico/enos/cuenca-del-plata.pdf)"
     ],
     "conclusion": "**Se preparó temprano en lo organizativo, no en lo financiero ni en lo normativo.** La coordinación arrancó en marzo y abril, a tiempo. Pero con el Paraná sobre evacuación y tres muertos no hay emergencia nacional ni montos publicados, y la obra estructural clave llega tarde. El costo de no declarar es que los productores afectados no acceden a los beneficios automáticos de la Ley 26.509.",
     "fuentes": [
@@ -4483,7 +4549,8 @@
      "[El Argentino Diario](https://elargentinodiario.com.ar/zona-destacada/16/10/2026/el-nino-el-gobierno-modelo-riesgos-en-18-municipios-pero-no-detallo-presupuesto-ni-plazos/)",
      "[Río Negro](https://www.rionegro.com.ar/politica/por-el-fenomeno-de-el-nino-karina-milei-y-diego-santilli-encabezaron-la-jornada-para-fortalecer-el-trabajo-con-las-provincias-4670133/?amp=1)",
      "[La Nación](https://www.lanacion.com.ar/economia/campo/inundaciones-el-gobierno-acelera-y-espera-concluir-en-2027-la-reactivacion-de-una-obra-clave-para-el-nid19032026/)",
-     "[Análisis Digital](https://www.analisisdigital.com.ar/nacionales/2026/07/22/gobernadores-apuran-medidas-por-el-super-nino-y-preparan-cumbre-con-karina-milei-y-diego-santilli)"
+     "[Análisis Digital](https://www.analisisdigital.com.ar/nacionales/2026/07/22/gobernadores-apuran-medidas-por-el-super-nino-y-preparan-cumbre-con-karina-milei-y-diego-santilli)",
+     "[Plan ENOS 2026/2027 (PDF)](https://www.magyp.gob.ar/evento-climatico/enos/cuenca-del-plata.pdf)"
     ]
    },
    {
@@ -5247,8 +5314,8 @@
     "prov": "Misiones",
     "fecha": "16 oct",
     "total": 19,
-    "detalle": "19 evacuados por la crecida del Iguazú y el Paraná.",
-    "fuente": "[iProfesional](https://www.iprofesional.com/actualidad/466769-crecida-rios-misiones-19-evacuados-cerro-pasos-fronterizos)"
+    "detalle": "19 evacuados por la crecida del Iguazú y el Paraná. El temporal del 22 y 23 de octubre sumó dos familias evacuadas (cuatro personas, en casas de familiares).",
+    "fuente": "[iProfesional](https://www.iprofesional.com/actualidad/466769-crecida-rios-misiones-19-evacuados-cerro-pasos-fronterizos) · [Norte Misionero](https://nortemisionero.com.ar/actualidad/ascienden-a-66-las-viviendas-afectadas-por-el-temporal-en-misiones-con-familias-evacuadas-y-nuevos-cortes-de-rutas-y-puentes/)"
    },
    {
     "prov": "Entre Ríos",
@@ -5437,6 +5504,38 @@
     "desde": "22 oct",
     "detalle": "Cerrado por erosión en el puente Luzuriaga.",
     "fuente": "[La Voz del Chaco](https://www.diariolavozdelchaco.com/2026/10/22/emergencia-hidrica-en-chaco-mas-de-130-familias-evacuadas-entre-colonia-benitez-y-barranqueras/)"
+   },
+   {
+    "via": "Ruta Provincial 7, puente del arroyo Tabay",
+    "lugar": "Entre Jardín América y Aristóbulo del Valle (Misiones)",
+    "estado": "Cortada",
+    "desde": "23 oct",
+    "detalle": "Tránsito interrumpido; desvío por Ruiz de Montoya.",
+    "fuente": "[Norte Misionero](https://nortemisionero.com.ar/actualidad/ascienden-a-66-las-viviendas-afectadas-por-el-temporal-en-misiones-con-familias-evacuadas-y-nuevos-cortes-de-rutas-y-puentes/)"
+   },
+   {
+    "via": "Ruta Provincial 204",
+    "lugar": "Profundidad (Misiones)",
+    "estado": "Cortada",
+    "desde": "23 oct",
+    "detalle": "Desborde del arroyo Garupá cerca de Urunday-Tí.",
+    "fuente": "[Norte Misionero](https://nortemisionero.com.ar/actualidad/ascienden-a-66-las-viviendas-afectadas-por-el-temporal-en-misiones-con-familias-evacuadas-y-nuevos-cortes-de-rutas-y-puentes/)"
+   },
+   {
+    "via": "Puentes de los arroyos Pindaytí y Barra Grande",
+    "lugar": "25 de Mayo (Misiones)",
+    "estado": "Cortada",
+    "desde": "23 oct",
+    "detalle": "Tránsito vehicular suspendido. También está cerrado el acceso al Parque Provincial Moconá por la crecida del arroyo Yabotí.",
+    "fuente": "[Norte Misionero](https://nortemisionero.com.ar/actualidad/ascienden-a-66-las-viviendas-afectadas-por-el-temporal-en-misiones-con-familias-evacuadas-y-nuevos-cortes-de-rutas-y-puentes/)"
+   },
+   {
+    "via": "Rutas provinciales 7 (Agua Colorada) y 8",
+    "lugar": "Neuquén",
+    "estado": "Cortada",
+    "desde": "23 oct",
+    "detalle": "Intransitables según el parte del 23 de octubre; la Ruta 6 (Octavio Pico) solo con 4x4 y extrema precaución.",
+    "fuente": "[Mejor Informado](https://www.mejorinformado.com/neuquen/evacuaciones-rutas-cortadas-localidades-aisladas-cuales-zonas-afectadas-temporal-neuquen_1792753288)"
    }
   ]
  },
@@ -5480,9 +5579,9 @@
    {
     "jur": "Nación",
     "que": "Plan de Coordinación Federal ENOS (Res. 559/2026)",
-    "monto": "Sin monto",
+    "monto": "Sin monto: el documento no tiene presupuesto",
     "ejec": "Sin datos",
-    "fuente": "[Canal 26](https://www.canal26.com/politica/2026/10/15/monteoliva-encabezo-una-mesa-de-control-y-monitoreo-ante-el-fenomeno-de-el-nino/)"
+    "fuente": "[Canal 26](https://www.canal26.com/politica/2026/10/15/monteoliva-encabezo-una-mesa-de-control-y-monitoreo-ante-el-fenomeno-de-el-nino/) · [Plan ENOS (PDF)](https://www.magyp.gob.ar/evento-climatico/enos/cuenca-del-plata.pdf)"
    },
    {
     "jur": "Nación",
@@ -5748,11 +5847,51 @@
    ],
    "muertes": 3,
    "evac": "~2.300"
+  },
+  {
+   "v": 9,
+   "fecha": "2026-10-23",
+   "resumen": "Actualización de la tarde: análisis del Plan ENOS de Nación y temporales en Misiones, Chaco y Neuquén.",
+   "prob": [
+    40,
+    45,
+    15
+   ],
+   "muertes": 3,
+   "evac": "~2.300"
   }
  ],
  "tormentas": {
   "tesis": "**El Niño no solo trae agua: en primavera y verano también aumenta el riesgo de tormentas severas, con granizo grande y ráfagas.** Son eventos cortos y locales que golpean cultivos, techos, autos y la red eléctrica. En las ciudades, el mayor riesgo para la vida sigue siendo el anegamiento súbito que dejan esas tormentas.",
   "eventos": [
+   {
+    "f": "2026-10-23",
+    "fecha": "22 y 23 oct",
+    "lugar": "Centro y norte de Misiones",
+    "prov": "Misiones",
+    "tipos": [
+     "viento",
+     "granizo",
+     "lluvia"
+    ],
+    "texto": "Segundo día de temporal con voladuras de techos y arroyos desbordados. En Dos de Mayo, una granizada \"histórica\" cubrió de blanco calles y patios.",
+    "danos": "**66 viviendas afectadas** según la Policía: 35 en Aristóbulo del Valle (también el techo de la Escuela 882 de Kolmayer), unas 30 en Gobernador Roca y una en Bonpland; unas 40 familias afectadas en Campo Grande. Dos familias evacuadas. Rutas provinciales 7 (puente del arroyo Tabay) y 204 cortadas, puentes del Pindaytí y Barra Grande cerrados y acceso a Moconá cerrado. Árboles, postes y cables caídos.",
+    "fuente": "[Norte Misionero](https://nortemisionero.com.ar/actualidad/ascienden-a-66-las-viviendas-afectadas-por-el-temporal-en-misiones-con-familias-evacuadas-y-nuevos-cortes-de-rutas-y-puentes/) · [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/23/202788-una-historica-granizada-cubrio-de-blanco-dos-de-mayo-y-provoco-danos-en-varias-viviendas)"
+   },
+   {
+    "f": "2026-10-23",
+    "fecha": "22 y 23 oct",
+    "lugar": "Gran Resistencia",
+    "prov": "Chaco",
+    "tipos": [
+     "lluvia",
+     "viento",
+     "granizo"
+    ],
+    "texto": "Lluvias de 68 mm en Barranqueras, 58 en Puerto Vilelas y 57 en Resistencia, con ráfagas de hasta 70 km/h y granizo en algunos sectores, sobre una zona ya inundada por el Paraná.",
+    "danos": "Calles anegadas, árboles caídos y derrumbe parcial del techo de un comercio sobre la Ruta 16. Empeoró la situación de casi 250 familias evacuadas y autoevacuadas.",
+    "fuente": "[La Voz del Chaco](https://www.diariolavozdelchaco.com/2026/10/23/la-tormenta-complico-la-situacion-de-los-evacuados-y-los-anegamientos/)"
+   },
    {
     "f": "2026-10-22",
     "fecha": "22 oct",
@@ -5763,8 +5902,8 @@
      "viento"
     ],
     "texto": "**Granizo del tamaño de un huevo** en Rafaela, Ataliva, Colonia Bigand, Susana y Ramona, y en Freyre y Porteña (Córdoba). Una franja de granizo de 3 a 5 km cruzó el departamento San Justo.",
-    "danos": "Maíz y girasol dañados entre Videla y San Justo; en Fortín Olmos murieron ovejas, cabras y aves. Viviendas anegadas y techos dañados en Ataliva (una familia evacuada, clases suspendidas); voladuras de techos en Colonia Mascías; autos abollados en Rafaela; cortes de luz breves.",
-    "fuente": "[La Capital](https://www.lacapital.com.ar/la-region/fuerte-temporal-granizo-localidades-santa-fe-piedras-del-tamano-un-huevo-destrozos-y-cortes-luz-n10288145.html) · [Elonce](https://www.elonce.com/sociedad/temporal-en-santa-fe-granizo-destruyo-cultivos-mato-animales-y-provoco-danos-en-viviendas.htm)"
+    "danos": "Maíz y girasol dañados entre Videla y San Justo; en un campo a 18 km de Fortín Olmos murieron o quedaron muy heridos **cerca de 100 animales** (gallinas, patos, gansos, corderos y cabras) en 15 minutos. Viviendas anegadas y techos dañados en Ataliva (una familia evacuada, clases suspendidas); voladuras de techos en Colonia Mascías; autos abollados en Rafaela; cortes de luz breves.",
+    "fuente": "[La Capital](https://www.lacapital.com.ar/la-region/fuerte-temporal-granizo-localidades-santa-fe-piedras-del-tamano-un-huevo-destrozos-y-cortes-luz-n10288145.html) · [Elonce](https://www.elonce.com/sociedad/temporal-en-santa-fe-granizo-destruyo-cultivos-mato-animales-y-provoco-danos-en-viviendas.htm) · [LM Neuquén](https://www.lmneuquen.com/pais/una-tormenta-grandes-granizos-arraso-15-minutos-y-murieron-cerca-cien-animales-n1258450)"
    },
    {
     "f": "2026-10-22",
@@ -5885,12 +6024,13 @@
   ],
   "campo": [
    "**Granizo sobre cultivos:** el 22 de octubre una franja de 3 a 5 km dañó maíz y girasol en el departamento San Justo (Santa Fe); los productores todavía evalúan las pérdidas. [Elonce](https://www.elonce.com/sociedad/temporal-en-santa-fe-granizo-destruyo-cultivos-mato-animales-y-provoco-danos-en-viviendas.htm)",
-   "**Animales:** en Fortín Olmos (Vera) el granizo mató ovejas, cabras y aves. [Elonce](https://www.elonce.com/sociedad/temporal-en-santa-fe-granizo-destruyo-cultivos-mato-animales-y-provoco-danos-en-viviendas.htm)",
+   "**Animales:** en un campo cerca de Fortín Olmos (Vera) el granizo mató o hirió a **cerca de 100 animales** en 15 minutos. [Elonce](https://www.elonce.com/sociedad/temporal-en-santa-fe-granizo-destruyo-cultivos-mato-animales-y-provoco-danos-en-viviendas.htm)",
    "**Girasol en Chaco:** el granizo del 22 de octubre defolió lotes en la zona rural de Coronel Du Graty, sin grandes pérdidas. [Diario Norte](https://www.diarionorte.com/335355-el-granizo-afecto-varios-lotes-de-girasol-aunque-sin-registrarse-grandes-perdidas)",
    "**Trigo:** está en llenado y cerca de cosecha, la etapa más vulnerable al granizo. **No se encontraron estimaciones de hectáreas dañadas** en lo que va de la temporada.",
    "**Seguros:** el 86% de las pólizas agrícolas cubre solo granizo, así que este daño suele estar asegurado; el anegamiento casi nunca. [Bichos de Campo](https://bichosdecampo.com/otro-exito-argentino-los-productores-duplicaron-el-uso-de-seguros-agricolas-desde-2003-pero-las-polizas-multirriesgo-que-los-protegen-de-sequias-o-inundaciones-apenas-representan-el-001/)"
   ],
   "luz": [
+   "El 23 de octubre en Misiones cayeron árboles, postes y cables; Energía de Misiones trabajó todo el día en las reparaciones. No se informó cuántos usuarios quedaron sin luz. [Norte Misionero](https://nortemisionero.com.ar/actualidad/ascienden-a-66-las-viviendas-afectadas-por-el-temporal-en-misiones-con-familias-evacuadas-y-nuevos-cortes-de-rutas-y-puentes/)",
    "En Neuquén se pidió cargar los celulares por posibles cortes de servicios durante las tormentas del 22 de octubre. [Neuquén Informa](https://www.neuqueninforma.gob.ar/noticias/2026/10/22/266053-por-las-tormentas-suspenden-el-transito-en-las-rutas-desde-las-20)",
    "El 31 de julio un temporal dejó hasta **67.000 usuarios sin luz** en el AMBA. [Todo Jujuy](https://www.todojujuy.com/feroz-temporal-buenos-aires-inundaciones-destrozos-y-miles-usuarios-luz-n293962)",
    "El 7 de octubre Rosario tuvo ocho incidencias por cables o columnas caídas.",
