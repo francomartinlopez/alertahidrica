@@ -1,0 +1,677 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta property="og:title" content="Súper Niño · Argentina">
+<meta property="og:description" content="Seguimiento diario del Súper Niño 2026-27 en Argentina: ríos, evacuados, emergencias por provincia, qué hacer y El Niño en el mundo.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230B6B74'/%3E%3Cpath d='M4 20c4-4 8 4 12 0s8 4 12 0v8H4z' fill='%23fff'/%3E%3C/svg%3E">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}[hidden]{display:none!important}img{max-width:100%}</style>
+</head>
+<body>
+<title>Súper Niño Argentina</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Seguimiento diario del Súper Niño 2026-27 en Argentina: ríos, emergencias por provincia, escenarios, calendario agrícola y El Niño en el mundo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: tablero hidrométrico — cabecera fija con índice, secciones apiladas en una columna de 1120px; la escala de río es el elemento propio del tema. */
+:root{
+  --paper:#F2F5F4; --panel:#FFFFFF; --ink:#0F2229; --muted:#56676C; --line:#D3DDDC; --soft:#E6ECEB;
+  --accent:#0B6B74; --accent-ink:#FFFFFF; --water:#3F8FA6; --water-soft:#CFE4EA;
+  --evac:#C2312B; --evac-soft:#F6DEDC; --alert:#C77A0A; --alert-soft:#F7E8CF; --ok:#2F7A4E; --ok-soft:#DCEFE2; --rise:#6B4FB0; --rise-soft:#E6E0F5;
+  --nd:#9AA8AB; --nd-soft:#E9EEEE; --mid:#D2A62C; --mid-soft:#F7EFD6;
+  --f-display:"Archivo","Arial Narrow",system-ui,sans-serif;
+  --f-body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --f-data:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --r:6px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0B1518; --panel:#122126; --ink:#E4EDEE; --muted:#97A9AD; --line:#26393E; --soft:#182A30;
+  --accent:#4FB3BC; --accent-ink:#06191C; --water:#4FA3BA; --water-soft:#163A45;
+  --evac:#F0675F; --evac-soft:#3A1B1A; --alert:#F0A93A; --alert-soft:#3A2B12; --ok:#5BC08A; --ok-soft:#163323; --rise:#A58BEB; --rise-soft:#2A2340;
+  --nd:#6F8287; --nd-soft:#1B2B30; --mid:#E3BE55; --mid-soft:#352C12; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0B1518; --panel:#122126; --ink:#E4EDEE; --muted:#97A9AD; --line:#26393E; --soft:#182A30;
+  --accent:#4FB3BC; --accent-ink:#06191C; --water:#4FA3BA; --water-soft:#163A45;
+  --evac:#F0675F; --evac-soft:#3A1B1A; --alert:#F0A93A; --alert-soft:#3A2B12; --ok:#5BC08A; --ok-soft:#163323; --rise:#A58BEB; --rise-soft:#2A2340;
+  --nd:#6F8287; --nd-soft:#1B2B30; --mid:#E3BE55; --mid-soft:#352C12; color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 112px)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{background:var(--paper);color:var(--ink);font:400 17px/1.55 var(--f-body);margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--panel)}
+a{color:var(--accent);text-underline-offset:2px}
+a:focus-visible,button:focus-visible,select:focus-visible,path:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+strong{font-weight:700}
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-display);font-stretch:78%;line-height:1.08;text-wrap:balance;margin:0}
+h2{font-size:clamp(1.7rem,3.6vw,2.4rem);font-weight:750;letter-spacing:-.01em}
+h3{font-size:1.2rem;font-weight:700;font-stretch:85%}
+.eyebrow{font:500 .74rem/1.2 var(--f-data);letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.num{font-family:var(--f-data);font-variant-numeric:tabular-nums}
+p{margin:0}
+.lead{font-size:1.12rem;max-width:68ch}
+.muted{color:var(--muted)}
+.small{font-size:.9rem}
+
+/* cabecera */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--panel);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;flex-direction:column;gap:6px;padding-block:10px 0}
+.brand{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.brand b{font:800 1.15rem/1 var(--f-display);font-stretch:72%;letter-spacing:.01em;text-transform:uppercase}
+.brand .stamp{font:500 .78rem/1.2 var(--f-data);color:var(--muted)}
+.stamp .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--evac);margin-right:6px;vertical-align:1px}
+nav.idx{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;margin:0 -6px}
+nav.idx::-webkit-scrollbar{display:none}
+nav.idx a{flex:none;font:600 .86rem/1 var(--f-body);color:var(--muted);text-decoration:none;padding:10px 8px 11px;border-bottom:3px solid transparent;white-space:nowrap}
+nav.idx a:hover{color:var(--ink)}
+nav.idx a.on{color:var(--ink);border-bottom-color:var(--accent)}
+
+section.blk{padding-block:44px 8px}
+section.blk>.wrap{display:flex;flex-direction:column;gap:22px}
+.sechead{display:flex;flex-direction:column;gap:10px;max-width:74ch}
+.rule{border:0;border-top:1px solid var(--line);margin:0}
+
+/* hoy */
+.alertbar{display:grid;grid-template-columns:8px 1fr;gap:18px;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px 22px 0;overflow:hidden}
+.alertbar .stripe{background:var(--evac);border-radius:0 3px 3px 0}
+.alertbar h1{font-size:clamp(1.9rem,5vw,3.2rem);font-weight:800;font-stretch:70%;letter-spacing:-.01em}
+.alertbar .txt{display:flex;flex-direction:column;gap:12px;min-width:0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.kpi{background:var(--panel);padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.kpi .v{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 4px;font:700 2.1rem/1 var(--f-data);font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.kpi .v small{font-size:.9rem;font-weight:500;color:var(--muted)}
+.kpi.critico .v{color:var(--evac)} .kpi.alerta .v{color:var(--alert)}
+.kpi .d{font-size:.86rem;color:var(--muted);line-height:1.35}
+.kpi .s{font-size:.78rem}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}
+@media (max-width:760px){.two{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.signal{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start}
+.tag{display:inline-flex;align-items:center;gap:6px;font:600 .72rem/1 var(--f-data);letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:4px;white-space:nowrap}
+.t-evac{background:var(--evac-soft);color:var(--evac)} .t-alert{background:var(--alert-soft);color:var(--alert)} .t-ok{background:var(--ok-soft);color:var(--ok)} .t-rise{background:var(--rise-soft);color:var(--rise)} .t-nd{background:var(--nd-soft);color:var(--muted)} .t-acc{background:var(--water-soft);color:var(--accent)} .t-mid{background:var(--mid-soft);color:var(--ink)}
+ul.plain{margin:0;padding-left:1.1em;display:flex;flex-direction:column;gap:8px}
+ul.plain li::marker{color:var(--accent)}
+
+/* línea de tiempo */
+.tl{display:flex;flex-direction:column;border-left:2px solid var(--line);margin-left:6px}
+.tl .ev{position:relative;padding:0 0 16px 20px;display:grid;grid-template-columns:118px 1fr;gap:4px 14px}
+.tl .ev::before{content:"";position:absolute;left:-7px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--panel);border:2px solid var(--water)}
+.tl .ev.muerte::before{background:var(--evac);border-color:var(--evac)}
+.tl .ev.evacuacion::before{border-color:var(--evac)}
+.tl .ev.tormenta::before{border-color:var(--alert)}
+.tl .f{font:500 .8rem/1.4 var(--f-data);color:var(--muted);padding-top:2px}
+.tl .l{font-weight:700}
+@media (max-width:560px){.tl .ev{grid-template-columns:1fr}}
+.toggle{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:3px;background:var(--panel);gap:2px;flex-wrap:wrap}
+.toggle button{border:0;background:transparent;color:var(--muted);font:600 .86rem/1 var(--f-body);padding:8px 14px;border-radius:999px;cursor:pointer}
+.toggle button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+
+/* mapa */
+.mapgrid{display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);gap:22px;align-items:start}
+@media (max-width:860px){.mapgrid{grid-template-columns:1fr}}
+.mapbox{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:12px;display:flex;flex-direction:column;gap:10px;position:sticky;top:120px}
+@media (max-width:860px){.mapbox{position:static}}
+.mapbox svg{width:100%;height:auto;max-height:72vh;display:block}
+.prov{stroke:var(--panel);stroke-width:.8;cursor:pointer;transition:opacity .15s}
+.prov:hover{opacity:.82}
+.prov.sel{stroke:var(--ink);stroke-width:2}
+.gauge-dot{stroke:var(--ink);stroke-width:1.1;pointer-events:none}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.82rem;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:12px;height:12px;border-radius:3px;display:inline-block}
+.ficha{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px;display:flex;flex-direction:column;gap:16px;min-width:0}
+.ficha h3{font-size:1.8rem;font-stretch:75%}
+.ficha .row{display:flex;flex-direction:column;gap:6px}
+.ficha .lbl{font:600 .74rem/1.2 var(--f-data);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.ficha .nf li::marker{color:var(--nd)}
+.ficha .nf li{color:var(--muted)}
+select.provsel{font:600 1rem var(--f-body);padding:10px 12px;border-radius:var(--r);border:1px solid var(--line);background:var(--panel);color:var(--ink);width:100%}
+.provlist{display:flex;flex-wrap:wrap;gap:6px}
+.provlist button{font:600 .82rem/1 var(--f-body);border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:7px 10px;border-radius:999px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.provlist button i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.provlist button[aria-pressed="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+
+/* escalas */
+.staffs{display:flex;gap:12px;overflow-x:auto;padding-bottom:8px}
+.staff{flex:none;width:168px;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:12px 12px 14px;display:flex;flex-direction:column;gap:8px}
+.staff .nm{font:700 1rem/1.1 var(--f-display);font-stretch:80%;min-height:2.2em}
+.staff .rv{font:500 .7rem/1 var(--f-data);color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.staff svg{width:100%;height:220px;display:block}
+.staff .h{font:700 1.5rem/1 var(--f-data);font-variant-numeric:tabular-nums}
+.staff .tag{white-space:normal;line-height:1.2}
+.staff .lec{font-size:.8rem;color:var(--muted);line-height:1.3}
+.staff.evacuacion{border-top:4px solid var(--evac)} .staff.alerta{border-top:4px solid var(--alert)} .staff.normal{border-top:4px solid var(--ok)} .staff.subiendo{border-top:4px solid var(--rise)}
+
+/* tablas */
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--panel)}
+table{border-collapse:collapse;width:100%;font-size:.94rem}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+th{font:600 .74rem/1.2 var(--f-data);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:var(--soft)}
+tr:last-child td{border-bottom:0}
+td.n{font-family:var(--f-data);font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* niño */
+.ind{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.ind .card .v{font:700 1.6rem/1 var(--f-data)}
+.bars{display:flex;flex-direction:column;gap:8px}
+.bar{display:grid;grid-template-columns:150px 1fr 54px;gap:10px;align-items:center;font-size:.9rem}
+.bar .trk{height:16px;background:var(--soft);border-radius:3px;position:relative;overflow:hidden}
+.bar .fill{position:absolute;inset:0 auto 0 0;background:var(--nd);border-radius:3px}
+.bar.actual .fill{background:var(--evac)} .bar.previsto .fill{background:repeating-linear-gradient(135deg,var(--evac) 0 5px,transparent 5px 9px);border:1.5px solid var(--evac)}
+.bar .val{font-family:var(--f-data);text-align:right}
+@media (max-width:560px){.bar{grid-template-columns:110px 1fr 46px;font-size:.82rem}}
+
+/* mundo */
+.world{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.world .card{gap:8px}
+.world .hd{display:flex;justify-content:space-between;align-items:center;gap:6px 8px;flex-wrap:wrap}
+
+/* escenarios */
+.scnav{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+@media (max-width:640px){.scnav{grid-template-columns:1fr}}
+.scbtn{text-align:left;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:var(--r);padding:14px 16px;cursor:pointer;display:flex;flex-direction:column;gap:8px;font:inherit}
+.scbtn .p{font:700 2rem/1 var(--f-data)}
+.scbtn .p small{font-size:.8rem;color:var(--muted);font-weight:500;margin-left:6px}
+.scbtn .nm{font:700 1.05rem/1.15 var(--f-display);font-stretch:82%}
+.scbtn .pb{height:6px;background:var(--soft);border-radius:3px;overflow:hidden}
+.scbtn .pb i{display:block;height:100%;background:var(--muted)}
+.scbtn[aria-pressed="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.scbtn[aria-pressed="true"] .pb i{background:var(--accent)}
+.scdet{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.scdet>div{background:var(--panel);padding:14px 16px;display:flex;flex-direction:column;gap:6px}
+.scdet .v{font:700 1.3rem/1.2 var(--f-data)}
+.rng{display:flex;flex-direction:column;gap:10px}
+.rng .r{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr) 84px;gap:10px;align-items:center;font-size:.9rem}
+.rng .trk{height:14px;position:relative;background:var(--soft);border-radius:3px}
+.rng .seg{position:absolute;top:0;bottom:0;background:var(--water);border-radius:3px}
+.rng .vv{font-family:var(--f-data);font-size:.84rem;text-align:right}
+@media (max-width:640px){.rng .r{grid-template-columns:1fr 92px}.rng .r .trk{grid-column:1/-1;grid-row:2}}
+
+/* calendario */
+.cal{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:4px;position:relative}
+@media (max-width:640px){.cal{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.mon{border:1px solid var(--line);border-radius:var(--r);background:var(--panel);padding:10px 8px;display:flex;flex-direction:column;gap:8px;cursor:pointer;font:inherit;color:inherit;text-align:left}
+.mon .m{font:700 1.1rem/1 var(--f-display);font-stretch:80%;text-transform:uppercase}
+.mon .rk{display:flex;gap:3px}
+.mon .rk i{flex:1;height:22px;border-radius:2px;background:var(--soft)}
+.mon .rt{font-size:.74rem;color:var(--muted);line-height:1.2}
+.mon.crit{border-color:var(--evac)}
+.mon[aria-pressed="true"]{box-shadow:inset 0 0 0 2px var(--ink)}
+.calnote{display:flex;gap:10px;align-items:center;font-size:.86rem;color:var(--muted)}
+.calnote i{width:22px;height:4px;background:var(--evac);display:inline-block;border-radius:2px}
+
+/* acordeón */
+details.acc{background:var(--panel);border:1px solid var(--line);border-radius:var(--r)}
+details.acc>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;justify-content:space-between;gap:16px;align-items:center}
+details.acc>summary::-webkit-details-marker{display:none}
+details.acc>summary h3{font-size:1.25rem}
+details.acc>summary::after{content:"+";font:500 1.4rem/1 var(--f-data);color:var(--muted)}
+details.acc[open]>summary::after{content:"−"}
+details.acc .body{padding:0 20px 20px;display:flex;flex-direction:column;gap:14px;max-width:84ch}
+details.acc .body h4{font:700 1rem/1.2 var(--f-display);font-stretch:85%;margin:6px 0 0}
+.accs{display:flex;flex-direction:column;gap:8px}
+
+.status{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:8px;vertical-align:0}
+.nlist{display:flex;flex-direction:column;gap:10px;counter-reset:n}
+.nitem{display:grid;grid-template-columns:34px 1fr;gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px}
+.nitem::before{counter-increment:n;content:counter(n);font:700 1.2rem/1 var(--f-data);color:var(--muted)}
+.nitem .tt{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-weight:700}
+.nitem .bd{grid-column:2}
+.src a{word-break:break-word}
+.srcgrid{columns:2 320px;column-gap:28px}
+.srcgrid .g{break-inside:avoid;margin-bottom:18px}
+.srcgrid ul{margin:6px 0 0;padding-left:1.1em;font-size:.9rem;display:flex;flex-direction:column;gap:4px}
+footer{padding-block:40px 60px;color:var(--muted);font-size:.86rem}
+
+/* guía */
+.alerts3{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.alv{border-top:6px solid var(--line)}
+.alv.alert{border-top-color:#E6C300} .alv.naranja{border-top-color:var(--alert)} .alv.evac{border-top-color:var(--evac)}
+.phase{display:flex;flex-direction:column;gap:12px}
+.where{display:flex;flex-wrap:wrap;gap:6px}
+.where button,.chipbtn{font:600 .86rem/1.1 var(--f-body);border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:9px 12px;border-radius:999px;cursor:pointer;text-align:left}
+.where button[aria-pressed="true"],.chipbtn[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.tels{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px}
+.tel{display:flex;flex-direction:column;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px}
+.tel b{font:700 1.8rem/1 var(--f-data);color:var(--evac)}
+/* zonas */
+.zgrid{display:grid;grid-template-columns:minmax(0,460px) minmax(0,1fr);gap:22px;align-items:start}
+@media (max-width:860px){.zgrid{grid-template-columns:1fr}}
+.zmap{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:12px;display:flex;flex-direction:column;gap:10px;position:sticky;top:120px}
+@media (max-width:860px){.zmap{position:static}}
+.zmap svg{width:100%;height:auto;max-height:76vh;display:block}
+.zn{cursor:pointer;stroke:var(--panel);stroke-width:1.1}
+.zn:hover{opacity:.85}
+.zn.sel{stroke:var(--ink);stroke-width:2.2}
+.dep{fill:none;stroke:var(--panel);stroke-width:.25;opacity:.55;pointer-events:none}
+.city{stroke:var(--ink);stroke-width:1;cursor:pointer}
+.city.sel{stroke-width:2.6}
+.citylist{display:flex;flex-direction:column;gap:6px}
+.citylist .grp{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.citylist .grp>span{min-width:76px}
+/* evaluación */
+.mx{border-collapse:separate;border-spacing:0;min-width:820px}
+.mx th,.mx td{padding:8px 8px;border-bottom:1px solid var(--line);text-align:center}
+.mx th:first-child,.mx td:first-child{text-align:left;position:sticky;left:0;background:var(--panel);z-index:1}
+.mx tr.on td{background:var(--soft)}
+.mx tr.on td:first-child{background:var(--soft)}
+.mx tbody tr{cursor:pointer}
+.mk{display:inline-block;min-width:74px;font:600 .68rem/1.15 var(--f-data);letter-spacing:.03em;text-transform:uppercase;padding:5px 6px;border-radius:4px}
+.mk.a_tiempo{background:var(--ok-soft);color:var(--ok)} .mk.parcial{background:var(--mid-soft);color:var(--ink)} .mk.tarde{background:var(--evac-soft);color:var(--evac)} .mk.pendiente{background:var(--rise-soft);color:var(--rise)} .mk.sin_datos{background:var(--nd-soft);color:var(--muted)} .mk.no_aplica{background:transparent;color:var(--muted);border:1px dashed var(--line)}
+.critrow{display:grid;grid-template-columns:150px 96px 1fr;gap:10px;align-items:start;padding:8px 0;border-bottom:1px solid var(--line)}
+@media (max-width:640px){.critrow{grid-template-columns:1fr auto}.critrow p{grid-column:1/-1}}
+
+.lnk{font:500 .7rem/1 var(--f-data);letter-spacing:.04em;text-transform:none;border:1px solid var(--line);background:transparent;color:var(--muted);padding:4px 7px;border-radius:4px;cursor:pointer}
+.lnk:hover{color:var(--ink);border-color:var(--muted)}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:10px 16px;border-radius:999px;font-size:.9rem;z-index:20;max-width:calc(100% - 32px)}
+.chart svg{width:100%;height:auto;display:block}
+.evbars{display:flex;gap:8px;align-items:flex-end;height:120px;padding-top:6px}
+.evbars .b{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;justify-content:flex-end;height:100%;min-width:0}
+.evbars .b i{display:block;width:100%;max-width:46px;background:var(--water);border-radius:3px 3px 0 0}
+.evbars .b span{font:500 .72rem/1.1 var(--f-data);color:var(--muted);text-align:center}
+.gl{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px}
+.gl dt{font-weight:700}
+.gl dd{margin:4px 0 0;color:var(--ink);font-size:.95rem}
+.gl>div{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px}
+.loading{padding:60px 0;color:var(--muted)}
+.warn{background:var(--alert-soft);color:var(--ink);border-radius:var(--r);padding:10px 14px;font-size:.9rem}
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand"><b>Súper Niño · Argentina</b><span class="stamp" id="stamp"><span class="dot"></span>Cargando datos…</span></div>
+    <nav class="idx" id="idx" aria-label="Secciones">
+      <a href="#hoy">Hoy</a><a href="#mapa">Provincias</a><a href="#zonas">Zonas y ciudades</a><a href="#rios">Ríos</a><a href="#nino">El Niño</a><a href="#mundo">Mundo</a><a href="#escenarios">Escenarios</a><a href="#impacto">Impacto y fondos</a><a href="#calendario">Calendario</a><a href="#guia">Qué hacer</a><a href="#nacion">Nación</a><a href="#evaluacion">Evaluación</a><a href="#vigilar">Qué vigilar</a><a href="#analisis">Análisis</a><a href="#glosario">Glosario</a><a href="#fuentes">Fuentes</a>
+    </nav>
+  </div>
+</header>
+
+<main id="app">
+  <div class="wrap loading" id="loading">Cargando el tablero de seguimiento del Niño en Argentina…</div>
+</main>
+
+<script>
+(function(){
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function md(s){
+  let t=esc(s);
+  t=t.replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g,(m,a,u)=>`<a href="${u}" target="_blank" rel="noopener">${a}</a>`);
+  t=t.replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
+  return t;
+}
+const fmt=n=>n.toLocaleString('es-AR');
+const fm=n=>Number(n).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2});
+const EST={evacuacion:['Sobre evacuación','t-evac','var(--evac)'],alerta:['En alerta','t-alert','var(--alert)'],normal:['Bajo alerta','t-ok','var(--ok)'],subiendo:['Subiendo','t-rise','var(--rise)'],sin_dato:['Sin dato reciente','t-nd','var(--nd)'],vigilar:['En vigilancia','t-acc','var(--water)']};
+const EMER={vigente:['Emergencia vigente','var(--evac)'],vencida:['Emergencia vencida','var(--rise)'],tramite:['Ley en trámite','var(--alert)'],plan:['Plan sin emergencia','var(--water)'],sin_datos:['Sin medidas halladas','var(--nd)']};
+const IMP={critico:['Crítico','var(--evac)'],alto:['Alto','var(--alert)'],medio:['Medio','var(--mid)'],bajo:['Bajo o vigilancia','var(--nd)'],positivo:['Efecto positivo','var(--ok)']};
+const NAC={no_encontrado:['No encontrado','t-nd'],tramite:['En trámite','t-alert'],rechazado:['No tratado','t-evac'],vigente:['Vigente','t-ok'],en_obra:['En obra','t-acc']};
+
+Promise.all([fetch('datos.json').then(r=>{if(!r.ok)throw 0;return r.json()}),fetch('mapa.json').then(r=>{if(!r.ok)throw 0;return r.json()}),fetch('zonas.json').then(r=>{if(!r.ok)throw 0;return r.json()})])
+.then(([D,M,Z])=>render(D,M,Z)).catch(()=>{$('#loading').textContent='No se pudieron cargar los datos. Recargá la página en unos minutos.';$('#stamp').textContent='Sin datos';});
+
+const BASE=(/^https?:$/.test(location.protocol)&&!/claude/.test(location.hostname))?location.origin+location.pathname:'https://claude.ai/artifact/MsJxei3Xh587iK3nL9aujz';
+const slug=t=>String(t).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const lnk=(tok,label='Copiar enlace')=>`<button class="lnk" data-link="${tok}" type="button">${label}</button>`;
+function sect(id,eyebrow,title,tesis,inner){
+  return `<section class="blk" id="${id}"><div class="wrap"><div class="sechead"><span class="eyebrow" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">${eyebrow}${lnk(id)}</span><h2>${title}</h2>${tesis?`<p class="lead">${md(tesis)}</p>`:''}</div>${inner}</div></section>`;
+}
+const ul=(a,cls='plain')=>`<ul class="${cls}">${a.map(x=>`<li>${md(x)}</li>`).join('')}</ul>`;
+
+function render(D,M,ZG){
+  const meta=D.meta;
+  $('#stamp').innerHTML=`<span class="dot"></span>Actualizado al ${esc(meta.actualizado_texto)}`;
+  let h='';
+  // HOY
+  const k=D.kpis.map(x=>`<div class="kpi ${x.tono}"><span class="eyebrow">${esc(x.label)}</span><span class="v">${esc(x.valor)}${x.unidad?`<small>${esc(x.unidad)}</small>`:''}</span><span class="d">${md(x.detalle)}</span>${x.fuente?`<span class="s">${md(x.fuente)}</span>`:''}</div>`).join('');
+  const old=(Date.now()-new Date(meta.actualizado+'T12:00:00-03:00').getTime())/864e5>2.5;
+  h+=`<section class="blk" id="hoy"><div class="wrap">
+    ${old?`<div class="warn">Esta edición es del ${esc(meta.actualizado_texto)}. La actualización diaria puede estar demorada.</div>`:''}
+    <div class="alertbar"><div class="stripe"></div><div class="txt"><span class="eyebrow">Situación al ${esc(meta.actualizado_texto)}</span><h1>${esc(D.alerta.titular)}</h1><p class="lead">${md(D.alerta.bajada)}</p></div></div>
+    <div class="kpis">${k}</div>
+    <div class="two"><div class="card"><h3>Evacuados por provincia</h3>
+      <div class="tw"><table><thead><tr><th>Provincia</th><th>Total</th><th>Fecha</th><th>Detalle</th></tr></thead><tbody>${D.evacuados.provs.map(x=>`<tr><td><strong>${esc(x.prov)}</strong></td><td class="n">${x.total!=null?fmt(x.total):'—'}</td><td class="n">${esc(x.fecha)}</td><td class="small">${md(x.detalle)}${x.fuente?` <span class="src">${md(x.fuente)}</span>`:''}</td></tr>`).join('')}</tbody></table></div>
+      <p class="small muted">${md(D.evacuados.nota)}</p></div>
+     <div class="card"><h3>Corrientes, día por día</h3><div class="evbars">${(()=>{const sr=D.evacuados.serie.Corrientes;const mx=Math.max(...sr.map(x=>x[1]));return sr.map(([d,n])=>`<div class="b"><span>${fmt(n)}</span><i style="height:${(n/mx*80).toFixed(0)}%"></i><span>${+d.slice(8)} oct</span></div>`).join('')})()}</div>
+      <p class="small muted">Evacuados y autoevacuados. ${md(D.evacuados.serie_fuente)}</p></div></div>
+    <div class="two">
+      <div class="card"><h3>Dos señales en sentido opuesto</h3>
+        <div class="signal"><span class="tag t-evac">Empeora</span><p>${md(D.senales.empeora)}</p></div>
+        <div class="signal"><span class="tag t-ok">Mejora</span><p>${md(D.senales.mejora)}</p></div></div>
+      <div class="card"><h3>El campo</h3>${ul(D.campo)}</div>
+    </div>
+    <div class="card"><div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center"><h3>Qué pasó</h3>
+      <div class="toggle" role="group" aria-label="Período"><button id="tl-a" aria-pressed="true">Últimos 7 días</button><button id="tl-b" aria-pressed="false">Antes</button></div></div>
+      <div class="tl" id="tl"></div></div>
+    <div class="card"><h3>Rutas y pasos cortados</h3>
+      <div class="tw"><table><thead><tr><th>Vía</th><th>Lugar</th><th>Estado</th><th>Desde</th><th>Detalle</th></tr></thead><tbody>${D.rutas.lista.map(r=>`<tr><td><strong>${esc(r.via)}</strong></td><td>${esc(r.lugar)}</td><td><span class="tag ${r.estado==='Cortada'||r.estado==='Cerrado'?'t-evac':'t-alert'}">${esc(r.estado)}</span></td><td class="n">${esc(r.desde)}</td><td class="small">${md(r.detalle)} <span class="src">${md(r.fuente)}</span></td></tr>`).join('')}</tbody></table></div>
+      <p class="small muted">${md(D.rutas.nota)}</p></div>
+  </div></section>`;
+
+  // MAPA
+  h+=sect('mapa','Provincias','Emergencias, medidas y planes por provincia','Tocá una provincia para ver su situación, si declaró emergencia, qué medidas tomó, qué planes históricos tiene y qué **no se encontró**.',
+   `<div class="mapgrid"><div class="mapbox">
+      <div class="toggle" role="group" aria-label="Capa del mapa"><button data-l="emer" aria-pressed="true">Emergencia formal</button><button data-l="imp" aria-pressed="false">Impacto actual</button><button data-l="alert" aria-pressed="false">Alertas SMN</button></div>
+      <svg id="map" viewBox="0 0 ${M.w} ${M.h}" role="img" aria-label="Mapa de Argentina por provincia"></svg>
+      <div class="legend" id="legend"></div>
+      <label class="small muted" for="provsel">Elegir provincia</label>
+      <select id="provsel" class="provsel"></select>
+    </div>
+    <div class="ficha" id="ficha" aria-live="polite"></div></div>`);
+
+  // ZONAS
+  const NIV={critico:['Crítico','var(--evac)'],alto:['Alto','var(--alert)'],medio:['Medio','var(--mid)'],bajo:['Bajo','var(--nd)'],positivo:['Positivo','var(--ok)']};
+  h+=sect('zonas','Zonas y ciudades','Dónde está el riesgo, más allá de la provincia','El país dividido por **cómo se inunda cada zona**, armado con departamentos, y las ciudades grandes y medianas con su riesgo estimado y los datos que lo sostienen.',
+   `<div class="zgrid"><div class="zmap">
+      <div class="toggle" role="group" aria-label="Capas"><button data-zl="z" aria-pressed="true">Zonas</button><button data-zl="c" aria-pressed="true">Ciudades</button><button data-zl="d" aria-pressed="true">Departamentos</button></div>
+      <svg id="zsvg" viewBox="0 0 ${ZG.w} ${ZG.h}" role="img" aria-label="Mapa de zonas de riesgo y ciudades"></svg>
+      <div class="legend">${Object.values(NIV).map(v=>`<span><i style="background:${v[1]}"></i>${v[0]}</span>`).join('')}<span><i style="background:var(--panel);border:1.5px solid var(--ink);border-radius:50%"></i>Ciudad</span></div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:14px;min-width:0"><div class="ficha" id="zficha" aria-live="polite"></div>
+      <div class="card"><h3>Ciudades por nivel de riesgo</h3><div class="citylist" id="clist"></div></div></div></div>
+    <p class="small muted">${md(D.zonas_nota)}</p>`);
+
+  // RÍOS
+  h+=sect('rios','Ríos','La escala de cada puerto','Cada regla muestra la altura del río frente a sus niveles de **alerta** y **evacuación**. Cada escala tiene su propio rango: Iguazú se mide en decenas de metros y Rosario en pocos metros.',
+   `<div class="staffs" id="staffs"></div>
+    <div class="card chart"><div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center"><h3>Evolución por puerto</h3></div><div class="where" id="rsel">${D.rios.filter(r=>(r.hist||[]).length).map((r,i)=>`<button data-r="${esc(r.puerto)}" aria-pressed="${r.puerto==='Corrientes'}">${esc(r.puerto)}</button>`).join('')}</div><div id="rchart"></div><p class="small muted">${md(D.rios_hist_nota)}</p></div>
+    <p class="small muted src">Fuentes: ${md(D.rios_fuentes)}</p>`);
+
+  // NIÑO
+  const nI=D.nino.indicadores.map(x=>`<div class="card"><span class="eyebrow">${esc(x.label)}</span><span class="v num">${esc(x.valor)}</span><p class="small">${md(x.nota)}</p><span class="small">${md(x.fuente)}</span></div>`).join('');
+  const maxp=Math.max(...D.nino.comparacion.map(c=>c.pico))*1.08;
+  const bars=D.nino.comparacion.map(c=>`<div class="bar ${c.actual?'actual':''} ${c.previsto?'previsto':''}"><span>${esc(c.evento)}</span><span class="trk" title="${esc(c.nota)}"><span class="fill" style="width:${(c.pico/maxp*100).toFixed(1)}%"></span></span><span class="val">+${fm(c.pico)}</span></div>`).join('');
+  h+=sect('nino','El Niño hoy','Qué tan fuerte es este Niño',D.nino.tesis,
+   `<div class="ind">${nI}</div>
+    <div class="card"><h3>Comparación con los grandes eventos</h3><div class="bars">${bars}</div><p class="small muted">${md(D.nino.comparacion_nota)}</p></div>
+    <div class="card"><h3>Matices</h3>${ul(D.nino.matices)}</div>`);
+
+  // MUNDO
+  const TIPO={lluvia:['Inundaciones','t-acc'],sequia:['Sequía','t-alert'],incendio:['Incendios','t-evac'],mixto:['Mixto','t-rise']};
+  const gD=D.global.datos.map(x=>`<div class="card"><span class="eyebrow">${esc(x.label)}</span><span class="v num" style="font:700 1.4rem/1.1 var(--f-data)">${esc(x.valor)}</span><p class="small">${md(x.nota)}</p><span class="small">${md(x.fuente)}</span></div>`).join('');
+  const reg=D.global.regiones.map(x=>{const t=TIPO[x.tipo]||['','t-nd'];return `<div class="card"><div class="hd"><h3>${esc(x.pais)}</h3><span class="tag ${t[1]}">${t[0]}</span></div><p class="small">${md(x.texto)}</p><span class="small">${md(x.fuente)}</span></div>`}).join('');
+  h+=sect('mundo','El Niño en el mundo','Lo que dicen las fuentes internacionales',D.global.tesis,
+   `<div class="ind">${gD}</div><div class="world">${reg}</div>
+    <div class="card"><h3>Por qué importa para Argentina</h3>${ul(D.global.para_argentina)}</div>`);
+
+  // ESCENARIOS
+  const E=D.escenarios;
+  h+=sect('escenarios','Escenarios hasta mediados de 2027','Tres escenarios y lo que cuesta cada uno',E.tesis,
+   `<div class="scnav" id="scnav">${E.lista.map((s,i)=>`<button class="scbtn" data-i="${i}" aria-pressed="${i===0}"><span class="p">${s.prob}%<small>antes ${esc(s.prob_antes)}</small></span><span class="pb"><i style="width:${s.prob}%"></i></span><span class="nm">${esc(s.nombre)}</span></button>`).join('')}</div>
+    <div id="scbody" style="display:flex;flex-direction:column;gap:16px"></div>
+    <p class="small muted">${md(E.nota)}</p>
+    <div class="two"><div class="card"><h3>Cuándo se cambia de escenario</h3>${ul(E.cambio.map(c=>c.texto))}</div>
+    <div class="card"><h3>Anclas históricas</h3>${ul(E.anclas)}</div></div>
+    <details class="acc"><summary><h3>Cómo se calculó</h3></summary><div class="body">${ul(E.metodo)}</div></details>`);
+
+  // IMPACTO
+  const IM=D.impacto,SA=D.salud_datos,FO=D.fondos;
+  h+=sect('impacto','Impacto y fondos','Lo que ya pasó, la salud y la plata',IM.tesis,
+   `<div class="two"><div class="card"><h3>Campo y hacienda</h3>${ul(IM.campo)}</div><div class="card"><h3>Contra los escenarios</h3><p>${md(IM.vs)}</p></div></div>
+    <h3>Salud en números</h3><div class="ind">${SA.items.map(x=>`<div class="card"><span class="eyebrow">${esc(x.label)}</span><span class="v num" style="font:700 1.5rem/1.1 var(--f-data)">${esc(x.valor)}</span><p class="small">${md(x.nota)}</p></div>`).join('')}</div>
+    <p class="small muted">${md(SA.fuente)}</p>
+    <h3>Seguimiento de fondos</h3>
+    <div class="tw"><table><thead><tr><th>Jurisdicción</th><th>Qué</th><th>Monto anunciado</th><th>Ejecución</th><th>Fuente</th></tr></thead><tbody>${FO.filas.map(f=>`<tr><td><strong>${esc(f.jur)}</strong></td><td>${md(f.que)}</td><td class="small">${md(f.monto)}</td><td class="small">${md(f.ejec)}</td><td class="small src">${md(f.fuente||'—')}</td></tr>`).join('')}</tbody></table></div>
+    <p class="small muted">${md(FO.nota)}</p>`);
+
+  // CALENDARIO
+  const C=D.calendario;
+  h+=sect('calendario','Calendario','Lluvias contra labores del campo',C.tesis,
+   `<p>${md(C.bcr)}</p>
+    <div class="cal" id="cal">${C.meses.map((m,i)=>`<button class="mon ${m.critico?'crit':''}" data-i="${i}" aria-pressed="${i===1}"><span class="m">${esc(m.mes)}</span><span class="rk" aria-label="Riesgo ${esc(m.riesgo_txt)}">${[1,2,3,4].map(j=>`<i style="${j<=m.riesgo?`background:${m.riesgo>=4?'var(--evac)':m.riesgo>=3?'var(--alert)':'var(--water)'}`:''}"></i>`).join('')}</span><span class="rt">${esc(m.riesgo_txt)}</span></button>`).join('')}</div>
+    <div class="calnote"><i></i>Borde rojo: ventana crítica del 15 de noviembre al 31 de diciembre</div>
+    <div class="card" id="calbody"></div>
+    <p class="small muted">${md(C.smn)}</p>`);
+
+  // GUÍA
+  const G=D.guia;
+  h+=sect('guia','Qué hacer','Qué hacer antes, durante y después',G.tesis,
+   `<h3>Cómo leer las alertas del SMN</h3><div class="alerts3">${G.alertas.map(a=>`<div class="card alv ${a.color}"><span class="eyebrow">Alerta ${esc(a.nivel)}</span><p><strong>${md(a.que)}</strong></p>${ul(a.hacer)}</div>`).join('')}</div>
+    <p class="small muted">${md(G.alertas_fuente)}</p>
+    <div class="card"><div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center"><h3>Para todos</h3><div class="toggle" role="group" aria-label="Momento">${G.general.map((f,i)=>`<button data-f="${i}" aria-pressed="${i===0}">${esc(f.fase)}</button>`).join('')}</div></div><div id="phase" class="phase"></div></div>
+    <div class="card"><h3>¿Dónde vivís?</h3><div class="where" id="where">${G.zonas.map((g,i)=>`<button data-g="${g.id}" aria-pressed="${i===0}">${esc(g.nombre)}</button>`).join('')}</div><div id="gz" class="phase"></div></div>
+    <h3>Teléfonos de emergencia</h3><div class="tels">${G.telefonos.map(t=>`<div class="tel"><b>${esc(t.n)}</b><span class="small">${esc(t.t)}</span></div>`).join('')}</div>
+    <p class="small muted">${md(G.telefonos_fuente)} ${md(G.telefonos_prov)}</p>
+    <div class="two"><div class="card"><h3>Dónde informarte</h3>${ul(G.canales)}</div>
+    <div class="card"><h3>Centros de evacuación conocidos</h3>${G.centros.map(c=>`<p><strong>${esc(c.lugar)}:</strong> ${md(c.txt)} ${c.fuente?`<span class="small src">${md(c.fuente)}</span>`:''}</p>`).join('')}<p class="small muted">Los centros cambian según la crecida: confirmá siempre con tu municipio.</p></div></div>
+    <div class="card"><h3>Cómo ayudar</h3>${G.ayuda.map(a=>`<div class="row"><span class="lbl">${esc(a.quien)}</span><p>${md(a.que)} ${a.fuente?`<span class="small src">${md(a.fuente)}</span>`:''}</p></div>`).join('')}</div>`);
+
+  // NACIÓN
+  const N=D.nacion;
+  const nl=a=>`<div class="nlist">${a.map(x=>{const t=NAC[x.estado]||['','t-nd'];return `<div class="nitem"><div class="tt">${esc(x.titulo)}${x.estado?`<span class="tag ${t[1]}">${t[0]}</span>`:''}</div><div class="bd small">${md(x.texto)}</div></div>`}).join('')}</div>`;
+  h+=sect('nacion','Nación','Qué declaró y qué hizo el Gobierno nacional',N.resumen,
+   `<h3>Declaraciones</h3>${nl(N.declaraciones)}<h3>Medidas de la conducción nacional</h3>${nl(N.medidas)}
+    <h3>Marco legal y planes históricos</h3>${nl(N.marco)}
+    <div class="card"><h3>Lo que esto implica</h3>${ul(N.implica)}</div>
+    <p class="small muted">"No encontrado" significa que no apareció en las fuentes revisadas, no que no exista.</p>`);
+
+  // EVALUACIÓN
+  const EV=D.evaluacion;
+  h+=sect('evaluacion','Evaluación','Qué se hizo a tiempo, qué tarde y qué falta',EV.tesis,
+   `<p class="small">${md(EV.referencia)}</p>
+    <div class="legend">${Object.entries(EV.marcas).map(([k,v])=>`<span><span class="mk ${k}" style="min-width:0">${esc(v)}</span></span>`).join('')}</div>
+    <div class="tw"><table class="mx"><thead><tr><th>Jurisdicción</th>${EV.criterios.map(c=>`<th title="${esc(c.pregunta)}">${esc(c.nombre)}</th>`).join('')}</tr></thead>
+    <tbody>${EV.jur.map((j,i)=>`<tr data-j="${i}" tabindex="0"><td><strong>${esc(j.nombre)}</strong></td>${EV.criterios.map(c=>{const x=j.m[c.id]||{m:'sin_datos'};return `<td><span class="mk ${x.m}">${esc(EV.marcas[x.m]||x.m)}</span></td>`}).join('')}</tr>`).join('')}</tbody></table></div>
+    <div class="ficha" id="evficha" aria-live="polite"></div>
+    <p class="small muted">${md(EV.sin_evaluar)} ${md(EV.metodo)}</p>`);
+
+  // VIGILAR
+  h+=sect('vigilar','Qué vigilar','Indicadores que avisan con días o semanas de margen','**Tres indicadores avisan antes: el caudal en Yacyretá, la altura del Paraná en Corrientes y el río Paraguay.** Umbrales de ríos según el tablero oficial de Hidráulica.',
+   `<div class="tw"><table><thead><tr><th>Indicador</th><th>Estado</th><th>Último dato</th><th>Umbrales</th><th>Qué anticipa</th></tr></thead><tbody>${D.disparadores.map(x=>{const e=EST[x.estado]||EST.sin_dato;return `<tr><td><strong>${esc(x.indicador)}</strong></td><td><span class="tag ${e[1]}">${e[0]}</span></td><td>${md(x.ultimo)}</td><td class="small">${md(x.umbral)}</td><td class="small">${md(x.anticipa)}</td></tr>`}).join('')}</tbody></table></div>
+    <h3>Qué hacer</h3><div class="ind">${D.recomendaciones.map(r=>`<div class="card"><span class="eyebrow">${esc(r.actor)}</span>${ul(r.items)}</div>`).join('')}</div>`);
+
+  // ANÁLISIS
+  const blk=b=>{
+    if(b.t==='p')return `<p>${md(b.x)}</p>`;
+    if(b.t==='h')return `<h4>${esc(b.x)}</h4>`;
+    if(b.t==='ul')return ul(b.x);
+    if(b.t==='tabla')return `<div class="tw"><table><thead><tr>${b.cols.map(c=>`<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>${b.filas.map(f=>`<tr>${f.map(c=>`<td>${md(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>${b.pie?`<p class="small muted">${md(b.pie)}</p>`:''}`;
+    return '';
+  };
+  h+=sect('analisis','Análisis detallado','Economía, cuenca, ciudades, regiones y logística','',
+   `<div class="accs">${D.analisis.map((s,i)=>`<details class="acc" id="a-${s.id}" ${i===0?'open':''}><summary><h3>${esc(s.titulo)}</h3></summary><div class="body"><p class="lead">${md(s.tesis)}</p>${s.bloques.map(blk).join('')}</div></details>`).join('')}
+   <details class="acc"><summary><h3>Límites y supuestos</h3></summary><div class="body">${ul(D.limites)}</div></details></div>`);
+
+  // GLOSARIO
+  h+=sect('glosario','Glosario','Palabras que aparecen en esta web','',
+   `<dl class="gl">${D.glosario.map(g=>`<div><dt>${esc(g.t)}</dt><dd>${md(g.d)}</dd></div>`).join('')}</dl>`);
+
+  // FUENTES
+  h+=sect('fuentes','Fuentes','Todas las fuentes citadas','',
+   `<div class="srcgrid src">${D.fuentes.map(g=>`<div class="g"><span class="eyebrow">${esc(g.grupo)}</span><ul>${g.items.map(i=>`<li><a href="${esc(i.u)}" target="_blank" rel="noopener">${esc(i.t)}</a></li>`).join('')}</ul></div>`).join('')}</div>
+    <p class="small muted">${md(D.fuentes_extra||'')}</p>
+    <details class="acc" id="historial"><summary><h3>Historial de ediciones</h3></summary><div class="body" style="max-width:none"><div class="tw"><table><thead><tr><th>Edición</th><th>Fecha</th><th>Qué cambió</th><th>Escenarios</th><th>Muertes</th><th>Evacuados</th></tr></thead><tbody>${[...(D.historial||[])].reverse().map(x=>`<tr><td class="n">${x.v}</td><td class="n">${esc(x.fecha)}</td><td class="small">${md(x.resumen)}</td><td class="n">${(x.prob||[]).join(' / ')}</td><td class="n">${esc(x.muertes)}</td><td class="n">${esc(x.evac)}</td></tr>`).join('')}</tbody></table></div><p class="small muted">Escenarios: probabilidad del manejable, la repetición de 1997-98 y el extremo, en %.</p></div></details>`);
+  h+=`<footer><div class="wrap">Elaborado por ${esc(meta.autor)}. ${esc(meta.proxima)} Edición ${esc(meta.version)}, ${esc(meta.actualizado_texto)}. Las probabilidades y los rangos de escenarios son estimación propia, no pronósticos oficiales.</div></footer>`;
+  $('#app').innerHTML=h;
+
+  // línea de tiempo
+  const tlr=list=>{$('#tl').innerHTML=list.map(e=>`<div class="ev ${e.tipo}"><span class="f">${esc(e.fecha)}</span><div><span class="l">${esc(e.lugar)}</span>${e.prov?` <span class="muted small">· ${esc(e.prov)}</span>`:''}<p>${md(e.texto)}${e.url?` <a class="small" href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.fuente||'Fuente')}</a>`:''}</p></div></div>`).join('')};
+  const allEv=[...(D.hoy||[]),...(D.eventos_previos||[])].filter(e=>e.f).sort((a,b)=>b.f.localeCompare(a.f));
+  const cut=new Date(meta.actualizado+'T12:00:00');cut.setDate(cut.getDate()-6);const cutS=cut.toISOString().slice(0,10);
+  const recent=allEv.filter(e=>e.f>=cutS),older=allEv.filter(e=>e.f<cutS);
+  const cd=cut.toLocaleDateString('es-AR',{day:'numeric',month:'long'});
+  const ta=$('#tl-a'),tb=$('#tl-b');ta.textContent=`Últimos 7 días (desde el ${cd})`;
+  tlr(recent.length?recent:[]);if(!recent.length)$('#tl').innerHTML='<p class="muted">Sin hechos registrados en los últimos 7 días.</p>';
+  ta.onclick=()=>{ta.setAttribute('aria-pressed','true');tb.setAttribute('aria-pressed','false');tlr(recent)};
+  tb.onclick=()=>{tb.setAttribute('aria-pressed','true');ta.setAttribute('aria-pressed','false');tlr(older)};
+
+  // mapa
+  const svg=$('#map'),P=D.provincias,pr=M.proj;
+  const proj=(lon,lat)=>[(lon*pr.k-pr.mx)*pr.s+pr.off,(-lat-pr.my)*pr.s+pr.off];
+  let layer='emer',sel=null;
+  const names=Object.keys(M.p).filter(n=>n!=='Islas Malvinas');
+  let s='';
+  for(const n of Object.keys(M.p)){const key=n==='Islas Malvinas'?'Tierra del Fuego':n;
+    s+=`<path class="prov" data-p="${esc(key)}" d="${M.p[n].d}" tabindex="${n==='Islas Malvinas'?-1:0}" role="button" aria-label="${esc(n)}"><title>${esc(n)}</title></path>`;}
+  const caba=M.p['Ciudad de Buenos Aires'].c;
+  s+=`<circle class="prov" data-p="Ciudad de Buenos Aires" cx="${caba[0]}" cy="${caba[1]}" r="5" tabindex="0" role="button" aria-label="Ciudad de Buenos Aires"><title>Ciudad de Buenos Aires</title></circle>`;
+  for(const r of D.rios){const [x,y]=proj(r.lon,r.lat);const e=EST[r.estado]||EST.sin_dato;s+=`<circle class="gauge-dot" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="4.2" fill="${e[2]}"><title>${esc(r.puerto)}</title></circle>`;}
+  svg.innerHTML=s;
+  const ALC={roja:['Alerta roja','var(--evac)'],naranja:['Alerta naranja','var(--alert)'],amarilla:['Alerta amarilla','#E6C300'],sin:['Sin alerta','var(--nd)']};
+  const colorOf=n=>{const d=P[n]||{};if(layer==='alert'){const a=(D.alertas_smn.prov||{})[n];return ALC[a?a.nivel:'sin'][1]}return layer==='emer'?(EMER[d.estado]||EMER.sin_datos)[1]:(IMP[d.impacto]||IMP.bajo)[1]};
+  const paint=()=>{svg.querySelectorAll('.prov').forEach(p=>{p.style.fill=colorOf(p.dataset.p);p.classList.toggle('sel',p.dataset.p===sel)});
+    const L=layer==='emer'?EMER:layer==='alert'?ALC:IMP;$('#legend').innerHTML=Object.values(L).map(v=>`<span><i style="background:${v[1]}"></i>${v[0]}</span>`).join('')+`<span><i style="background:var(--evac);border-radius:50%"></i>Puerto sobre evacuación</span>`+(layer==='alert'?`<span style="flex-basis:100%;display:block">Alertas del ${esc(D.alertas_smn.texto)}. ${md(D.alertas_smn.fuente)}</span>`:'');};
+  const order=Object.keys(P).sort((a,b)=>{const r={vigente:0,vencida:1,tramite:2,plan:3,sin_datos:4};return (r[P[a].estado]-r[P[b].estado])||a.localeCompare(b,'es')});
+  $('#provsel').innerHTML=order.map(n=>`<option value="${esc(n)}">${esc(n)} — ${(EMER[P[n].estado]||EMER.sin_datos)[0]}</option>`).join('');
+  const ficha=n=>{sel=n;const d=P[n];if(!d)return;$('#provsel').value=n;paint();
+    const em=EMER[d.estado]||EMER.sin_datos,im=IMP[d.impacto]||IMP.bajo;
+    const row=(l,c)=>c?`<div class="row"><span class="lbl">${l}</span>${c}</div>`:'';
+    $('#ficha').innerHTML=`<div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">Provincia</span><h3>${esc(n)}</h3>
+      <div style="display:flex;gap:6px;flex-wrap:wrap"><span class="tag" style="background:var(--soft);color:var(--ink)"><span class="status" style="background:${em[1]};margin:0"></span>${em[0]}</span><span class="tag" style="background:var(--soft);color:var(--ink)"><span class="status" style="background:${im[1]};margin:0"></span>Impacto: ${im[0]}</span></div></div>
+      ${(()=>{const a=(D.alertas_smn.prov||{})[n];return row('Alerta del SMN ('+esc(D.alertas_smn.texto)+')',a?`<p><span class="tag ${a.nivel==='naranja'?'t-alert':a.nivel==='roja'?'t-evac':'t-mid'}">${esc(a.nivel)}</span> por ${esc(a.fen)}</p>`:'<p class="muted">Sin alerta informada.</p>')})()}
+      ${row('Situación',d.situacion?`<p>${md(d.situacion)}</p>`:'')}
+      ${row('Emergencia',d.emergencia?`<p>${md(d.emergencia)}</p>`:'')}
+      ${row('Medidas anunciadas',d.medidas.length?ul(d.medidas):'')}
+      ${row('Planes y antecedentes históricos',d.historico.length?ul(d.historico):'<p class="muted">Plan histórico provincial: no encontrado.</p>')}
+      ${row('No encontrado',d.no_encontrado.length?ul(d.no_encontrado,'plain nf'):'')}
+      ${row('Fuentes',d.fuentes.length?`<p class="small src">${d.fuentes.map(md).join(' · ')}</p>`:'')}
+      <p>${lnk('p-'+slug(n),'Copiar enlace a '+esc(n))}</p>`;
+  };
+  const jump=()=>{if(window.innerWidth<=860)$('#ficha').scrollIntoView({block:'start'})};
+  svg.addEventListener('click',e=>{const p=e.target.closest('.prov');if(p){ficha(p.dataset.p);jump()}});
+  svg.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.classList.contains('prov')){e.preventDefault();ficha(e.target.dataset.p)}});
+  $('#provsel').onchange=e=>ficha(e.target.value);
+  document.querySelectorAll('#mapa [data-l]').forEach(b=>b.onclick=()=>{layer=b.dataset.l;document.querySelectorAll('#mapa [data-l]').forEach(x=>x.setAttribute('aria-pressed',x===b));paint()});
+  ficha('Corrientes');
+
+  // escalas
+  $('#staffs').innerHTML=D.rios.map(r=>{
+    const e=EST[r.estado]||EST.sin_dato;
+    const top=Math.max(r.altura,r.evac||0,r.alerta||0,r.record||0)*1.12;
+    const lo=Math.max(0,Math.floor(Math.min(r.altura,r.alerta||r.altura,r.evac||r.altura)*0.55));
+    const Hh=200,yv=v=>8+(1-(v-lo)/(top-lo))*(Hh-16);
+    let ticks='';const step=(top-lo)>12?5:1;
+    for(let v=Math.ceil(lo);v<=top;v+=step){const y=yv(v);ticks+=`<line x1="30" x2="${v%(step*2)===0||step===1?44:40}" y1="${y}" y2="${y}" stroke="var(--muted)" stroke-width="1"/><text x="26" y="${y+3.5}" text-anchor="end" font-size="10" fill="var(--muted)" font-family="IBM Plex Mono,monospace">${v}</text>`;}
+    const band=(v,c,l,below)=>v?`<line x1="30" x2="146" y1="${yv(v)}" y2="${yv(v)}" stroke="${c}" stroke-width="2" stroke-dasharray="4 3"/><text x="77" y="${below?yv(v)+11:yv(v)-4}" text-anchor="start" font-size="9.5" fill="${c}" font-family="IBM Plex Mono,monospace">${l} ${fm(v)}</text>`:'';
+    const yw=yv(r.altura);
+    return `<div class="staff ${r.estado}"><span class="rv">${esc(r.rio)}</span><span class="nm">${esc(r.puerto)}</span>
+      <svg viewBox="0 0 150 ${Hh}" role="img" aria-label="${esc(r.puerto)}: ${fm(r.altura)} m">
+        <rect x="46" y="8" width="26" height="${Hh-16}" fill="var(--soft)" rx="2"/>
+        <rect x="46" y="${yw}" width="26" height="${Hh-8-yw}" fill="var(--water)" opacity=".85" rx="2"/>
+        ${ticks}${r.record?band(r.record,'var(--muted)','Récord'):''}${band(r.evac,'var(--evac)','Evac.')}${band(r.alerta,'var(--alert)','Alerta',true)}
+        <line x1="42" x2="76" y1="${yw}" y2="${yw}" stroke="var(--ink)" stroke-width="2.5"/>
+      </svg>
+      <span class="h">${fm(r.altura)} m</span><span class="tag ${e[1]}" style="align-self:flex-start">${e[0]}</span>
+      <span class="lec">${md(r.lectura)} · ${esc(r.fecha)}${(!r.alerta&&!r.evac)?' · umbral no publicado en las fuentes':''}</span></div>`;
+  }).join('');
+
+  // escenarios
+  const scr=i=>{const s=E.lista[i];
+    const mx=Math.max(...Object.values(s.sectores).map(v=>v[1]));
+    const rr=(o,max)=>Object.entries(o).map(([k,v])=>`<div class="r"><span>${esc(k)}</span><span class="trk"><span class="seg" style="left:${(v[0]/max*100).toFixed(1)}%;width:${((v[1]-v[0])/max*100).toFixed(1)}%"></span></span><span class="vv">${fmt(v[0])}–${fmt(v[1])}</span></div>`).join('');
+    const mxe=Math.max(...Object.values(s.estatal_det).map(v=>v[1]));
+    $('#scbody').innerHTML=`<div class="card"><p class="lead">${md(s.que)}</p><p class="small muted"><strong>Por qué cambió la probabilidad:</strong> ${md(s.por_que)}</p></div>
+     <div class="scdet"><div><span class="eyebrow">Daño económico</span><span class="v">USD ${fmt(s.dano[0])} a ${fmt(s.dano[1])} M</span><span class="small">${md(s.dano_txt)}</span></div>
+     <div><span class="eyebrow">Muertes</span><span class="v">${esc(s.muertes)}</span></div>
+     <div><span class="eyebrow">Evacuados</span><span class="v">${esc(s.evac)}</span></div>
+     <div><span class="eyebrow">Costo estatal</span><span class="v">USD ${fmt(s.estatal[0])} a ${fmt(s.estatal[1])} M</span></div></div>
+     <div class="two"><div class="card"><h3>Daño por sector (USD M)</h3><div class="rng">${rr(s.sectores,mx)}</div></div>
+     <div class="card"><h3>Costo estatal (USD M)</h3><div class="rng">${rr(s.estatal_det,mxe)}</div><h3 style="margin-top:8px">Efecto fiscal</h3><p class="small">${md(s.fiscal)}</p></div></div>`;
+    document.querySelectorAll('#scnav .scbtn').forEach(b=>b.setAttribute('aria-pressed',b.dataset.i==i));};
+  document.querySelectorAll('#scnav .scbtn').forEach(b=>b.onclick=()=>scr(+b.dataset.i));
+  scr(0);
+
+  // calendario
+  const calr=i=>{const m=C.meses[i];
+    $('#calbody').innerHTML=`<div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center"><h3>${esc(m.nombre)}</h3><span class="tag ${m.riesgo>=4?'t-evac':m.riesgo>=3?'t-alert':'t-acc'}">Riesgo de lluvia: ${esc(m.riesgo_txt)}</span></div>
+      <div class="two"><div><span class="eyebrow">Labores agrícolas</span><p>${md(m.agricola)}</p></div><div><span class="eyebrow">Labores ganaderas</span><p>${md(m.ganadera)}</p></div></div>${m.clave?`<p class="small"><strong>Clave:</strong> ${md(m.clave)}</p>`:''}`;
+    document.querySelectorAll('#cal .mon').forEach(b=>b.setAttribute('aria-pressed',b.dataset.i==i));};
+  document.querySelectorAll('#cal .mon').forEach(b=>b.onclick=()=>calr(+b.dataset.i));
+  calr(1);
+
+  // guía: fases y zonas
+  const phs=i=>{$('#phase').innerHTML=ul(G.general[i].items);document.querySelectorAll('#guia [data-f]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.f==i))};
+  document.querySelectorAll('#guia [data-f]').forEach(b=>b.onclick=()=>phs(+b.dataset.f));phs(0);
+  const gzs=id=>{const g=G.zonas.find(x=>x.id===id)||G.zonas[0];$('#gz').innerHTML=`<p class="muted small">${esc(g.sub)}</p>${ul(g.items)}`;document.querySelectorAll('#where [data-g]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.g===g.id))};
+  document.querySelectorAll('#where [data-g]').forEach(b=>b.onclick=()=>gzs(b.dataset.g));gzs(G.zonas[0].id);
+
+  // zonas
+  const zsvg=$('#zsvg'),zp=ZG.proj,zproj=(lon,lat)=>[(lon*zp.k-zp.mx)*zp.s+zp.off,(-lat-zp.my)*zp.s+zp.off];
+  const ZD=D.zonas,CI=D.ciudades,TT=D.ciudades_tipos;
+  let zs='<g id="zl">';
+  for(const [id,d] of Object.entries(ZG.zonas)){const n=(ZD[id]||{}).nivel||'bajo';zs+=`<path class="zn" data-z="${id}" d="${d}" style="fill:${NIV[n][1]}" tabindex="0" role="button" aria-label="${esc((ZD[id]||{}).nombre||id)}"><title>${esc((ZD[id]||{}).nombre||id)}</title></path>`;}
+  zs+=`<path class="zn" data-z="patagonia" d="${ZG.malvinas}" style="fill:${NIV[(ZD.patagonia||{}).nivel||'bajo'][1]}"><title>Islas Malvinas</title></path></g><g id="dl">`;
+  for(const d of ZG.deps)zs+=`<path class="dep" d="${d.d}"/>`;
+  zs+='</g><g id="cl">';
+  CI.forEach((c,i)=>{const [x,y]=zproj(c.lon,c.lat);const r=c.tam==='grande'?5.2:c.tam==='mediana'?4:3.2;zs+=`<circle class="city" data-c="${i}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r}" fill="${NIV[c.nivel][1]}" tabindex="0" role="button" aria-label="${esc(c.n)}"><title>${esc(c.n)}</title></circle>`});
+  zs+='</g>';zsvg.innerHTML=zs;
+  const zsel=(kind,key)=>{zsvg.querySelectorAll('.zn').forEach(p=>p.classList.toggle('sel',kind==='z'&&p.dataset.z===key));zsvg.querySelectorAll('.city').forEach(p=>p.classList.toggle('sel',kind==='c'&&p.dataset.c==key));
+    const row=(l,c)=>c?`<div class="row"><span class="lbl">${l}</span>${c}</div>`:'';
+    if(kind==='z'){const z=ZD[key];const cs=CI.filter(c=>c.zona===key);const gg=G.zonas.find(g=>g.id===z.guia);
+      $('#zficha').innerHTML=`<div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">Zona</span><h3>${esc(z.nombre)}</h3><div style="display:flex;gap:6px;flex-wrap:wrap"><span class="tag" style="background:var(--soft);color:var(--ink)"><span class="status" style="background:${NIV[z.nivel][1]};margin:0"></span>Riesgo estimado: ${NIV[z.nivel][0]}</span><span class="tag t-acc">${esc(z.tipo)}</span></div></div>
+        ${row('Abarca',`<p>${esc(z.provs)}</p>`)}${row('Situación',`<p>${md(z.situacion)}</p>`)}${row('Qué vigilar',`<p>${md(z.vigilar)}</p>`)}
+        ${row('Ciudades',cs.length?`<div class="where">${cs.map(c=>`<button class="chipbtn" data-cc="${CI.indexOf(c)}">${esc(c.n)}</button>`).join('')}</div>`:'<p class="muted">Sin ciudades destacadas.</p>')}
+        ${gg?row('Qué hacer',`<p><a href="#guia" data-goto="${gg.id}">Ver recomendaciones para ${esc(gg.nombre.toLowerCase())}</a></p>`):''}<p>${lnk('z-'+key,'Copiar enlace a esta zona')}</p>`;}
+    else{const c=CI[key];const z=ZD[c.zona];const gg=G.zonas.find(g=>g.id===z.guia);
+      $('#zficha').innerHTML=`<div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">Ciudad · ${esc(c.prov)}</span><h3>${esc(c.n)}</h3><div style="display:flex;gap:6px;flex-wrap:wrap"><span class="tag" style="background:var(--soft);color:var(--ink)"><span class="status" style="background:${NIV[c.nivel][1]};margin:0"></span>Riesgo estimado: ${NIV[c.nivel][0]}</span>${c.tipos.map(t=>`<span class="tag t-acc">${esc(TT[t]||t)}</span>`).join('')}</div></div>
+        ${row('Datos',`<p>${md(c.datos)}</p>`)}${row('Defensas',c.defensa&&c.defensa!=='—'?`<p>${md(c.defensa)}</p>`:'')}${row('Zona',`<p><button class="chipbtn" data-zz="${c.zona}">${esc(z.nombre)}</button></p>`)}
+        ${gg?row('Qué hacer',`<p><a href="#guia" data-goto="${gg.id}">Ver recomendaciones para ${esc(gg.nombre.toLowerCase())}</a></p>`):''}${row('Fuentes',c.fuentes?`<p class="small src">${md(c.fuentes)}</p>`:'<p class="small muted">Sin fuente específica: dato de contexto de la zona.</p>')}<p>${lnk('c-'+slug(c.n),'Copiar enlace a '+esc(c.n))}</p>`;}
+  };
+  const zjump=()=>{if(window.innerWidth<=860)$('#zficha').scrollIntoView({block:'start'})};
+  zsvg.addEventListener('click',e=>{const c=e.target.closest('.city');if(c){zsel('c',+c.dataset.c);zjump();return}const z=e.target.closest('.zn');if(z){zsel('z',z.dataset.z);zjump()}});
+  zsvg.addEventListener('keydown',e=>{if(e.key!=='Enter'&&e.key!==' ')return;const t=e.target;if(t.classList.contains('city')){e.preventDefault();zsel('c',+t.dataset.c)}else if(t.classList.contains('zn')){e.preventDefault();zsel('z',t.dataset.z)}});
+  $('#zficha').addEventListener('click',e=>{const a=e.target.closest('[data-cc]');if(a)zsel('c',+a.dataset.cc);const b=e.target.closest('[data-zz]');if(b)zsel('z',b.dataset.zz)});
+  document.addEventListener('click',e=>{const a=e.target.closest('[data-goto]');if(a)gzs(a.dataset.goto)});
+  document.querySelectorAll('#zonas [data-zl]').forEach(b=>b.onclick=()=>{const on=b.getAttribute('aria-pressed')!=='true';b.setAttribute('aria-pressed',on);const g={z:'#zl',c:'#cl',d:'#dl'}[b.dataset.zl];zsvg.querySelector(g).style.display=on?'':'none'});
+  $('#clist').innerHTML=['critico','alto','medio','bajo'].map(n=>{const cs=CI.map((c,i)=>[c,i]).filter(([c])=>c.nivel===n);return cs.length?`<div class="grp"><span class="tag" style="background:var(--soft);color:var(--ink)"><span class="status" style="background:${NIV[n][1]};margin:0"></span>${NIV[n][0]}</span>${cs.map(([c,i])=>`<button class="chipbtn" data-ci="${i}">${esc(c.n)}</button>`).join('')}</div>`:''}).join('');
+  $('#clist').addEventListener('click',e=>{const b=e.target.closest('[data-ci]');if(b){zsel('c',+b.dataset.ci);$('#zficha').scrollIntoView({block:'nearest'})}});
+  zsel('z','parana_nea');
+
+  // evaluación
+  const evs=i=>{const j=EV.jur[i];
+    $('#evficha').innerHTML=`<div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">Evaluación</span><h3>${esc(j.nombre)}</h3><p class="lead">${md(j.conclusion)}</p></div>
+      <div class="two"><div class="row"><span class="lbl">Lo que se hizo bien</span>${ul(j.bien)}</div><div class="row"><span class="lbl">Lo que falta o llegó tarde</span>${ul(j.mal)}</div></div>
+      <div class="row"><span class="lbl">Criterio por criterio</span>${EV.criterios.map(c=>{const x=j.m[c.id]||{m:'sin_datos',t:'Sin datos hallados.'};return `<div class="critrow"><strong>${esc(c.nombre)}</strong><span><span class="mk ${x.m}">${esc(EV.marcas[x.m])}</span></span><p class="small">${md(x.t)}</p></div>`}).join('')}</div>
+      ${j.fuentes.length?`<div class="row"><span class="lbl">Fuentes</span><p class="small src">${j.fuentes.map(md).join(' · ')}</p></div>`:''}
+      <p class="small muted">Marcas y conclusión: evaluación propia con los hechos citados.</p><p>${lnk('e-'+slug(j.nombre),'Copiar enlace a esta evaluación')}</p>`;
+    document.querySelectorAll('#evaluacion tr[data-j]').forEach(r=>r.classList.toggle('on',r.dataset.j==i));};
+  document.querySelectorAll('#evaluacion tr[data-j]').forEach(r=>{r.onclick=()=>{evs(+r.dataset.j);if(window.innerWidth<=860)$('#evficha').scrollIntoView({block:'start'})};r.onkeydown=e=>{if(e.key==='Enter'){evs(+r.dataset.j)}}});
+  evs(0);
+
+  // gráfico de ríos
+  const rch=name=>{const r=D.rios.find(x=>x.puerto===name);if(!r)return;const H=r.hist||[],PJ=r.proy||[];
+    const pts=[...H.map(x=>({d:x[0],v:x[1],p:0})),...PJ.map(x=>({d:x[0],v:x[1],p:1}))];
+    const t=d=>new Date(d+'T12:00:00').getTime();const t0=Math.min(...pts.map(x=>t(x.d))),t1=Math.max(...pts.map(x=>t(x.d)),t0+864e5*3);
+    const vals=[...pts.map(x=>x.v),r.alerta,r.evac,r.record].filter(v=>v!=null);let lo=Math.floor(Math.min(...vals)-0.4),hi=Math.ceil(Math.max(...vals)+0.3);
+    const W=640,Hh=260,L=44,R=86,T=14,B=30;const X=d=>L+(t(d)-t0)/(t1-t0)*(W-L-R),Y=v=>T+(1-(v-lo)/(hi-lo))*(Hh-T-B);
+    let g='';const step=(hi-lo)>8?2:(hi-lo)>4?1:0.5;
+    for(let v=Math.ceil(lo/step)*step;v<=hi+1e-9;v+=step){g+=`<line x1="${L}" x2="${W-R}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--line)"/><text x="${L-6}" y="${Y(v)+4}" text-anchor="end" font-size="11" fill="var(--muted)" font-family="IBM Plex Mono,monospace">${fm(v)}</text>`}
+    const ln=(v,c,l)=>v!=null?`<line x1="${L}" x2="${W-R}" y1="${Y(v)}" y2="${Y(v)}" stroke="${c}" stroke-width="1.8" stroke-dasharray="5 4"/><text x="${W-R+6}" y="${Y(v)+4}" font-size="11" fill="${c}" font-family="IBM Plex Mono,monospace">${l} ${fm(v)}</text>`:'';
+    g+=ln(r.record,'var(--muted)','Récord')+ln(r.evac,'var(--evac)','Evac.')+ln(r.alerta,'var(--alert)','Alerta');
+    const days=Math.round((t1-t0)/864e5);const dstep=days>20?7:days>8?3:1;
+    for(let k=0;k<=days;k+=dstep){const dt=new Date(t0+k*864e5);const x=L+(k*864e5)/(t1-t0)*(W-L-R);g+=`<text x="${x}" y="${Hh-8}" text-anchor="middle" font-size="11" fill="var(--muted)" font-family="IBM Plex Mono,monospace">${dt.getDate()}/${dt.getMonth()+1}</text>`}
+    if(H.length>1)g+=`<polyline fill="none" stroke="var(--water)" stroke-width="3" points="${H.map(x=>X(x[0])+','+Y(x[1])).join(' ')}"/>`;
+    if(PJ.length&&H.length)g+=`<polyline fill="none" stroke="var(--water)" stroke-width="2.5" stroke-dasharray="6 5" points="${[H[H.length-1],...PJ].map(x=>X(x[0])+','+Y(x[1])).join(' ')}"/>`;
+    pts.forEach((x,i)=>{g+=`<circle cx="${X(x.d)}" cy="${Y(x.v)}" r="${x.p?4:5}" fill="${x.p?'var(--panel)':'var(--water)'}" stroke="var(--water)" stroke-width="2"/>`;if(i===pts.length-1||!x.p&&i===H.length-1||pts.length<=6)g+=`<text x="${X(x.d)}" y="${Y(x.v)-10}" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--ink)" font-family="IBM Plex Mono,monospace">${fm(x.v)}</text>`});
+    $('#rchart').innerHTML=`<svg viewBox="0 0 ${W} ${Hh}" role="img" aria-label="Evolución de la altura en ${esc(name)}">${g}</svg><p class="small">${esc(name)}: ${H.length} mediciones${PJ.length?` y ${PJ.length} proyecciones (línea punteada)`:''}.${H.length<2?' Con una sola medición todavía no hay curva; se completa con las próximas actualizaciones.':''}</p>`;
+    document.querySelectorAll('#rsel [data-r]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.r===name));};
+  document.querySelectorAll('#rsel [data-r]').forEach(b=>b.onclick=()=>rch(b.dataset.r));rch('Corrientes');
+
+  // copiar enlaces
+  const toast=t=>{const d=document.createElement('div');d.className='toast';d.setAttribute('role','status');d.textContent=t;document.body.appendChild(d);setTimeout(()=>d.remove(),2600)};
+  document.addEventListener('click',e=>{const b=e.target.closest('.lnk');if(!b)return;const url=BASE+'#'+b.dataset.link;
+    const ok=()=>toast('Enlace copiado');const fail=()=>{toast('Copiá este enlace: '+url)};
+    try{navigator.clipboard.writeText(url).then(ok,fail)}catch(_){fail()}});
+
+  // índice activo y ancla inicial
+  const links=[...document.querySelectorAll('#idx a')];
+  const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id));const a=links.find(a=>a.classList.contains('on'));const nv=$('#idx');if(a&&nv)nv.scrollTo({left:Math.max(0,a.offsetLeft-24)})}})},{rootMargin:'-45% 0px -50% 0px'});
+  document.querySelectorAll('section.blk').forEach(s=>io.observe(s));
+  const hs=(location.hash||'').slice(1);
+  const go=id=>setTimeout(()=>{const el=document.getElementById(id);if(el)el.scrollIntoView()},60);
+  if(hs.startsWith('p-')){const n=Object.keys(P).find(k=>'p-'+slug(k)===hs);if(n){ficha(n);go('mapa')}}
+  else if(hs.startsWith('z-')){const k=hs.slice(2);if(ZD[k]){zsel('z',k);go('zonas')}}
+  else if(hs.startsWith('c-')){const i=CI.findIndex(c=>'c-'+slug(c.n)===hs);if(i>=0){zsel('c',i);go('zonas')}}
+  else if(hs.startsWith('e-')){const i=EV.jur.findIndex(j=>'e-'+slug(j.nombre)===hs);if(i>=0){evs(i);go('evaluacion')}}
+  else if(hs==='historial'){const d=document.getElementById('historial');if(d){d.open=true;go('historial')}}
+  else if(hs&&document.getElementById(hs))go(hs);
+}
+})();
+</script>
+
+</body>
+</html>
