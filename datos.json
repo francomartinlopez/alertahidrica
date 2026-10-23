@@ -7,7 +7,8 @@
   "autor": "Franco Martín López",
   "version": 7,
   "cambios": [
-   "Nueva sección: economías regionales (miel, yerba, tabaco, té, verduras, arroz, algodón, hacienda, lechería, pesca, forestal, cítricos, caña, vino y fruta)."
+   "Nueva sección: economías regionales (miel, yerba, tabaco, té, verduras, arroz, algodón, hacienda, lechería, pesca, forestal, cítricos, caña, vino y fruta).",
+   "Apicultura: los productores isleños del Paraná dan la campaña por perdida."
   ]
  },
  "alerta": {
@@ -2992,6 +2993,18 @@
     {
      "t": "Perfil, 19 oct",
      "u": "https://www.perfil.com/noticias/amp/nea/familias-cruzan-a-corrientes-por-la-crecida-del-parana-y-piden-ayuda-para-la-costa-chaquena.phtml"
+    },
+    {
+     "t": "Análisis Digital, apicultores evacúan colmenas (22 oct)",
+     "u": "https://www.analisisdigital.com.ar/economia/2026/10/22/apicultores-evacuan-miles-de-abejas-por-la-creciente-del-parana-y-preven-fuertes-perdidas"
+    },
+    {
+     "t": "Debate Pregón, creciente y apicultura (22 oct)",
+     "u": "https://www.diariodebatepregon.com/provinciales/la-creciente-del-parana-golpea-a-la-apicultura-trasladan-cientos-de-colmenas-y-advierten-por-importantes-perdidas"
+    },
+    {
+     "t": "Diario Necochea, pérdidas apícolas (12 may)",
+     "u": "https://diarionecochea.com/2026/05/12/las-inundaciones-dejaron-perdidas-millonarias-a-apicultores-de-la-zona/"
     }
    ]
   }
@@ -5666,7 +5679,7 @@
   "nota": "Registro armado con notas de prensa; no existe un conteo oficial de eventos de granizo, viento o tornados. Para el pronóstico, seguí las alertas del SMN, que incluyen granizo y ráfagas dentro de las alertas por tormentas."
  },
  "economias": {
-  "tesis": "**El daño ya es real en la miel, la verdura, el tabaco y la hacienda de islas; en yerba, arroz y fruta todavía es riesgo.** Casi nadie mide las pérdidas: no hay balances oficiales por actividad.",
+  "tesis": "**El daño ya es real en la miel, la verdura, el tabaco y la hacienda de islas: los apicultores isleños del Paraná dan el año por perdido.** En yerba, arroz y fruta todavía es riesgo. Casi nadie mide las pérdidas: no hay balances oficiales por actividad.",
   "estados": {
    "dano": [
     "Daño registrado",
@@ -5707,15 +5720,17 @@
      "Centro",
      "NEA"
     ],
-    "provs": "Santa Fe, Córdoba, Entre Ríos, Chaco, Santiago del Estero",
+    "provs": "Santa Fe, Entre Ríos, Córdoba, Buenos Aires, Chaco, Santiago del Estero",
     "estado": "dano",
-    "amenaza": "Anegamiento de apiarios, caminos cortados, enfermedades por humedad",
-    "resumen": "En el norte santafesino los apiarios quedaron aislados por el agua desde abril; no hay mortandad masiva reportada ni cifras de colmenas perdidas.",
+    "amenaza": "Crecida del Paraná en islas, anegamiento de apiarios, caminos cortados, enfermedades por humedad",
+    "resumen": "Los apicultores de las islas del Paraná sacan sus colmenas contra reloj y dan el año por perdido: una cooperativa de San Javier espera cosechar 10 tambores de miel en vez de 150.",
     "hoy": [
+     "**Islas del Paraná, San Javier (22 oct):** la Cooperativa Apícola Granjera San Javier (seis productores, más de 1.200 colmenas) ya sacó entre 600 y 700 colmenas a tierra firme en una lancha que lleva 250 por viaje. Espera pasar de unos 150 tambores de 300 kg de miel a unos 10, y perder entre 20% y 30% de las abejas. “Para el productor isleño el año ya está perdido”, dijo Raúl Ariel Pérez. Las colmenas van a campos ganaderos con poca flor, justo en el pico de floración (noviembre a abril). Son estimaciones de la cooperativa; no hay balance del sector. [Análisis Digital, 22 oct](https://www.analisisdigital.com.ar/economia/2026/10/22/apicultores-evacuan-miles-de-abejas-por-la-creciente-del-parana-y-preven-fuertes-perdidas) · [Debate Pregón, 22 oct](https://www.diariodebatepregon.com/provinciales/la-creciente-del-parana-golpea-a-la-apicultura-trasladan-cientos-de-colmenas-y-advierten-por-importantes-perdidas)",
      "**Norte de Santa Fe (abril):** apiarios inaccesibles en Malabrigo, Villa Minetti, Reconquista, Tostado y el límite con Santiago del Estero. No se podía alimentar, tratar ni revisar las colmenas. La cooperativa local dijo que el daño real todavía no se puede dimensionar. [Bichos de Campo, 29 abr](https://bichosdecampo.com/las-inundaciones-golpean-a-otra-economia-regional-la-apicultura-del-norte-santafesino-entra-en-una-etapa-critica-por-los-campos-anegados/) · [El Litoral, 30 abr](https://www.ellitoral.com/campolitoral/apicultura-anegamiento-apiarios-precipitaciones_0_BIwcaTOARv.html)",
-     "**Octubre:** se reforzaron las recomendaciones para proteger apiarios de las inundaciones ante el Niño; el riesgo señalado es la pérdida de colmenas por agua, enfermedades favorecidas por la humedad (nosemosis) y pillaje. [Bichos de Campo, 16 oct](https://bichosdecampo.com/el-nino-tambien-amenaza-a-las-abejas-y-se-refuerzan-las-recomendaciones-para-proteger-los-apiarios-de-las-inundaciones/)"
+     "**Octubre:** se reforzaron las recomendaciones para proteger apiarios de las inundaciones ante el Niño; el riesgo señalado es la pérdida de colmenas por agua, enfermedades favorecidas por la humedad (nosemosis) y pillaje. [Bichos de Campo, 16 oct](https://bichosdecampo.com/el-nino-tambien-amenaza-a-las-abejas-y-se-refuerzan-las-recomendaciones-para-proteger-los-apiarios-de-las-inundaciones/)",
+     "**Necochea, Buenos Aires (mayo):** un apicultor de Energía perdió más de 200 colmenas por las lluvias del otoño, unos $25 M según su estimación. [Diario Necochea, 12 may](https://diarionecochea.com/2026/05/12/las-inundaciones-dejaron-perdidas-millonarias-a-apicultores-de-la-zona/)"
     ],
-    "riesgo": "Con lluvias seguidas las abejas salen menos a pecorear y consumen reservas; si el agua corta caminos, el apicultor no llega a alimentar. Las colmenas en bajos pueden perderse enteras.",
+    "riesgo": "La crecida del Paraná se extendería durante toda la floración de verano: las colmenas sacadas de las islas producen poco en campos sin flor y las que quedan pueden perderse. Fuera de las islas, las lluvias seguidas hacen que las abejas consuman reservas y los caminos cortados impiden alimentarlas.",
     "historico": [],
     "medidas": [
      "Santa Fe habilitó para apicultores el trámite de emergencia por la plataforma Proap (plazo vencido el 30 de junio). [Bichos de Campo, 5 may](https://bichosdecampo.com/luego-de-varias-idas-y-vueltas-santa-fe-declaro-la-emergencia-agropecuaria-en-el-norte-provincial-y-anuncio-alivios-impositivos-para-los-productores-afectados/)"
@@ -5728,9 +5743,9 @@
     ],
     "rec_fuente": "[Bichos de Campo, 29 abr](https://bichosdecampo.com/las-inundaciones-golpean-a-otra-economia-regional-la-apicultura-del-norte-santafesino-entra-en-una-etapa-critica-por-los-campos-anegados/) · [Bichos de Campo, 16 oct](https://bichosdecampo.com/el-nino-tambien-amenaza-a-las-abejas-y-se-refuerzan-las-recomendaciones-para-proteger-los-apiarios-de-las-inundaciones/)",
     "no_encontrado": [
-     "Cantidad de colmenas afectadas o perdidas en 2026, por provincia.",
-     "Estimación de pérdida de producción de miel.",
-     "Datos de Entre Ríos y Chaco."
+     "Cantidad total de colmenas en islas y colmenas evacuadas; solo hay una estimación no oficial de “cientos de miles” a lo largo del río.",
+     "Estimación de la campaña de miel 2026-27 de cámaras o del Estado.",
+     "Asistencia específica para apicultores isleños."
     ]
    },
    {
