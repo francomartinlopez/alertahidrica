@@ -1,14 +1,15 @@
 {
  "meta": {
   "titulo": "Súper Niño 2026-27 en Argentina",
-  "actualizado": "2026-10-22",
-  "actualizado_texto": "22 de octubre de 2026",
+  "actualizado": "2026-10-23",
+  "actualizado_texto": "23 de octubre de 2026",
   "proxima": "Se actualiza todos los días por la mañana.",
   "autor": "Franco Martín López",
-  "version": 7,
+  "version": 8,
   "cambios": [
-   "Nueva sección: economías regionales (miel, yerba, tabaco, té, verduras, arroz, algodón, hacienda, lechería, pesca, forestal, cítricos, caña, vino y fruta).",
-   "Apicultura: los productores isleños del Paraná dan la campaña por perdida."
+   "Alertas del SMN del viernes 23 de octubre: naranja por tormentas en Neuquén y Río Negro, amarilla en el NEA, CABA y Cuyo, y viento y zonda en el noroeste.",
+   "Neuquén y Río Negro: crece el río Neuquén, se desbordan arroyos y Rincón de los Sauces queda aislada.",
+   "Sin mediciones nuevas publicadas del Paraná ni cifras nuevas de evacuados al momento de la actualización; se mantienen los datos del 21 y 22 de octubre."
   ]
  },
  "alerta": {
@@ -92,6 +93,26 @@
  ],
  "hoy": [
   {
+   "fecha": "23 oct",
+   "f": "2026-10-23",
+   "lugar": "Neuquén y Río Negro",
+   "prov": "Neuquén",
+   "texto": "**Alerta naranja por tormentas** con acumulados de 60 a 100 mm. El río Neuquén superó el nivel de advertencia cerca de San Patricio del Chañar y podría acercarse a 750 m³/s en 48 horas; **Rincón de los Sauces quedó aislada** y en Río Negro se cerraron costaneras (Centenario, General Roca).",
+   "url": "https://www.lmneuquen.com/neuquen/alerta-naranja-se-desbordan-arroyos-y-el-rio-neuquen-llega-una-marca-peligro-n1258333",
+   "fuente": "LM Neuquén",
+   "tipo": "tormenta"
+  },
+  {
+   "fecha": "23 oct",
+   "f": "2026-10-23",
+   "lugar": "Varias provincias",
+   "prov": "",
+   "texto": "Alertas del SMN: **naranja por tormentas en Neuquén y Río Negro**, amarilla en Corrientes, Misiones, Chaco, Formosa, CABA y Mendoza, y amarilla por viento y zonda en el noroeste y Cuyo.",
+   "url": "https://www.lanacion.com.ar/sociedad/hay-alerta-naranja-y-amarilla-por-tormentas-vientos-y-zonda-para-este-viernes-23-de-octubre-las-nid23102026/",
+   "fuente": "La Nación",
+   "tipo": "tormenta"
+  },
+  {
    "fecha": "22 oct",
    "f": "2026-10-22",
    "lugar": "Neuquén",
@@ -110,26 +131,6 @@
    "url": "https://www.lacapital.com.ar/la-region/fuerte-temporal-granizo-localidades-santa-fe-piedras-del-tamano-un-huevo-destrozos-y-cortes-luz-n10288145.html",
    "fuente": "La Capital",
    "tipo": "tormenta"
-  },
-  {
-   "fecha": "10 a 12 oct",
-   "lugar": "Cataratas del Iguazú",
-   "texto": "**Unos 300 mm en dos días y medio**; el río superó 12.000 m³/s y se cerró el Parque Nacional.",
-   "url": "https://elargentinodiario.com.ar/medio-ambiente/cambio-climatico/12/10/2026/el-nino-inundo-la-garganta-del-diablo-tres-dias-de-lluvia-record-cerraron-las-cataratas-del-iguazu/",
-   "fuente": "El Argentino Diario",
-   "prov": "Misiones",
-   "tipo": "lluvia",
-   "f": "2026-10-12"
-  },
-  {
-   "fecha": "14 oct",
-   "lugar": "Puerto Iguazú y Paraguay",
-   "texto": "Río Iguazú en **32,20 m, 4,20 m sobre evacuación**. En Ciudad del Este, 650 familias afectadas y una muerte.",
-   "url": "https://www.conclusion.com.ar/?p=1462951",
-   "fuente": "Conclusión",
-   "prov": "Misiones",
-   "tipo": "rio",
-   "f": "2026-10-14"
   },
   {
    "fecha": "16 oct",
@@ -223,6 +224,26 @@
   }
  ],
  "eventos_previos": [
+  {
+   "fecha": "10 a 12 oct",
+   "lugar": "Cataratas del Iguazú",
+   "texto": "**Unos 300 mm en dos días y medio**; el río superó 12.000 m³/s y se cerró el Parque Nacional.",
+   "url": "https://elargentinodiario.com.ar/medio-ambiente/cambio-climatico/12/10/2026/el-nino-inundo-la-garganta-del-diablo-tres-dias-de-lluvia-record-cerraron-las-cataratas-del-iguazu/",
+   "fuente": "El Argentino Diario",
+   "prov": "Misiones",
+   "tipo": "lluvia",
+   "f": "2026-10-12"
+  },
+  {
+   "fecha": "14 oct",
+   "lugar": "Puerto Iguazú y Paraguay",
+   "texto": "Río Iguazú en **32,20 m, 4,20 m sobre evacuación**. En Ciudad del Este, 650 familias afectadas y una muerte.",
+   "url": "https://www.conclusion.com.ar/?p=1462951",
+   "fuente": "Conclusión",
+   "prov": "Misiones",
+   "tipo": "rio",
+   "f": "2026-10-14"
+  },
   {
    "fecha": "20 oct",
    "f": "2026-10-20",
@@ -2323,6 +2344,18 @@
     {
      "t": "Neuquén al Instante, rutas interrumpidas (20 oct)",
      "u": "https://www.neuquenalinstante.com.ar/noticias/2026/10/20/145304-lluvias-y-tormentas-en-la-provincia-hay-rutas-interrumpidas-y-sectores-con-circulacion-complicada"
+    },
+    {
+     "t": "LM Neuquén: alerta naranja, arroyos y río Neuquén",
+     "u": "https://www.lmneuquen.com/neuquen/alerta-naranja-se-desbordan-arroyos-y-el-rio-neuquen-llega-una-marca-peligro-n1258333"
+    },
+    {
+     "t": "Diario Neuquino: río Neuquén podría llegar a 750 m³/s",
+     "u": "https://diarioneuquino.com.ar/alerta-en-neuquen-el-rio-neuquen-podria-alcanzar-los-750-m%C2%B3-s-y-los-arroyos-registran-crecidas-extraordinarias/"
+    },
+    {
+     "t": "Diario Río Negro: Ruta 5 sigue cortada por el arroyo Carranza",
+     "u": "https://www.rionegro.com.ar/servicios/la-ruta-5-mantiene-el-corte-por-la-crecida-del-arroyo-carranza-como-estan-los-caminos-de-vaca-muerta-tras-la-lluvia-4766575/"
     }
    ]
   },
@@ -2368,6 +2401,14 @@
     {
      "t": "Defensa Civil de Neuquén, fuertes vientos",
      "u": "https://www.rionegro.com.ar/?p=810076"
+    },
+    {
+     "t": "La Nación: alertas del SMN del 23 de octubre",
+     "u": "https://www.lanacion.com.ar/sociedad/hay-alerta-naranja-y-amarilla-por-tormentas-vientos-y-zonda-para-este-viernes-23-de-octubre-las-nid23102026/"
+    },
+    {
+     "t": "El Cronista: alerta amarilla en Misiones, Corrientes y Formosa (23 de octubre)",
+     "u": "https://www.cronista.com/informacion-gral/se-aproximan-las-tormentas-daninas-a-misiones-corrientes-y-formosa-hay-alerta-amarilla-para-la-madrugada-y-manana-del-viernes-23-de-octubre/"
     }
    ]
   },
@@ -5113,29 +5154,9 @@
   "serie_fuente": "Corrientes, según Defensa Civil citada por [Perfil](https://www.perfil.com/noticias/amp/nea/crecida-del-rio-parana-supero-los-6-metros-en-la-capital-y-ya-hay-222-evacuados-en-corrientes.phtml), [Elonce](https://www.elonce.com/uid-889713), [Elonce](https://www.elonce.com/uid-889636), [Elonce](https://www.elonce.com/uid-889762) y [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/21/202420-corrientes-mas-de-mil-personas-fueron-evacuadas-por-la-crecida-de-los-rios-parana-y-uruguay)."
  },
  "alertas_smn": {
-  "fecha": "2026-10-22",
-  "texto": "jueves 22 de octubre",
+  "fecha": "2026-10-23",
+  "texto": "viernes 23 de octubre",
   "prov": {
-   "Buenos Aires": {
-    "nivel": "naranja",
-    "fen": "tormenta"
-   },
-   "Córdoba": {
-    "nivel": "naranja",
-    "fen": "tormenta"
-   },
-   "Corrientes": {
-    "nivel": "naranja",
-    "fen": "tormenta"
-   },
-   "Entre Ríos": {
-    "nivel": "naranja",
-    "fen": "tormenta"
-   },
-   "La Pampa": {
-    "nivel": "naranja",
-    "fen": "no especificado"
-   },
    "Neuquén": {
     "nivel": "naranja",
     "fen": "tormenta"
@@ -5144,21 +5165,17 @@
     "nivel": "naranja",
     "fen": "tormenta"
    },
-   "San Luis": {
-    "nivel": "naranja",
-    "fen": "tormenta"
-   },
-   "Santa Fe": {
-    "nivel": "naranja",
-    "fen": "tormenta"
-   },
    "Ciudad de Buenos Aires": {
     "nivel": "amarilla",
     "fen": "tormenta"
    },
-   "Catamarca": {
+   "Corrientes": {
     "nivel": "amarilla",
-    "fen": "viento y zonda"
+    "fen": "tormenta"
+   },
+   "Misiones": {
+    "nivel": "amarilla",
+    "fen": "tormenta"
    },
    "Chaco": {
     "nivel": "amarilla",
@@ -5168,36 +5185,36 @@
     "nivel": "amarilla",
     "fen": "tormenta"
    },
-   "Jujuy": {
-    "nivel": "amarilla",
-    "fen": "viento"
-   },
-   "La Rioja": {
-    "nivel": "amarilla",
-    "fen": "tormenta, viento y zonda"
-   },
    "Mendoza": {
     "nivel": "amarilla",
     "fen": "tormenta"
    },
-   "Misiones": {
+   "Jujuy": {
     "nivel": "amarilla",
-    "fen": "tormenta"
+    "fen": "viento"
    },
    "Salta": {
     "nivel": "amarilla",
     "fen": "viento"
    },
-   "San Juan": {
-    "nivel": "amarilla",
-    "fen": "viento y zonda"
-   },
    "Tucumán": {
     "nivel": "amarilla",
     "fen": "viento"
+   },
+   "Catamarca": {
+    "nivel": "amarilla",
+    "fen": "viento y zonda"
+   },
+   "La Rioja": {
+    "nivel": "amarilla",
+    "fen": "viento y zonda"
+   },
+   "San Juan": {
+    "nivel": "amarilla",
+    "fen": "viento y zonda"
    }
   },
-  "fuente": "[El Cronista, alertas del SMN para el 22 de octubre](https://www.cronista.com/informacion-gral/el-servicio-meteorologico-nacional-emitio-alertas-en-19-provincias-para-este-jueves-22-de-octubre-se-esperan-tormentas-lluvias-y-rafagas-de-viento-resumen-por-provincia/). Las alertas cambian varias veces por día: consultá [smn.gob.ar/alertas](https://www.smn.gob.ar/alertas)."
+  "fuente": "[La Nación, alertas del SMN para el 23 de octubre](https://www.lanacion.com.ar/sociedad/hay-alerta-naranja-y-amarilla-por-tormentas-vientos-y-zonda-para-este-viernes-23-de-octubre-las-nid23102026/) y [El Cronista, NEA](https://www.cronista.com/informacion-gral/se-aproximan-las-tormentas-daninas-a-misiones-corrientes-y-formosa-hay-alerta-amarilla-para-la-madrugada-y-manana-del-viernes-23-de-octubre/). Los medios difieren: Ámbito suma también Entre Ríos, Santa Fe, Córdoba, Buenos Aires, La Pampa y San Luis en amarilla. Las alertas cambian varias veces por día: consultá [smn.gob.ar/alertas](https://www.smn.gob.ar/alertas)."
  },
  "rutas": {
   "nota": "**No se encontró un parte oficial consolidado de rutas cortadas por la crecida.** Lista armada con notas de prensa; antes de viajar consultá a Vialidad Nacional, Vialidad provincial o la policía caminera.",
@@ -5572,11 +5589,36 @@
    ],
    "muertes": 3,
    "evac": "~2.300"
+  },
+  {
+   "v": 8,
+   "fecha": "2026-10-23",
+   "resumen": "Alertas del SMN del 23 de octubre y novedades de Neuquén y Río Negro (crecida del río Neuquén, Rincón de los Sauces aislada).",
+   "prob": [
+    45,
+    40,
+    15
+   ],
+   "muertes": 3,
+   "evac": "~2.300"
   }
  ],
  "tormentas": {
   "tesis": "**El Niño no solo trae agua: en primavera y verano también aumenta el riesgo de tormentas severas, con granizo grande y ráfagas.** Son eventos cortos y locales que golpean cultivos, techos, autos y la red eléctrica. En las ciudades, el mayor riesgo para la vida sigue siendo el anegamiento súbito que dejan esas tormentas.",
   "eventos": [
+   {
+    "f": "2026-10-23",
+    "fecha": "20 a 23 oct",
+    "lugar": "Centro y norte de Neuquén",
+    "prov": "Neuquén",
+    "tipos": [
+     "lluvia",
+     "granizo"
+    ],
+    "texto": "Varios días de tormentas con suelo saturado. Cerca de Piedra del Águila se acumularon **unos 50 cm de granizo** en uno o dos kilómetros de ruta. La provincia suspendió la circulación en **todas las rutas** desde las 20 del 22 de octubre.",
+    "danos": "Ruta Provincial 5 cortada por la crecida del arroyo Carranza; rutas 6 y 8 y accesos a Vaca Muerta afectados; **tres comunidades de pueblos originarios aisladas** (cerca de Piedra del Águila, Loncopué y Chos Malal); pacientes de diálisis y embarazadas sin poder volver a sus localidades; dificultades para llevar insumos a Rincón de los Sauces; clases suspendidas en Zapala. El arroyo Covunco creció de golpe (dos menores evacuados en El Puente y Covunco Abajo); Rincón de los Sauces quedó aislada. El río Neuquén superó el nivel de advertencia cerca de San Patricio del Chañar y podría llegar a 750 m³/s en 48 horas, por debajo del umbral de peligro; en Río Negro hubo costaneras cerradas y agua sobre las orillas en General Roca.",
+    "fuente": "[Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/22/357757-desde-la-secretaria-de-emergencia-advierten-que-el-riesgo-continuara) · [Neuquén Informa](https://www.neuqueninforma.gob.ar/noticias/2026/10/22/266053-por-las-tormentas-suspenden-el-transito-en-las-rutas-desde-las-20) · [LM Neuquén](https://www.lmneuquen.com/neuquen/alerta-naranja-se-desbordan-arroyos-y-el-rio-neuquen-llega-una-marca-peligro-n1258333) · [Diario Río Negro](https://www.rionegro.com.ar/servicios/la-ruta-5-mantiene-el-corte-por-la-crecida-del-arroyo-carranza-como-estan-los-caminos-de-vaca-muerta-tras-la-lluvia-4766575/) · [Diario Neuquino](https://diarioneuquino.com.ar/alerta-en-neuquen-el-rio-neuquen-podria-alcanzar-los-750-m%C2%B3-s-y-los-arroyos-registran-crecidas-extraordinarias/)"
+   },
    {
     "f": "2026-10-22",
     "fecha": "22 oct",
@@ -5589,19 +5631,6 @@
     "texto": "**Granizo del tamaño de un huevo** en Rafaela, Ataliva, Colonia Bigand, Susana y Ramona, y en Freyre y Porteña (Córdoba). Una franja de granizo de 3 a 5 km cruzó el departamento San Justo.",
     "danos": "Maíz y girasol dañados entre Videla y San Justo; en Fortín Olmos murieron ovejas, cabras y aves. Viviendas anegadas y techos dañados en Ataliva (una familia evacuada, clases suspendidas); voladuras de techos en Colonia Mascías; autos abollados en Rafaela; cortes de luz breves.",
     "fuente": "[La Capital](https://www.lacapital.com.ar/la-region/fuerte-temporal-granizo-localidades-santa-fe-piedras-del-tamano-un-huevo-destrozos-y-cortes-luz-n10288145.html) · [Elonce](https://www.elonce.com/sociedad/temporal-en-santa-fe-granizo-destruyo-cultivos-mato-animales-y-provoco-danos-en-viviendas.htm)"
-   },
-   {
-    "f": "2026-10-22",
-    "fecha": "20 a 22 oct",
-    "lugar": "Centro y norte de Neuquén",
-    "prov": "Neuquén",
-    "tipos": [
-     "lluvia",
-     "granizo"
-    ],
-    "texto": "Varios días de tormentas con suelo saturado. Cerca de Piedra del Águila se acumularon **unos 50 cm de granizo** en uno o dos kilómetros de ruta. La provincia suspendió la circulación en **todas las rutas** desde las 20 del 22 de octubre.",
-    "danos": "Ruta Provincial 5 cortada por la crecida del arroyo Carranza; rutas 6 y 8 y accesos a Vaca Muerta afectados; **tres comunidades de pueblos originarios aisladas** (cerca de Piedra del Águila, Loncopué y Chos Malal); pacientes de diálisis y embarazadas sin poder volver a sus localidades; dificultades para llevar insumos a Rincón de los Sauces; clases suspendidas en Zapala.",
-    "fuente": "[Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/22/357757-desde-la-secretaria-de-emergencia-advierten-que-el-riesgo-continuara) · [Neuquén Informa](https://www.neuqueninforma.gob.ar/noticias/2026/10/22/266053-por-las-tormentas-suspenden-el-transito-en-las-rutas-desde-las-20)"
    },
    {
     "f": "2026-10-07",
