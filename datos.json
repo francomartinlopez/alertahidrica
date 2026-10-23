@@ -5,10 +5,9 @@
   "actualizado_texto": "22 de octubre de 2026",
   "proxima": "Se actualiza todos los días por la mañana.",
   "autor": "Franco Martín López",
-  "version": 6,
+  "version": 7,
   "cambios": [
-   "Tercera muerte: un trabajador rural en Villa Ocampo, Santa Fe.",
-   "Nuevas secciones: evolución de ríos, evacuados, alertas, rutas, impacto, salud, fondos, glosario e historial."
+   "Nueva sección: economías regionales (miel, yerba, tabaco, té, verduras, arroz, algodón, hacienda, lechería, pesca, forestal, cítricos, caña, vino y fruta)."
   ]
  },
  "alerta": {
@@ -2020,6 +2019,10 @@
     {
      "t": "p",
      "x": "**Brecha de rindes entre años Niño y Niña** (Fundación Mediterránea): Entre Ríos tiene la mayor en maíz, casi 39 puntos; Santa Fe 23 en maíz y 19,7 en soja; Córdoba 22,3 en soja. [Bichos de Campo](https://bichosdecampo.com/el-super-nino-promete-pero-todavia-no-firma-el-cheque-falta-agua-antes-del-diluvio-esperado-y-la-gran-campana-sigue-mirando-el-pronostico/)"
+    },
+    {
+     "t": "p",
+     "x": "Detalle por actividad, con daños de esta temporada y fuentes: [Economías regionales](#economias)."
     }
    ]
   },
@@ -2932,6 +2935,63 @@
     {
      "t": "Mundo Marítimo, bajante de 2021",
      "u": "https://mundomaritimo.cl/noticias/editor/42113"
+    }
+   ]
+  },
+  {
+   "grupo": "Economías regionales",
+   "items": [
+    {
+     "t": "Bichos de Campo, 16 oct",
+     "u": "https://bichosdecampo.com/el-nino-tambien-amenaza-a-las-abejas-y-se-refuerzan-las-recomendaciones-para-proteger-los-apiarios-de-las-inundaciones/"
+    },
+    {
+     "t": "Bichos de Campo, 29 abr",
+     "u": "https://bichosdecampo.com/las-inundaciones-golpean-a-otra-economia-regional-la-apicultura-del-norte-santafesino-entra-en-una-etapa-critica-por-los-campos-anegados/"
+    },
+    {
+     "t": "El Litoral, 30 abr",
+     "u": "https://www.ellitoral.com/campolitoral/apicultura-anegamiento-apiarios-precipitaciones_0_BIwcaTOARv.html"
+    },
+    {
+     "t": "iProfesional, 16 oct",
+     "u": "https://www.iprofesional.com/economia/466721-como-impacta-el-super-nino-en-yerba-tabaco-frutas-y-verduras"
+    },
+    {
+     "t": "Primera Edición, 25 jul",
+     "u": "https://www.primeraedicion.com.ar/nota/101126071/el-fenomeno-el-nino-amenaza-la-logistica-de-la-zafra-yerbatera/"
+    },
+    {
+     "t": "Primera Edición, 7 ago",
+     "u": "https://www.primeraedicion.com.ar/nota/101130210/granizada-implacable-en-pozo-azul/"
+    },
+    {
+     "t": "Elonce, 20 abr",
+     "u": "https://www.elonce.com/uid-871755"
+    },
+    {
+     "t": "Bichos de Campo, 5 may",
+     "u": "https://bichosdecampo.com/luego-de-varias-idas-y-vueltas-santa-fe-declaro-la-emergencia-agropecuaria-en-el-norte-provincial-y-anuncio-alivios-impositivos-para-los-productores-afectados/"
+    },
+    {
+     "t": "Bichos de Campo, ene 2024",
+     "u": "https://bichosdecampo.com/en-corrientes-hay-10-000-hectareas-de-arroz-tapadas-por-el-agua-el-ano-pasado-se-habian-perdido-el-doble-pero-por-la-sequia"
+    },
+    {
+     "t": "Sitio Andino, 2 ago",
+     "u": "https://www.sitioandino.com.ar/economia/un-super-nino-amenaza-al-agro-mendocino-tormentas-mas-violentas-y-granizo-n5727368"
+    },
+    {
+     "t": "Sitio Andino, sep 2025",
+     "u": "https://www.sitioandino.com.ar/economia/atencion-productores-el-gobierno-mendoza-habilito-un-registro-la-severa-tormenta-granizo-n5708698"
+    },
+    {
+     "t": "La Nación, 19 mar",
+     "u": "https://www.lanacion.com.ar/economia/campo/tuvo-una-fuerza-descomunal-una-potente-tormenta-de-granizo-barrio-una-region-productiva-nid18032026/"
+    },
+    {
+     "t": "Perfil, 19 oct",
+     "u": "https://www.perfil.com/noticias/amp/nea/familias-cruzan-a-corrientes-por-la-crecida-del-parana-y-piden-ayuda-para-la-costa-chaquena.phtml"
     }
    ]
   }
@@ -5469,6 +5529,18 @@
    ],
    "muertes": 3,
    "evac": "~2.300"
+  },
+  {
+   "v": 7,
+   "fecha": "2026-10-22",
+   "resumen": "Nueva sección de economías regionales: daños y riesgos por actividad, con emergencias agropecuarias provinciales.",
+   "prob": [
+    45,
+    40,
+    15
+   ],
+   "muertes": 3,
+   "evac": "~2.300"
   }
  ],
  "tormentas": {
@@ -5592,5 +5664,498 @@
    "**No se encontró un registro consolidado** de usuarios sin luz por temporales en el país."
   ],
   "nota": "Registro armado con notas de prensa; no existe un conteo oficial de eventos de granizo, viento o tornados. Para el pronóstico, seguí las alertas del SMN, que incluyen granizo y ráfagas dentro de las alertas por tormentas."
+ },
+ "economias": {
+  "tesis": "**El daño ya es real en la miel, la verdura, el tabaco y la hacienda de islas; en yerba, arroz y fruta todavía es riesgo.** Casi nadie mide las pérdidas: no hay balances oficiales por actividad.",
+  "estados": {
+   "dano": [
+    "Daño registrado",
+    "t-evac"
+   ],
+   "riesgo": [
+    "En riesgo",
+    "t-alert"
+   ],
+   "mixto": [
+    "Mixto",
+    "t-mid"
+   ],
+   "favorable": [
+    "Favorable",
+    "t-ok"
+   ],
+   "sin_datos": [
+    "Sin datos",
+    "t-nd"
+   ]
+  },
+  "regiones": [
+   "NEA",
+   "Litoral",
+   "Centro",
+   "NOA",
+   "Cuyo",
+   "Patagonia"
+  ],
+  "nota": "El estado es una **estimación propia** a partir de lo publicado: “daño registrado” significa que hay al menos un reporte fechado en 2026 de pérdidas en esa actividad, aunque no esté cuantificado. Las cifras de productores o cámaras se indican como tales; no son datos oficiales. Los antecedentes de años anteriores se marcan con su año.",
+  "items": [
+   {
+    "id": "apicultura",
+    "actividad": "Apicultura (miel)",
+    "region": [
+     "Litoral",
+     "Centro",
+     "NEA"
+    ],
+    "provs": "Santa Fe, Córdoba, Entre Ríos, Chaco, Santiago del Estero",
+    "estado": "dano",
+    "amenaza": "Anegamiento de apiarios, caminos cortados, enfermedades por humedad",
+    "resumen": "En el norte santafesino los apiarios quedaron aislados por el agua desde abril; no hay mortandad masiva reportada ni cifras de colmenas perdidas.",
+    "hoy": [
+     "**Norte de Santa Fe (abril):** apiarios inaccesibles en Malabrigo, Villa Minetti, Reconquista, Tostado y el límite con Santiago del Estero. No se podía alimentar, tratar ni revisar las colmenas. La cooperativa local dijo que el daño real todavía no se puede dimensionar. [Bichos de Campo, 29 abr](https://bichosdecampo.com/las-inundaciones-golpean-a-otra-economia-regional-la-apicultura-del-norte-santafesino-entra-en-una-etapa-critica-por-los-campos-anegados/) · [El Litoral, 30 abr](https://www.ellitoral.com/campolitoral/apicultura-anegamiento-apiarios-precipitaciones_0_BIwcaTOARv.html)",
+     "**Octubre:** se reforzaron las recomendaciones para proteger apiarios de las inundaciones ante el Niño; el riesgo señalado es la pérdida de colmenas por agua, enfermedades favorecidas por la humedad (nosemosis) y pillaje. [Bichos de Campo, 16 oct](https://bichosdecampo.com/el-nino-tambien-amenaza-a-las-abejas-y-se-refuerzan-las-recomendaciones-para-proteger-los-apiarios-de-las-inundaciones/)"
+    ],
+    "riesgo": "Con lluvias seguidas las abejas salen menos a pecorear y consumen reservas; si el agua corta caminos, el apicultor no llega a alimentar. Las colmenas en bajos pueden perderse enteras.",
+    "historico": [],
+    "medidas": [
+     "Santa Fe habilitó para apicultores el trámite de emergencia por la plataforma Proap (plazo vencido el 30 de junio). [Bichos de Campo, 5 may](https://bichosdecampo.com/luego-de-varias-idas-y-vueltas-santa-fe-declaro-la-emergencia-agropecuaria-en-el-norte-provincial-y-anuncio-alivios-impositivos-para-los-productores-afectados/)"
+    ],
+    "recomendaciones": [
+     "Mover los apiarios de bajos y costas de ríos a lugares altos antes de la ventana de noviembre y diciembre.",
+     "Usar caballetes o soportes elevados y revisar que las colmenas tengan reservas.",
+     "Si los caminos se cortan, priorizar llegar aunque sea a pie para alimentar con azúcar seca o caramelo y hacer los tratamientos.",
+     "Mantener al día el registro en RENAPA: es la base para pedir asistencia."
+    ],
+    "rec_fuente": "[Bichos de Campo, 29 abr](https://bichosdecampo.com/las-inundaciones-golpean-a-otra-economia-regional-la-apicultura-del-norte-santafesino-entra-en-una-etapa-critica-por-los-campos-anegados/) · [Bichos de Campo, 16 oct](https://bichosdecampo.com/el-nino-tambien-amenaza-a-las-abejas-y-se-refuerzan-las-recomendaciones-para-proteger-los-apiarios-de-las-inundaciones/)",
+    "no_encontrado": [
+     "Cantidad de colmenas afectadas o perdidas en 2026, por provincia.",
+     "Estimación de pérdida de producción de miel.",
+     "Datos de Entre Ríos y Chaco."
+    ]
+   },
+   {
+    "id": "yerba",
+    "actividad": "Yerba mate",
+    "region": [
+     "NEA"
+    ],
+    "provs": "Misiones, norte de Corrientes",
+    "estado": "riesgo",
+    "amenaza": "Plagas por humedad (rulo), caminos rurales intransitables en la zafra",
+    "resumen": "Productores e INTA esperan una baja marcada por el rulo, una plaga que prospera con la humedad. La logística de cosecha es el otro cuello de botella.",
+    "hoy": [
+     "**Octubre:** productores e investigadores del INTA-CONICET (EEA Montecarlo) esperan una baja marcada de producción por el **rulo** (psílido de la yerba), favorecido por la humedad; algunos podrían perder la chacra completa. Todavía no hay balance cuantificado. [iProfesional, 16 oct](https://www.iprofesional.com/economia/466721-como-impacta-el-super-nino-en-yerba-tabaco-frutas-y-verduras)",
+     "**Julio:** el INTA Cerro Azul advirtió que las lluvias amenazan la **logística de la zafra**: caminos de tierra intransitables y la cosecha mecanizada como la más vulnerable. [Primera Edición, 25 jul](https://www.primeraedicion.com.ar/nota/101126071/el-fenomeno-el-nino-amenaza-la-logistica-de-la-zafra-yerbatera/)"
+    ],
+    "riesgo": "Menos hoja verde cosechada y más cara de sacar del campo; demoras en la llegada a secaderos.",
+    "historico": [
+     "Entre 2015 y 2024 los eventos Niño dejaron en Misiones USD 208 M de pérdidas y más de 30.000 ha de yerba afectadas.",
+     "En diciembre de 2022 productores de APAM estimaron pérdidas de 15% a 20% de la producción total. [iProfesional, 16 oct](https://www.iprofesional.com/economia/466721-como-impacta-el-super-nino-en-yerba-tabaco-frutas-y-verduras)"
+    ],
+    "medidas": [],
+    "recomendaciones": [],
+    "rec_fuente": "",
+    "no_encontrado": [
+     "Estimación del INYM para la zafra 2026-27.",
+     "Medidas provinciales específicas para yerbateros."
+    ]
+   },
+   {
+    "id": "tabaco",
+    "actividad": "Tabaco",
+    "region": [
+     "NEA"
+    ],
+    "provs": "Misiones, Corrientes",
+    "estado": "dano",
+    "amenaza": "Granizo sobre almácigos y trasplante; exceso de agua en cosecha y acopio",
+    "resumen": "El granizo ya destruyó almácigos y plantas trasplantadas en Misiones. Los tabacaleros lo ven como el cultivo con el panorama más difícil.",
+    "hoy": [
+     "**6 de agosto, Pozo Azul (Misiones):** una granizada destruyó plantines en invernáculos y plantas ya trasplantadas de decenas de pequeños productores, sobre todo en Colonia Mondorí; el municipio no pudo cuantificar el daño y el relevamiento siguió con el Ministerio del Agro. [Primera Edición, 7 ago](https://www.primeraedicion.com.ar/nota/101130210/granizada-implacable-en-pozo-azul/)",
+     "**Octubre:** nuevo granizo dañó plantaciones en el norte de Misiones que, según los tabacaleros, difícilmente se recuperen. La cosecha (noviembre y diciembre) y el acopio (enero) caen justo en la ventana de mayor lluvia. [iProfesional, 16 oct](https://www.iprofesional.com/economia/466721-como-impacta-el-super-nino-en-yerba-tabaco-frutas-y-verduras)"
+    ],
+    "riesgo": "Hojas dañadas o podridas, secado más difícil y demoras en el acopio de enero.",
+    "historico": [
+     "En 1998, en Corrientes, se destruyó cerca de 80% de las cosechas de arroz, girasol y tabaco."
+    ],
+    "medidas": [],
+    "recomendaciones": [],
+    "rec_fuente": "",
+    "no_encontrado": [
+     "Hectáreas de tabaco dañadas en 2026.",
+     "Estimación de cámaras o cooperativas tabacaleras.",
+     "Uso del Fondo Especial del Tabaco para la emergencia."
+    ]
+   },
+   {
+    "id": "te",
+    "actividad": "Té",
+    "region": [
+     "NEA"
+    ],
+    "provs": "Misiones, norte de Corrientes",
+    "estado": "sin_datos",
+    "amenaza": "Caminos rurales y cosecha con lluvia",
+    "resumen": "No se encontraron reportes de daño ni estimaciones para el té en esta temporada.",
+    "hoy": [
+     "**No se encontraron** reportes de 2026 específicos sobre el té."
+    ],
+    "riesgo": "Comparte zona y caminos con la yerba: los mismos problemas de logística le aplican.",
+    "historico": [
+     "Los balances históricos de Misiones agrupan yerba, té y tabaco: entre 2015 y 2024 los Niño dejaron USD 208 M de pérdidas."
+    ],
+    "medidas": [],
+    "recomendaciones": [],
+    "rec_fuente": "",
+    "no_encontrado": [
+     "Cualquier dato de impacto 2026 en el té."
+    ]
+   },
+   {
+    "id": "hortalizas",
+    "actividad": "Verduras y frutas de cercanía",
+    "region": [
+     "Litoral",
+     "NEA"
+    ],
+    "provs": "Cinturón de Santa Fe, Misiones, Corrientes",
+    "estado": "dano",
+    "amenaza": "Suelos saturados, viento y granizo sobre invernáculos",
+    "resumen": "El cinturón hortícola de Santa Fe perdió casi toda la verdura de hoja en abril y en Misiones el viento y el granizo destruyeron invernáculos. Es la economía regional que más rápido llega al precio.",
+    "hoy": [
+     "**Gran Santa Fe (abril):** la Sociedad de Quinteros estimó pérdidas de cerca de **90%** en Recreo, Monte Vera, Ángel Gallardo y Gobernador Candiotti, sobre todo en verdura de hoja. La lechuga duplicó su precio en pocos días. Es una estimación del sector, no un dato oficial. [Elonce, 20 abr](https://www.elonce.com/uid-871755)",
+     "**Misiones (octubre):** feriantes de Oberá contaron invernáculos destruidos por viento y granizo y plantas podridas en lotes sin drenaje. [iProfesional, 16 oct](https://www.iprofesional.com/economia/466721-como-impacta-el-super-nino-en-yerba-tabaco-frutas-y-verduras)",
+     "**Pozo Azul (agosto):** el granizo golpeó durazneros, cítricos, mangos, ciruelos y paltas en flor o recién cuajados. [Primera Edición, 7 ago](https://www.primeraedicion.com.ar/nota/101130210/granizada-implacable-en-pozo-azul/)"
+    ],
+    "riesgo": "Con suelos saturados, cada lluvia fuerte de noviembre a enero vuelve a frenar siembras y trasplantes. La verdura de hoja sube primero en los mercados del centro y el norte.",
+    "historico": [],
+    "medidas": [
+     "La emergencia agropecuaria de Santa Fe incluyó zonas del cinturón hortícola de la capital (1 de abril al 30 de septiembre). [Bichos de Campo, 5 may](https://bichosdecampo.com/luego-de-varias-idas-y-vueltas-santa-fe-declaro-la-emergencia-agropecuaria-en-el-norte-provincial-y-anuncio-alivios-impositivos-para-los-productores-afectados/)"
+    ],
+    "recomendaciones": [],
+    "rec_fuente": "",
+    "no_encontrado": [
+     "Pérdidas de los cinturones de Corrientes, Resistencia y Paraná.",
+     "Renovación de la emergencia hortícola de Santa Fe después del 30 de septiembre."
+    ]
+   },
+   {
+    "id": "arroz",
+    "actividad": "Arroz",
+    "region": [
+     "Litoral",
+     "NEA"
+    ],
+    "provs": "Entre Ríos, Corrientes, Santa Fe, Chaco",
+    "estado": "riesgo",
+    "amenaza": "Lotes y caminos anegados en siembra; crecida de ríos y esteros",
+    "resumen": "En Entre Ríos se siembra 20% menos arroz por el Niño, la mayor caída en 26 años. De Corrientes, el mayor productor, no hay dato de esta campaña.",
+    "hoy": [
+     "**Entre Ríos:** 44.000 ha, 20% menos que la campaña anterior; la producción se proyecta 30% menor. Los productores reducen área por el riesgo de lluvias. [El Litoral](https://www.ellitoral.com/campolitoral/siber-superficie-arrocera-rios-reduccion-campana-arrocera-nino-hectareas-bolsa-cereales_0_OigsKsHp6h.html)"
+    ],
+    "riesgo": "Si el arroz está en floración o maduración cuando se inunda el lote, se pierde todo.",
+    "historico": [
+     "Enero de 2024 (Niño 2023-24): más de 10.000 ha de arroz bajo agua en Corrientes, 11% de lo sembrado, tras 550 mm en cinco días. [Bichos de Campo, ene 2024](https://bichosdecampo.com/en-corrientes-hay-10-000-hectareas-de-arroz-tapadas-por-el-agua-el-ano-pasado-se-habian-perdido-el-doble-pero-por-la-sequia)",
+     "En 1998, en Corrientes, se destruyó cerca de 80% de las cosechas de arroz, girasol y tabaco."
+    ],
+    "medidas": [],
+    "recomendaciones": [],
+    "rec_fuente": "",
+    "no_encontrado": [
+     "Intención de siembra de Corrientes para 2026-27.",
+     "Datos de Santa Fe y Chaco."
+    ]
+   },
+   {
+    "id": "algodon",
+    "actividad": "Algodón",
+    "region": [
+     "NEA",
+     "Litoral"
+    ],
+    "provs": "Chaco, norte de Santa Fe, Santiago del Estero",
+    "estado": "dano",
+    "amenaza": "Bajos anegados (Bajos Submeridionales), siembra demorada",
+    "resumen": "El norte santafesino ya tuvo pérdidas de algodón y soja por el agua en otoño. Del Chaco no hay dato de siembra de esta campaña.",
+    "hoy": [
+     "**Norte de Santa Fe (mayo):** unas 1,3 M ha comprometidas entre agricultura y ganadería, con pérdidas en soja y algodón. [Bichos de Campo, 5 may](https://bichosdecampo.com/luego-de-varias-idas-y-vueltas-santa-fe-declaro-la-emergencia-agropecuaria-en-el-norte-provincial-y-anuncio-alivios-impositivos-para-los-productores-afectados/)"
+    ],
+    "riesgo": "Lotes que no se pueden sembrar a tiempo y cosecha con lluvia que baja la calidad de la fibra.",
+    "historico": [
+     "En 1998, en Chaco, quedó anegada casi 80% de la superficie de algodón, soja, maíz y sorgo."
+    ],
+    "medidas": [
+     "Emergencia agropecuaria de Santa Fe para Vera, 9 de Julio y General Obligado (vencida el 30 de septiembre). [Bichos de Campo, 5 may](https://bichosdecampo.com/luego-de-varias-idas-y-vueltas-santa-fe-declaro-la-emergencia-agropecuaria-en-el-norte-provincial-y-anuncio-alivios-impositivos-para-los-productores-afectados/)"
+    ],
+    "recomendaciones": [],
+    "rec_fuente": "",
+    "no_encontrado": [
+     "Intención de siembra 2026-27 en Chaco.",
+     "Emergencia agropecuaria vigente en Chaco."
+    ]
+   },
+   {
+    "id": "ganaderia",
+    "actividad": "Ganadería de islas y bajos",
+    "region": [
+     "Litoral",
+     "NEA"
+    ],
+    "provs": "Entre Ríos, Corrientes, Santa Fe, Chaco",
+    "estado": "dano",
+    "amenaza": "Crecida del Paraná y el Uruguay, falta de pasto después",
+    "resumen": "La hacienda de islas se está evacuando: más de 30.000 vacunos salieron de Victoria y cientos de miles siguen en alerta.",
+    "hoy": [
+     "**Entre Ríos:** más de 30.000 vacunos evacuados en Victoria y unas 460.000 cabezas en alerta en islas. [03442](https://03442.com.ar/2026/10/proponen-declarar-la-emergencia-agropecuaria-por-las-crecidas-de-los-rios-parana-y-uruguay/)",
+     "**Corrientes:** en Empedrado se preveía sacar 1.700 cabezas de unos 70 pequeños productores; los productores temen un otoño sin pasto. [Bichos de Campo, 13 oct](https://bichosdecampo.com/exodo-bovino-correntino-con-los-rios-parana-y-uruguay-en-crecida-los-productores-comenzaron-a-sacar-la-hacienda-de-las-islas-y-ya-se-teme-un-otono-sin-pasto/)",
+     "**Norte de Santa Fe (mayo):** unas 430.000 cabezas en campos bajos. [Bichos de Campo, 5 may](https://bichosdecampo.com/luego-de-varias-idas-y-vueltas-santa-fe-declaro-la-emergencia-agropecuaria-en-el-norte-provincial-y-anuncio-alivios-impositivos-para-los-productores-afectados/)",
+     "**Granizo (22 oct):** en Fortín Olmos (Vera) murieron ovejas, cabras y aves. [Elonce, 22 oct](https://www.elonce.com/sociedad/temporal-en-santa-fe-granizo-destruyo-cultivos-mato-animales-y-provoco-danos-en-viviendas.htm)"
+    ],
+    "riesgo": "Hacienda que se ahoga o queda aislada; costos de traslado y alquiler de campos altos; menos pasto en otoño.",
+    "historico": [],
+    "medidas": [
+     "Santa Fe creó un registro de oferta de campos, alimentos y transporte para emergencias. [Bichos de Campo, 5 may](https://bichosdecampo.com/luego-de-varias-idas-y-vueltas-santa-fe-declaro-la-emergencia-agropecuaria-en-el-norte-provincial-y-anuncio-alivios-impositivos-para-los-productores-afectados/)",
+     "Entre Ríos tiene en trámite una emergencia agropecuaria para 11 departamentos (21 de octubre)."
+    ],
+    "recomendaciones": [],
+    "rec_fuente": "",
+    "no_encontrado": [
+     "Total de cabezas evacuadas a nivel nacional.",
+     "Mortandad de hacienda en 2026."
+    ]
+   },
+   {
+    "id": "lecheria",
+    "actividad": "Lechería",
+    "region": [
+     "Centro",
+     "Litoral"
+    ],
+    "provs": "Santa Fe, Córdoba, Buenos Aires, Entre Ríos",
+    "estado": "riesgo",
+    "amenaza": "Caminos rurales cortados que impiden retirar la leche; barro en corrales",
+    "resumen": "No hay reportes de 2026 todavía, pero en el último Niño fuerte 80% de los tambos santafesinos se vio afectado.",
+    "hoy": [
+     "**No se encontraron** reportes de 2026 de tambos afectados."
+    ],
+    "riesgo": "Si los camiones no llegan, la leche se tira; con barro baja la producción por vaca y suben las enfermedades.",
+    "historico": [
+     "En 2016 se vio afectado 80% de los tambos santafesinos."
+    ],
+    "medidas": [],
+    "recomendaciones": [],
+    "rec_fuente": "",
+    "no_encontrado": [
+     "Datos de 2026 de tambos, litros perdidos o caminos lecheros cortados."
+    ]
+   },
+   {
+    "id": "pesca",
+    "actividad": "Pesca artesanal",
+    "region": [
+     "Litoral",
+     "NEA"
+    ],
+    "provs": "Chaco, Corrientes, Santa Fe, Entre Ríos",
+    "estado": "dano",
+    "amenaza": "Corriente fuerte y árboles arrastrados que impiden pescar y rompen equipos",
+    "resumen": "Con el Paraná crecido, solo una parte de los pescadores puede salir: en Chaco estiman que trabaja un tercio de los que usan espinel.",
+    "hoy": [
+     "**Chaco (19 oct):** el Comité de Emergencia de Organizaciones Civiles (CEOC) estimó que solo trabaja cerca de **35%** de los pescadores con espinel y **50%** de los que usan mallón; la corriente y los árboles arrastrados dañan los equipos. Es una estimación de la organización. [Perfil, 19 oct](https://www.perfil.com/noticias/amp/nea/familias-cruzan-a-corrientes-por-la-crecida-del-parana-y-piden-ayuda-para-la-costa-chaquena.phtml)"
+    ],
+    "riesgo": "Familias ribereñas sin ingreso justo cuando deben evacuar.",
+    "historico": [],
+    "medidas": [],
+    "recomendaciones": [],
+    "rec_fuente": "",
+    "no_encontrado": [
+     "Asistencia económica a pescadores por la crecida en 2026 (Nación o provincias).",
+     "Datos de Santa Fe, Entre Ríos y Corrientes."
+    ]
+   },
+   {
+    "id": "forestal",
+    "actividad": "Forestoindustria",
+    "region": [
+     "NEA"
+    ],
+    "provs": "Misiones, Corrientes",
+    "estado": "dano",
+    "amenaza": "Viento fuerte y tornados; caminos para sacar la madera",
+    "resumen": "Hubo voladuras de techos y daños en maquinaria de empresas forestales de Misiones; no hay balance.",
+    "hoy": [
+     "**Misiones:** voladuras de chapas y daños a maquinaria en empresas forestales. El 11 de septiembre un fenómeno de tipo tornádico dejó un muerto y 22 familias afectadas en San Pedro. [iProfesional, 16 oct](https://www.iprofesional.com/economia/466721-como-impacta-el-super-nino-en-yerba-tabaco-frutas-y-verduras)"
+    ],
+    "riesgo": "Caída de árboles, plantaciones dañadas y caminos de extracción intransitables.",
+    "historico": [],
+    "medidas": [],
+    "recomendaciones": [],
+    "rec_fuente": "",
+    "no_encontrado": [
+     "Hectáreas forestadas dañadas.",
+     "Datos de Corrientes."
+    ]
+   },
+   {
+    "id": "citricos",
+    "actividad": "Cítricos del Litoral",
+    "region": [
+     "Litoral",
+     "NEA"
+    ],
+    "provs": "Entre Ríos, Corrientes, Misiones",
+    "estado": "sin_datos",
+    "amenaza": "Granizo en floración, enfermedades por humedad",
+    "resumen": "Solo hay un reporte de granizo sobre cítricos en flor en Misiones; de Entre Ríos y Corrientes no se encontró nada de 2026.",
+    "hoy": [
+     "**Misiones (agosto):** el granizo de Pozo Azul golpeó cítricos en floración, sin cuantificar. [Primera Edición, 7 ago](https://www.primeraedicion.com.ar/nota/101130210/granizada-implacable-en-pozo-azul/)",
+     "**Entre Ríos y Corrientes: no se encontraron** reportes de 2026."
+    ],
+    "riesgo": "Más enfermedades fúngicas con humedad y fruta marcada por granizo.",
+    "historico": [],
+    "medidas": [],
+    "recomendaciones": [],
+    "rec_fuente": "",
+    "no_encontrado": [
+     "Estimación de cosecha cítrica 2026-27 en Entre Ríos y Corrientes."
+    ]
+   },
+   {
+    "id": "cana",
+    "actividad": "Caña de azúcar y limón",
+    "region": [
+     "NOA"
+    ],
+    "provs": "Tucumán, Salta, Jujuy",
+    "estado": "mixto",
+    "amenaza": "Lluvias tardías que demoran la zafra",
+    "resumen": "El agua ayuda a la caña y al limón, pero si las lluvias se estiran hasta abril o mayo complican el inicio de la zafra.",
+    "hoy": [
+     "**No se encontraron** reportes de 2026 de daños."
+    ],
+    "riesgo": "Zafra demorada y caminos de cosecha con barro.",
+    "historico": [],
+    "medidas": [],
+    "recomendaciones": [],
+    "rec_fuente": "",
+    "no_encontrado": [
+     "Pronóstico de zafra 2027."
+    ]
+   },
+   {
+    "id": "vino",
+    "actividad": "Vid, vino y frutales de Cuyo",
+    "region": [
+     "Cuyo"
+    ],
+    "provs": "Mendoza, San Juan",
+    "estado": "mixto",
+    "amenaza": "Tormentas más violentas y granizo; a favor, mucha más nieve para riego",
+    "resumen": "Cuyo gana agua: la nieve duplica a la de un año medio. El riesgo es el granizo en verano. No se encontraron daños en viñedos en esta temporada.",
+    "hoy": [
+     "**Agua:** 2.600 hm³ de nieve contra 1.300 de un año medio en la cuenca del río Mendoza. [Diario UNO](https://www.diariouno.com.ar/super-nino-el-rio-mendoza-se-prepara-un-caudal-atipico-las-nevadas-n1590553)",
+     "**Riesgo anunciado (agosto):** tormentas más violentas y más granizo; la demanda de agua pica en diciembre y enero y los embalses chicos limitan cuánto se puede guardar. [Sitio Andino, 2 ago](https://www.sitioandino.com.ar/economia/un-super-nino-amenaza-al-agro-mendocino-tormentas-mas-violentas-y-granizo-n5727368)",
+     "**Daños 2026-27: no se encontraron** reportes de granizo sobre viñedos en lo que va de la temporada."
+    ],
+    "riesgo": "Una sola granizada en diciembre o enero puede llevarse buena parte de la cosecha de un productor sin malla.",
+    "historico": [
+     "Septiembre de 2025: granizo en San Carlos, General Alvear y San Rafael sobre ajo, vid y hortalizas; un productor dijo haber perdido 70% de su ajo. [Sitio Andino, sep 2025](https://www.sitioandino.com.ar/economia/atencion-productores-el-gobierno-mendoza-habilito-un-registro-la-severa-tormenta-granizo-n5708698)"
+    ],
+    "medidas": [
+     "En Mendoza los daños por granizo se declaran ante la Dirección de Contingencias Climáticas, en línea por el RUT-SIA (sia.mendoza.gov.ar) o en sus delegaciones, en el plazo que se abre tras cada tormenta. [Sitio Andino, sep 2025](https://www.sitioandino.com.ar/economia/atencion-productores-el-gobierno-mendoza-habilito-un-registro-la-severa-tormenta-granizo-n5708698)"
+    ],
+    "recomendaciones": [
+     "Si hay granizo, hacer la denuncia de daños dentro del plazo que fija la Dirección de Contingencias Climáticas."
+    ],
+    "rec_fuente": "[Sitio Andino, sep 2025](https://www.sitioandino.com.ar/economia/atencion-productores-el-gobierno-mendoza-habilito-un-registro-la-severa-tormenta-granizo-n5708698)",
+    "no_encontrado": [
+     "Pronóstico de cosecha de uva 2027 del INV.",
+     "Datos de San Juan."
+    ]
+   },
+   {
+    "id": "altovalle",
+    "actividad": "Frutales y hortalizas del Valle de Río Negro",
+    "region": [
+     "Patagonia"
+    ],
+    "provs": "Río Negro, Neuquén",
+    "estado": "mixto",
+    "amenaza": "Granizo de primavera y verano; a favor, más agua en los embalses",
+    "resumen": "La temporada pasada ya tuvo tres granizadas en el Valle Medio. Para esta, el Niño trae más agua pero el granizo sigue siendo el gran riesgo.",
+    "hoy": [
+     "**Temporada 2026-27: no se encontraron** reportes de daños hasta ahora.",
+     "Los embalses del Comahue seguían debajo de lo normal en septiembre."
+    ],
+    "riesgo": "El Alto Valle promedia 4 a 6 granizadas entre octubre y marzo. [La Nación, 19 mar](https://www.lanacion.com.ar/economia/campo/tuvo-una-fuerza-descomunal-una-potente-tormenta-de-granizo-barrio-una-region-productiva-nid18032026/)",
+    "historico": [
+     "Marzo de 2026: la tercera granizada de la temporada en el Valle Medio fue “devastadora” para nueces, maíz, cebolla, hortalizas e invernáculos; peras y manzanas ya estaban 90% cosechadas. [La Nación, 19 mar](https://www.lanacion.com.ar/economia/campo/tuvo-una-fuerza-descomunal-una-potente-tormenta-de-granizo-barrio-una-region-productiva-nid18032026/)"
+    ],
+    "medidas": [
+     "Río Negro pide declaraciones juradas de daño para consolidar pérdidas; en enero de 2026 declaró emergencia en varios departamentos con alivios impositivos. Tiene un programa de financiamiento de malla antigranizo desde 2017. [La Nación, 19 mar](https://www.lanacion.com.ar/economia/campo/tuvo-una-fuerza-descomunal-una-potente-tormenta-de-granizo-barrio-una-region-productiva-nid18032026/)"
+    ],
+    "recomendaciones": [
+     "Tras un granizo, presentar la declaración jurada de daños ante la provincia: es requisito para los alivios."
+    ],
+    "rec_fuente": "[La Nación, 19 mar](https://www.lanacion.com.ar/economia/campo/tuvo-una-fuerza-descomunal-una-potente-tormenta-de-granizo-barrio-una-region-productiva-nid18032026/)",
+    "no_encontrado": [
+     "Estado de la emergencia en Río Negro para la temporada 2026-27."
+    ]
+   }
+  ],
+  "normas": [
+   {
+    "jur": "Nación",
+    "estado": "no_encontrado",
+    "txt": "No hay emergencia agropecuaria nacional (Ley 26.509) por El Niño. Cada provincia debe pedirla ante la Comisión Nacional de Emergencia y Desastres Agropecuarios.",
+    "fuente": ""
+   },
+   {
+    "jur": "Santa Fe",
+    "estado": "vencida",
+    "txt": "Decreto EE-2026-00028389: Vera, 9 de Julio, General Obligado y zonas del cinturón hortícola, del 1 de abril al 30 de septiembre de 2026. Prórroga o condonación del Inmobiliario. **No se encontró renovación.**",
+    "fuente": "[Bichos de Campo, 5 may](https://bichosdecampo.com/luego-de-varias-idas-y-vueltas-santa-fe-declaro-la-emergencia-agropecuaria-en-el-norte-provincial-y-anuncio-alivios-impositivos-para-los-productores-afectados/)"
+   },
+   {
+    "jur": "Entre Ríos",
+    "estado": "tramite",
+    "txt": "Proyecto de emergencia agropecuaria por 180 días en 11 departamentos (21 de octubre).",
+    "fuente": "[03442](https://03442.com.ar/2026/10/proponen-declarar-la-emergencia-agropecuaria-por-las-crecidas-de-los-rios-parana-y-uruguay/)"
+   },
+   {
+    "jur": "Río Negro",
+    "estado": "previa",
+    "txt": "Emergencia de enero de 2026 por granizo en varios departamentos (temporada anterior).",
+    "fuente": "[La Nación, 19 mar](https://www.lanacion.com.ar/economia/campo/tuvo-una-fuerza-descomunal-una-potente-tormenta-de-granizo-barrio-una-region-productiva-nid18032026/)"
+   },
+   {
+    "jur": "Corrientes, Chaco, Misiones, Formosa",
+    "estado": "no_encontrado",
+    "txt": "No se encontró emergencia agropecuaria vigente por El Niño.",
+    "fuente": ""
+   }
+  ],
+  "normas_estados": {
+   "vigente": [
+    "Vigente",
+    "t-ok"
+   ],
+   "tramite": [
+    "En trámite",
+    "t-alert"
+   ],
+   "vencida": [
+    "Vencida",
+    "t-nd"
+   ],
+   "previa": [
+    "Temporada anterior",
+    "t-nd"
+   ],
+   "no_encontrado": [
+    "No encontrada",
+    "t-evac"
+   ]
+  }
  }
 }

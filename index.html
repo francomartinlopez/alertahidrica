@@ -87,6 +87,19 @@ section.blk>.wrap{display:flex;flex-direction:column;gap:22px}
 .kpi.critico .v{color:var(--evac)} .kpi.alerta .v{color:var(--alert)}
 .kpi .d{font-size:.86rem;color:var(--muted);line-height:1.35}
 .kpi .s{font-size:.78rem}
+.ecof{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.ecog{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.eco{all:unset;box-sizing:border-box;display:flex;flex-direction:column;gap:8px;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;cursor:pointer;min-width:0}
+.eco:hover{border-color:var(--muted)}
+.eco:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.eco[aria-pressed="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.eco .nm{font:700 1.05rem/1.2 var(--f-display);font-stretch:85%}
+.eco .pv{font:500 .78rem/1.3 var(--f-data);color:var(--muted)}
+.eco p{margin:0;font-size:.9rem;line-height:1.4}
+.ecod{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media (max-width:760px){.ecod{grid-template-columns:1fr}}
+.ecod h4{font:600 .74rem/1.2 var(--f-data);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.ecod>div{min-width:0}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}
 @media (max-width:760px){.two{grid-template-columns:1fr}}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;display:flex;flex-direction:column;gap:10px;min-width:0}
@@ -285,7 +298,7 @@ footer{padding-block:40px 60px;color:var(--muted);font-size:.86rem}
   <div class="wrap">
     <div class="brand"><b>Súper Niño · Argentina</b><span class="stamp" id="stamp"><span class="dot"></span>Cargando datos…</span></div>
     <nav class="idx" id="idx" aria-label="Secciones">
-      <a href="#hoy">Hoy</a><a href="#mapa">Provincias</a><a href="#zonas">Zonas y ciudades</a><a href="#rios">Ríos</a><a href="#tormentas">Tormentas</a><a href="#nino">El Niño</a><a href="#mundo">Mundo</a><a href="#escenarios">Escenarios</a><a href="#impacto">Impacto y fondos</a><a href="#calendario">Calendario</a><a href="#guia">Qué hacer</a><a href="#nacion">Nación</a><a href="#evaluacion">Evaluación</a><a href="#vigilar">Qué vigilar</a><a href="#analisis">Análisis</a><a href="#glosario">Glosario</a><a href="#fuentes">Fuentes</a>
+      <a href="#hoy">Hoy</a><a href="#mapa">Provincias</a><a href="#zonas">Zonas y ciudades</a><a href="#rios">Ríos</a><a href="#tormentas">Tormentas</a><a href="#nino">El Niño</a><a href="#mundo">Mundo</a><a href="#escenarios">Escenarios</a><a href="#impacto">Impacto y fondos</a><a href="#economias">Economías regionales</a><a href="#calendario">Calendario</a><a href="#guia">Qué hacer</a><a href="#nacion">Nación</a><a href="#evaluacion">Evaluación</a><a href="#vigilar">Qué vigilar</a><a href="#analisis">Análisis</a><a href="#glosario">Glosario</a><a href="#fuentes">Fuentes</a>
     </nav>
   </div>
 </header>
@@ -300,7 +313,7 @@ const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function md(s){
   let t=esc(s);
-  t=t.replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g,(m,a,u)=>`<a href="${u}" target="_blank" rel="noopener">${a}</a>`);
+  t=t.replace(/\[([^\]]+)\]\((https?:[^)\s]+|#[\w-]+)\)/g,(m,a,u)=>u[0]==='#'?`<a href="${u}">${a}</a>`:`<a href="${u}" target="_blank" rel="noopener">${a}</a>`);
   t=t.replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
   return t;
 }
@@ -426,6 +439,20 @@ function render(D,M,ZG){
     <h3>Seguimiento de fondos</h3>
     <div class="tw"><table><thead><tr><th>Jurisdicción</th><th>Qué</th><th>Monto anunciado</th><th>Ejecución</th><th>Fuente</th></tr></thead><tbody>${FO.filas.map(f=>`<tr><td><strong>${esc(f.jur)}</strong></td><td>${md(f.que)}</td><td class="small">${md(f.monto)}</td><td class="small">${md(f.ejec)}</td><td class="small src">${md(f.fuente||'—')}</td></tr>`).join('')}</tbody></table></div>
     <p class="small muted">${md(FO.nota)}</p>`);
+
+  // ECONOMÍAS REGIONALES
+  const EC=D.economias;
+  if(EC){
+  h+=sect('economias','Economías regionales','Daños en las economías regionales',EC.tesis,
+   `<div class="card"><div class="ecof" role="group" aria-label="Filtrar por estado"><span class="small muted">Estado:</span><button class="chipbtn" data-es="todos" aria-pressed="true">Todas</button>${Object.entries(EC.estados).filter(([k])=>EC.items.some(x=>x.estado===k)).map(([k,v])=>`<button class="chipbtn" data-es="${k}" aria-pressed="false">${esc(v[0])}</button>`).join('')}</div>
+     <div class="ecof" role="group" aria-label="Filtrar por región" style="margin-top:8px"><span class="small muted">Región:</span><button class="chipbtn" data-er="todas" aria-pressed="true">Todas</button>${EC.regiones.map(r=>`<button class="chipbtn" data-er="${esc(r)}" aria-pressed="false">${esc(r)}</button>`).join('')}</div></div>
+    <div class="ecog" id="ecog"></div>
+    <div class="card" id="ecod" tabindex="-1"></div>
+    <h3>Emergencias agropecuarias</h3>
+    <div class="tw"><table><thead><tr><th>Jurisdicción</th><th>Estado</th><th>Detalle</th><th>Fuente</th></tr></thead><tbody>${EC.normas.map(n=>{const e=EC.normas_estados[n.estado]||['—','t-nd'];return `<tr><td><strong>${esc(n.jur)}</strong></td><td><span class="tag ${e[1]}">${esc(e[0])}</span></td><td>${md(n.txt)}</td><td class="small src">${md(n.fuente||'—')}</td></tr>`}).join('')}</tbody></table></div>
+    <p class="small muted">${md(EC.nota)}</p>
+    <p><a href="#calendario" class="small">Ver el calendario de lluvias contra labores</a> · <a href="#tormentas" class="small">Ver granizo y viento</a></p>`);
+  }
 
   // CALENDARIO
   const C=D.calendario;
@@ -643,6 +670,33 @@ function render(D,M,ZG){
   document.querySelectorAll('#evaluacion tr[data-j]').forEach(r=>{r.onclick=()=>{evs(+r.dataset.j);if(window.innerWidth<=860)$('#evficha').scrollIntoView({block:'start'})};r.onkeydown=e=>{if(e.key==='Enter'){evs(+r.dataset.j)}}});
   evs(0);
 
+  // economías regionales
+  if(EC){
+  let ef='todos',er='todas',ei=null;
+  const eitem=x=>{const e=EC.estados[x.estado]||EC.estados.sin_datos;return e};
+  const ecard=x=>{const e=eitem(x);return `<button class="eco" data-ei="${x.id}" aria-pressed="${x.id===ei}"><span style="display:flex;justify-content:space-between;gap:6px 8px;align-items:flex-start;flex-wrap:wrap"><span class="nm">${esc(x.actividad)}</span><span class="tag ${e[1]}">${esc(e[0])}</span></span><span class="pv">${esc(x.provs)}</span><p>${md(x.resumen)}</p></button>`};
+  const edet=id=>{const x=EC.items.find(i=>i.id===id);const el=$('#ecod');if(!x){el.innerHTML='<p class="muted">Elegí una actividad para ver el detalle.</p>';return}
+    const e=eitem(x),bl=(t,a)=>a&&a.length?`<div><h4>${t}</h4>${ul(a)}</div>`:'';
+    el.innerHTML=`<div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center"><h3>${esc(x.actividad)} <span class="tag ${e[1]}">${esc(e[0])}</span></h3>${lnk('r-'+x.id,'Copiar enlace')}</div>
+      <p class="small muted">${esc(x.provs)} · <strong>Amenaza:</strong> ${esc(x.amenaza)}</p>
+      <div class="ecod">${bl('Qué pasó en 2026',x.hoy)}<div><h4>Qué se espera</h4><p>${md(x.riesgo)}</p></div>
+      ${bl('Antecedentes',x.historico)}${bl('Qué se hizo',x.medidas)}
+      ${x.recomendaciones&&x.recomendaciones.length?`<div><h4>Recomendaciones para productores</h4>${ul(x.recomendaciones)}${x.rec_fuente?`<p class="small src">${md(x.rec_fuente)}</p>`:''}</div>`:''}
+      ${bl('No encontrado',x.no_encontrado)}</div>`;};
+  const erender=()=>{const L=EC.items.filter(x=>(ef==='todos'||x.estado===ef)&&(er==='todas'||x.region.includes(er)));
+    $('#ecog').innerHTML=L.length?L.map(ecard).join(''):'<p class="muted">No hay actividades con ese filtro.</p>';
+    document.querySelectorAll('#economias [data-es]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.es===ef));
+    document.querySelectorAll('#economias [data-er]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.er===er));
+    if(!L.find(x=>x.id===ei)){ei=L.length?L[0].id:null}
+    document.querySelectorAll('#ecog .eco').forEach(b=>b.setAttribute('aria-pressed',b.dataset.ei===ei));edet(ei);};
+  document.querySelectorAll('#economias [data-es]').forEach(b=>b.onclick=()=>{ef=b.dataset.es;erender()});
+  document.querySelectorAll('#economias [data-er]').forEach(b=>b.onclick=()=>{er=b.dataset.er;erender()});
+  $('#ecog').addEventListener('click',e=>{const b=e.target.closest('.eco');if(!b)return;ei=b.dataset.ei;document.querySelectorAll('#ecog .eco').forEach(c=>c.setAttribute('aria-pressed',c===b));edet(ei);
+    if(window.innerWidth<760)$('#ecod').scrollIntoView({behavior:'smooth',block:'start'})});
+  window.__eco=id=>{ef='todos';er='todas';ei=id;erender()};
+  erender();
+  }
+
   // tormentas
   const ttl=f=>{const L=TO.eventos.filter(e=>f==='todos'||e.tipos.includes(f));
     $('#ttl').innerHTML=L.length?L.map(e=>`<div class="ev tormenta"><span class="f">${esc(e.fecha)}</span><div><span class="l">${esc(e.lugar)}</span> ${e.tipos.map(t=>`<span class="tag ${(TTY[t]||['','t-nd'])[1]}">${(TTY[t]||[t])[0]}</span>`).join(' ')}<p>${md(e.texto)}</p><p class="small"><strong>Daños:</strong> ${md(e.danos)} <span class="src">${md(e.fuente)}</span></p></div></div>`).join(''):'<p class="muted">Sin eventos de este tipo registrados.</p>';
@@ -684,11 +738,11 @@ function render(D,M,ZG){
   else if(hs.startsWith('z-')){const k=hs.slice(2);if(ZD[k]){zsel('z',k);go('zonas')}}
   else if(hs.startsWith('c-')){const i=CI.findIndex(c=>'c-'+slug(c.n)===hs);if(i>=0){zsel('c',i);go('zonas')}}
   else if(hs.startsWith('e-')){const i=EV.jur.findIndex(j=>'e-'+slug(j.nombre)===hs);if(i>=0){evs(i);go('evaluacion')}}
+  else if(hs.startsWith('r-')&&window.__eco&&EC.items.find(x=>'r-'+x.id===hs)){window.__eco(hs.slice(2));go('economias')}
   else if(hs==='historial'){const d=document.getElementById('historial');if(d){d.open=true;go('historial')}}
   else if(hs&&document.getElementById(hs))go(hs);
 }
 })();
 </script>
 
-</body>
-</html>
+</body></html>
