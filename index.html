@@ -289,6 +289,13 @@ footer{padding-block:40px 60px;color:var(--muted);font-size:.86rem}
 .evbars .b{flex:1;max-width:150px;display:flex;flex-direction:column;align-items:center;gap:4px;justify-content:flex-end;height:100%;min-width:0}
 .evbars .b i{display:block;width:100%;max-width:72px;background:var(--water);border-radius:3px 3px 0 0}
 .evbars .b span{font:500 .72rem/1.1 var(--f-data);color:var(--muted);text-align:center}
+.evbars .stk{display:flex;flex-direction:column-reverse;width:100%;max-width:72px;border-radius:3px 3px 0 0;overflow:hidden}
+.evbars .stk i{display:block;width:100%;max-width:none;border-radius:0;cursor:pointer;min-height:2px}
+.evbars .stk i:hover,.evbars .stk i.on{filter:brightness(1.15);outline:2px solid var(--ink);outline-offset:-2px}
+.evtip{min-height:1.4em;font-size:.88rem}
+.hist-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+@media (max-width:640px){.hist-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.hist-tabs .scbtn .p{font-size:1.5rem}
 .gl{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px}
 .gl dt{font-weight:700}
 .gl dd{margin:4px 0 0;color:var(--ink);font-size:.95rem}
@@ -406,7 +413,7 @@ ul.plain.g2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,3
     <div class="brand"><b>Súper Niño · Argentina</b><span class="stamp" id="stamp"><span class="dot"></span>Cargando datos…</span></div>
     <button class="navbtn" id="navbtn" type="button" aria-expanded="false" aria-controls="idx"><span class="k">Estás en:</span><span class="c" id="navcur">Hoy</span></button>
     <div class="navrow" id="navrow"><button class="navar l" type="button" aria-label="Ver secciones anteriores">‹</button><nav class="idx" id="idx" aria-label="Secciones">
-      <a href="#hoy">Hoy</a><a href="#mapa">Provincias</a><a href="#zonas">Zonas y ciudades</a><a href="#rios">Ríos</a><a href="#tormentas">Tormentas</a><a href="#nino">El Niño</a><a href="#mundo">Mundo</a><a href="#escenarios">Escenarios</a><a href="#impacto">Impacto y fondos</a><a href="#economias">Economías regionales</a><a href="#calendario">Calendario</a><a href="#guia">Qué hacer</a><a href="#nacion">Nación</a><a href="#evaluacion">Evaluación</a><a href="#vigilar">Qué vigilar</a><a href="#analisis">Análisis</a><a href="#glosario">Glosario</a><a href="#fuentes">Fuentes</a>
+      <a href="#hoy">Hoy</a><a href="#mapa">Provincias</a><a href="#zonas">Zonas y ciudades</a><a href="#rios">Ríos</a><a href="#tormentas">Tormentas</a><a href="#nino">El Niño</a><a href="#mundo">Mundo</a><a href="#escenarios">Escenarios</a><a href="#impacto">Impacto y fondos</a><a href="#economias">Economías regionales</a><a href="#calendario">Calendario</a><a href="#guia">Qué hacer</a><a href="#nacion">Nación</a><a href="#evaluacion">Evaluación</a><a href="#vigilar">Qué vigilar</a><a href="#analisis">Análisis</a><a href="#glosario">Glosario</a><a href="#historicos">Niños históricos</a><a href="#fuentes">Fuentes</a>
     </nav><button class="navar r" type="button" aria-label="Ver más secciones">›</button></div>
   </div>
 </header>
@@ -455,8 +462,8 @@ function render(D,M,ZG){
     ${old?`<div class="warn">Esta edición es del ${esc(meta.actualizado_texto)}. La actualización diaria puede estar demorada.</div>`:''}
     <div class="alertbar"><div class="stripe"></div><div class="txt"><span class="eyebrow">Situación al ${esc(meta.actualizado_texto)}</span><h1>${esc(D.alerta.titular)}</h1><p class="lead">${md(D.alerta.bajada)}</p></div></div>
     <div class="kpis">${k}</div>
-    <div class="card"><div class="hdrow"><h3>Evacuados y autoevacuados</h3>${evk.length>1?`<div class="toggle" role="group" aria-label="Serie de evacuados" id="evsel">${evk.map(p=>`<button data-ev="${esc(p)}" aria-pressed="${p===ev0}">${esc(p)}</button>`).join('')}</div>`:''}</div>
-      <div class="evbars" id="evbars"></div><p class="small muted" id="evnote"></p>
+    <div class="card"><div class="hdrow"><h3>Evacuados y autoevacuados: total</h3><div class="legend" id="evleg"></div></div>
+      <div class="evbars" id="evbars"></div><p class="evtip" id="evtip" aria-live="polite"></p><p class="small muted" id="evnote"></p>
       <h3 style="margin-top:6px">Por provincia</h3>
       <div class="tw"><table><thead><tr><th>Provincia</th><th>Total</th><th>Fecha</th><th>Detalle</th></tr></thead><tbody>${D.evacuados.provs.map(x=>`<tr><td><strong>${esc(x.prov)}</strong></td><td class="n">${x.total!=null?fmt(x.total):'—'}</td><td class="n">${esc(x.fecha)}</td><td class="small">${md(x.detalle)}${x.fuente?` <span class="src">${md(x.fuente)}</span>`:''}</td></tr>`).join('')}</tbody></table></div>
       <p class="small muted">${md(D.evacuados.nota)}</p></div>
@@ -625,6 +632,15 @@ function render(D,M,ZG){
   h+=sect('glosario','Glosario','Palabras que aparecen en esta web','',
    `<dl class="gl">${D.glosario.map(g=>`<div><dt>${esc(g.t)}</dt><dd>${md(g.d)}</dd></div>`).join('')}</dl>`);
 
+  // NIÑOS HISTÓRICOS
+  const HI=D.historicos;
+  if(HI&&HI.eventos&&HI.eventos.length){
+  h+=sect('historicos','Niños históricos','Los Niños más intensos y qué dejaron en la Argentina',HI.tesis,
+   `<p class="hint">Elegí un evento para ver qué pasó en la Argentina ↓</p><div class="hist-tabs" id="hinav">${HI.eventos.map((e,i)=>`<button class="scbtn" data-hi="${i}" aria-pressed="${i===0}"><span class="p">${esc(e.nombre)}</span><span class="nm">${esc(e.pico_txt)}</span></button>`).join('')}</div>
+    <div class="card linked" id="hibody"></div>
+    <p class="small muted">${md(HI.nota)}</p>`);
+  }
+
   // FUENTES
   h+=sect('fuentes','Fuentes','Todas las fuentes citadas','',
    `<div class="srcgrid src">${D.fuentes.map(g=>`<div class="g"><span class="eyebrow">${esc(g.grupo)}</span><ul>${g.items.map(i=>`<li><a href="${esc(i.u)}" target="_blank" rel="noopener">${esc(i.t)}</a></li>`).join('')}</ul></div>`).join('')}</div>
@@ -647,12 +663,26 @@ function render(D,M,ZG){
   let rzT;window.addEventListener('resize',()=>{clearTimeout(rzT);rzT=setTimeout(balance,200)});
   // evacuados: serie por provincia y total
   const MES=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
-  const evser=p=>{if(p!=='Total')return SR[p]||[];const ds=[...new Set(evp.flatMap(q=>SR[q].map(x=>x[0])))].sort();return ds.map(d=>[d,evp.reduce((t,q)=>{const v=SR[q].filter(x=>x[0]<=d).pop();return t+(v?v[1]:0)},0)])};
-  const evr=p=>{const sr=evser(p);const mx=Math.max(1,...sr.map(x=>x[1]));
-    $('#evbars').innerHTML=sr.map(([d,n])=>`<div class="b"><span>${fmt(n)}</span><i style="height:${Math.max(2,n/mx*80).toFixed(0)}%"></i><span>${+d.slice(8)} ${MES[+d.slice(5,7)-1]}</span></div>`).join('');
-    $('#evnote').innerHTML=(p==='Total'?'Total: suma de las provincias con serie; cada una entra desde su primer dato. No es un balance oficial. ':`${esc(p)}, día por día. `)+(sr.length<2?'Con un solo dato todavía no hay evolución; se completa con las próximas actualizaciones. ':'')+'Fuentes: '+md(D.evacuados.serie_fuente);
-    document.querySelectorAll('#evsel [data-ev]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.ev===p))};
-  if(ev0){evr(ev0);document.querySelectorAll('#evsel [data-ev]').forEach(b=>b.onclick=()=>{evr(b.dataset.ev);flash($('#evbars'))})}
+  const EVC=['#3F8FA6','#C77A0A','#6B4FB0','#2F7A4E','#C2312B','#D2A62C','#56676C','#B4558F'];
+  const evcol={};evp.forEach((q,i)=>evcol[q]=EVC[i%EVC.length]);
+  const fdt=d=>`${+d.slice(8)} ${MES[+d.slice(5,7)-1]}`;
+  if(evp.length){
+    const ds=[...new Set(evp.flatMap(q=>SR[q].map(x=>x[0])))].sort();
+    const rows=ds.map(d=>{const parts=evp.map(q=>{const v=SR[q].filter(x=>x[0]<=d).pop();return v?{q,n:v[1],f:v[0]}:null}).filter(Boolean);return {d,parts,tot:parts.reduce((t,x)=>t+x.n,0)}});
+    const mx=Math.max(1,...rows.map(r=>r.tot));
+    $('#evleg').innerHTML=evp.map(q=>`<span><i style="background:${evcol[q]}"></i>${esc(q)}</span>`).join('');
+    $('#evbars').innerHTML=rows.map((r,ri)=>`<div class="b"><span>${fmt(r.tot)}</span><div class="stk" style="height:${Math.max(2,r.tot/mx*80).toFixed(0)}%">${r.parts.map(x=>`<i tabindex="0" role="button" data-r="${ri}" data-q="${esc(x.q)}" style="background:${evcol[x.q]};height:${(x.n/r.tot*100).toFixed(2)}%" aria-label="${esc(x.q)}: ${fmt(x.n)} el ${fdt(r.d)}" title="${esc(x.q)}: ${fmt(x.n)}"></i>`).join('')}</div><span>${fdt(r.d)}</span></div>`).join('');
+    const tipDef='Tocá o pasá el cursor sobre un color para ver cuántos evacuados tiene cada provincia.';
+    $('#evtip').textContent=tipDef;
+    const show=el=>{const r=rows[+el.dataset.r],x=r.parts.find(p=>p.q===el.dataset.q);document.querySelectorAll('#evbars .stk i').forEach(i=>i.classList.toggle('on',i===el));
+      $('#evtip').innerHTML=`<strong>${esc(x.q)}</strong>: ${fmt(x.n)} de ${fmt(r.tot)} al ${fdt(r.d)} (${Math.round(x.n/r.tot*100)}%)${x.f!==r.d?` · último dato de la provincia: ${fdt(x.f)}`:''}`};
+    const bx=$('#evbars');
+    bx.addEventListener('mouseover',e=>{const i=e.target.closest('.stk i');if(i)show(i)});
+    bx.addEventListener('click',e=>{const i=e.target.closest('.stk i');if(i)show(i)});
+    bx.addEventListener('focusin',e=>{const i=e.target.closest('.stk i');if(i)show(i)});
+    bx.addEventListener('mouseleave',()=>{document.querySelectorAll('#evbars .stk i').forEach(i=>i.classList.remove('on'));$('#evtip').textContent=tipDef});
+    $('#evnote').innerHTML='Cada barra es el total de evacuados y autoevacuados en esa fecha, dividido por provincia. Si una provincia no informó ese día, se usa su último dato. Es una suma propia, no un balance oficial. '+(rows.length<2?'Con un solo dato todavía no hay evolución. ':'')+'Fuentes: '+md(D.evacuados.serie_fuente);
+  }
 
   // línea de tiempo
   const tlr=list=>{$('#tl').innerHTML=list.map(e=>`<div class="ev ${e.tipo}"><span class="f">${esc(e.fecha)}</span><div><span class="l">${esc(e.lugar)}</span>${e.prov?` <span class="muted small">· ${esc(e.prov)}</span>`:''}<p>${md(e.texto)}${e.url?` <a class="small" href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.fuente||'Fuente')}</a>`:''}</p></div></div>`).join('')};
@@ -835,6 +865,21 @@ function render(D,M,ZG){
     $('#ttl').innerHTML=L.length?L.map(e=>`<div class="ev tormenta"><span class="f">${esc(e.fecha)}</span><div><span class="l">${esc(e.lugar)}</span> ${e.tipos.map(t=>`<span class="tag ${(TTY[t]||['','t-nd'])[1]}">${(TTY[t]||[t])[0]}</span>`).join(' ')}<p>${md(e.texto)}</p><p class="small"><strong>Daños:</strong> ${md(e.danos)} <span class="src">${md(e.fuente)}</span></p></div></div>`).join(''):'<p class="muted">Sin eventos de este tipo registrados.</p>';
     document.querySelectorAll('#tormentas [data-tt]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.tt===f));};
   document.querySelectorAll('#tormentas [data-tt]').forEach(b=>b.onclick=()=>{ttl(b.dataset.tt);flash($('#ttl'))});ttl('todos');
+
+  // niños históricos
+  if(HI&&HI.eventos&&HI.eventos.length){
+  const hir=i=>{const e=HI.eventos[i];const row=(l,c)=>c&&c.length?`<div class="row"><span class="lbl">${l}</span>${Array.isArray(c)?ul(c):`<p>${md(c)}</p>`}</div>`:'';
+    $('#hibody').innerHTML=`<div class="selhd"><span class="eyebrow">Evento elegido</span><h3>El Niño de ${esc(e.nombre)}</h3></div>
+      <p class="lead">${md(e.resumen)}</p>
+      <div class="scdet"><div><span class="eyebrow">Intensidad</span><span class="v">${esc(e.pico_txt)}</span><span class="small">${md(e.magnitud)}</span></div>
+      <div><span class="eyebrow">Evacuados</span><span class="v">${esc(e.evacuados||'Sin dato')}</span></div>
+      <div><span class="eyebrow">Muertes</span><span class="v">${esc(e.muertes||'Sin dato')}</span></div>
+      <div><span class="eyebrow">Pérdidas</span><span class="v">${esc(e.perdidas||'Sin dato')}</span></div></div>
+      <div class="ficha" style="border:0;padding:0">${row('Ríos e inundaciones',e.rios)}${row('Economía y campo',e.economia)}${row('Temporales y otros efectos',e.otros)}${row('Respuesta del Estado',e.estado)}${row('Cuidado al comparar',e.metodo)}${e.fuentes&&e.fuentes.length?`<div class="row"><span class="lbl">Fuentes</span><p class="small src">${e.fuentes.map(md).join(' · ')}</p></div>`:''}</div>`;
+    document.querySelectorAll('#hinav [data-hi]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.hi==i));balance();};
+  document.querySelectorAll('#hinav [data-hi]').forEach(b=>b.onclick=()=>{hir(+b.dataset.hi);shown('#hibody')});
+  hir(0);
+  }
 
   // gráfico de ríos
   const rch=name=>{const r=D.rios.find(x=>x.puerto===name);if(!r)return;const H=r.hist||[],PJ=r.proy||[];

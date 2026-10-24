@@ -5,12 +5,10 @@
   "actualizado_texto": "24 de octubre de 2026",
   "proxima": "Se actualiza todos los días por la mañana.",
   "autor": "Franco Martín López",
-  "version": 10,
+  "version": 11,
   "cambios": [
-   "Reconquista llegó a 5,22 m, a 8 cm de evacuación, y el INA prevé que la supere desde el 24; 2.500 personas del puerto en riesgo.",
-   "El Iguazú volvió a crecer (28,40 m) y el Uruguay sigue bajando en Concordia (10,44 m, bajo la alerta).",
-   "Misiones: el temporal ya suma 112 viviendas afectadas y el granizo dejó pérdidas en tabaco, yerba y té según municipios.",
-   "Alertas naranja del SMN para el sábado 24 en Misiones, Corrientes, Formosa, Chaco, Santa Fe y Mendoza."
+   "Gráfico de evacuados: una sola barra de total por fecha, dividida por provincia con colores.",
+   "Nueva sección: Niños históricos (1877-78, 1982-83, 1997-98 y 2015-16) y sus efectos en la Argentina."
   ]
  },
  "alerta": {
@@ -3462,6 +3460,59 @@
      "u": "https://www.primeraedicion.com.ar/nota/101153889/temporal-aristobulo-del-valle-familias-afectadas-sin-luz/"
     }
    ]
+  },
+  {
+   "grupo": "Niños históricos",
+   "items": [
+    {
+     "t": "Rocha: El impacto mundial del Niño de 1877-1878 (IMEFEN)",
+     "u": "https://www.imefen.uni.edu.pe/Temas_interes/ROCHA/FEN_1877-1878.pdf"
+    },
+    {
+     "t": "Aceituno y otros (2009): impactos de 1877-78 en Sudamérica",
+     "u": "https://link.springer.com/article/10.1007/s10584-008-9470-5"
+    },
+    {
+     "t": "Huang y otros (2020): How Significant Was the 1877/78 El Niño?",
+     "u": "https://repository.library.noaa.gov/view/noaa/46581"
+    },
+    {
+     "t": "CR2: el Niño de 1877-1878",
+     "u": "https://www.cr2.cl/analisis-cr2-el-nino-de-1877-1878-por-que-la-intensidad-del-fenomeno-no-explica-por-si-sola-sus-impactos/"
+    },
+    {
+     "t": "Meteored: el Niño extremo de 1877",
+     "u": "https://www.meteored.com.uy/noticias/ciencia/el-nino-extremo-de-1877-causo-sequias-olas-de-calor-y-hambrunas-que-acabaron-con-un-4-de-la-poblacion-mundial.html"
+    },
+    {
+     "t": "Análisis Digital: la inundación de 1982-1983",
+     "u": "https://www.analisisdigital.com.ar/interes-general/2026/08/16/memoria-fragil-la-inundacion-de-1982-1983-y-cuando-el-rio-recupero-lo-suyo"
+    },
+    {
+     "t": "Copernicus Argentina: alturas del Paraná en 1983",
+     "u": "https://copernicus.com.ar/crecida-rio-parana-1983"
+    },
+    {
+     "t": "Wikipedia: inundación de Formosa de 1983",
+     "u": "https://es.wikipedia.org/wiki/Inundaci%C3%B3n_de_Formosa_en_1983"
+    },
+    {
+     "t": "CELS: Inundaciones (informe 1998)",
+     "u": "https://www.cels.org.ar/web/wp-content/uploads/2016/10/IA1998-14-Inundaciones.-Excesos-de-la-naturaleza.pdf"
+    },
+    {
+     "t": "Universidad de Lieja: El Niño floods in Argentina (2016)",
+     "u": "http://labos.ulg.ac.be/hugo/wp-content/uploads/sites/38/2017/11/The-State-of-Environmental-Migration-2016-124-148.pdf"
+    },
+    {
+     "t": "El Cronista: dos muertos y miles de evacuados (dic. 2015)",
+     "u": "https://www.cronista.com/economia-politica/Dos-muertos-y-miles-de-evacuados-por-las-inundaciones-en-el-litoral-20151225-0003.html"
+    },
+    {
+     "t": "Diario de Cuyo: emergencia hídrica en siete provincias (2016)",
+     "u": "https://www.diariodecuyo.com.ar/noticias/decretaron-la-emergencia-hidrica-en-siete-provincias-523526.html"
+    }
+   ]
   }
  ],
  "fuentes_extra": "Mapa: [Natural Earth](https://www.naturalearthdata.com/), dominio público.",
@@ -6075,6 +6126,18 @@
    ],
    "muertes": 3,
    "evac": "~2.300"
+  },
+  {
+   "v": 11,
+   "fecha": "2026-10-24",
+   "resumen": "Nueva sección de Niños históricos y gráfico de evacuados apilado por provincia.",
+   "prob": [
+    40,
+    45,
+    15
+   ],
+   "muertes": 3,
+   "evac": "~2.300"
   }
  ],
  "tormentas": {
@@ -6767,5 +6830,141 @@
     "t-evac"
    ]
   }
+ },
+ "historicos": {
+  "tesis": "Desde que hay registros, cuatro Niños se acercan a lo que se espera para este: **1877-78, 1982-83, 1997-98 y 2015-16**. Solo el de 1877-78 aparece, en algunas reconstrucciones, en el rango previsto para el pico de 2026-27; los otros tres quedaron entre +2,4 y +2,75 °C. La historia muestra además que el daño en la Argentina no depende solo de la intensidad en el océano: 1997-98 fue el más débil de los tres modernos y el que más daño dejó.",
+  "nota": "Intensidad: anomalía de temperatura del Pacífico central (Niño-3.4), pico mensual, según NOAA, Carbon Brief y la OMM; 1997-98 es un valor aproximado y 1877-78 es una reconstrucción. Los montos están en dólares de cada época, sin ajustar. \"Sin dato\" quiere decir que no se encontró una cifra en las fuentes revisadas, no que no haya habido daño.",
+  "eventos": [
+   {
+    "id": "1877",
+    "nombre": "1877-78",
+    "pico_txt": "≈ +2,7 °C (reconstruido)",
+    "magnitud": "Algunas reconstrucciones lo ubican como el más intenso antes del actual: en la corrida estándar de ERSSTv5 llega a +3,5 °C en el índice Niño-3, más que 1982-83, 1997-98 y 2015-16. Es el único evento histórico que se acerca al pico previsto para 2026-27 (+3,5 a +3,8 °C), pero con mucha incertidumbre.",
+    "resumen": "El evento de referencia por su magnitud. En el mundo se lo asocia a sequías y hambrunas en India, China y el nordeste de Brasil, que según estudios recientes mataron a cerca del 4% de la población mundial. En la Argentina el registro es escaso: hubo grandes crecidas del Paraná en el nordeste a comienzos de 1878 y temporales en la cordillera.",
+    "evacuados": "Sin registro",
+    "muertes": "Sin registro",
+    "perdidas": "Sin estimación",
+    "rios": [
+     "A comienzos de 1878, crecidas del Paraná inundaron las llanuras del nordeste argentino; el ingeniero Arturo Rocha las considera parecidas a las de 1997-98. [Rocha, IMEFEN](https://www.imefen.uni.edu.pe/Temas_interes/ROCHA/FEN_1877-1878.pdf)",
+     "Un estudio sobre los impactos en Sudamérica registra lluvias intensas e inundaciones en la cuenca del Paraná. [Aceituno y otros, Climatic Change (2009)](https://link.springer.com/article/10.1007/s10584-008-9470-5)"
+    ],
+    "otros": [
+     "En la cordillera hubo temporales y nevadas muy intensas; después, crecidas que destruyeron puentes y caminos, dejaron el paso cerrado por mucho tiempo e inundaron fortines. [Rocha, IMEFEN](https://www.imefen.uni.edu.pe/Temas_interes/ROCHA/FEN_1877-1878.pdf)",
+     "En el mundo: sequías, olas de calor y hambrunas en Asia, África y Brasil. [Meteored](https://www.meteored.com.uy/noticias/ciencia/el-nino-extremo-de-1877-causo-sequias-olas-de-calor-y-hambrunas-que-acabaron-con-un-4-de-la-poblacion-mundial.html)"
+    ],
+    "economia": [
+     "No se encontraron estimaciones de pérdidas para la Argentina."
+    ],
+    "estado": [],
+    "metodo": [
+     "**No hubo mediciones directas del Pacífico.** La intensidad se reconstruye con datos dispersos de barcos, presión atmosférica entre Tahití y Darwin y crónicas de la época.",
+     "Huang y otros (2020) muestran cuánto cambia el resultado según el método: +3,5 °C en la corrida estándar, +1,8 °C en el promedio de 1.000 versiones (con un margen de ±2,8 °C) y +2,8 °C (±0,5) con un ajuste que validaron con datos modernos. Conclusión: fue fuerte, pero no se puede afirmar con precisión cuánto. [Journal of Climate](https://repository.library.noaa.gov/view/noaa/46581)",
+     "En 1877-78 había unas quince estaciones de lluvia en toda Sudamérica: los impactos se reconstruyen con diarios, cartas e informes oficiales. [Rocha, IMEFEN](https://www.imefen.uni.edu.pe/Temas_interes/ROCHA/FEN_1877-1878.pdf)",
+     "El daño depende tanto del evento como de cuánta gente y bienes había expuestos y de la capacidad de respuesta: los impactos de 1878 no se pueden comparar directamente con los de hoy. [CR2](https://www.cr2.cl/analisis-cr2-el-nino-de-1877-1878-por-que-la-intensidad-del-fenomeno-no-explica-por-si-sola-sus-impactos/)"
+    ],
+    "fuentes": [
+     "[Rocha, IMEFEN](https://www.imefen.uni.edu.pe/Temas_interes/ROCHA/FEN_1877-1878.pdf)",
+     "[Aceituno y otros (2009)](https://link.springer.com/article/10.1007/s10584-008-9470-5)",
+     "[Huang y otros (2020)](https://repository.library.noaa.gov/view/noaa/46581)",
+     "[CR2](https://www.cr2.cl/analisis-cr2-el-nino-de-1877-1878-por-que-la-intensidad-del-fenomeno-no-explica-por-si-sola-sus-impactos/)",
+     "[Meteored](https://www.meteored.com.uy/noticias/ciencia/el-nino-extremo-de-1877-causo-sequias-olas-de-calor-y-hambrunas-que-acabaron-con-un-4-de-la-poblacion-mundial.html)"
+    ]
+   },
+   {
+    "id": "1982",
+    "nombre": "1982-83",
+    "pico_txt": "+2,69 °C",
+    "magnitud": "Fue uno de los más fuertes del siglo XX y sigue siendo el récord con el índice relativo (RONI), que descuenta el calentamiento general del océano.",
+    "resumen": "La mayor crecida del Paraná del registro moderno: el río estuvo **257 días** sobre niveles críticos y superó la evacuación en todos los puertos comparables. Santa Fe, Entre Ríos, Chaco, Corrientes y Formosa fueron las provincias más golpeadas.",
+    "evacuados": "≈ 100.000",
+    "muertes": "Sin total oficial",
+    "perdidas": "> USD 1.500 M",
+    "rios": [
+     "Entre diciembre de 1982 y julio de 1983 el río estuvo 257 días por encima de niveles críticos; en julio de 1983 pasaron unos **62.000 m³/s** frente a Paraná y Santa Fe, casi cuatro veces un año normal. En el Delta se inundaron más de 20.000 km². [Análisis Digital](https://www.analisisdigital.com.ar/interes-general/2026/08/16/memoria-fragil-la-inundacion-de-1982-1983-y-cuando-el-rio-recupero-lo-suyo)",
+     "Picos de 1983 según Prefectura: Santa Fe 7,35 m, Goya 7,03 m, Paraná 6,83 m y Rosario 6,17 m. El río superó la evacuación en los 17 puertos comparables. [Copernicus Argentina](https://copernicus.com.ar/crecida-rio-parana-1983)",
+     "Formosa: el río Paraguay llegó a 10,73 m el 31 de mayo de 1983 (evacuación: 8,30 m), con unos 60.000 evacuados en la provincia. [Wikipedia](https://es.wikipedia.org/wiki/Inundaci%C3%B3n_de_Formosa_en_1983)"
+    ],
+    "otros": [
+     "El 28 de septiembre de 1983 se cayó el Puente Colgante de Santa Fe; el Túnel Subfluvial cerró 24 horas, la única vez en su historia, y Entre Ríos quedó prácticamente aislada. [Análisis Digital](https://www.analisisdigital.com.ar/interes-general/2026/08/16/memoria-fragil-la-inundacion-de-1982-1983-y-cuando-el-rio-recupero-lo-suyo)"
+    ],
+    "economia": [
+     "Pérdidas de más de **USD 1.500 M** en todo el país, unos USD 460 M en Entre Ríos, donde se afectaron más de 40.000 ha. [Análisis Digital](https://www.analisisdigital.com.ar/interes-general/2026/08/16/memoria-fragil-la-inundacion-de-1982-1983-y-cuando-el-rio-recupero-lo-suyo)"
+    ],
+    "estado": [],
+    "metodo": [
+     "Las pérdidas están en dólares de 1983, sin ajustar por inflación.",
+     "Los 100.000 evacuados son una estimación citada por el CELS en 1998; no se encontró una serie oficial consolidada ni un total de muertes. [CELS](https://www.cels.org.ar/web/wp-content/uploads/2016/10/IA1998-14-Inundaciones.-Excesos-de-la-naturaleza.pdf)"
+    ],
+    "fuentes": [
+     "[Análisis Digital](https://www.analisisdigital.com.ar/interes-general/2026/08/16/memoria-fragil-la-inundacion-de-1982-1983-y-cuando-el-rio-recupero-lo-suyo)",
+     "[Copernicus Argentina](https://copernicus.com.ar/crecida-rio-parana-1983)",
+     "[Wikipedia: inundación de Formosa de 1983](https://es.wikipedia.org/wiki/Inundaci%C3%B3n_de_Formosa_en_1983)",
+     "[CELS](https://www.cels.org.ar/web/wp-content/uploads/2016/10/IA1998-14-Inundaciones.-Excesos-de-la-naturaleza.pdf)"
+    ]
+   },
+   {
+    "id": "1997",
+    "nombre": "1997-98",
+    "pico_txt": "≈ +2,4 °C",
+    "magnitud": "El más débil de los tres modernos en el océano, pero el que más daño dejó en la Argentina. Es la referencia de daño de esta web.",
+    "resumen": "Inundaciones entre diciembre de 1997 y mayo de 1998 en todo el Litoral, con más de 100.000 personas afectadas y unos **USD 2.500 M** de pérdidas.",
+    "evacuados": "> 50.000 (suma parcial)",
+    "muertes": "Sin total oficial",
+    "perdidas": "USD 2.500 M",
+    "rios": [
+     "Evacuados por provincia según partes oficiales: Corrientes 30.000 (y 15.000 afectados), Entre Ríos 16.521 en el pico y Misiones 3.800. Chaco tuvo más de 50.000 damnificados. [CELS](https://www.cels.org.ar/web/wp-content/uploads/2016/10/IA1998-14-Inundaciones.-Excesos-de-la-naturaleza.pdf)"
+    ],
+    "otros": [],
+    "economia": [
+     "Pérdidas de **USD 2.500 M** en todo el país según el CELS; la CEPAL las estima entre USD 2.100 y 5.700 M a valores constantes. [CELS](https://www.cels.org.ar/web/wp-content/uploads/2016/10/IA1998-14-Inundaciones.-Excesos-de-la-naturaleza.pdf) · [La Nación](https://www.lanacion.com.ar/editoriales/las-consecuencias-de-el-nino-nid24102026/)",
+     "Chaco tuvo bajo agua el 82% de las 805.000 ha sembradas; en Santa Fe se afectaron 5,57 M ha agrícola-ganaderas (45%) y 10.267 productores; Corrientes perdió cerca de 1 millón de cabezas de ganado y unos USD 160 M. [CELS](https://www.cels.org.ar/web/wp-content/uploads/2016/10/IA1998-14-Inundaciones.-Excesos-de-la-naturaleza.pdf)"
+    ],
+    "estado": [],
+    "metodo": [
+     "Montos en dólares de 1998; con un ajuste propio, equivalen a cerca del doble hoy.",
+     "Los datos provinciales vienen de partes oficiales recopilados por el CELS: no hay un balance nacional único, por eso el total de evacuados es una suma parcial. [CELS](https://www.cels.org.ar/web/wp-content/uploads/2016/10/IA1998-14-Inundaciones.-Excesos-de-la-naturaleza.pdf)"
+    ],
+    "fuentes": [
+     "[CELS](https://www.cels.org.ar/web/wp-content/uploads/2016/10/IA1998-14-Inundaciones.-Excesos-de-la-naturaleza.pdf)",
+     "[La Nación](https://www.lanacion.com.ar/editoriales/las-consecuencias-de-el-nino-nid24102026/)"
+    ]
+   },
+   {
+    "id": "2015",
+    "nombre": "2015-16",
+    "pico_txt": "+2,75 °C",
+    "magnitud": "Fue el récord mensual hasta septiembre de 2026, cuando el evento actual lo superó.",
+    "resumen": "Muy fuerte en el océano, con daño moderado en la Argentina: crecida récord del río Uruguay en Concordia en diciembre de 2015 y lluvias en abril de 2016 que golpearon la cosecha de soja.",
+    "evacuados": "> 36.000",
+    "muertes": "Al menos 2",
+    "perdidas": "USD 1.200 a 2.500 M",
+    "rios": [
+     "El río Uruguay llegó a **15,8 m en Concordia**, su nivel más alto en 50 años, con casi 14.000 desplazados solo en esa ciudad. En todo el Litoral hubo más de 36.000 evacuados y 76.000 personas con viviendas afectadas. [Informe de migración ambiental, Univ. de Lieja](http://labos.ulg.ac.be/hugo/wp-content/uploads/sites/38/2017/11/The-State-of-Environmental-Migration-2016-124-148.pdf)",
+     "El río Paraguay llegó a 6,5 m a mediados de diciembre; en febrero de 2016, 600 familias de Clorinda seguían en refugios. [Univ. de Lieja](http://labos.ulg.ac.be/hugo/wp-content/uploads/sites/38/2017/11/The-State-of-Environmental-Migration-2016-124-148.pdf)"
+    ],
+    "otros": [
+     "Al menos dos muertos en los temporales de fines de diciembre de 2015. [El Cronista](https://www.cronista.com/economia-politica/Dos-muertos-y-miles-de-evacuados-por-las-inundaciones-en-el-litoral-20151225-0003.html)"
+    ],
+    "economia": [
+     "En abril de 2016 se perdieron entre 3,3 y 4,2 Mt de soja según la BCR de entonces, que hoy calcula 6 Mt. [Agrofy](https://news.agrofy.com.ar/noticia/157576/soja-perdidas-mayores-4-millones-toneladas)",
+     "Unos USD 1.200 M solo en soja; el ruralismo santafesino calculó USD 2.500 M sumando hacienda e infraestructura. Son estimaciones del sector. [Diario de Cuyo](https://www.diariodecuyo.com.ar/noticias/calculan-una-fuerte-perdida-en-el-campo-562913.html)"
+    ],
+    "estado": [
+     "Concordia (22 de diciembre) y Entre Ríos (23 de diciembre) declararon la emergencia; Nación formó un Comité de Crisis el 26 de diciembre. [Univ. de Lieja](http://labos.ulg.ac.be/hugo/wp-content/uploads/sites/38/2017/11/The-State-of-Environmental-Migration-2016-124-148.pdf)",
+     "Nación declaró la emergencia hídrica en siete provincias por el Decreto 266/2016. [Diario de Cuyo](https://www.diariodecuyo.com.ar/noticias/decretaron-la-emergencia-hidrica-en-siete-provincias-523526.html)"
+    ],
+    "metodo": [
+     "Las pérdidas de soja cambian según la fuente: la BCR revisó su estimación de 3,3-4,2 Mt a 6 Mt.",
+     "Hubo menos daño que en 1997-98 con un Niño más intenso en el océano: la intensidad oceánica no se traduce de forma lineal en daño local."
+    ],
+    "fuentes": [
+     "[Univ. de Lieja](http://labos.ulg.ac.be/hugo/wp-content/uploads/sites/38/2017/11/The-State-of-Environmental-Migration-2016-124-148.pdf)",
+     "[El Cronista](https://www.cronista.com/economia-politica/Dos-muertos-y-miles-de-evacuados-por-las-inundaciones-en-el-litoral-20151225-0003.html)",
+     "[Agrofy](https://news.agrofy.com.ar/noticia/157576/soja-perdidas-mayores-4-millones-toneladas)",
+     "[Diario de Cuyo](https://www.diariodecuyo.com.ar/noticias/calculan-una-fuerte-perdida-en-el-campo-562913.html)",
+     "[Diario de Cuyo, Decreto 266/2016](https://www.diariodecuyo.com.ar/noticias/decretaron-la-emergencia-hidrica-en-siete-provincias-523526.html)"
+    ]
+   }
+  ]
  }
 }
