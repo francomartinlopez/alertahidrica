@@ -5,10 +5,12 @@
   "actualizado_texto": "24 de octubre de 2026",
   "proxima": "Se actualiza todos los días por la mañana.",
   "autor": "Franco Martín López",
-  "version": 11,
+  "version": 12,
   "cambios": [
-   "Gráfico de evacuados: una sola barra de total por fecha, dividida por provincia con colores.",
-   "Nueva sección: Niños históricos (1877-78, 1982-83, 1997-98 y 2015-16) y sus efectos en la Argentina."
+   "Nuevo gráfico diario de Niño-3.4 desde 1982, con 1877-78 estimado y el pronóstico de NOAA.",
+   "Nuevo mapa de lluvias de Sudamérica por trimestre con análisis de implicancias.",
+   "Nación: fondos para El Niño, ATN por emergencias climáticas y explicación del Fondo Hídrico; marca de fondos en parcial.",
+   "Ajuste del texto sobre la magnitud de 1877-78."
   ]
  },
  "alerta": {
@@ -1463,7 +1465,7 @@
   }
  ],
  "nacion": {
-  "resumen": "**No hay ninguna declaración de emergencia nacional por El Niño ni por las inundaciones.** No se encontró decreto, resolución ni ley nacional de emergencia hídrica, climática o agropecuaria vigente. La respuesta nacional es un plan de coordinación sin fondos asignados públicamente.",
+  "resumen": "**No hay ninguna declaración de emergencia nacional por El Niño ni por las inundaciones, ni fondos nacionales destinados a El Niño.** La respuesta nacional es un plan de coordinación sin presupuesto. Hubo ATN discrecionales por emergencias climáticas (Tucumán, Santa Fe y Corrientes), mientras el Fondo Hídrico tiene la mayor parte de sus recursos invertidos en Letras del Tesoro.",
   "declaraciones": [
    {
     "titulo": "Emergencia nacional hídrica o climática",
@@ -1498,6 +1500,21 @@
     "texto": "Firmada el 19 de junio y publicada el 7 de julio. Es un plan de coordinación operativa de la Agencia Federal de Emergencias para la Cuenca del Plata (Buenos Aires, CABA, Chaco, Corrientes, Entre Ríos, Formosa, Misiones y Santa Fe), vigente de 2026 a 2027. Son 19 páginas. [Documento completo (PDF)](https://www.magyp.gob.ar/evento-climatico/enos/cuenca-del-plata.pdf) **Qué tiene:** un diagnóstico general (Niño con más de 70% de probabilidad y lluvias sobre lo normal), el reparto de roles entre organismos, un comando unificado con fuerzas federales, apoyo logístico y sanitario y comunicaciones de respaldo. Es, en esencia, un protocolo de quién hace qué cuando una provincia queda desbordada. **Qué no tiene:** **plata** (ni presupuesto, ni montos, ni fondos para provincias o municipios); medidas para el **campo**, aunque está publicado en el sitio del Ministerio de Agricultura y el agro es el sector con más daño potencial en todos los escenarios; **obras** nuevas o un calendario para las demoradas, como el tramo IV del Salado; **metas y control** (plazos, indicadores, informes de avance); ni **riesgo concreto**: no nombra los 18 municipios cuyo riesgo modeló la AFE, ni trae mapas ni cotas de evacuación por ciudad. **Frente a la magnitud del evento:** se prevé el Niño más intenso del registro y el escenario más probable es una repetición de 1997-98, con un daño de USD 2.500 a 6.000 M según nuestra proyección. El plan toma como referencia 2015, con unos 10 millones de afectados, pero no traduce esa escala en recursos. **Frente a otros:** Buenos Aires anunció un plan de $2,3 billones; Santa Fe aprobó por ley una emergencia hídrica con un fondo propio y lleva $132.219 M en obras desde 2023; en 2016, con un Niño más débil, Nación declaró la emergencia por el Decreto 266/2016. **Qué agrega:** casi nada que no se hubiera anunciado entre junio y agosto (firma del plan, cumbre en Resistencia, Tablero ENOS). Es un documento de coordinación, no un plan de preparación: ordena la respuesta, pero no suma recursos, obras ni compromisos verificables."
    },
    {
+    "titulo": "Fondos nacionales para El Niño",
+    "estado": "no_encontrado",
+    "texto": "**No se registra ninguna transferencia nacional destinada a prevenir o atender El Niño.** El Plan ENOS no tiene presupuesto, y según el vocero presidencial la responsabilidad principal es de provincias y municipios, mientras que la Nación \"solo está obligada a dar apoyo\". [Infocielo](https://www.infocielo.com/politica-y-economia/el-nino-nacion-niega-responsabilidades-ante-una-eventual-emergencia-mientras-miles-de-millones-del-fondo-hidrico-sigue-en-un-plazo-fijo) Sí hubo Aportes del Tesoro Nacional (ATN) por emergencias climáticas: **$20.000 M a Tucumán** (acreditados en diciembre de 2025, para obras de prevención de inundaciones del Plan Pre Lluvia) [La Papa](https://lapapa.com.ar/nota/17746/nacion-giro-20000-millones-a-tucuman-para-prevenir-inundaciones); **$8.000 M a Santa Fe** (mayo y agosto de 2026, por las lluvias en el norte provincial; la Provincia aclaró que no son para El Niño) [El Litoral](https://www.ellitoral.com/politica/santafe-decreto1771-atn-maximilianopullaro-fabianbastia-emergenciaclimatica-aportestesoronacional_0_U0YxCx63PR.html); y **$3.000 M a Corrientes** (enero de 2026, por inundaciones en tres municipios) [Perfil](https://www.perfil.com/noticias/economia/corrientes-recibio-casi-la-cuarta-parte-del-total-de-los-atn-ejecutados-en-2026.phtml). Los ATN son discrecionales: no tienen criterios de reparto fijados por ley. Entre enero y septiembre de 2026 nueve distritos no recibieron ninguno, entre ellos Buenos Aires y Formosa; en septiembre se repartieron $33.000 M entre siete provincias sin destino informado. [BAE Negocios](https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/) **Reclamos:** Buenos Aires pidió que el Fondo Hídrico se reparta si no se usa en obras; Salta reclamó por haber quedado afuera del Plan ENOS [Cuarto Poder](https://cuartopodersalta.com.ar/salta-quedo-afuera-del-plan-nacional-de-asistencia-frente-al-supernino/); Corrientes pidió un fondo nacional permanente para obras contra inundaciones y sequías. [Examedia](https://examedia.com.ar/portada/post/88110235)"
+   },
+   {
+    "titulo": "Fondo Hídrico (Fondo Fiduciario de Infraestructura Hídrica)",
+    "estado": "",
+    "texto": "**Qué es:** un fondo nacional creado por el Decreto 1381/2001, después de las grandes inundaciones bonaerenses, para financiar obras contra inundaciones en zonas productivas y proteger rutas y vías en áreas rurales. [Decreto 1381/2001](https://www.argentina.gob.ar/normativa/nacional/decreto-1381-2001-69652/texto) Se financia con un recargo sobre los combustibles (la Provincia de Buenos Aires lo calcula en el 4,31% del impuesto). La Ley 26.181 (2006) fijó por ley ese destino específico y lo amplió a obras de agua y saneamiento. [Bichos de Campo](https://bichosdecampo.com/el-fondo-fiduciario-de-infraestructura-hidrica-que-se-creo-para-terminar-con-las-inundaciones-termino-siendo-usado-por-la-politica-para-cualquier-otra-cosa/) **Cuánto tiene:** según la respuesta oficial del Ministerio de Economía al Congreso, al 6 de abril de 2026 había $34.922 M en cuentas y **$258.000 M invertidos en Letras del Tesoro (LECAP)**. [La Nación](https://www.lanacion.com.ar/economia/campo/polemica-por-el-uso-financiero-de-un-millonario-fondo-para-obras-hidricas-nid04052026/) Según la Provincia de Buenos Aires, entre 2024 y 2026 se ejecutó en obras solo el **36,7%** de lo asignado, y a fines del primer trimestre de 2026 quedaban $339.993 M, el 85% en Letras. [Diagonales](https://www.diagonales.com/provincia/la-pba-denunciara-penalmente-a-javier-milei-y-a-luis-caputo-por-la-subejecucion-del-fondo-hidrico_a6ad62615e22ee8014a585a01) **Qué dice el Gobierno:** el exjefe de Gabinete Manuel Adorni reconoció que los recursos están invertidos en Letras del Tesoro [elDiarioAR](https://www.eldiarioar.com/sociedad/medio-ambiente/nino-llego-gobierno-activo-protocolo-presupuesto-organismos-debilitados_1_13421129.html); no se encontró una explicación oficial de por qué no se usan en obras ni una respuesta a la denuncia. **Denuncia:** el 19 de octubre la Provincia de Buenos Aires anunció una denuncia penal contra el Presidente y el ministro de Economía ante la justicia federal de La Plata por malversación, incumplimiento de deberes y administración fraudulenta, entre otros delitos. Es una de las partes del conflicto: las cifras de la Provincia no fueron auditadas. [Diagonales](https://www.diagonales.com/provincia/la-pba-denunciara-penalmente-a-javier-milei-y-a-luis-caputo-por-la-subejecucion-del-fondo-hidrico_a6ad62615e22ee8014a585a01) **Antecedentes:** el uso del fondo fue discutido también con gobiernos anteriores, que lo destinaron a obras de saneamiento en el conurbano y a represas en Santa Cruz; desde 2018 no se publican sus ingresos y gastos. [Bichos de Campo](https://bichosdecampo.com/el-fondo-fiduciario-de-infraestructura-hidrica-que-se-creo-para-terminar-con-las-inundaciones-termino-siendo-usado-por-la-politica-para-cualquier-otra-cosa/) **Obras:** la etapa II del tramo IV del Salado se frenó en febrero de 2025 y se reactivó en octubre de 2025, con avances de 14% a 59% según el subtramo. [La Nación](https://www.lanacion.com.ar/economia/campo/polemica-por-el-uso-financiero-de-un-millonario-fondo-para-obras-hidricas-nid04052026/)"
+   },
+   {
+    "titulo": "Lectura",
+    "estado": "",
+    "texto": "La Nación no destinó fondos específicos para El Niño, pero sí usó ATN para emergencias climáticas y, en un caso (Tucumán, diciembre de 2025), para obras de prevención. Ese reparto es discrecional: no hay criterios fijados por ley y las provincias afectadas no recibieron lo mismo. Mientras tanto, el Fondo Hídrico, creado justamente para obras contra inundaciones, tiene la mayor parte de sus recursos invertidos en Letras del Tesoro. Es la principal diferencia con 2016, cuando la Nación declaró la emergencia por el Decreto 266/2016."
+   },
+   {
     "titulo": "Cumbre en Resistencia con Karina Milei y Diego Santilli (3 de agosto)",
     "estado": "vigente",
     "texto": "Se hizo en el II Consejo Regional de Seguridad Interior, con Monteoliva, la AFE, los gobernadores Zdero (Chaco) y Valdés (Corrientes) y el ministro del Interior de Paraguay. Se puso en marcha el Plan ENOS, se acordó acelerar obras de contingencia y protocolos de evacuación preventiva, y se presentó el Tablero ENOS del SINAME. **No se informaron montos, obras concretas ni convenios.** [Río Negro](https://www.rionegro.com.ar/politica/por-el-fenomeno-de-el-nino-karina-milei-y-diego-santilli-encabezaron-la-jornada-para-fortalecer-el-trabajo-con-las-provincias-4670133/?amp=1) · [C5N](https://www.c5n.com/politica/en-chaco-karina-milei-y-diego-santilli-exhibieron-musculo-politico-y-gestion-resistencia-n245217)"
@@ -1523,9 +1540,9 @@
     "texto": "Lobos, Roque Pérez y 25 de Mayo, unos 30 km. Estuvo casi paralizado dos años; se reactivó en los tres subtramos y el Gobierno prevé terminarlo en 2027. **Monto no encontrado.** [La Nación](https://www.lanacion.com.ar/economia/campo/inundaciones-el-gobierno-acelera-y-espera-concluir-en-2027-la-reactivacion-de-una-obra-clave-para-el-nid19032026/)"
    },
    {
-    "titulo": "Fondos específicos para provincias (ATN u otros)",
+    "titulo": "Fondos específicos para provincias por El Niño",
     "estado": "no_encontrado",
-    "texto": "No encontrados. Buenos Aires pidió $5.000 M para caminos rurales; no se halló respuesta."
+    "texto": "No encontrados: ver la ficha «Fondos nacionales para El Niño», que detalla los ATN por emergencias climáticas, que no están destinados a este evento. Buenos Aires pidió $5.000 M para caminos rurales; no se halló respuesta."
    },
    {
     "titulo": "Plan Nacional de Reducción del Riesgo de Desastres 2025-2029",
@@ -2987,6 +3004,46 @@
     {
      "t": "Plan de Coordinación Federal ENOS 2026/2027 – Cuenca del Plata (PDF)",
      "u": "https://www.magyp.gob.ar/evento-climatico/enos/cuenca-del-plata.pdf"
+    },
+    {
+     "t": "Decreto 1381/2001: Fondo Fiduciario de Infraestructura Hídrica",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/decreto-1381-2001-69652/texto"
+    },
+    {
+     "t": "La Nación: uso financiero del Fondo Hídrico (4 may 2026)",
+     "u": "https://www.lanacion.com.ar/economia/campo/polemica-por-el-uso-financiero-de-un-millonario-fondo-para-obras-hidricas-nid04052026/"
+    },
+    {
+     "t": "Bichos de Campo: historia del Fondo Hídrico",
+     "u": "https://bichosdecampo.com/el-fondo-fiduciario-de-infraestructura-hidrica-que-se-creo-para-terminar-con-las-inundaciones-termino-siendo-usado-por-la-politica-para-cualquier-otra-cosa/"
+    },
+    {
+     "t": "Diagonales: denuncia penal por el Fondo Hídrico (19 oct)",
+     "u": "https://www.diagonales.com/provincia/la-pba-denunciara-penalmente-a-javier-milei-y-a-luis-caputo-por-la-subejecucion-del-fondo-hidrico_a6ad62615e22ee8014a585a01"
+    },
+    {
+     "t": "Infocielo: Nación y el Fondo Hídrico (29 sep)",
+     "u": "https://www.infocielo.com/politica-y-economia/el-nino-nacion-niega-responsabilidades-ante-una-eventual-emergencia-mientras-miles-de-millones-del-fondo-hidrico-sigue-en-un-plazo-fijo"
+    },
+    {
+     "t": "El Litoral: ATN de $5.000 M a Santa Fe (Decreto 1771)",
+     "u": "https://www.ellitoral.com/politica/santafe-decreto1771-atn-maximilianopullaro-fabianbastia-emergenciaclimatica-aportestesoronacional_0_U0YxCx63PR.html"
+    },
+    {
+     "t": "La Papa: ATN de $20.000 M a Tucumán",
+     "u": "https://lapapa.com.ar/nota/17746/nacion-giro-20000-millones-a-tucuman-para-prevenir-inundaciones"
+    },
+    {
+     "t": "BAE Negocios: reparto de ATN en septiembre",
+     "u": "https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/"
+    },
+    {
+     "t": "Cuarto Poder: Salta afuera del Plan ENOS",
+     "u": "https://cuartopodersalta.com.ar/salta-quedo-afuera-del-plan-nacional-de-asistencia-frente-al-supernino/"
+    },
+    {
+     "t": "Examedia: Valdés pide un fondo nacional",
+     "u": "https://examedia.com.ar/portada/post/88110235"
     }
    ]
   },
@@ -3511,6 +3568,31 @@
     {
      "t": "Diario de Cuyo: emergencia hídrica en siete provincias (2016)",
      "u": "https://www.diariodecuyo.com.ar/noticias/decretaron-la-emergencia-hidrica-en-siete-provincias-523526.html"
+    }
+   ]
+  },
+  {
+   "grupo": "Pronóstico del Niño y lluvias",
+   "items": [
+    {
+     "t": "NOAA PSL: OISST v2.1, anomalía diaria de temperatura del mar",
+     "u": "https://psl.noaa.gov/data/gridded/data.noaa.oisst.v2.highres.html"
+    },
+    {
+     "t": "NOAA CPC: pronósticos NMME (Niño-3.4 y probabilidad de lluvia)",
+     "u": "https://www.cpc.ncep.noaa.gov/products/NMME/"
+    },
+    {
+     "t": "NOAA PSL: Niño-3.4 histórico desde 1870 (HadISST)",
+     "u": "https://psl.noaa.gov/data/timeseries/month/DS/NINO34/"
+    },
+    {
+     "t": "IRI (Universidad de Columbia): pronósticos estacionales",
+     "u": "https://iri.columbia.edu/our-expertise/climate/forecasts/seasonal-climate-forecasts/"
+    },
+    {
+     "t": "Climate Reanalyzer (Universidad de Maine): Niño-3.4 diario",
+     "u": "https://climatereanalyzer.org/clim/sst_daily/?dm_id=nino3.4"
     }
    ]
   }
@@ -4739,8 +4821,8 @@
       "t": "No hay emergencia nacional hídrica, climática ni agropecuaria. En 2016, con un Niño más débil, se declaró por el Decreto 266/2016."
      },
      "fondos": {
-      "m": "pendiente",
-      "t": "No se publicó ningún monto para el Plan ENOS ni fondos para provincias. Buenos Aires pidió $5.000 M para caminos; no se halló respuesta."
+      "m": "parcial",
+      "t": "No hay fondos destinados a El Niño ni presupuesto para el Plan ENOS. Hubo ATN discrecionales por emergencias climáticas (Tucumán $20.000 M para prevención, Santa Fe $8.000 M, Corrientes $3.000 M), sin criterios fijados por ley. El Fondo Hídrico tiene la mayor parte de sus recursos en Letras del Tesoro."
      },
      "obras": {
       "m": "tarde",
@@ -4769,10 +4851,10 @@
     ],
     "mal": [
      "Sin emergencia nacional ni agropecuaria, que habilitan crédito externo y alivio a productores.",
-     "Sin montos públicos ni fondos a provincias.",
      "Obra del Salado demorada.",
      "Sin balance oficial de la emergencia.",
-     "El plan publicado (19 páginas) no tiene presupuesto, metas, obras ni medidas para el campo. [Plan ENOS (PDF)](https://www.magyp.gob.ar/evento-climatico/enos/cuenca-del-plata.pdf)"
+     "El plan publicado (19 páginas) no tiene presupuesto, metas, obras ni medidas para el campo. [Plan ENOS (PDF)](https://www.magyp.gob.ar/evento-climatico/enos/cuenca-del-plata.pdf)",
+     "Sin fondos para El Niño; ATN repartidos de forma discrecional y Fondo Hídrico con la mayor parte de sus recursos sin usar en obras."
     ],
     "conclusion": "**Se preparó temprano en lo organizativo, no en lo financiero ni en lo normativo.** La coordinación arrancó en marzo y abril, a tiempo. Pero con el Paraná sobre evacuación y tres muertos no hay emergencia nacional ni montos publicados, y la obra estructural clave llega tarde. El costo de no declarar es que los productores afectados no acceden a los beneficios automáticos de la Ley 26.509.",
     "fuentes": [
@@ -4781,7 +4863,10 @@
      "[Río Negro](https://www.rionegro.com.ar/politica/por-el-fenomeno-de-el-nino-karina-milei-y-diego-santilli-encabezaron-la-jornada-para-fortalecer-el-trabajo-con-las-provincias-4670133/?amp=1)",
      "[La Nación](https://www.lanacion.com.ar/economia/campo/inundaciones-el-gobierno-acelera-y-espera-concluir-en-2027-la-reactivacion-de-una-obra-clave-para-el-nid19032026/)",
      "[Análisis Digital](https://www.analisisdigital.com.ar/nacionales/2026/07/22/gobernadores-apuran-medidas-por-el-super-nino-y-preparan-cumbre-con-karina-milei-y-diego-santilli)",
-     "[Plan ENOS 2026/2027 (PDF)](https://www.magyp.gob.ar/evento-climatico/enos/cuenca-del-plata.pdf)"
+     "[Plan ENOS 2026/2027 (PDF)](https://www.magyp.gob.ar/evento-climatico/enos/cuenca-del-plata.pdf)",
+     "[Fondo Hídrico, La Nación](https://www.lanacion.com.ar/economia/campo/polemica-por-el-uso-financiero-de-un-millonario-fondo-para-obras-hidricas-nid04052026/)",
+     "[ATN a Santa Fe, El Litoral](https://www.ellitoral.com/politica/santafe-decreto1771-atn-maximilianopullaro-fabianbastia-emergenciaclimatica-aportestesoronacional_0_U0YxCx63PR.html)",
+     "[ATN a Tucumán, La Papa](https://lapapa.com.ar/nota/17746/nacion-giro-20000-millones-a-tucuman-para-prevenir-inundaciones)"
     ]
    },
    {
@@ -5829,7 +5914,7 @@
   "fuente": "Dengue: [Boletín Epidemiológico Nacional N° 830, semana 40](https://www.argentina.gob.ar/noticias/actualizacion-del-boletin-epidemiologico-nacional-de-la-semana-ndeg-40). Leptospirosis: Boletín N° 828, semana 38 ([PDF](https://www.primeraedicion.com.ar/wp-content/uploads/2026/10/ben-828-se-38-vf.pdf)). El boletín sale cada semana; la temporada de dengue arranca con fuerza en verano."
  },
  "fondos": {
-  "nota": "**Lo anunciado contra lo ejecutado.** No se encontraron datos de ejecución para ninguna jurisdicción: el Presupuesto Abierto y los boletines oficiales no se pudieron consultar desde esta herramienta. \"Sin monto\" quiere decir que el anuncio no trae cifra.",
+  "nota": "**Lo anunciado contra lo ejecutado.** No se encontraron datos de ejecución para ninguna jurisdicción: el Presupuesto Abierto y los boletines oficiales no se pudieron consultar desde esta herramienta. \"Sin monto\" quiere decir que el anuncio no trae cifra. Las filas de ATN por emergencias climáticas y la del Fondo Hídrico no se suman al costo estatal de El Niño: no están destinadas a este evento.",
   "filas": [
    {
     "jur": "Nación",
@@ -5854,10 +5939,45 @@
    },
    {
     "jur": "Nación",
-    "que": "Fondos a provincias (ATN u otros)",
+    "que": "Fondos a provincias destinados a El Niño",
     "monto": "No encontrados",
     "ejec": "—",
-    "fuente": ""
+    "fuente": "[Infocielo](https://www.infocielo.com/politica-y-economia/el-nino-nacion-niega-responsabilidades-ante-una-eventual-emergencia-mientras-miles-de-millones-del-fondo-hidrico-sigue-en-un-plazo-fijo)"
+   },
+   {
+    "jur": "Nación → Tucumán",
+    "que": "ATN para obras de prevención de inundaciones (Plan Pre Lluvia); no vinculado a El Niño",
+    "monto": "ATN $20.000 M (fuera de la suma)",
+    "ejec": "Acreditado el 9 de diciembre de 2025",
+    "fuente": "[La Papa](https://lapapa.com.ar/nota/17746/nacion-giro-20000-millones-a-tucuman-para-prevenir-inundaciones)"
+   },
+   {
+    "jur": "Nación → Santa Fe",
+    "que": "ATN por emergencia climática (lluvias en el norte); no destinado a El Niño",
+    "monto": "ATN $3.000 M (fuera de la suma)",
+    "ejec": "Recibido en mayo de 2026",
+    "fuente": "[El Litoral](https://www.ellitoral.com/politica/santafe-decreto1771-atn-maximilianopullaro-fabianbastia-emergenciaclimatica-aportestesoronacional_0_U0YxCx63PR.html)"
+   },
+   {
+    "jur": "Nación → Santa Fe",
+    "que": "ATN por emergencia climática (Decreto provincial 1771/2026); no destinado a El Niño",
+    "monto": "ATN $5.000 M (fuera de la suma)",
+    "ejec": "Distribuido a municipios y comunas desde el 31 de agosto de 2026",
+    "fuente": "[El Litoral](https://www.ellitoral.com/politica/santafe-decreto1771-atn-maximilianopullaro-fabianbastia-emergenciaclimatica-aportestesoronacional_0_U0YxCx63PR.html)"
+   },
+   {
+    "jur": "Nación → Corrientes",
+    "que": "ATN por inundaciones en San Luis del Palmar, San Roque y Santa Lucía; temporada anterior",
+    "monto": "ATN $3.000 M (fuera de la suma)",
+    "ejec": "Enero de 2026",
+    "fuente": "[Perfil](https://www.perfil.com/noticias/economia/corrientes-recibio-casi-la-cuarta-parte-del-total-de-los-atn-ejecutados-en-2026.phtml)"
+   },
+   {
+    "jur": "Nación",
+    "que": "Fondo Hídrico (Fondo Fiduciario de Infraestructura Hídrica)",
+    "monto": "$258.000 M en Letras del Tesoro y $34.922 M en cuentas (abril de 2026)",
+    "ejec": "36,7% ejecutado en obras entre 2024 y 2026, según la Provincia de Buenos Aires",
+    "fuente": "[La Nación](https://www.lanacion.com.ar/economia/campo/polemica-por-el-uso-financiero-de-un-millonario-fondo-para-obras-hidricas-nid04052026/) · [Diagonales](https://www.diagonales.com/provincia/la-pba-denunciara-penalmente-a-javier-milei-y-a-luis-caputo-por-la-subejecucion-del-fondo-hidrico_a6ad62615e22ee8014a585a01)"
    },
    {
     "jur": "Regional",
@@ -6131,6 +6251,18 @@
    "v": 11,
    "fecha": "2026-10-24",
    "resumen": "Nueva sección de Niños históricos y gráfico de evacuados apilado por provincia.",
+   "prob": [
+    40,
+    45,
+    15
+   ],
+   "muertes": 3,
+   "evac": "~2.300"
+  },
+  {
+   "v": 12,
+   "fecha": "2026-10-24",
+   "resumen": "Gráfico diario de Niño-3.4 con pronóstico, mapa de lluvias de Sudamérica y análisis de fondos nacionales y Fondo Hídrico.",
    "prob": [
     40,
     45,
@@ -6832,14 +6964,14 @@
   }
  },
  "historicos": {
-  "tesis": "Desde que hay registros, cuatro Niños se acercan a lo que se espera para este: **1877-78, 1982-83, 1997-98 y 2015-16**. Solo el de 1877-78 aparece, en algunas reconstrucciones, en el rango previsto para el pico de 2026-27; los otros tres quedaron entre +2,4 y +2,75 °C. La historia muestra además que el daño en la Argentina no depende solo de la intensidad en el océano: 1997-98 fue el más débil de los tres modernos y el que más daño dejó.",
+  "tesis": "Desde que hay registros, cuatro Niños se acercan a lo que se espera para este: **1877-78, 1982-83, 1997-98 y 2015-16**. Según la reconstrucción, el de 1877-78 estuvo entre +2,5 y +3,5 °C: puede haber sido el más fuerte antes del actual, pero con mucha incertidumbre. Los otros tres quedaron entre +2,4 y +2,75 °C, por debajo de lo que ya marcó 2026. La historia muestra además que el daño en la Argentina no depende solo de la intensidad en el océano: 1997-98 fue el más débil de los tres modernos y el que más daño dejó.",
   "nota": "Intensidad: anomalía de temperatura del Pacífico central (Niño-3.4), pico mensual, según NOAA, Carbon Brief y la OMM; 1997-98 es un valor aproximado y 1877-78 es una reconstrucción. Los montos están en dólares de cada época, sin ajustar. \"Sin dato\" quiere decir que no se encontró una cifra en las fuentes revisadas, no que no haya habido daño.",
   "eventos": [
    {
     "id": "1877",
     "nombre": "1877-78",
-    "pico_txt": "≈ +2,7 °C (reconstruido)",
-    "magnitud": "Algunas reconstrucciones lo ubican como el más intenso antes del actual: en la corrida estándar de ERSSTv5 llega a +3,5 °C en el índice Niño-3, más que 1982-83, 1997-98 y 2015-16. Es el único evento histórico que se acerca al pico previsto para 2026-27 (+3,5 a +3,8 °C), pero con mucha incertidumbre.",
+    "pico_txt": "+2,5 a +3,5 °C (reconstruido)",
+    "magnitud": "Según la reconstrucción, estuvo entre +2,5 °C (HadISST, del Met Office) y +3,5 °C (corrida estándar de ERSSTv5, de NOAA, en el índice Niño-3): puede haber sido el más fuerte antes del actual, pero con mucha incertidumbre. En el gráfico de temperatura del Pacífico aparece como línea punteada.",
     "resumen": "El evento de referencia por su magnitud. En el mundo se lo asocia a sequías y hambrunas en India, China y el nordeste de Brasil, que según estudios recientes mataron a cerca del 4% de la población mundial. En la Argentina el registro es escaso: hubo grandes crecidas del Paraná en el nordeste a comienzos de 1878 y temporales en la cordillera.",
     "evacuados": "Sin registro",
     "muertes": "Sin registro",
@@ -6966,5 +7098,125 @@
     ]
    }
   ]
+ },
+ "pronostico": {
+  "nino": {
+   "analisis": [
+    "**El pico todavía no llegó.** En octubre la anomalía diaria ya superó todos los valores de la serie desde 1982 (máximo de +3,57 °C el 18 de octubre), y los modelos de NOAA prevén que siga subiendo hasta **+3,85 °C en diciembre**, en plena temporada de lluvias del Litoral.",
+    "**Se mantiene muy fuerte hasta el otoño.** El promedio de los modelos sigue arriba de +2 °C hasta mayo de 2027. En 1983 y en 1998, las crecidas más grandes del Paraná llegaron en otoño e invierno, meses después del pico en el océano.",
+    "**La incertidumbre es grande.** En diciembre los modelos van de +3,15 a +4,71 °C. Uno solo (NASA) lo lleva arriba de +5 °C en febrero; el resto lo baja a entre +2,3 y +3,8 °C.",
+    "**Que el océano bata récords no garantiza un daño récord.** El daño depende de dónde caiga la lluvia: el mapa de abajo muestra qué esperan los modelos para cada trimestre."
+   ],
+   "nota": "Anomalía diaria de la temperatura del mar en la región Niño-3.4 (5° N a 5° S y 170° O a 120° O), calculada con la serie OISST v2.1 de NOAA respecto del promedio 1991-2020. Por usar otro período de referencia, los valores pueden diferir en unas décimas de los de Climate Reanalyzer o Carbon Brief. 1877-78: reconstrucción mensual HadISST del Met Office británico (respecto de 1981-2010), hecha con mediciones dispersas de barcos; es solo una estimación y otras reconstrucciones, como ERSSTv5 de NOAA, lo ubican más alto (cerca de +2,7 °C). Pronóstico: promedio de los modelos de NOAA (NMME) emitido el 8 de octubre de 2026 y rango entre seis modelos; son valores mensuales."
+  },
+  "lluvias": {
+   "analisis": [
+    {
+     "t": "Oct-Nov-Dic 2026",
+     "resumen": "**Lluvias sobre lo normal en casi toda la cuenca del Plata**, con la señal más fuerte en el sur de Brasil (63% de probabilidad) y la cuenca alta (53%). El NOA y la Amazonia, en cambio, van hacia lo seco.",
+     "bloques": [
+      [
+       "Ríos y represas",
+       "Más lluvia sobre el sur de Brasil, Paraguay y Misiones mantiene alto el caudal que entra a **Yacyretá e Itaipú**, que ya supera su nivel de evacuación. El río **Uruguay** es el más expuesto: el sur de Brasil tiene la señal más fuerte del mapa, y eso presiona sobre **Salto Grande, Concordia y Paso de los Libres**. En Comahue, la lluvia sobre lo normal suma caudal a los ríos Neuquén y Limay en plena temporada de deshielo."
+      ],
+      [
+       "Puertos y logística",
+       "Un río alto da más calado en el Gran Rosario, pero los caminos rurales anegados demoran la llegada de camiones. En el Litoral, con defensas al límite, cada lluvia fuerte complica la operación de los puertos de Corrientes, Barranqueras y Reconquista."
+      ],
+      [
+       "Agricultura",
+       "En la región núcleo (48% sobre lo normal) la lluvia ayuda a la siembra de maíz y soja, pero llega justo con la **cosecha de trigo**: más riesgo de demoras y de fusariosis. En el NOA (43% bajo lo normal) puede atrasarse el comienzo de la temporada de lluvias y la siembra de verano."
+      ],
+      [
+       "Ganadería",
+       "Sigue el riesgo para la **hacienda de islas y bajos** del Paraná y del Uruguay, que ya está siendo evacuada. Los campos altos de la pampa, en cambio, ganan pasto."
+      ],
+      [
+       "Ciudades e infraestructura",
+       "Más chances de **tormentas urbanas intensas** en Rosario, Santa Fe, Resistencia y Corrientes, donde los desagües ya trabajan contra un río alto. En Neuquén, con el suelo saturado, siguen los riesgos para rutas y accesos a Vaca Muerta."
+      ]
+     ]
+    },
+    {
+     "t": "Nov-Dic-Ene",
+     "resumen": "**El trimestre más húmedo para el Litoral y el NEA argentino** (60% de probabilidad de lluvias sobre lo normal) y la región núcleo (54%). La cuenca alta sigue húmeda (51%) y el norte de Sudamérica, seco.",
+     "bloques": [
+      [
+       "Ríos y represas",
+       "Es la combinación más delicada: lluvia sobre lo normal **en la cuenca alta y en el tramo argentino a la vez**. El agua que cae en Corrientes, Chaco y el norte de Santa Fe se suma a la crecida que baja de Yacyretá. Es el escenario en el que **Reconquista, Goya, Santa Fe y Paraná** podrían pasar de alerta a evacuación. El río Uruguay sigue bajo presión por el sur de Brasil (63%)."
+      ],
+      [
+       "Puertos y logística",
+       "Riesgo de cortes en accesos portuarios y rutas del Litoral (RN 11, RN 12, rutas provinciales de islas y bajos). El calado se mantiene bueno, pero la operación terrestre es el cuello de botella."
+      ],
+      [
+       "Agricultura",
+       "Coincide con la **ventana crítica del 15 de noviembre al 31 de diciembre**: siembra de soja de primera y maíz tardío. Con 54% de chances de lluvias sobre lo normal en la región núcleo, crece el riesgo de **lotes sin piso** y de siembra fuera de fecha. En los bajos del Litoral, anegamiento de arroz y algodón."
+      ],
+      [
+       "Ganadería",
+       "Es el momento de mayor riesgo para la **ganadería de islas** del Delta y del Paraná medio. También hay más riesgo de enfermedades por humedad y de pérdida de pasturas en bajos."
+      ],
+      [
+       "Ciudades e infraestructura",
+       "Riesgo alto en las ciudades sobre el Paraná con defensas incompletas: Corrientes, Goya, Reconquista y las islas frente a Rosario. Con calor y humedad, también se adelanta la **temporada de dengue**."
+      ]
+     ]
+    },
+    {
+     "t": "Dic-Ene-Feb",
+     "resumen": "**La señal se corre hacia el sur**: la región núcleo pasa a ser la zona con más chances de lluvias sobre lo normal (56%), junto con el Litoral (54%). En la cuenca alta la señal se debilita (41%).",
+     "bloques": [
+      [
+       "Ríos y represas",
+       "Si la cuenca alta se modera, el ingreso a Yacyretá podría empezar a bajar, pero el Paraná medio e inferior recibe tarde la crecida de los meses anteriores. Más lluvia local sobre Santa Fe, Entre Ríos y Buenos Aires complica el desagüe de **arroyos y bajos** (cuenca del Salado, sur de Santa Fe)."
+      ],
+      [
+       "Puertos y logística",
+       "Con la región núcleo húmeda, los **caminos rurales** son el principal problema para la cosecha gruesa que empieza en marzo y para el movimiento de hacienda."
+      ],
+      [
+       "Agricultura",
+       "Bueno para el **llenado de maíz y soja** de primera si no hay excesos; malo en suelos ya saturados, con anegamiento y enfermedades. En la región núcleo es el trimestre con mayor riesgo de pérdidas por exceso de agua."
+      ],
+      [
+       "Ganadería",
+       "Pasturas abundantes en zonas altas; riesgo de anegamiento de rodeos y tambos en bajos de la cuenca del Salado y del centro de Santa Fe."
+      ],
+      [
+       "Ciudades e infraestructura",
+       "Más chances de lluvias intensas sobre el **AMBA, Rosario y La Plata**, donde las muertes por tormentas urbanas súbitas son el mayor riesgo, como en La Plata en 2013."
+      ]
+     ]
+    },
+    {
+     "t": "Ene-Feb-Mar 2027",
+     "resumen": "**La señal húmeda se debilita**, salvo en el Litoral y el NEA (51%). La región núcleo baja a 44% y el resto del país queda cerca de lo normal o sin señal clara.",
+     "bloques": [
+      [
+       "Ríos y represas",
+       "Aunque llueva menos, el Paraná suele tardar meses en bajar: la crecida puede durar hasta el otoño, como en 1983 y en 1998. El Litoral sigue húmedo y eso mantiene la presión sobre las ciudades ribereñas del NEA."
+      ],
+      [
+       "Puertos y logística",
+       "Empieza la **cosecha gruesa**: si los suelos siguen saturados, habrá demoras en la cosecha y en el transporte a puertos."
+      ],
+      [
+       "Agricultura",
+       "Con menos señal en la región núcleo, mejora la perspectiva de cosecha, aunque la humedad previa puede bajar la calidad de granos. En el Litoral, riesgo para arroz y algodón en cosecha."
+      ],
+      [
+       "Ganadería",
+       "Recuperación de pasturas en zonas altas; en islas y bajos, la vuelta de la hacienda depende de que baje el río."
+      ],
+      [
+       "Ciudades e infraestructura",
+       "El riesgo se concentra en las ciudades del NEA sobre el Paraná y en las tormentas de fin de verano. Es la etapa en que suelen aparecer los **brotes de leptospirosis y dengue** tras las inundaciones."
+      ]
+     ]
+    }
+   ],
+   "nota": "Pronóstico probabilístico de NOAA (NMME, varios modelos combinados), emitido el 7 de octubre de 2026, en una grilla de 1° (unos 100 km). Cada punto muestra qué categoría es más probable comparada con el período 1991-2020: lluvias **sobre lo normal**, **cerca de lo normal** o **bajo lo normal**. Una probabilidad de 33% en cada una equivale a no saber nada; por eso los puntos sin una categoría claramente más probable quedan en blanco. Los puntos vacíos son zonas en estación seca, donde NOAA no publica pronóstico. Es la misma fuente que usa el IRI de la Universidad de Columbia. El análisis es propio."
+  }
  }
 }
