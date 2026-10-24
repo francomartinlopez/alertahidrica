@@ -467,7 +467,13 @@ function sect(id,eyebrow,title,tesis,inner){
 const ul=(a,cls='plain')=>`<ul class="${cls}">${a.map(x=>`<li>${md(x)}</li>`).join('')}</ul>`;
 
 function initN34(D,PX){
-const N=PX.n3;if(!N||!$('#n34chart'))return;const Y=N.anios,P=N.pron;
+const B=PX.n3;if(!B||!$('#n34chart'))return;const TX=((D.pronostico||{}).nino)||{};
+const view=mode=>{const r=B.relativo;if(mode!=='rel'||!r)return {anios:B.anios,h1877:B.h1877,pron:B.pron,ultimo:B.ultimo};
+  const yN=String(Math.max(...Object.keys(r.anios).map(Number)));const la=r.anios[yN];return {anios:r.anios,h1877:r.h1877,pron:Object.assign({},B.pron,r.pron),ultimo:[B.ultimo[0],la[la.length-1]]}};
+const btns=document.querySelectorAll('#n34mode [data-m]');
+const go=mode=>{drawN34(view(mode),mode);btns.forEach(b=>b.setAttribute('aria-pressed',b.dataset.m===mode));const e=$('#n34exp');if(e)e.innerHTML=md(mode==='rel'?(TX.explicacion_rel||''):(TX.explicacion_abs||''))};
+btns.forEach(b=>b.onclick=()=>go(b.dataset.m));go('abs');
+function drawN34(N,mode){const Y=N.anios,P=N.pron;const REL=mode==='rel';
 const f2=v=>(v>0?'+':'')+v.toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2});
 const MS=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
 const DMAX=546,mstart=[0,31,59,90,120,151,181,212,243,273,304,334,365,396,424,455,485,516];
@@ -503,8 +509,8 @@ $('#n34chart').innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="An
 const MESL=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
 const fd=s=>{const [a,b,c]=s.split('-');return `${+c} de ${MESL[+b-1]}`};
 const mx=y=>Math.max(...serie(y).map(p=>p[1]));const mxN=Math.max(...sN.map(p=>p[1]));
-$('#n34lead').innerHTML=md(`El ${fd(N.ultimo[0])} la anomalía estaba en **${f2(lastD[1])} °C**; el máximo de ${yNow} es **${f2(mxN)} °C**, por encima del máximo diario de 2015-16 (${f2(mx(2015))}), 1982-83 (${f2(mx(1982))}) y 1997-98 (${f2(mx(1997))}) con la misma referencia. La línea punteada roja es el pronóstico: el promedio de los modelos de NOAA llega a **${f2(P.media[pk])} °C en ${MESL[+P.meses[pk].slice(5)-1]}**.`);
-$('#n34leg').innerHTML=`<span><i style="background:var(--evac)"></i>${yNow}-${String(yNow+1).slice(2)}</span><span><i style="background:var(--evac);opacity:.35"></i>Pronóstico (promedio y rango de modelos)</span>`+Object.values(HL).map(h=>`<span><i style="background:${h[1]}"></i>${h[0]}</span>`).join('')+(H7?`<span><i style="background:none;border-top:2px dotted var(--ink);height:0;width:18px;border-radius:0"></i>1877-78 (reconstruido, mensual)</span>`:'')+`<span><i style="background:var(--yr)"></i>Resto de los años desde 1982</span>`;
+$('#n34lead').innerHTML=REL?md(`Descontando el calentamiento general de los trópicos, el ${fd(N.ultimo[0])} el índice relativo estaba en **${f2(lastD[1])} °C**; el máximo de ${yNow} es **${f2(mxN)} °C**, **a la par** de 2015-16 (${f2(mx(2015))}) y 1982-83 (${f2(mx(1982))}) y por encima de 1997-98 (${f2(mx(1997))}). El pronóstico relativo de NOAA llega a **${f2(P.media[pk])} °C en ${MESL[+P.meses[pk].slice(5)-1]}**.`):md(`El ${fd(N.ultimo[0])} la anomalía estaba en **${f2(lastD[1])} °C**; el máximo de ${yNow} es **${f2(mxN)} °C**, por encima del máximo diario de 2015-16 (${f2(mx(2015))}), 1982-83 (${f2(mx(1982))}) y 1997-98 (${f2(mx(1997))}) con la misma referencia. La línea punteada roja es el pronóstico: el promedio de los modelos de NOAA llega a **${f2(P.media[pk])} °C en ${MESL[+P.meses[pk].slice(5)-1]}**.`);
+$('#n34leg').innerHTML=`<span><i style="background:var(--evac)"></i>${yNow}-${String(yNow+1).slice(2)}</span><span><i style="background:var(--evac);opacity:.35"></i>Pronóstico (promedio y rango de modelos)</span>`+Object.values(HL).map(h=>`<span><i style="background:${h[1]}"></i>${h[0]}</span>`).join('')+(H7?`<span><i style="background:none;border-top:2px dotted var(--ink);height:0;width:18px;border-radius:0"></i>${REL?'1877-78 (reconstruido ERSSTv5, mensual)':'1877-78 (reconstruido HadISST, mensual)'}</span>`:'')+`<span><i style="background:var(--yr)"></i>Resto de los años desde 1982</span>`;
 const dayL=d=>{let y=0,dd=d;if(dd>=365){y=1;dd-=365}let m=0;while(m<11&&dd>=mstart[m+1])m++;return `${dd-mstart[m]+1} ${MS[m]}`+(y?' (año siguiente)':'')};
 const tipDef='Pasá el cursor o tocá el gráfico para comparar los años en una misma fecha.';$('#n34tip').textContent=tipDef;
 const svg=$('#n34chart svg'),cu=svg.querySelector('#n34cur');const at=(s,d)=>{const p=s.find(q=>q[0]===d);return p?p[1]:null};
@@ -515,6 +521,7 @@ const mv=e=>{const r=svg.getBoundingClientRect();const x=(e.clientX-r.left)/r.wi
   if(s77.length){const q=s77.reduce((a,p)=>Math.abs(p[0]-d)<Math.abs(a[0]-d)?p:a);if(Math.abs(q[0]-d)<=16)parts.push(`<span>1877-78 (mes): ${f2(q[1])}</span>`)}
   $('#n34tip').innerHTML=`${dayL(d)} · `+parts.join(' · ')};
 svg.addEventListener('pointermove',mv);svg.addEventListener('pointerdown',mv);svg.addEventListener('pointerleave',()=>{cu.setAttribute('opacity',0);$('#n34tip').textContent=tipDef});
+}
 }
 function initLluvias(D,M,PX){
 const LL=PX.ll,SA=PX.sa,AL=((D.pronostico||{}).lluvias||{}).analisis||[];if(!LL||!SA||!$('#llmap'))return;
@@ -618,7 +625,7 @@ function render(D,M,ZG,PX){PX=PX||{};
   const maxp=Math.max(...D.nino.comparacion.map(c=>c.pico))*1.08;
   const bars=D.nino.comparacion.map(c=>`<div class="bar ${c.actual?'actual':''} ${c.previsto?'previsto':''}"><span>${esc(c.evento)}</span><span class="trk" title="${esc(c.nota)}"><span class="fill" style="width:${(c.pico/maxp*100).toFixed(1)}%"></span></span><span class="val">+${fm(c.pico)}</span></div>`).join('');
   h+=sect('nino','El Niño hoy','Qué tan fuerte es este Niño',D.nino.tesis,
-   `<div class="ind">${nI}</div>${PX.n3?`<div class="card linked n34" id="n34card"><span class="eyebrow">Temperatura del Pacífico día a día</span><h3>Un récord diario, y el pico todavía por delante</h3><p class="lead" id="n34lead"></p><div class="legend" id="n34leg"></div><div id="n34chart"></div><p class="ntip" id="n34tip"></p><div><h3 style="margin-bottom:8px">Qué implica</h3>${ul((D.pronostico||{nino:{analisis:[]}}).nino.analisis)}</div><p class="small muted">${md(((D.pronostico||{}).nino||{}).nota||'')}</p></div>`:''}
+   `<div class="ind">${nI}</div>${PX.n3?`<div class="card linked n34" id="n34card"><span class="eyebrow">Temperatura del Pacífico día a día</span><h3>Un récord diario, y el pico todavía por delante</h3><div class="toggle" id="n34mode" role="group" aria-label="Índice" style="margin:4px 0 10px"><button type="button" data-m="abs" aria-pressed="true">Absoluto</button><button type="button" data-m="rel" aria-pressed="false">Relativo (sin calentamiento de fondo)</button></div><p class="lead" id="n34lead"></p><p class="small muted" id="n34exp" style="margin-top:-4px"></p><div class="legend" id="n34leg"></div><div id="n34chart"></div><p class="ntip" id="n34tip"></p><div><h3 style="margin-bottom:8px">Qué implica</h3>${ul((D.pronostico||{nino:{analisis:[]}}).nino.analisis)}</div><p class="small muted">${md(((D.pronostico||{}).nino||{}).nota||'')}</p></div>`:''}
     <div class="card"><h3>Comparación con los grandes eventos</h3><div class="bars">${bars}</div><p class="small muted">${md(D.nino.comparacion_nota)}</p></div>
     <div class="card"><h3>Matices</h3>${ul(D.nino.matices)}</div>`);
 

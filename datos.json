@@ -5,8 +5,9 @@
   "actualizado_texto": "24 de octubre de 2026",
   "proxima": "Se actualiza todos los días por la mañana.",
   "autor": "Franco Martín López",
-  "version": 12,
+  "version": 13,
   "cambios": [
+   "Gráfico de Niño-3.4: botón Absoluto / Relativo, que descuenta el calentamiento general de los trópicos, con una breve explicación.",
    "Nuevo gráfico diario de Niño-3.4 desde 1982, con 1877-78 estimado y el pronóstico de NOAA.",
    "Nuevo mapa de lluvias de Sudamérica por trimestre con análisis de implicancias.",
    "Nación: fondos para El Niño, ATN por emergencias climáticas y explicación del Fondo Hídrico; marca de fondos en parcial.",
@@ -7107,7 +7108,9 @@
     "**La incertidumbre es grande.** En diciembre los modelos van de +3,15 a +4,71 °C. Uno solo (NASA) lo lleva arriba de +5 °C en febrero; el resto lo baja a entre +2,3 y +3,8 °C.",
     "**Que el océano bata récords no garantiza un daño récord.** El daño depende de dónde caiga la lluvia: el mapa de abajo muestra qué esperan los modelos para cada trimestre."
    ],
-   "nota": "Anomalía diaria de la temperatura del mar en la región Niño-3.4 (5° N a 5° S y 170° O a 120° O), calculada con la serie OISST v2.1 de NOAA respecto del promedio 1991-2020. Por usar otro período de referencia, los valores pueden diferir en unas décimas de los de Climate Reanalyzer o Carbon Brief. 1877-78: reconstrucción mensual HadISST del Met Office británico (respecto de 1981-2010), hecha con mediciones dispersas de barcos; es solo una estimación y otras reconstrucciones, como ERSSTv5 de NOAA, lo ubican más alto (cerca de +2,7 °C). Pronóstico: promedio de los modelos de NOAA (NMME) emitido el 8 de octubre de 2026 y rango entre seis modelos; son valores mensuales."
+   "nota": "Anomalía diaria de la temperatura del mar en la región Niño-3.4 (5° N a 5° S y 170° O a 120° O), calculada con la serie OISST v2.1 de NOAA respecto del promedio 1991-2020. Por usar otro período de referencia, los valores pueden diferir en unas décimas de los de Climate Reanalyzer o Carbon Brief. 1877-78: reconstrucción mensual HadISST del Met Office británico (respecto de 1981-2010), hecha con mediciones dispersas de barcos; es solo una estimación y otras reconstrucciones, como ERSSTv5 de NOAA, lo ubican más alto (cerca de +2,7 °C). Pronóstico: promedio de los modelos de NOAA (NMME) emitido el 8 de octubre de 2026 y rango entre seis modelos; son valores mensuales. Índice relativo (cálculo propio): anomalía diaria de Niño-3.4 menos la anomalía tropical mensual de ERSSTv5 (20° N a 20° S, interpolada a días), multiplicada por 1,19 para mantener la escala del índice clásico, como hace NOAA con el RONI; en ese modo, 1877-78 usa ERSSTv5.",
+   "explicacion_abs": "**Absoluto:** cuánto más caliente está el mar en la región Niño-3.4 respecto del promedio 1991-2020. No descuenta que el resto de los trópicos también está más caliente: en septiembre de 2026 su anomalía media era de +0,9 °C, por el calentamiento de fondo y en parte por el propio Niño.",
+   "explicacion_rel": "**Relativo:** a la anomalía de Niño-3.4 se le resta la anomalía media de todos los trópicos (20° N a 20° S), porque lo que mueve las lluvias es la diferencia entre esa región y el resto. Es el criterio del índice relativo de NOAA (RONI), oficial desde el 1 de febrero de 2026: para julio-septiembre de 2026, NOAA da +2,16 °C en el índice clásico y +1,69 °C en el relativo. En 2026 la anomalía media de los trópicos fue subiendo hasta +0,9 °C en septiembre, cuando en 1878 o 1983 estaba cerca de cero, así que con esta vara 2026 queda **a la par** de 1982-83 y 2015-16, no muy por encima, y la reconstrucción de 1877-78 (cerca de +2,7 °C en promedio de tres meses) podría ser la más alta. Aun así, una atmósfera más caliente retiene más humedad (alrededor de 7% más por cada grado), así que las lluvias pueden ser más intensas que lo que sugiere el índice relativo."
   },
   "lluvias": {
    "analisis": [
