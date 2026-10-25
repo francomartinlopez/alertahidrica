@@ -39,6 +39,9 @@
   --evac:#F0675F; --evac-soft:#3A1B1A; --alert:#F0A93A; --alert-soft:#3A2B12; --ok:#5BC08A; --ok-soft:#163323; --rise:#A58BEB; --rise-soft:#2A2340;
   --nd:#6F8287; --nd-soft:#1B2B30; --mid:#E3BE55; --mid-soft:#352C12; color-scheme:dark}
 *{box-sizing:border-box}
+/* mapa de fenómenos anómalos (página aparte en fenomenos/, embebida) */
+.fxhead{display:flex;flex-direction:column;gap:6px;margin-top:8px}
+.fxframe{display:block;width:100%;border:0;height:1700px;background:transparent}
 html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 112px)}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
 body{background:var(--paper);color:var(--ink);font:400 17px/1.55 var(--f-body);margin:0}
@@ -438,6 +441,7 @@ ul.plain.g2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,3
 </main>
 
 <script>
+window.addEventListener('message',e=>{const d=e.data,f=document.getElementById('fxframe');if(f&&d&&typeof d.fxAltura==='number'&&e.source===f.contentWindow)f.style.height=d.fxAltura+'px'});
 (function(){
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -648,7 +652,10 @@ function render(D,M,ZG,PX){PX=PX||{};
   const reg=D.global.regiones.map(x=>{const t=TIPO[x.tipo]||['','t-nd'];return `<div class="card"><div class="hd"><h3>${esc(x.pais)}</h3><span class="tag ${t[1]}">${t[0]}</span></div><p class="small">${md(x.texto)}</p><span class="small">${md(x.fuente)}</span></div>`}).join('');
   h+=sect('mundo','El Niño en el mundo','Lo que dicen las fuentes internacionales',D.global.tesis,
    `<div class="ind">${gD}</div><div class="world">${reg}</div>
-    <div class="card"><h3>Por qué importa para Argentina</h3>${ul(D.global.para_argentina)}</div>`);
+    <div class="card"><h3>Por qué importa para Argentina</h3>${ul(D.global.para_argentina)}</div>
+    <div class="fxhead" id="fenomenos"><h3>Fenómenos anómalos en el mundo</h3><p class="small muted">Eventos meteorológicos y climáticos fuera de lo común de los últimos 90 días, con la intensidad del fenómeno, sus daños y sus efectos. Se muestran todos, sin asumir que El Niño los causó.</p></div>
+    <iframe class="fxframe" id="fxframe" src="fenomenos/index.html" title="Mapa de fenómenos anómalos en el mundo" scrolling="no" loading="lazy"></iframe>
+    <p class="small"><a href="fenomenos/index.html" target="_blank" rel="noopener">Abrir el mapa en una página aparte</a></p>`);
 
   // ESCENARIOS
   const E=D.escenarios;

@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mapa de fenómenos anómalos</title>
+<meta name="description" content="Prototipo del mapa mundial de fenómenos meteorológicos y climáticos anómalos para la web Súper Niño Argentina.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: mismo tablero que la web (columna de 1120px, tokens del sitio). Mapa Equal Earth a todo el ancho; abajo ficha conectada + lista; al final, comercio y logística. */
+:root{
+  --paper:#F2F5F4; --panel:#FFFFFF; --ink:#0F2229; --muted:#56676C; --line:#D3DDDC; --soft:#E6ECEB;
+  --accent:#0B6B74; --accent-ink:#FFFFFF; --water-soft:#CFE4EA;
+  --evac:#C2312B; --alert:#C77A0A; --ok:#2F7A4E;
+  --land:#DCE3E2; --sea:#EEF3F3;
+  /* familias: agua (azules, incluye aludes), tormentas (violetas), calor y seco (rojos y naranjas), frío (celestes) */
+  --c-inundacion:#1D57A8; --c-lluvia:#3D8BDB; --c-monzon:#1E8F86; --c-marejada:#4FA6BF;
+  --c-ciclon:#7446D6; --c-tornado:#5226A8; --c-granizo:#9A7BEF; --c-viento:#B15FDC; --c-rayos:#C44AC2;
+  --c-calor:#D33A2C; --c-calor_marino:#D9417A; --c-sequia:#B06F12; --c-incendio:#E3601A; --c-polvo:#9E8429;
+  --c-frio:#4CB7E0; --c-nieve:#1C9DBE; --c-deslizamiento:#50607E;
+  --f-display:"Archivo","Arial Narrow",system-ui,sans-serif;
+  --f-body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --f-data:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --r:6px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0B1518; --panel:#122126; --ink:#E4EDEE; --muted:#97A9AD; --line:#26393E; --soft:#182A30;
+  --accent:#4FB3BC; --accent-ink:#06191C; --water-soft:#163A45;
+  --evac:#F0675F; --alert:#F0A93A; --ok:#5BC08A;
+  --land:#22363C; --sea:#0F1D21;
+  --c-inundacion:#5C93E6; --c-lluvia:#7DB6F0; --c-monzon:#3DC2B4; --c-marejada:#79C9DD;
+  --c-ciclon:#A383F2; --c-tornado:#8A63E0; --c-granizo:#BDA6F7; --c-viento:#CF8DF0; --c-rayos:#E07BDD;
+  --c-calor:#F2665A; --c-calor_marino:#F06C9D; --c-sequia:#D99A3C; --c-incendio:#F5884A; --c-polvo:#C9AE52;
+  --c-frio:#86D3F2; --c-nieve:#4CC6E3; --c-deslizamiento:#9AAAC6; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0B1518; --panel:#122126; --ink:#E4EDEE; --muted:#97A9AD; --line:#26393E; --soft:#182A30;
+  --accent:#4FB3BC; --accent-ink:#06191C; --water-soft:#163A45;
+  --evac:#F0675F; --alert:#F0A93A; --ok:#5BC08A;
+  --land:#22363C; --sea:#0F1D21;
+  --c-inundacion:#5C93E6; --c-lluvia:#7DB6F0; --c-monzon:#3DC2B4; --c-marejada:#79C9DD;
+  --c-ciclon:#A383F2; --c-tornado:#8A63E0; --c-granizo:#BDA6F7; --c-viento:#CF8DF0; --c-rayos:#E07BDD;
+  --c-calor:#F2665A; --c-calor_marino:#F06C9D; --c-sequia:#D99A3C; --c-incendio:#F5884A; --c-polvo:#C9AE52;
+  --c-frio:#86D3F2; --c-nieve:#4CC6E3; --c-deslizamiento:#9AAAC6; color-scheme:dark}
+*{box-sizing:border-box}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+body{background:var(--paper);color:var(--ink);font:400 17px/1.55 var(--f-body);margin:0}
+a{color:var(--accent);text-underline-offset:2px}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3,h4{font-family:var(--f-display);line-height:1.1;text-wrap:balance;margin:0}
+h2{font-size:clamp(1.7rem,3.6vw,2.4rem);font-weight:750;font-stretch:78%;letter-spacing:-.01em}
+h3{font-size:1.35rem;font-weight:700;font-stretch:82%}
+h4{font:600 .72rem/1.2 var(--f-data);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+p{margin:0}
+.eyebrow{font:500 .74rem/1.2 var(--f-data);letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.lead{font-size:1.12rem;max-width:70ch}
+.muted{color:var(--muted)} .small{font-size:.9rem}
+.num{font-family:var(--f-data);font-variant-numeric:tabular-nums}
+.proto{background:var(--panel);border-bottom:1px solid var(--line)}
+.proto .wrap{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding-block:12px}
+.proto b{font:800 1.05rem/1.2 var(--f-display);font-stretch:72%;text-transform:uppercase;letter-spacing:.01em}
+.pill{font:600 .7rem/1 var(--f-data);letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:4px;background:var(--water-soft);color:var(--accent)}
+main{padding-block:36px 64px}
+main>.wrap{display:flex;flex-direction:column;gap:20px}
+.sechead{display:flex;flex-direction:column;gap:10px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.linked{border-top:3px solid var(--accent)}
+.hint{font-size:.88rem;color:var(--muted);line-height:1.4}
+.hint::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent);margin-right:8px;vertical-align:1px}
+.ar-m{display:none} @media (max-width:860px){.ar-d{display:none}.ar-m{display:inline}}
+@keyframes flashk{0%{box-shadow:0 0 0 3px var(--accent)}100%{box-shadow:0 0 0 3px transparent}}
+.flash{animation:flashk .9s ease-out}
+
+/* resumen */
+.sum{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.sum>div{background:var(--panel);padding:12px 14px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.sum .v{font:700 1.7rem/1 var(--f-data);font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.sum .d{font-size:.8rem;color:var(--muted);line-height:1.3}
+@media (max-width:860px){.sum{grid-template-columns:repeat(2,minmax(0,1fr))}.sum>div:first-child{grid-column:1/-1}}
+
+/* filtros */
+.row{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}
+.toggle{display:inline-grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);border:1px solid var(--line);border-radius:10px;padding:3px;background:var(--soft);gap:3px}
+.toggle button{border:0;background:transparent;color:var(--muted);font:600 .86rem/1.15 var(--f-body);padding:8px 14px;border-radius:7px;cursor:pointer;white-space:nowrap}
+.toggle button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.fam{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.fam>.lbl{font:600 .68rem/1.2 var(--f-data);letter-spacing:.07em;text-transform:uppercase;color:var(--muted);min-width:92px}
+.chip{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--panel);color:var(--muted);font:600 .84rem/1 var(--f-body);padding:7px 10px 7px 8px;border-radius:999px;cursor:pointer}
+.chip i{width:11px;height:11px;border-radius:50%;background:var(--c);opacity:.35}
+.chip[aria-pressed="true"]{color:var(--ink);border-color:var(--c)}
+.chip[aria-pressed="true"] i{opacity:1}
+.chip .n{font:500 .74rem var(--f-data);color:var(--muted)}
+.chip:disabled{opacity:.45;cursor:default}
+.lnkbtn{border:0;background:none;color:var(--accent);font:600 .84rem var(--f-body);cursor:pointer;padding:4px 2px;text-decoration:underline;text-underline-offset:2px}
+@media (max-width:640px){.toggle{display:grid;width:100%}.fam>.lbl{min-width:0;flex-basis:100%}.chip:disabled{display:none}.fam.vacia{display:none}}
+
+/* mapa */
+.mapcard{padding:12px}
+.maptools{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:center}
+.zoom{display:flex;gap:6px;flex-wrap:wrap}
+.zoom button{border:1px solid var(--line);background:var(--panel);font:600 .8rem/1 var(--f-body);padding:7px 10px;border-radius:6px;cursor:pointer;color:var(--muted)}
+.zoom button[aria-pressed="true"]{border-color:var(--accent);color:var(--ink);box-shadow:inset 0 0 0 1px var(--accent)}
+.mapbox{position:relative;background:var(--sea);border-radius:4px;overflow:hidden}
+.mapbox svg{display:block;width:100%;height:auto;touch-action:manipulation}
+.pais{fill:var(--land);stroke:var(--sea);stroke-width:.6;vector-effect:non-scaling-stroke}
+.grat{fill:none;stroke:var(--line);stroke-width:.6;vector-effect:non-scaling-stroke;opacity:.8}
+.cont{fill:none;stroke:var(--line);stroke-width:1;vector-effect:non-scaling-stroke}
+.ev{cursor:pointer}
+.ev .a{fill:var(--c);fill-opacity:.2;stroke:var(--c);stroke-width:1.4;vector-effect:non-scaling-stroke}
+.ev .t{fill:none;stroke:var(--c);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.ev .tp{fill:var(--c)}
+.ev .p{fill:var(--c);stroke:var(--panel);stroke-width:1.4;vector-effect:non-scaling-stroke}
+.ev .im{fill:var(--c);stroke:var(--panel);stroke-width:1.4;vector-effect:non-scaling-stroke}
+.ev .im.hollow{fill:var(--panel);stroke:var(--c);stroke-width:1.8}
+.ev.sel .im{stroke:var(--ink);stroke-width:2.4}
+.ev .hitc{fill:transparent;stroke:none}
+.ev .hit{fill:transparent;stroke:transparent;stroke-width:14;vector-effect:non-scaling-stroke}
+svg.has-sel .ev:not(.sel){opacity:.55}
+.ev.sel .a{fill-opacity:.32;stroke:var(--ink);stroke-width:2.2}
+.ev.sel .t{stroke-width:3.6}
+.ev.sel .p{stroke:var(--ink);stroke-width:2.4}
+.ev:hover .a{fill-opacity:.32}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.8rem;color:var(--muted);align-items:center}
+.legend svg{vertical-align:-3px}
+.legend .sz{display:inline-flex;align-items:center;gap:6px}
+.maptools2{display:flex;gap:8px 14px;flex-wrap:wrap;align-items:center}
+@media (max-width:640px){.maptools2>.row{width:100%;flex-wrap:wrap!important}.toggle button{white-space:normal;padding:7px 8px}}
+.orig{font:600 .7rem/1 var(--f-data);letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:4px;background:var(--water-soft);color:var(--accent)}
+/* intensidad */
+.lvl{display:inline-flex;gap:3px;vertical-align:-1px;margin-right:4px}
+.lvl b{width:8px;height:8px;border-radius:50%;border:1.5px solid var(--muted);display:inline-block}
+.lvl b.on{background:var(--ink);border-color:var(--ink)}
+.feno{display:flex;flex-direction:column;gap:6px;padding:12px 14px;border-radius:var(--r);border:1px solid var(--line)}
+.feno .v{font:700 1.15rem/1.2 var(--f-body)}
+.feno .ref{font-size:.9rem;color:var(--muted)}
+.blk{display:flex;flex-direction:column;gap:10px}
+.blk>h4{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.imp-note{font-size:.84rem;color:var(--muted);border-left:3px solid var(--line);padding-left:10px}
+/* capa de anomalías */
+.bgimg{opacity:.85}
+.borders path{fill:none;stroke:var(--panel);stroke-width:.6;vector-effect:non-scaling-stroke;opacity:.9}
+.anleg{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;font-size:.8rem;color:var(--muted)}
+.anleg .sw{display:inline-flex;align-items:center;gap:0;border-radius:3px;overflow:hidden;border:1px solid var(--line)}
+.anleg .sw i{display:block;width:26px;height:10px}
+.anleg .ticks{display:flex;justify-content:space-between;font:500 .64rem var(--f-data);color:var(--muted);white-space:nowrap}
+.anleg .ticks span{width:0;display:flex;justify-content:center}
+/* comparación con otros años */
+.cmpg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 20px}
+@media (max-width:760px){.cmpg{grid-template-columns:1fr}}
+.cmp{position:relative;display:flex;flex-direction:column;gap:4px;min-width:0}
+.cmp .hd{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:baseline}
+.cmp .hd b{font:700 1rem/1.2 var(--f-display);font-stretch:85%}
+.cmp .hd span{font-size:.82rem;color:var(--muted)}
+.cmp svg{display:block;width:100%;height:auto;overflow:visible}
+.cmp .gl{stroke:var(--soft);stroke-width:1;vector-effect:non-scaling-stroke}
+.cmp .bl{stroke:var(--line);stroke-width:1;vector-effect:non-scaling-stroke}
+.cmp .ax{font:500 9px var(--f-data);fill:var(--muted)}
+.cmp .bar{fill:var(--muted);opacity:.45}
+.cmp .bar.now{fill:var(--accent);opacity:1}
+.cmp .nc{fill:var(--soft)}
+.cmp .nct{font:500 8.5px var(--f-body);fill:var(--muted)}
+.cmp .vl{font:700 10px var(--f-data);fill:var(--ink)}
+.cmp g.b{cursor:default;outline:none}
+.cmp g.b:hover .bar,.cmp g.b:focus .bar{opacity:.8}
+.cmp g.b:hover .bar.now,.cmp g.b:focus .bar.now{opacity:1}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--paper);font:500 .78rem/1.3 var(--f-body);padding:6px 8px;border-radius:5px;white-space:nowrap;transform:translate(-50%,-100%);display:none;z-index:2}
+details.tbl{display:block;min-width:0;max-width:100%;overflow:hidden}
+details.tbl summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:.88rem}
+details.tbl table{border-collapse:collapse;font:400 .82rem var(--f-data);margin-top:8px;width:100%;max-width:520px}
+details.tbl th,details.tbl td{padding:4px 6px;border-bottom:1px solid var(--line);text-align:right}
+details.tbl th:first-child,details.tbl td:first-child{text-align:left}
+.tblw{overflow-x:auto;max-width:100%}
+
+/* ficha + lista */
+.split{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:18px;align-items:start}
+@media (max-width:860px){.split{grid-template-columns:1fr}}
+.tagt{display:inline-flex;align-items:center;gap:6px;font:600 .7rem/1 var(--f-data);letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:4px;color:var(--ink);background:var(--soft)}
+.tagt i{width:9px;height:9px;border-radius:50%;background:var(--c)}
+.state{font:600 .7rem/1 var(--f-data);letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:4px;border:1px solid var(--line);color:var(--muted)}
+.state.on{border-color:var(--evac);color:var(--evac)}
+.metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.metrics>div{background:var(--panel);padding:10px 12px;display:flex;flex-direction:column;gap:3px}
+.metrics .v{font:700 1.25rem/1.1 var(--f-data);font-variant-numeric:tabular-nums}
+.metrics .k{font:500 .66rem/1.2 var(--f-data);letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.dmg{display:flex;flex-direction:column;gap:6px;padding:12px 14px;border-radius:var(--r);background:var(--soft)}
+.dmg .v{font:700 1.35rem/1.1 var(--f-data);font-variant-numeric:tabular-nums}
+.dmg .who{font:500 .7rem/1.2 var(--f-data);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.efx{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.efx ul{margin:6px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.efx li{font-size:.92rem;line-height:1.4}
+.cat{display:inline-block;font:600 .64rem/1 var(--f-data);letter-spacing:.06em;text-transform:uppercase;padding:3px 6px;border-radius:3px;margin-right:6px;background:var(--water-soft);color:var(--accent);vertical-align:1px}
+.cat.logistica{background:var(--accent);color:var(--accent-ink)}
+.src{font-size:.86rem}
+.src a{word-break:break-word}
+.list{display:flex;flex-direction:column;max-height:720px;overflow:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--panel)}
+.item{all:unset;box-sizing:border-box;display:grid;grid-template-columns:12px minmax(0,1fr) auto;gap:4px 10px;padding:10px 12px;border-bottom:1px solid var(--line);cursor:pointer;align-items:start}
+.item:last-child{border-bottom:0}
+.item i{width:10px;height:10px;border-radius:50%;background:var(--c);margin-top:6px}
+.item .tt{font-weight:600;line-height:1.25}
+.item .sb{grid-column:2/4;font-size:.8rem;color:var(--muted)}
+.item .m{font:500 .78rem var(--f-data);color:var(--muted);white-space:nowrap;padding-top:2px}
+.item[aria-current="true"]{background:var(--water-soft);box-shadow:inset 3px 0 0 var(--accent)}
+.item:focus-visible{outline:3px solid var(--accent);outline-offset:-3px}
+.empty{padding:16px;color:var(--muted)}
+
+/* logística */
+.logi{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:10px}
+.lg{all:unset;box-sizing:border-box;display:flex;flex-direction:column;gap:6px;padding:12px 14px;border:1px solid var(--line);border-left:4px solid var(--c);border-radius:var(--r);background:var(--panel);cursor:pointer}
+.lg:hover{border-color:var(--muted);border-left-color:var(--c)}
+.lg:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.lg .tt{font-weight:700;line-height:1.25}
+.lg .sb{font-size:.8rem;color:var(--muted)}
+.lg p{font-size:.9rem;line-height:1.4}
+footer{color:var(--muted);font-size:.86rem}
+
+/* modo embebido en la sección Mundo del tablero */
+html.emb body{background:transparent}
+html.emb main{padding-block:0}
+html.emb main>.wrap{padding-left:0;padding-right:0}
+html.emb .solo{display:none}
+.proto a{color:var(--accent)}
+</style>
+<script>
+(function(){
+  const EMB=window.self!==window.top;let P=null;try{P=EMB?window.parent.document:null}catch(e){P=null}
+  if(EMB)document.documentElement.classList.add('emb');
+  const syncTema=()=>{if(!P)return;const t=P.documentElement.getAttribute('data-theme');if(t)document.documentElement.setAttribute('data-theme',t);else document.documentElement.removeAttribute('data-theme')};
+  syncTema();if(P)new MutationObserver(syncTema).observe(P.documentElement,{attributes:true,attributeFilter:['data-theme']});
+  const alto=()=>{if(EMB)window.parent.postMessage({fxAltura:Math.ceil(document.documentElement.scrollHeight)},'*')};
+  window.addEventListener('load',alto);window.addEventListener('resize',alto);
+  document.addEventListener('DOMContentLoaded',()=>{if('ResizeObserver' in window)new ResizeObserver(alto).observe(document.body);alto()});
+  window.FX_IR=(el,forzar)=>{if(!el)return;const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(EMB&&window.frameElement){const top=window.frameElement.getBoundingClientRect().top+el.getBoundingClientRect().top,vh=window.parent.innerHeight;
+      if(forzar||top<120||top>vh*.6)window.parent.scrollTo({top:window.parent.scrollY+top-124,behavior:RM?'auto':'smooth'});return}
+    const r=el.getBoundingClientRect();if(forzar||r.top<60||r.top>innerHeight*.6)el.scrollIntoView({behavior:RM?'auto':'smooth',block:'start'})};
+})();
+</script>
+</head>
+<body>
+<div class="proto solo"><div class="wrap"><b>Súper Niño · Argentina</b><a class="small" href="../index.html#mundo">Volver al tablero</a></div></div>
+<main><div class="wrap">
+  <div class="sechead solo">
+    <span class="eyebrow">El Niño en el mundo</span>
+    <h2>Fenómenos anómalos en el mundo</h2>
+    <p class="lead">Eventos meteorológicos y climáticos fuera de lo común de los últimos 90 días, con la intensidad del fenómeno, sus daños y sus efectos. Se muestran todos, <strong>sin asumir que El Niño los causó</strong>.</p>
+  </div>
+
+  <div class="sum" id="sum" aria-live="polite"></div>
+
+  <div class="card">
+    <div class="row"><span class="small muted">Período:</span>
+      <div class="toggle" role="group" aria-label="Período" id="per"><button data-d="7" aria-pressed="true">7 días</button><button data-d="30" aria-pressed="false">30 días</button><button data-d="90" aria-pressed="false">90 días</button></div>
+      <span class="small muted" id="pernote"></span></div>
+    <div class="row"><span class="small muted">Intensidad del fenómeno:</span>
+      <div class="toggle" role="group" aria-label="Intensidad mínima" id="imin"><button data-i="0" aria-pressed="true">Todas</button><button data-i="2" aria-pressed="false">Muy inusual o más</button><button data-i="3" aria-pressed="false">Extremo o récord</button></div></div>
+    <div id="fams" style="display:flex;flex-direction:column;gap:8px"></div>
+    <div class="row"><button class="lnkbtn" id="all">Mostrar todos los tipos</button><button class="lnkbtn" id="none">Ocultar todos</button></div>
+  </div>
+
+  <div class="card mapcard">
+    <div class="maptools">
+      <p class="hint">Tocá un evento para ver su ficha <span class="ar-d">↓</span><span class="ar-m">↓</span></p>
+      <div class="maptools2"><div class="row" style="gap:6px 10px;flex-wrap:nowrap"><span class="small muted" style="white-space:nowrap">Tamaño según</span><div class="toggle" role="group" aria-label="Tamaño de los círculos según" id="szby"><button data-s="intensidad" aria-pressed="true">Intensidad</button><button data-s="muertes" aria-pressed="false">Muertes</button><button data-s="personas" aria-pressed="false">Afectados o evacuados</button></div></div>
+      <div class="zoom" role="group" aria-label="Acercar región" id="zoom">
+        <button data-z="mundo" aria-pressed="true">Mundo</button><button data-z="america" aria-pressed="false">América</button><button data-z="eurafr" aria-pressed="false">Europa y África</button><button data-z="asia" aria-pressed="false">Asia y Oceanía</button>
+      </div></div>
+    </div>
+    <div class="row"><span class="small muted">Fondo del mapa:</span>
+      <div class="toggle" role="group" aria-label="Fondo del mapa" id="bgsel"><button data-b="" aria-pressed="true">Sin fondo</button><button data-b="lluvia" aria-pressed="false">Lluvia vs. normal</button><button data-b="temp" aria-pressed="false">Temperatura vs. normal</button></div></div>
+    <div class="mapbox"><svg id="map" role="img" aria-label="Mapa mundial de fenómenos anómalos"></svg></div>
+    <div class="anleg" id="anleg" hidden></div>
+    <div class="legend">
+      <span><svg width="26" height="16" aria-hidden="true"><ellipse cx="13" cy="8" rx="11" ry="6.5" fill="var(--muted)" fill-opacity=".2" stroke="var(--muted)"/><circle cx="13" cy="8" r="2.6" fill="var(--muted)"/></svg>Área aproximada</span>
+      <span><svg width="30" height="12" aria-hidden="true"><path d="M2 9 Q12 1 20 6 T28 4" fill="none" stroke="var(--muted)" stroke-width="2.2"/><circle cx="20" cy="6" r="3" fill="var(--muted)"/></svg>Trayectoria de ciclón y lugar de impacto</span>
+      <span id="szleg"></span>
+    </div>
+  </div>
+
+  <div class="split">
+    <div class="card linked" id="ficha" aria-live="polite"></div>
+    <div style="display:flex;flex-direction:column;gap:8px;min-width:0">
+      <h3>Eventos del período</h3>
+      <div class="list" id="list" role="list"></div>
+    </div>
+  </div>
+
+  <div class="card" id="cmpcard">
+    <div class="sechead" style="gap:6px"><h3>La misma época en otros años</h3>
+      <p class="small muted">Alertas naranja y roja de GDACS en la misma ventana de cada año (<span id="cmpven">últimos 90 días</span>). Es la única base que permite comparar años con el mismo criterio; no incluye los eventos tomados de la prensa.</p></div>
+    <div class="cmpg" id="cmp"></div>
+    <p class="small muted" id="cmpnote"></p>
+    <details class="tbl"><summary>Ver tabla</summary><div class="tblw" id="cmptbl"></div></details>
+  </div>
+
+  <div class="card">
+    <div class="sechead" style="gap:6px"><h3>Comercio y logística internacional</h3>
+      <p class="small muted">Eventos de los últimos 90 días que cortaron puertos, canales, ríos navegables, corredores comerciales o exportaciones. Es lo que más puede repercutir en Argentina.</p></div>
+    <div class="logi" id="logi"></div>
+  </div>
+
+  <footer><p id="foot"></p></footer>
+</div></main>
+
+<script>
+(function(){
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt=n=>Number(n).toLocaleString('es-AR');
+const TIPOS={inundacion:['Inundación','agua'],lluvia:['Lluvia sobre lo normal','agua'],monzon:['Monzón anómalo','agua'],marejada:['Marejada','agua'],
+  ciclon:['Ciclón tropical','tormentas'],tornado:['Tornado','tormentas'],granizo:['Granizo','tormentas'],viento:['Viento','tormentas'],rayos:['Rayos','tormentas'],
+  calor:['Calor sobre lo normal','calor'],calor_marino:['Ola de calor marina','calor'],sequia:['Sequía','calor'],incendio:['Incendio','calor'],polvo:['Tormenta de polvo','calor'],
+  deslizamiento:['Alud o deslizamiento','agua'],frio:['Frío bajo lo normal','frio'],nieve:['Nevada','frio']};
+const FAM={agua:'Agua',tormentas:'Tormentas',calor:'Calor y seco',frio:'Frío'};
+const ORIG={noticias:'Fuente: prensa',gdacs:'Fuente: GDACS',ambos:'Prensa y GDACS'};
+const GT={TC:'ciclón',FL:'inundación',DR:'sequía',WF:'incendio'};
+const NIVEL={1:'Inusual',2:'Muy inusual',3:'Extremo o récord'};
+const lvl=n=>`<span class="lvl" aria-label="${n?NIVEL[n]:'Intensidad sin dato'}">${[1,2,3].map(k=>`<b class="${n&&k<=n?'on':''}"></b>`).join('')}</span>`;
+const ANOM={lluvia:{t:'Lluvia acumulada respecto de lo normal',cls:['#8C510A','#BF812D','#DFC27D',null,'#80CDC1','#35978F','#01665E'],ticks:['25%','50%','80%','125%','200%','300%']},
+  temp:{t:'Temperatura media respecto de lo normal (°C)',cls:['#2166AC','#67A9CF','#D1E5F0',null,'#FDDBC7','#EF8A62','#B2182B'],ticks:['−3','−1,5','−0,5','+0,5','+1,5','+3']}};
+const CAT={servicios:'Servicios',transporte:'Transporte',logistica:'Logística internacional',agro:'Agro y pesca',salud:'Salud',vivienda:'Vivienda',economia:'Economía'};
+const CRIT={intensidad:'intensidad física muy inusual o extrema',muertes:'muertos',afectados:'1.000 o más personas afectadas o evacuadas',alerta_gdacs:'alerta naranja o roja de GDACS',emergencia:'emergencia declarada',record:'récord o valor inusual confirmado por un servicio oficial'};
+const QUIEN={oficial:'Estimación oficial',aseguradora:'Estimación de aseguradoras',consultora:'Estimación de consultora',prensa:'Cifra de prensa'};
+const MES=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+const fd=d=>{const [y,m,dd]=d.split('-');return `${+dd} ${MES[+m-1]}`};
+const col=t=>`var(--c-${t})`;
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+Promise.all([fetch('eventos.json').then(r=>r.json()),fetch('mundo.json').then(r=>r.json())]).then(([E,W])=>run(E,W)).catch(()=>{$('#ficha').innerHTML='<p class="muted">No se pudieron cargar los datos del mapa.</p>'});
+
+function run(DATA,W){
+  const EV=DATA.eventos, REF=DATA.actualizado;
+  const refT=new Date(REF+'T12:00:00').getTime();
+  // proyección Equal Earth (misma fórmula que gen_mundo.py)
+  const A1=1.340264,A2=-0.081106,A3=0.000893,A4=0.003796,M=Math.sqrt(3)/2;
+  const P=(lon,lat)=>{lat=Math.max(W.latmin,Math.min(W.latmax,lat));const l=lon*Math.PI/180,p=lat*Math.PI/180,t=Math.asin(M*Math.sin(p)),t2=t*t,t6=t2*t2*t2;
+    const x=2*Math.sqrt(3)*l*Math.cos(t)/(3*(9*A4*t6*t2+7*A3*t6+3*A2*t2+A1)),y=t*(A4*t6*t2+A3*t6+A2*t2+A1);return [W.ox+x*W.k,W.oy-y*W.k]};
+  const radio=(c,km)=>{const a=P(c[0],c[1]),b=P(c[0],c[1]+km/111.2),d=P(c[0]+km/(111.2*Math.cos(c[1]*Math.PI/180)),c[1]);return [Math.abs(d[0]-a[0])||Math.hypot(b[0]-a[0],b[1]-a[1]),Math.hypot(b[0]-a[0],b[1]-a[1])]};
+
+  let days=7, sel=null, szBy='intensidad', imin=0, bg=''; const on=new Set(Object.keys(TIPOS));
+  const niv=e=>(e.intensidad&&e.intensidad.nivel)||null;
+  // tamaño del círculo de impacto: escala logarítmica; sin dato = círculo hueco mínimo
+  const DOM={muertes:[1,30000],personas:[1000,1e7]};
+  const val=e=>szBy==='intensidad'?niv(e):szBy==='muertes'?(e.muertes||null):(Math.max(e.afectados||0,e.evacuados||0)||null);
+  const RMIN=3,RMAX=14;
+  const rOf=v=>{if(v==null)return RMIN;if(szBy==='intensidad')return [0,5,9,13][v];const [a,b]=DOM[szBy];const k=(Math.log10(Math.max(v,a))-Math.log10(a))/(Math.log10(b)-Math.log10(a));return RMIN+(RMAX-RMIN)*Math.min(1,k)};
+  const imp=(e,x,y)=>{const v=val(e);return `<circle class="hitc" data-r="8" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}"/><circle class="im${v==null?' hollow':''}" data-r="${rOf(v).toFixed(2)}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}"/>`};
+  const renderSzLeg=()=>{const ex=szBy==='intensidad'?[[1,'inusual'],[2,'muy inusual'],[3,'extremo o récord']]:szBy==='muertes'?[[1,'1'],[100,'100'],[10000,'10.000 muertos']]:[[1000,'1.000'],[100000,'100.000'],[1e7,'10 M de personas']];
+    const cw=svg.clientWidth||1000,s=Math.max(.8,cw/W.w*(cw<600?1.6:1));$('#szleg').innerHTML=`<span class="sz">${ex.map(([v,l])=>{const r=rOf(v)*s,w=Math.ceil(r*2+4);return `<svg width="${w}" height="${w}" aria-hidden="true"><circle cx="${w/2}" cy="${w/2}" r="${r.toFixed(1)}" fill="var(--muted)" stroke="var(--panel)"/></svg>${l}`}).join(' ')}</span> <span class="sz"><svg width="12" height="12" aria-hidden="true"><circle cx="6" cy="6" r="${(RMIN*s).toFixed(1)}" fill="var(--panel)" stroke="var(--muted)" stroke-width="1.6"/></svg>sin dato</span>`};
+  const active=e=>{const fin=e.fin?new Date(e.fin+'T12:00:00').getTime():refT;return e.inicio<=REF&&fin>=refT-days*864e5&&(!imin||(niv(e)||0)>=imin)};
+  const order=(a,b)=>((b.fin||REF).localeCompare(a.fin||REF))||b.inicio.localeCompare(a.inicio);
+
+  // mapa base
+  const svg=$('#map');
+  const VB={mundo:[0,0,W.w,W.h],america:[40,20,380,W.h-20],eurafr:[380,10,330,330],asia:[600,30,400,360]};
+  let vb=VB.mundo.slice();
+  const setVB=v=>{vb=v;svg.setAttribute('viewBox',v.join(' '));sizeMarks()};
+  let base=`<path class="cont" d="${W.contorno}" fill="none"/><path class="grat" d="${W.graticula}"/>`;
+  base+=W.paises.map(p=>`<path class="pais" d="${p.d}"><title>${esc(p.n)}</title></path>`).join('');
+  svg.innerHTML=`<defs><clipPath id="clipc"><path d="${W.contorno}"/></clipPath></defs><g>${base}</g><g id="bg"></g><g class="borders" id="bords" style="display:none">${W.paises.map(p=>`<path d="${p.d}"/>`).join('')}</g><g id="evs"></g>`;
+  const CAP=DATA.capas||null;
+  function drawBg(){const g=$('#bg'),lg=$('#anleg');if(!bg||!CAP){g.innerHTML='';$('#bords').style.display='none';lg.hidden=true;return}
+    const f=CAP.archivos[bg][String(days)];g.innerHTML=`<image class="bgimg" href="${f}" x="0" y="0" width="${W.w}" height="${W.h}" preserveAspectRatio="none" clip-path="url(#clipc)"/>`;$('#bords').style.display='';
+    const A=ANOM[bg];lg.hidden=false;lg.innerHTML=`<span><strong>${A.t}</strong> · ${days} días al ${fd(CAP.hasta)}</span><span><span class="sw">${A.cls.map(c=>`<i style="background:${c||'transparent'}"></i>`).join('')}</span><span class="ticks" style="width:${A.cls.length*26}px;padding:0 13px">${A.ticks.map(t=>`<span>${t}</span>`).join('')}</span></span><span>Sin color: cerca de lo normal${bg==='lluvia'?' o zona que normalmente casi no llueve':''}. ${esc(CAP.nota)}</span>`}
+  setVB(VB.mundo);
+
+  const drawEvents=list=>{
+    const areas=list.filter(e=>e.geom.t==='area').sort((a,b)=>b.geom.r-a.geom.r),tr=list.filter(e=>e.geom.t==='trayectoria'),pts=list.filter(e=>e.geom.t==='punto');
+    const g=[];
+    const bySz=(a,b)=>rOf(val(b))-rOf(val(a));tr.sort(bySz);pts.sort(bySz);
+    for(const e of areas){const [x,y]=P(...e.geom.c),[rx,ry]=radio(e.geom.c,e.geom.r);
+      g.push(`<g class="ev" data-id="${e.id}" style="--c:${col(e.tipo)}" tabindex="0" role="button" aria-label="${esc(e.titulo)}"><title>${esc(e.titulo)}</title><ellipse class="a" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" rx="${Math.max(rx,3).toFixed(1)}" ry="${Math.max(ry,3).toFixed(1)}"/>${imp(e,x,y)}</g>`)}
+    for(const e of tr){const q=e.geom.pts.map(c=>P(...c)),d='M'+q.map(p=>p.map(v=>v.toFixed(1)).join(',')).join('L');const im=e.impacto?P(...e.impacto):q[q.length-1];
+      g.push(`<g class="ev" data-id="${e.id}" style="--c:${col(e.tipo)}" tabindex="0" role="button" aria-label="${esc(e.titulo)}"><title>${esc(e.titulo)}</title><path class="hit" d="${d}"/><path class="t" d="${d}"/>${q.slice(0,-1).map(p=>`<circle class="tp" data-r="1.6" cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}"/>`).join('')}${imp(e,im[0],im[1])}</g>`)}
+    for(const e of pts){const [x,y]=P(...e.geom.c);
+      g.push(`<g class="ev" data-id="${e.id}" style="--c:${col(e.tipo)}" tabindex="0" role="button" aria-label="${esc(e.titulo)}"><title>${esc(e.titulo)}</title>${imp(e,x,y)}</g>`)}
+    $('#evs').innerHTML=g.join('');sizeMarks();mark();
+  };
+  function sizeMarks(){const s=vb[2]/W.w*(svg.clientWidth<600?1.6:1);svg.querySelectorAll('[data-r]').forEach(c=>c.setAttribute('r',(+c.dataset.r*s).toFixed(2)))}
+  const mark=()=>{svg.classList.toggle('has-sel',!!sel&&!!svg.querySelector(`.ev[data-id="${sel}"]`));svg.querySelectorAll('.ev').forEach(g=>g.classList.toggle('sel',g.dataset.id===sel));
+    document.querySelectorAll('#list .item').forEach(b=>b.setAttribute('aria-current',String(b.dataset.id===sel)))};
+
+  // filtros por tipo
+  const famOf=t=>TIPOS[t][1];
+  const renderFams=()=>{const inPer=EV.filter(active);
+    $('#fams').innerHTML=Object.entries(FAM).map(([f,name])=>{const ts=Object.keys(TIPOS).filter(t=>famOf(t)===f);
+      const nf=ts.reduce((a,t)=>a+inPer.filter(e=>e.tipo===t).length,0);return `<div class="fam${nf?'':' vacia'}"><span class="lbl">${name}</span>${ts.map(t=>{const n=inPer.filter(e=>e.tipo===t).length;return `<button class="chip" data-t="${t}" style="--c:${col(t)}" aria-pressed="${on.has(t)}" ${n?'':'disabled'}><i></i>${TIPOS[t][0]}<span class="n">${n}</span></button>`}).join('')}</div>`}).join('')};
+  $('#fams').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b||b.disabled)return;const t=b.dataset.t;on.has(t)?on.delete(t):on.add(t);update(true)});
+  $('#all').onclick=()=>{Object.keys(TIPOS).forEach(t=>on.add(t));update(true)};
+  $('#none').onclick=()=>{on.clear();update(true)};
+  $('#per').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;days=+b.dataset.d;document.querySelectorAll('#per button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));update(true)});
+  $('#imin').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;imin=+b.dataset.i;document.querySelectorAll('#imin button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));update(true)});
+  $('#bgsel').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;bg=b.dataset.b;document.querySelectorAll('#bgsel button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));drawBg()});
+  $('#szby').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;szBy=b.dataset.s;document.querySelectorAll('#szby button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));renderSzLeg();update(false)});
+  $('#zoom').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;document.querySelectorAll('#zoom button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));animVB(VB[b.dataset.z])});
+  function animVB(to){if(RM){setVB(to.slice());return}const from=vb.slice(),t0=performance.now(),D=380;const step=n=>{const k=Math.min(1,(n-t0)/D),q=k<.5?2*k*k:1-Math.pow(-2*k+2,2)/2;setVB(from.map((v,i)=>v+(to[i]-v)*q));if(k<1)requestAnimationFrame(step)};requestAnimationFrame(step)}
+
+  // resumen
+  const renderSum=list=>{const muertes=list.reduce((s,e)=>s+(e.muertes||0),0),pers=list.reduce((s,e)=>s+Math.max(e.afectados||0,e.evacuados||0),0);
+    const con=list.filter(e=>e.danos.usd!=null||e.danos.rango),usd=con.reduce((s,e)=>s+(e.danos.usd!=null?e.danos.usd:(e.danos.rango[0]+e.danos.rango[1])/2),0);
+    const ext=list.filter(e=>niv(e)===3).length,sinI=list.filter(e=>!niv(e)).length;
+    $('#sum').innerHTML=`<div><span class="eyebrow">Eventos</span><span class="v">${list.length}</span><span class="d">activos en el período elegido</span></div>
+      <div><span class="eyebrow">Extremos o récord</span><span class="v">${ext}</span><span class="d">por la intensidad física del fenómeno; ${sinI} sin dato de intensidad</span></div>
+      <div><span class="eyebrow">Muertes</span><span class="v">${fmt(muertes)}</span><span class="d">suma de las cifras informadas</span></div>
+      <div><span class="eyebrow">Afectados o evacuados</span><span class="v">${pers>=1e6?(pers/1e6).toLocaleString('es-AR',{maximumFractionDigits:1})+' M':fmt(pers)}</span><span class="d">el mayor de los dos valores por evento</span></div>
+      <div><span class="eyebrow">Daños publicados</span><span class="v">${con.length?'USD '+fmt(Math.round(usd))+' M':'—'}</span><span class="d">${con.length} evento${con.length===1?'':'s'} con estimación; suma cifras económicas y aseguradas</span></div>`};
+
+  // lista
+  const range=e=>`${fd(e.inicio)}${e.fin?(e.fin!==e.inicio?' – '+fd(e.fin):''):' – en curso'}`;
+  const renderList=list=>{$('#list').innerHTML=list.length?list.map(e=>`<button class="item" role="listitem" data-id="${e.id}" style="--c:${col(e.tipo)}" aria-current="${e.id===sel}"><i></i><span class="tt">${esc(e.titulo)}</span><span class="m">${lvl(niv(e))}${e.muertes?' '+fmt(e.muertes)+' †':''}</span><span class="sb">${esc(e.pais)} · ${range(e)}${e.origen!=='noticias'?' · GDACS':''}</span></button>`).join(''):'<p class="empty">No hay eventos con estos filtros. Probá con un período más largo o más tipos.</p>'};
+
+  // ficha
+  const metr=(k,v)=>`<div><span class="k">${k}</span><span class="v">${v==null?'—':fmt(v)}</span></div>`;
+  const renderFicha=id=>{const e=EV.find(x=>x.id===id),el=$('#ficha');
+    if(!e){el.innerHTML='<p class="muted">Elegí un evento en el mapa o en la lista para ver su ficha.</p>';return}
+    const d=e.danos,ef=e.efectos;
+    const dv=d.usd!=null?`USD ${fmt(d.usd)} M`:d.rango?`USD ${fmt(d.rango[0])} a ${fmt(d.rango[1])} M`:'Sin estimación publicada';
+    const rg=d.usd!=null&&d.rango?` <span class="small muted">(rango ${fmt(d.rango[0])} a ${fmt(d.rango[1])})</span>`:'';
+    const fsrc=d.fuente!=null&&e.fuentes[d.fuente]?` · <a href="${esc(e.fuentes[d.fuente].u)}" target="_blank" rel="noopener">${esc(e.fuentes[d.fuente].t)}</a>`:'';
+    const col3=[['corto','Corto plazo','días a 2 semanas'],['mediano','Mediano plazo','hasta 6 meses'],['largo','Largo plazo','más de 6 meses']].filter(([k])=>ef[k]&&ef[k].length);
+    const crit=e.criterio==='muertes'&&e.muertes?`${fmt(e.muertes)} muertos`:CRIT[e.criterio];
+    el.innerHTML=`<div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center"><span class="eyebrow" style="flex-basis:100%">Evento elegido</span><span class="tagt" style="--c:${col(e.tipo)}"><i></i>${TIPOS[e.tipo][0]}</span><span class="state ${e.fin?'':'on'}">${e.fin?esc(range(e)):'En curso desde el '+fd(e.inicio)}</span><span class="orig">${ORIG[e.origen]}</span></div>
+      <h3>${esc(e.titulo)}</h3>
+      <p class="small muted">${esc(e.lugar)} · ${esc(e.pais)}</p>
+      <p>${esc(e.texto)}</p>
+      <div class="blk"><h4>El fenómeno</h4>${(()=>{const I=e.intensidad||{};const fs=I.fuente!=null&&e.fuentes[I.fuente]?` · <a href="${esc(e.fuentes[I.fuente].u)}" target="_blank" rel="noopener">${esc(e.fuentes[I.fuente].t)}</a>`:'';
+        return `<div class="feno"><span class="v">${lvl(I.nivel)} ${I.nivel?NIVEL[I.nivel]:'Intensidad sin dato publicado'}</span>${I.medida?`<span>${esc(I.medida)}</span>`:''}${I.ref?`<span class="ref">${esc(I.ref)}${fs}</span>`:fs?`<span class="ref">${fs.slice(3)}</span>`:''}</div>`})()}</div>
+      <div class="blk"><h4>El impacto</h4>
+      <div class="metrics">${metr('Muertes',e.muertes)}${metr('Afectados',e.afectados)}${metr('Evacuados',e.evacuados)}</div>
+      <div class="dmg"><h4>Daños materiales</h4><span class="v">${dv}${rg}</span>${d.tipo?`<span class="who">${QUIEN[d.tipo]}${fsrc}</span>`:''}${d.texto?`<p class="small">${esc(d.texto)}</p>`:''}</div>
+      <p class="imp-note">El impacto depende del fenómeno, pero también de cuánta gente vive en la zona y de cuán preparada está.</p></div>
+      ${col3.length?`<div><h4 style="margin-bottom:6px">Efectos</h4><div class="efx">${col3.map(([k,n,s])=>`<div><span class="small"><strong>${n}</strong> <span class="muted">· ${s}</span></span><ul>${ef[k].map(x=>`<li><span class="cat ${x.cat}">${CAT[x.cat]||x.cat}</span>${esc(x.t)}</li>`).join('')}</ul></div>`).join('')}</div></div>`:'<p class="small muted">Sin efectos informados en las fuentes.</p>'}
+      <p class="small muted">Entra al mapa por: ${esc(crit)}.${e.gdacs.length?' GDACS: '+e.gdacs.map(g=>`alerta ${g.a} por ${GT[g.t]}`).join(', ')+'.':''}${e.geom.t==='area'?' Área aproximada.':e.geom.t==='trayectoria'?(e.geom.src==='eonet'?' Trayectoria según NASA EONET.':' Trayectoria aproximada.'):''}</p>
+      <div class="src"><h4 style="margin-bottom:4px">Fuentes</h4>${e.fuentes.map(f=>`<a href="${esc(f.u)}" target="_blank" rel="noopener">${esc(f.t)}</a>`).join(' · ')}</div>`};
+
+  const flash=el=>{el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash')};
+  const reveal=el=>{if(window.innerWidth>860)return;window.FX_IR(el,false)};
+  const choose=(id,user)=>{sel=id;renderFicha(id);mark();if(user){flash($('#ficha'));reveal($('#ficha'))}};
+  svg.addEventListener('click',e=>{const g=e.target.closest('.ev');if(g)choose(g.dataset.id,true)});
+  svg.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.classList.contains('ev')){e.preventDefault();choose(e.target.dataset.id,true)}});
+  $('#list').addEventListener('click',e=>{const b=e.target.closest('.item');if(b)choose(b.dataset.id,true)});
+
+  // logística (90 días, independiente de los filtros)
+  const LG=EV.filter(e=>['corto','mediano','largo'].some(k=>(e.efectos[k]||[]).some(x=>x.cat==='logistica'))).sort(order);
+  $('#logi').innerHTML=LG.map(e=>{const xs=['corto','mediano','largo'].flatMap(k=>(e.efectos[k]||[]).filter(x=>x.cat==='logistica').map(x=>x.t));
+    return `<button class="lg" data-id="${e.id}" style="--c:${col(e.tipo)}"><span class="tt">${esc(e.titulo)}</span><span class="sb">${esc(e.pais)} · ${range(e)}</span>${xs.map(t=>`<p>${esc(t)}</p>`).join('')}</button>`}).join('');
+  $('#logi').addEventListener('click',e=>{const b=e.target.closest('.lg');if(!b)return;const ev=EV.find(x=>x.id===b.dataset.id);
+    if(!active(ev)){days=90;document.querySelectorAll('#per button').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.d==='90')))}on.add(ev.tipo);update(false);choose(ev.id,false);flash($('#ficha'));window.FX_IR($('#ficha'),true)});
+
+  // comparación con años anteriores (GDACS, misma ventana)
+  (function(){const C=DATA.comparacion;if(!C){$('#cmpcard').hidden=true;return}
+    const A=C.anios,Y=A.map(a=>a.a),NOW=Y[Y.length-1];
+    const T=[['TC','Ciclones tropicales',2012,'Ciclones'],['FL','Inundaciones',2012,'Inund.'],['DR','Sequías',2018,'Sequías'],['WF','Incendios forestales',2021,'Incendios']];
+    const MX=Math.max(15,...A.flatMap(a=>T.map(([k])=>a[k])));const top=Math.ceil(MX/5)*5;
+    const w=320,h=128,l=22,r=4,t=14,b=18,bw=(w-l-r)/A.length,bar=Math.min(14,bw-3);
+    const yv=v=>t+(h-t-b)*(1-v/top);
+    $('#cmp').innerHTML=T.map(([k,name,from])=>{const past=A.filter(a=>a.a>=from&&a.a<NOW),avg=past.reduce((s,a)=>s+a[k],0)/past.length,now=A.find(a=>a.a===NOW)[k];
+      const ticks=[];for(let v=0;v<=top;v+=5)ticks.push(v);
+      const nc=A.filter(a=>a.a<from);const ncw=nc.length*bw;
+      let g=ticks.map(v=>`<line class="${v?'gl':'bl'}" x1="${l}" x2="${w-r}" y1="${yv(v)}" y2="${yv(v)}"/><text class="ax" x="${l-5}" y="${yv(v)+3}" text-anchor="end">${v}</text>`).join('');
+      if(nc.length)g+=`<rect class="nc" x="${l}" y="${t}" width="${ncw}" height="${h-t-b}" rx="3"/><text class="nct" x="${l+ncw/2}" y="${t+(h-t-b)/2+3}" text-anchor="middle">GDACS no cubría</text>`;
+      g+=A.map((a,i)=>{const x=l+i*bw+(bw-bar)/2,v=a[k];if(a.a<from)return '';const y=yv(v),hh=yv(0)-y,rad=Math.min(4,hh/2,bar/2);
+        const d=hh>0?`M${x},${yv(0)}V${y+rad}Q${x},${y} ${x+rad},${y}H${x+bar-rad}Q${x+bar},${y} ${x+bar},${y+rad}V${yv(0)}Z`:'';
+        return `<g class="b" tabindex="0" data-tip="${a.a}: ${v} alerta${v===1?'':'s'}"><rect x="${l+i*bw}" y="${t}" width="${bw}" height="${h-t-b}" fill="transparent"/>${d?`<path class="bar${a.a===NOW?' now':''}" d="${d}"/>`:''}${a.a===NOW?`<text class="vl" x="${x+bar/2}" y="${y-4}" text-anchor="middle">${v}</text>`:''}</g>`}).join('');
+      g+=A.map((a,i)=>(a.a%2===0||a.a===NOW)?`<text class="ax" x="${l+i*bw+bw/2}" y="${h-4}" text-anchor="middle"${a.a===NOW?' style="fill:var(--ink);font-weight:700"':''}>${String(a.a).slice(2)==='26'?'2026':"'"+String(a.a).slice(2)}</text>`:'').join('');
+      return `<div class="cmp"><div class="hd"><b>${name}</b><span>${NOW}: <strong class="num">${now}</strong> · promedio ${from}-${NOW-1}: <span class="num">${avg.toLocaleString('es-AR',{maximumFractionDigits:1})}</span></span></div><svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${name}: ${now} alertas en ${NOW}, promedio ${avg.toFixed(1)} entre ${from} y ${NOW-1}">${g}</svg><div class="tip"></div></div>`}).join('');
+    $('#cmp').querySelectorAll('.cmp').forEach(p=>{const tip=p.querySelector('.tip');const show=gb=>{const r=gb.getBoundingClientRect(),pr=p.getBoundingClientRect();tip.textContent=gb.dataset.tip;tip.style.display='block';tip.style.left=(r.left-pr.left+r.width/2)+'px';tip.style.top=(r.top-pr.top+8)+'px'};
+      p.querySelectorAll('g.b').forEach(gb=>{gb.addEventListener('mouseenter',()=>show(gb));gb.addEventListener('focus',()=>show(gb));gb.addEventListener('mouseleave',()=>tip.style.display='none');gb.addEventListener('blur',()=>tip.style.display='none')})});
+    $('#cmpnote').textContent=C.nota;if(C.ventana)$('#cmpven').textContent=C.ventana;
+    $('#cmptbl').innerHTML=`<table><thead><tr><th>Año</th>${T.map(([,,,c])=>`<th>${c}</th>`).join('')}<th>Rojas</th></tr></thead><tbody>${A.slice().reverse().map(a=>`<tr><td>${a.a}</td>${T.map(([k,,f])=>`<td>${a.a<f?'—':a[k]}</td>`).join('')}<td>${a.rojas}</td></tr>`).join('')}</tbody></table>`;
+  })();
+
+  function update(user){const list=EV.filter(e=>active(e)&&on.has(e.tipo)).sort(order);
+    const d0=new Date(refT-days*864e5),MESL=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];$('#pernote').textContent=`Eventos activos desde el ${d0.getDate()} de ${MESL[d0.getMonth()]}.`;
+    renderFams();renderSum(list);drawBg();drawEvents(list);renderList(list);
+    if(!list.find(e=>e.id===sel))sel=list.length?list[0].id:null;renderFicha(sel);mark();
+    if(user){flash($('#list'))}}
+  $('#foot').innerHTML=`${esc(DATA.nota)} Granizo, viento y rayos entran solo con daños o víctimas. No incluye terremotos, volcanes ni tsunamis. Base sistemática: <a href="https://www.gdacs.org/" target="_blank" rel="noopener">GDACS</a> (Comisión Europea y ONU); trayectorias de ciclones: <a href="https://eonet.gsfc.nasa.gov/" target="_blank" rel="noopener">NASA EONET</a>. Datos al ${fd(REF)} de 2026. Mapa: Natural Earth.`;
+  renderSzLeg();
+  window.addEventListener('resize',sizeMarks);
+  update(false);
+}
+})();
+</script>
+</body>
+</html>
