@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-10-25",
- "desde": "2026-07-27",
+ "actualizado": "2026-10-26",
+ "desde": "2026-07-28",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "27 de julio a 25 de octubre",
@@ -887,7 +887,7 @@
    "lugar": "Guam, mar de Filipinas, este de Taiwán y Okinawa",
    "pais": "EE.UU. (Guam), Filipinas, Taiwán, Japón",
    "inicio": "2026-10-15",
-   "fin": null,
+   "fin": "2026-10-25",
    "geom": {
     "t": "trayectoria",
     "pts": [
@@ -940,7 +940,7 @@
    ],
    "muertes": 1,
    "evacuados": 4960,
-   "texto": "Llegó a 296 km/h el 21 de octubre, la tormenta más intensa del año hasta ahora. No tocó tierra en Taiwán, pero dejó allí un muerto (en Liuqiu, Pingtung, el 22 de octubre), 616 heridos y 4.960 evacuados. Cayeron 652 mm en Taipingshan y hubo olas de 10,6 m en Lanyu. Después giró al norte hacia las islas del sur de Japón.",
+   "texto": "Llegó a 296 km/h el 21 de octubre, la tormenta más intensa del año hasta ahora. No tocó tierra en Taiwán, pero dejó allí un muerto (en Liuqiu, Pingtung, el 22 de octubre), 616 heridos y 4.960 evacuados. Cayeron 652 mm en Taipingshan y hubo olas de 10,6 m en Lanyu. Después giró al norte hacia las islas del sur de Japón. En Okinawa dejó 13.000 hogares sin luz y heridos en Miyakojima y Yonaguni; el 25 de octubre se volvió extratropical.",
    "danos": {
     "texto": "Taiwán recibió 9.027 reportes de daños. Las pérdidas agrícolas suman NT$ 133,36 M (unos USD 4,2 M) en 2.405 ha, más del 80% en Yunlin. Sin balance total publicado.",
     "usd": null,
@@ -961,6 +961,10 @@
      {
       "cat": "agro",
       "t": "Daños en 2.405 ha de cultivos en Taiwán, sobre todo en Yunlin."
+     },
+     {
+      "cat": "servicios",
+      "t": "Unos 13.000 hogares sin luz en Okinawa; la prefectura pidió ayuda a las Fuerzas de Autodefensa. Postes y árboles caídos en Ishigaki."
      }
     ],
     "mediano": [],
@@ -991,6 +995,10 @@
     {
      "t": "NASA EONET, trayectoria",
      "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25339"
+    },
+    {
+     "t": "SBS, 25 oct",
+     "u": "https://news.sbs.co.kr/english/article.do?news_id=N1008814278"
     }
    ],
    "afectados": null,
@@ -3539,8 +3547,8 @@
     "r": 280
    },
    "muertes": 3,
-   "afectados": 23000,
-   "texto": "Más de tres semanas de lluvia desbordaron ríos en la costa. Al 20 de octubre había tres muertos y más de 23.000 afectados, con 395 eventos registrados desde la alerta roja nacional. Esmeraldas es la provincia más golpeada.",
+   "afectados": 30534,
+   "texto": "Más de un mes de lluvia desbordó ríos en la costa. Al 25 de octubre la Secretaría de Gestión de Riesgos contaba tres muertos (dos en Azuay y uno en El Oro) y 30.534 personas impactadas desde el 29 de agosto, 2.258 de ellas damnificadas. Esmeraldas y Guayas concentran cerca del 83%.",
    "danos": {
     "texto": "Miles de viviendas dañadas o destruidas y unas 1.700 ha de cultivos inundadas.",
     "usd": null,
@@ -3560,6 +3568,10 @@
    },
    "criterio": "muertes",
    "fuentes": [
+    {
+     "t": "Noticias SIN, 25 oct",
+     "u": "https://noticiassin.com/mundo/america/2026/10/25/lluvias-en-ecuador-dejan-30-534-afectados-y-tres-muertos-2153869"
+    },
     {
      "t": "Infobae, 20 oct",
      "u": "https://www.infobae.com/america/america-latina/2026/10/20/inundaciones-en-ecuador-dejan-tres-muertos-y-mas-de-23000-afectados-mientras-crece-la-amenaza-de-el-nino/"
@@ -3805,7 +3817,7 @@
     "r": 230
    },
    "muertes": 1,
-   "texto": "Más de 600 familias evacuadas y un muerto en Ciudad del Este. Itaipú y Yacyretá abrieron compuertas. El río Paraguay subió más de un metro en Asunción en 15 días.",
+   "texto": "Unas 4.200 familias evacuadas en cuatro departamentos según la Secretaría de Emergencia Nacional, y un muerto en Ciudad del Este. En Ayolas el río llegó a 6,30 m, un nivel que el intendente calificó de histórico. Itaipú y Yacyretá abrieron compuertas.",
    "efectos": {
     "corto": [
      {
@@ -3818,6 +3830,14 @@
    },
    "criterio": "afectados",
    "fuentes": [
+    {
+     "t": "Diario de Yucatán (EFE), 25 oct",
+     "u": "https://www.yucatan.com.mx/mundo/2026/10/25/miles-de-familias-desalojadas-en-paraguay-por-las-inundaciones-causadas-por-la-crecida-del-rio-parana.html"
+    },
+    {
+     "t": "Hoy, 20 oct",
+     "u": "https://www.hoy.com.py/nacionales/2026/10/20/crecida-del-parana-ya-afecta-a-4200-familias-reporta-la-sen"
+    },
     {
      "t": "Emol, 16 oct",
      "u": "https://www.emol.com/noticias/Internacional/2026/10/16/1214258/el-nino-efectos-paises-sudamerica.html"
@@ -3863,8 +3883,8 @@
     "r": 330
    },
    "muertes": 3,
-   "evacuados": 2300,
-   "texto": "El Paraná superó el nivel de evacuación en Itatí, Isla del Cerrito, Corrientes y Barranqueras, y el Iguazú en Puerto Iguazú. Hay unas 2.300 personas evacuadas o autoevacuadas en Chaco y Corrientes. Tres trabajadores rurales murieron mientras trasladaban hacienda.",
+   "evacuados": 3000,
+   "texto": "El Paraná superó el nivel de evacuación en Itatí, Isla del Cerrito, Corrientes, Barranqueras y Reconquista, y el Iguazú en Puerto Iguazú. Hay unas 3.000 personas evacuadas o autoevacuadas en Chaco, Corrientes y Misiones. Tres trabajadores rurales murieron mientras trasladaban hacienda.",
    "danos": {
     "texto": "Sin estimación publicada. Más de 30.000 vacunos evacuados en Victoria (Entre Ríos) y unas 460.000 cabezas en alerta en las islas.",
     "usd": null,
@@ -3888,6 +3908,10 @@
    },
    "criterio": "muertes",
    "fuentes": [
+    {
+     "t": "Infobae, 25 oct",
+     "u": "https://www.infobae.com/sociedad/2026/10/25/el-nino-habia-1800-los-evacuados-en-chaco-misiones-fue-afectada-por-fuertes-tormentas-y-santa-fe-preve-otra-suba-del-parana/"
+    },
     {
      "t": "FARCO, 22 oct",
      "u": "https://agencia.farco.org.ar/2026/10/22/chaco-mas-de-mil-evacuados-crecida-parana/"
@@ -3921,7 +3945,7 @@
    ],
    "intensidad": {
     "nivel": 1,
-    "medida": "Paraná sobre el nivel de evacuación en Itatí, Isla del Cerrito, Corrientes y Barranqueras",
+    "medida": "Paraná sobre el nivel de evacuación en Itatí, Isla del Cerrito, Corrientes, Barranqueras y Reconquista",
     "ref": "nivel de evacuación de los puertos; crecida importante",
     "fuente": null
    }
@@ -14042,6 +14066,134 @@
     "ref": "",
     "fuente": null
    }
+  },
+  {
+   "id": "nam-o01",
+   "tipo": "inundacion",
+   "titulo": "Crecida del río San Juan en Four Corners",
+   "lugar": "Farmington y Shiprock (Nuevo México) y sudeste de Utah",
+   "pais": "EE.UU.",
+   "inicio": "2026-10-21",
+   "fin": null,
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     -108.4,
+     36.8
+    ],
+    "r": 120
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": 2000,
+   "evacuados": null,
+   "texto": "Entre 76 y 178 mm de lluvia en varios días desbordaron el río San Juan. En Farmington unas 2.000 personas resultaron afectadas, se pidió evacuar 600 viviendas y al menos un par de cientos de personas fueron rescatadas, algunas desde techos. En Shiprock el río llegó a unos 7 m y se cerró el puente; la Nación Navajo evacuó comunidades del sudeste de Utah. Sin muertes informadas.",
+   "intensidad": {
+    "nivel": 1,
+    "medida": "76 a 178 mm en varios días; río San Juan cerca de su cresta histórica",
+    "ref": "crecida importante del San Juan según el Servicio Meteorológico",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Viviendas inundadas en Farmington y la Nación Navajo; sin estimación publicada."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "servicios",
+      "t": "Unas 1.500 personas sin luz en Farmington."
+     },
+     {
+      "cat": "transporte",
+      "t": "Cerrados el puente de Shiprock y el monumento de Four Corners."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "afectados",
+   "fuentes": [
+    {
+     "t": "KUTV, 24 oct",
+     "u": "https://kutv.com/news/local/heavy-rain-floods-four-corners-as-san-juan-river-nears-historic-crest"
+    },
+    {
+     "t": "KNAU (AP), 24 oct",
+     "u": "https://www.knau.org/knau-and-arizona-news/2026-10-24/still-more-rain-evacuations-remain-in-place-from-four-corners-region-flooding"
+    },
+    {
+     "t": "AZFamily, 25 oct",
+     "u": "https://www.azfamily.com/2026/10/25/four-corners-stays-closed-amid-historic-flooding-navajo-nation/"
+    },
+    {
+     "t": "NPR, 23 oct",
+     "u": "https://www.npr.org/2026/10/23/nx-s1-6014742/flooding-weather-four-corners"
+    }
+   ]
+  },
+  {
+   "id": "sam-o01",
+   "tipo": "lluvia",
+   "titulo": "Temporal en el sudoeste de Paraná (Brasil)",
+   "lugar": "Sudoeste de Paraná, Brasil (Pato Branco)",
+   "pais": "Brasil",
+   "inicio": "2026-10-24",
+   "fin": "2026-10-25",
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     -52.7,
+     -26.2
+    ],
+    "r": 120
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": null,
+   "evacuados": 1099,
+   "texto": "La lluvia del 24 de octubre dejó daños en 32 municipios, con 980 personas desalojadas y 119 sin hogar. En Pato Branco cayeron 204,4 mm, el mayor registro de la estación de Simepar desde 1997.",
+   "intensidad": {
+    "nivel": 2,
+    "medida": "204,4 mm en Pato Branco",
+    "ref": "el mayor registro de la estación de Simepar en la ciudad desde 1997",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Daños en viviendas de 32 municipios; sin estimación publicada."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "vivienda",
+      "t": "980 desalojados y 119 desabrigados."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "afectados",
+   "fuentes": [
+    {
+     "t": "O Paraná, 25 oct",
+     "u": "https://oparana.com.br/clima/tempestades-se-afastam-do-parana-chuvas-mais-intensas-sao-prevista-a-partir-de-quinta/"
+    },
+    {
+     "t": "Diário do Sudoeste, 25 oct",
+     "u": "https://diariodosudoeste.com.br/tempestades-se-afastam-do-parana-chuvas-retornam-na-quinta/"
+    }
+   ]
   }
  ]
 }
