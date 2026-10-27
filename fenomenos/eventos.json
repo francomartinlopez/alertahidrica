@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-10-26",
- "desde": "2026-07-28",
+ "actualizado": "2026-10-27",
+ "desde": "2026-07-29",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "27 de julio a 25 de octubre",
@@ -3883,8 +3883,8 @@
     "r": 330
    },
    "muertes": 3,
-   "evacuados": 3000,
-   "texto": "El Paraná superó el nivel de evacuación en Itatí, Isla del Cerrito, Corrientes, Barranqueras y Reconquista, y el Iguazú en Puerto Iguazú. Hay unas 3.000 personas evacuadas o autoevacuadas en Chaco, Corrientes y Misiones. Tres trabajadores rurales murieron mientras trasladaban hacienda.",
+   "evacuados": 3478,
+   "texto": "El Paraná superó el nivel de evacuación en Itatí, Isla del Cerrito, Corrientes, Barranqueras y Reconquista, y el Iguazú en Puerto Iguazú. Hay unas 3.500 personas evacuadas o autoevacuadas: 2.026 en Chaco (26 oct) y 1.452 en Corrientes (25 oct). Tres trabajadores rurales murieron mientras trasladaban hacienda.",
    "danos": {
     "texto": "Sin estimación publicada. Más de 30.000 vacunos evacuados en Victoria (Entre Ríos) y unas 460.000 cabezas en alerta en las islas.",
     "usd": null,
@@ -3908,6 +3908,14 @@
    },
    "criterio": "muertes",
    "fuentes": [
+    {
+     "t": "Perfil, 26 oct",
+     "u": "https://www.perfil.com/noticias/nea/la-crecida-en-chaco-mantiene-a-mas-de-2000-personas-fuera-de-sus-viviendas.phtml"
+    },
+    {
+     "t": "Noticias de la Calle, 25 oct",
+     "u": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia"
+    },
     {
      "t": "Infobae, 25 oct",
      "u": "https://www.infobae.com/sociedad/2026/10/25/el-nino-habia-1800-los-evacuados-en-chaco-misiones-fue-afectada-por-fuertes-tormentas-y-santa-fe-preve-otra-suba-del-parana/"
@@ -6976,60 +6984,6 @@
     {
      "t": "Wakat Séra, 4-sep-2026",
      "u": "https://www.wakatsera.com/mali-intemperies-13-morts-depuis-le-debut-de-lhivernage-la-vigilance-reste-de-mise-a-bamako/"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
-   "id": "afr-n06",
-   "tipo": "lluvia",
-   "titulo": "Lluvias con alerta de nivel 6 en Cabo Oriental",
-   "lugar": "Qumbu, Nyandeni, Port St Johns, Lusikisiki y Mthatha (Cabo Oriental)",
-   "pais": "Sudáfrica",
-   "inicio": "2026-07-28",
-   "fin": "2026-07-28",
-   "geom": {
-    "t": "area",
-    "c": [
-     28.8,
-     -31.6
-    ],
-    "r": 150
-   },
-   "impacto": null,
-   "muertes": 6,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "El Servicio Meteorológico de Sudáfrica emitió el 28 de julio una alerta de nivel 6 por lluvias para el este de Cabo Oriental, con comunidades y caminos inundados en Qumbu, Nyandeni, Port St Johns, Lusikisiki y Mthatha. Seis personas murieron ese día en un accidente en la ruta N2 en Mooiplaas que la prensa vinculó con las lluvias.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "transporte",
-      "t": "Caminos inundados en Qumbu, Nyandeni, Port St Johns, Lusikisiki y Mthatha"
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "Briefly News, 29-jul-2026",
-     "u": "https://briefly.co.za/south-africa/248245-level-6-weather-warning-heavy-flooding-hits-eastern-cape-communities-roads/"
     }
    ],
    "origen": "noticias",
@@ -10308,71 +10262,6 @@
     "medida": "F3, vientos de 253 a 332 km/h",
     "ref": "escala Fujita, clasificación del Simepar; la red PREVOTS lo clasificó F4 (al menos 380 km/h)",
     "fuente": 1
-   }
-  },
-  {
-   "id": "sam-n05",
-   "tipo": "tornado",
-   "titulo": "Tornado en el noroeste de Rio Grande do Sul",
-   "lugar": "Giruá, Sete de Setembro y Senador Salgado Filho, Rio Grande do Sul",
-   "pais": "Brasil",
-   "inicio": "2026-07-28",
-   "fin": "2026-07-28",
-   "geom": {
-    "t": "punto",
-    "c": [
-     -54.35,
-     -28.03
-    ]
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "Un tornado asociado a una supercelda pasó por Giruá, Sete de Setembro y Senador Salgado Filho. Dejó al menos 7 heridos, 2 casas destruidas en Sete de Setembro y 12 casas alcanzadas en Senador Salgado Filho.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": 0,
-    "texto": "2 casas destruidas en Sete de Setembro, 12 alcanzadas en Senador Salgado Filho y daños severos en viviendas rurales de Giruá."
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "vivienda",
-      "t": "Decenas de personas sin vivienda; 50 afectados en Senador Salgado Filho."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "intensidad",
-   "fuentes": [
-    {
-     "t": "Revista Oeste, 29 jul 2026",
-     "u": "https://revistaoeste.com/brasil/tornado-gigante-atinge-rio-grande-do-sul-e-deixa-7-feridos/"
-    },
-    {
-     "t": "Notícias Agrícolas, 29 jul 2026",
-     "u": "https://www.noticiasagricolas.com.br/noticias/tempo-e-clima/425527-tornado-provoca-destruicao-e-deixa-feridos-no-noroeste-do-rio-grande-do-sul.amp.html"
-    },
-    {
-     "t": "Montevideo Portal, 29 jul 2026",
-     "u": "https://www.montevideo.com.uy/Noticias/-Meu-deus--nuevos-videos-del-brutal-tornado-que-azoto-al-sur-de-Brasil-uc969985"
-    },
-    {
-     "t": "Wikipedia, List of South American tornadoes in 2026",
-     "u": "https://en.wikipedia.org/wiki/List_of_South_American_tornadoes_in_2026"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "F3 preliminar (MetSul y PREVOTS)",
-    "ref": "escala Fujita; recorrido de 14,5 km y hasta 900 m de ancho; una primera estimación del 29 de julio lo ubicaba en EF1",
-    "fuente": 3
    }
   },
   {
@@ -14192,6 +14081,79 @@
     {
      "t": "Diário do Sudoeste, 25 oct",
      "u": "https://diariodosudoeste.com.br/tempestades-se-afastam-do-parana-chuvas-retornam-na-quinta/"
+    }
+   ]
+  },
+  {
+   "id": "sam-p01",
+   "tipo": "tornado",
+   "titulo": "Tornado EF-2 en Requínoa",
+   "lugar": "Requínoa, Región de O'Higgins, Chile",
+   "pais": "Chile",
+   "inicio": "2026-10-26",
+   "fin": "2026-10-26",
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "punto",
+    "c": [
+     -70.82,
+     -34.29
+    ]
+   },
+   "impacto": null,
+   "muertes": 0,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Un tornado clasificado de forma preliminar como EF-2 dañó entre 20 y 70 viviendas según los catastros iniciales y destruyó el gimnasio del colegio Tricahue. Senapred declaró alerta roja en la comuna; no hubo heridos. Unos 7.760 clientes quedaron sin luz.",
+   "intensidad": {
+    "nivel": 2,
+    "medida": "EF-2, vientos estimados de 179 a 218 km/h",
+    "ref": "escala Fujita mejorada (clasificación preliminar de la Dirección Meteorológica de Chile)",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Viviendas en Los Perales y Villa Jardín y el colegio Tricahue; postes caídos sobre la vía férrea."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "vivienda",
+      "t": "Al menos 20 viviendas dañadas; catastro en curso."
+     },
+     {
+      "cat": "servicios",
+      "t": "Unos 7.760 clientes sin luz y clases suspendidas en Requínoa."
+     },
+     {
+      "cat": "transporte",
+      "t": "Tránsito ferroviario suspendido por postes caídos."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "emergencia",
+   "fuentes": [
+    {
+     "t": "Radio Agricultura, 26 oct",
+     "u": "https://www.radioagricultura.cl/noticias/nacional/emergencia-en-la-region-de-ohiggins-senapred-declara-alerta-roja-en-requinoa-por-tornado-ef-2_20261026/"
+    },
+    {
+     "t": "Emol, 26 oct",
+     "u": "https://www.emol.com/noticias/Nacional/2026/10/26/1215254/tornado-requinoa-viviendas-colegio-afectados.html"
+    },
+    {
+     "t": "24 Horas, 26 oct",
+     "u": "https://www.24horas.cl/regiones/zona-centro/ohiggins/decretan-alerta-roja-requinoa--tornado-20-viviendas-afectadas"
+    },
+    {
+     "t": "Puranoticia, 26 oct",
+     "u": "https://puranoticia.pnt.cl/regiones/declaran-alerta-roja-para-la-comuna-de-requinoa-tras-paso-de-tornado-que"
     }
    ]
   }
