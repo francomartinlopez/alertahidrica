@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-10-27",
- "desde": "2026-07-29",
+ "actualizado": "2026-10-28",
+ "desde": "2026-07-30",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "27 de julio a 25 de octubre",
@@ -3546,15 +3546,15 @@
     ],
     "r": 280
    },
-   "muertes": 3,
-   "afectados": 30534,
-   "texto": "Más de un mes de lluvia desbordó ríos en la costa. Al 25 de octubre la Secretaría de Gestión de Riesgos contaba tres muertos (dos en Azuay y uno en El Oro) y 30.534 personas impactadas desde el 29 de agosto, 2.258 de ellas damnificadas. Esmeraldas y Guayas concentran cerca del 83%.",
+   "muertes": 4,
+   "afectados": 32000,
+   "texto": "Más de un mes de lluvia desbordó ríos en la costa. Al 27 de octubre el COE contaba cuatro muertos y unas 32.000 personas afectadas desde el 29 de agosto (la Secretaría de Gestión de Riesgos mantenía tres muertos y 30.539 afectados). El 26 de octubre las lluvias inundaron 86 zonas de Guayaquil.",
    "danos": {
-    "texto": "Miles de viviendas dañadas o destruidas y unas 1.700 ha de cultivos inundadas.",
-    "usd": null,
+    "texto": "Miles de viviendas dañadas o destruidas; pérdidas agrícolas de USD 60,8 millones según el balance difundido el 27 de octubre.",
+    "usd": 60.8,
     "rango": null,
-    "tipo": null,
-    "fuente": null
+    "tipo": "prensa",
+    "fuente": 2
    },
    "efectos": {
     "corto": [
@@ -3568,6 +3568,18 @@
    },
    "criterio": "muertes",
    "fuentes": [
+    {
+     "t": "Infobae (EFE), 27 oct",
+     "u": "https://www.infobae.com/america/agencias/2026/10/27/suben-a-cuatro-los-muertos-por-el-nino-en-ecuador-con-miles-de-viviendas-danadas/"
+    },
+    {
+     "t": "La República, 27 oct",
+     "u": "https://larepublica.pe/mundo/2026/10/27/fuertes-lluvias-inundaron-mas-de-80-zonas-de-guayaquil-y-causaron-su-colapso-en-medio-de-la-alerta-por-el-nino-1612521"
+    },
+    {
+     "t": "El Diario, 27 oct",
+     "u": "https://www.eldiario.ec/ecuador/el-nino-deja-mas-de-60-millones-en-perdidas-agricolas-cuales-son-las-provincias-mas-afectadas-27102026/"
+    },
     {
      "t": "Noticias SIN, 25 oct",
      "u": "https://noticiassin.com/mundo/america/2026/10/25/lluvias-en-ecuador-dejan-30-534-afectados-y-tres-muertos-2153869"
@@ -3883,8 +3895,8 @@
     "r": 330
    },
    "muertes": 3,
-   "evacuados": 3478,
-   "texto": "El Paraná superó el nivel de evacuación en Itatí, Isla del Cerrito, Corrientes, Barranqueras y Reconquista, y el Iguazú en Puerto Iguazú. Hay unas 3.500 personas evacuadas o autoevacuadas: 2.026 en Chaco (26 oct) y 1.452 en Corrientes (25 oct). Tres trabajadores rurales murieron mientras trasladaban hacienda.",
+   "evacuados": 3653,
+   "texto": "El Paraná superó el nivel de evacuación en Itatí, Isla del Cerrito, Corrientes, Barranqueras y Reconquista, y el Iguazú en Puerto Iguazú. Hay unas 3.650 personas evacuadas o autoevacuadas: 2.201 en Chaco (27 oct) y 1.452 en Corrientes (25 oct), más de 150 familias en Paso de la Patria. Tres trabajadores rurales murieron mientras trasladaban hacienda.",
    "danos": {
     "texto": "Sin estimación publicada. Más de 30.000 vacunos evacuados en Victoria (Entre Ríos) y unas 460.000 cabezas en alerta en las islas.",
     "usd": null,
@@ -3908,6 +3920,14 @@
    },
    "criterio": "muertes",
    "fuentes": [
+    {
+     "t": "El Litoral, 27 oct",
+     "u": "https://www.ellitoral.com.ar/nacional/2026-10-27-11-14-0-chaco-tiene-tres-localidades-en-alerta-roja-y-mas-de-2-200-evacuados-por-las-inundaciones"
+    },
+    {
+     "t": "La Nación, 27 oct",
+     "u": "https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/"
+    },
     {
      "t": "Perfil, 26 oct",
      "u": "https://www.perfil.com/noticias/nea/la-crecida-en-chaco-mantiene-a-mas-de-2000-personas-fuera-de-sus-viviendas.phtml"
@@ -5790,64 +5810,6 @@
     "nivel": null,
     "medida": "",
     "ref": "",
-    "fuente": 1
-   }
-  },
-  {
-   "id": "afr-004",
-   "tipo": "incendio",
-   "titulo": "Incendios forestales en el noroeste de Túnez",
-   "lugar": "Noroeste de Túnez",
-   "pais": "Túnez",
-   "inicio": "2026-07-21",
-   "fin": "2026-07-29",
-   "origen": "ambos",
-   "gdacs": [
-    {
-     "t": "WF",
-     "id": 1029649,
-     "a": "naranja"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     8.5,
-     36.3
-    ]
-   },
-   "texto": "GDACS estimó 11.824 ha quemadas con datos satelitales (alerta naranja). Entre junio y agosto Túnez tuvo 239 incendios forestales y más de 14.000 ha quemadas, un récord según La Presse.",
-   "criterio": "alerta_gdacs",
-   "fuentes": [
-    {
-     "t": "GDACS, alerta naranja",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1029649&eventtype=WF"
-    },
-    {
-     "t": "La Presse, 1 sep",
-     "u": "https://www.lapresse.tn/2026/09/01/un-record-sans-precedent-de-feux-de-foret-en-tunisie-plus-de-14-000-hectares-ravages-au-cours-de-cet-ete/"
-    }
-   ],
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Cifras de la recopilación automática de prensa de GDACS; pueden ser parciales."
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "intensidad": {
-    "nivel": 3,
-    "medida": "11.824 ha en este incendio (GDACS); más de 14.000 ha en el verano",
-    "ref": "récord sin precedentes de incendios forestales en Túnez, según La Presse",
     "fuente": 1
    }
   },
@@ -13960,7 +13922,7 @@
    "id": "nam-o01",
    "tipo": "inundacion",
    "titulo": "Crecida del río San Juan en Four Corners",
-   "lugar": "Farmington y Shiprock (Nuevo México) y sudeste de Utah",
+   "lugar": "Farmington y Shiprock (Nuevo México), sudeste de Utah y condado de Santa Fe",
    "pais": "EE.UU.",
    "inicio": "2026-10-21",
    "fin": null,
@@ -13975,10 +13937,10 @@
     "r": 120
    },
    "impacto": null,
-   "muertes": null,
+   "muertes": 1,
    "afectados": 2000,
    "evacuados": null,
-   "texto": "Entre 76 y 178 mm de lluvia en varios días desbordaron el río San Juan. En Farmington unas 2.000 personas resultaron afectadas, se pidió evacuar 600 viviendas y al menos un par de cientos de personas fueron rescatadas, algunas desde techos. En Shiprock el río llegó a unos 7 m y se cerró el puente; la Nación Navajo evacuó comunidades del sudeste de Utah. Sin muertes informadas.",
+   "texto": "Entre 76 y 178 mm de lluvia en varios días desbordaron el río San Juan. En Farmington unas 2.000 personas resultaron afectadas, se pidió evacuar 600 viviendas y al menos un par de cientos de personas fueron rescatadas, algunas desde techos. En Shiprock el río llegó a unos 7 m y se cerró el puente; la Nación Navajo evacuó comunidades del sudeste de Utah. El sábado 24 una mujer de 39 años murió cuando el agua arrastró el vehículo en que cruzaba un arroyo al norte de Santa Fe (Nuevo México); hubo cinco rescates en aguas rápidas en el condado durante el fin de semana.",
    "intensidad": {
     "nivel": 1,
     "medida": "76 a 178 mm en varios días; río San Juan cerca de su cresta histórica",
@@ -14023,6 +13985,14 @@
     {
      "t": "NPR, 23 oct",
      "u": "https://www.npr.org/2026/10/23/nx-s1-6014742/flooding-weather-four-corners"
+    },
+    {
+     "t": "Santa Fe New Mexican, 26 oct",
+     "u": "https://www.santafenewmexican.com/news/local_news/police-identify-woman-who-died-in-flooded-arroyo-north-of-santa-fe/article_2d01ab06-2e1a-4922-abf9-09cceb4a7485.html"
+    },
+    {
+     "t": "KKOB, 26 oct",
+     "u": "https://www.newsradiokkob.com/2026/10/26/64973/"
     }
    ]
   },
@@ -14154,6 +14124,64 @@
     {
      "t": "Puranoticia, 26 oct",
      "u": "https://puranoticia.pnt.cl/regiones/declaran-alerta-roja-para-la-comuna-de-requinoa-tras-paso-de-tornado-que"
+    }
+   ]
+  },
+  {
+   "id": "cam-p01",
+   "tipo": "lluvia",
+   "titulo": "Lluvias en el sur de Haití",
+   "lugar": "Nippes, Sur y Grand'Anse",
+   "pais": "Haití",
+   "inicio": "2026-10-25",
+   "fin": null,
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     -73.6,
+     18.35
+    ],
+    "r": 120
+   },
+   "impacto": null,
+   "muertes": 4,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Protección Civil informó al menos cuatro muertos (dos en Nippes, uno en Sur y uno en Grand'Anse), tres heridos y dos pescadores desaparecidos. Se inundaron 2.130 viviendas en varios departamentos y siete regiones siguen en alerta amarilla.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "",
+    "ref": "",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "2.130 viviendas inundadas."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "vivienda",
+      "t": "2.130 viviendas inundadas."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "Infobae (EFE), 27 oct",
+     "u": "https://www.infobae.com/america/agencias/2026/10/27/al-menos-cuatro-muertos-tres-heridos-y-dos-desaparecidos-por-las-lluvias-en-haiti/"
+    },
+    {
+     "t": "El Día (EFE), 27 oct",
+     "u": "https://eldia.com.do/al-menos-cuatro-muertos-tres-heridos-y-dos-desaparecidos-por-las-lluvias-en-haiti/"
     }
    ]
   }

@@ -1,42 +1,42 @@
 {
  "meta": {
   "titulo": "Súper Niño 2026-27 en Argentina",
-  "actualizado": "2026-10-27",
-  "actualizado_texto": "27 de octubre de 2026",
+  "actualizado": "2026-10-28",
+  "actualizado_texto": "28 de octubre de 2026",
   "proxima": "Se actualiza todos los días por la mañana.",
   "autor": "Franco Martín López",
-  "version": 16,
+  "version": 17,
   "cambios": [
-   "Chaco sube a 2.026 evacuados y autoevacuados (26 oct) y Corrientes a 1.452 (25 oct): el total pasa a unas 3.500 personas; en Misiones regresaron los 154 evacuados.",
-   "Ríos al 26 de octubre: Reconquista 5,37 m, Santa Fe 4,15 m, Barranqueras 7,21 m (leve baja) y Concordia 9,10 m, con nueva suba prevista por Salto Grande.",
-   "Alertas amarillas del SMN por tormentas en Mendoza, San Luis, Córdoba y Neuquén para el martes 27.",
-   "Yacyretá extendió el cierre del paso Ituzaingó–Ayolas hasta el 30 de octubre.",
-   "Sin acceso a los servidores de NOAA: no se actualizaron el gráfico diario de Niño-3.4 ni las capas del mapa mundial."
+   "Chaco sube a 2.201 evacuados y autoevacuados (27 oct); con Corrientes (1.452) el total llega a unas 3.650 personas. En Paso de la Patria hay más de 150 familias fuera de sus casas.",
+   "Ríos al 27 de octubre: Itatí 8,21 m, Corrientes 7,35 m, Barranqueras 7,23 m, Reconquista 5,43 m, Goya 5,66 m (a 4 cm de evacuación) y Puerto Iguazú 28,50 m.",
+   "Neuquén firmó el Decreto 1714/2026 de emergencia meteorológica por seis meses y Mendoza publicó la Ley 9740: las emergencias provinciales vigentes pasan a cinco.",
+   "Alertas amarillas por tormentas el miércoles 28 en el oeste bonaerense, el este de La Pampa, Tucumán, Salta y Santiago del Estero. Niño-3.4 semanal en +3,4 °C.",
+   "Sin acceso a los servidores de NOAA, GDACS ni EONET: no se actualizaron el gráfico diario de Niño-3.4 ni las capas del mapa mundial."
   ]
  },
  "alerta": {
   "nivel": "rojo",
-  "titular": "Chaco supera los 2.000 evacuados y seis puertos siguen sobre evacuación",
-  "bajada": "Unas **3.500 personas** están fuera de sus casas: **2.026 en Chaco** y **1.452 en Corrientes**; en Misiones ya volvieron los 154 evacuados. **Murieron tres trabajadores rurales** trasladando hacienda. Reconquista sigue subiendo despacio (5,37 m) y Barranqueras baja muy lento (7,21 m). Yacyretá mantiene cerrado el paso a Paraguay hasta el 30. El martes rigen alertas amarillas por tormentas en Mendoza, San Luis, Córdoba y Neuquén. **No hay emergencia nacional declarada.**"
+  "titular": "Chaco pasa los 2.200 evacuados y Goya queda a 4 cm de la evacuación",
+  "bajada": "Unas **3.650 personas** están fuera de sus casas: **2.201 en Chaco** y **1.452 en Corrientes**, más de 150 familias en Paso de la Patria. **Murieron tres trabajadores rurales** trasladando hacienda. Seis puertos siguen sobre evacuación y Goya está a 4 cm; Defensa Civil de Corrientes espera una **nueva onda de crecida hacia el 3 de noviembre**. **Neuquén y Mendoza** ya tienen su emergencia vigente. El miércoles rigen alertas amarillas por tormentas en el oeste bonaerense, La Pampa y el NOA. **No hay emergencia nacional declarada.**"
  },
  "kpis": [
   {
    "id": "nino",
    "label": "Niño-3.4 semanal",
-   "valor": "+3,3",
+   "valor": "+3,4",
    "unidad": "°C",
-   "detalle": "Semana centrada el 14 de octubre; cinco semanas seguidas sobre +3 °C",
+   "detalle": "Semana centrada el 21 de octubre (boletín del 26): el valor más alto del evento y seis semanas seguidas sobre +3 °C",
    "tono": "critico",
-   "fuente": "[Infobae](https://www.infobae.com/america/medio-ambiente/2026/10/21/el-pacifico-alcanzo-cinco-semanas-por-encima-de-3-y-los-pronosticos-ya-advierten-sobre-un-super-el-nino-historico-para-el-clima-global/)"
+   "fuente": "[MetSul](https://metsul.com/el-nino-nao-para-de-ganhar-forca-neste-fim-de-outubro)"
   },
   {
    "id": "evac",
    "label": "Evacuados y autoevacuados",
-   "valor": "~3.500",
+   "valor": "~3.650",
    "unidad": "personas",
-   "detalle": "2.026 en Chaco (26 oct) y 1.452 en Corrientes (25 oct); en Misiones regresaron los 154 evacuados",
+   "detalle": "2.201 en Chaco (27 oct) y 1.452 en Corrientes (25 oct); en Paso de la Patria hay más de 150 familias fuera de sus casas",
    "tono": "critico",
-   "fuente": "[Perfil](https://www.perfil.com/noticias/nea/la-crecida-en-chaco-mantiene-a-mas-de-2000-personas-fuera-de-sus-viviendas.phtml) · [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia) · [Canal 12 Misiones](https://www.canal12misiones.com/informacion-general/crecida-rios-el-nino-14-pasos-fronterizos-evacuados-misiones)"
+   "fuente": "[El Litoral](https://www.ellitoral.com.ar/nacional/2026-10-27-11-14-0-chaco-tiene-tres-localidades-en-alerta-roja-y-mas-de-2-200-evacuados-por-las-inundaciones) · [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia) · [La Nación](https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/)"
   },
   {
    "id": "muertes",
@@ -52,18 +52,18 @@
    "label": "Puertos sobre evacuación",
    "valor": "6",
    "unidad": "",
-   "detalle": "Itatí, Isla del Cerrito, Corrientes, Barranqueras (7,21 m), Reconquista (5,37 m el 26 de octubre) y Puerto Iguazú (28 m). Goya, a 7 cm (5,63 m el 25)",
+   "detalle": "Itatí (8,21 m), Isla del Cerrito, Corrientes (7,35 m), Barranqueras (7,23 m), Reconquista (5,43 m) y Puerto Iguazú (28,50 m), al 27 de octubre. Goya, a 4 cm (5,66 m)",
    "tono": "alerta",
-   "fuente": "[Reconquista Hoy](https://www.reconquistahoy.com/92778-actualizacion-hidrometrica-el-parana-registro-537-metros-este-lunes-en-puerto-reconquista-y-avanza-de-forma-mas-lenta) · [Data Chaco](https://www.datachaco.com/653775-el-parana-alcanzo-los-721-metros-en-barranqueras-y-chaco-supera-los-2000-evacuados-y-autoevacuados) · [Misiones Online](https://misionesonline.net/2026/10/26/rios-misiones-lunes)"
+   "fuente": "[La Nación](https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-y-los-niveles-de-alerta-hoy-nid27102026/) · [Sin Mordaza](https://sinmordaza.com/noticia/523243-el-rio-parana-llego-a-los-543-metros-vallejos-solicito-fondos-para-reforzar-las-defensas.html) · [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/27/203733-la-crecida-del-iguazu-y-el-parana-mantiene-en-alerta-a-la-triple-frontera-y-prolonga-el-cierre-de-un-circuito-de-cataratas) · [InfoGoya](https://infogoya.com/parana-goya-4-centimetros-nivel-evacuacion/)"
   },
   {
    "id": "emerg",
    "label": "Emergencias provinciales vigentes",
-   "valor": "3",
+   "valor": "5",
    "unidad": "",
-   "detalle": "Santa Fe, Entre Ríos y Corrientes. Mendoza sancionó su ley y Neuquén anunció un decreto por seis meses, sin publicación oficial hallada al 26 de octubre",
+   "detalle": "Santa Fe, Entre Ríos, Corrientes, Mendoza (Ley 9740, publicada el 26 de octubre) y Neuquén (Decreto 1714/2026, firmado el 27)",
    "tono": "neutro",
-   "fuente": ""
+   "fuente": "[MDZ](https://www.mdzol.com/sociedad/2026/10/26/el-gobierno-de-mendoza-declaro-la-emergencia-climatica-por-el-super-nino-de-que-se-trata-1990710.html) · [Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/27/358338-figueroa-declaro-la-emergencia-en-neuquen-por-seis-meses-ante-el-riesgo-de-lluvias-intensas-y-crecidas)"
   },
   {
    "id": "nacion",
@@ -94,26 +94,6 @@
   }
  ],
  "hoy": [
-  {
-   "fecha": "19 y 20 oct",
-   "lugar": "Paso de la Patria",
-   "texto": "Un terraplén provisorio para 7,35 m cedió con el río en 7,70 m: **unas 300 viviendas inundadas**.",
-   "url": "https://www.mdzol.com/sociedad/2026/10/21/la-crecida-del-parana-rompio-una-defensa-inundo-300-viviendas-y-gran-parte-de-la-costanera-1989834.html",
-   "fuente": "MDZ",
-   "prov": "Corrientes",
-   "tipo": "rio",
-   "f": "2026-10-20"
-  },
-  {
-   "fecha": "20 oct",
-   "lugar": "Clorinda",
-   "texto": "Comando de emergencia con el Pilcomayo en 3,32 m.",
-   "url": "",
-   "fuente": "",
-   "prov": "Formosa",
-   "tipo": "rio",
-   "f": "2026-10-20"
-  },
   {
    "fecha": "21 oct",
    "lugar": "Corrientes",
@@ -585,6 +565,16 @@
    "fuente": "Rosario3"
   },
   {
+   "fecha": "26 oct",
+   "f": "2026-10-26",
+   "lugar": "Mendoza",
+   "prov": "Mendoza",
+   "texto": "Se publicó la **Ley 9740 de emergencia hidrometeorológica y climática** por 180 días, prorrogable: habilita contrataciones directas y obras urgentes.",
+   "tipo": "norma",
+   "url": "https://www.mdzol.com/sociedad/2026/10/26/el-gobierno-de-mendoza-declaro-la-emergencia-climatica-por-el-super-nino-de-que-se-trata-1990710.html",
+   "fuente": "MDZ"
+  },
+  {
    "fecha": "27 oct",
    "f": "2026-10-27",
    "lugar": "Cuyo, centro y Neuquén",
@@ -593,19 +583,109 @@
    "tipo": "tormenta",
    "url": "https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-tormentas-para-este-martes-27-de-octubre-las-provincias-afectadas-nid26102026/",
    "fuente": "La Nación"
+  },
+  {
+   "fecha": "27 oct",
+   "f": "2026-10-27",
+   "lugar": "Chaco",
+   "prov": "Chaco",
+   "texto": "**2.201 evacuados y autoevacuados** de 591 hogares; 360 personas aisladas en Soto y Tacuarí (Puerto Vilelas) reciben ayuda en lancha.",
+   "tipo": "evacuacion",
+   "url": "https://www.ellitoral.com.ar/nacional/2026-10-27-11-14-0-chaco-tiene-tres-localidades-en-alerta-roja-y-mas-de-2-200-evacuados-por-las-inundaciones",
+   "fuente": "El Litoral"
+  },
+  {
+   "fecha": "27 oct",
+   "f": "2026-10-27",
+   "lugar": "Paso de la Patria",
+   "prov": "Corrientes",
+   "texto": "**Más de 150 familias fuera de sus casas** y sectores aislados con el río en 7,74 m; Defensa Civil anticipa una nueva onda de crecida hacia el 3 de noviembre.",
+   "tipo": "evacuacion",
+   "url": "https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/",
+   "fuente": "La Nación"
+  },
+  {
+   "fecha": "27 oct",
+   "f": "2026-10-27",
+   "lugar": "Itatí, Corrientes y Barranqueras",
+   "prov": "",
+   "texto": "El Paraná sigue sobre evacuación: **8,21 m en Itatí, 7,35 m en Corrientes y 7,23 m en Barranqueras**.",
+   "tipo": "rio",
+   "url": "https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-y-los-niveles-de-alerta-hoy-nid27102026/",
+   "fuente": "La Nación (Prefectura)"
+  },
+  {
+   "fecha": "27 oct",
+   "f": "2026-10-27",
+   "lugar": "Goya",
+   "prov": "Corrientes",
+   "texto": "El riacho marcó **5,66 m, a 4 cm de evacuación** (5,70 m).",
+   "tipo": "rio",
+   "url": "https://infogoya.com/parana-goya-4-centimetros-nivel-evacuacion/",
+   "fuente": "InfoGoya"
+  },
+  {
+   "fecha": "27 oct",
+   "f": "2026-10-27",
+   "lugar": "Reconquista",
+   "prov": "Santa Fe",
+   "texto": "El Paraná llegó a **5,43 m**, sobre evacuación; el municipio pidió fondos para elevar las defensas.",
+   "tipo": "rio",
+   "url": "https://sinmordaza.com/noticia/523243-el-rio-parana-llego-a-los-543-metros-vallejos-solicito-fondos-para-reforzar-las-defensas.html",
+   "fuente": "Sin Mordaza"
+  },
+  {
+   "fecha": "27 oct",
+   "f": "2026-10-27",
+   "lugar": "Puerto Iguazú",
+   "prov": "Misiones",
+   "texto": "El Iguazú **volvió a subir: 28,50 m**, 50 cm más, sobre evacuación; el INA anticipa posibles nuevas crecidas.",
+   "tipo": "rio",
+   "url": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/27/203733-la-crecida-del-iguazu-y-el-parana-mantiene-en-alerta-a-la-triple-frontera-y-prolonga-el-cierre-de-un-circuito-de-cataratas",
+   "fuente": "Noticias de la Calle"
+  },
+  {
+   "fecha": "27 oct",
+   "f": "2026-10-27",
+   "lugar": "Neuquén",
+   "prov": "Neuquén",
+   "texto": "Figueroa firmó el **Decreto 1714/2026: emergencia meteorológica por seis meses** en toda la provincia, con un comité de seis ministerios y compras directas.",
+   "tipo": "norma",
+   "url": "https://www.noticiasnqn.com.ar/noticias/2026/10/27/358338-figueroa-declaro-la-emergencia-en-neuquen-por-seis-meses-ante-el-riesgo-de-lluvias-intensas-y-crecidas",
+   "fuente": "Noticias NQN"
+  },
+  {
+   "fecha": "27 oct",
+   "f": "2026-10-27",
+   "lugar": "Gran Mendoza",
+   "prov": "Mendoza",
+   "texto": "Una tormenta nocturna dejó **siete incidentes en cuatro departamentos**, sobre todo árboles caídos, cables cortados y filtraciones; Guaymallén fue el más afectado.",
+   "tipo": "tormenta",
+   "url": "https://elmonterizo.com/la-tormenta-dejo-siete-emergencias-en-mendoza-y-guaymallen-se-llevo-la-peor-parte",
+   "fuente": "El Monterizo"
+  },
+  {
+   "fecha": "28 oct",
+   "f": "2026-10-28",
+   "lugar": "Cataratas del Iguazú",
+   "prov": "Misiones",
+   "texto": "**Reabre el circuito superior** del Parque Nacional Iguazú tras la crecida.",
+   "tipo": "rio",
+   "url": "https://www.primeraedicion.com.ar/nota/101155098/cataratas-del-iguazu-el-circuito-superior-reabre-este-miercoles-tras-la-crecida-del-rio/",
+   "fuente": "Primera Edición"
+  },
+  {
+   "fecha": "28 oct",
+   "f": "2026-10-28",
+   "lugar": "Oeste bonaerense, La Pampa y NOA",
+   "prov": "",
+   "texto": "**Alerta amarilla por tormentas** con granizo en el oeste de Buenos Aires, el este de La Pampa, Tucumán, Salta y Santiago del Estero.",
+   "tipo": "tormenta",
+   "url": "https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-tormentas-para-este-miercoles-28-de-octubre-las-provincias-afectadas-nid28102026/",
+   "fuente": "La Nación"
   }
  ],
  "eventos_previos": [
-  {
-   "fecha": "17 oct",
-   "lugar": "Islas de Victoria",
-   "texto": "Más de **30.000 vacunos** evacuados; hay más de 200.000 cabezas en islas.",
-   "url": "https://03442.com.ar/2026/10/proponen-declarar-la-emergencia-agropecuaria-por-las-crecidas-de-los-rios-parana-y-uruguay/",
-   "fuente": "03442",
-   "prov": "Entre Ríos",
-   "tipo": "ganaderia",
-   "f": "2026-10-17"
-  },
   {
    "fecha": "Agosto",
    "lugar": "Norte de Santa Fe",
@@ -717,14 +797,14 @@
    "f": "2026-10-16"
   },
   {
-   "fecha": "20 oct",
-   "f": "2026-10-20",
-   "lugar": "Arroyo Carranza",
-   "prov": "Neuquén",
-   "texto": "La crecida del arroyo corta la Ruta Provincial 5; las rutas 8 y 46 quedan con circulación restringida.",
-   "url": "https://www.urbanazapala.com.ar/rutas-cortadas-en-neuquen/",
-   "fuente": "Urbana Zapala",
-   "tipo": "rio"
+   "fecha": "17 oct",
+   "lugar": "Islas de Victoria",
+   "texto": "Más de **30.000 vacunos** evacuados; hay más de 200.000 cabezas en islas.",
+   "url": "https://03442.com.ar/2026/10/proponen-declarar-la-emergencia-agropecuaria-por-las-crecidas-de-los-rios-parana-y-uruguay/",
+   "fuente": "03442",
+   "prov": "Entre Ríos",
+   "tipo": "ganaderia",
+   "f": "2026-10-17"
   },
   {
    "fecha": "19 oct",
@@ -735,6 +815,36 @@
    "prov": "Corrientes",
    "tipo": "muerte",
    "f": "2026-10-19"
+  },
+  {
+   "fecha": "20 oct",
+   "f": "2026-10-20",
+   "lugar": "Arroyo Carranza",
+   "prov": "Neuquén",
+   "texto": "La crecida del arroyo corta la Ruta Provincial 5; las rutas 8 y 46 quedan con circulación restringida.",
+   "url": "https://www.urbanazapala.com.ar/rutas-cortadas-en-neuquen/",
+   "fuente": "Urbana Zapala",
+   "tipo": "rio"
+  },
+  {
+   "fecha": "19 y 20 oct",
+   "lugar": "Paso de la Patria",
+   "texto": "Un terraplén provisorio para 7,35 m cedió con el río en 7,70 m: **unas 300 viviendas inundadas**.",
+   "url": "https://www.mdzol.com/sociedad/2026/10/21/la-crecida-del-parana-rompio-una-defensa-inundo-300-viviendas-y-gran-parte-de-la-costanera-1989834.html",
+   "fuente": "MDZ",
+   "prov": "Corrientes",
+   "tipo": "rio",
+   "f": "2026-10-20"
+  },
+  {
+   "fecha": "20 oct",
+   "lugar": "Clorinda",
+   "texto": "Comando de emergencia con el Pilcomayo en 3,32 m.",
+   "url": "",
+   "fuente": "",
+   "prov": "Formosa",
+   "tipo": "rio",
+   "f": "2026-10-20"
   }
  ],
  "senales": {
@@ -745,12 +855,12 @@
   {
    "puerto": "Itatí",
    "rio": "Paraná",
-   "altura": 8.3,
-   "fecha": "23 oct",
+   "altura": 8.21,
+   "fecha": "27 oct",
    "alerta": 6.8,
    "evac": 7.5,
    "estado": "evacuacion",
-   "lectura": "Sobre evacuación (7,50 m); el 24 y 25 seguía por encima de 8 m (sin lectura exacta publicada)",
+   "lectura": "Sobre evacuación (7,50 m): **8,21 m el 27 de octubre** según Prefectura, apenas debajo de los 8,30 m del 22 y 23",
    "lon": -58.24,
    "lat": -27.27,
    "hist": [
@@ -773,6 +883,10 @@
     [
      "2026-10-23",
      8.3
+    ],
+    [
+     "2026-10-27",
+     8.21
     ]
    ],
    "proy": []
@@ -807,14 +921,14 @@
   {
    "puerto": "Corrientes",
    "rio": "Paraná",
-   "altura": 7.37,
-   "fecha": "24 oct",
+   "altura": 7.35,
+   "fecha": "27 oct",
    "alerta": 6.5,
    "evac": 7.0,
    "record": 8.65,
    "record_txt": "Récord 1983: 8,65 m; 1998: 8,38 m",
    "estado": "evacuacion",
-   "lectura": "Sobre evacuación, a 1,3 m del récord de 1983. El INA proyecta **7,80 m el 27 de octubre** y valores similares el 3 de noviembre: seguirá alto varias semanas",
+   "lectura": "Sobre evacuación (7 m): **7,35 m el 27 de octubre**, a 1,30 m del récord de 1983. Defensa Civil anticipa una **nueva onda de crecida hacia el 3 de noviembre** que podría superar levemente el último pico",
    "lon": -58.83,
    "lat": -27.47,
    "hist": [
@@ -849,6 +963,10 @@
     [
      "2026-10-24",
      7.37
+    ],
+    [
+     "2026-10-27",
+     7.35
     ]
    ],
    "proy": [
@@ -861,12 +979,12 @@
   {
    "puerto": "Barranqueras",
    "rio": "Paraná",
-   "altura": 7.21,
-   "fecha": "26 oct",
+   "altura": 7.23,
+   "fecha": "27 oct",
    "alerta": 6.0,
    "evac": 6.5,
    "estado": "evacuacion",
-   "lectura": "Sobre evacuación (6,50 m) con baja muy lenta: **7,21 m el 26 de octubre** según la APA; Barranqueras y Puerto Vilelas siguen en alerta roja",
+   "lectura": "Sobre evacuación (6,50 m): **7,23 m el 27 de octubre** a las 6 según la APA, casi sin cambios desde el 25. Barranqueras, Puerto Vilelas e Isla del Cerrito siguen en alerta roja",
    "lon": -58.93,
    "lat": -27.49,
    "hist": [
@@ -897,6 +1015,10 @@
     [
      "2026-10-26",
      7.21
+    ],
+    [
+     "2026-10-27",
+     7.23
     ]
    ],
    "proy": []
@@ -904,12 +1026,12 @@
   {
    "puerto": "Goya",
    "rio": "Paraná",
-   "altura": 5.63,
-   "fecha": "25 oct",
+   "altura": 5.66,
+   "fecha": "27 oct",
    "alerta": 5.2,
    "evac": 5.7,
    "estado": "alerta",
-   "lectura": "En alerta y creciendo: **5,63 m el 25 de octubre, a 7 cm de evacuación** (5,70 m). El COE habilitó más de diez centros de evacuados. El INA estimaba un máximo de 6,50 m el 3 de noviembre",
+   "lectura": "En alerta y muy cerca de evacuación: **5,66 m el 27 de octubre, a 4 cm de la cota de evacuación** (5,70 m), tras 5,63 el 25 y 5,64 el 26. Se espera un escalón más y luego una etapa estacionaria. El INA estimaba un máximo de 6,50 m el 3 de noviembre",
    "lon": -59.26,
    "lat": -29.14,
    "hist": [
@@ -932,6 +1054,10 @@
     [
      "2026-10-25",
      5.63
+    ],
+    [
+     "2026-10-27",
+     5.66
     ]
    ],
    "proy": [
@@ -944,12 +1070,12 @@
   {
    "puerto": "Reconquista",
    "rio": "Paraná",
-   "altura": 5.37,
-   "fecha": "26 oct",
+   "altura": 5.43,
+   "fecha": "27 oct",
    "alerta": 5.1,
    "evac": 5.3,
    "estado": "evacuacion",
-   "lectura": "Sobre la cota de evacuación (5,30 m): **5,37 m el 26 de octubre** a las 9, con suba más lenta. El puerto sigue seco y las defensas funcionan; el municipio advierte que las proyecciones previas preveían más altura y están en revisión",
+   "lectura": "Sobre la cota de evacuación (5,30 m): **5,43 m el 27 de octubre**, todavía sin barrios inundados ni familias evacuadas. El municipio pidió fondos a la provincia y a Nación para elevar las defensas ante proyecciones que hablan de más de 7 m",
    "lon": -59.65,
    "lat": -29.15,
    "hist": [
@@ -976,6 +1102,10 @@
     [
      "2026-10-26",
      5.37
+    ],
+    [
+     "2026-10-27",
+     5.43
     ]
    ],
    "proy": [
@@ -988,12 +1118,12 @@
   {
    "puerto": "Santa Fe",
    "rio": "Paraná",
-   "altura": 4.15,
-   "fecha": "26 oct",
+   "altura": 4.16,
+   "fecha": "27 oct",
    "alerta": 5.3,
    "evac": 5.7,
    "estado": "subiendo",
-   "lectura": "4,15 m el 26 de octubre a las 10.15, en suba lenta. El INA proyectaba 4,22 m el 27 y 4,64 m el 3 de noviembre, bajo la alerta (5,30 m)",
+   "lectura": "4,16 m el 27 de octubre, casi estacionario. El INA proyectaba 4,22 m el 27 y 4,64 m el 3 de noviembre, bajo la alerta (5,30 m)",
    "lon": -60.7,
    "lat": -31.63,
    "hist": [
@@ -1016,6 +1146,10 @@
     [
      "2026-10-26",
      4.15
+    ],
+    [
+     "2026-10-27",
+     4.16
     ]
    ],
    "proy": [
@@ -1032,12 +1166,12 @@
   {
    "puerto": "Paraná",
    "rio": "Paraná",
-   "altura": 4.06,
-   "fecha": "25 oct",
+   "altura": 4.16,
+   "fecha": "27 oct",
    "alerta": 4.7,
    "evac": 5.0,
    "estado": "subiendo",
-   "lectura": "4,06 m el 25 de octubre. El INA prevé 4,20 m hacia fin de mes y **4,70 m (la alerta) en los primeros días de noviembre**",
+   "lectura": "4,16 m el 27 de octubre, en suba lenta. El INA prevé 4,20 m hacia fin de mes y **4,70 m (la alerta) en los primeros días de noviembre**",
    "lon": -60.52,
    "lat": -31.73,
    "hist": [
@@ -1056,6 +1190,10 @@
     [
      "2026-10-25",
      4.06
+    ],
+    [
+     "2026-10-27",
+     4.16
     ]
    ],
    "proy": [
@@ -1072,12 +1210,12 @@
   {
    "puerto": "Rosario",
    "rio": "Paraná",
-   "altura": 3.63,
-   "fecha": "25 oct",
+   "altura": 3.75,
+   "fecha": "27 oct",
    "alerta": 5.0,
    "evac": 5.25,
    "estado": "subiendo",
-   "lectura": "3,63 m el 25 de octubre, estable desde el 23. El INA prevé 4,56 m el 3 de noviembre y **unos 4,80 m en diciembre**, cerca de la alerta (5 m)",
+   "lectura": "3,75 m el 27 de octubre, en suba lenta. El INA prevé 4,56 m el 3 de noviembre y **unos 4,80 m en diciembre**, cerca de la alerta (5 m)",
    "lon": -60.64,
    "lat": -32.95,
    "hist": [
@@ -1108,6 +1246,10 @@
     [
      "2026-10-25",
      3.63
+    ],
+    [
+     "2026-10-27",
+     3.75
     ]
    ],
    "proy": [
@@ -1174,12 +1316,12 @@
   {
    "puerto": "Puerto Iguazú",
    "rio": "Iguazú",
-   "altura": 28.0,
-   "fecha": "26 oct",
+   "altura": 28.5,
+   "fecha": "27 oct",
    "alerta": null,
    "evac": 28.0,
    "estado": "evacuacion",
-   "lectura": "En la cota de evacuación (28 m) el 26 de octubre, sin subir pero sin bajar del nivel crítico; 28,50 m el 25. Pico de 32,20 m el 14. Siguen suspendidas lanchas y balsas y el circuito superior de Cataratas cerrado",
+   "lectura": "Sobre la cota de evacuación (28 m): **28,50 m el 27 de octubre** a las 7, tras subir 50 cm; el INA anticipó posibles nuevas crecidas. Pico de 32,20 m el 14. El circuito superior de Cataratas **reabre el miércoles 28**; siguen cerrados pasos fronterizos",
    "lon": -54.57,
    "lat": -25.6,
    "hist": [
@@ -1206,6 +1348,10 @@
     [
      "2026-10-26",
      28.0
+    ],
+    [
+     "2026-10-27",
+     28.5
     ]
    ],
    "proy": []
@@ -1236,9 +1382,9 @@
   "indicadores": [
    {
     "label": "Niño-3.4 semanal",
-    "valor": "+3,3 °C",
-    "nota": "Semana centrada el 14 de octubre; cinco semanas seguidas sobre +3 °C. Septiembre cerró en +2,84 °C.",
-    "fuente": "[Infobae](https://www.infobae.com/america/medio-ambiente/2026/10/21/el-pacifico-alcanzo-cinco-semanas-por-encima-de-3-y-los-pronosticos-ya-advierten-sobre-un-super-el-nino-historico-para-el-clima-global/)"
+    "valor": "+3,4 °C",
+    "nota": "Semana centrada el 21 de octubre (boletín de NOAA del 26): una décima más que la semana anterior y el valor más alto del evento; seis semanas seguidas sobre +3 °C. Septiembre cerró en +2,84 °C.",
+    "fuente": "[MetSul](https://metsul.com/el-nino-nao-para-de-ganhar-forca-neste-fim-de-outubro)"
    },
    {
     "label": "Pico previsto",
@@ -1248,9 +1394,9 @@
    },
    {
     "label": "Índice relativo (RONI)",
-    "valor": "~+2,4 °C",
-    "nota": "Un pico de +3,5 °C equivaldría a +2,5 a +3 °C en esta métrica, también récord.",
-    "fuente": "[Meteored](https://www.meteored.cl/noticias/prediccion/super-el-nino-una-nuevaa-actualizacion-de-pronostico-confirma-un-pico-excepcional-de-3-5-c.html)"
+    "valor": "~+2,5 °C",
+    "nota": "Última lectura semanal del índice relativo de NOAA (boletín del 26 de octubre). Un pico de +3,5 °C equivaldría a +2,5 a +3 °C en esta métrica, también récord.",
+    "fuente": "[Meteored](https://www.meteored.cl/noticias/prediccion/super-el-nino-una-nuevaa-actualizacion-de-pronostico-confirma-un-pico-excepcional-de-3-5-c.html) · [MetSul](https://metsul.com/el-nino-nao-para-de-ganhar-forca-neste-fim-de-outubro)"
    },
    {
     "label": "Probabilidad de récord",
@@ -1352,8 +1498,8 @@
     "pais": "Ecuador",
     "region": "Sudamérica",
     "tipo": "lluvia",
-    "texto": "Alerta roja nacional por desbordes: **tres muertos y más de 23.000 personas afectadas** al 20 de octubre. El 22 había 11 ríos y esteros desbordados en cinco provincias (Guayas, El Oro, Esmeraldas, Zamora Chinchipe y Los Ríos). Menos pesca de atún. El 23 de octubre el INAMHI anunció que El Niño **entró en su fase de mayor intensidad** en la Costa; en octubre hay 6.090 damnificados y se esperan tormentas del 25 al 28. El 23 de octubre el INAMHI dijo que El Niño entra en su **fase de mayor intensidad**: el mar en Niño 1+2 está 5,2 °C sobre lo normal y vienen lluvias más fuertes en la Costa.",
-    "fuente": "[Infobae, 20 oct](https://www.infobae.com/america/america-latina/2026/10/20/inundaciones-en-ecuador-dejan-tres-muertos-y-mas-de-23000-afectados-mientras-crece-la-amenaza-de-el-nino/) · [Infobae, 22 oct](https://www.infobae.com/peru/2026/10/22/fuertes-lluvias-por-el-nino-ya-sacuden-la-frontera-entre-peru-y-ecuador-aniegos-rios-desbordados-y-tormenta/) · [El Comercio, 23 oct](https://www.elcomercio.com/actualidad/ecuador/fenomeno-el-nino-entra-en-su-fase-de-mayor-intensidad-en-ecuador-2026/) · [El Diario, 23 oct](https://www.eldiario.ec/ecuador/lluvias-mas-fuertes-se-acercan-a-ecuador-el-inamhi-explica-que-ocurre-con-el-nino-23102026/)"
+    "texto": "Alerta roja desde el 29 de agosto: el COE contó **cuatro muertos y unas 32.000 personas afectadas** al 27 de octubre (la Secretaría de Gestión de Riesgos mantenía tres muertos). El 26 las lluvias inundaron **86 zonas de Guayaquil**. Las pérdidas agrícolas llegan a **USD 60,8 millones**. El 23 de octubre el INAMHI dijo que El Niño entra en su **fase de mayor intensidad**: el mar en Niño 1+2 está 5,2 °C sobre lo normal y vienen lluvias más fuertes en la Costa.",
+    "fuente": "[Infobae (EFE), 27 oct](https://www.infobae.com/america/agencias/2026/10/27/suben-a-cuatro-los-muertos-por-el-nino-en-ecuador-con-miles-de-viviendas-danadas/) · [La República, 27 oct](https://larepublica.pe/mundo/2026/10/27/fuertes-lluvias-inundaron-mas-de-80-zonas-de-guayaquil-y-causaron-su-colapso-en-medio-de-la-alerta-por-el-nino-1612521) · [El Diario, 27 oct](https://www.eldiario.ec/ecuador/el-nino-deja-mas-de-60-millones-en-perdidas-agricolas-cuales-son-las-provincias-mas-afectadas-27102026/) · [El Comercio, 23 oct](https://www.elcomercio.com/actualidad/ecuador/fenomeno-el-nino-entra-en-su-fase-de-mayor-intensidad-en-ecuador-2026/)"
    },
    {
     "pais": "Colombia",
@@ -1863,7 +2009,7 @@
    {
     "titulo": "Fondo Hídrico (Fondo Fiduciario de Infraestructura Hídrica)",
     "estado": "",
-    "texto": "**Qué es:** un fondo nacional creado por el Decreto 1381/2001, después de las grandes inundaciones bonaerenses, para financiar obras contra inundaciones en zonas productivas y proteger rutas y vías en áreas rurales. [Decreto 1381/2001](https://www.argentina.gob.ar/normativa/nacional/decreto-1381-2001-69652/texto) Se financia con un recargo sobre los combustibles (la Provincia de Buenos Aires lo calcula en el 4,31% del impuesto). La Ley 26.181 (2006) fijó por ley ese destino específico y lo amplió a obras de agua y saneamiento. [Bichos de Campo](https://bichosdecampo.com/el-fondo-fiduciario-de-infraestructura-hidrica-que-se-creo-para-terminar-con-las-inundaciones-termino-siendo-usado-por-la-politica-para-cualquier-otra-cosa/) **Cuánto tiene:** según la respuesta oficial del Ministerio de Economía al Congreso, al 6 de abril de 2026 había $34.922 M en cuentas y **$258.000 M invertidos en Letras del Tesoro (LECAP)**. [La Nación](https://www.lanacion.com.ar/economia/campo/polemica-por-el-uso-financiero-de-un-millonario-fondo-para-obras-hidricas-nid04052026/) Según la Provincia de Buenos Aires, entre 2024 y 2026 se ejecutó en obras solo el **36,7%** de lo asignado, y a fines del primer trimestre de 2026 quedaban $339.993 M, el 85% en Letras. [Diagonales](https://www.diagonales.com/provincia/la-pba-denunciara-penalmente-a-javier-milei-y-a-luis-caputo-por-la-subejecucion-del-fondo-hidrico_a6ad62615e22ee8014a585a01) **Qué dice el Gobierno:** el exjefe de Gabinete Manuel Adorni reconoció que los recursos están invertidos en Letras del Tesoro [elDiarioAR](https://www.eldiarioar.com/sociedad/medio-ambiente/nino-llego-gobierno-activo-protocolo-presupuesto-organismos-debilitados_1_13421129.html); no se encontró una explicación oficial de por qué no se usan en obras ni una respuesta a la denuncia. **Denuncia:** el 19 de octubre la Provincia de Buenos Aires anunció una denuncia penal contra el Presidente y el ministro de Economía ante la justicia federal de La Plata por malversación, incumplimiento de deberes y administración fraudulenta, entre otros delitos. Es una de las partes del conflicto: las cifras de la Provincia no fueron auditadas. [Diagonales](https://www.diagonales.com/provincia/la-pba-denunciara-penalmente-a-javier-milei-y-a-luis-caputo-por-la-subejecucion-del-fondo-hidrico_a6ad62615e22ee8014a585a01) **Antecedentes:** el uso del fondo fue discutido también con gobiernos anteriores, que lo destinaron a obras de saneamiento en el conurbano y a represas en Santa Cruz; desde 2018 no se publican sus ingresos y gastos. [Bichos de Campo](https://bichosdecampo.com/el-fondo-fiduciario-de-infraestructura-hidrica-que-se-creo-para-terminar-con-las-inundaciones-termino-siendo-usado-por-la-politica-para-cualquier-otra-cosa/) **Obras:** la etapa II del tramo IV del Salado se frenó en febrero de 2025 y se reactivó en octubre de 2025, con avances de 14% a 59% según el subtramo. [La Nación](https://www.lanacion.com.ar/economia/campo/polemica-por-el-uso-financiero-de-un-millonario-fondo-para-obras-hidricas-nid04052026/)"
+    "texto": "**Qué es:** un fondo nacional creado por el Decreto 1381/2001, después de las grandes inundaciones bonaerenses, para financiar obras contra inundaciones en zonas productivas y proteger rutas y vías en áreas rurales. [Decreto 1381/2001](https://www.argentina.gob.ar/normativa/nacional/decreto-1381-2001-69652/texto) Se financia con un recargo sobre los combustibles (la Provincia de Buenos Aires lo calcula en el 4,31% del impuesto). La Ley 26.181 (2006) fijó por ley ese destino específico y lo amplió a obras de agua y saneamiento. [Bichos de Campo](https://bichosdecampo.com/el-fondo-fiduciario-de-infraestructura-hidrica-que-se-creo-para-terminar-con-las-inundaciones-termino-siendo-usado-por-la-politica-para-cualquier-otra-cosa/) **Cuánto tiene:** según la respuesta oficial del Ministerio de Economía al Congreso, al 6 de abril de 2026 había $34.922 M en cuentas y **$258.000 M invertidos en Letras del Tesoro (LECAP)**. [La Nación](https://www.lanacion.com.ar/economia/campo/polemica-por-el-uso-financiero-de-un-millonario-fondo-para-obras-hidricas-nid04052026/) Según la Provincia de Buenos Aires, entre 2024 y 2026 se ejecutó en obras solo el **36,7%** de lo asignado, y a fines del primer trimestre de 2026 quedaban $339.993 M, el 85% en Letras. [Diagonales](https://www.diagonales.com/provincia/la-pba-denunciara-penalmente-a-javier-milei-y-a-luis-caputo-por-la-subejecucion-del-fondo-hidrico_a6ad62615e22ee8014a585a01) **Qué dice el Gobierno:** el exjefe de Gabinete Manuel Adorni reconoció que los recursos están invertidos en Letras del Tesoro [elDiarioAR](https://www.eldiarioar.com/sociedad/medio-ambiente/nino-llego-gobierno-activo-protocolo-presupuesto-organismos-debilitados_1_13421129.html); no se encontró una explicación oficial de por qué no se usan en obras ni una respuesta a la denuncia. **Denuncia:** el 19 de octubre la Provincia de Buenos Aires anunció una denuncia penal contra el Presidente y el ministro de Economía ante la justicia federal de La Plata por malversación, incumplimiento de deberes y administración fraudulenta, entre otros delitos. Es una de las partes del conflicto: las cifras de la Provincia no fueron auditadas. [Diagonales](https://www.diagonales.com/provincia/la-pba-denunciara-penalmente-a-javier-milei-y-a-luis-caputo-por-la-subejecucion-del-fondo-hidrico_a6ad62615e22ee8014a585a01) **Antecedentes:** el uso del fondo fue discutido también con gobiernos anteriores, que lo destinaron a obras de saneamiento en el conurbano y a represas en Santa Cruz; desde 2018 no se publican sus ingresos y gastos. [Bichos de Campo](https://bichosdecampo.com/el-fondo-fiduciario-de-infraestructura-hidrica-que-se-creo-para-terminar-con-las-inundaciones-termino-siendo-usado-por-la-politica-para-cualquier-otra-cosa/) **Obras:** la etapa II del tramo IV del Salado se frenó en febrero de 2025 y se reactivó en octubre de 2025, con avances de 14% a 59% según el subtramo. [La Nación](https://www.lanacion.com.ar/economia/campo/polemica-por-el-uso-financiero-de-un-millonario-fondo-para-obras-hidricas-nid04052026/) **Obras paralizadas:** un informe del Centro de Economía Política Argentina (CEPA), difundido el 26 de octubre, afirma que **15 de las 24 obras** iniciadas con financiamiento del fondo fueron canceladas o suspendidas. Es un informe privado, no una cifra oficial. [La Gaceta](https://www.lagaceta.com.ar/nota/1159825/economia/nino-amenaza-lluvias-intensas-hay-15-obras-hidricas-paralizadas-falta-fondos-nacionales-segun-informe-privado.html)"
    },
    {
     "titulo": "Lectura",
@@ -1947,7 +2093,7 @@
   "Corrientes": {
    "estado": "vigente",
    "impacto": "critico",
-   "situacion": "**La provincia más golpeada.** El Paraná está sobre evacuación en Corrientes (7,43 m), Itatí (8,30 m) e Isla del Cerrito. 1.084 evacuados y autoevacuados al 21 de octubre, 411 en Itatí. En Paso de la Patria cedió un terraplén provisorio y se inundaron unas 300 viviendas. **Dos peones murieron** al trasladar ganado en la isla Ibirapitá, frente a Bella Vista. Ruta 155 cortada en La Cruz. **Goya** declaró la emergencia hídrica y climática por 180 días, con el río a 15 cm de evacuación. [El Libertador](https://www.diarioellibertador.com.ar/creciente-rio-parana-goya-promulgacion-emergencia-hidrica-ordenanza-2319/) **25 de octubre:** Goya en 5,63 m, a 7 cm de evacuación; el COE habilitó más de diez centros de evacuados. [El Libertador](https://www.diarioellibertador.com.ar/creciente-rio-parana-goya-nivel-alerta-plan-contingencia-coe/) **25 de octubre:** 1.452 desplazados (767 evacuados y 685 autoevacuados): 475 en Itatí y 114 en Isla Apipé, anegada en un 50%; la Armada se sumó a la asistencia. Yacyretá mantiene cerrado el paso Ituzaingó–Ayolas hasta el 30. [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia) [Infobae](https://www.infobae.com/sociedad/2026/10/26/el-nino-el-paso-por-yacyreta-continua-cerrado-por-el-nivel-del-parana-mientras-la-creciente-volvio-al-rio-uruguay/)",
+   "situacion": "**La provincia más golpeada.** El Paraná está sobre evacuación en Corrientes (7,43 m), Itatí (8,30 m) e Isla del Cerrito. 1.084 evacuados y autoevacuados al 21 de octubre, 411 en Itatí. En Paso de la Patria cedió un terraplén provisorio y se inundaron unas 300 viviendas. **Dos peones murieron** al trasladar ganado en la isla Ibirapitá, frente a Bella Vista. Ruta 155 cortada en La Cruz. **Goya** declaró la emergencia hídrica y climática por 180 días, con el río a 15 cm de evacuación. [El Libertador](https://www.diarioellibertador.com.ar/creciente-rio-parana-goya-promulgacion-emergencia-hidrica-ordenanza-2319/) **25 de octubre:** Goya en 5,63 m, a 7 cm de evacuación; el COE habilitó más de diez centros de evacuados. [El Libertador](https://www.diarioellibertador.com.ar/creciente-rio-parana-goya-nivel-alerta-plan-contingencia-coe/) **25 de octubre:** 1.452 desplazados (767 evacuados y 685 autoevacuados): 475 en Itatí y 114 en Isla Apipé, anegada en un 50%; la Armada se sumó a la asistencia. Yacyretá mantiene cerrado el paso Ituzaingó–Ayolas hasta el 30. [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia) [Infobae](https://www.infobae.com/sociedad/2026/10/26/el-nino-el-paso-por-yacyreta-continua-cerrado-por-el-nivel-del-parana-mientras-la-creciente-volvio-al-rio-uruguay/) **27 de octubre:** Itatí 8,21 m y Corrientes 7,35 m; en Paso de la Patria más de 150 familias fuera de sus casas y sectores aislados. Defensa Civil anticipa una nueva onda de crecida hacia el 3 de noviembre. Goya en 5,66 m, a 4 cm de evacuación. [La Nación](https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/) · [InfoGoya](https://infogoya.com/parana-goya-4-centimetros-nivel-evacuacion/)",
    "emergencia": "**Emergencia hídrica y climática vigente.** Decreto 1271/2026 del gobernador Valdés, publicado el 3 de julio: toda la provincia por 180 días (vence hacia el 30 de diciembre), prorrogable. Habilita usar recursos de cualquier área, mover presupuesto y contratar en forma directa.",
    "medidas": [
     "COE (Centro de Operaciones de Emergencia) activado.",
@@ -1977,7 +2123,7 @@
   "Chaco": {
    "estado": "vencida",
    "impacto": "critico",
-   "situacion": "**Alerta roja desde el 17 de octubre.** Barranqueras en 7,27 m (24 oct), sobre su evacuación de 6,50 m; Isla del Cerrito en 8,04 m y aislada por tierra. **Unas 1.790 personas fuera de sus casas** al 24 de octubre (1.290 evacuados y 500 autoevacuados). Bombeo y defensas funcionan. La AFE desplegó un equipo técnico y operativo. [Infobae](https://www.infobae.com/sociedad/2026/10/25/el-nino-habia-1800-los-evacuados-en-chaco-misiones-fue-afectada-por-fuertes-tormentas-y-santa-fe-preve-otra-suba-del-parana/) [Canal 26](https://www.canal26.com/clima/2026/10/24/inundaciones-en-chaco-y-corrientes-hay-mas-de-1700-evacuados-y-alertan-por-nuevas-tormentas/) **25 de octubre:** leve baja en Barranqueras, 7,23 m, todavía sobre evacuación. [La Voz del Chaco](https://www.diariolavozdelchaco.com/2026/10/25/leve-baja-del-rio-en-barranqueras-y-antequeras-igual-sigue-por-encima-del-nivel-de-evacuacion/) **26 de octubre:** 2.026 evacuados y autoevacuados de 543 hogares; Puerto Vilelas, en alerta roja, concentra 1.146 y Barranqueras 253; el río en 7,21 m. [Perfil](https://www.perfil.com/noticias/nea/la-crecida-en-chaco-mantiene-a-mas-de-2000-personas-fuera-de-sus-viviendas.phtml) [Diario Norte](https://www.diarionorte.com/335533-suman-2026-las-personas-evacuadas-en-el-chaco-por-la-crecida-del-parana)",
+   "situacion": "**Alerta roja desde el 17 de octubre.** Barranqueras en 7,27 m (24 oct), sobre su evacuación de 6,50 m; Isla del Cerrito en 8,04 m y aislada por tierra. **Unas 1.790 personas fuera de sus casas** al 24 de octubre (1.290 evacuados y 500 autoevacuados). Bombeo y defensas funcionan. La AFE desplegó un equipo técnico y operativo. [Infobae](https://www.infobae.com/sociedad/2026/10/25/el-nino-habia-1800-los-evacuados-en-chaco-misiones-fue-afectada-por-fuertes-tormentas-y-santa-fe-preve-otra-suba-del-parana/) [Canal 26](https://www.canal26.com/clima/2026/10/24/inundaciones-en-chaco-y-corrientes-hay-mas-de-1700-evacuados-y-alertan-por-nuevas-tormentas/) **25 de octubre:** leve baja en Barranqueras, 7,23 m, todavía sobre evacuación. [La Voz del Chaco](https://www.diariolavozdelchaco.com/2026/10/25/leve-baja-del-rio-en-barranqueras-y-antequeras-igual-sigue-por-encima-del-nivel-de-evacuacion/) **26 de octubre:** 2.026 evacuados y autoevacuados de 543 hogares; Puerto Vilelas, en alerta roja, concentra 1.146 y Barranqueras 253; el río en 7,21 m. [Perfil](https://www.perfil.com/noticias/nea/la-crecida-en-chaco-mantiene-a-mas-de-2000-personas-fuera-de-sus-viviendas.phtml) [Diario Norte](https://www.diarionorte.com/335533-suman-2026-las-personas-evacuadas-en-el-chaco-por-la-crecida-del-parana) **27 de octubre:** 2.201 evacuados y autoevacuados de 591 hogares; Puerto Vilelas con 1.321 fuera de sus casas y 360 aislados en Soto y Tacuarí; el río en 7,23 m. [El Litoral](https://www.ellitoral.com.ar/nacional/2026-10-27-11-14-0-chaco-tiene-tres-localidades-en-alerta-roja-y-mas-de-2-200-evacuados-por-las-inundaciones) · [Data Chaco](https://www.datachaco.com/653824-el-nino-en-chaco-mas-de-2200-personas-evacuadas-por-las-inundaciones-y-tres-localidades-en-alerta-roja)",
    "emergencia": "**Sin emergencia vigente encontrada.** La emergencia hidrometeorológica por las lluvias de diciembre de 2025 (toda la provincia, fondo de hasta $1.500 M a cargo de la APA) **venció el 31 de agosto de 2026**.",
    "medidas": [
     "Alerta roja provincial.",
@@ -2002,7 +2148,7 @@
   "Santa Fe": {
    "estado": "vigente",
    "impacto": "alto",
-   "situacion": "**Reconquista alcanzó la cota de evacuación (5,30 m)** el 24 de octubre; el puerto sigue seco, las defensas funcionan y hay 2.500 personas del puerto en riesgo. El INA prevé 5,79 m el 3 de noviembre. Ya salió más del 70% de la hacienda de las islas. [Sin Mordaza](https://sinmordaza.com/noticia/522954-el-rio-parana-alcanzo-la-cota-de-evacuacion-en-reconquista.html) [Mirador Provincial](https://www.miradorprovincial.com/2026/10/24/crecida-del-parana-en-santa-fe-evacuaron-mas-del-70-del-ganado-en-riesgo-por-el-fenomeno-de-el-nino/) **25 de octubre:** Reconquista en 5,34 m y Santa Fe en 4,07 m; el INA bajó la proyección para la capital a 4,64 m el 3 de noviembre. [Aire de Santa Fe](https://www.airedesantafe.com.ar/santa-fe/tendencia-creciente-el-rio-parana-sigue-subiendo-santa-fe-aunque-una-proyeccion-moderada-n674399) **26 de octubre:** Reconquista en 5,37 m con suba más lenta; Santa Fe en 4,15 m. El INA ve a Rosario en unos 4,80 m en diciembre. [Reconquista Hoy](https://www.reconquistahoy.com/92778-actualizacion-hidrometrica-el-parana-registro-537-metros-este-lunes-en-puerto-reconquista-y-avanza-de-forma-mas-lenta) [Rosario3](https://www.rosario3.com/informaciongeneral/la-altura-del-parana-en-rosario-podria-quedar-a-poco-del-nivel-de-alerta-en-diciembre-20261026-0020.html)",
+   "situacion": "**Reconquista alcanzó la cota de evacuación (5,30 m)** el 24 de octubre; el puerto sigue seco, las defensas funcionan y hay 2.500 personas del puerto en riesgo. El INA prevé 5,79 m el 3 de noviembre. Ya salió más del 70% de la hacienda de las islas. [Sin Mordaza](https://sinmordaza.com/noticia/522954-el-rio-parana-alcanzo-la-cota-de-evacuacion-en-reconquista.html) [Mirador Provincial](https://www.miradorprovincial.com/2026/10/24/crecida-del-parana-en-santa-fe-evacuaron-mas-del-70-del-ganado-en-riesgo-por-el-fenomeno-de-el-nino/) **25 de octubre:** Reconquista en 5,34 m y Santa Fe en 4,07 m; el INA bajó la proyección para la capital a 4,64 m el 3 de noviembre. [Aire de Santa Fe](https://www.airedesantafe.com.ar/santa-fe/tendencia-creciente-el-rio-parana-sigue-subiendo-santa-fe-aunque-una-proyeccion-moderada-n674399) **26 de octubre:** Reconquista en 5,37 m con suba más lenta; Santa Fe en 4,15 m. El INA ve a Rosario en unos 4,80 m en diciembre. [Reconquista Hoy](https://www.reconquistahoy.com/92778-actualizacion-hidrometrica-el-parana-registro-537-metros-este-lunes-en-puerto-reconquista-y-avanza-de-forma-mas-lenta) [Rosario3](https://www.rosario3.com/informaciongeneral/la-altura-del-parana-en-rosario-podria-quedar-a-poco-del-nivel-de-alerta-en-diciembre-20261026-0020.html) **27 de octubre:** Reconquista en 5,43 m, sin barrios inundados; el municipio pidió fondos para elevar las defensas. Santa Fe 4,16 m y Rosario 3,75 m. [Sin Mordaza](https://sinmordaza.com/noticia/523243-el-rio-parana-llego-a-los-543-metros-vallejos-solicito-fondos-para-reforzar-las-defensas.html) · [La Nación](https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-y-los-niveles-de-alerta-hoy-nid27102026/)",
    "emergencia": "**Emergencia hídrica vigente.** Ley 14.477 (aprobada en agosto) y decreto del gobernador Pullaro de septiembre: toda la provincia hasta el 30 de abril de 2027, prorrogable 6 meses. Habilita licitación acelerada, contratación directa, obras y uso de predios privados. Crea el **Fondo de Emergencia Hídrica**, con partidas propias y aportes del Tesoro nacional.",
    "medidas": [
     "$132.219 M en más de 400 obras hídricas desde 2023; 259 km de canales intervenidos; cerca del 70% de la red operativa.",
@@ -2060,7 +2206,7 @@
   "Misiones": {
    "estado": "plan",
    "impacto": "alto",
-   "situacion": "Récord de lluvia en el norte: unos 300 mm en dos días y medio en Iguazú; el río llegó a 32,20 m en Puerto Iguazú y bajó a 27,40 m el 20 y volvió a subir a 28,40 m el 23, sobre evacuación. 19 evacuados y siete pasos fronterizos cerrados el 16 de octubre. **Granizo el 22 de octubre** en Aristóbulo del Valle, Campo Viera y Dos de Mayo. [Primera Edición](https://www.primeraedicion.com.ar/nota/101153742/fuerte-temporal-en-misiones-intensas-granizadas-en-varias-localidades-y-lluvias-torrenciales/) **Temporal del 22 y 23 de octubre:** 112 viviendas afectadas, cuatro familias evacuadas y las rutas 7 y 204 cortadas. [Norte Misionero](https://nortemisionero.com.ar/actualidad/ascienden-a-66-las-viviendas-afectadas-por-el-temporal-en-misiones-con-familias-evacuadas-y-nuevos-cortes-de-rutas-y-puentes/) **Granizo en chacras:** Salto Encantado estima 100% de pérdida en tabaco, 50% en yerba y 80% en té (estimación municipal). [Misiones Online](https://misionesonline.net/2026/10/23/temporal-en-misiones-ascienden-a-112-las-viviendas-afectadas/) · [Noticias Misiones](https://www.noticiasmisiones.com.ar/2026/10/noticias-misiones-el-granizo-provoco.html) **Al 24 de octubre: 141 evacuados, 117 viviendas dañadas, cinco puentes cortados y diez pasos cerrados.** El 24 cayó granizo en Comandante Andresito, con daños en tabacales. [Misiones Online](https://misionesonline.net/2026/10/24/temporal-en-misiones-mas-evacuados-viviendas-danadas) **Al 25 de octubre: 154 evacuados, 124 viviendas afectadas y 14 pasos fronterizos cerrados**; la Subsecretaría de Tabaco suma más de 500 productores dañados por el granizo. [Primera Edición](https://www.primeraedicion.com.ar/nota/101154364/temporal-misiones-evacuados-pasos-fronterizos-cataratas/) · [Misiones Online](https://misionesonline.net/2026/10/25/vamos-a-perder-muchisimo-nuestra-produccion-de-tabaco-fenomeno-de-el-nino/) **25 y 26 de octubre:** regresaron los 154 evacuados; siguen 14 pasos fronterizos cerrados y el río Iguazú en la cota de evacuación (28 m). [Canal 12 Misiones](https://www.canal12misiones.com/informacion-general/crecida-rios-el-nino-14-pasos-fronterizos-evacuados-misiones)",
+   "situacion": "Récord de lluvia en el norte: unos 300 mm en dos días y medio en Iguazú; el río llegó a 32,20 m en Puerto Iguazú y bajó a 27,40 m el 20 y volvió a subir a 28,40 m el 23, sobre evacuación. 19 evacuados y siete pasos fronterizos cerrados el 16 de octubre. **Granizo el 22 de octubre** en Aristóbulo del Valle, Campo Viera y Dos de Mayo. [Primera Edición](https://www.primeraedicion.com.ar/nota/101153742/fuerte-temporal-en-misiones-intensas-granizadas-en-varias-localidades-y-lluvias-torrenciales/) **Temporal del 22 y 23 de octubre:** 112 viviendas afectadas, cuatro familias evacuadas y las rutas 7 y 204 cortadas. [Norte Misionero](https://nortemisionero.com.ar/actualidad/ascienden-a-66-las-viviendas-afectadas-por-el-temporal-en-misiones-con-familias-evacuadas-y-nuevos-cortes-de-rutas-y-puentes/) **Granizo en chacras:** Salto Encantado estima 100% de pérdida en tabaco, 50% en yerba y 80% en té (estimación municipal). [Misiones Online](https://misionesonline.net/2026/10/23/temporal-en-misiones-ascienden-a-112-las-viviendas-afectadas/) · [Noticias Misiones](https://www.noticiasmisiones.com.ar/2026/10/noticias-misiones-el-granizo-provoco.html) **Al 24 de octubre: 141 evacuados, 117 viviendas dañadas, cinco puentes cortados y diez pasos cerrados.** El 24 cayó granizo en Comandante Andresito, con daños en tabacales. [Misiones Online](https://misionesonline.net/2026/10/24/temporal-en-misiones-mas-evacuados-viviendas-danadas) **Al 25 de octubre: 154 evacuados, 124 viviendas afectadas y 14 pasos fronterizos cerrados**; la Subsecretaría de Tabaco suma más de 500 productores dañados por el granizo. [Primera Edición](https://www.primeraedicion.com.ar/nota/101154364/temporal-misiones-evacuados-pasos-fronterizos-cataratas/) · [Misiones Online](https://misionesonline.net/2026/10/25/vamos-a-perder-muchisimo-nuestra-produccion-de-tabaco-fenomeno-de-el-nino/) **25 y 26 de octubre:** regresaron los 154 evacuados; siguen 14 pasos fronterizos cerrados y el río Iguazú en la cota de evacuación (28 m). [Canal 12 Misiones](https://www.canal12misiones.com/informacion-general/crecida-rios-el-nino-14-pasos-fronterizos-evacuados-misiones) **27 y 28 de octubre:** el Iguazú volvió a subir (28,50 m) y el INA anticipa posibles nuevas crecidas; el 28 reabre el circuito superior de Cataratas. [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/27/203733-la-crecida-del-iguazu-y-el-parana-mantiene-en-alerta-a-la-triple-frontera-y-prolonga-el-cierre-de-un-circuito-de-cataratas) · [Primera Edición](https://www.primeraedicion.com.ar/nota/101155098/cataratas-del-iguazu-el-circuito-superior-reabre-este-miercoles-tras-la-crecida-del-rio/)",
    "emergencia": "**Sin emergencia declarada.**",
    "medidas": [
     "Plan de contingencia con unos 10.000 policías.",
@@ -2168,10 +2314,10 @@
    ]
   },
   "Mendoza": {
-   "estado": "tramite",
+   "estado": "vigente",
    "impacto": "positivo",
    "situacion": "**Gana agua:** unos 2.600 hm³ de nieve contra 1.300 de un año medio; turnos de riego garantizados. El riesgo es que el deshielo coincida con lluvias intensas y aluviones. El 23 de octubre una lluvia débil dejó 48 incidentes (socavones, desbordes cloacales y árboles caídos); para el 24 rige alerta naranja por lluvias. [MDZ](https://www.mdzol.com/sociedad/2026/10/23/tenue-lluvia-y-graves-consecuencias-socavones-desbordes-cloacales-y-arboles-caidos-1990406.html)",
-   "emergencia": "**Ley sancionada.** La Legislatura aprobó la emergencia por riesgo hidrometeorológico y climático (proyecto E-88604): 180 días, prorrogable otros 180 por decreto, con informes trimestrales. No se halló todavía su publicación en el Boletín Oficial. [Los Andes](https://www.losandes.com.ar/sociedad/mendoza-aprobo-la-ley-emergencia-climatica-el-nino-acelerar-obras-preventivas-y-cuidar-la-infraestructura-n6011222)",
+   "emergencia": "**Emergencia vigente.** La **Ley 9740** de emergencia por riesgo hidrometeorológico y climático (proyecto E-88604), sancionada el 21 de octubre, se publicó en el Boletín Oficial el 26: 180 días, prorrogable otros 180 por decreto, con informes trimestrales. Habilita contrataciones directas y obras urgentes (hidráulicas, drenaje pluvial y cloacal). [MDZ](https://www.mdzol.com/sociedad/2026/10/26/el-gobierno-de-mendoza-declaro-la-emergencia-climatica-por-el-super-nino-de-que-se-trata-1990710.html) · [El Sol](https://www.elsol.com.ar/mendoza/el-gobierno-habilito-la-emergencia-por-el-super-nino-que-podra-hacer/)",
    "medidas": [
     "Refuerzo de defensas en el canal Pescara, el río Diamante y el Cacique Guaymallén."
    ],
@@ -2282,10 +2428,10 @@
    ]
   },
   "Neuquén": {
-   "estado": "plan",
+   "estado": "vigente",
    "impacto": "medio",
    "situacion": "**Tormentas desde el 20 de octubre con suelo saturado.** El 22 la provincia suspendió la circulación en todas las rutas nacionales y provinciales desde las 20. Ruta 5 cortada por la crecida del arroyo Carranza; rutas 6 y 8 y accesos a Vaca Muerta afectados; unos 50 cm de granizo cerca de Piedra del Águila; tres comunidades de pueblos originarios aisladas. Se esperan mayores caudales en el río Neuquén, sin riesgo de rotura de presas según las mediciones técnicas. [Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/22/357757-desde-la-secretaria-de-emergencia-advierten-que-el-riesgo-continuara) El 23 la habilitación de las rutas quedó sujeta a nuevas evaluaciones, con alerta naranja vigente. [Diario Neuquino](https://diarioneuquino.com.ar/rutas-de-neuquen-la-restriccion-por-el-temporal-vence-a-las-6-pero-la-circulacion-depende-de-nuevas-evaluaciones/) El 23 la provincia definió a **Rincón de los Sauces** como \"el punto rojo\": sectores aislados, evacuaciones preventivas en evaluación y traslado de pacientes de diálisis. [Diario Neuquino](https://diarioneuquino.com.ar/temporal-en-neuquen-rincon-de-los-sauces-es-la-zona-mas-critica-y-preparan-evacuaciones-preventivas/) En **Añelo** hubo cuatro familias evacuadas y 32 asistidas, y Rincón de los Sauces se abastece por aire. [Mejor Informado](https://www.mejorinformado.com/neuquen/evacuaciones-rutas-cortadas-localidades-aisladas-cuales-zonas-afectadas-temporal-neuquen_1792753288) El 24 y 25 seguían incomunicados por tierra Rincón de los Sauces (rutas 5 y 8) y sin acceso principal Aguada San Roque. [Infobae](https://www.infobae.com/sociedad/2026/10/25/continua-la-emergencia-hidrica-por-el-nino-en-cuatro-provincias-evacuados-rutas-cortadas-y-zonas-aisladas/) **26 de octubre:** la provincia sigue asistiendo con helicópteros a Rincón de los Sauces; el decreto de emergencia anunciado aún no aparece publicado. Alerta amarilla por tormentas el martes 27. [Infobae](https://www.infobae.com/sociedad/2026/10/26/temporal-en-neuquen-el-nino-aislo-localidades-obligo-a-evacuar-familias-y-complico-las-operaciones-en-vaca-muerta/)",
-   "emergencia": "**Emergencia anunciada, sin decreto publicado.** El 24 de octubre el gobernador Figueroa anunció que decretará la emergencia meteorológica por seis meses y armó un comité preventivo. [Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/25/358044-neuquen-decretara-la-emergencia-meteorologica-por-seis-meses-ante-las-intensas-lluvias)",
+   "emergencia": "**Emergencia vigente.** El 27 de octubre el gobernador Figueroa firmó el **Decreto 1714/2026**: emergencia meteorológica en toda la provincia por seis meses, con un Comité de Emergencia Meteorológica de seis ministerios. Permite compras directas, procedimientos extraordinarios y subsidios a municipios. [Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/27/358338-figueroa-declaro-la-emergencia-en-neuquen-por-seis-meses-ante-el-riesgo-de-lluvias-intensas-y-crecidas) · [EconoJournal](https://econojournal.com.ar/enclave/el-nino-rolando-figueroa-emergencia-meteorologica-neuquen-contrataciones/) · [La Nación](https://www.lanacion.com.ar/sociedad/lluvias-historicas-rutas-destruidas-y-pueblos-aislados-una-provincia-patagonica-declaro-la-nid27102026/)",
    "medidas": [
     "Suspensión preventiva de la circulación en todas las rutas desde las 20 del 22 de octubre hasta las 6 del 23, sujeta a evaluación.",
     "Secretaría de Emergencias y Gestión de Riesgos: relevamiento de familias en zonas ribereñas para trasladarlas a centros de evacuación con colchones, alimentos y agua.",
@@ -4119,6 +4265,95 @@
      "u": "https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-tormentas-para-este-martes-27-de-octubre-las-provincias-afectadas-nid26102026/"
     }
    ]
+  },
+  {
+   "grupo": "Ríos, evacuados y emergencias (28 de octubre)",
+   "items": [
+    {
+     "t": "El Litoral: Chaco, más de 2.200 evacuados (27 oct)",
+     "u": "https://www.ellitoral.com.ar/nacional/2026-10-27-11-14-0-chaco-tiene-tres-localidades-en-alerta-roja-y-mas-de-2-200-evacuados-por-las-inundaciones"
+    },
+    {
+     "t": "Data Chaco (27 oct)",
+     "u": "https://www.datachaco.com/653824-el-nino-en-chaco-mas-de-2200-personas-evacuadas-por-las-inundaciones-y-tres-localidades-en-alerta-roja"
+    },
+    {
+     "t": "Alerta Urbana (27 oct)",
+     "u": "https://www.alertaurbana.com.ar/102901-crecida-de-los-rios-el-nuevo-parte-oficial-reporta-mas-de-2200-evacuados-y-autoevacuados-en-chaco"
+    },
+    {
+     "t": "La Nación: altura de los ríos según Prefectura (27 oct)",
+     "u": "https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-y-los-niveles-de-alerta-hoy-nid27102026/"
+    },
+    {
+     "t": "La Nación: Paso de la Patria (27 oct)",
+     "u": "https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/"
+    },
+    {
+     "t": "Sin Mordaza: Reconquista 5,43 m",
+     "u": "https://sinmordaza.com/noticia/523243-el-rio-parana-llego-a-los-543-metros-vallejos-solicito-fondos-para-reforzar-las-defensas.html"
+    },
+    {
+     "t": "InfoGoya: Goya a 4 cm de evacuación",
+     "u": "https://infogoya.com/parana-goya-4-centimetros-nivel-evacuacion/"
+    },
+    {
+     "t": "Noticias de la Calle: Iguazú (27 oct)",
+     "u": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/27/203733-la-crecida-del-iguazu-y-el-parana-mantiene-en-alerta-a-la-triple-frontera-y-prolonga-el-cierre-de-un-circuito-de-cataratas"
+    },
+    {
+     "t": "Primera Edición: reabre el circuito superior",
+     "u": "https://www.primeraedicion.com.ar/nota/101155098/cataratas-del-iguazu-el-circuito-superior-reabre-este-miercoles-tras-la-crecida-del-rio/"
+    },
+    {
+     "t": "Noticias NQN: Decreto 1714/2026",
+     "u": "https://www.noticiasnqn.com.ar/noticias/2026/10/27/358338-figueroa-declaro-la-emergencia-en-neuquen-por-seis-meses-ante-el-riesgo-de-lluvias-intensas-y-crecidas"
+    },
+    {
+     "t": "EconoJournal: emergencia en Neuquén",
+     "u": "https://econojournal.com.ar/enclave/el-nino-rolando-figueroa-emergencia-meteorologica-neuquen-contrataciones/"
+    },
+    {
+     "t": "MDZ: Ley 9740 de Mendoza",
+     "u": "https://www.mdzol.com/sociedad/2026/10/26/el-gobierno-de-mendoza-declaro-la-emergencia-climatica-por-el-super-nino-de-que-se-trata-1990710.html"
+    },
+    {
+     "t": "El Sol: emergencia en Mendoza",
+     "u": "https://www.elsol.com.ar/mendoza/el-gobierno-habilito-la-emergencia-por-el-super-nino-que-podra-hacer/"
+    },
+    {
+     "t": "La Gaceta: informe del CEPA sobre el Fondo Hídrico",
+     "u": "https://www.lagaceta.com.ar/nota/1159825/economia/nino-amenaza-lluvias-intensas-hay-15-obras-hidricas-paralizadas-falta-fondos-nacionales-segun-informe-privado.html"
+    },
+    {
+     "t": "La Nación: alertas del miércoles 28",
+     "u": "https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-tormentas-para-este-miercoles-28-de-octubre-las-provincias-afectadas-nid28102026/"
+    },
+    {
+     "t": "Ámbito: alertas del 28",
+     "u": "https://www.ambito.com/informacion-general/clima-el-amba-y-el-pais-alertas-tormentas-este-miercoles-28-octubre-n6338643"
+    },
+    {
+     "t": "El Monterizo: tormenta en Mendoza",
+     "u": "https://elmonterizo.com/la-tormenta-dejo-siete-emergencias-en-mendoza-y-guaymallen-se-llevo-la-peor-parte"
+    },
+    {
+     "t": "MetSul: Niño-3.4 en +3,4 °C",
+     "u": "https://metsul.com/el-nino-nao-para-de-ganhar-forca-neste-fim-de-outubro"
+    },
+    {
+     "t": "Infobae (EFE): Ecuador, cuatro muertos",
+     "u": "https://www.infobae.com/america/agencias/2026/10/27/suben-a-cuatro-los-muertos-por-el-nino-en-ecuador-con-miles-de-viviendas-danadas/"
+    },
+    {
+     "t": "La República: Guayaquil",
+     "u": "https://larepublica.pe/mundo/2026/10/27/fuertes-lluvias-inundaron-mas-de-80-zonas-de-guayaquil-y-causaron-su-colapso-en-medio-de-la-alerta-por-el-nino-1612521"
+    },
+    {
+     "t": "El Diario: pérdidas agrícolas en Ecuador",
+     "u": "https://www.eldiario.ec/ecuador/el-nino-deja-mas-de-60-millones-en-perdidas-agricolas-cuales-son-las-provincias-mas-afectadas-27102026/"
+    }
+   ]
   }
  ],
  "fuentes_extra": "Mapa: [Natural Earth](https://www.naturalearthdata.com/), dominio público.",
@@ -5849,8 +6084,8 @@
       "t": "Reforzó defensas, pero el proyecto de emergencia se envió recién el 30 de septiembre."
      },
      "norma": {
-      "m": "parcial",
-      "t": "Ley de emergencia sancionada por la Legislatura (180 días prorrogables); falta hallar su publicación. [Los Andes](https://www.losandes.com.ar/sociedad/mendoza-aprobo-la-ley-emergencia-climatica-el-nino-acelerar-obras-preventivas-y-cuidar-la-infraestructura-n6011222)"
+      "m": "a_tiempo",
+      "t": "Ley 9740 publicada el 26 de octubre (180 días prorrogables), antes de los eventos graves de la temporada. [MDZ](https://www.mdzol.com/sociedad/2026/10/26/el-gobierno-de-mendoza-declaro-la-emergencia-climatica-por-el-super-nino-de-que-se-trata-1990710.html)"
      },
      "fondos": {
       "m": "sin_datos",
@@ -5881,9 +6116,9 @@
      "Obras de defensa antes del deshielo."
     ],
     "mal": [
-     "Emergencia todavía sin aprobar."
+     "El proyecto de emergencia se envió recién a fines de septiembre."
     ],
-    "conclusion": "**Obras a tiempo, norma demorada.**",
+    "conclusion": "**Obras a tiempo y emergencia vigente desde el 26 de octubre.**",
     "fuentes": [
      "[El Sol](https://www.elsol.com.ar/mendoza/las-dos-claves-de-la-emergencia-por-el-super-nino-que-dara-mas-poder-a-un-ministro-candidato/)"
     ]
@@ -6087,7 +6322,7 @@
      },
      "norma": {
       "m": "parcial",
-      "t": "Emergencia meteorológica por seis meses anunciada el 24 de octubre; decreto no publicado todavía. [Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/25/358044-neuquen-decretara-la-emergencia-meteorologica-por-seis-meses-ante-las-intensas-lluvias)"
+      "t": "Decreto 1714/2026 de emergencia meteorológica por seis meses, firmado el 27 de octubre, una semana después de las primeras tormentas graves. [Noticias NQN](https://www.noticiasnqn.com.ar/noticias/2026/10/27/358338-figueroa-declaro-la-emergencia-en-neuquen-por-seis-meses-ante-el-riesgo-de-lluvias-intensas-y-crecidas)"
      },
      "fondos": {
       "m": "sin_datos",
@@ -6138,17 +6373,17 @@
   "provs": [
    {
     "prov": "Chaco",
-    "fecha": "26 oct",
-    "total": 2026,
-    "detalle": "**2.026 personas evacuadas y autoevacuadas** de 543 hogares al 26 de octubre, según el reporte oficial (antes 1.790). **Puerto Vilelas**, en alerta roja, concentra 639 evacuados y 507 autoevacuados; **Barranqueras**, 253 evacuados de 74 hogares en un predio de la avenida Gaboto. Los centros provinciales alojan a 156 personas de 49 familias.",
-    "fuente": "[Perfil, 26 oct](https://www.perfil.com/noticias/nea/la-crecida-en-chaco-mantiene-a-mas-de-2000-personas-fuera-de-sus-viviendas.phtml) · [Diario Norte](https://www.diarionorte.com/335533-suman-2026-las-personas-evacuadas-en-el-chaco-por-la-crecida-del-parana) · [La Voz del Chaco](https://www.diariolavozdelchaco.com/2026/10/26/emergencia-hidrica-en-chaco-ya-son-mas-de-2000-las-personas-evacuadas-por-la-crecida-del-parana/) · [Data Chaco](https://www.datachaco.com/653775-el-parana-alcanzo-los-721-metros-en-barranqueras-y-chaco-supera-los-2000-evacuados-y-autoevacuados)"
+    "fecha": "27 oct",
+    "total": 2201,
+    "detalle": "**2.201 personas evacuadas y autoevacuadas** de 591 hogares al 27 de octubre, según el parte oficial (antes 2.026). **Puerto Vilelas** concentra 1.321 personas fuera de sus casas y otras **360 siguen aisladas** en los parajes Soto y Tacuarí, donde la ayuda llega solo en lancha; **Barranqueras** tiene 253 evacuados e **Isla del Cerrito** 142. Las tres localidades siguen en alerta roja. Los centros provinciales alojan a 156 personas de 49 familias, 105 en el Kagiva de Puerto Vilelas.",
+    "fuente": "[El Litoral, 27 oct](https://www.ellitoral.com.ar/nacional/2026-10-27-11-14-0-chaco-tiene-tres-localidades-en-alerta-roja-y-mas-de-2-200-evacuados-por-las-inundaciones) · [Data Chaco](https://www.datachaco.com/653824-el-nino-en-chaco-mas-de-2200-personas-evacuadas-por-las-inundaciones-y-tres-localidades-en-alerta-roja) · [Alerta Urbana](https://www.alertaurbana.com.ar/102901-crecida-de-los-rios-el-nuevo-parte-oficial-reporta-mas-de-2200-evacuados-y-autoevacuados-en-chaco)"
    },
    {
     "prov": "Corrientes",
     "fecha": "25 oct",
     "total": 1452,
-    "detalle": "**1.452 desplazados: 767 evacuados y 685 autoevacuados** al 25 de octubre (antes 1.084). **Itatí** es el foco principal, con 475 evacuados de 108 familias en la Casa del Promesero y el hospedaje Taba Cué; **Isla Apipé**, 114 evacuados de 63 familias y la isla anegada en un 50%. La Armada se sumó a la asistencia.",
-    "fuente": "[Noticias de la Calle, 25 oct](https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia) · [El Libertador](https://www.diarioellibertador.com.ar/crecida-del-parana-ya-son-mas-de-1-400-desplazados-en-la-provincia/) · [MDZ, 26 oct](https://www.mdzol.com/sociedad/2026/10/26/de-vaca-muerta-al-litoral-el-nino-dejo-pueblos-aislados-rutas-cortadas-y-provincias-en-alerta-1990876.html)"
+    "detalle": "**1.452 desplazados: 767 evacuados y 685 autoevacuados** al 25 de octubre (antes 1.084). **Itatí** es el foco principal, con 475 evacuados de 108 familias en la Casa del Promesero y el hospedaje Taba Cué; **Isla Apipé**, 114 evacuados de 63 familias y la isla anegada en un 50%. La Armada se sumó a la asistencia. **27 de octubre:** en **Paso de la Patria** ya son más de 150 las familias autoevacuadas y cuatro evacuadas por el municipio, con sectores aislados; no está claro si están incluidas en el total provincial.",
+    "fuente": "[Noticias de la Calle, 25 oct](https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia) · [El Libertador](https://www.diarioellibertador.com.ar/crecida-del-parana-ya-son-mas-de-1-400-desplazados-en-la-provincia/) · [MDZ, 26 oct](https://www.mdzol.com/sociedad/2026/10/26/de-vaca-muerta-al-litoral-el-nino-dejo-pueblos-aislados-rutas-cortadas-y-provincias-en-alerta-1990876.html) · [La Nación, 27 oct](https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/)"
    },
    {
     "prov": "Misiones",
@@ -6225,6 +6460,10 @@
     [
      "2026-10-26",
      2026
+    ],
+    [
+     "2026-10-27",
+     2201
     ]
    ],
    "Misiones": [
@@ -6249,27 +6488,31 @@
   "serie_fuente": "Corrientes, según Defensa Civil citada por [Perfil](https://www.perfil.com/noticias/amp/nea/crecida-del-rio-parana-supero-los-6-metros-en-la-capital-y-ya-hay-222-evacuados-en-corrientes.phtml), [Elonce](https://www.elonce.com/uid-889713), [Elonce](https://www.elonce.com/uid-889636), [Elonce](https://www.elonce.com/uid-889762) y [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/21/202420-corrientes-mas-de-mil-personas-fueron-evacuadas-por-la-crecida-de-los-rios-parana-y-uruguay). Chaco, según el Comité Provincial de Emergencia citado por [FARCO](https://agencia.farco.org.ar/2026/10/22/chaco-mas-de-mil-evacuados-crecida-parana/) e [Infobae](https://www.infobae.com/sociedad/2026/10/25/el-nino-habia-1800-los-evacuados-en-chaco-misiones-fue-afectada-por-fuertes-tormentas-y-santa-fe-preve-otra-suba-del-parana/). Misiones, según [iProfesional](https://www.iprofesional.com/actualidad/466769-crecida-rios-misiones-19-evacuados-cerro-pasos-fronterizos) y [Misiones Online](https://misionesonline.net/2026/10/24/temporal-en-misiones-mas-evacuados-viviendas-danadas). Actualización del 26 de octubre: Chaco según el reporte oficial citado por [Perfil](https://www.perfil.com/noticias/nea/la-crecida-en-chaco-mantiene-a-mas-de-2000-personas-fuera-de-sus-viviendas.phtml); Corrientes según [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia); Misiones según [Canal 12 Misiones](https://www.canal12misiones.com/informacion-general/crecida-rios-el-nino-14-pasos-fronterizos-evacuados-misiones)."
  },
  "alertas_smn": {
-  "fecha": "2026-10-27",
-  "texto": "martes 27 de octubre",
+  "fecha": "2026-10-28",
+  "texto": "miércoles 28 de octubre",
   "prov": {
-   "Mendoza": {
+   "Buenos Aires": {
     "nivel": "amarilla",
-    "fen": "Tormentas con granizo en el norte y el este"
+    "fen": "Tormentas con granizo (oeste: Trenque Lauquen, Pellegrini, Salliqueló, Tres Lomas, Guaminí, Adolfo Alsina, Daireaux)"
    },
-   "San Luis": {
+   "La Pampa": {
     "nivel": "amarilla",
-    "fen": "Tormentas con granizo"
+    "fen": "Tormentas (este)"
    },
-   "Córdoba": {
+   "Tucumán": {
     "nivel": "amarilla",
-    "fen": "Tormentas con granizo"
+    "fen": "Tormentas (a la noche)"
    },
-   "Neuquén": {
+   "Salta": {
     "nivel": "amarilla",
-    "fen": "Tormentas (Confluencia, Zapala, Chos Malal)"
+    "fen": "Tormentas"
+   },
+   "Santiago del Estero": {
+    "nivel": "amarilla",
+    "fen": "Tormentas"
    }
   },
-  "fuente": "[La Nación](https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-tormentas-para-este-martes-27-de-octubre-las-provincias-afectadas-nid26102026/) · [Mejor Informado](https://www.mejorinformado.com/neuquen/alerta-amarilla-tormentas-neuquen-detalle-este-martes-27-octubre_1793063097) · [El Cronista](https://www.cronista.com/informacion-gral/alerta-amarilla-por-tormentas-este-lunes-26-y-martes-27-de-octubre-en-mendoza-cuales-son-las-zonas-afectadas/). Lluvias de 20 a 40 mm, localmente más. Sin alertas en el NEA ni en el AMBA. Las alertas cambian varias veces por día: consultá [smn.gob.ar/alertas](https://www.smn.gob.ar/alertas)."
+  "fuente": "[La Nación](https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-tormentas-para-este-miercoles-28-de-octubre-las-provincias-afectadas-nid28102026/) · [Ámbito](https://www.ambito.com/informacion-general/clima-el-amba-y-el-pais-alertas-tormentas-este-miercoles-28-octubre-n6338643) · [Contexto Tucumán](https://www.contextotucuman.com/nota/426637/hay-alerta-amarilla-por-tormentas-para-este-miercoles-en-tucuman.html). Tormentas fuertes aisladas con granizo, ráfagas y 20 a 40 mm, localmente más. Sin alertas en el NEA ni en el AMBA. Las alertas cambian varias veces por día: consultá [smn.gob.ar/alertas](https://www.smn.gob.ar/alertas)."
  },
  "rutas": {
   "nota": "**No se encontró un parte oficial consolidado de rutas cortadas por la crecida.** Lista armada con notas de prensa; antes de viajar consultá a Vialidad Nacional, Vialidad provincial o la policía caminera.",
@@ -6435,7 +6678,7 @@
    "**Granizo en Misiones (22 y 23 de octubre):** municipios estiman pérdidas de 100% en tabaco, 50% en yerba y 80% en té en Salto Encantado, y al menos 180.000 plantas de tabaco perdidas en Picada Norte. [Noticias Misiones](https://www.noticiasmisiones.com.ar/2026/10/noticias-misiones-el-granizo-provoco.html)",
    "**Pérdidas económicas, hectáreas anegadas y animales muertos: no encontrados.** Ninguna entidad publicó todavía una estimación."
   ],
-  "vs": "Comparado con los escenarios: unas 3.500 personas evacuadas contra 5.000 a 20.000 del escenario manejable, y 3 muertes contra 0 a 15. El evento sigue **por debajo del escenario manejable en evacuados y dentro de su rango en muertes**, aunque el total creció unas 500 personas en dos días por Chaco y Corrientes."
+  "vs": "Comparado con los escenarios: unas 3.650 personas evacuadas contra 5.000 a 20.000 del escenario manejable, y 3 muertes contra 0 a 15. El evento sigue **por debajo del escenario manejable en evacuados y dentro de su rango en muertes**, pero el total crece unas 150 a 250 personas por día por Chaco, y Corrientes espera una nueva onda de crecida hacia el 3 de noviembre."
  },
  "salud_datos": {
   "items": [
@@ -6850,11 +7093,36 @@
    ],
    "muertes": 3,
    "evac": "~3.500"
+  },
+  {
+   "v": 17,
+   "fecha": "2026-10-28",
+   "resumen": "Chaco supera los 2.200 evacuados, Goya queda a 4 cm de la evacuación y Neuquén y Mendoza oficializan sus emergencias.",
+   "prob": [
+    40,
+    45,
+    15
+   ],
+   "muertes": 3,
+   "evac": "~3.650"
   }
  ],
  "tormentas": {
   "tesis": "**El Niño no solo trae agua: en primavera y verano también aumenta el riesgo de tormentas severas, con granizo grande y ráfagas.** Son eventos cortos y locales que golpean cultivos, techos, autos y la red eléctrica. En las ciudades, el mayor riesgo para la vida sigue siendo el anegamiento súbito que dejan esas tormentas.",
   "eventos": [
+   {
+    "f": "2026-10-27",
+    "fecha": "26-27 oct",
+    "lugar": "Gran Mendoza (Guaymallén, Luján de Cuyo, Maipú)",
+    "prov": "Mendoza",
+    "tipos": [
+     "lluvia",
+     "viento"
+    ],
+    "texto": "Tormenta entre las 20 del lunes 26 y las 8 del martes 27, con alerta amarilla vigente.",
+    "danos": "**Siete incidentes en cuatro departamentos** según Defensa Civil: árboles y ramas caídos, un cable cortado en Maipú, problemas en el tendido eléctrico y filtraciones en viviendas; Guaymallén fue el más afectado.",
+    "fuente": "[El Monterizo](https://elmonterizo.com/la-tormenta-dejo-siete-emergencias-en-mendoza-y-guaymallen-se-llevo-la-peor-parte)"
+   },
    {
     "f": "2026-10-24",
     "fecha": "24 oct",
