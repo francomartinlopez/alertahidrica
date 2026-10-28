@@ -334,6 +334,32 @@ footer{padding-block:40px 60px;color:var(--muted);font-size:.86rem}
 .loading{padding:60px 0;color:var(--muted)}
 .warn{background:var(--alert-soft);color:var(--ink);border-radius:var(--r);padding:10px 14px;font-size:.9rem}
 
+/* rindes por fase ENSO (datos de AgroENSO), dentro de Impacto */
+:root{--rd0:#E9EFEC;--rdsig:#0F2229}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--rd0:#3B4E53;--rdsig:#000}}
+:root[data-theme="dark"]{--rd0:#3B4E53;--rdsig:#000}
+.rdmap svg{width:100%;height:auto;max-height:78vh;display:block}
+.rdd{stroke:var(--panel);stroke-width:.6;cursor:pointer;vector-effect:non-scaling-stroke}
+.rdd:hover{opacity:.8}
+.rdpv{fill:none;stroke:var(--ink);stroke-width:1.1;opacity:.45;pointer-events:none;vector-effect:non-scaling-stroke}
+.rdsig{fill:none;stroke:var(--rdsig);stroke-width:1.6;pointer-events:none;vector-effect:non-scaling-stroke}
+.rdsel{fill:none;stroke:var(--accent);stroke-width:3.4;pointer-events:none;vector-effect:non-scaling-stroke}
+.rdleg{display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:2px;margin-top:2px}
+.rdleg i{display:block;height:12px;border-radius:2px}
+.rdlegl{display:flex;justify-content:space-between;font:500 .72rem/1.2 var(--f-data);color:var(--muted)}
+.rdkey{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.8rem;color:var(--muted)}
+.rdkey span{display:inline-flex;align-items:center;gap:6px}
+.rdkey i{width:12px;height:12px;border-radius:2px;display:inline-block}
+.rdtab tbody tr{cursor:pointer}
+.rdtab tbody tr:hover td,.rdtab tbody tr.on td{background:var(--soft)}
+.rdtab td.nsig{color:var(--muted)}
+.rdtab td.sig{font-weight:700}
+.rdf .ph{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.rdf .ph i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.rdf td.pos{color:var(--ok);font-weight:700}.rdf td.neg{color:var(--evac);font-weight:700}
+.rdres{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:10px 28px}
+.rdhatch{background:repeating-linear-gradient(135deg,var(--nd) 0 2px,var(--nd-soft) 2px 5px)!important}
+
 /* separadores entre secciones */
 section.blk+section.blk{border-top:1px solid var(--line);margin-top:36px}
 section.blk+section.blk>.wrap{position:relative}
@@ -472,8 +498,8 @@ const IMP={critico:['Crítico','var(--evac)'],alto:['Alto','var(--alert)'],medio
 const NAC={no_encontrado:['No encontrado','t-nd'],tramite:['En trámite','t-alert'],rechazado:['No tratado','t-evac'],vigente:['Vigente','t-ok'],en_obra:['En obra','t-acc']};
 
 const opt=u=>fetch(u).then(r=>r.ok?r.json():null).catch(()=>null);
-Promise.all([fetch('datos.json').then(r=>{if(!r.ok)throw 0;return r.json()}),fetch('mapa.json').then(r=>{if(!r.ok)throw 0;return r.json()}),fetch('zonas.json').then(r=>{if(!r.ok)throw 0;return r.json()}),opt('nino34.json'),opt('lluvias.json'),opt('sudamerica.json')])
-.then(([D,M,Z,N3,LL,SA])=>render(D,M,Z,{n3:N3,ll:LL,sa:SA})).catch(()=>{$('#loading').textContent='No se pudieron cargar los datos. Recargá la página en unos minutos.';$('#stamp').textContent='Sin datos';});
+Promise.all([fetch('datos.json').then(r=>{if(!r.ok)throw 0;return r.json()}),fetch('mapa.json').then(r=>{if(!r.ok)throw 0;return r.json()}),fetch('zonas.json').then(r=>{if(!r.ok)throw 0;return r.json()}),opt('nino34.json'),opt('lluvias.json'),opt('sudamerica.json'),opt('rindes.json')])
+.then(([D,M,Z,N3,LL,SA,RD])=>render(D,M,Z,{n3:N3,ll:LL,sa:SA,rd:RD})).catch(()=>{$('#loading').textContent='No se pudieron cargar los datos. Recargá la página en unos minutos.';$('#stamp').textContent='Sin datos';});
 
 const BASE=(/^https?:$/.test(location.protocol)&&!/claude/.test(location.hostname))?location.origin+location.pathname:'https://claude.ai/artifact/MsJxei3Xh587iK3nL9aujz';
 const slug=t=>String(t).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
@@ -539,6 +565,118 @@ const mv=e=>{const r=svg.getBoundingClientRect();const x=(e.clientX-r.left)/r.wi
   $('#n34tip').innerHTML=`${dayL(d)} · `+parts.join(' · ')};
 svg.addEventListener('pointermove',mv);svg.addEventListener('pointerdown',mv);svg.addEventListener('pointerleave',()=>{cu.setAttribute('opacity',0);$('#n34tip').textContent=tipDef});
 }
+}
+// Rinde por fase ENSO y departamento (datos de AgroENSO: Monzon, Aramburu-Merlos y Mercau, 2026)
+function rdBloque(RD){
+  return `<div class="card linked" id="rindes" style="gap:14px">
+    <span class="eyebrow" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">Qué dice la historia · campañas 1990/91 a 2025/26${lnk('rindes')}</span>
+    <h3 style="font-size:1.45rem">El rinde en años Niño, neutrales y Niña, departamento por departamento</h3>
+    <p class="small">Cuánto rindió cada cultivo en las campañas con El Niño, neutrales y con La Niña, comparado con su promedio y ya descontada la mejora tecnológica. Es lo que pasó en las últimas 35 campañas, no un pronóstico.</p>
+    <div class="rdres" id="rdres"></div>
+    <div style="display:flex;flex-direction:column;gap:8px">
+      <div class="where" id="rdcul" role="group" aria-label="Cultivo">${RD.cultivos.map((c,i)=>`<button type="button" data-c="${esc(c)}" aria-pressed="${i===0}">${esc(rdNom(c))}</button>`).join('')}</div>
+      <div class="toggle" id="rdfase" role="group" aria-label="Fase del Pacífico"><button type="button" data-f="nino" aria-pressed="true">Años Niño</button><button type="button" data-f="neutral" aria-pressed="false">Neutrales</button><button type="button" data-f="nina" aria-pressed="false">Años Niña</button></div>
+    </div>
+    <div class="zgrid"><div class="zmap rdmap">
+      <p class="hint">Tocá un departamento para ver su ficha <span class="ar-d">→</span><span class="ar-m">↓</span></p>
+      <svg id="rdmap" viewBox="0 0 ${RD.w} ${RD.h}" role="img" aria-label="Mapa de departamentos agrícolas con la diferencia de rinde por fase"></svg>
+      <div><span class="small muted" id="rdlegt"></span><div class="rdleg" id="rdleg"></div><div class="rdlegl"><span>−20% o menos</span><span>igual</span><span>+20% o más</span></div></div>
+      <div class="rdkey"><span><i style="background:var(--rd0);border:2px solid var(--rdsig)"></i>Diferencia significativa</span><span><i class="rdhatch"></i>Pocas campañas</span><span><i style="background:transparent;border:1px solid var(--line)"></i>Sin el cultivo</span></div>
+      <label class="small muted" for="rdsel">Elegir departamento</label>
+      <select id="rdsel" class="provsel"></select>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:14px;min-width:0"><div class="ficha linked rdf" id="rdficha" aria-live="polite"></div>
+      <div><h3 style="margin-bottom:8px">Por provincia</h3><div class="tw rt"><table class="rt rdtab" id="rdprov"></table></div>
+      <p class="small muted" style="margin-top:6px">En negrita, las diferencias significativas. Tocá una provincia para ver su ficha.</p></div></div></div>
+    <p class="small muted">Datos: <a href="https://agroenso.netlify.app" target="_blank" rel="noopener">AgroENSO</a> (Monzon, Aramburu-Merlos y Mercau, CONICET-UNMdP e INTA, 2026), con los rindes por departamento de las Estimaciones Agrícolas del Ministerio de Agricultura (campañas 1990/91 a 2025/26), corregidos por la mejora tecnológica, y el índice ONI de NOAA de octubre a diciembre para clasificar cada campaña. Diferencia significativa: test de Wilcoxon, p &lt; 0,05. Los departamentos con menos de 10 campañas con dato quedan sin análisis. Los autores aclaran que no es un pronóstico de rinde y que el resultado de cada lote depende también del agua en el suelo, la napa, el tipo de suelo y la posición en el paisaje. La fila de Niños muy fuertes (ONI de oct-dic de 2 °C o más) es cálculo propio con los mismos datos.</p>
+  </div>`;
+}
+function rdNom(c){return ({'Soja 1ra':'Soja de primera','Soja 2da':'Soja de segunda'})[c]||c}
+function initRindes(PX){
+  const RD=PX.rd;if(!RD||!$('#rdmap'))return;
+  const I=Object.fromEntries(RD.campos.map((k,i)=>[k,i]));
+  const FN={nino:'El Niño',neutral:'Neutral',nina:'La Niña'},FC={nino:'var(--evac)',neutral:'var(--nd)',nina:'var(--water)'};
+  const FL={nino:'años Niño',neutral:'años neutrales',nina:'años Niña'};
+  const PV=Object.fromEntries(RD.provs.map(p=>[p.id,p.n]));
+  const DP=Object.fromEntries(RD.deptos.map(d=>[d.id,d]));
+  let cul=RD.cultivos[0],fase='nino',sel={nv:'pais',id:'PAIS'};
+  const fp=v=>v==null?'—':(v>0?'+':v<0?'−':'±')+Math.abs(v).toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})+'%';
+  const fpp=p=>p==null?'':(p<0.01?'p < 0,01':'p = '+p.toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2}));
+  const COLS=['var(--b4)','var(--b3)','var(--b2)','var(--b1)','var(--rd0)','var(--a1)','var(--a2)','var(--a3)','var(--a4)'];
+  const col=v=>v==null?null:COLS[v<=-20?0:v<=-12?1:v<=-7?2:v<=-3?3:v<3?4:v<7?5:v<12?6:v<20?7:8];
+  const camp=y=>`${y}/${String(y+1).slice(2)}`;
+  const row=(nv,id,c)=>{const D=RD.datos;const o=nv==='pais'?D.pais:(nv==='prov'?D.prov[id]:D.depto[id]);return o?o[c]||null:null};
+  const ok=r=>r&&r[I.campanas]>=10;
+  const sigf=(r,f)=>ok(r)&&r[I[f+'_p']]!=null&&r[I[f+'_p']]<0.05;
+  // mapa: departamentos, bordes de provincia y capas de resaltado
+  const svg=$('#rdmap');
+  svg.innerHTML=`<defs><pattern id="rdhatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="9" height="9" style="fill:var(--nd-soft)"/><rect width="3.5" height="9" style="fill:var(--nd)"/></pattern></defs><g id="rdg">${RD.deptos.map(d=>`<path class="rdd" data-d="${d.id}" d="${d.d}" tabindex="0" role="button" aria-label="${esc(d.n)}, ${esc(d.p)}"><title></title></path>`).join('')}</g><g>${RD.provs.map(p=>`<path class="rdpv" d="${p.d}"/>`).join('')}</g><g id="rdsg"></g><g id="rdsl"></g>`;
+  const paths=[...svg.querySelectorAll('.rdd')];
+  $('#rdleg').innerHTML=COLS.map(c=>`<i style="background:${c}"></i>`).join('');
+  $('#rdsel').innerHTML='<option value="">Elegí un departamento…</option>'+[...new Set(RD.deptos.map(d=>d.p))].sort((a,b)=>a.localeCompare(b,'es')).map(p=>`<optgroup label="${esc(p)}">${RD.deptos.filter(d=>d.p===p).sort((a,b)=>a.n.localeCompare(b.n,'es')).map(d=>`<option value="${d.id}">${esc(d.n)}</option>`).join('')}</optgroup>`).join('');
+  const paint=()=>{
+    $('#rdlegt').textContent=`${rdNom(cul)} en ${FL[fase]}: rinde frente a su promedio`;
+    let sg='';
+    paths.forEach(p=>{const d=DP[p.dataset.d],r=row('depto',d.id,cul);let f='transparent',t=`${d.n} (${d.p}): sin ${rdNom(cul).toLowerCase()} en la serie`;
+      if(r&&!ok(r)){f='url(#rdhatch)';t=`${d.n} (${d.p}): solo ${r[I.campanas]} campañas con dato, sin análisis`}
+      else if(r){const v=r[I[fase+'_dif']];f=col(v)||'var(--nd-soft)';t=`${d.n} (${d.p}): ${fp(v)} en ${FL[fase]}${sigf(r,fase)?' (significativo)':''}`;if(sigf(r,fase))sg+=`<path class="rdsig" d="${d.d}"/>`}
+      p.style.fill=f;p.firstChild.textContent=t});
+    $('#rdsg').innerHTML=sg;
+    $('#rdsl').innerHTML=sel.nv==='depto'&&DP[sel.id]?`<path class="rdsel" d="${DP[sel.id].d}"/>`:'';
+  };
+  const provTabla=()=>{
+    const ids=Object.keys(RD.datos.prov).filter(id=>row('prov',id,cul));
+    ids.sort((a,b)=>{const x=row('prov',a,cul),y=row('prov',b,cul);return (y[I[fase+'_dif']]??-999)-(x[I[fase+'_dif']]??-999)});
+    const cel=(r,f)=>!ok(r)?`<td class="nsig il" data-l="${FN[f]}">—</td>`:`<td class="${sigf(r,f)?'sig':'nsig'} il" data-l="${FN[f]}">${fp(r[I[f+'_dif']])}</td>`;
+    const tr=(nv,id,n)=>{const r=row(nv,id,cul);return `<tr data-nv="${nv}" data-id="${id}" tabindex="0" class="${sel.nv===nv&&sel.id===id?'on':''}"><td data-l="Provincia"><strong>${esc(n)}</strong></td>${cel(r,'nino')}${cel(r,'neutral')}${cel(r,'nina')}</tr>`};
+    $('#rdprov').innerHTML=`<thead><tr><th>Provincia</th><th>Años Niño</th><th>Neutrales</th><th>Años Niña</th></tr></thead><tbody>${row('pais','PAIS',cul)?tr('pais','PAIS','Argentina (total)'):''}${ids.map(id=>tr('prov',id,PV[id]||id)).join('')}</tbody>`;
+  };
+  const ficha=()=>{
+    const r=row(sel.nv,sel.id,cul);let ey,nm,extra='';
+    if(sel.nv==='pais'){ey='País';nm='Argentina'}
+    else if(sel.nv==='prov'){ey='Provincia';nm=PV[sel.id]||sel.id}
+    else{const d=DP[sel.id];ey='Departamento · '+d.p;nm=d.n;const pid=sel.id.slice(0,2);if(RD.datos.prov[pid])extra=`<button class="chipbtn" type="button" data-nv="prov" data-id="${pid}">Ver ${esc(PV[pid]||d.p)}</button>`}
+    if(sel.nv!=='pais')extra+=`<button class="chipbtn" type="button" data-nv="pais" data-id="PAIS">Ver Argentina</button>`;
+    const hd=`<div style="display:flex;flex-direction:column;gap:8px"><span class="eyebrow">${esc(ey)}</span><h3>${esc(nm)}</h3><div style="display:flex;gap:6px;flex-wrap:wrap"><span class="tag t-acc">${esc(rdNom(cul))}</span></div></div>`;
+    let body;
+    if(!r)body=`<p class="muted">Sin ${esc(rdNom(cul).toLowerCase())} en la serie de este lugar.</p>`;
+    else if(!ok(r))body=`<p class="muted">Solo ${r[I.campanas]} campañas con dato: muy pocas para comparar entre fases.</p>`;
+    else{
+      const fila=f=>{const v=r[I[f+'_dif']],s=sigf(r,f);return `<tr><td data-l="Fase"><span class="ph"><i style="background:${FC[f]}"></i>${FN[f]}</span></td><td class="il ${s?(v>0?'pos':'neg'):''}" data-l="Frente al promedio">${fp(v)}</td><td class="il" data-l="Campañas sobre el promedio">${r[I[f+'_sobre']]} de ${r[I[f+'_n']]}</td><td class="il" data-l="Significativa">${s?'Sí':'No'}<span class="small muted"> · ${fpp(r[I[f+'_p']])}</span></td></tr>`};
+      const fu=r[I.fuertes]||[];
+      body=`<div class="row"><span class="lbl">Rinde promedio</span><p><strong>${fmt(r[I.promedio])} kg/ha</strong> <span class="small muted">llevado al nivel tecnológico actual · ${r[I.campanas]} campañas con dato</span></p></div>
+        <div class="tw rt"><table class="rt"><thead><tr><th>Fase</th><th>Frente al promedio</th><th>Campañas sobre el promedio</th><th>Significativa</th></tr></thead><tbody>${fila('nino')}${fila('neutral')}${fila('nina')}</tbody></table></div>
+        <div class="row"><span class="lbl">Los tres Niños muy fuertes del período</span><p>${RD.fuertes.map((y,i)=>`${camp(y)}: <strong>${fp(fu[i])}</strong>`).join(' · ')}</p><p class="small muted">Cada campaña por separado, frente al promedio. Son solo tres casos, sin test estadístico.</p></div>
+        <div class="row"><span class="lbl">Relación con la temperatura del Pacífico</span><p class="small">Correlación entre el rinde y el índice ONI de octubre a diciembre: r = ${r[I.r]==null?'—':r[I.r].toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})}${r[I.p_r]==null?'':(r[I.p_r]<0.05?' (significativa)':' (no significativa)')}.</p></div>`;
+    }
+    $('#rdficha').innerHTML=hd+body+(extra?`<p style="display:flex;gap:6px;flex-wrap:wrap">${extra}</p>`:'');
+  };
+  const resumen=()=>{
+    const P=RD.datos.pais,L=[];
+    ['Maíz','Soja 1ra','Soja 2da'].forEach(c=>{const r=P[c];if(!r)return;
+      L.push(`**${rdNom(c)}:** en las ${r[I.nino_n]} campañas Niño rindió en promedio **${fp(r[I.nino_dif])}** frente a lo normal y quedó por encima en **${r[I.nino_sobre]} de ${r[I.nino_n]}**${sigf(r,'nino')?'':' (diferencia no significativa)'}. En las ${r[I.nina_n]} campañas Niña, **${fp(r[I.nina_dif])}**${sigf(r,'nina')?'':' (no significativa)'}, por encima en ${r[I.nina_sobre]} de ${r[I.nina_n]}.`)});
+    const sin=RD.cultivos.filter(c=>P[c]&&!['nino','neutral','nina'].some(f=>sigf(P[c],f))).map(c=>rdNom(c).toLowerCase());
+    if(sin.length)L.push(`**${sin.join(', ').replace(/, ([^,]*)$/,' y $1').replace(/^./,m=>m.toUpperCase())}:** sin diferencias significativas a nivel país entre años Niño, neutrales y Niña. En algunos departamentos sí las hay: se ven en el mapa.`);
+    const dm=Object.values(RD.datos.depto).map(o=>o['Maíz']).filter(ok);const ns=dm.filter(r=>sigf(r,'nino'));
+    const pv=Object.keys(RD.datos.prov).map(id=>[id,row('prov',id,'Maíz')]).filter(([,r])=>ok(r));
+    const top=pv.filter(([,r])=>sigf(r,'nino')).sort((a,b)=>b[1][I.nino_dif]-a[1][I.nino_dif]).slice(0,3).map(([id,r])=>`${PV[id]} (${fp(r[I.nino_dif])})`);
+    const no=pv.filter(([,r])=>!sigf(r,'nino')).map(([id])=>PV[id]).sort((a,b)=>a.localeCompare(b,'es'));
+    if(dm.length)L.push(`**Dónde se nota:** el maíz rinde significativamente distinto en años Niño en ${ns.length} de los ${dm.length} departamentos con datos suficientes. Las provincias con más diferencia son ${top.join(', ').replace(/, ([^,]*)$/,' y $1')}${no.length?`; en ${no.join(', ').replace(/, ([^,]*)$/,' y $1')} la diferencia no es significativa`:''}.`);
+    $('#rdres').innerHTML=L.map(t=>`<p class="small">${md(t)}</p>`).join('');
+  };
+  const rv=el=>{if(!el||window.innerWidth>860)return;const b=el.getBoundingClientRect();if(b.top<110||b.top>innerHeight*0.6)el.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})};
+  const fl=el=>{if(!el)return;el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash')};
+  const elegir=(nv,id,ir)=>{if(!id)return;sel={nv,id};$('#rdsel').value=nv==='depto'?id:'';$('#rdsl').innerHTML=nv==='depto'&&DP[id]?`<path class="rdsel" d="${DP[id].d}"/>`:'';ficha();provTabla();fl($('#rdficha'));if(ir)rv($('#rdficha'))};
+  const todo=()=>{paint();provTabla();ficha()};
+  document.querySelectorAll('#rdcul [data-c]').forEach(b=>b.onclick=()=>{cul=b.dataset.c;document.querySelectorAll('#rdcul [data-c]').forEach(x=>x.setAttribute('aria-pressed',x===b));todo()});
+  document.querySelectorAll('#rdfase [data-f]').forEach(b=>b.onclick=()=>{fase=b.dataset.f;document.querySelectorAll('#rdfase [data-f]').forEach(x=>x.setAttribute('aria-pressed',x===b));paint();provTabla()});
+  svg.addEventListener('click',e=>{const p=e.target.closest('.rdd');if(p)elegir('depto',p.dataset.d,true)});
+  svg.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.classList.contains('rdd')){e.preventDefault();elegir('depto',e.target.dataset.d,false)}});
+  $('#rdsel').onchange=e=>elegir('depto',e.target.value,true);
+  $('#rdprov').addEventListener('click',e=>{const t=e.target.closest('tr[data-nv]');if(t)elegir(t.dataset.nv,t.dataset.id,true)});
+  $('#rdprov').addEventListener('keydown',e=>{const t=e.target.closest('tr[data-nv]');if(t&&e.key==='Enter')elegir(t.dataset.nv,t.dataset.id,false)});
+  $('#rdficha').addEventListener('click',e=>{const b=e.target.closest('[data-nv]');if(b)elegir(b.dataset.nv,b.dataset.id,false)});
+  resumen();todo();
 }
 function initLluvias(D,M,PX){
 const LL=PX.ll,SA=PX.sa,AL=((D.pronostico||{}).lluvias||{}).analisis||[];if(!LL||!SA||!$('#llmap'))return;
@@ -684,6 +822,7 @@ function render(D,M,ZG,PX){PX=PX||{};
   const IM=D.impacto,SA=D.salud_datos,FO=D.fondos;
   h+=sect('impacto','Impacto y fondos','Lo que ya pasó, la salud y la plata',IM.tesis,
    `<div class="two"><div class="card"><h3>Campo y hacienda</h3>${ul(IM.campo)}</div><div class="card"><h3>Contra los escenarios</h3><p>${md(IM.vs)}</p></div></div>
+    ${PX.rd?rdBloque(PX.rd):''}
     <h3>Salud en números</h3><div class="ind">${SA.items.map(x=>`<div class="card"><span class="eyebrow">${esc(x.label)}</span><span class="v num" style="font:700 1.5rem/1.1 var(--f-data)">${esc(x.valor)}</span><p class="small">${md(x.nota)}</p></div>`).join('')}</div>
     <p class="small muted">${md(SA.fuente)}</p>
     <h3>Seguimiento de fondos</h3>
@@ -790,6 +929,7 @@ function render(D,M,ZG,PX){PX=PX||{};
   const shown=(sel,rv)=>{flash($(sel));reveal($(rv||sel))};
   try{initN34(D,PX)}catch(e){console.error(e)}
   try{initLluvias(D,M,PX)}catch(e){console.error(e)}
+  try{initRindes(PX)}catch(e){console.error(e)}
   // tablas: etiquetas para verlas como tarjetas en celular
   document.querySelectorAll('.tw>table').forEach(t=>{const hs=[...t.querySelectorAll('thead th')].map(th=>th.textContent.trim());t.classList.add('rt');t.parentElement.classList.add('rt');
     t.querySelectorAll('tbody tr').forEach(tr=>[...tr.children].forEach((td,i)=>{if(hs[i])td.dataset.l=hs[i];const tx=td.textContent.trim();if(!tx||tx==='—')td.classList.add('em');else if(i>0&&tx.length<=28&&!td.querySelector('a'))td.classList.add('il')}))});
