@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-10-28",
- "desde": "2026-07-30",
+ "actualizado": "2026-10-29",
+ "desde": "2026-07-31",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "27 de julio a 25 de octubre",
@@ -5339,132 +5339,6 @@
    }
   },
   {
-   "id": "eur-009",
-   "tipo": "incendio",
-   "titulo": "Incendios en Madrid, Ávila y Toledo: emergencia nacional",
-   "lugar": "Oeste de Madrid, Ávila y Toledo",
-   "pais": "España",
-   "inicio": "2026-07-22",
-   "fin": "2026-07-30",
-   "origen": "ambos",
-   "gdacs": [
-    {
-     "t": "WF",
-     "id": 1029643,
-     "a": "naranja"
-    }
-   ],
-   "geom": {
-    "t": "area",
-    "c": [
-     -4.5,
-     40.4
-    ],
-    "r": 60
-   },
-   "evacuados": 120000,
-   "texto": "Los incendios quemaron más de 77.000 ha; el de Ávila es descripto como el mayor de la historia de España. Se evacuaron 39 localidades y unas 120.000 personas fueron evacuadas o confinadas. El gobierno declaró la emergencia nacional.",
-   "danos": {
-    "texto": "Sin estimación publicada. En el año España llevaba 150.000 ha quemadas en 32 grandes incendios, casi cuatro veces el promedio 2006-2025.",
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null
-   },
-   "efectos": {
-    "mediano": [
-     {
-      "cat": "agro",
-      "t": "Madrid anunció ayudas para agricultores y ganaderos y un plan de recuperación; el gobierno iba a declarar las zonas \"gravemente dañadas\"."
-     }
-    ],
-    "corto": [],
-    "largo": []
-   },
-   "criterio": "emergencia",
-   "fuentes": [
-    {
-     "t": "El Salto, 26-27 jul",
-     "u": "https://www.elsaltodiario.com/incendios-forestales/77-000-hectareas-calcinadas-incendios-avila-madrid-toledo"
-    },
-    {
-     "t": "La República (titular)",
-     "u": "https://www.larepublica.co/globoeconomia/el-incendio-de-avila-ha-quemado-50-000-hectareas-el-mayor-fuego-de-la-historia-de-espana-4443966"
-    },
-    {
-     "t": "GDACS, alerta naranja",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1029643&eventtype=WF"
-    }
-   ],
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "intensidad": {
-    "nivel": 3,
-    "medida": "más de 77.000 ha",
-    "ref": "el de Ávila, descripto como el mayor incendio de la historia de España (dato del texto existente)",
-    "fuente": null
-   }
-  },
-  {
-   "id": "eur-010",
-   "tipo": "incendio",
-   "titulo": "Incendio en la Vall d'Uixó",
-   "lugar": "La Vall d'Uixó (Castellón)",
-   "pais": "España",
-   "inicio": "2026-07-25",
-   "fin": "2026-07-30",
-   "origen": "ambos",
-   "gdacs": [
-    {
-     "t": "WF",
-     "id": 1029794,
-     "a": "naranja"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     -0.3,
-     39.85
-    ]
-   },
-   "texto": "El 26 de julio el fuego llevaba unas 4.300 ha y un perímetro de 40 km, sin control. GDACS estimó después 13.370 ha (alerta naranja). Una veintena de personas recibió atención por humo.",
-   "criterio": "alerta_gdacs",
-   "fuentes": [
-    {
-     "t": "El Salto, 26-27 jul",
-     "u": "https://www.elsaltodiario.com/incendios-forestales/77-000-hectareas-calcinadas-incendios-avila-madrid-toledo"
-    },
-    {
-     "t": "GDACS, alerta naranja",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1029794&eventtype=WF"
-    }
-   ],
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "intensidad": {
-    "nivel": 2,
-    "medida": "13.370 ha (GDACS)",
-    "ref": "rango 10.000-49.999 ha (dato del texto existente)",
-    "fuente": null
-   }
-  },
-  {
    "id": "eur-011",
    "tipo": "incendio",
    "titulo": "Incendio en Creta: dos bomberos muertos",
@@ -9075,63 +8949,6 @@
    }
   },
   {
-   "id": "cam-n04",
-   "tipo": "calor",
-   "titulo": "Récord de calor y aviso de calor extremo en Puerto Rico",
-   "lugar": "San Juan y 61 municipios",
-   "pais": "Puerto Rico (EE.UU.)",
-   "inicio": "2026-07-28",
-   "fin": "2026-07-30",
-   "geom": {
-    "t": "area",
-    "c": [
-     -66.4,
-     18.25
-    ],
-    "r": 80
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "San Juan marcó 93 °F el 28 de julio y 94 °F el 29, récords diarios preliminares del Servicio Nacional de Meteorología. Fue el primer aviso de calor del año y se elevó a aviso de calor extremo; el 30 de julio abarcaba 61 municipios.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "record",
-   "fuentes": [
-    {
-     "t": "Primera Hora, 2026-07-29",
-     "u": "https://www.primerahora.com/noticias/el-tiempo/notas/puerto-rico-rompe-record-de-calor-por-segundo-dia-consecutivo/"
-    },
-    {
-     "t": "Metro Puerto Rico, 2026-07-29",
-     "u": "https://www.metro.pr/noticias/2026/07/29/servicio-nacional-de-meteorologia-emite-aviso-de-calor-para-59-municipios/"
-    },
-    {
-     "t": "El Nuevo Día, 2026-07-30",
-     "u": "https://www.elnuevodia.com/noticias/el-tiempo/notas/puerto-rico-sigue-con-altas-temperaturas-61-municipios-estan-bajo-aviso-de-calor-extremo/"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "94 °F en San Juan el 29 de julio",
-    "ref": "récord diario; el anterior era 93 °F (1984 y 2013)",
-    "fuente": 0
-   }
-  },
-  {
    "id": "cam-n05",
    "tipo": "lluvia",
    "titulo": "Lluvias con dos muertos en Chiapas",
@@ -11742,67 +11559,6 @@
    }
   },
   {
-   "id": "eur-m07",
-   "tipo": "deslizamiento",
-   "titulo": "Aludes de barro en Sölden y Vent: alarma de protección civil",
-   "lugar": "Sölden y Vent, valle de Ötztal (Tirol)",
-   "pais": "Austria",
-   "inicio": "2026-07-29",
-   "fin": "2026-07-30",
-   "geom": {
-    "t": "punto",
-    "c": [
-     11.007,
-     46.966
-    ]
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": 100,
-   "texto": "Tras lluvias intensas la noche del 29 de julio, aludes de barro e inundaciones afectaron Sölden y Vent, y se activaron la alarma de protección civil y el sistema AT-Alert. Unas 100 personas tuvieron que dejar sus casas en Sölden y entre 200 y 300 fueron puestas a resguardo de forma preventiva.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": 0,
-    "texto": "Garajes subterráneos y sótanos inundados en el centro de Sölden, vehículos dañados en Vent y un puente destruido por un alud de barro."
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "vivienda",
-      "t": "Garajes subterráneos y sótanos inundados en el centro de Sölden."
-     },
-     {
-      "cat": "transporte",
-      "t": "Caminos intransitables en Vent."
-     },
-     {
-      "cat": "servicios",
-      "t": "Un alud de barro destruyó el puente hacia la planta depuradora local."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "emergencia",
-   "fuentes": [
-    {
-     "t": "leinetal24, 1-ago-2026",
-     "u": "https://www.leinetal24.de/welt/muren-treffen-soelden-katastrophenalarm-bei-unwetter-in-oesterreich-zr-94421269.html"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "sin datos de lluvia publicados",
-    "fuente": null
-   }
-  },
-  {
    "id": "cam-m01",
    "tipo": "sequia",
    "titulo": "Sequía y racionamiento de agua en Kingston y el este de Jamaica",
@@ -14182,6 +13938,151 @@
     {
      "t": "El Día (EFE), 27 oct",
      "u": "https://eldia.com.do/al-menos-cuatro-muertos-tres-heridos-y-dos-desaparecidos-por-las-lluvias-en-haiti/"
+    }
+   ]
+  },
+  {
+   "id": "asi-q01",
+   "tipo": "ciclon",
+   "titulo": "Ciclón Arnab en Andhra Pradesh y Odisha",
+   "lugar": "Costa de Andhra Pradesh (Yanam) y sur de Odisha",
+   "pais": "India",
+   "inicio": "2026-10-27",
+   "fin": "2026-10-29",
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "trayectoria",
+    "pts": [
+     [
+      84.5,
+      14.5
+     ],
+     [
+      83.3,
+      15.6
+     ],
+     [
+      82.3,
+      16.6
+     ],
+     [
+      82.6,
+      17.8
+     ],
+     [
+      83.5,
+      19.0
+     ]
+    ],
+    "src": "aprox"
+   },
+   "impacto": [
+    82.2,
+    16.7
+   ],
+   "muertes": 5,
+   "afectados": null,
+   "evacuados": 180000,
+   "texto": "Tocó tierra como ciclón muy severo en la costa de Andhra Pradesh, cerca de Yanam, la mañana del 28 de octubre, con vientos sostenidos de 125 a 135 km/h y ráfagas de 150 km/h. Un día antes se evacuó a unas 180.000 personas en Andhra Pradesh y Odisha. El gobierno de Andhra Pradesh confirmó cinco muertes; la prensa habla de siete a nueve.",
+   "intensidad": {
+    "nivel": 1,
+    "medida": "vientos sostenidos de 125 a 135 km/h, ráfagas de 150 km/h al tocar tierra",
+    "ref": "ciclón muy severo según el IMD (equivalente a categoría 1); escala Saffir-Simpson",
+    "fuente": 1
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Árboles caídos y electrocuciones; arrozales y cultivos de hortalizas anegados en Odisha. Sin balance de daños publicado."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "agro",
+      "t": "Grandes extensiones de arroz y hortalizas bajo el agua en Odisha."
+     },
+     {
+      "cat": "vivienda",
+      "t": "Unas 180.000 personas evacuadas en Andhra Pradesh y Odisha antes de la llegada del ciclón."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "Al Jazeera, 28-oct-2026",
+     "u": "https://www.aljazeera.com/news/2026/10/28/cyclone-arnab-makes-landfall-in-indias-andhra-pradesh"
+    },
+    {
+     "t": "ANI (IMD), 28-oct-2026",
+     "u": "https://aninews.in/news/national/general-news/cyclone-arnab-completes-landfall-in-andhra-pradesh-imd-warns-of-heavy-rainfall-in-odisha20261028122401/"
+    },
+    {
+     "t": "Newsdrum, 28-oct-2026",
+     "u": "https://newsdrum.in/national/cyclone-arnab-7-reported-dead-in-andhra-odisha-flooded-amit-shah-assures-aid-12763709"
+    }
+   ]
+  },
+  {
+   "id": "eur-q01",
+   "tipo": "viento",
+   "titulo": "Temporal en el norte y centro de Italia: un muerto en Jesolo",
+   "lugar": "Véneto, Liguria, Cerdeña, Toscana y Lacio",
+   "pais": "Italia",
+   "inicio": "2026-10-21",
+   "fin": "2026-10-21",
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     11.0,
+     43.8
+    ],
+    "r": 350
+   },
+   "impacto": null,
+   "muertes": 1,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Alerta naranja en seis regiones por lluvias intensas y viento. En Jesolo (Venecia) murió un militar de 46 años al caerle un árbol sobre el auto. Hubo escuelas cerradas, calles inundadas y se levantó el sistema MOSE en Venecia.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "sin dato físico publicado en las fuentes",
+    "ref": "alerta naranja de Protección Civil en seis regiones",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Árboles caídos y anegamientos en varias regiones."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "servicios",
+      "t": "Escuelas cerradas en varias regiones con alerta naranja."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "ANSA, 21-oct-2026",
+     "u": "https://www.ansa.it/sito/notizie/cronaca/2026/10/21/maltempo-dal-nord-al-sud-muore-un-militare-travolto-da-un-albero.-su-il-mose-a-venezia_aeb15550-309a-4546-8431-b3fef3f05a32.html"
+    },
+    {
+     "t": "Leggo, 21-oct-2026",
+     "u": "https://www.leggo.it/italia/cronache/21_ottobre_2026_maltempo_morto_militare_jesolo_allerta_meteo_oggi-9838933.html"
     }
    ]
   }
