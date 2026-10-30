@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-10-29",
- "desde": "2026-07-31",
+ "actualizado": "2026-10-30",
+ "desde": "2026-08-01",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "27 de julio a 25 de octubre",
@@ -3895,10 +3895,10 @@
     "r": 330
    },
    "muertes": 3,
-   "evacuados": 3653,
-   "texto": "El Paraná superó el nivel de evacuación en Itatí, Isla del Cerrito, Corrientes, Barranqueras y Reconquista, y el Iguazú en Puerto Iguazú. Hay unas 3.650 personas evacuadas o autoevacuadas: 2.201 en Chaco (27 oct) y 1.452 en Corrientes (25 oct), más de 150 familias en Paso de la Patria. Tres trabajadores rurales murieron mientras trasladaban hacienda.",
+   "evacuados": 3735,
+   "texto": "El Paraná superó el nivel de evacuación en Itatí, Isla del Cerrito, Corrientes, Barranqueras, Goya y Reconquista, y el Iguazú en Puerto Iguazú. Hay unas 3.700 personas evacuadas o autoevacuadas: 2.239 en Chaco (29 oct) y unas 1.500 en Corrientes (28 oct), más las primeras familias en Santa Fe. Tres trabajadores rurales murieron mientras trasladaban hacienda.",
    "danos": {
-    "texto": "Sin estimación publicada. Más de 30.000 vacunos evacuados en Victoria (Entre Ríos) y unas 460.000 cabezas en alerta en las islas.",
+    "texto": "Sin estimación publicada. El Senasa registra unos 147.500 bovinos y bubalinos evacuados desde agosto en cinco provincias.",
     "usd": null,
     "rango": null,
     "tipo": null,
@@ -3920,6 +3920,14 @@
    },
    "criterio": "muertes",
    "fuentes": [
+    {
+     "t": "Perfil, 29 oct",
+     "u": "https://perfil.com/nea/inundaciones-en-chaco-2.239-personas-dejaron-sus-casas-por-la-crecida-de-los-rios-anGoB6g1QKvC"
+    },
+    {
+     "t": "El Argentino Diario, 29 oct",
+     "u": "https://elargentinodiario.com.ar/zona-destacada/29/10/2026/el-nino-evacuaron-147500-cabezas-ganado-crecidas"
+    },
     {
      "t": "El Litoral, 27 oct",
      "u": "https://www.ellitoral.com.ar/nacional/2026-10-27-11-14-0-chaco-tiene-tres-localidades-en-alerta-roja-y-mas-de-2-200-evacuados-por-las-inundaciones"
@@ -4623,65 +4631,6 @@
    }
   },
   {
-   "id": "asi-018",
-   "tipo": "inundacion",
-   "titulo": "Lluvias torrenciales en China a fines de julio",
-   "lugar": "Gansu, Guangdong, Jilin y Sichuan",
-   "pais": "China",
-   "inicio": "2026-07-25",
-   "fin": "2026-07-31",
-   "origen": "ambos",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104051,
-     "a": "roja"
-    }
-   ],
-   "geom": {
-    "t": "area",
-    "c": [
-     109,
-     30
-    ],
-    "r": 900
-   },
-   "muertes": 25,
-   "evacuados": 801000,
-   "texto": "GDACS dio alerta roja por inundaciones en China entre el 25 y el 31 de julio. En Gansu, una crecida repentina en el área de Shuangshimen dejó 25 muertos y 23 heridos el 26 de julio. GDACS registra además 801.000 evacuados en Guangdong y 88.000 afectados en Sichuan.",
-   "danos": {
-    "texto": "Cifras de la recopilación automática de prensa de GDACS; pueden ser parciales.",
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null
-   },
-   "criterio": "alerta_gdacs",
-   "fuentes": [
-    {
-     "t": "Khaleej Times (AFP), 2 ago",
-     "u": "https://www.khaleejtimes.com/world/asia/china-flash-flood-death-toll-july-26-2026"
-    },
-    {
-     "t": "GDACS, alerta roja",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104051&eventtype=FL"
-    }
-   ],
-   "impacto": null,
-   "afectados": null,
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
    "id": "asi-019",
    "tipo": "inundacion",
    "titulo": "Inundaciones de verano en el centro de China",
@@ -5140,60 +5089,6 @@
     {
      "t": "GDACS, alerta verde",
      "u": "https://www.gdacs.org/report.aspx?eventid=1104091&eventtype=FL"
-    }
-   ],
-   "impacto": null,
-   "afectados": null,
-   "evacuados": null,
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
-   "id": "asi-027",
-   "tipo": "inundacion",
-   "titulo": "Crecidas en Saná e Ibb",
-   "lugar": "Saná, Ibb y Jabal Habashy",
-   "pais": "Yemen",
-   "inicio": "2026-07-25",
-   "fin": "2026-07-31",
-   "origen": "gdacs",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104068,
-     "a": "verde"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     44.2,
-     14.4
-    ]
-   },
-   "muertes": 4,
-   "texto": "GDACS registra cuatro muertos: uno en Saná, dos en Maytam (Ibb) y uno en Jabal Habashy.",
-   "danos": {
-    "texto": "Cifras de la recopilación automática de prensa de GDACS; pueden ser parciales.",
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104068&eventtype=FL"
     }
    ],
    "impacto": null,
@@ -10235,7 +10130,7 @@
    "muertes": null,
    "afectados": null,
    "evacuados": null,
-   "texto": "En los primeros cinco días de octubre, Bardheere registró 93 mm y Galkayo 50 mm, más que su promedio de todo el mes, según FAO SWALIM. El río Shabelle en Jowhar subió 2,22 m hasta 4,70 m al 8 de octubre y el 17 de octubre llegó a 5,36 m, por encima del umbral de peligro de 5,25 m y a 14 cm del desborde. No se publicaron cifras de afectados.",
+   "texto": "En los primeros cinco días de octubre, Bardheere registró 93 mm y Galkayo 50 mm, más que su promedio de todo el mes, según FAO SWALIM. El río Shabelle en Jowhar subió 2,22 m hasta 4,70 m al 8 de octubre y el 17 de octubre llegó a 5,36 m, por encima del umbral de peligro de 5,25 m y a 14 cm del desborde. No se publicaron cifras de afectados. A fines de octubre el Jubba se acercaba al nivel de inundación cerca de Dollow y el Shabelle seguía subiendo en Jowhar; hubo viviendas dañadas en Baidoa.",
    "danos": {
     "usd": null,
     "rango": null,
@@ -10250,7 +10145,12 @@
       "t": "Previsto: FAO SWALIM advirtió riesgo de inundación en Jowhar ante lluvias intensas pronosticadas para el 22 al 24 de octubre."
      }
     ],
-    "mediano": [],
+    "mediano": [
+     {
+      "cat": "vivienda",
+      "t": "Previsto: la OIM y el Consejo Danés para los Refugiados proyectan hasta 874.000 desplazamientos en Somalia entre octubre y diciembre, el 92% por inundaciones; Beletweyne (229.000 personas en riesgo) y Galkayo (82.000) son las zonas más expuestas."
+     }
+    ],
     "largo": []
    },
    "criterio": "record",
@@ -10262,6 +10162,10 @@
     {
      "t": "Dawan Africa, 17-oct-2026",
      "u": "https://www.dawan.africa/news/shabelle-river-nears-bankfull-in-jowhar-as-swalim-warns-of-flood-risk"
+    },
+    {
+     "t": "Kenya Today (informe de la OIM), oct-2026",
+     "u": "https://kenya-today.com/report-iom-warns-up-to-874000-somalis-could-be-displaced-by-floods-this-quarter-14993/"
     }
    ],
    "origen": "noticias",
@@ -10800,63 +10704,6 @@
     "nivel": 3,
     "medida": "−51% en Sindh y −34% en Baluchistán",
     "ref": "lluvia normal del monzón (PMD); déficit menor a −40% = nivel 3",
-    "fuente": 0
-   }
-  },
-  {
-   "id": "asi-sm06",
-   "tipo": "calor",
-   "titulo": "Julio más cálido registrado en Shymkent",
-   "lugar": "Shymkent, Almaty, Turkestán y Kyzylorda (sur de Kazajistán)",
-   "pais": "Kazajistán",
-   "inicio": "2026-07-16",
-   "fin": "2026-07-31",
-   "geom": {
-    "t": "area",
-    "c": [
-     71.0,
-     43.5
-    ],
-    "r": 500
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "Según Kazhydromet, Shymkent tuvo el julio más cálido de su registro, llegó a 45,2 °C y superó récords diarios vigentes desde 1915. Almaty batió cuatro récords diarios entre el 16 y el 20 de julio, con 41,5 °C el día 20, y Turkestán llegó a 47,6 °C el 18. En julio la temperatura estuvo de 1 a 4 °C por encima de lo normal en casi todo el país.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "record",
-   "fuentes": [
-    {
-     "t": "Kazhydromet, 19-ago-2026",
-     "u": "https://kazhydromet.kz/en/uinfos/33"
-    },
-    {
-     "t": "Zakon.kz, 19-ago-2026",
-     "u": "https://www.zakon.kz/obshestvo/6528579-v-kazakhstane-pobit-rekord-zhary-ustanovlennyy-111-let-nazad.html"
-    },
-    {
-     "t": "Interfax-Kazakhstan, 19-ago-2026",
-     "u": "https://ns.interfax.kz/en/news/81931"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "45,2 °C en Shymkent; 41,5 °C en Almaty",
-    "ref": "julio más cálido registrado en Shymkent; récords diarios de 1915 (41,1 °C y 40,1 °C) superados",
     "fuente": 0
    }
   },
@@ -14083,6 +13930,72 @@
     {
      "t": "Leggo, 21-oct-2026",
      "u": "https://www.leggo.it/italia/cronache/21_ottobre_2026_maltempo_morto_militare_jesolo_allerta_meteo_oggi-9838933.html"
+    }
+   ]
+  },
+  {
+   "id": "afr-r01",
+   "tipo": "inundacion",
+   "titulo": "Inundaciones repentinas en Raqqa y Deir ez-Zor: cinco muertos",
+   "lugar": "Raqqa y Deir ez-Zor",
+   "pais": "Siria",
+   "inicio": "2026-10-29",
+   "fin": "2026-10-30",
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     39.5,
+     35.6
+    ],
+    "r": 180
+   },
+   "impacto": null,
+   "muertes": 5,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Lluvias intensas provocaron inundaciones repentinas en el norte y el este de Siria. Murieron cinco personas, cuatro de ellas niños ahogados en Raqqa y Deir ez-Zor, y otras cinco siguen desaparecidas según la Defensa Civil y el Ministerio de Emergencias. Los rescatistas salvaron a 25 personas y 375 familias fueron evacuadas de campamentos de desplazados anegados en el área rural de Raqqa.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "sin dato físico publicado en las fuentes",
+    "ref": "sin comparación publicada con lo normal del lugar",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Campamentos de desplazados anegados y un puente derrumbado en Raqqa."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "transporte",
+      "t": "El derrumbe de un puente en Raqqa cortó una ruta hacia Alepo."
+     },
+     {
+      "cat": "vivienda",
+      "t": "375 familias evacuadas de campamentos de desplazados en el área rural de Raqqa."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "Al Jazeera, 30-oct-2026",
+     "u": "https://www.aljazeera.com/news/2026/10/30/flash-floods-kills-five-in-syria"
+    },
+    {
+     "t": "The National, 30-oct-2026",
+     "u": "https://www.thenationalnews.com/news/mena/2026/10/30/four-children-among-five-killed-as-flash-floods-hit-syria/"
+    },
+    {
+     "t": "Gulf News, 30-oct-2026",
+     "u": "https://gulfnews.com/world/mena/five-killed-including-four-children-as-flash-floods-sweep-across-syria-1.500728880"
     }
    ]
   }
