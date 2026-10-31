@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-10-30",
- "desde": "2026-08-01",
+ "actualizado": "2026-10-31",
+ "desde": "2026-08-02",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "27 de julio a 25 de octubre",
@@ -1850,59 +1850,6 @@
    }
   },
   {
-   "id": "asi-006",
-   "tipo": "lluvia",
-   "titulo": "Depresión profunda en el centro de India: 31 muertos",
-   "lugar": "Odisha a Maharashtra",
-   "pais": "India",
-   "inicio": "2026-07-26",
-   "fin": "2026-08-01",
-   "geom": {
-    "t": "area",
-    "c": [
-     80,
-     21
-    ],
-    "r": 550
-   },
-   "muertes": 31,
-   "texto": "Una depresión profunda del golfo de Bengala cruzó el centro de India con lluvias e inundaciones. Hubo 31 muertos, 10 de ellos por el derrumbe de un edificio en Bhiwandi (Maharashtra). En Odisha hubo más de 864.000 afectados en 22 distritos y 267.301 evacuados (Sphere India).",
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "Wikipedia, temporada de ciclones del Índico norte 2026",
-     "u": "https://en.wikipedia.org/wiki/2026_North_Indian_Ocean_cyclone_season"
-    },
-    {
-     "t": "Sphere India, SitRep 6, 8 ago",
-     "u": "https://www.sphereindia.org.in/sites/default/files/2026-08/8.08.2026%20SitRep-%206%20%20Extreme%20Weather%20Events%20in%20India.pdf"
-    }
-   ],
-   "impacto": null,
-   "afectados": 864000,
-   "evacuados": 267301,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
    "id": "asi-007",
    "tipo": "rayos",
    "titulo": "Muertes por rayos en Bihar y Jharkhand",
@@ -3548,13 +3495,13 @@
    },
    "muertes": 4,
    "afectados": 32000,
-   "texto": "Más de un mes de lluvia desbordó ríos en la costa. Al 27 de octubre el COE contaba cuatro muertos y unas 32.000 personas afectadas desde el 29 de agosto (la Secretaría de Gestión de Riesgos mantenía tres muertos y 30.539 afectados). El 26 de octubre las lluvias inundaron 86 zonas de Guayaquil.",
+   "texto": "Más de un mes de lluvia desbordó ríos en la costa. Al 27 de octubre el COE contaba cuatro muertos y unas 32.000 personas afectadas desde el 29 de agosto (la Secretaría de Gestión de Riesgos mantenía tres muertos y 30.539 afectados). El 26 de octubre las lluvias inundaron 86 zonas de Guayaquil. El 30 de octubre, un balance preliminar oficial contaba 443 familias damnificadas en siete comunidades de la parroquia Manglaralto (Santa Elena) por el desborde del río Dos Mangas.",
    "danos": {
     "texto": "Miles de viviendas dañadas o destruidas; pérdidas agrícolas de USD 60,8 millones según el balance difundido el 27 de octubre.",
     "usd": 60.8,
     "rango": null,
     "tipo": "prensa",
-    "fuente": 2
+    "fuente": 3
    },
    "efectos": {
     "corto": [
@@ -3568,6 +3515,10 @@
    },
    "criterio": "muertes",
    "fuentes": [
+    {
+     "t": "El Comercio, 30-oct-2026",
+     "u": "https://www.elcomercio.com/actualidad/ecuador/el-nino-deja-mas-de-400-familias-damnificadas-y-danos-en-siete-provincias-2026/"
+    },
     {
      "t": "Infobae (EFE), 27 oct",
      "u": "https://www.infobae.com/america/agencias/2026/10/27/suben-a-cuatro-los-muertos-por-el-nino-en-ecuador-con-miles-de-viviendas-danadas/"
@@ -3983,59 +3934,6 @@
     "nivel": 1,
     "medida": "Paraná sobre el nivel de evacuación en Itatí, Isla del Cerrito, Corrientes, Barranqueras y Reconquista",
     "ref": "nivel de evacuación de los puertos; crecida importante",
-    "fuente": null
-   }
-  },
-  {
-   "id": "sam-009",
-   "tipo": "viento",
-   "titulo": "Temporal de viento en el AMBA",
-   "lugar": "Área Metropolitana de Buenos Aires, Campana y Salto",
-   "pais": "Argentina",
-   "inicio": "2026-07-31",
-   "fin": "2026-08-01",
-   "geom": {
-    "t": "punto",
-    "c": [
-     -58.45,
-     -34.6
-    ]
-   },
-   "afectados": 67000,
-   "texto": "Un temporal nocturno con ráfagas y lluvia intensa voló techos y tiró árboles y postes. Hasta 67.000 usuarios quedaron sin luz.",
-   "efectos": {
-    "corto": [
-     {
-      "cat": "servicios",
-      "t": "55.000 usuarios de Edesur y 12.000 de Edenor sin luz."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "afectados",
-   "fuentes": [
-    {
-     "t": "Todo Jujuy, 1 ago",
-     "u": "https://www.todojujuy.com/feroz-temporal-buenos-aires-inundaciones-destrozos-y-miles-usuarios-luz-n293962"
-    }
-   ],
-   "impacto": null,
-   "muertes": null,
-   "evacuados": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
     "fuente": null
    }
   },
@@ -5159,140 +5057,6 @@
     "medida": "",
     "ref": "GDACS solo informa alerta naranja de impacto medio en 1,59 millones de km²; sin categoría D ni déficit de lluvia publicados",
     "fuente": null
-   }
-  },
-  {
-   "id": "eur-008",
-   "tipo": "incendio",
-   "titulo": "Megaincendio en Gironda: 220.000 evacuados",
-   "lugar": "Lège-Cap-Ferret, Lacanau y Lanton (Gironda)",
-   "pais": "Francia",
-   "inicio": "2026-07-22",
-   "fin": "2026-08-01",
-   "origen": "ambos",
-   "gdacs": [
-    {
-     "t": "WF",
-     "id": 1029628,
-     "a": "roja"
-    }
-   ],
-   "geom": {
-    "t": "area",
-    "c": [
-     -1.1,
-     44.8
-    ],
-    "r": 40
-   },
-   "muertes": 1,
-   "evacuados": 220000,
-   "texto": "Tras ocho días, el fuego llevaba unas 42.000 ha (GDACS estima 47.910 ha, alerta roja). Unas 220.000 personas de 24 comunas fueron evacuadas de forma preventiva y 62 campings se vaciaron de 50.000 veraneantes. Murió un bombero voluntario y unos 230 resultaron heridos.",
-   "danos": {
-    "texto": "Sin estimación publicada. Francia lleva 92.000 ha quemadas en el año.",
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "transporte",
-      "t": "La autopista A63 se cortó en ambos sentidos entre Burdeos y Bayona; no hubo TGV al sur de Burdeos salvo hacia Agen y Toulouse."
-     },
-     {
-      "cat": "economia",
-      "t": "62 campings evacuados en plena temporada turística en Gironda y Landas."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "alerta_gdacs",
-   "fuentes": [
-    {
-     "t": "Paris Match Belgique (AFP), 30 jul",
-     "u": "https://www.parismatch.be/actualites/monde/2026/07/30/megafeu-en-gironde-lincendie-est-stabilise-et-la-meteo-favorable-PI3SAONZT5ELNDYIA5JBABKJAU/"
-    },
-    {
-     "t": "Paris Match Belgique, 28 jul",
-     "u": "https://www.parismatch.be/actualites/monde/2026/07/28/incendies-en-gironde-15-000-personnes-ont-pu-rentrer-chez-elle-mais-la-hausse-des-temperatures-fait-craindre-le-pire-WCWUIVSLABAKJK2NT6HARTPXEU/"
-    },
-    {
-     "t": "GDACS, alerta roja",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1029628&eventtype=WF"
-    }
-   ],
-   "impacto": null,
-   "afectados": null,
-   "intensidad": {
-    "nivel": 2,
-    "medida": "47.910 ha (GDACS); unas 42.000 ha según la prensa",
-    "ref": "rango 10.000-49.999 ha (dato del texto existente)",
-    "fuente": null
-   }
-  },
-  {
-   "id": "eur-011",
-   "tipo": "incendio",
-   "titulo": "Incendio en Creta: dos bomberos muertos",
-   "lugar": "Sur de Rétimo, Agia Galini",
-   "pais": "Grecia",
-   "inicio": "2026-07-29",
-   "fin": "2026-08-01",
-   "origen": "ambos",
-   "gdacs": [
-    {
-     "t": "WF",
-     "id": 1029958,
-     "a": "naranja"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     24.6,
-     35.15
-    ]
-   },
-   "muertes": 2,
-   "evacuados": 8000,
-   "texto": "Vientos de hasta 120 km/h armaron un frente de más de 12 km. Unas 8.000 personas fueron evacuadas de Agia Galini. Dos bomberos murieron atrapados en un camino de montaña; un tercero murió en otro incendio cerca de Gytheio.",
-   "danos": {
-    "texto": "Casas, instalaciones rurales y animales quemados, sin conteo.",
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "Neos Kosmos (AFP), 31 jul",
-     "u": "https://neoskosmos.com/en/2026/07/31/news/fire-crews-battle-deadly-crete-inferno-as-nation-mourns-three-firefighters/"
-    },
-    {
-     "t": "GDACS, alerta naranja",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1029958&eventtype=WF"
-    },
-    {
-     "t": "Vanguardia, 2-ago-2026",
-     "u": "https://www.vanguardia.com/mundo/2026/08/02/incendios-en-grecia-mas-de-6700-hectareas-quemadas-y-miles-de-evacuados-cerca-de-atenas/"
-    }
-   ],
-   "impacto": null,
-   "afectados": null,
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "intensidad": {
-    "nivel": 1,
-    "medida": "5.500 ha",
-    "ref": "rango 1.000-9.999 ha; superficie informada por las autoridades para el incendio de Creta",
-    "fuente": 2
    }
   },
   {
@@ -12280,60 +12044,6 @@
    }
   },
   {
-   "id": "sam-g01",
-   "tipo": "inundacion",
-   "titulo": "Inundaciones en Manuel Monge",
-   "lugar": "Manuel Monge, Yaracuy",
-   "pais": "Venezuela",
-   "inicio": "2026-07-30",
-   "fin": "2026-08-01",
-   "origen": "gdacs",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104072,
-     "a": "verde"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     -68.75,
-     10.61
-    ]
-   },
-   "muertes": 1,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "GDACS registra 1 muerto en Manuel Monge, Yaracuy.",
-   "criterio": "muertes",
-   "impacto": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Cifras de la recopilación automática de prensa de GDACS; pueden ser parciales."
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "fuentes": [
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104072&eventtype=FL"
-    }
-   ],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
    "id": "asi-g02",
    "tipo": "inundacion",
    "titulo": "Inundaciones en Khan-Uul",
@@ -13795,7 +13505,7 @@
    "lugar": "Costa de Andhra Pradesh (Yanam) y sur de Odisha",
    "pais": "India",
    "inicio": "2026-10-27",
-   "fin": "2026-10-29",
+   "fin": "2026-10-30",
    "origen": "noticias",
    "gdacs": [],
    "geom": {
@@ -13831,7 +13541,7 @@
    "muertes": 5,
    "afectados": null,
    "evacuados": 180000,
-   "texto": "Tocó tierra como ciclón muy severo en la costa de Andhra Pradesh, cerca de Yanam, la mañana del 28 de octubre, con vientos sostenidos de 125 a 135 km/h y ráfagas de 150 km/h. Un día antes se evacuó a unas 180.000 personas en Andhra Pradesh y Odisha. El gobierno de Andhra Pradesh confirmó cinco muertes; la prensa habla de siete a nueve.",
+   "texto": "Tocó tierra como ciclón muy severo en la costa de Andhra Pradesh, cerca de Yanam, la mañana del 28 de octubre, con vientos sostenidos de 125 a 135 km/h y ráfagas de 150 km/h. Un día antes se evacuó a unas 180.000 personas en Andhra Pradesh y Odisha. El gobierno de Andhra Pradesh confirmó cinco muertes; la prensa habla de siete a nueve. Tras el paso del ciclón, decenas de miles de personas quedaron aisladas en aldeas del sur de Odisha y el 30 de octubre varios ríos superaban sus marcas de peligro, con Ganjam, Gajapati y Kandhamal entre los distritos más afectados.",
    "intensidad": {
     "nivel": 1,
     "medida": "vientos sostenidos de 125 a 135 km/h, ráfagas de 150 km/h al tocar tierra",
@@ -13854,6 +13564,10 @@
      {
       "cat": "vivienda",
       "t": "Unas 180.000 personas evacuadas en Andhra Pradesh y Odisha antes de la llegada del ciclón."
+     },
+     {
+      "cat": "vivienda",
+      "t": "Decenas de miles de personas aisladas en aldeas del sur de Odisha tras el ciclón."
      }
     ],
     "mediano": [],
@@ -13872,6 +13586,10 @@
     {
      "t": "Newsdrum, 28-oct-2026",
      "u": "https://newsdrum.in/national/cyclone-arnab-7-reported-dead-in-andhra-odisha-flooded-amit-shah-assures-aid-12763709"
+    },
+    {
+     "t": "Down To Earth, 30-oct-2026",
+     "u": "https://downtoearth.org.in/natural-disasters/cyclone-arnab-aftermath-tens-of-thousands-stranded-in-odisha-villages-as-fresh-weather-system-threatens-more-rain"
     }
    ]
   },
