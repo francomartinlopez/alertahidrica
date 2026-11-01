@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-10-31",
- "desde": "2026-08-02",
+ "actualizado": "2026-11-01",
+ "desde": "2026-08-03",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "27 de julio a 25 de octubre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-10-23",
+  "hasta": "2026-10-30",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -179,7 +179,8 @@
    "EONET_25290",
    "EONET_25340",
    "EONET_25457",
-   "EONET_25589"
+   "EONET_25589",
+   "EONET_25730"
   ],
   "gdacs": [
    1103888
@@ -896,40 +897,40 @@
       11
      ],
      [
-      151.4,
-      11.4
+      150.2,
+      11.9
      ],
      [
       144.8,
       13.1
      ],
      [
-      140.2,
-      13.8
+      139.2,
+      14
      ],
      [
-      135.6,
-      15.9
+      134.4,
+      16.5
      ],
      [
-      130.1,
-      18.1
+      128.9,
+      18.7
      ],
      [
-      125.4,
-      20.9
+      124.9,
+      21.2
      ],
      [
-      123.4,
-      23.7
+      122.3,
+      24.6
      ],
      [
       123.3,
-      26.8
+      27.8
      ],
      [
-      125.5,
-      30.1
+      127.4,
+      31.2
      ]
     ],
     "src": "eonet"
@@ -4262,7 +4263,7 @@
    "intensidad": {
     "nivel": 1,
     "medida": "vientos máximos sostenidos de 93 km/h (tormenta tropical)",
-    "ref": "pico de la tormenta según NASA EONET; escala Saffir-Simpson; primera llegada a tierra en Ibaraki desde 1951",
+    "ref": "pico de la tormenta según NASA EONET; escala Saffir-Simpson",
     "fuente": null
    }
   },
@@ -7102,59 +7103,6 @@
    }
   },
   {
-   "id": "asi-s-n06",
-   "tipo": "lluvia",
-   "titulo": "Lluvias intensas en Gujarat: 27.856 reubicados",
-   "lugar": "Morbi, Surendranagar, Surat, Navsari, Bharuch, Tapi, Vadodara, Kutch y Saurashtra",
-   "pais": "India",
-   "inicio": "2026-07-21",
-   "fin": "2026-08-02",
-   "geom": {
-    "t": "area",
-    "c": [
-     71.3,
-     22.3
-    ],
-    "r": 280
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": 27856,
-   "texto": "Desde el 21 de julio las lluvias inundaron distritos de Kutch, Saurashtra y el sur de Gujarat. Hasta el 1 de agosto se reubicó a 27.856 personas y 114 fueron rescatadas en Bilimora (Navsari). Morbi recibió 220 mm en 12 horas.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Inundación urbana en Ahmedabad y Gandhinagar."
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "afectados",
-   "fuentes": [
-    {
-     "t": "Sphere India, SitRep 5, 2-ago-2026",
-     "u": "https://www.sphereindia.org.in/sites/default/files/2026-08/02.08.2026%20SitRep-%205%20Extreme%20Weather%20Events%20in%20India.pdf"
-    },
-    {
-     "t": "Sphere India, SitRep 4, 25-jul-2026",
-     "u": "https://www.sphereindia.org.in/sites/default/files/2026-08/25.07.2026%20SitRep-%204%20Extreme%20Weather%20Events%20in%20India.pdf"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 1,
-    "medida": "220 mm en 12 h en Morbi; 176 mm en Dhrangadhra",
-    "ref": "en 12 h supera el umbral de lluvia 'extremadamente intensa' del IMD (204,5 mm en 24 h)",
-    "fuente": 0
-   }
-  },
-  {
    "id": "asi-s-n07",
    "tipo": "deslizamiento",
    "titulo": "Alud en un túnel en Chamoli: 7 muertos",
@@ -7738,63 +7686,6 @@
     "medida": "unos 230 ha (570 acres)",
     "ref": "por debajo del umbral de 1.000 ha",
     "fuente": 0
-   }
-  },
-  {
-   "id": "nam-n10",
-   "tipo": "inundacion",
-   "titulo": "Inundación en McCaysville y Copperhill: 13 rescatados",
-   "lugar": "McCaysville (Georgia) y Copperhill (Tennessee), río Ocoee/Toccoa",
-   "pais": "EE.UU.",
-   "inicio": "2026-08-01",
-   "fin": "2026-08-02",
-   "geom": {
-    "t": "punto",
-    "c": [
-     -84.373,
-     34.986
-    ]
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": 13,
-   "texto": "Las tormentas del 1 de agosto inundaron el centro de McCaysville y calles de Copperhill. Rescataron a 13 personas junto al río Ocoee y McCaysville declaró estado de emergencia. Copperhill emitió un aviso para hervir el agua.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Comercios y viviendas del centro de McCaysville, la comisaría y el correo dañados; calles cortadas en Copperhill por socavones."
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "servicios",
-      "t": "Aviso para hervir el agua y pedido de ahorro en Copperhill."
-     },
-     {
-      "cat": "transporte",
-      "t": "West Main Street y Green Drive cerradas en Copperhill."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "emergencia",
-   "fuentes": [
-    {
-     "t": "NewsChannel 9 (Chattanooga), 2 ago 2026",
-     "u": "https://newschannel9.com/news/instagram/flooding-closes-roads-strains-utilities-for-neighboring-polk-fannin-county-communities-weekend-flooding-state-of-emergency-mccaysville-georgia-copperhill-tennessee-boil-water"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
    }
   },
   {
@@ -11253,62 +11144,6 @@
    }
   },
   {
-   "id": "cam-m02",
-   "tipo": "calor",
-   "titulo": "Récords de calor en Mexicali: 51,4 °C",
-   "lugar": "Mexicali, Baja California",
-   "pais": "México",
-   "inicio": "2026-07-31",
-   "fin": "2026-08-02",
-   "geom": {
-    "t": "punto",
-    "c": [
-     -115.47,
-     32.62
-    ]
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "Según Conagua, Mexicali marcó 49,3 °C el 31 de julio, récord para esa fecha (el anterior era 48,1 °C, de 2023), y 51,4 °C el 1 de agosto, también récord para el día. El 2 de agosto llegó a 50,3 °C, segundo día seguido de agosto por encima de 50 °C. Era parte de una onda de calor con máximas previstas de más de 45 °C en el noreste de Baja California y el oeste y noroeste de Sonora.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "record",
-   "fuentes": [
-    {
-     "t": "El Imparcial, 2026-08-03",
-     "u": "https://www.elimparcial.com/mxl/mexicali/2026/08/03/clima-mexicali-enlaza-tres-dias-de-calor-extremo-rompe-records-de-temperatura/"
-    },
-    {
-     "t": "Zeta Tijuana, 2026-08-01",
-     "u": "https://zetatijuana.com/2026/08/ayer-viernes-mexicali-rompio-record-de-calor-al-alcanzar-los-49-3-grados/"
-    },
-    {
-     "t": "ADN40, 2026-08-01",
-     "u": "https://www.adn40.mx/mexico/2026-08-01/ola-de-calor-2026-en-mexico-para-el-clima-de-hoy-estos-estados-tendran-temperaturas-maximas-superiores-a-45-grados"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "51,4 °C el 1 de agosto",
-    "ref": "récord para la fecha; el 31 de julio, 49,3 °C superó el récord de 48,1 °C de 2023 (Conagua)",
-    "fuente": 0
-   }
-  },
-  {
    "id": "cam-m03",
    "tipo": "inundacion",
    "titulo": "Emergencia nacional por inundaciones en el Caribe y el norte",
@@ -13506,8 +13341,14 @@
    "pais": "India",
    "inicio": "2026-10-27",
    "fin": "2026-10-30",
-   "origen": "noticias",
-   "gdacs": [],
+   "origen": "ambos",
+   "gdacs": [
+    {
+     "t": "TC",
+     "id": 1001345,
+     "a": "roja"
+    }
+   ],
    "geom": {
     "t": "trayectoria",
     "pts": [
@@ -13590,6 +13431,10 @@
     {
      "t": "Down To Earth, 30-oct-2026",
      "u": "https://downtoearth.org.in/natural-disasters/cyclone-arnab-aftermath-tens-of-thousands-stranded-in-odisha-villages-as-fresh-weather-system-threatens-more-rain"
+    },
+    {
+     "t": "GDACS, alerta roja TC 1001345",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1001345&eventtype=TC"
     }
    ]
   },
@@ -13659,8 +13504,14 @@
    "pais": "Siria",
    "inicio": "2026-10-29",
    "fin": "2026-10-30",
-   "origen": "noticias",
-   "gdacs": [],
+   "origen": "ambos",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104263,
+     "a": "verde"
+    }
+   ],
    "geom": {
     "t": "area",
     "c": [
@@ -13714,6 +13565,616 @@
     {
      "t": "Gulf News, 30-oct-2026",
      "u": "https://gulfnews.com/world/mena/five-killed-including-four-children-as-flash-floods-sweep-across-syria-1.500728880"
+    },
+    {
+     "t": "GDACS, FL 1104263",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1104263&eventtype=FL"
+    }
+   ]
+  },
+  {
+   "id": "asi-r01",
+   "tipo": "ciclon",
+   "titulo": "Tormenta ciclónica en la Bahía de Bengala rumbo a Andhra Pradesh",
+   "lugar": "Sureste de la Bahía de Bengala; pronóstico de llegada a la costa de Andhra Pradesh",
+   "pais": "India, Sri Lanka",
+   "inicio": "2026-11-01",
+   "fin": null,
+   "origen": "ambos",
+   "gdacs": [
+    {
+     "t": "TC",
+     "id": 1001346,
+     "a": "roja"
+    }
+   ],
+   "geom": {
+    "t": "trayectoria",
+    "pts": [
+     [
+      86.4,
+      11.5
+     ],
+     [
+      84.8,
+      12.2
+     ]
+    ],
+    "src": "aprox"
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Una depresión profunda en el sureste de la Bahía de Bengala, a unos 700 km de Chennai, se intensificaba el 1 de noviembre. El servicio meteorológico de India prevé que sea tormenta ciclónica severa el 2 y que cruce la costa de Andhra Pradesh hacia la mañana del 3. GDACS emitió alerta roja y Sri Lanka, alerta roja por viento y mar para la navegación de altura.",
+   "intensidad": {
+    "nivel": 1,
+    "medida": "120 km/h de viento máximo (GDACS, 1 de noviembre)",
+    "ref": "Escala Saffir-Simpson: tormenta tropical",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Sin daños informados al 1 de noviembre."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "economia",
+      "t": "Sri Lanka ordenó a pescadores y marinos salir de la zona entre 10° y 15° N y 80° y 90° E."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "alerta_gdacs",
+   "fuentes": [
+    {
+     "t": "GDACS, alerta roja TC 1001346, 1-nov-2026",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1001346&eventtype=TC"
+    },
+    {
+     "t": "Newswire (Sri Lanka), 1-nov-2026",
+     "u": "https://www.newswire.lk/2026/11/01/deep-depression-in-bay-of-bengal-expected-to-intensify-into-severe-cyclonic-storm/"
+    },
+    {
+     "t": "ANI, 1-nov-2026",
+     "u": "https://aninews.in/news/national/general-news/bay-of-bengal-depression-intensifies-imd-warns-of-severe-cyclone-threat-to-ap-coast-by-nov-320261101105907/"
+    }
+   ]
+  },
+  {
+   "id": "pac-r01",
+   "tipo": "ciclon",
+   "titulo": "Súper tifón In-fa en el Pacífico occidental",
+   "lugar": "Pacífico occidental, de las Islas Marshall al norte de las Marianas",
+   "pais": "Océano Pacífico",
+   "inicio": "2026-10-23",
+   "fin": null,
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "trayectoria",
+    "pts": [
+     [
+      166.1,
+      10.5
+     ],
+     [
+      166,
+      10.6
+     ],
+     [
+      165,
+      12.2
+     ],
+     [
+      163.3,
+      13.8
+     ],
+     [
+      162.6,
+      14.1
+     ],
+     [
+      161.6,
+      14.5
+     ],
+     [
+      158.9,
+      15.1
+     ],
+     [
+      154.6,
+      15.9
+     ],
+     [
+      149.7,
+      17.1
+     ],
+     [
+      144.3,
+      22.8
+     ]
+    ],
+    "src": "eonet"
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Se formó el 23 de octubre cerca de las Islas Marshall y llegó a 241 km/h de viento sostenido el 28 y el 29 de octubre, sobre mar abierto. El 30 pasó cerca de las islas del norte de las Marianas y el 1 de noviembre seguía con 176 km/h. No hay reportes publicados de víctimas ni daños.",
+   "intensidad": {
+    "nivel": 2,
+    "medida": "241 km/h sostenidos (130 nudos) el 28 y el 29 de octubre",
+    "ref": "Escala Saffir-Simpson: categoría 4",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Sin reportes publicados."
+   },
+   "efectos": {
+    "corto": [],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "intensidad",
+   "fuentes": [
+    {
+     "t": "NASA EONET, EONET_25728",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_25728"
+    }
+   ]
+  },
+  {
+   "id": "eur-r01",
+   "tipo": "inundacion",
+   "titulo": "Inundaciones en Capadocia y Estambul",
+   "lugar": "Göreme (Nevşehir), Pendik (Estambul) y Seydikemer (Muğla)",
+   "pais": "Turquía",
+   "inicio": "2026-10-26",
+   "fin": "2026-10-31",
+   "origen": "gdacs",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104254,
+     "a": "verde"
+    }
+   ],
+   "geom": {
+    "t": "area",
+    "c": [
+     34.83,
+     38.64
+    ],
+    "r": 350
+   },
+   "impacto": null,
+   "muertes": 3,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "GDACS registra tres muertos y cinco heridos en el Museo al Aire Libre de Göreme, dos personas rescatadas en Pendik (Estambul) y cinco edificios dañados en Muğla entre el 26 y el 31 de octubre.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "sin dato físico publicado",
+    "ref": "sin comparación publicada con lo normal del lugar",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Cifras de la recopilación automática de prensa de GDACS; sin balance oficial encontrado."
+   },
+   "efectos": {
+    "corto": [],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "GDACS, FL 1104254 (recopilación automática de prensa)",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1104254&eventtype=FL"
+    }
+   ]
+  },
+  {
+   "id": "asi-r02",
+   "tipo": "inundacion",
+   "titulo": "Lluvias en el sur y el este de India",
+   "lugar": "Nilgiris (Tamil Nadu), East Godavari (Andhra Pradesh) y Gajapati (Odisha)",
+   "pais": "India",
+   "inicio": "2026-10-20",
+   "fin": "2026-10-30",
+   "origen": "gdacs",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104248,
+     "a": "verde"
+    }
+   ],
+   "geom": {
+    "t": "area",
+    "c": [
+     81.7,
+     17.2
+    ],
+    "r": 450
+   },
+   "impacto": null,
+   "muertes": 2,
+   "afectados": 2000,
+   "evacuados": null,
+   "texto": "GDACS registra un muerto en Burliar (Nilgiris), otro en Seethanagaram (East Godavari) y 2.000 personas aisladas en el distrito de Gajapati, Odisha.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "sin dato físico publicado",
+    "ref": "sin comparación publicada con lo normal del lugar",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Una vivienda destruida en Burliar. Cifras de la recopilación automática de prensa de GDACS."
+   },
+   "efectos": {
+    "corto": [],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "GDACS, FL 1104248 (recopilación automática de prensa)",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1104248&eventtype=FL"
+    }
+   ]
+  },
+  {
+   "id": "asi-r03",
+   "tipo": "inundacion",
+   "titulo": "Inundaciones en Aceh, Sumatra del Norte y Java Occidental",
+   "lugar": "Subulussalam (Aceh), Labuhan Batu (Sumatra del Norte) y Bogor (Java Occidental)",
+   "pais": "Indonesia",
+   "inicio": "2026-10-24",
+   "fin": "2026-10-30",
+   "origen": "gdacs",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104253,
+     "a": "verde"
+    }
+   ],
+   "geom": {
+    "t": "area",
+    "c": [
+     97.0,
+     4.37
+    ],
+    "r": 600
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": 32278,
+   "evacuados": null,
+   "texto": "GDACS registra 32.278 personas afectadas entre el 24 y el 30 de octubre, con 342 viviendas dañadas en Subulussalam y 113 en Cibinong (Bogor).",
+   "intensidad": {
+    "nivel": null,
+    "medida": "sin dato físico publicado",
+    "ref": "sin comparación publicada con lo normal del lugar",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Al menos 455 viviendas dañadas. Cifras de la recopilación automática de prensa de GDACS."
+   },
+   "efectos": {
+    "corto": [],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "afectados",
+   "fuentes": [
+    {
+     "t": "GDACS, FL 1104253 (recopilación automática de prensa)",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1104253&eventtype=FL"
+    }
+   ]
+  },
+  {
+   "id": "sam-r01",
+   "tipo": "inundacion",
+   "titulo": "Lluvias en el sudeste y el sur de Brasil",
+   "lugar": "Río de Janeiro, Santa Catarina y otros estados",
+   "pais": "Brasil",
+   "inicio": "2026-10-01",
+   "fin": "2026-10-29",
+   "origen": "gdacs",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104216,
+     "a": "verde"
+    }
+   ],
+   "geom": {
+    "t": "area",
+    "c": [
+     -46.0,
+     -24.0
+    ],
+    "r": 700
+   },
+   "impacto": null,
+   "muertes": 5,
+   "afectados": 1555,
+   "evacuados": null,
+   "texto": "GDACS registra cinco muertos y 1.555 personas afectadas por lluvias e inundaciones en octubre, con evacuados en Rio das Flores (Río de Janeiro), Mafra y Rio Negrinho (Santa Catarina).",
+   "intensidad": {
+    "nivel": null,
+    "medida": "sin dato físico publicado",
+    "ref": "sin comparación publicada con lo normal del lugar",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Cifras de la recopilación automática de prensa de GDACS."
+   },
+   "efectos": {
+    "corto": [],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "GDACS, FL 1104216 (recopilación automática de prensa)",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1104216&eventtype=FL"
+    }
+   ]
+  },
+  {
+   "id": "afr-r02",
+   "tipo": "inundacion",
+   "titulo": "Crecida repentina en el uadi Watir",
+   "lugar": "Wadi Watir, Nuweiba (Sinaí del Sur)",
+   "pais": "Egipto",
+   "inicio": "2026-10-26",
+   "fin": "2026-10-28",
+   "origen": "gdacs",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104264,
+     "a": "verde"
+    }
+   ],
+   "geom": {
+    "t": "area",
+    "c": [
+     34.65,
+     29.03
+    ],
+    "r": 40
+   },
+   "impacto": null,
+   "muertes": 2,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "GDACS registra dos muertos y un desaparecido por una crecida repentina en el uadi Watir, cerca de Nuweiba, en el Sinaí del Sur.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "sin dato físico publicado",
+    "ref": "sin comparación publicada con lo normal del lugar",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Cifras de la recopilación automática de prensa de GDACS."
+   },
+   "efectos": {
+    "corto": [],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "GDACS, FL 1104264 (recopilación automática de prensa)",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1104264&eventtype=FL"
+    }
+   ]
+  },
+  {
+   "id": "asi-r04",
+   "tipo": "inundacion",
+   "titulo": "Inundaciones en Satun y Phuket",
+   "lugar": "Provincias de Satun y Phuket",
+   "pais": "Tailandia",
+   "inicio": "2026-10-18",
+   "fin": "2026-10-28",
+   "origen": "gdacs",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104241,
+     "a": "verde"
+    }
+   ],
+   "geom": {
+    "t": "area",
+    "c": [
+     100.07,
+     6.62
+    ],
+    "r": 150
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": 2031,
+   "evacuados": null,
+   "texto": "GDACS registra 2.031 personas afectadas en la provincia de Satun y 100 hogares afectados en Phuket, en el sur de Tailandia.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "sin dato físico publicado",
+    "ref": "sin comparación publicada con lo normal del lugar",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Cifras de la recopilación automática de prensa de GDACS."
+   },
+   "efectos": {
+    "corto": [],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "afectados",
+   "fuentes": [
+    {
+     "t": "GDACS, FL 1104241 (recopilación automática de prensa)",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1104241&eventtype=FL"
+    }
+   ]
+  },
+  {
+   "id": "afr-r03",
+   "tipo": "inundacion",
+   "titulo": "Inundaciones en Bangui",
+   "lugar": "Bangui",
+   "pais": "República Centroafricana",
+   "inicio": "2026-10-25",
+   "fin": "2026-10-27",
+   "origen": "gdacs",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104256,
+     "a": "verde"
+    }
+   ],
+   "geom": {
+    "t": "area",
+    "c": [
+     18.58,
+     4.36
+    ],
+    "r": 30
+   },
+   "impacto": null,
+   "muertes": 1,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "GDACS registra un muerto y 519 edificios destruidos en Bangui, 56 de ellos en el barrio Dédengué V.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "sin dato físico publicado",
+    "ref": "sin comparación publicada con lo normal del lugar",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "519 edificios destruidos. Cifras de la recopilación automática de prensa de GDACS."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "vivienda",
+      "t": "519 edificios destruidos en Bangui."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "GDACS, FL 1104256 (recopilación automática de prensa)",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1104256&eventtype=FL"
+    }
+   ]
+  },
+  {
+   "id": "asi-r05",
+   "tipo": "inundacion",
+   "titulo": "Inundaciones en el norte de Malasia peninsular",
+   "lugar": "Perak, Penang, Kedah y Pahang",
+   "pais": "Malasia",
+   "inicio": "2026-10-15",
+   "fin": "2026-10-26",
+   "origen": "gdacs",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104239,
+     "a": "verde"
+    }
+   ],
+   "geom": {
+    "t": "area",
+    "c": [
+     100.6,
+     5.2
+    ],
+    "r": 250
+   },
+   "impacto": null,
+   "muertes": 1,
+   "afectados": 798,
+   "evacuados": 509,
+   "texto": "GDACS registra un muerto y 798 personas afectadas; 509 fueron evacuadas en Perak, Penang, Kedah y Pahang.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "sin dato físico publicado",
+    "ref": "sin comparación publicada con lo normal del lugar",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Cifras de la recopilación automática de prensa de GDACS."
+   },
+   "efectos": {
+    "corto": [],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "GDACS, FL 1104239 (recopilación automática de prensa)",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1104239&eventtype=FL"
     }
    ]
   }
