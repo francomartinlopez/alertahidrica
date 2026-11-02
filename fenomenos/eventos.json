@@ -1,15 +1,15 @@
 {
- "actualizado": "2026-11-01",
- "desde": "2026-08-03",
+ "actualizado": "2026-11-02",
+ "desde": "2026-08-04",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
-  "ventana": "27 de julio a 25 de octubre",
+  "ventana": "4 de agosto a 2 de noviembre",
   "fuente": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH",
   "nota": "Alertas naranja y roja de GDACS que se superponen con la ventana de cada año. GDACS cubre ciclones e inundaciones desde antes de 2012, sequías desde 2018 con cambios de método e incendios desde 2021, así que las barras no son del todo comparables entre años. Las alertas de GDACS combinan la fuerza del fenómeno con la población expuesta y su vulnerabilidad, así que también miden impacto posible, no solo intensidad.",
   "anios": [
    {
     "a": 2012,
-    "TC": 9,
+    "TC": 8,
     "FL": 10,
     "DR": 0,
     "WF": 0,
@@ -26,7 +26,7 @@
    {
     "a": 2014,
     "TC": 4,
-    "FL": 7,
+    "FL": 6,
     "DR": 0,
     "WF": 0,
     "rojas": 3
@@ -41,8 +41,8 @@
    },
    {
     "a": 2016,
-    "TC": 13,
-    "FL": 7,
+    "TC": 11,
+    "FL": 6,
     "DR": 0,
     "WF": 0,
     "rojas": 5
@@ -53,7 +53,7 @@
     "FL": 1,
     "DR": 0,
     "WF": 0,
-    "rojas": 4
+    "rojas": 5
    },
    {
     "a": 2018,
@@ -66,65 +66,65 @@
    {
     "a": 2019,
     "TC": 10,
-    "FL": 10,
-    "DR": 11,
+    "FL": 9,
+    "DR": 10,
     "WF": 0,
     "rojas": 7
    },
    {
     "a": 2020,
-    "TC": 13,
-    "FL": 4,
+    "TC": 14,
+    "FL": 5,
     "DR": 6,
     "WF": 0,
-    "rojas": 5
+    "rojas": 7
    },
    {
     "a": 2021,
     "TC": 10,
-    "FL": 9,
+    "FL": 7,
     "DR": 0,
     "WF": 2,
-    "rojas": 5
+    "rojas": 4
    },
    {
     "a": 2022,
-    "TC": 13,
+    "TC": 14,
     "FL": 9,
     "DR": 0,
-    "WF": 2,
+    "WF": 1,
     "rojas": 7
    },
    {
     "a": 2023,
-    "TC": 14,
-    "FL": 5,
+    "TC": 12,
+    "FL": 6,
     "DR": 1,
-    "WF": 3,
-    "rojas": 10
+    "WF": 2,
+    "rojas": 9
    },
    {
     "a": 2024,
     "TC": 13,
-    "FL": 7,
+    "FL": 8,
     "DR": 0,
     "WF": 9,
     "rojas": 7
    },
    {
     "a": 2025,
-    "TC": 10,
-    "FL": 10,
+    "TC": 11,
+    "FL": 11,
     "DR": 1,
     "WF": 9,
-    "rojas": 6
+    "rojas": 7
    },
    {
     "a": 2026,
-    "TC": 7,
-    "FL": 5,
+    "TC": 9,
+    "FL": 4,
     "DR": 4,
-    "WF": 9,
+    "WF": 4,
     "rojas": 5
    }
   ]
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-10-30",
+  "hasta": "2026-10-31",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -3482,7 +3482,7 @@
    "id": "sam-003",
    "tipo": "inundacion",
    "titulo": "Alerta roja por lluvias en la costa de Ecuador",
-   "lugar": "Esmeraldas, Los Ríos, Guayas, El Oro y Manabí",
+   "lugar": "Esmeraldas, Los Ríos, Guayas, El Oro, Manabí, Santa Elena y Galápagos",
    "pais": "Ecuador",
    "inicio": "2026-09-25",
    "fin": null,
@@ -3494,11 +3494,11 @@
     ],
     "r": 280
    },
-   "muertes": 4,
-   "afectados": 32000,
-   "texto": "Más de un mes de lluvia desbordó ríos en la costa. Al 27 de octubre el COE contaba cuatro muertos y unas 32.000 personas afectadas desde el 29 de agosto (la Secretaría de Gestión de Riesgos mantenía tres muertos y 30.539 afectados). El 26 de octubre las lluvias inundaron 86 zonas de Guayaquil. El 30 de octubre, un balance preliminar oficial contaba 443 familias damnificadas en siete comunidades de la parroquia Manglaralto (Santa Elena) por el desborde del río Dos Mangas.",
+   "muertes": 9,
+   "afectados": 36308,
+   "texto": "Más de dos meses de lluvia desbordaron ríos en la costa. Según la Secretaría Nacional de Gestión de Riesgos, al 1 de noviembre había nueve muertos, tres heridos, 36.308 personas afectadas, 10.598 viviendas afectadas y 37 destruidas desde el 29 de agosto, con 993 eventos en las 24 provincias. El 31 de octubre un aguacero en la isla Santa Cruz (Galápagos) dejó dos muertos y unas 2.000 personas afectadas. El 26 de octubre las lluvias inundaron 86 zonas de Guayaquil.",
    "danos": {
-    "texto": "Miles de viviendas dañadas o destruidas; pérdidas agrícolas de USD 60,8 millones según el balance difundido el 27 de octubre.",
+    "texto": "10.598 viviendas afectadas y 37 destruidas (SNGR, 1 de noviembre); pérdidas agrícolas de USD 60,8 millones según el balance difundido el 27 de octubre.",
     "usd": 60.8,
     "rango": null,
     "tipo": "prensa",
@@ -3551,6 +3551,10 @@
     {
      "t": "GDACS, alerta verde",
      "u": "https://www.gdacs.org/report.aspx?eventid=1104167&eventtype=FL"
+    },
+    {
+     "t": "Prensa Latina (SNGR), 1-nov-2026",
+     "u": "https://www.prensa-latina.cu/2026/11/01/ecuador-registra-nueve-muertos-y-mas-de-36-mil-afectados-por-lluvias/"
     }
    ],
    "impacto": null,
@@ -7045,64 +7049,6 @@
    }
   },
   {
-   "id": "asi-s-n05",
-   "tipo": "inundacion",
-   "titulo": "Crecidas repentinas en Nuristán y el centro de Afganistán",
-   "lugar": "Parun y Barg-e-Matal (Nuristán), Paktia y nueve provincias del centro",
-   "pais": "Afganistán",
-   "inicio": "2026-07-20",
-   "fin": "2026-08-03",
-   "geom": {
-    "t": "area",
-    "c": [
-     70.9,
-     35.3
-    ],
-    "r": 150
-   },
-   "impacto": null,
-   "muertes": 26,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "Una serie de crecidas repentinas entre el 20 de julio y el 3 de agosto dejó 24 muertos y 125 heridos en Parun (Nuristán) y 2 muertos y 2.057 afectados en la región central, según cifras preliminares de UNICEF. El 3 de agosto una crecida en Barg-e-Matal destruyó o dañó 191 viviendas.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": "oficial",
-    "fuente": 0,
-    "texto": "120 viviendas destruidas o dañadas en Parun, 191 en Barg-e-Matal, 316 afectadas en la región central y 11 destruidas en Paktia."
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "vivienda",
-      "t": "Viviendas destruidas o dañadas en Nuristán, Paktia y nueve provincias del centro."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "UNICEF Afganistán, Flash Update 4, 20-ago-2026",
-     "u": "https://www.unicef.org/afghanistan/documents/unicef-afghanistan-flash-update-4-central-eastern-and-northern-regions-flash-floods"
-    },
-    {
-     "t": "News On AIR, 21-jul-2026",
-     "u": "https://newsonair.gov.in/20-killed-80-injured-in-rain-triggered-flash-foods-in-afganistan/"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
    "id": "asi-s-n07",
    "tipo": "deslizamiento",
    "titulo": "Alud en un túnel en Chamoli: 7 muertos",
@@ -7420,60 +7366,6 @@
     "nivel": 1,
     "medida": "2.852 ha",
     "ref": "entre 1.000 y 9.999 ha",
-    "fuente": 0
-   }
-  },
-  {
-   "id": "nam-n05",
-   "tipo": "incendio",
-   "titulo": "Spokane Complex: al menos 600 estructuras dañadas o destruidas",
-   "lugar": "Condado de Spokane, Washington",
-   "pais": "EE.UU.",
-   "inicio": "2026-08-01",
-   "fin": "2026-08-03",
-   "geom": {
-    "t": "area",
-    "c": [
-     -117.45,
-     47.75
-    ],
-    "r": 20
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "Tres incendios iniciados el 1 de agosto (Old Trails, Fairview y Autumn Lane) quemaron más de 7.700 acres (3.100 ha) en un día. Dañaron o destruyeron al menos 600 estructuras, entre ellas viviendas, amenazaron a unas 4.000 y obligaron a evacuar a cientos de personas. El gobernador declaró la emergencia estatal por sequía y prohibió las quemas hasta fin de septiembre.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Al menos 600 estructuras dañadas o destruidas, entre ellas viviendas; unas 4.000 amenazadas."
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "vivienda",
-      "t": "Al menos 600 estructuras dañadas o destruidas, incluidas viviendas."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "emergencia",
-   "fuentes": [
-    {
-     "t": "Good Morning America (ABC News), 3 ago 2026",
-     "u": "https://www.goodmorningamerica.com/news/story/dangerous-heat-millions-west-critical-wildfire-alerts-pacific-135291675"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 1,
-    "medida": "más de 3.100 ha (7.700 acres) en un día",
-    "ref": "entre 1.000 y 9.999 ha; el Servicio Meteorológico emitió una alerta roja de 'situación particularmente peligrosa', poco frecuente",
     "fuente": 0
    }
   },
@@ -7837,54 +7729,6 @@
     "nivel": 3,
     "medida": "sequía extrema (D3) en Maine; caudales y agua subterránea en mínimos récord",
     "ref": "mínimos récord de caudal en Maine",
-    "fuente": 0
-   }
-  },
-  {
-   "id": "nam-n14",
-   "tipo": "lluvia",
-   "titulo": "Williamsport: su día más lluvioso sin sistema tropical",
-   "lugar": "Williamsport y cuenca de Penns Creek, Pensilvania",
-   "pais": "EE.UU.",
-   "inicio": "2026-08-02",
-   "fin": "2026-08-03",
-   "geom": {
-    "t": "punto",
-    "c": [
-     -77.0,
-     41.24
-    ]
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "El 2 de agosto cayeron 134 mm en Williamsport, su quinto día más lluvioso registrado y el más lluvioso no causado por un sistema tropical. En Montoursville se midieron 144 mm en 24 horas y Penns Creek superó el nivel de inundación.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "record",
-   "fuentes": [
-    {
-     "t": "NWS Middle Atlantic River Forecast Center, ago 2026",
-     "u": "https://www.weather.gov/media/marfc/Flood_Event_List/Flood_Events_2026/08_02_2026FloodSummary.pdf"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "134 mm en un día en Williamsport; 144 mm en Montoursville",
-    "ref": "5.º día más lluvioso registrado en Williamsport y el más lluvioso sin sistema tropical",
     "fuente": 0
    }
   },
@@ -9268,82 +9112,6 @@
     "medida": "+147% de lluvia en septiembre (25,3 mm de promedio estatal)",
     "ref": "segundo septiembre más lluvioso registrado y el mayor desde 1904",
     "fuente": 1
-   }
-  },
-  {
-   "id": "sam-n01",
-   "tipo": "inundacion",
-   "titulo": "Sistema frontal en el centro-sur de Chile",
-   "lugar": "Regiones de Maule, Ñuble, Biobío, La Araucanía y Los Ríos",
-   "pais": "Chile",
-   "inicio": "2026-07-30",
-   "fin": "2026-08-03",
-   "geom": {
-    "t": "area",
-    "c": [
-     -72.6,
-     -37.5
-    ],
-    "r": 280
-   },
-   "impacto": null,
-   "muertes": 2,
-   "afectados": 14569,
-   "evacuados": null,
-   "texto": "Un sistema frontal desbordó ríos entre Maule y Los Ríos, con alerta roja en Maule, Biobío y La Araucanía. Al 3 de agosto Senapred contaba 1.399 damnificados y 5.936 personas aisladas; solo en La Araucanía hubo 14.569 afectados. Dos personas murieron en Panguipulli cuando un árbol cayó sobre su vehículo.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": 0,
-    "texto": "27 viviendas destruidas, 685 con daño mayor y 4.838 con daño menor, según Senapred al 3 de agosto."
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "servicios",
-      "t": "Unos 250.000 clientes quedaron sin luz en el pico del 2 de agosto; el 3 de agosto seguían 23.104 sin suministro entre O'Higgins y Los Lagos."
-     },
-     {
-      "cat": "vivienda",
-      "t": "27 viviendas destruidas y 685 con daño mayor; 156 personas en albergues."
-     },
-     {
-      "cat": "agro",
-      "t": "Dirigentes de Malleco y Padre Las Casas pidieron declarar emergencia agrícola."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "Emol, 3 ago 2026",
-     "u": "https://www.emol.com/noticias/Nacional/2026/08/03/1207431/balance-sistema-frontal-centro-sur.html"
-    },
-    {
-     "t": "Cooperativa, 30 jul-3 ago 2026",
-     "u": "https://cooperativa.cl/noticias/pais/tiempo/sistema-frontal-dos-muertos-miles-de-aislados-y-cortes-de-luz-en-el-sur/2026-07-30/142152.html"
-    },
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104063&eventtype=FL"
-    }
-   ],
-   "origen": "ambos",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104063,
-     "a": "verde"
-    }
-   ],
-   "intensidad": {
-    "nivel": 1,
-    "medida": "8 estaciones fluviales sobre el umbral rojo; 36 mm en una hora en Putú",
-    "ref": "umbral rojo de crecida de la DGA; el alcalde de Angol dijo que la situación no tenía precedentes en la ciudad",
-    "fuente": 0
    }
   },
   {
@@ -11879,60 +11647,6 @@
    }
   },
   {
-   "id": "asi-g02",
-   "tipo": "inundacion",
-   "titulo": "Inundaciones en Khan-Uul",
-   "lugar": "Khan-Uul; Ulaanbaatar; Songino Khairkhan",
-   "pais": "Mongolia",
-   "inicio": "2026-08-01",
-   "fin": "2026-08-03",
-   "origen": "gdacs",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104073,
-     "a": "verde"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     106.81,
-     47.82
-    ]
-   },
-   "muertes": 1,
-   "afectados": null,
-   "evacuados": 189,
-   "texto": "GDACS registra 1 muerto en Ulaanbaatar; 183 evacuados en Khan-Uul; 6 evacuados en Songino Khairkhan; 4 rescatados en Khan-Uul.",
-   "criterio": "muertes",
-   "impacto": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Cifras de la recopilación automática de prensa de GDACS; pueden ser parciales."
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "fuentes": [
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104073&eventtype=FL"
-    }
-   ],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
    "id": "eur-g02",
    "tipo": "inundacion",
    "titulo": "Inundaciones en Manzanedo de Valdueza",
@@ -13575,7 +13289,7 @@
   {
    "id": "asi-r01",
    "tipo": "ciclon",
-   "titulo": "Tormenta ciclónica en la Bahía de Bengala rumbo a Andhra Pradesh",
+   "titulo": "Ciclón Murasu rumbo a Andhra Pradesh",
    "lugar": "Sureste de la Bahía de Bengala; pronóstico de llegada a la costa de Andhra Pradesh",
    "pais": "India, Sri Lanka",
    "inicio": "2026-11-01",
@@ -13606,7 +13320,7 @@
    "muertes": null,
    "afectados": null,
    "evacuados": null,
-   "texto": "Una depresión profunda en el sureste de la Bahía de Bengala, a unos 700 km de Chennai, se intensificaba el 1 de noviembre. El servicio meteorológico de India prevé que sea tormenta ciclónica severa el 2 y que cruce la costa de Andhra Pradesh hacia la mañana del 3. GDACS emitió alerta roja y Sri Lanka, alerta roja por viento y mar para la navegación de altura.",
+   "texto": "El sistema de la Bahía de Bengala se convirtió en el ciclón Murasu. El 1 de noviembre estaba a unos 560 km al este-sudeste de Chennai; el servicio meteorológico de India prevé que sea tormenta ciclónica severa el lunes 2 y que cruce la costa sur de Andhra Pradesh, entre Nellore y Narsapur, entre la noche del 2 y la madrugada del 3, con vientos de 100 a 110 km/h y ráfagas de 120 km/h. Es el segundo ciclón que amenaza esa costa en una semana. GDACS emitió alerta roja.",
    "intensidad": {
     "nivel": 1,
     "medida": "120 km/h de viento máximo (GDACS, 1 de noviembre)",
@@ -13625,6 +13339,10 @@
      {
       "cat": "economia",
       "t": "Sri Lanka ordenó a pescadores y marinos salir de la zona entre 10° y 15° N y 80° y 90° E."
+     },
+     {
+      "cat": "servicios",
+      "t": "Alerta costera en Andhra Pradesh, donde el ciclón anterior (28 de octubre) dañó rutas, cultivos y redes eléctricas y de telecomunicaciones."
      }
     ],
     "mediano": [],
@@ -13643,6 +13361,10 @@
     {
      "t": "ANI, 1-nov-2026",
      "u": "https://aninews.in/news/national/general-news/bay-of-bengal-depression-intensifies-imd-warns-of-severe-cyclone-threat-to-ap-coast-by-nov-320261101105907/"
+    },
+    {
+     "t": "Madhyamam, 1-nov-2026",
+     "u": "https://madhyamamonline.com/india/cyclone-murasu-forms-bay-bengal-imd-issues-coastal-alert-1568240"
     }
    ]
   },
@@ -13664,40 +13386,40 @@
       10.5
      ],
      [
-      166,
-      10.6
+      165.6,
+      11.1
      ],
      [
-      165,
-      12.2
-     ],
-     [
-      163.3,
-      13.8
+      163.9,
+      13.3
      ],
      [
       162.6,
       14.1
      ],
      [
-      161.6,
-      14.5
-     ],
-     [
-      158.9,
-      15.1
+      160.8,
+      14.6
      ],
      [
       154.6,
       15.9
      ],
      [
-      149.7,
-      17.1
+      147.8,
+      17.8
+     ],
+     [
+      142.8,
+      21.5
      ],
      [
       144.3,
       22.8
+     ],
+     [
+      141.7,
+      22.3
      ]
     ],
     "src": "eonet"
