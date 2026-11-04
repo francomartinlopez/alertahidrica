@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-03",
- "desde": "2026-08-05",
+ "actualizado": "2026-11-04",
+ "desde": "2026-08-06",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "4 de agosto a 2 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-01",
+  "hasta": "2026-11-02",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -2185,65 +2185,6 @@
     {
      "t": "FL",
      "id": 1104141,
-     "a": "verde"
-    }
-   ],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
-   "id": "asi-013",
-   "tipo": "inundacion",
-   "titulo": "Inundaciones en Sri Lanka y sequía en el este",
-   "lugar": "Sur y oeste de Sri Lanka",
-   "pais": "Sri Lanka",
-   "inicio": "2026-07-28",
-   "fin": "2026-08-05",
-   "geom": {
-    "t": "area",
-    "c": [
-     80.2,
-     6.9
-    ],
-    "r": 110
-   },
-   "muertes": 8,
-   "evacuados": 12000,
-   "texto": "El monzón dejó 8 muertos y 12.000 desplazados. Al mismo tiempo, las regiones del este dependen de camiones cisterna para el agua potable por la sequía.",
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "Al Jazeera, 5 ago",
-     "u": "https://www.aljazeera.com/news/2026/8/5/indias-severe-monsoon-season-causes-more-than-100-deaths-since-july"
-    },
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104075&eventtype=FL"
-    }
-   ],
-   "impacto": null,
-   "afectados": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "origen": "ambos",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104075,
      "a": "verde"
     }
    ],
@@ -5003,68 +4944,6 @@
     "medida": "",
     "ref": "GDACS solo informa alerta naranja de impacto medio en 1,59 millones de km²; sin categoría D ni déficit de lluvia publicados",
     "fuente": null
-   }
-  },
-  {
-   "id": "eur-012",
-   "tipo": "incendio",
-   "titulo": "Incendio en el monte Citerón, cerca de Mégara",
-   "lugar": "Citerón, Veniza y Psatha (Ática Occidental)",
-   "pais": "Grecia",
-   "inicio": "2026-07-31",
-   "fin": "2026-08-05",
-   "origen": "ambos",
-   "gdacs": [
-    {
-     "t": "WF",
-     "id": 1029987,
-     "a": "naranja"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     23.3,
-     38.1
-    ]
-   },
-   "texto": "El viento empujó el fuego hacia el este hasta pocos kilómetros de Mégara, a 50 km de Atenas. Hubo alertas de evacuación en varios pueblos. GDACS estimó 18.419 ha quemadas (alerta naranja).",
-   "criterio": "alerta_gdacs",
-   "fuentes": [
-    {
-     "t": "Brussels Times, 2 ago",
-     "u": "https://www.brusselstimes.com/2255509/greece-wildfires-spread-northwest-of-athens-threatening-historic-town"
-    },
-    {
-     "t": "GDACS, alerta naranja",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1029987&eventtype=WF"
-    },
-    {
-     "t": "EU Space (Copernicus), 3-ago-2026",
-     "u": "https://eu-space.europa.eu/components/earth-observation-copernicus/image-of-the-day/wildfires-burn-more-10000-hectares-greece"
-    }
-   ],
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "intensidad": {
-    "nivel": 2,
-    "medida": "más de 10.000 ha (Copernicus, imagen del 2-ago); 18.419 ha según GDACS",
-    "ref": "rango 10.000-49.999 ha",
-    "fuente": 2
    }
   },
   {
@@ -13296,36 +13175,36 @@
       11.5
      ],
      [
-      163.3,
-      13.8
+      163,
+      14
      ],
      [
-      162.1,
+      161.6,
       14.5
      ],
      [
-      158.9,
-      15.1
+      156.3,
+      15.6
      ],
      [
-      151.3,
-      16.6
+      147.8,
+      17.8
      ],
      [
-      144.5,
-      19.7
+      142.9,
+      22.2
      ],
      [
-      144,
-      22.9
+      143.6,
+      22.1
      ],
      [
-      143,
-      22
+      139.9,
+      23.2
      ],
      [
-      139.3,
-      23.1
+      138.4,
+      24.4
      ]
     ],
     "src": "eonet"
@@ -13920,6 +13799,60 @@
     {
      "t": "GDACS, alerta verde FL 1104266, 3-nov-2026",
      "u": "https://www.gdacs.org/report.aspx?eventid=1104266&eventtype=FL"
+    }
+   ]
+  },
+  {
+   "id": "nam-s01",
+   "tipo": "inundacion",
+   "titulo": "Lluvia histórica e inundaciones en el sudeste de Florida",
+   "lugar": "Palm Bay y Melbourne (condado de Brevard), Port St. Lucie y los condados de Martin y Palm Beach",
+   "pais": "EE.UU.",
+   "inicio": "2026-11-01",
+   "fin": null,
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     -80.6,
+     27.9
+    ],
+    "r": 80
+   },
+   "impacto": null,
+   "muertes": 2,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Entre el domingo 1 y el lunes 2 de noviembre cayeron hasta 2 pies (unos 600 mm) de lluvia en el sur del condado de Brevard, una lluvia que las autoridades y la prensa describen como histórica. En Palm Bay murieron dos personas, una de ellas dentro de un vehículo, y los equipos de emergencia rescataron a cientos desde el domingo; la Comisión de Pesca y Vida Silvestre rescató a más de 60 el lunes. También hubo inundaciones en St. Lucie, Martin y Palm Beach, con más lluvia prevista para el martes 3.",
+   "intensidad": {
+    "nivel": 2,
+    "medida": "hasta unos 600 mm (2 pies) en dos días en el sur de Brevard",
+    "ref": "lluvia calificada de histórica; sin récord oficial publicado",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Calles y viviendas inundadas en Palm Bay y Port St. Lucie; sin estimación publicada."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "servicios",
+      "t": "La inundación alteró la votación en un centro de Magnolia Park (Palm Bay)."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "ABC News, 3 nov",
+     "u": "https://abcnews.com/US/2-dead-hundreds-rescued-amid-severe-flooding-florida/story?id=137819002"
     }
    ]
   }
