@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-04",
- "desde": "2026-08-06",
+ "actualizado": "2026-11-05",
+ "desde": "2026-08-07",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "4 de agosto a 2 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-02",
+  "hasta": "2026-11-03",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -309,85 +309,6 @@
     "nivel": 3,
     "medida": "vientos máximos sostenidos de 269 km/h (categoría 5)",
     "ref": "pico de la tormenta según NASA EONET; escala Saffir-Simpson",
-    "fuente": null
-   }
-  },
-  {
-   "id": "pac-002",
-   "tipo": "ciclon",
-   "titulo": "Tormenta Kujira (Luis y Maymay) en el norte de Luzón",
-   "lugar": "Isabela e Ilocos Sur, Luzón",
-   "pais": "Filipinas",
-   "inicio": "2026-07-31",
-   "fin": "2026-08-06",
-   "geom": {
-    "t": "trayectoria",
-    "pts": [
-     [
-      125.5,
-      16.6
-     ],
-     [
-      122.3,
-      17.1
-     ],
-     [
-      121.2,
-      17.6
-     ],
-     [
-      120.4,
-      17.6
-     ],
-     [
-      118.5,
-      19
-     ],
-     [
-      117,
-      21
-     ]
-    ],
-    "src": "aprox"
-   },
-   "impacto": [
-    122.0,
-    17.0
-   ],
-   "muertes": 13,
-   "afectados": 80633,
-   "texto": "Tocó tierra dos veces: en Maconacon, Isabela, el 1 de agosto, y en Magsingal, Ilocos Sur, el 6 de agosto. Dejó 13 muertos, 9 desaparecidos y 80.633 afectados.",
-   "danos": {
-    "texto": "Daños agrícolas y de infraestructura por PHP 105,7 M (USD 1,7 M) solo en Pangasinan.",
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "agro",
-      "t": "El Departamento de Agricultura reportó PHP 689,66 M de daño agrícola, sumando el efecto del monzón."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "Wikipedia, temporada de tifones 2026",
-     "u": "https://en.wikipedia.org/wiki/2026_Pacific_typhoon_season"
-    }
-   ],
-   "evacuados": null,
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 1,
-    "medida": "tormenta tropical",
-    "ref": "escala Saffir-Simpson",
     "fuente": null
    }
   },
@@ -5448,60 +5369,6 @@
    }
   },
   {
-   "id": "afr-010",
-   "tipo": "inundacion",
-   "titulo": "Inundaciones en Limbe y Kumba",
-   "lugar": "Limbe y Kumba (Sudoeste)",
-   "pais": "Camerún",
-   "inicio": "2026-08-04",
-   "fin": "2026-08-06",
-   "origen": "gdacs",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104078,
-     "a": "verde"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     9.2,
-     4.0
-    ]
-   },
-   "muertes": 3,
-   "texto": "GDACS registra tres muertos en Limbe y 100 evacuados en Kumba.",
-   "danos": {
-    "texto": "Cifras de la recopilación automática de prensa de GDACS; pueden ser parciales.",
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104078&eventtype=FL"
-    }
-   ],
-   "impacto": null,
-   "afectados": null,
-   "evacuados": null,
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
    "id": "afr-011",
    "tipo": "inundacion",
    "titulo": "Inundaciones en Adré",
@@ -6139,59 +6006,6 @@
     "nivel": 3,
     "medida": "media mensual de 32,3 °C (+3,4 °C)",
     "ref": "el agosto más cálido en Túnez desde 1950, según el Instituto Nacional de Meteorología",
-    "fuente": 0
-   }
-  },
-  {
-   "id": "afr-n03",
-   "tipo": "calor",
-   "titulo": "Ola de calor de ocho días en Marruecos",
-   "lugar": "Sur y centro del país (Taroudant, Smara, Guelmim, Tiznit)",
-   "pais": "Marruecos",
-   "inicio": "2026-07-30",
-   "fin": "2026-08-06",
-   "geom": {
-    "t": "area",
-    "c": [
-     -8.0,
-     30.0
-    ],
-    "r": 500
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "La Dirección General de Meteorología registró una ola de calor del 30 de julio al 6 de agosto, con máximas de 48,6 °C en Taroudant, 48,4 °C en Smara y 46,4 °C en Guelmim. En el balance del verano, Oujda tuvo el verano más cálido de su registro y Casablanca, Kenitra y El Jadida el julio más cálido.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "record",
-   "fuentes": [
-    {
-     "t": "Morocco World News, 5-oct-2026",
-     "u": "https://www.moroccoworldnews.com/2026/10/340697/dgm-morocco-summer-2026-ranks-eighth-hottest-since-1981/"
-    },
-    {
-     "t": "Morocco World News, 2-ago-2026",
-     "u": "https://www.moroccoworldnews.com/2026/08/332796/morocco-issues-orange-alert-for-heat-wave-reaching-47c-until-tuesday/"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "48,6 °C en Taroudant",
-    "ref": "récords locales: verano más cálido registrado en Oujda (+2,22 °C) y julio más cálido en Casablanca (+2,15 °C), Kenitra y El Jadida; a nivel nacional, octavo verano más cálido desde 1981",
     "fuente": 0
    }
   },
@@ -9124,54 +8938,6 @@
    }
   },
   {
-   "id": "sam-n06",
-   "tipo": "tornado",
-   "titulo": "Tornado en Pedro Osório",
-   "lugar": "Pedro Osório, sur de Rio Grande do Sul",
-   "pais": "Brasil",
-   "inicio": "2026-08-06",
-   "fin": "2026-08-06",
-   "geom": {
-    "t": "punto",
-    "c": [
-     -52.82,
-     -31.86
-    ]
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "Un tornado recorrió unos 34 km, con hasta 600 m de ancho, en Pedro Osório. Dañó casas y galpones y arrancó eucaliptos, sin muertos ni heridos.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": 0,
-    "texto": "Casas y galpones dañados; eucaliptos arrancados."
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "intensidad",
-   "fuentes": [
-    {
-     "t": "Wikipedia, List of South American tornadoes in 2026",
-     "u": "https://en.wikipedia.org/wiki/List_of_South_American_tornadoes_in_2026"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "F3 (PREVOTS); F2 preliminar (MetSul)",
-    "ref": "escala Fujita; recorrido de unos 34 km",
-    "fuente": 0
-   }
-  },
-  {
    "id": "sam-n07",
    "tipo": "calor",
    "titulo": "Ola de calor en el centro-oeste y sudeste de Brasil",
@@ -10011,63 +9777,6 @@
     "nivel": 2,
     "medida": "42,8 °C (109 °F) de máxima; 30 °C (86 °F) de mínima",
     "ref": "récord para el 24 de agosto (anterior: 107 °F en 2023); la mínima igualó la más alta registrada en la zona",
-    "fuente": 0
-   }
-  },
-  {
-   "id": "nam-m03",
-   "tipo": "incendio",
-   "titulo": "Incendio Mouse Meadow: 20.000 ha en el sur de Nevada",
-   "lugar": "Sitio de Seguridad Nacional de Nevada y Campo de Pruebas y Entrenamiento de Nevada, condado de Nye, Nevada",
-   "pais": "EE.UU.",
-   "inicio": "2026-07-23",
-   "fin": "2026-08-06",
-   "geom": {
-    "t": "area",
-    "c": [
-     -115.9,
-     37.4
-    ],
-    "r": 25
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "Empezó el 23 de julio en tierras federales de acceso restringido del condado de Nye, al noroeste de Las Vegas. Tenía unos 5.800 acres el 29 de julio y llegó a 49.766 acres (20.140 ha) al 6 de agosto, con 10 % de contención. No hubo evacuaciones ni estructuras amenazadas.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "intensidad",
-   "fuentes": [
-    {
-     "t": "News 3 Las Vegas, 6 ago 2026",
-     "u": "https://news3lv.com/news/local/fire-crews-battle-mouse-meadow-fire-as-it-nears-50000-acres-10-contained-in-nye-county"
-    },
-    {
-     "t": "FOX5 Las Vegas, 30 jul 2026",
-     "u": "https://www.fox5vegas.com/2026/07/30/mouse-meadow-fire-burns-nearly-5800-acres-nye-county-with-no-containment/"
-    },
-    {
-     "t": "FOX5 Las Vegas, 5 ago 2026",
-     "u": "https://www.fox5vegas.com/2026/08/05/lightning-sparked-wildfires-burn-over-50000-acres-southern-nevada/"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "20.140 ha (49.766 acres)",
-    "ref": "entre 10.000 y 49.999 ha",
     "fuente": 0
    }
   },
@@ -13175,36 +12884,36 @@
       11.5
      ],
      [
-      163,
-      14
+      162.7,
+      14.1
      ],
      [
-      161.6,
-      14.5
+      160.8,
+      14.6
      ],
      [
-      156.3,
-      15.6
+      152.9,
+      16.3
      ],
      [
-      147.8,
-      17.8
+      144.5,
+      19.7
      ],
      [
-      142.9,
-      22.2
+      144.3,
+      22.8
      ],
      [
-      143.6,
-      22.1
+      140.9,
+      22.6
      ],
      [
-      139.9,
-      23.2
+      138.7,
+      23.8
      ],
      [
-      138.4,
-      24.4
+      140,
+      28.1
      ]
     ],
     "src": "eonet"
