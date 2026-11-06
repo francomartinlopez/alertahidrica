@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-05",
- "desde": "2026-08-07",
+ "actualizado": "2026-11-06",
+ "desde": "2026-08-08",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "4 de agosto a 2 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-03",
+  "hasta": "2026-11-04",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -183,7 +183,8 @@
    "EONET_25730"
   ],
   "gdacs": [
-   1103888
+   1103888,
+   1104269
   ]
  },
  "eventos": [
@@ -6621,68 +6622,6 @@
    }
   },
   {
-   "id": "asi-s-n04",
-   "tipo": "inundacion",
-   "titulo": "Nubes torrenciales y crecidas en Jammu y Cachemira",
-   "lugar": "Kishtwar, Shopian, Kupwara, Poonch, Rajouri, Doda y Udhampur",
-   "pais": "India",
-   "inicio": "2026-06-01",
-   "fin": "2026-08-07",
-   "geom": {
-    "t": "area",
-    "c": [
-     74.9,
-     33.5
-    ],
-    "r": 150
-   },
-   "impacto": null,
-   "muertes": 31,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "Jammu y Cachemira registró 35 nubes torrenciales en 2026 hasta el 4 de agosto, con 31 muertos por crecidas y aludes desde junio. El 1 de agosto una de ellas arrastró escombros sobre casas y un mercado en Chatroo (Kishtwar). El 7 de agosto una crecida en Ramnagar (Udhampur) dejó un muerto y un desaparecido.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": "prensa",
-    "fuente": 0,
-    "texto": "Decenas de casas, comercios, escuelas, canales de riego y campos arrastrados o anegados; puentes y caminos destruidos."
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "transporte",
-      "t": "Cierre temporal de la ruta nacional Jammu-Srinagar y de caminos en Kangan y Pahalgam."
-     },
-     {
-      "cat": "servicios",
-      "t": "Cortes de electricidad y comunicaciones en zonas de Kishtwar; aldeas remotas aisladas."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "IANS, 4-ago-2026",
-     "u": "https://ianslive.in/summer-of-devastating-cloudbursts-leaves-behind-trail-of-death-destruction-in-jk--20260804121601"
-    },
-    {
-     "t": "ETV Bharat, 7-ago-2026",
-     "u": "https://www.etvbharat.com/en/state/jammu-and-kashmir-udhampur-district-flash-flood-casualties-updates-enn26080708381"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
    "id": "asi-s-n07",
    "tipo": "deslizamiento",
    "titulo": "Alud en un túnel en Chamoli: 7 muertos",
@@ -10114,72 +10053,6 @@
    }
   },
   {
-   "id": "eur-m04",
-   "tipo": "calor",
-   "titulo": "Récord nacional de calor en Eslovaquia: 42,2 °C",
-   "lugar": "Dolné Plachtince y Kamenica nad Hronom (sur de Eslovaquia); Bad Deutsch-Altenburg (Austria)",
-   "pais": "Eslovaquia, Austria",
-   "inicio": "2026-08-03",
-   "fin": "2026-08-07",
-   "geom": {
-    "t": "area",
-    "c": [
-     18.0,
-     48.1
-    ],
-    "r": 150
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "El 6 de agosto Dolné Plachtince marcó 42,2 °C, el valor más alto medido en Eslovaquia desde 1951, un día después de los 41,4 °C de Kamenica nad Hronom. El récord nacional anterior, de 40,3 °C en Hurbanovo (2007), se superó cuatro veces en menos de seis semanas. Según AP, Austria también registró su máxima histórica en Bad Deutsch-Altenburg y Budapest tuvo su noche más cálida registrada.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "agro",
-      "t": "El calor y la sequía hicieron caer fruta antes de madurar en Eslovaquia."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "record",
-   "fuentes": [
-    {
-     "t": "Noviny.sk (TASR), 6-ago-2026",
-     "u": "https://www.noviny.sk/ranne-noviny/1243216-co-den-to-rekord-dnes-namerali-42-2-c"
-    },
-    {
-     "t": "Noviny.sk, 5-ago-2026",
-     "u": "https://www.noviny.sk/slovensko/1242749-slovensko-ma-novy-teplotny-rekord-v-kamenici-nad-hronom-namerali-41-4-stupna-celzia"
-    },
-    {
-     "t": "Startitup, 19-sep-2026",
-     "u": "https://www.startitup.sk/?p=1238711"
-    },
-    {
-     "t": "Boston Globe (AP), 7-ago-2026",
-     "u": "https://www.bostonglobe.com/2026/08/07/world/serbia-races-contain-wildfires-europes-blistering-heat-wave-grips-balkans/"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 3,
-    "medida": "42,2 °C en Dolné Plachtince",
-    "ref": "récord nacional de Eslovaquia desde 1951 (balance del SHMÚ); el anterior era 40,3 °C de 2007",
-    "fuente": 2
-   }
-  },
-  {
    "id": "eur-m05",
    "tipo": "inundacion",
    "titulo": "Tormentas en el norte y centro de Italia: dos muertas",
@@ -12880,40 +12753,40 @@
       10.5
      ],
      [
-      165.3,
-      11.5
+      165,
+      12.2
      ],
      [
       162.7,
       14.1
      ],
      [
-      160.8,
-      14.6
+      159.9,
+      14.9
      ],
      [
       152.9,
       16.3
      ],
      [
-      144.5,
-      19.7
+      143.4,
+      20.5
      ],
      [
       144.3,
       22.8
      ],
      [
-      140.9,
-      22.6
+      140.2,
+      23
      ],
      [
       138.7,
       23.8
      ],
      [
-      140,
-      28.1
+      141.5,
+      29.4
      ]
     ],
     "src": "eonet"
@@ -13562,6 +13435,60 @@
     {
      "t": "ABC News, 3 nov",
      "u": "https://abcnews.com/US/2-dead-hundreds-rescued-amid-severe-flooding-florida/story?id=137819002"
+    }
+   ]
+  },
+  {
+   "id": "afr-t01",
+   "tipo": "inundacion",
+   "titulo": "Inundación en Kindu",
+   "lugar": "Kindu, Maniema",
+   "pais": "República Democrática del Congo",
+   "inicio": "2026-11-01",
+   "fin": "2026-11-03",
+   "origen": "gdacs",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104269,
+     "a": "verde"
+    }
+   ],
+   "geom": {
+    "t": "punto",
+    "c": [
+     25.93,
+     -2.95
+    ]
+   },
+   "impacto": null,
+   "muertes": 2,
+   "afectados": 35000,
+   "evacuados": null,
+   "texto": "GDACS registra 2 muertos, 35 heridos y unas 35.000 personas afectadas por la inundación en Kindu entre el 1 y el 3 de noviembre.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "",
+    "ref": "",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Sin detalle de daños. Cifras de la recopilación automática de prensa de GDACS (alerta verde); pueden ser parciales."
+   },
+   "efectos": {
+    "corto": [],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "afectados",
+   "fuentes": [
+    {
+     "t": "GDACS, alerta verde",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1104269&eventtype=FL"
     }
    ]
   }
