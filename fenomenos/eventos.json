@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-06",
- "desde": "2026-08-08",
+ "actualizado": "2026-11-07",
+ "desde": "2026-08-09",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "4 de agosto a 2 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-04",
+  "hasta": "2026-11-05",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -3655,8 +3655,8 @@
     "r": 330
    },
    "muertes": 3,
-   "evacuados": 3735,
-   "texto": "El Paraná superó el nivel de evacuación en Itatí, Isla del Cerrito, Corrientes, Barranqueras, Goya y Reconquista, y el Iguazú en Puerto Iguazú. Hay unas 3.700 personas evacuadas o autoevacuadas: 2.239 en Chaco (29 oct) y unas 1.500 en Corrientes (28 oct), más las primeras familias en Santa Fe. Tres trabajadores rurales murieron mientras trasladaban hacienda.",
+   "evacuados": 4330,
+   "texto": "El Paraná superó el nivel de evacuación en Itatí, Isla del Cerrito, Corrientes, Barranqueras, Goya y Reconquista, y el Iguazú en Puerto Iguazú. Al 5 y 6 de noviembre hay unas 4.300 personas evacuadas o autoevacuadas: 2.239 en Chaco, 1.967 en Corrientes y unas 124 en Santa Fe. El 6 de noviembre el río Uruguay volvió a crecer en el tramo alto y se cerraron cuatro pasos fluviales a Brasil. Tres trabajadores rurales murieron mientras trasladaban hacienda.",
    "danos": {
     "texto": "Sin estimación publicada. El Senasa registra unos 147.500 bovinos y bubalinos evacuados desde agosto en cinco provincias.",
     "usd": null,
@@ -3727,6 +3727,10 @@
     {
      "t": "GDACS, alerta verde",
      "u": "https://www.gdacs.org/report.aspx?eventid=1104218&eventtype=FL"
+    },
+    {
+     "t": "Infobae, 6-nov-2026",
+     "u": "https://www.infobae.com/politica/2026/11/06/el-nino-la-crecida-del-rio-uruguay-obligo-a-cerrar-cuatro-pasos-fluviales-a-brasil/"
     }
    ],
    "impacto": null,
@@ -8804,79 +8808,6 @@
    }
   },
   {
-   "id": "sam-n04",
-   "tipo": "tornado",
-   "titulo": "Tornado en Piraí do Sul",
-   "lugar": "Zona rural de Piraí do Sul (Campos Gerais), Paraná",
-   "pais": "Brasil",
-   "inicio": "2026-08-08",
-   "fin": "2026-08-08",
-   "geom": {
-    "t": "punto",
-    "c": [
-     -49.93,
-     -24.53
-    ]
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": 150,
-   "evacuados": 35,
-   "texto": "Un tornado clasificado F3 por el Simepar recorrió al menos 17,3 km en la zona rural de Piraí do Sul, con vientos estimados de 253 a 332 km/h. Destruyó 6 casas, dañó 30 y derribó una torre de transmisión; hubo 150 afectados y ningún herido. El mismo día hubo tornados en Candói y Pinhão.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": 0,
-    "texto": "6 casas destruidas y 30 dañadas; galpones agrícolas sin techo, un puesto de salud dañado y una torre de transmisión caída."
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "vivienda",
-      "t": "6 casas destruidas y 30 dañadas; 35 personas pasaron a casas de familiares o amigos."
-     },
-     {
-      "cat": "servicios",
-      "t": "Cayó una torre de transmisión y hubo cortes de luz en propiedades rurales."
-     },
-     {
-      "cat": "agro",
-      "t": "Galpones, una granja porcina y pasturas dañados."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "intensidad",
-   "fuentes": [
-    {
-     "t": "Band Paraná, 10 ago 2026",
-     "u": "https://www.band.com.br/band-parana/noticias/tornado-destroi-casas-e-deixa-150-afetados-em-pirai-do-sul-202608101335"
-    },
-    {
-     "t": "Band Paraná, 14 ago 2026",
-     "u": "https://www.band.com.br/band-parana/noticias/simepar-classifica-tornado-em-pirai-do-sul-no-parana-como-f3-202608141854"
-    },
-    {
-     "t": "O Liberal, 9 ago 2026",
-     "u": "https://www.oliberal.com/brasil/tornado-atinge-regi-o-do-parana-e-causa-estragos-1.1155088"
-    },
-    {
-     "t": "Wikipedia, List of South American tornadoes in 2026",
-     "u": "https://en.wikipedia.org/wiki/List_of_South_American_tornadoes_in_2026"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "F3, vientos de 253 a 332 km/h",
-    "ref": "escala Fujita, clasificación del Simepar; la red PREVOTS lo clasificó F4 (al menos 380 km/h)",
-    "fuente": 1
-   }
-  },
-  {
    "id": "sam-n07",
    "tipo": "calor",
    "titulo": "Ola de calor en el centro-oeste y sudeste de Brasil",
@@ -10396,80 +10327,6 @@
     "nivel": 2,
     "medida": "hasta 75% menos lluvia en junio en Grande-Terre",
     "ref": "segundo junio más seco desde 1991 en Guadalupe (Météo-France); en julio, 1 de 13 estaciones de agua subterránea en nivel de crisis",
-    "fuente": 0
-   }
-  },
-  {
-   "id": "oce-m01",
-   "tipo": "nieve",
-   "titulo": "Nieve a nivel del mar y mínimas récord en Nueva Zelanda",
-   "lugar": "Dunedin, Christchurch, península de Banks, Wellington e interior de Canterbury y Otago",
-   "pais": "Nueva Zelanda",
-   "inicio": "2026-08-03",
-   "fin": "2026-08-08",
-   "geom": {
-    "t": "area",
-    "c": [
-     172.5,
-     -43.5
-    ],
-    "r": 450
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "Un frente frío llevó nieve hasta el nivel del mar en Dunedin, Christchurch y la península de Banks, y Wellington tuvo nieve por primera vez en 15 años. NIWA registró varios récords de temperatura mínima entre el 6 y el 8 de agosto, con −10,7 °C en Cass. La demanda eléctrica nacional llegó a un récord de 7.247 MW el 5 de agosto.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Más de 20 choques atendidos por la policía en Dunedin el 4 de agosto, sin heridos; sin cifras de daños publicadas."
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "transporte",
-      "t": "Se suspendieron todos los colectivos de Dunedin y los ferris entre las islas Norte y Sur; cerraron por nieve la SH2 en Remutaka Hill y la Desert Road."
-     },
-     {
-      "cat": "servicios",
-      "t": "Transpower advirtió sobre una posible falta de energía en el pico de la mañana del 6 y el 7 de agosto; hubo alteraciones en escuelas de la Isla Sur."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "record",
-   "fuentes": [
-    {
-     "t": "NIWA, resumen climático de agosto 2026 (4-sep-2026)",
-     "u": "https://niwa.co.nz/climate-and-weather/monthly/climate-summary-august-2026"
-    },
-    {
-     "t": "1News, 5-ago-2026",
-     "u": "https://www.1news.co.nz/2026/08/05/major-roads-reopen-metservice-says-coldest-night-to-come/"
-    },
-    {
-     "t": "Otago Daily Times, 5-ago-2026",
-     "u": "https://www.odt.co.nz/otago/freezing-frosty-start-for-many-in-south-jzxrk1m9"
-    },
-    {
-     "t": "Reuters vía Daily Maverick, 4-ago-2026",
-     "u": "https://www.dailymaverick.co.za/article/2026-08-04-antarctic-cold-snap-sweeps-new-zealands-south-island-shuts-roads-and-schools.md"
-    },
-    {
-     "t": "The Guardian vía inkl, 5-ago-2026",
-     "u": "https://www.inkl.com/news/new-zealand-capital-delights-in-rare-snowfall-as-southern-city-residents-ski-down-worlds-steepest-street"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "nieve en Wellington por primera vez en 15 años; −10,7 °C en Cass (6-ago)",
-    "ref": "varios récords de temperatura mínima del 6 al 8 de agosto según NIWA; Taumarunui, tercera mínima más baja desde 2007; Auckland, la más fría desde 2021",
     "fuente": 0
    }
   },
@@ -13489,6 +13346,61 @@
     {
      "t": "GDACS, alerta verde",
      "u": "https://www.gdacs.org/report.aspx?eventid=1104269&eventtype=FL"
+    }
+   ]
+  },
+  {
+   "id": "sam-t01",
+   "tipo": "inundacion",
+   "titulo": "Inundaciones en Kimbiri (Cusco) y la selva central de Perú",
+   "lugar": "Distrito de Kimbiri (La Convención, Cusco) y Palcazú (Oxapampa, Pasco)",
+   "pais": "Perú",
+   "inicio": "2026-10-26",
+   "fin": "2026-11-06",
+   "origen": "gdacs",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104259,
+     "a": "verde"
+    }
+   ],
+   "geom": {
+    "t": "area",
+    "c": [
+     -73.9,
+     -12.6
+    ],
+    "r": 120
+   },
+   "impacto": null,
+   "muertes": 0,
+   "afectados": 1091,
+   "evacuados": null,
+   "texto": "GDACS registra inundaciones entre el 26 de octubre y el 6 de noviembre en el distrito de Kimbiri (Cusco), con 65 viviendas dañadas y 14 personas rescatadas, y en Palcazú (Pasco); en total cuenta 1.091 personas afectadas y ningún muerto.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "",
+    "ref": "",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Cifras de la recopilación automática de prensa de GDACS (alerta verde); sin balance oficial encontrado."
+   },
+   "efectos": {
+    "corto": [],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "afectados",
+   "fuentes": [
+    {
+     "t": "GDACS, alerta verde FL 1104259, 6-nov-2026",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1104259&eventtype=FL"
     }
    ]
   }
