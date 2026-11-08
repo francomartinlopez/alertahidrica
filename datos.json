@@ -1,23 +1,22 @@
 {
  "meta": {
   "titulo": "Súper Niño 2026-27 en Argentina",
-  "actualizado": "2026-11-07",
-  "actualizado_texto": "7 de noviembre de 2026",
+  "actualizado": "2026-11-08",
+  "actualizado_texto": "8 de noviembre de 2026",
   "proxima": "Se actualiza todos los días por la mañana.",
   "autor": "Franco Martín López",
-  "version": 27,
+  "version": 28,
   "cambios": [
-   "Paraná (Entre Ríos) llegó a 4,69 m, a 1 cm de la alerta; Santa Fe 4,68 m y Rosario 4,11 m siguen subiendo. En el NEA baja muy lento: Corrientes estable en 7,00 m.",
-   "Crece el río Uruguay en el tramo alto: Santo Tomé 8,45 m el viernes a las 20 (COEM) con 15 cm por hora; Alba Posse, Panambí y San Javier sobre la alerta. Prefectura cerró cuatro pasos fluviales a Brasil.",
-   "Chubut envió a la Legislatura el proyecto de ley 130/26 de emergencia meteorológica, preventiva y de infraestructura hasta el 30 de abril de 2027.",
-   "Balance del temporal del 4 de noviembre en Misiones: 197 viviendas dañadas en 21 localidades y un posible tornado en Panambí. Hoy rige alerta naranja por tormentas en Misiones.",
-   "Copernicus: octubre de 2026 fue el más cálido registrado (+1,75 °C). Niño-3.4 diario: +3,46 °C el 5 de noviembre."
+   "Paraná (Entre Ríos) superó la alerta el sábado 7 (4,73 m) y el domingo a las 6 marcaba 4,85 m; Santa Fe 4,75 m y Rosario 4,14 m siguen subiendo. Itatí repuntó a 7,48 m, a 2 cm de la evacuación.",
+   "El Uruguay sigue creciendo en el tramo alto: Santo Tomé 9,90 m el sábado y Paso de los Libres 6,10 m; el INA ve probable superar la alerta desde el 11 de noviembre.",
+   "Nuevo pronóstico NMME (8 nov): pico de +3,48 °C en diciembre y vuelta a neutral hacia julio de 2027. Lluvias NDE: 65% sobre lo normal en el Litoral. ONI ASO +2,46 y RONI +1,97.",
+   "Chaco ratificó 2.239 desplazados (parte del 7 nov); reabrió el paso provisorio sobre el Pindaytí. SMN: solo alerta amarilla por viento en Santa Cruz y Tierra del Fuego."
   ]
  },
  "alerta": {
   "nivel": "rojo",
-  "titular": "El Paraná queda a 1 cm de la alerta en Paraná y el Uruguay vuelve a crecer: Prefectura cierra cuatro pasos a Brasil",
-  "bajada": "Aguas abajo sigue la suba: **Paraná llegó a 4,69 m, a 1 cm de la alerta**, con 8 cm en un día; Santa Fe marcó 4,68 m, Rosario 4,11 m y **La Paz sigue sobre la alerta (6,01 m)**. El INA prevé que la suba siga entre 7 y 14 días. **El río Uruguay vuelve a crecer en el tramo alto**: Santo Tomé llegó a 8,45 m a las 20 del viernes, subiendo 15 cm por hora; Alba Posse, Panambí y San Javier están sobre la alerta y **Prefectura cerró cuatro pasos fluviales a Brasil**. En el norte el Paraná baja muy lento y sigue **sobre la evacuación en Isla del Cerrito (7,48 m), Barranqueras (6,85 m), Goya (6,08 m) y Reconquista (5,89 m)**; **Corrientes sigue justo en el nivel de evacuación (7,00 m)**. Hay unos **4.300 desplazados** (Chaco 2.239, Corrientes 1.967 y Santa Fe unos 124) y **murieron tres trabajadores rurales** trasladando hacienda. Este sábado rige **alerta naranja por tormentas en Misiones** y amarilla en Corrientes, Chaco y Formosa. Chubut envió a la Legislatura un proyecto de ley de emergencia. **No hay emergencia nacional declarada.**"
+  "titular": "El Paraná superó la alerta en Paraná y sigue subiendo, mientras el Uruguay crece en el tramo alto rumbo a Paso de los Libres",
+  "bajada": "Este domingo 8 de noviembre **el Paraná superó la alerta en el puerto de Paraná: 4,85 m**, en suba y a 15 cm de la evacuación; Santa Fe marcó 4,75 m y Rosario 4,14 m, también crecientes, y La Paz sigue sobre la alerta. En el norte el río sigue **sobre la evacuación en Isla del Cerrito (7,41 m), Barranqueras (6,81 m), Goya (6,00 m) y Reconquista (5,86 m)**; **Corrientes sigue en 7,00 m**, justo en la evacuación, e **Itatí repuntó a 7,48 m**, a 2 cm de ese nivel. **El río Uruguay sigue creciendo**: Santo Tomé llegó a 9,90 m y Paso de los Libres a 6,10 m, y el INA ve probable que supere la alerta desde el 11 de noviembre; siguen cerrados los pasos fluviales a Brasil. Hay unos **4.300 desplazados** (Chaco 2.239, Corrientes 1.967 y Santa Fe unos 124) y **murieron tres trabajadores rurales**. Hoy solo rige **alerta amarilla por viento en Santa Cruz y Tierra del Fuego**. Los nuevos modelos de NOAA ubican el pico del Niño en **diciembre (+3,5 °C)**, con lluvias sobre lo normal en el Litoral hasta enero. **No hay emergencia nacional declarada.**"
  },
  "kpis": [
   {
@@ -25,16 +24,16 @@
    "label": "Niño-3.4 semanal",
    "valor": "+3,4",
    "unidad": "°C",
-   "detalle": "Semana centrada el 28 de octubre (boletín de NOAA del 2 de noviembre): igual que la semana anterior, el valor más alto del evento y **siete semanas seguidas sobre +3 °C**. Niño-1+2, frente a Perú y Ecuador, en +5,4 °C. El dato diario llegó a **+3,65 °C el 26 de octubre**, el más alto desde 1982 (cálculo propio con OISST); el 5 de noviembre marcó +3,46 °C",
+   "detalle": "Semana centrada el 28 de octubre (boletín de NOAA del 2 de noviembre): igual que la semana anterior, el valor más alto del evento y **siete semanas seguidas sobre +3 °C**. Niño-1+2, frente a Perú y Ecuador, en +5,4 °C. El dato diario llegó a **+3,65 °C el 26 de octubre**, el más alto desde 1982 (cálculo propio con OISST); el 6 de noviembre marcó +3,47 °C. Trimestre agosto-octubre: ONI +2,46 °C y RONI +1,97 °C",
    "tono": "critico",
-   "fuente": "[NOAA CPC, datos semanales](https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for)"
+   "fuente": "[NOAA CPC, datos semanales](https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for) · [NOAA CPC, ONI](https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt)"
   },
   {
    "id": "evac",
    "label": "Evacuados y autoevacuados",
    "valor": "~4.300",
    "unidad": "personas",
-   "detalle": "1.967 en Corrientes (Defensa Civil, 5 nov), 2.239 en Chaco (parte oficial del 5 nov, sin cambios desde el 29 de octubre) y unas 124 en Santa Fe (88 en el norte al 29 oct y 36 en la capital al 6 nov)",
+   "detalle": "1.967 en Corrientes (Defensa Civil, 5 nov), 2.239 en Chaco (parte oficial del 7 nov, sin cambios desde el 29 de octubre) y unas 124 en Santa Fe (88 en el norte al 29 oct y 36 en la capital al 6 nov)",
    "tono": "critico",
    "fuente": "[El Litoral (Corrientes), 5 nov](https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida) · [La Voz del Chaco, 3 nov](https://www.diariolavozdelchaco.com/2026/11/03/emergencia-hidrica-chaco-parana-paraguay-bermejo-3-noviembre/) · [Sin Mordaza](https://sinmordaza.com/noticia/523550-el-parana-supera-el-nivel-de-evacuacion-en-el-norte-de-santa-fe-hay-88-personas-evacuadas.html) · [Mirador Provincial, 6 nov](https://www.miradorprovincial.com/2026/11/06/crecida-del-rio-en-santa-fe-ya-son-10-las-familias-alojadas-en-los-modulos-de-alto-verde/)"
   },
@@ -52,9 +51,9 @@
    "label": "Puertos sobre evacuación",
    "valor": "5",
    "unidad": "",
-   "detalle": "Isla del Cerrito (7,48 m, 6 nov), Barranqueras (6,85 m), Goya (6,08 m) y Reconquista (5,89 m), estables o en baja lenta; **Corrientes sigue justo en la evacuación (7,00 m)**. **Paraná (Entre Ríos) quedó a 1 cm de la alerta** (4,69 m) y el Uruguay vuelve a crecer en el tramo alto",
+   "detalle": "Isla del Cerrito (7,41 m), Barranqueras (6,81 m), Goya (6,00 m) y Reconquista (5,86 m), en baja lenta; **Corrientes sigue justo en la evacuación (7,00 m)** e Itatí repuntó a 7,48 m. **Paraná (Entre Ríos) superó la alerta: 4,85 m** el 8 de noviembre, y el Uruguay crece hacia Paso de los Libres (6,10 m)",
    "tono": "alerta",
-   "fuente": "[Prefectura vía RíoAlert, 7 nov](https://rioalert.com.ar/rios/parana)"
+   "fuente": "[Prefectura vía RíoAlert, 8 nov](https://rioalert.com.ar/rios/parana)"
   },
   {
    "id": "emerg",
@@ -94,6 +93,66 @@
   }
  ],
  "hoy": [
+  {
+   "fecha": "8 nov",
+   "f": "2026-11-08",
+   "lugar": "Paraná (Entre Ríos)",
+   "prov": "Entre Ríos",
+   "texto": "**El Paraná superó la alerta en el puerto de Paraná**: 4,73 m el sábado a las 8 y **4,85 m el domingo a las 6**, todavía en suba (la evacuación es 5,00 m). Santa Fe marcó 4,75 m, Diamante 5,07 m, Victoria 4,20 m y Rosario 4,14 m, todos crecientes; La Paz, 6,06 m sobre la alerta.",
+   "tipo": "rio",
+   "url": "https://entreriosya.com.ar/el-rio-llego-a-474-metros-en-parana-y-quedo-a-26-centimetros-del-nivel-de-evacuacion/",
+   "fuente": "EntreRíosYa y Prefectura vía RíoAlert"
+  },
+  {
+   "fecha": "8 nov",
+   "f": "2026-11-08",
+   "lugar": "Santo Tomé, Garruchos y Paso de los Libres",
+   "prov": "Corrientes",
+   "texto": "**Sigue la crecida del río Uruguay**: Santo Tomé llegó a 9,90 m el sábado al mediodía, Garruchos 11,85 m y Paso de los Libres 6,10 m el domingo, todos crecientes. El INA prevé aguas altas del 8 al 14 de noviembre y que Paso de los Libres supere la alerta (7,50 m) desde el 11.",
+   "tipo": "rio",
+   "url": "https://rioalert.com.ar/",
+   "fuente": "Prefectura vía RíoAlert; INA"
+  },
+  {
+   "fecha": "8 nov",
+   "f": "2026-11-08",
+   "lugar": "Itatí",
+   "prov": "Corrientes",
+   "texto": "El Paraná repuntó en Itatí a **7,48 m, a 2 cm de la evacuación**; Corrientes sigue en 7,00 m e Isla del Cerrito bajó a 7,41 m.",
+   "tipo": "rio",
+   "url": "https://rioalert.com.ar/rios/parana",
+   "fuente": "Prefectura vía RíoAlert"
+  },
+  {
+   "fecha": "7 nov",
+   "f": "2026-11-07",
+   "lugar": "Chaco",
+   "prov": "Chaco",
+   "texto": "El parte del sábado ratifica **2.239 personas evacuadas y autoevacuadas de 629 familias**; los albergues provinciales alojan a 167 personas de 64 familias. Puerto Vilelas, Barranqueras e Isla del Cerrito siguen en alerta roja.",
+   "tipo": "evacuacion",
+   "url": "https://charatachaco.net/2026/11/07/sociedad/crecida-de-los-rios-en-chaco-evacuados-puerto-vilelas-noviembre-2026/",
+   "fuente": "Charata Chaco"
+  },
+  {
+   "fecha": "7 nov",
+   "f": "2026-11-07",
+   "lugar": "Alba Posse–Colonia Aurora (RP 2)",
+   "prov": "Misiones",
+   "texto": "Reabrió el **paso provisorio del Ejército sobre el arroyo Pindaytí** en la Ruta Provincial 2, las 24 horas, para vehículos de hasta 20 toneladas.",
+   "tipo": "rio",
+   "url": "https://www.primeraedicion.com.ar/nota/101158606/reabrieron-el-paso-provisorio-sobre-el-arroyo-pindayti-en-la-ruta-provincial-2/",
+   "fuente": "Primera Edición"
+  },
+  {
+   "fecha": "7 nov",
+   "f": "2026-11-07",
+   "lugar": "Región núcleo",
+   "prov": "Santa Fe",
+   "texto": "La BCR estimó que el granizo del 3 de noviembre alcanzó **unas 15.600 hectáreas** en el sudeste de Córdoba y el sur de Santa Fe (2.300 con la señal de radar más intensa), con lluvias de 70 a 130 mm; es área expuesta, no daño medido.",
+   "tipo": "tormenta",
+   "url": "https://www.lanacion.com.ar/economia/campo/super-nino-miles-de-hectareas-fueron-alcanzadas-por-violentas-tormentas-y-hay-cultivos-barridos-por-nid07112026/",
+   "fuente": "La Nación (BCR)"
+  },
   {
    "fecha": "7 nov",
    "f": "2026-11-07",
@@ -443,7 +502,9 @@
    "tipo": "tormenta",
    "url": "https://misiones.gob.ar/policia-fuerte-temporal-en-eldorado-12-voladuras-de-techos-arboles-y-postes-caidos-un-herido-y-zonas-sin-luz-ni-internet/",
    "fuente": "Gobierno de Misiones"
-  },
+  }
+ ],
+ "eventos_previos": [
   {
    "fecha": "31 oct",
    "f": "2026-10-31",
@@ -513,9 +574,7 @@
    "tipo": "rio",
    "url": "https://examedia.com.ar/portada/post/88157648",
    "fuente": "El Litoral (vía Examedia)"
-  }
- ],
- "eventos_previos": [
+  },
   {
    "fecha": "30 oct",
    "f": "2026-10-30",
@@ -1528,19 +1587,19 @@
   }
  ],
  "senales": {
-  "empeora": "**Paraná (Entre Ríos) quedó a 16 cm de la alerta** y Santa Fe y Rosario siguen subiendo. Entre Ríos declaró el desastre agropecuario: estima afectada más de la mitad de la capacidad productiva de las islas. El INA prevé nuevas subas en 7 a 15 días por lluvias en la cuenca del Paraguay.",
-  "mejora": "El Paraná sigue bajando, aunque muy lento, en Itatí, Corrientes y Barranqueras, e Itatí sigue debajo de la evacuación. El Uruguay sigue en baja en Paso de los Libres (5,31 m) y Concordia (7,66 m)."
+  "empeora": "**Paraná (Entre Ríos) superó la alerta** (4,85 m) y Santa Fe, Diamante, Victoria y Rosario siguen subiendo. **El Uruguay crece en el tramo alto** (Santo Tomé 9,90 m, Paso de los Libres 6,10 m) y el INA ve probable superar la alerta desde el 11. Los modelos de NOAA prevén lluvias sobre lo normal en el Litoral (65%) y en el sur de Brasil (66%) hasta enero.",
+  "mejora": "El Paraná sigue bajando muy lento en Isla del Cerrito, Barranqueras, Goya y Reconquista, y Concordia está lejos de la alerta. El pico previsto del Niño bajó de +3,85 a +3,48 °C en la nueva corrida de NOAA."
  },
  "rios": [
   {
    "puerto": "Itatí",
    "rio": "Paraná",
-   "altura": 7.42,
-   "fecha": "7 nov",
+   "altura": 7.48,
+   "fecha": "8 nov",
    "alerta": 6.8,
    "evac": 7.5,
    "estado": "alerta",
-   "lectura": "7,42 m el 7 de noviembre, en baja lenta y debajo de la evacuación (7,50 m).",
+   "lectura": "**7,48 m el 8 de noviembre, en repunte** y a 2 cm de la evacuación (7,50 m).",
    "lon": -58.24,
    "lat": -27.27,
    "hist": [
@@ -1603,6 +1662,10 @@
     [
      "2026-11-07",
      7.42
+    ],
+    [
+     "2026-11-08",
+     7.48
     ]
    ],
    "proy": []
@@ -1610,12 +1673,12 @@
   {
    "puerto": "Isla del Cerrito",
    "rio": "Paraná",
-   "altura": 7.48,
-   "fecha": "6 nov",
+   "altura": 7.41,
+   "fecha": "8 nov",
    "alerta": null,
    "evac": 6.8,
    "estado": "evacuacion",
-   "lectura": "Sobre evacuación (6,80 m): **7,48 m el 6 de noviembre** según Prefectura, en baja lenta.",
+   "lectura": "Sobre evacuación (6,80 m): **7,41 m el 8 de noviembre**, en baja lenta.",
    "lon": -58.62,
    "lat": -27.29,
    "hist": [
@@ -1646,6 +1709,10 @@
     [
      "2026-11-06",
      7.48
+    ],
+    [
+     "2026-11-08",
+     7.41
     ]
    ],
    "proy": []
@@ -1654,13 +1721,13 @@
    "puerto": "Corrientes",
    "rio": "Paraná",
    "altura": 7.0,
-   "fecha": "7 nov",
+   "fecha": "8 nov",
    "alerta": 6.5,
    "evac": 7.0,
    "record": 8.65,
    "record_txt": "Récord 1983: 8,65 m; 1998: 8,38 m",
    "estado": "evacuacion",
-   "lectura": "**7,00 m el 7 de noviembre, estable justo en el nivel de evacuación**. Defensa Civil espera una bajante de hasta un metro en los próximos días; el INA lo ve oscilante o en leve baja sobre la alerta.",
+   "lectura": "**7,00 m el 8 de noviembre, estable justo en el nivel de evacuación** desde hace tres días. El INA lo ve oscilando con leve descenso y con alta probabilidad de seguir sobre la alerta.",
    "lon": -58.83,
    "lat": -27.47,
    "hist": [
@@ -1735,6 +1802,10 @@
     [
      "2026-11-07",
      7.0
+    ],
+    [
+     "2026-11-08",
+     7.0
     ]
    ],
    "proy": []
@@ -1742,12 +1813,12 @@
   {
    "puerto": "Barranqueras",
    "rio": "Paraná",
-   "altura": 6.85,
-   "fecha": "7 nov",
+   "altura": 6.81,
+   "fecha": "8 nov",
    "alerta": 6.0,
    "evac": 6.5,
    "estado": "evacuacion",
-   "lectura": "6,85 m el 7 de noviembre, en baja muy lenta y sobre la evacuación (6,50 m).",
+   "lectura": "6,81 m el 8 de noviembre, en baja muy lenta y sobre la evacuación (6,50 m).",
    "lon": -58.93,
    "lat": -27.49,
    "hist": [
@@ -1818,6 +1889,10 @@
     [
      "2026-11-07",
      6.85
+    ],
+    [
+     "2026-11-08",
+     6.81
     ]
    ],
    "proy": []
@@ -1825,12 +1900,12 @@
   {
    "puerto": "Goya",
    "rio": "Paraná",
-   "altura": 6.08,
-   "fecha": "7 nov",
+   "altura": 6.0,
+   "fecha": "8 nov",
    "alerta": 5.2,
    "evac": 5.7,
    "estado": "evacuacion",
-   "lectura": "6,08 m el 7 de noviembre, estable sobre la evacuación (5,70 m).",
+   "lectura": "6,00 m el 8 de noviembre, en baja lenta y sobre la evacuación (5,70 m). El INA prevé una estabilización gradual.",
    "lon": -59.26,
    "lat": -29.14,
    "hist": [
@@ -1893,6 +1968,10 @@
     [
      "2026-11-07",
      6.08
+    ],
+    [
+     "2026-11-08",
+     6.0
     ]
    ],
    "proy": []
@@ -1900,12 +1979,12 @@
   {
    "puerto": "Reconquista",
    "rio": "Paraná",
-   "altura": 5.89,
-   "fecha": "7 nov",
+   "altura": 5.86,
+   "fecha": "8 nov",
    "alerta": 5.1,
    "evac": 5.3,
    "estado": "evacuacion",
-   "lectura": "5,89 m el 7 de noviembre, en leve baja sobre la evacuación (5,30 m). El INA prevé 5,46 m hacia el 10 de noviembre.",
+   "lectura": "5,86 m el 8 de noviembre, en bajante lenta sobre la evacuación (5,30 m); en Villa Ocampo el agua bajó 30 a 40 cm.",
    "lon": -59.65,
    "lat": -29.15,
    "hist": [
@@ -1976,6 +2055,10 @@
     [
      "2026-11-07",
      5.89
+    ],
+    [
+     "2026-11-08",
+     5.86
     ]
    ],
    "proy": [
@@ -1988,12 +2071,12 @@
   {
    "puerto": "Santa Fe",
    "rio": "Paraná",
-   "altura": 4.68,
-   "fecha": "7 nov",
+   "altura": 4.75,
+   "fecha": "8 nov",
    "alerta": 5.3,
    "evac": 5.7,
    "estado": "subiendo",
-   "lectura": "4,68 m el 7 de noviembre, en suba (7 cm en un día); la alerta es 5,30 m. El INA prevé que siga subiendo de forma gradual durante 7 a 14 días.",
+   "lectura": "4,75 m el 8 de noviembre, en suba (7 cm en un día); la alerta es 5,30 m. El INA prevé un ascenso gradual; el dato ya superó su proyección del 5 de noviembre (4,58 m para el 10).",
    "lon": -60.7,
    "lat": -31.63,
    "hist": [
@@ -2048,6 +2131,10 @@
     [
      "2026-11-07",
      4.68
+    ],
+    [
+     "2026-11-08",
+     4.75
     ]
    ],
    "proy": []
@@ -2055,12 +2142,12 @@
   {
    "puerto": "Paraná",
    "rio": "Paraná",
-   "altura": 4.69,
-   "fecha": "7 nov",
+   "altura": 4.85,
+   "fecha": "8 nov",
    "alerta": 4.7,
    "evac": 5.0,
-   "estado": "subiendo",
-   "lectura": "4,69 m el 7 de noviembre: **a 1 cm de la alerta** (4,70 m), con 8 cm de suba en un día. El INA prevé que se acerque o supere apenas la alerta en la segunda semana de noviembre.",
+   "estado": "alerta",
+   "lectura": "**Superó la alerta (4,70 m) el sábado 7** (4,73 m a las 8) y el domingo 8 a las 6 marcaba **4,85 m, en suba**; la evacuación es 5,00 m. Prefectura emitió recomendaciones para isleños y navegantes.",
    "lon": -60.52,
    "lat": -31.73,
    "hist": [
@@ -2115,24 +2202,23 @@
     [
      "2026-11-07",
      4.69
+    ],
+    [
+     "2026-11-08",
+     4.85
     ]
    ],
-   "proy": [
-    [
-     "2026-11-10",
-     4.51
-    ]
-   ]
+   "proy": []
   },
   {
    "puerto": "Rosario",
    "rio": "Paraná",
-   "altura": 4.11,
-   "fecha": "7 nov",
+   "altura": 4.14,
+   "fecha": "8 nov",
    "alerta": 5.0,
    "evac": 5.25,
    "estado": "subiendo",
-   "lectura": "4,11 m el 7 de noviembre, en suba lenta; la alerta es 5,00 m.",
+   "lectura": "4,14 m el 8 de noviembre, en suba lenta; la alerta es 5,00 m. El INA prevé un ascenso gradual en 7 a 14 días.",
    "lon": -60.64,
    "lat": -32.95,
    "hist": [
@@ -2195,6 +2281,10 @@
     [
      "2026-11-07",
      4.11
+    ],
+    [
+     "2026-11-08",
+     4.14
     ]
    ],
    "proy": []
@@ -2202,12 +2292,12 @@
   {
    "puerto": "Paso de los Libres",
    "rio": "Uruguay",
-   "altura": 5.47,
-   "fecha": "7 nov",
+   "altura": 6.1,
+   "fecha": "8 nov",
    "alerta": 7.5,
    "evac": 8.5,
    "estado": "subiendo",
-   "lectura": "5,47 m el 7 de noviembre, 35 cm más que ayer. Llega la **nueva crecida del tramo alto**: Santo Tomé marcó 8,45 m el viernes a la noche y el INA ve chance de volver a superar la alerta (7,50 m) después del 9 de noviembre.",
+   "lectura": "**6,10 m el 8 de noviembre, 63 cm más que el sábado.** Llega la crecida del tramo alto: Santo Tomé marcó 9,90 m el sábado al mediodía (alerta 11,50 m). El INA ve posible superar la alerta (7,50 m), más probable desde el 11 de noviembre.",
    "lon": -57.09,
    "lat": -29.71,
    "hist": [
@@ -2250,6 +2340,10 @@
     [
      "2026-11-07",
      5.47
+    ],
+    [
+     "2026-11-08",
+     6.1
     ]
    ],
    "proy": []
@@ -2257,12 +2351,12 @@
   {
    "puerto": "Concordia",
    "rio": "Uruguay",
-   "altura": 6.91,
-   "fecha": "7 nov",
+   "altura": 7.0,
+   "fecha": "8 nov",
    "alerta": 11.0,
    "evac": 12.5,
    "estado": "normal",
-   "lectura": "6,91 m el 7 de noviembre, en baja y lejos de la alerta (11 m). Salto Grande repuntaría en los próximos días por la crecida que baja del tramo alto, según el INA.",
+   "lectura": "7,00 m el 8 de noviembre, lejos de la alerta (11 m). El INA preveía un franco descenso; la crecida del tramo alto todavía no llegó.",
    "lon": -58.02,
    "lat": -31.39,
    "hist": [
@@ -2313,6 +2407,10 @@
     [
      "2026-11-07",
      6.91
+    ],
+    [
+     "2026-11-08",
+     7.0
     ]
    ],
    "proy": []
@@ -2320,12 +2418,12 @@
   {
    "puerto": "Puerto Iguazú",
    "rio": "Iguazú",
-   "altura": 26.05,
-   "fecha": "7 nov",
+   "altura": 26.0,
+   "fecha": "8 nov",
    "alerta": 25.0,
    "evac": 28.0,
    "estado": "alerta",
-   "lectura": "26,05 m el 7 de noviembre, sobre la alerta del INA (25 m) y casi sin cambios. El INA espera lluvias moderadas a abundantes en la cuenca alta.",
+   "lectura": "26,00 m el 8 de noviembre, estable sobre la alerta del INA (25 m). El INA advierte una posible nueva onda de crecida a corto plazo; en Andresito el caudal subió a 7.265 m³/s.",
    "lon": -54.57,
    "lat": -25.6,
    "hist": [
@@ -2392,6 +2490,10 @@
     [
      "2026-11-07",
      26.05
+    ],
+    [
+     "2026-11-08",
+     26.0
     ]
    ],
    "proy": []
@@ -2431,20 +2533,20 @@
    {
     "label": "Niño-3.4 semanal",
     "valor": "+3,4 °C",
-    "nota": "Semana centrada el 28 de octubre (boletín de NOAA del 2 de noviembre): igual que la semana anterior y el valor más alto del evento; **siete semanas seguidas sobre +3 °C**. Niño-1+2 subió a +5,4 °C. Septiembre cerró en +2,84 °C. El dato diario de NOAA (OISST v2.1) marcó **+3,65 °C el 26 de octubre**, el más alto de la serie diaria desde 1982 (cálculo propio); el 5 de noviembre estaba en +3,46 °C.",
+    "nota": "Semana centrada el 28 de octubre (boletín de NOAA del 2 de noviembre): igual que la semana anterior y el valor más alto del evento; **siete semanas seguidas sobre +3 °C**. Niño-1+2 subió a +5,4 °C. Septiembre cerró en +2,84 °C. El dato diario de NOAA (OISST v2.1) marcó **+3,65 °C el 26 de octubre**, el más alto de la serie diaria desde 1982 (cálculo propio); el 6 de noviembre estaba en +3,47 °C. CPC todavía no publicó la semana del 4 de noviembre.",
     "fuente": "[NOAA CPC, datos semanales](https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for)"
    },
    {
     "label": "Pico previsto",
-    "valor": "+3,5 a +3,8 °C",
-    "nota": "IRI: +3,5 °C entre octubre y enero. OMM: hasta +3,8 °C entre noviembre y enero; Celeste Saulo: \"nunca hemos registrado un valor de 3,8\".",
-    "fuente": "[Infobae](https://www.infobae.com/america/medio-ambiente/2026/10/22/el-nino-podria-alcanzar-una-intensidad-sin-precedentes-la-advertencia-de-la-argentina-que-dirige-la-organizacion-meteorologica-mundial/)"
+    "valor": "+3,5 °C en diciembre",
+    "nota": "Promedio de los modelos de NOAA (NMME, 8 de noviembre): **+3,48 °C en diciembre**, con un rango de +3,07 a +4,19 °C entre cinco modelos; en octubre el promedio preveía +3,85 °C. IRI: +3,5 °C entre octubre y enero. OMM: \"alta probabilidad\" de que sea el Niño más fuerte desde 1950.",
+    "fuente": "[NOAA NMME](https://ftp.cpc.ncep.noaa.gov/NMME/realtime_anom/ENSMEAN/2026110800/) · [Infobae](https://www.infobae.com/america/medio-ambiente/2026/10/22/el-nino-podria-alcanzar-una-intensidad-sin-precedentes-la-advertencia-de-la-argentina-que-dirige-la-organizacion-meteorologica-mundial/)"
    },
    {
     "label": "Índice relativo (RONI)",
     "valor": "~+2,5 °C",
-    "nota": "Última lectura semanal del índice relativo de NOAA (boletín del 26 de octubre). Un pico de +3,5 °C equivaldría a +2,5 a +3 °C en esta métrica, también récord.",
-    "fuente": "[Meteored](https://www.meteored.cl/noticias/prediccion/super-el-nino-una-nuevaa-actualizacion-de-pronostico-confirma-un-pico-excepcional-de-3-5-c.html) · [MetSul](https://metsul.com/el-nino-nao-para-de-ganhar-forca-neste-fim-de-outubro)"
+    "nota": "Trimestre agosto-octubre: **+1,97 °C** en el RONI oficial de NOAA (+2,46 °C en el ONI clásico). La última lectura semanal (boletín del 26 de octubre) rondaba +2,5 °C. Un pico de +3,5 °C equivaldría a +2,5 a +3 °C en esta métrica, también récord.",
+    "fuente": "[NOAA CPC, RONI](https://www.cpc.ncep.noaa.gov/data/indices/RONI.ascii.txt) · [Meteored](https://www.meteored.cl/noticias/prediccion/super-el-nino-una-nuevaa-actualizacion-de-pronostico-confirma-un-pico-excepcional-de-3-5-c.html) · [MetSul](https://metsul.com/el-nino-nao-para-de-ganhar-forca-neste-fim-de-outubro)"
    },
    {
     "label": "Probabilidad de récord",
@@ -2455,7 +2557,7 @@
    {
     "label": "Duración",
     "valor": "hasta abril-junio 2027",
-    "nota": "CIIFEN: más de 95% de que siga muy fuerte hasta enero. NOAA prevé volver a neutral entre abril y junio de 2027. **ENFEN (30 oct): muy fuerte en el Pacífico central hasta febrero y neutral hacia junio de 2027.**",
+    "nota": "CIIFEN: más de 95% de que siga muy fuerte hasta enero. NOAA prevé volver a neutral entre abril y junio de 2027. **ENFEN (30 oct): muy fuerte en el Pacífico central hasta febrero y neutral hacia junio de 2027.** Modelos de NOAA (8 nov): sobre +2 °C hasta marzo y neutral hacia julio de 2027.",
     "fuente": "[Infobae](https://www.infobae.com/america/medio-ambiente/2026/10/22/que-regiones-de-america-latina-enfrentan-mas-riesgo-de-sequias-e-inundaciones-segun-el-director-del-centro-internacional-para-la-investigacion-del-fenomeno-de-el-nino/) · [ENFEN, Comunicado N° 19-2026](https://enfen.imarpe.gob.pe/2026/10/30/comunicado-oficial-enfen-n19-2026/)"
    },
    {
@@ -2467,7 +2569,7 @@
    {
     "label": "Niño costero (Niño 1+2)",
     "valor": "+5,4 °C (NOAA, semana del 28 oct)",
-    "nota": "Frente a Perú y Ecuador. **ENFEN, Comunicado Oficial N° 19-2026 (30 oct):** sigue la Alerta de El Niño Costero, con **magnitud extraordinaria hasta febrero de 2027** y baja gradual hasta junio; no menciona un segundo pico ni un nuevo calentamiento en 2027. Próximo comunicado: 13 de noviembre. Cada organismo usa su propia base de datos: los valores no son comparables entre sí.",
+    "nota": "Frente a Perú y Ecuador. **ENFEN, Comunicado Oficial N° 19-2026 (30 oct):** sigue la Alerta de El Niño Costero, con **magnitud extraordinaria hasta febrero de 2027** y baja gradual hasta junio; no menciona un segundo pico ni un nuevo calentamiento en 2027. Sin comunicado nuevo al 8 de noviembre; el próximo sería el 13. Cada organismo usa su propia base de datos: los valores no son comparables entre sí.",
     "fuente": "[ENFEN, Comunicado N° 19-2026](https://enfen.imarpe.gob.pe/2026/10/30/comunicado-oficial-enfen-n19-2026/) · [NOAA CPC, datos semanales](https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for)"
    }
   ],
@@ -2904,6 +3006,7 @@
   "smn": "El SMN asigna la mayor probabilidad de lluvia superior a la normal al Litoral, oeste de Santa Fe, Córdoba, La Pampa y oeste de Buenos Aires, con temperaturas inferiores a lo normal en el corazón agrícola. [Meteored](https://www.meteored.com.ar/noticias/prediccion/el-nino-y-la-campana-gruesa-2026-27-que-anticipa-el-smn-para-la-lluvia.html)"
  },
  "campo": [
+  "**Zona núcleo (BCR, 5 de noviembre):** trigo con rindes potenciales de 40 a 50 qq/ha pero con fusarium en Los Quirquinchos y heladas en Venado Tuerto; la soja de primera avanzó 500.000 ha en la semana (30% sembrado). [BCR](https://www.bcr.com.ar/es/mercados/gea/seguimiento-de-cultivos/informe-semanal-zona-nucleo) · [Bichos de Campo, 6 nov](https://bichosdecampo.com/final-abierto-para-el-trigo-las-lluvias-el-granizo-y-el-fusarium-ponen-en-duda-los-rindes-de-la-region-nucleo/)",
   "**Siembra (Bolsa de Cereales, 5 de noviembre):** soja 4,7% de 17 M ha, 2,9 puntos más que hace un año, y maíz sobre la mitad del área. En la zona núcleo se sembraron **350.000 ha de soja de primera** en la semana sin lluvias (BCR). Siguen los **suelos saturados en el centro de Buenos Aires**, con riesgo de perder superficie si vuelve a llover, y los excesos del centro-este de Entre Ríos. La BCR ve lluvias sobre lo normal pero menores a lo previsto al inicio, un escenario que favorecería al maíz temprano en diciembre y a la soja en febrero. [Mirador Provincial, 6 nov](https://www.miradorprovincial.com/2026/11/06/la-siembra-de-soja-registra-un-adelanto-interanual-y-el-maiz-supera-la-mitad-de-la-superficie-proyectada/) · [La Capital, 6 nov](https://www.lacapital.com.ar/agro/el-nino-la-alerta-excesos-hidricos-se-modera-la-region-pampeana-n10290692.html)",
   "**Siembra (Bolsa de Cereales, informe del 2 de noviembre):** maíz 47,3% (12,3 puntos más que hace un año), girasol 58,7% y soja 2,3%. Los **excesos hídricos del centro-este de Entre Ríos** demoran la soja y los del sur agrícola el girasol; las lluvias retrasan la cosecha de trigo en el NOA (30 puntos de atraso interanual) y el NEA (13). [Infobae, 2 nov](https://www.infobae.com/revista-chacra/2026/11/02/la-soja-pone-primera-y-el-trigo-acelera-la-cosecha-en-el-norte-del-pais/)",
   "**Siembra de soja:** 2,3% de 17 M ha al 28 de octubre (Bolsa de Cereales); en la zona núcleo, 12% (BCR). Los **excesos hídricos del centro-este de Entre Ríos** y el suelo frío en el sur de Córdoba y el centro y norte de Buenos Aires demoran las labores. [Agrofy, 30 oct](https://news.agrofy.com.ar/noticia/216901/ventana-lluvias-acelero-siembra-soja-frio-excesos-agua-frenan-algunas-zonas)",
@@ -2917,38 +3020,38 @@
  "disparadores": [
   {
    "indicador": "Río Uruguay en Concordia",
-   "ultimo": "10,44 m en Concordia el 23 de octubre, en descenso y bajo la alerta; Paso de los Libres en descenso tras superar la evacuación el 13",
+   "ultimo": "7,00 m en Concordia el 8 de noviembre, lejos de la alerta; **la crecida del tramo alto avanza**: Santo Tomé 9,90 m (7 nov) y Paso de los Libres 6,10 m (8 nov)",
    "umbral": "11,00 m y 12,50 m",
    "anticipa": "Evacuaciones en la costa entrerriana, en días",
-   "estado": "vigilar"
+   "estado": "subiendo"
   },
   {
    "indicador": "Caudal que llega a Yacyretá",
-   "ultimo": "Unos 33.500 m³/s el 28 de octubre; la EBY prevé caudales **estacionarios, por encima del nivel de alerta e inundabilidad** (29 oct). Promedio de 28.000 m³/s en los primeros 23 días de octubre (histórico 14.400)",
+   "ultimo": "Entran 29.200 m³/s y salen 29.000 m³/s (INA, 6 nov), en aguas altas; el INA prevé un descenso gradual en 5 a 10 días, pero Andresito (Iguazú) aporta 7.265 m³/s",
    "umbral": "25.000 y 30.000 m³/s",
    "anticipa": "Crecida del Paraná medio, con una a dos semanas de margen",
-   "estado": "evacuacion"
+   "estado": "alerta"
   },
   {
    "indicador": "Paraná en Corrientes",
-   "ultimo": "7,37 m el 24 de octubre, sobre evacuación; el INA proyecta 7,80 m el 27",
+   "ultimo": "7,00 m el 8 de noviembre, estable justo en la evacuación; Itatí repuntó a 7,48 m",
    "umbral": "6,50 m y 7,00 m",
    "anticipa": "Lo que llegará a Santa Fe y Rosario",
    "estado": "evacuacion"
   },
   {
    "indicador": "Río Paraguay",
-   "ultimo": "Asunción 2,74 m el 19 de octubre, más de 1 m de suba en 15 días",
+   "ultimo": "Asunción 2,39 m el 6 de noviembre, en baja tras el pico de 3,02 m del 26 de octubre; Formosa 5,33 m e Isla del Cerrito 7,41 m el 8, en baja",
    "umbral": "Puerto Pilcomayo: 5,35 y 6,00 m",
    "anticipa": "Si sube, se pierde el freno principal del sistema",
-   "estado": "subiendo"
+   "estado": "vigilar"
   },
   {
    "indicador": "Paraná en Santa Fe y Rosario",
-   "ultimo": "4,00 m y 3,63 m el 24 de octubre, en suba lenta. **Reconquista llegó a evacuación (5,30 m) el 24**",
+   "ultimo": "Santa Fe 4,75 m y Rosario 4,14 m el 8 de noviembre, en suba; **Paraná (Entre Ríos) superó la alerta (4,85 m)**",
    "umbral": "Santa Fe 5,30 y 5,70 m; Rosario 5,00 y 5,25 m",
    "anticipa": "Evacuación de costa baja e islas",
-   "estado": "vigilar"
+   "estado": "subiendo"
   },
   {
    "indicador": "Lluvia en la región núcleo",
@@ -2959,7 +3062,7 @@
   },
   {
    "indicador": "Índice trimestral de NOAA",
-   "ultimo": "83% de probabilidad de superar +2,5; semanal +3,3 °C al 14 de octubre",
+   "ultimo": "ONI agosto-octubre +2,46 °C (RONI +1,97); 83% de probabilidad de superar +2,5 en octubre-diciembre; semanal +3,4 °C al 28 de octubre",
    "umbral": "Próximo boletín: 12 de noviembre",
    "anticipa": "Confirma o descarta el evento récord",
    "estado": "alerta"
@@ -3066,7 +3169,7 @@
    {
     "titulo": "Fondos nacionales para El Niño",
     "estado": "no_encontrado",
-    "texto": "**No se registra ninguna transferencia nacional destinada a prevenir o atender El Niño.** El Plan ENOS no tiene presupuesto, y según el vocero presidencial la responsabilidad principal es de provincias y municipios, mientras que la Nación \"solo está obligada a dar apoyo\". [Infocielo](https://www.infocielo.com/politica-y-economia/el-nino-nacion-niega-responsabilidades-ante-una-eventual-emergencia-mientras-miles-de-millones-del-fondo-hidrico-sigue-en-un-plazo-fijo) Sí hubo Aportes del Tesoro Nacional (ATN) por emergencias climáticas: **$20.000 M a Tucumán** (acreditados en diciembre de 2025, para obras de prevención de inundaciones del Plan Pre Lluvia) [La Papa](https://lapapa.com.ar/nota/17746/nacion-giro-20000-millones-a-tucuman-para-prevenir-inundaciones); **$8.000 M a Santa Fe** (mayo y agosto de 2026, por las lluvias en el norte provincial; la Provincia aclaró que no son para El Niño) [El Litoral](https://www.ellitoral.com/politica/santafe-decreto1771-atn-maximilianopullaro-fabianbastia-emergenciaclimatica-aportestesoronacional_0_U0YxCx63PR.html); y **$3.000 M a Corrientes** (enero de 2026, por inundaciones en tres municipios) [Perfil](https://www.perfil.com/noticias/economia/corrientes-recibio-casi-la-cuarta-parte-del-total-de-los-atn-ejecutados-en-2026.phtml). Los ATN son discrecionales: no tienen criterios de reparto fijados por ley. Entre enero y septiembre de 2026 nueve distritos no recibieron ninguno, entre ellos Buenos Aires y Formosa; en septiembre se repartieron $33.000 M entre siete provincias sin destino informado. [BAE Negocios](https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/) **Reclamos:** Buenos Aires pidió que el Fondo Hídrico se reparta si no se usa en obras; Salta reclamó por haber quedado afuera del Plan ENOS [Cuarto Poder](https://cuartopodersalta.com.ar/salta-quedo-afuera-del-plan-nacional-de-asistencia-frente-al-supernino/); Corrientes pidió un fondo nacional permanente para obras contra inundaciones y sequías. [Examedia](https://examedia.com.ar/portada/post/88110235) El 24 de octubre se confirmó que el Plan ENOS no incluye fondos nacionales propios: el esquema es municipio, provincia y Nación como complemento; Chaco gestiona recursos extraordinarios. [El Argentino Diario](https://elargentinodiario.com.ar/politica/24/10/2026/inundaciones-en-chaco-el-plan-del-gobierno-contra-el-nino-no-incluye-fondos-propios/) El 3 de noviembre Unión por la Patria presentó en Diputados un proyecto para transferir por única vez **el 50% de los ATN no distribuidos (unos $1,1 billones, sobre un saldo de alrededor de $2,2 billones según el bloque)**: 25% en partes iguales y 75% por coparticipación, para prevención y respuesta frente a El Niño. Es un proyecto, no un fondo aprobado. [Parlamentario, 3 nov](https://www.parlamentario.com/2026/11/03/up-propone-distribuir-11-billones-de-los-atn-acumulados-para-afrontar-los-efectos-del-fenomeno-el-nino/)"
+    "texto": "**No se registra ninguna transferencia nacional destinada a prevenir o atender El Niño.** El Plan ENOS no tiene presupuesto, y según el vocero presidencial la responsabilidad principal es de provincias y municipios, mientras que la Nación \"solo está obligada a dar apoyo\". [Infocielo](https://www.infocielo.com/politica-y-economia/el-nino-nacion-niega-responsabilidades-ante-una-eventual-emergencia-mientras-miles-de-millones-del-fondo-hidrico-sigue-en-un-plazo-fijo) Sí hubo Aportes del Tesoro Nacional (ATN) por emergencias climáticas: **$20.000 M a Tucumán** (acreditados en diciembre de 2025, para obras de prevención de inundaciones del Plan Pre Lluvia) [La Papa](https://lapapa.com.ar/nota/17746/nacion-giro-20000-millones-a-tucuman-para-prevenir-inundaciones); **$8.000 M a Santa Fe** (mayo y agosto de 2026, por las lluvias en el norte provincial; la Provincia aclaró que no son para El Niño) [El Litoral](https://www.ellitoral.com/politica/santafe-decreto1771-atn-maximilianopullaro-fabianbastia-emergenciaclimatica-aportestesoronacional_0_U0YxCx63PR.html); y **$3.000 M a Corrientes** (enero de 2026, por inundaciones en tres municipios) [Perfil](https://www.perfil.com/noticias/economia/corrientes-recibio-casi-la-cuarta-parte-del-total-de-los-atn-ejecutados-en-2026.phtml). Los ATN son discrecionales: no tienen criterios de reparto fijados por ley. Entre enero y septiembre de 2026 nueve distritos no recibieron ninguno, entre ellos Buenos Aires y Formosa; en septiembre se repartieron $33.000 M entre siete provincias sin destino informado. [BAE Negocios](https://www.baenegocios.com/economia/con-el-presupuesto-en-juego-el-gobierno-repartio-33-000-millones-en-septiembre-a-siete-provincias/) **Reclamos:** Buenos Aires pidió que el Fondo Hídrico se reparta si no se usa en obras; Salta reclamó por haber quedado afuera del Plan ENOS [Cuarto Poder](https://cuartopodersalta.com.ar/salta-quedo-afuera-del-plan-nacional-de-asistencia-frente-al-supernino/); Corrientes pidió un fondo nacional permanente para obras contra inundaciones y sequías. [Examedia](https://examedia.com.ar/portada/post/88110235) El 24 de octubre se confirmó que el Plan ENOS no incluye fondos nacionales propios: el esquema es municipio, provincia y Nación como complemento; Chaco gestiona recursos extraordinarios. [El Argentino Diario](https://elargentinodiario.com.ar/politica/24/10/2026/inundaciones-en-chaco-el-plan-del-gobierno-contra-el-nino-no-incluye-fondos-propios/) El 3 de noviembre Unión por la Patria presentó en Diputados un proyecto para transferir por única vez **el 50% de los ATN no distribuidos (unos $1,1 billones, sobre un saldo de alrededor de $2,2 billones según el bloque)**: 25% en partes iguales y 75% por coparticipación, para prevención y respuesta frente a El Niño. Es un proyecto, no un fondo aprobado. [Parlamentario, 3 nov](https://www.parlamentario.com/2026/11/03/up-propone-distribuir-11-billones-de-los-atn-acumulados-para-afrontar-los-efectos-del-fenomeno-el-nino/) **Noviembre:** a comienzos de mes Nación giró ATN a cuatro provincias afectadas por la crecida —**Chaco $4.000 M, Corrientes $3.500 M, Entre Ríos $3.000 M y Misiones $3.000 M**— según datos de la DNAP relevados por Politikon Chaco; no se informó su destino ni se los vinculó con El Niño, y en octubre no hubo giros. [Perfil, 4 nov](https://www.perfil.com/nea/cuales-son-las-cuatro-provincias-que-recibieron-atn-en-el-inicio-de-noviembre-aLotV1z17Bec)"
    },
    {
     "titulo": "Fondo Hídrico (Fondo Fiduciario de Infraestructura Hídrica)",
@@ -3155,7 +3258,7 @@
   "Corrientes": {
    "estado": "vigente",
    "impacto": "critico",
-   "situacion": "**La provincia más golpeada.** El Paraná está sobre evacuación en Corrientes (7,43 m), Itatí (8,30 m) e Isla del Cerrito. 1.084 evacuados y autoevacuados al 21 de octubre, 411 en Itatí. En Paso de la Patria cedió un terraplén provisorio y se inundaron unas 300 viviendas. **Dos peones murieron** al trasladar ganado en la isla Ibirapitá, frente a Bella Vista. Ruta 155 cortada en La Cruz. **Goya** declaró la emergencia hídrica y climática por 180 días, con el río a 15 cm de evacuación. [El Libertador](https://www.diarioellibertador.com.ar/creciente-rio-parana-goya-promulgacion-emergencia-hidrica-ordenanza-2319/) **25 de octubre:** Goya en 5,63 m, a 7 cm de evacuación; el COE habilitó más de diez centros de evacuados. [El Libertador](https://www.diarioellibertador.com.ar/creciente-rio-parana-goya-nivel-alerta-plan-contingencia-coe/) **25 de octubre:** 1.452 desplazados (767 evacuados y 685 autoevacuados): 475 en Itatí y 114 en Isla Apipé, anegada en un 50%; la Armada se sumó a la asistencia. Yacyretá mantiene cerrado el paso Ituzaingó–Ayolas hasta el 30. [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia) [Infobae](https://www.infobae.com/sociedad/2026/10/26/el-nino-el-paso-por-yacyreta-continua-cerrado-por-el-nivel-del-parana-mientras-la-creciente-volvio-al-rio-uruguay/) **27 de octubre:** Itatí 8,21 m y Corrientes 7,35 m; en Paso de la Patria más de 150 familias fuera de sus casas y sectores aislados. Defensa Civil anticipa una nueva onda de crecida hacia el 3 de noviembre. Goya en 5,66 m, a 4 cm de evacuación. [La Nación](https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/) · [InfoGoya](https://infogoya.com/parana-goya-4-centimetros-nivel-evacuacion/) **29 de octubre:** Goya superó la evacuación (5,77 m). La Armada y la Fuerza Aérea se desplegaron para asistir a zonas aisladas. [La Nación](https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-y-los-niveles-de-alerta-hoy-nid29102026/) [Infobae](https://www.infobae.com/sociedad/2026/10/29/el-nino-la-armada-y-la-fuerza-aerea-se-desplegaron-en-chaco-y-corrientes-para-colaborar-con-la-asistencia-por-las-inundaciones/) **30 y 31 de octubre:** el Paraná bajó levemente (Itatí 8,09 m, Paso de la Patria 7,69 m, Corrientes 7,36 m) y en Ituzaingó quedó bajo la evacuación; Defensa Civil cuenta **1.673 evacuados y autoevacuados** (407 y 1.266). Yacyretá extendió el cierre del paso a Ayolas hasta el 6 de noviembre. [Canal 26](https://www.canal26.com/general/2026/10/31/inundaciones-por-el-nino-en-argentina-las-4-provincias-mas-afectadas-por-las-crecidas-y-los-evacuados/) [La Nación](https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-y-los-niveles-de-alerta-hoy-nid29102026/) [Primera Edición](https://www.primeraedicion.com.ar/nota/101156125/yacyreta-paso-fronterizo-cerrado-6-noviembre-2026/)",
+   "situacion": "**La provincia más golpeada.** El Paraná está sobre evacuación en Corrientes (7,43 m), Itatí (8,30 m) e Isla del Cerrito. 1.084 evacuados y autoevacuados al 21 de octubre, 411 en Itatí. En Paso de la Patria cedió un terraplén provisorio y se inundaron unas 300 viviendas. **Dos peones murieron** al trasladar ganado en la isla Ibirapitá, frente a Bella Vista. Ruta 155 cortada en La Cruz. **Goya** declaró la emergencia hídrica y climática por 180 días, con el río a 15 cm de evacuación. [El Libertador](https://www.diarioellibertador.com.ar/creciente-rio-parana-goya-promulgacion-emergencia-hidrica-ordenanza-2319/) **25 de octubre:** Goya en 5,63 m, a 7 cm de evacuación; el COE habilitó más de diez centros de evacuados. [El Libertador](https://www.diarioellibertador.com.ar/creciente-rio-parana-goya-nivel-alerta-plan-contingencia-coe/) **25 de octubre:** 1.452 desplazados (767 evacuados y 685 autoevacuados): 475 en Itatí y 114 en Isla Apipé, anegada en un 50%; la Armada se sumó a la asistencia. Yacyretá mantiene cerrado el paso Ituzaingó–Ayolas hasta el 30. [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia) [Infobae](https://www.infobae.com/sociedad/2026/10/26/el-nino-el-paso-por-yacyreta-continua-cerrado-por-el-nivel-del-parana-mientras-la-creciente-volvio-al-rio-uruguay/) **27 de octubre:** Itatí 8,21 m y Corrientes 7,35 m; en Paso de la Patria más de 150 familias fuera de sus casas y sectores aislados. Defensa Civil anticipa una nueva onda de crecida hacia el 3 de noviembre. Goya en 5,66 m, a 4 cm de evacuación. [La Nación](https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/) · [InfoGoya](https://infogoya.com/parana-goya-4-centimetros-nivel-evacuacion/) **29 de octubre:** Goya superó la evacuación (5,77 m). La Armada y la Fuerza Aérea se desplegaron para asistir a zonas aisladas. [La Nación](https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-y-los-niveles-de-alerta-hoy-nid29102026/) [Infobae](https://www.infobae.com/sociedad/2026/10/29/el-nino-la-armada-y-la-fuerza-aerea-se-desplegaron-en-chaco-y-corrientes-para-colaborar-con-la-asistencia-por-las-inundaciones/) **30 y 31 de octubre:** el Paraná bajó levemente (Itatí 8,09 m, Paso de la Patria 7,69 m, Corrientes 7,36 m) y en Ituzaingó quedó bajo la evacuación; Defensa Civil cuenta **1.673 evacuados y autoevacuados** (407 y 1.266). Yacyretá extendió el cierre del paso a Ayolas hasta el 6 de noviembre. [Canal 26](https://www.canal26.com/general/2026/10/31/inundaciones-por-el-nino-en-argentina-las-4-provincias-mas-afectadas-por-las-crecidas-y-los-evacuados/) [La Nación](https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-y-los-niveles-de-alerta-hoy-nid29102026/) [Primera Edición](https://www.primeraedicion.com.ar/nota/101156125/yacyreta-paso-fronterizo-cerrado-6-noviembre-2026/) **8 de noviembre:** el Uruguay crece en Santo Tomé (9,90 m) y Paso de los Libres (6,10 m); el INA ve probable superar la alerta en Paso de los Libres desde el 11. En el Paraná, Itatí repuntó a 7,48 m. [RíoAlert](https://rioalert.com.ar/)",
    "emergencia": "**Emergencia hídrica y climática vigente.** Decreto 1271/2026 del gobernador Valdés, publicado el 3 de julio: toda la provincia por 180 días (vence hacia el 30 de diciembre), prorrogable. Habilita usar recursos de cualquier área, mover presupuesto y contratar en forma directa.",
    "medidas": [
     "COE (Centro de Operaciones de Emergencia) activado.",
@@ -3185,7 +3288,7 @@
   "Chaco": {
    "estado": "vencida",
    "impacto": "critico",
-   "situacion": "**Alerta roja desde el 17 de octubre.** Barranqueras en 7,27 m (24 oct), sobre su evacuación de 6,50 m; Isla del Cerrito en 8,04 m y aislada por tierra. **Unas 1.790 personas fuera de sus casas** al 24 de octubre (1.290 evacuados y 500 autoevacuados). Bombeo y defensas funcionan. La AFE desplegó un equipo técnico y operativo. [Infobae](https://www.infobae.com/sociedad/2026/10/25/el-nino-habia-1800-los-evacuados-en-chaco-misiones-fue-afectada-por-fuertes-tormentas-y-santa-fe-preve-otra-suba-del-parana/) [Canal 26](https://www.canal26.com/clima/2026/10/24/inundaciones-en-chaco-y-corrientes-hay-mas-de-1700-evacuados-y-alertan-por-nuevas-tormentas/) **25 de octubre:** leve baja en Barranqueras, 7,23 m, todavía sobre evacuación. [La Voz del Chaco](https://www.diariolavozdelchaco.com/2026/10/25/leve-baja-del-rio-en-barranqueras-y-antequeras-igual-sigue-por-encima-del-nivel-de-evacuacion/) **26 de octubre:** 2.026 evacuados y autoevacuados de 543 hogares; Puerto Vilelas, en alerta roja, concentra 1.146 y Barranqueras 253; el río en 7,21 m. [Perfil](https://www.perfil.com/noticias/nea/la-crecida-en-chaco-mantiene-a-mas-de-2000-personas-fuera-de-sus-viviendas.phtml) [Diario Norte](https://www.diarionorte.com/335533-suman-2026-las-personas-evacuadas-en-el-chaco-por-la-crecida-del-parana) **27 de octubre:** 2.201 evacuados y autoevacuados de 591 hogares; Puerto Vilelas con 1.321 fuera de sus casas y 360 aislados en Soto y Tacuarí; el río en 7,23 m. [El Litoral](https://www.ellitoral.com.ar/nacional/2026-10-27-11-14-0-chaco-tiene-tres-localidades-en-alerta-roja-y-mas-de-2-200-evacuados-por-las-inundaciones) · [Data Chaco](https://www.datachaco.com/653824-el-nino-en-chaco-mas-de-2200-personas-evacuadas-por-las-inundaciones-y-tres-localidades-en-alerta-roja) **29 de octubre:** 2.239 evacuados y autoevacuados de 629 hogares; Puerto Vilelas 1.350. La Armada y la Fuerza Aérea se sumaron a la asistencia. [Perfil](https://perfil.com/nea/inundaciones-en-chaco-2.239-personas-dejaron-sus-casas-por-la-crecida-de-los-rios-anGoB6g1QKvC) [Infobae](https://www.infobae.com/sociedad/2026/10/29/el-nino-la-armada-y-la-fuerza-aerea-se-desplegaron-en-chaco-y-corrientes-para-colaborar-con-la-asistencia-por-las-inundaciones/) **30 de octubre:** Barranqueras en 7,19 m, en leve baja y sobre evacuación. [Alerta Urbana](https://www.alertaurbana.com.ar/103042-crecida-en-la-region-el-parana-registro-una-altura-de-719-metros-en-barranqueras-con-una-leve-baja)",
+   "situacion": "**Alerta roja desde el 17 de octubre.** Barranqueras en 7,27 m (24 oct), sobre su evacuación de 6,50 m; Isla del Cerrito en 8,04 m y aislada por tierra. **Unas 1.790 personas fuera de sus casas** al 24 de octubre (1.290 evacuados y 500 autoevacuados). Bombeo y defensas funcionan. La AFE desplegó un equipo técnico y operativo. [Infobae](https://www.infobae.com/sociedad/2026/10/25/el-nino-habia-1800-los-evacuados-en-chaco-misiones-fue-afectada-por-fuertes-tormentas-y-santa-fe-preve-otra-suba-del-parana/) [Canal 26](https://www.canal26.com/clima/2026/10/24/inundaciones-en-chaco-y-corrientes-hay-mas-de-1700-evacuados-y-alertan-por-nuevas-tormentas/) **25 de octubre:** leve baja en Barranqueras, 7,23 m, todavía sobre evacuación. [La Voz del Chaco](https://www.diariolavozdelchaco.com/2026/10/25/leve-baja-del-rio-en-barranqueras-y-antequeras-igual-sigue-por-encima-del-nivel-de-evacuacion/) **26 de octubre:** 2.026 evacuados y autoevacuados de 543 hogares; Puerto Vilelas, en alerta roja, concentra 1.146 y Barranqueras 253; el río en 7,21 m. [Perfil](https://www.perfil.com/noticias/nea/la-crecida-en-chaco-mantiene-a-mas-de-2000-personas-fuera-de-sus-viviendas.phtml) [Diario Norte](https://www.diarionorte.com/335533-suman-2026-las-personas-evacuadas-en-el-chaco-por-la-crecida-del-parana) **27 de octubre:** 2.201 evacuados y autoevacuados de 591 hogares; Puerto Vilelas con 1.321 fuera de sus casas y 360 aislados en Soto y Tacuarí; el río en 7,23 m. [El Litoral](https://www.ellitoral.com.ar/nacional/2026-10-27-11-14-0-chaco-tiene-tres-localidades-en-alerta-roja-y-mas-de-2-200-evacuados-por-las-inundaciones) · [Data Chaco](https://www.datachaco.com/653824-el-nino-en-chaco-mas-de-2200-personas-evacuadas-por-las-inundaciones-y-tres-localidades-en-alerta-roja) **29 de octubre:** 2.239 evacuados y autoevacuados de 629 hogares; Puerto Vilelas 1.350. La Armada y la Fuerza Aérea se sumaron a la asistencia. [Perfil](https://perfil.com/nea/inundaciones-en-chaco-2.239-personas-dejaron-sus-casas-por-la-crecida-de-los-rios-anGoB6g1QKvC) [Infobae](https://www.infobae.com/sociedad/2026/10/29/el-nino-la-armada-y-la-fuerza-aerea-se-desplegaron-en-chaco-y-corrientes-para-colaborar-con-la-asistencia-por-las-inundaciones/) **30 de octubre:** Barranqueras en 7,19 m, en leve baja y sobre evacuación. [Alerta Urbana](https://www.alertaurbana.com.ar/103042-crecida-en-la-region-el-parana-registro-una-altura-de-719-metros-en-barranqueras-con-una-leve-baja) **7 de noviembre:** el parte provincial ratifica 2.239 desplazados de 629 familias; 167 personas en albergues. [Charata Chaco](https://charatachaco.net/2026/11/07/sociedad/crecida-de-los-rios-en-chaco-evacuados-puerto-vilelas-noviembre-2026/)",
    "emergencia": "**Sin emergencia vigente encontrada.** La emergencia hidrometeorológica por las lluvias de diciembre de 2025 (toda la provincia, fondo de hasta $1.500 M a cargo de la APA) **venció el 31 de agosto de 2026**.",
    "medidas": [
     "Alerta roja provincial.",
@@ -3242,7 +3345,7 @@
   "Entre Ríos": {
    "estado": "vigente",
    "impacto": "alto",
-   "situacion": "Más de 30.000 vacunos evacuados de las islas de Victoria; unas 460.000 cabezas en alerta en islas. El río Uruguay tuvo su pico cerca de 11,3 m en Concordia, sobre alerta, y ya baja. Gualeguaychú tuvo la costanera bajo agua. El 23 de octubre el Uruguay bajó a 10,44 m en Concordia, bajo la alerta. [Diario Río Uruguay](https://diarioriouruguay.com/interes-general/creciente-a-pesar-de-las-lluvias-el-rio-uruguay-continua-bajando-en-concordia.htm) **25 de octubre:** el Paraná marcó 4,06 m en la capital y el INA prevé que llegue a la alerta (4,70 m) a comienzos de noviembre; el Uruguay bajó a 9,32 m en Concordia. [Elonce](https://www.elonce.com/sociedad/el-rio-parana-llegaria-al-nivel-de-alerta-en-noviembre.htm) · [Examedia](https://examedia.com.ar/portada/post/88117816) **5 de noviembre:** el Paraná llegó a 4,54 m en la capital, a 16 cm de la alerta, y el Uruguay bajó a 7,66 m en Concordia. [RíoAlert](https://rioalert.com.ar/rios/parana)",
+   "situacion": "Más de 30.000 vacunos evacuados de las islas de Victoria; unas 460.000 cabezas en alerta en islas. El río Uruguay tuvo su pico cerca de 11,3 m en Concordia, sobre alerta, y ya baja. Gualeguaychú tuvo la costanera bajo agua. El 23 de octubre el Uruguay bajó a 10,44 m en Concordia, bajo la alerta. [Diario Río Uruguay](https://diarioriouruguay.com/interes-general/creciente-a-pesar-de-las-lluvias-el-rio-uruguay-continua-bajando-en-concordia.htm) **25 de octubre:** el Paraná marcó 4,06 m en la capital y el INA prevé que llegue a la alerta (4,70 m) a comienzos de noviembre; el Uruguay bajó a 9,32 m en Concordia. [Elonce](https://www.elonce.com/sociedad/el-rio-parana-llegaria-al-nivel-de-alerta-en-noviembre.htm) · [Examedia](https://examedia.com.ar/portada/post/88117816) **5 de noviembre:** el Paraná llegó a 4,54 m en la capital, a 16 cm de la alerta, y el Uruguay bajó a 7,66 m en Concordia. [RíoAlert](https://rioalert.com.ar/rios/parana) **8 de noviembre:** el Paraná **superó la alerta en la capital** (4,73 m el 7 y 4,85 m el 8, en suba; evacuación 5,00 m). Prefectura difundió recomendaciones para isleños y navegantes: teléfonos 106 (Prefectura), 101, 107. [EntreRíosYa](https://entreriosya.com.ar/el-rio-llego-a-474-metros-en-parana-y-quedo-a-26-centimetros-del-nivel-de-evacuacion/) [Elonce](https://www.elonce.com/parana/creciente-del-rio-parana-prefectura-emitio-recomendaciones-ante-el-alerta-hidrico-vigente.htm)",
    "emergencia": "**Emergencia hídrica vigente** en toda la provincia por 180 días desde el 27 o 28 de agosto (vence hacia fines de febrero de 2027). **Desastre o emergencia agropecuaria** (decreto del 4 de noviembre) para la ganadería y la apicultura de islas y bajos del Paraná, retroactiva al 1 de agosto y hasta julio de 2027. [Infobae](https://www.infobae.com/politica/2026/11/04/el-nino-entre-rios-declaro-el-estado-de-desastre-y-emergencia-agropecuaria/)",
    "medidas": [
     "Plan de Acción Preventiva ante el Riesgo Hídrico (15 de septiembre): defensas, limpieza de canales y alcantarillas, protección de hospitales, tomas de agua y puentes, y equipos de bombeo y rescate.",
@@ -3268,7 +3371,7 @@
   "Misiones": {
    "estado": "plan",
    "impacto": "alto",
-   "situacion": "Récord de lluvia en el norte: unos 300 mm en dos días y medio en Iguazú; el río llegó a 32,20 m en Puerto Iguazú y bajó a 27,40 m el 20 y volvió a subir a 28,40 m el 23, sobre evacuación. 19 evacuados y siete pasos fronterizos cerrados el 16 de octubre. **Granizo el 22 de octubre** en Aristóbulo del Valle, Campo Viera y Dos de Mayo. [Primera Edición](https://www.primeraedicion.com.ar/nota/101153742/fuerte-temporal-en-misiones-intensas-granizadas-en-varias-localidades-y-lluvias-torrenciales/) **Temporal del 22 y 23 de octubre:** 112 viviendas afectadas, cuatro familias evacuadas y las rutas 7 y 204 cortadas. [Norte Misionero](https://nortemisionero.com.ar/actualidad/ascienden-a-66-las-viviendas-afectadas-por-el-temporal-en-misiones-con-familias-evacuadas-y-nuevos-cortes-de-rutas-y-puentes/) **Granizo en chacras:** Salto Encantado estima 100% de pérdida en tabaco, 50% en yerba y 80% en té (estimación municipal). [Misiones Online](https://misionesonline.net/2026/10/23/temporal-en-misiones-ascienden-a-112-las-viviendas-afectadas/) · [Noticias Misiones](https://www.noticiasmisiones.com.ar/2026/10/noticias-misiones-el-granizo-provoco.html) **Al 24 de octubre: 141 evacuados, 117 viviendas dañadas, cinco puentes cortados y diez pasos cerrados.** El 24 cayó granizo en Comandante Andresito, con daños en tabacales. [Misiones Online](https://misionesonline.net/2026/10/24/temporal-en-misiones-mas-evacuados-viviendas-danadas) **Al 25 de octubre: 154 evacuados, 124 viviendas afectadas y 14 pasos fronterizos cerrados**; la Subsecretaría de Tabaco suma más de 500 productores dañados por el granizo. [Primera Edición](https://www.primeraedicion.com.ar/nota/101154364/temporal-misiones-evacuados-pasos-fronterizos-cataratas/) · [Misiones Online](https://misionesonline.net/2026/10/25/vamos-a-perder-muchisimo-nuestra-produccion-de-tabaco-fenomeno-de-el-nino/) **25 y 26 de octubre:** regresaron los 154 evacuados; siguen 14 pasos fronterizos cerrados y el río Iguazú en la cota de evacuación (28 m). [Canal 12 Misiones](https://www.canal12misiones.com/informacion-general/crecida-rios-el-nino-14-pasos-fronterizos-evacuados-misiones) **27 y 28 de octubre:** el Iguazú volvió a subir (28,50 m) y el INA anticipa posibles nuevas crecidas; el 28 reabre el circuito superior de Cataratas. [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/27/203733-la-crecida-del-iguazu-y-el-parana-mantiene-en-alerta-a-la-triple-frontera-y-prolonga-el-cierre-de-un-circuito-de-cataratas) · [Primera Edición](https://www.primeraedicion.com.ar/nota/101155098/cataratas-del-iguazu-el-circuito-superior-reabre-este-miercoles-tras-la-crecida-del-rio/)",
+   "situacion": "Récord de lluvia en el norte: unos 300 mm en dos días y medio en Iguazú; el río llegó a 32,20 m en Puerto Iguazú y bajó a 27,40 m el 20 y volvió a subir a 28,40 m el 23, sobre evacuación. 19 evacuados y siete pasos fronterizos cerrados el 16 de octubre. **Granizo el 22 de octubre** en Aristóbulo del Valle, Campo Viera y Dos de Mayo. [Primera Edición](https://www.primeraedicion.com.ar/nota/101153742/fuerte-temporal-en-misiones-intensas-granizadas-en-varias-localidades-y-lluvias-torrenciales/) **Temporal del 22 y 23 de octubre:** 112 viviendas afectadas, cuatro familias evacuadas y las rutas 7 y 204 cortadas. [Norte Misionero](https://nortemisionero.com.ar/actualidad/ascienden-a-66-las-viviendas-afectadas-por-el-temporal-en-misiones-con-familias-evacuadas-y-nuevos-cortes-de-rutas-y-puentes/) **Granizo en chacras:** Salto Encantado estima 100% de pérdida en tabaco, 50% en yerba y 80% en té (estimación municipal). [Misiones Online](https://misionesonline.net/2026/10/23/temporal-en-misiones-ascienden-a-112-las-viviendas-afectadas/) · [Noticias Misiones](https://www.noticiasmisiones.com.ar/2026/10/noticias-misiones-el-granizo-provoco.html) **Al 24 de octubre: 141 evacuados, 117 viviendas dañadas, cinco puentes cortados y diez pasos cerrados.** El 24 cayó granizo en Comandante Andresito, con daños en tabacales. [Misiones Online](https://misionesonline.net/2026/10/24/temporal-en-misiones-mas-evacuados-viviendas-danadas) **Al 25 de octubre: 154 evacuados, 124 viviendas afectadas y 14 pasos fronterizos cerrados**; la Subsecretaría de Tabaco suma más de 500 productores dañados por el granizo. [Primera Edición](https://www.primeraedicion.com.ar/nota/101154364/temporal-misiones-evacuados-pasos-fronterizos-cataratas/) · [Misiones Online](https://misionesonline.net/2026/10/25/vamos-a-perder-muchisimo-nuestra-produccion-de-tabaco-fenomeno-de-el-nino/) **25 y 26 de octubre:** regresaron los 154 evacuados; siguen 14 pasos fronterizos cerrados y el río Iguazú en la cota de evacuación (28 m). [Canal 12 Misiones](https://www.canal12misiones.com/informacion-general/crecida-rios-el-nino-14-pasos-fronterizos-evacuados-misiones) **27 y 28 de octubre:** el Iguazú volvió a subir (28,50 m) y el INA anticipa posibles nuevas crecidas; el 28 reabre el circuito superior de Cataratas. [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/27/203733-la-crecida-del-iguazu-y-el-parana-mantiene-en-alerta-a-la-triple-frontera-y-prolonga-el-cierre-de-un-circuito-de-cataratas) · [Primera Edición](https://www.primeraedicion.com.ar/nota/101155098/cataratas-del-iguazu-el-circuito-superior-reabre-este-miercoles-tras-la-crecida-del-rio/) **7 de noviembre:** reabrió el paso provisorio sobre el Pindaytí (RP 2); el Uruguay sigue creciendo y continúan cerrados los cruces a Brasil. [Primera Edición](https://www.primeraedicion.com.ar/nota/101158606/reabrieron-el-paso-provisorio-sobre-el-arroyo-pindayti-en-la-ruta-provincial-2/)",
    "emergencia": "**Sin emergencia declarada.**",
    "medidas": [
     "Plan de contingencia con unos 10.000 policías.",
@@ -5123,6 +5226,10 @@
     {
      "t": "La Nación: yerba mate y El Niño (5 nov)",
      "u": "https://www.lanacion.com.ar/economia/campo/agricultura/hasta-cuando-durara-el-nino-la-pregunta-inquietante-que-se-hacen-los-productores-de-yerba-por-el-nid05112026/"
+    },
+    {
+     "t": "Bichos de Campo, 5 nov: granizo en yerba mate y tabaco de Misiones",
+     "u": "https://bichosdecampo.com/?p=302395"
     }
    ]
   },
@@ -6007,6 +6114,55 @@
     {
      "t": "La Capital: se modera la alerta por excesos (6 nov)",
      "u": "https://www.lacapital.com.ar/agro/el-nino-la-alerta-excesos-hidricos-se-modera-la-region-pampeana-n10290692.html"
+    }
+   ]
+  },
+  {
+   "grupo": "Ríos, evacuados y pronóstico (8 de noviembre)",
+   "items": [
+    {
+     "t": "EntreRíosYa, 7 nov: el Paraná llegó a 4,74 m",
+     "u": "https://entreriosya.com.ar/el-rio-llego-a-474-metros-en-parana-y-quedo-a-26-centimetros-del-nivel-de-evacuacion/"
+    },
+    {
+     "t": "NOAA NMME, pronóstico de noviembre de 2026",
+     "u": "https://ftp.cpc.ncep.noaa.gov/NMME/realtime_anom/ENSMEAN/2026110800/"
+    },
+    {
+     "t": "NOAA CPC, RONI",
+     "u": "https://www.cpc.ncep.noaa.gov/data/indices/RONI.ascii.txt"
+    },
+    {
+     "t": "Boletín Epidemiológico Nacional N° 832",
+     "u": "https://www.argentina.gob.ar/sites/default/files/ben-832-se-42-vf_0.pdf"
+    },
+    {
+     "t": "Charata Chaco, 7 nov: evacuados en Chaco",
+     "u": "https://charatachaco.net/2026/11/07/sociedad/crecida-de-los-rios-en-chaco-evacuados-puerto-vilelas-noviembre-2026/"
+    },
+    {
+     "t": "Primera Edición, 7 nov: reabrió el paso sobre el Pindaytí",
+     "u": "https://www.primeraedicion.com.ar/nota/101158606/reabrieron-el-paso-provisorio-sobre-el-arroyo-pindayti-en-la-ruta-provincial-2/"
+    },
+    {
+     "t": "Primera Edición, 7 nov: balance de los temporales en Misiones",
+     "u": "https://www.primeraedicion.com.ar/nota/101158532/ante-los-temporales-en-misiones-passalacqua-destaco-el-trabajo-conjunto-con-los-intendentes/"
+    },
+    {
+     "t": "La Nación, 7 nov: granizo en la región núcleo",
+     "u": "https://www.lanacion.com.ar/economia/campo/super-nino-miles-de-hectareas-fueron-alcanzadas-por-violentas-tormentas-y-hay-cultivos-barridos-por-nid07112026/"
+    },
+    {
+     "t": "La Nación, 8 nov: alertas del SMN",
+     "u": "https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-fuertes-vientos-para-este-domingo-8-de-noviembre-las-provincias-afectadas-nid08112026/"
+    },
+    {
+     "t": "Elonce, 7 nov: recomendaciones de Prefectura en Paraná",
+     "u": "https://www.elonce.com/parana/creciente-del-rio-parana-prefectura-emitio-recomendaciones-ante-el-alerta-hidrico-vigente.htm"
+    },
+    {
+     "t": "BCR, informe semanal Zona Núcleo",
+     "u": "https://www.bcr.com.ar/es/mercados/gea/seguimiento-de-cultivos/informe-semanal-zona-nucleo"
     }
    ]
   }
@@ -8032,10 +8188,10 @@
   "provs": [
    {
     "prov": "Chaco",
-    "fecha": "5 nov",
+    "fecha": "7 nov",
     "total": 2239,
-    "detalle": "**2.239 personas evacuadas y autoevacuadas** de 629 hogares en el parte oficial del 5 de noviembre (difundido el 6), el mismo número desde el 29 de octubre: varios municipios no enviaron datos nuevos. **Puerto Vilelas** concentra 1.350 (661 evacuados y 689 autoevacuados), Colonia Benítez 450, Barranqueras 253 e Isla del Cerrito 142. Los cuatro centros provinciales alojan a **161 personas de 61 familias** (60 niños). Barranqueras, Isla del Cerrito y Puerto Vilelas siguen en alerta roja.",
-    "fuente": "[La Voz del Chaco, 6 nov](https://www.diariolavozdelchaco.com/2026/11/06/emergencia-hidrica-el-parana-bajo-a-686-metros-pero-aumento-la-cantidad-de-personas-alojadas-en-refugios/) · [La Voz del Chaco, 3 nov](https://www.diariolavozdelchaco.com/2026/11/03/emergencia-hidrica-chaco-parana-paraguay-bermejo-3-noviembre/) · [La Voz del Chaco, 1 nov](https://www.diariolavozdelchaco.com/2026/11/01/emergencia-hidrica-en-chaco-continua-el-descenso-de-los-rios-y-se-mantienen-2-239-personas-evacuadas-y-autoevacuadas/) · [Diario Norte](https://www.diarionorte.com/335916-hay-2239-los-evacuados-en-el-chaco-y-tres-localidades-estan-en-alerta-roja-por-la-crecida-del-parana) · [Perfil, 29 oct](https://perfil.com/nea/inundaciones-en-chaco-2.239-personas-dejaron-sus-casas-por-la-crecida-de-los-rios-anGoB6g1QKvC)"
+    "detalle": "**2.239 personas evacuadas y autoevacuadas** de 629 familias en el parte oficial del sábado 7 de noviembre, el mismo número desde el 29 de octubre: varios municipios no enviaron datos nuevos. **Puerto Vilelas** concentra 1.350 (661 evacuados y 689 autoevacuados), Colonia Benítez y San Pedro Pescador 450, Barranqueras 253 e Isla del Cerrito 142. Los cuatro centros provinciales alojan a **167 personas de 64 familias**. Puerto Vilelas, Barranqueras e Isla del Cerrito siguen en alerta roja; Basail y Resistencia, en naranja.",
+    "fuente": "[Charata Chaco, 7 nov](https://charatachaco.net/2026/11/07/sociedad/crecida-de-los-rios-en-chaco-evacuados-puerto-vilelas-noviembre-2026/) · [Examedia, 8 nov](https://examedia.com.ar/portada/post/88198091) · [La Voz del Chaco, 6 nov](https://www.diariolavozdelchaco.com/2026/11/06/emergencia-hidrica-el-parana-bajo-a-686-metros-pero-aumento-la-cantidad-de-personas-alojadas-en-refugios/) · [La Voz del Chaco, 3 nov](https://www.diariolavozdelchaco.com/2026/11/03/emergencia-hidrica-chaco-parana-paraguay-bermejo-3-noviembre/) · [La Voz del Chaco, 1 nov](https://www.diariolavozdelchaco.com/2026/11/01/emergencia-hidrica-en-chaco-continua-el-descenso-de-los-rios-y-se-mantienen-2-239-personas-evacuadas-y-autoevacuadas/) · [Diario Norte](https://www.diarionorte.com/335916-hay-2239-los-evacuados-en-el-chaco-y-tres-localidades-estan-en-alerta-roja-por-la-crecida-del-parana) · [Perfil, 29 oct](https://perfil.com/nea/inundaciones-en-chaco-2.239-personas-dejaron-sus-casas-por-la-crecida-de-los-rios-anGoB6g1QKvC)"
    },
    {
     "prov": "Corrientes",
@@ -8159,6 +8315,10 @@
     [
      "2026-11-05",
      2239
+    ],
+    [
+     "2026-11-07",
+     2239
     ]
    ],
    "Misiones": [
@@ -8193,55 +8353,19 @@
   "serie_fuente": "Corrientes, según Defensa Civil citada por [Perfil](https://www.perfil.com/noticias/amp/nea/crecida-del-rio-parana-supero-los-6-metros-en-la-capital-y-ya-hay-222-evacuados-en-corrientes.phtml), [Elonce](https://www.elonce.com/uid-889713), [Elonce](https://www.elonce.com/uid-889636), [Elonce](https://www.elonce.com/uid-889762) y [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/21/202420-corrientes-mas-de-mil-personas-fueron-evacuadas-por-la-crecida-de-los-rios-parana-y-uruguay). Chaco, según el Comité Provincial de Emergencia citado por [FARCO](https://agencia.farco.org.ar/2026/10/22/chaco-mas-de-mil-evacuados-crecida-parana/) e [Infobae](https://www.infobae.com/sociedad/2026/10/25/el-nino-habia-1800-los-evacuados-en-chaco-misiones-fue-afectada-por-fuertes-tormentas-y-santa-fe-preve-otra-suba-del-parana/). Misiones, según [iProfesional](https://www.iprofesional.com/actualidad/466769-crecida-rios-misiones-19-evacuados-cerro-pasos-fronterizos) y [Misiones Online](https://misionesonline.net/2026/10/24/temporal-en-misiones-mas-evacuados-viviendas-danadas). Actualización del 26 de octubre: Chaco según el reporte oficial citado por [Perfil](https://www.perfil.com/noticias/nea/la-crecida-en-chaco-mantiene-a-mas-de-2000-personas-fuera-de-sus-viviendas.phtml); Corrientes según [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia); Misiones según [Canal 12 Misiones](https://www.canal12misiones.com/informacion-general/crecida-rios-el-nino-14-pasos-fronterizos-evacuados-misiones). Actualización del 30 de octubre: Chaco según el parte oficial citado por [Perfil](https://perfil.com/nea/inundaciones-en-chaco-2.239-personas-dejaron-sus-casas-por-la-crecida-de-los-rios-anGoB6g1QKvC)."
  },
  "alertas_smn": {
-  "fecha": "2026-11-07",
-  "texto": "sábado 7 de noviembre",
+  "fecha": "2026-11-08",
+  "texto": "domingo 8 de noviembre",
   "prov": {
-   "Misiones": {
-    "nivel": "naranja",
-    "fen": "Tormentas fuertes a severas hasta las 12 (50 a 90 mm, granizo y ráfagas de más de 90 km/h)"
-   },
-   "Corrientes": {
+   "Santa Cruz": {
     "nivel": "amarilla",
-    "fen": "Tormentas (20 a 50 mm, granizo y ráfagas)"
+    "fen": "Viento del oeste (40 a 60 km/h, ráfagas de hasta 90 km/h) en el sur"
    },
-   "Chaco": {
+   "Tierra del Fuego": {
     "nivel": "amarilla",
-    "fen": "Tormentas (20 a 50 mm, granizo y ráfagas)"
-   },
-   "Formosa": {
-    "nivel": "amarilla",
-    "fen": "Tormentas (20 a 50 mm, granizo y ráfagas)"
-   },
-   "Córdoba": {
-    "nivel": "amarilla",
-    "fen": "Viento sur (ráfagas de hasta 70 km/h)"
-   },
-   "La Rioja": {
-    "nivel": "amarilla",
-    "fen": "Viento sur (ráfagas de hasta 70 km/h)"
-   },
-   "Tucumán": {
-    "nivel": "amarilla",
-    "fen": "Viento sur (ráfagas de hasta 70 km/h)"
-   },
-   "Santiago del Estero": {
-    "nivel": "amarilla",
-    "fen": "Viento sur (ráfagas de hasta 70 km/h)"
-   },
-   "Catamarca": {
-    "nivel": "amarilla",
-    "fen": "Viento sur (ráfagas de hasta 70 km/h)"
-   },
-   "Salta": {
-    "nivel": "amarilla",
-    "fen": "Viento sur (ráfagas de hasta 70 km/h)"
-   },
-   "Jujuy": {
-    "nivel": "amarilla",
-    "fen": "Viento sur (ráfagas de hasta 70 km/h)"
+    "fen": "Viento del oeste (40 a 60 km/h, ráfagas de hasta 90 km/h)"
    }
   },
-  "fuente": "[Elonce, 6 nov](https://www.elonce.com/sociedad/alertas-por-tormentas-y-vientos-fuertes-que-provincias-estan-bajo-advertencia-del-smn.htm) · [Primera Edición, 6 nov](https://www.primeraedicion.com.ar/nota/101158400/el-smn-elevo-a-naranja-la-alerta-por-tormentas-para-toda-misiones)"
+  "fuente": "[La Nación, 8 nov](https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-fuertes-vientos-para-este-domingo-8-de-noviembre-las-provincias-afectadas-nid08112026/)"
  },
  "rutas": {
   "nota": "**No se encontró un parte oficial consolidado de rutas cortadas por la crecida.** Lista armada con notas de prensa; antes de viajar consultá a Vialidad Nacional, Vialidad provincial o la policía caminera.",
@@ -8323,7 +8447,7 @@
     "lugar": "Yacyretá (Corrientes)",
     "estado": "Cerrado",
     "desde": "13 oct",
-    "detalle": "La EBY **extendió el cierre hasta el viernes 6 de noviembre inclusive**, sujeto a revisión según la altura del río, aunque el 30 de octubre el Paraná ya había bajado de la cota de evacuación en Ituzaingó.",
+    "detalle": "La EBY había extendido el cierre hasta el viernes 6 de noviembre inclusive, sujeto a revisión; **no se encontró confirmación de la reapertura** (Ituzaingó en 3,68 m el 8 de noviembre, bajo la evacuación).",
     "fuente": "[Primera Edición](https://www.primeraedicion.com.ar/nota/101156125/yacyreta-paso-fronterizo-cerrado-6-noviembre-2026/) · [Examedia](https://examedia.com.ar/portada/post/88153303)"
    },
    {
@@ -8363,8 +8487,8 @@
     "lugar": "25 de Mayo (Misiones)",
     "estado": "Restringida",
     "desde": "23 oct",
-    "detalle": "Ruta 2 sobre el Pindaytí (Alba Posse): el puente nuevo sigue cerrado; el alternativo se habilitó con límite de 20 t (otra versión dice que solo para emergencias). Tránsito vehicular suspendido. También está cerrado el acceso al Parque Provincial Moconá por la crecida del arroyo Yabotí.",
-    "fuente": "[Norte Misionero](https://nortemisionero.com.ar/actualidad/ascienden-a-66-las-viviendas-afectadas-por-el-temporal-en-misiones-con-familias-evacuadas-y-nuevos-cortes-de-rutas-y-puentes/) · [Primera Edición](https://www.primeraedicion.com.ar/nota/101154126/misiones-habilitaron-ruta-223-corte-ruta-2-pindayti/)"
+    "detalle": "Ruta 2 sobre el Pindaytí (Alba Posse–Colonia Aurora): **el paso provisorio del Ejército reabrió el sábado 7 de noviembre por la tarde**, las 24 horas, para vehículos de hasta 20 t; los más pesados deben usar las rutas 8, 9, 13 y 221. Se había cortado otra vez porque el arroyo desbordó sobre la estructura. Sigue cerrado el acceso al Parque Provincial Moconá por la crecida del arroyo Yabotí.",
+    "fuente": "[Primera Edición, 7 nov](https://www.primeraedicion.com.ar/nota/101158606/reabrieron-el-paso-provisorio-sobre-el-arroyo-pindayti-en-la-ruta-provincial-2/) · [Norte Misionero](https://nortemisionero.com.ar/actualidad/ascienden-a-66-las-viviendas-afectadas-por-el-temporal-en-misiones-con-familias-evacuadas-y-nuevos-cortes-de-rutas-y-puentes/) · [Primera Edición](https://www.primeraedicion.com.ar/nota/101154126/misiones-habilitaron-ruta-223-corte-ruta-2-pindayti/)"
    },
    {
     "via": "Rutas provinciales 7 (Agua Colorada) y 8",
@@ -8395,8 +8519,8 @@
     "lugar": "El Soberbio, Alba Posse, Panambí y San Javier (Misiones)",
     "estado": "Cerrado",
     "desde": "6 nov",
-    "detalle": "Prefectura suspendió los cruces en balsa y embarcaciones El Soberbio–Porto Soberbio, Alba Posse–Porto Mauá, Panambí–Porto Vera Cruz y San Javier–Porto Xavier por la crecida del Uruguay. Siguen habilitados el puente Tancredo Neves (Iguazú) y los pasos secos de Bernardo de Irigoyen y San Pedro.",
-    "fuente": "[Infobae, 6 nov](https://www.infobae.com/politica/2026/11/06/el-nino-la-crecida-del-rio-uruguay-obligo-a-cerrar-cuatro-pasos-fluviales-a-brasil/)"
+    "detalle": "Prefectura suspendió los cruces en balsa y embarcaciones El Soberbio–Porto Soberbio, Alba Posse–Porto Mauá, Panambí–Porto Vera Cruz y San Javier–Porto Xavier por la crecida del Uruguay. Siguen habilitados el puente Tancredo Neves (Iguazú) y los pasos secos de Bernardo de Irigoyen y San Pedro. Al 6 de noviembre también estaban cerrados tres cruces sobre el Paraná (Eldorado–Mayor Otaño, Puerto Rico–Puerto Triunfo y Puerto Maní–Bella Vista); Santa Ana y Wanda seguían abiertos. Sin reapertura informada al 8.",
+    "fuente": "[Infobae, 6 nov](https://www.infobae.com/politica/2026/11/06/el-nino-la-crecida-del-rio-uruguay-obligo-a-cerrar-cuatro-pasos-fluviales-a-brasil/) · [Canal 12 Misiones](https://www.canal12misiones.com/noticias-de-misiones/policiales-2/siete-pasos-fronterizos-cerrados-por-la-crecida-de-los-rios-uruguay-y-parana)"
    }
   ]
  },
@@ -8417,19 +8541,19 @@
    "**Granizo en Misiones (22 y 23 de octubre):** municipios estiman pérdidas de 100% en tabaco, 50% en yerba y 80% en té en Salto Encantado, y al menos 180.000 plantas de tabaco perdidas en Picada Norte. [Noticias Misiones](https://www.noticiasmisiones.com.ar/2026/10/noticias-misiones-el-granizo-provoco.html)",
    "**Pérdidas económicas, hectáreas anegadas y animales muertos: no encontrados.** Ninguna entidad publicó todavía una estimación."
   ],
-  "vs": "Comparado con los escenarios: unas 4.000 personas evacuadas contra 5.000 a 20.000 del escenario manejable, y 3 muertes contra 0 a 15. El evento sigue **por debajo del escenario manejable en evacuados y dentro de su rango en muertes**, pero el total sigue creciendo (Corrientes pasó de 1.496 a 1.673) y el INA espera un nuevo repunte del Paraná a comienzos de noviembre."
+  "vs": "Comparado con los escenarios: unas 4.300 personas evacuadas contra 5.000 a 20.000 del escenario manejable, y 3 muertes contra 0 a 15. El evento sigue **por debajo del escenario manejable en evacuados y dentro de su rango en muertes**, pero la crecida avanza hacia Santa Fe, Paraná y Rosario y el Uruguay vuelve a crecer en el tramo alto."
  },
  "salud_datos": {
   "items": [
    {
     "label": "Dengue, temporada 2026-27",
     "valor": "6 confirmados",
-    "nota": "Hasta la semana 41 (Boletín N° 831): **6 casos confirmados, todos importados**; en Entre Ríos hubo 30 notificaciones, ninguna confirmada. **Ningún caso autóctono confirmado.**"
+    "nota": "Hasta la semana 42 (Boletín N° 832): **1.214 casos notificados, 6 confirmados, todos importados** (3 en Buenos Aires, 1 en CABA, 1 en Santa Fe y 1 en Santa Cruz), 15 probables y 506 en estudio. **Ningún caso autóctono confirmado.**"
    },
    {
     "label": "Leptospirosis 2026",
-    "valor": "207 casos",
-    "nota": "**Por encima de lo esperado:** la mediana 2022-2025 es 113. Según el Boletín N° 831, **Santa Fe (1,98 casos cada 100.000 habitantes) y Entre Ríos (1,3)** tienen las tasas más altas del país, contra 0,39 de promedio nacional. La **leptospirosis canina** suma 164 casos confirmados en 2026, un 76% más que el año pasado."
+    "valor": "221 casos",
+    "nota": "**Por encima de lo esperado** en el acumulado del año (mediana histórica: 121), aunque en las últimas cuatro semanas quedó por debajo. Santa Fe suma 88 casos confirmados o probables entre las semanas 1 y 41, contra 66 en todo 2025 (Boletín N° 832). Según el Boletín N° 831, **Santa Fe (1,98 casos cada 100.000 habitantes) y Entre Ríos (1,3)** tienen las tasas más altas del país, contra 0,39 de promedio nacional. La **leptospirosis canina** suma 164 casos confirmados en 2026, un 76% más que el año pasado."
    },
    {
     "label": "Referencia",
@@ -8437,7 +8561,7 @@
     "nota": "Casos de dengue confirmados en la temporada 2023-24, con Niño, y 419 muertes: el récord histórico."
    }
   ],
-  "fuente": "Dengue: [Boletín Epidemiológico Nacional N° 830, semana 40](https://www.argentina.gob.ar/noticias/actualizacion-del-boletin-epidemiologico-nacional-de-la-semana-ndeg-40). Semana 41: [Infobrisas, 28 oct](https://www.infobrisas.com/noticias/2026/10/28/112932-bajan-los-virus-respiratorios-en-argentina-pero-advierten-por-el-aumento-de-casos-de-leptospirosis). Leptospirosis: Boletín N° 828, semana 38 ([PDF](https://www.primeraedicion.com.ar/wp-content/uploads/2026/10/ben-828-se-38-vf.pdf)). El boletín sale cada semana; la temporada de dengue arranca con fuerza en verano. Boletín N° 831 (semana 41): [Génesis 24, 1 nov](https://genesis24.net/2026/11/01/entre-rios-la-leptospirosis-concentra-la-principal-senal-de-alerta-epidemiologica-segun-la-cartera-de-salud/)."
+  "fuente": "Dengue: [Boletín Epidemiológico Nacional N° 830, semana 40](https://www.argentina.gob.ar/noticias/actualizacion-del-boletin-epidemiologico-nacional-de-la-semana-ndeg-40). Semana 41: [Infobrisas, 28 oct](https://www.infobrisas.com/noticias/2026/10/28/112932-bajan-los-virus-respiratorios-en-argentina-pero-advierten-por-el-aumento-de-casos-de-leptospirosis). Leptospirosis: Boletín N° 828, semana 38 ([PDF](https://www.primeraedicion.com.ar/wp-content/uploads/2026/10/ben-828-se-38-vf.pdf)). El boletín sale cada semana; la temporada de dengue arranca con fuerza en verano. Boletín N° 831 (semana 41): [Génesis 24, 1 nov](https://genesis24.net/2026/11/01/entre-rios-la-leptospirosis-concentra-la-principal-senal-de-alerta-epidemiologica-segun-la-cartera-de-salud/). · Semana 42: [Boletín Epidemiológico Nacional N° 832](https://www.argentina.gob.ar/sites/default/files/ben-832-se-42-vf_0.pdf)"
  },
  "fondos": {
   "nota": "**Lo anunciado contra lo ejecutado.** No se encontraron datos de ejecución para ninguna jurisdicción: el Presupuesto Abierto y los boletines oficiales no se pudieron consultar desde esta herramienta. \"Sin monto\" quiere decir que el anuncio no trae cifra. Las filas de ATN por emergencias climáticas y la del Fondo Hídrico no se suman al costo estatal de El Niño: no están destinadas a este evento.",
@@ -8964,6 +9088,18 @@
    ],
    "muertes": 3,
    "evac": "~4.300"
+  },
+  {
+   "v": 28,
+   "fecha": "2026-11-08",
+   "resumen": "El Paraná supera la alerta en Paraná, el Uruguay crece hacia Paso de los Libres y NOAA ubica el pico del Niño en diciembre.",
+   "prob": [
+    40,
+    45,
+    15
+   ],
+   "muertes": 3,
+   "evac": "~4.300"
   }
  ],
  "tormentas": {
@@ -8992,8 +9128,8 @@
      "tornado"
     ],
     "texto": "Temporal con ráfagas muy fuertes y lluvia intensa (104,8 mm en Posadas hasta las 13:30, el 59% del promedio de noviembre). Las autoridades locales hablaron de un **posible tornado con epicentro en Panambí**, no confirmado por organismos meteorológicos.",
-    "danos": "**197 viviendas dañadas en 21 localidades**, siete escuelas y 50 instalaciones productivas (galpones de tabaco, una fábrica de almidón); 27 árboles caídos y 37 postes o tendidos afectados. Un motociclista herido en Jardín América; sin evacuados. Salió de servicio la línea de 132 kV Puerto Mineral–San Vicente.",
-    "fuente": "[Revista Códigos, 5 nov](https://revistacodigos.com/temporal-misiones-viviendas-familias-asistidas/) · [Elonce, 5 nov](https://www.elonce.com/sociedad/temporal-en-misiones-casas-sin-techo-escuelas-danadas-y-un-herido.htm)"
+    "danos": "**197 viviendas dañadas en 21 localidades**, siete escuelas y 50 instalaciones productivas (galpones de tabaco, una fábrica de almidón); 27 árboles caídos y 37 postes o tendidos afectados. Un motociclista herido en Jardín América; sin evacuados. Salió de servicio la línea de 132 kV Puerto Mineral–San Vicente. Balance del 7 de noviembre: más de 100 viviendas afectadas en Panambí, unas 100 familias en Eldorado y 14 familias y 120 ha productivas en San Antonio. El intendente de San Pedro habló de un tornado con 10 a 12 viviendas afectadas y una persona fallecida (dato de un video de Primera Edición, sin confirmación oficial).",
+    "fuente": "[Revista Códigos, 5 nov](https://revistacodigos.com/temporal-misiones-viviendas-familias-asistidas/) · [Elonce, 5 nov](https://www.elonce.com/sociedad/temporal-en-misiones-casas-sin-techo-escuelas-danadas-y-un-herido.htm) · [Primera Edición, 7 nov](https://www.primeraedicion.com.ar/nota/101158532/ante-los-temporales-en-misiones-passalacqua-destaco-el-trabajo-conjunto-con-los-intendentes/)"
    },
    {
     "f": "2026-11-03",
@@ -9326,6 +9462,7 @@
    }
   ],
   "campo": [
+   "**Granizo en la región núcleo (BCR, 5 de noviembre):** la tormenta del 3 de noviembre expuso a granizo **unas 15.600 ha** (2.300 con reflectividad de 60 dBZ o más) en el sudeste de Córdoba y el sur de Santa Fe, con 70 a 130 mm; la BCR aclara que es área expuesta, no daño medido. [BCR, informe Zona Núcleo](https://www.bcr.com.ar/es/mercados/gea/seguimiento-de-cultivos/informe-semanal-zona-nucleo) · [La Nación, 7 nov](https://www.lanacion.com.ar/economia/campo/super-nino-miles-de-hectareas-fueron-alcanzadas-por-violentas-tormentas-y-hay-cultivos-barridos-por-nid07112026/)",
    "**Yerba mate en Misiones:** el INYM relevó **6.581 ha dañadas** por el granizo del 23 de octubre: 5.045 con daño leve (caída de hojas), 1.389 moderado y 147 severo, en una franja de 110 km de largo entre Campo Viera y Dos de Mayo. [Radio Cataratas, 2 nov](https://radiocataratas.com/2026/11/02/el-inym-relevo-6-581-hectareas-de-yerba-mate-danadas-por-el-granizo-en-el-centro-y-nordeste-de-misiones/)",
    "**Peras en Valle Azul (Río Negro):** el granizo del sábado 31 de octubre dejó **pérdida total en lotes sin malla antigranizo**, según un productor (estimación del sector, sin relevamiento oficial). [Diario Pampero, 1 nov](https://diariopampero.com/temporal-en-rio-negro-y-cordoba-dejo-danos-y-heridos/)",
    "**Trigo en el sudeste bonaerense:** el granizo y unos 110 mm en el paraje Dos Naciones (Balcarce) dañaron lotes de trigo y ensayos del INTA Balcarce. La radiación solar en Balcarce estuvo un 32% bajo el promedio en el primer tercio de octubre, en pleno período crítico. [La Nación, 30 oct](https://www.lanacion.com.ar/economia/campo/una-violenta-tormenta-con-granizo-sorprendio-en-una-region-golpeada-por-otro-fenomeno-la-falta-de-nid30102026/)",
@@ -9436,6 +9573,7 @@
     "amenaza": "Plagas por humedad (rulo), caminos rurales intransitables en la zafra",
     "resumen": "El INYM relevó **6.581 ha de yerba dañadas** por el granizo del 23 de octubre en el centro y nordeste de Misiones, la mayoría con daño leve; Campo Viera y Dos de Mayo son los núcleos más golpeados. Se suma el riesgo del rulo, una plaga que prospera con la humedad.",
     "hoy": [
+     "**5 de noviembre:** el relevamiento del INYM suma **6.581 ha de yerbales con daño por granizo** (5.045 leve, 1.389 moderado y 147 severo), con lo más grave en Campo Viera y Dos de Mayo. [Bichos de Campo, 5 nov](https://bichosdecampo.com/?p=302395)",
      "**5 de noviembre:** según el Ministerio del Agro de Misiones, en los yerbales el daño es **puntual y se concentra en el Alto Uruguay**, \"sobre todo de Campo Viera para arriba\"; las mayores pérdidas están en tabaco, hortalizas y té. En San Vicente llovieron más de 549 mm en octubre, más del doble de lo normal. CAME advierte chacras que podrían perder hasta el 50% de la producción del año próximo si siguen el granizo y la muerte de plantas (estimación del sector). La cosecha está frenada hasta diciembre y los stocks de yerba canchada sumaban 337 millones de kilos a fines de septiembre, más de un año de consumo (INYM). [La Nación, 5 nov](https://www.lanacion.com.ar/economia/campo/agricultura/hasta-cuando-durara-el-nino-la-pregunta-inquietante-que-se-hacen-los-productores-de-yerba-por-el-nid05112026/)",
      "**2 de noviembre:** el Servicio de Extensión Yerbatero del **INYM relevó 6.581 ha afectadas** por el granizo que empezó el 23 de octubre en Campo Viera y avanzó al noreste en una franja de 110 km de largo y 2 a 4 km de ancho: **5.045 ha con daño leve** (caída de hojas), **1.389 moderado** (también lesiones en la corteza) y **147 severo**. El INYM capacita a productores en tareas de saneamiento para recuperar las plantas. [Radio Cataratas, 2 nov](https://radiocataratas.com/2026/11/02/el-inym-relevo-6-581-hectareas-de-yerba-mate-danadas-por-el-granizo-en-el-centro-y-nordeste-de-misiones/) · [Elonce](https://www.elonce.com/sociedad/el-granizo-afecto-mas-de-6-500-hectareas-de-yerba-mate-en-misiones.htm)",
      "**26 de octubre:** el relevamiento provincial incluye pérdidas totales en yerbales próximos a la cosecha por el granizo del 22 al 24 de octubre en el centro y norte de Misiones; en Andresito, unas 40 ha de yerba dañadas (estimación oficial preliminar). [Misiones Online, 26 oct](https://misionesonline.net/2026/10/26/granizo-tabaco-yerba-mate-mandioca/)",
@@ -9468,6 +9606,7 @@
     "amenaza": "Granizo sobre almácigos y trasplante; exceso de agua en cosecha y acopio",
     "resumen": "El granizo de octubre dejó unos 500 tabacaleros afectados en Misiones, la mitad con pérdida total según el Ministerio del Agro. Es el cultivo con el panorama más difícil.",
     "hoy": [
+     "**5 de noviembre, Misiones:** la Asociación de Productores de Tabaco registra **unas 1.000 denuncias de daño por granizo**, muchas de pérdida total (estimación del sector); el sector reclama unos $1.000 M del Fondo Especial del Tabaco por el granizo de 2025 y el Ministerio del Agro evalúa una emergencia agropecuaria provincial. [Bichos de Campo, 5 nov](https://bichosdecampo.com/?p=302395)",
      "**26 de octubre:** el Gobierno de Misiones releva las pérdidas de unos 500 productores por el granizo de la semana pasada, con pérdidas totales en tabaco, yerba mate y té cerca de la cosecha; en Andresito un productor calcula entre 30.000 y 40.000 kilos de tabaco perdidos. La provincia insistirá ante Nación con la emergencia y la ejecución de fondos (estimaciones del sector y del Gobierno provincial). [Misiones Online, 26 oct](https://misionesonline.net/2026/10/26/granizo-tabaco-yerba-mate-mandioca/)",
      "**25 de octubre:** el subsecretario de Tabaco de Misiones, Carlos Pereira, calcula que el granizo sumaría **más de 500 productores damnificados** a los 1.800 que ya tenían siniestros en la campaña, y que la Nación adeuda más de $20.000 M en compensaciones; el presidente de la Cámara del Tabaco, Gustavo Piñeiro, advirtió que \"vamos a perder muchísimo\" con las tormentas previstas para noviembre a enero (estimaciones del sector y del Gobierno provincial, sujetas a inspección). [Misiones Online, 25 oct](https://misionesonline.net/2026/10/25/vamos-a-perder-muchisimo-nuestra-produccion-de-tabaco-fenomeno-de-el-nino/) · [Primera Edición](https://www.primeraedicion.com.ar/nota/101154071/granizo-tabaco-misiones-productores-afectados-compensaciones-nacion/)",
      "**24 de octubre:** el Ministerio del Agro de Misiones estima **unos 500 tabacaleros afectados** por el granizo del 22 y 23, la mitad con pérdida total y sin tiempo para replantar; el mismo día otra granizada dañó tabacales y galpones en Comandante Andresito. El sector reclama unos $8.000 M atrasados del Fondo Especial del Tabaco y compensaciones del granizo de 2025, con más de 1.800 denuncias por daños climáticos (estimación del sector). [Misiones Online](https://misionesonline.net/2026/10/24/tabacaleros-de-misiones-reclaman-fondos-atrasados-y-enfrentan-perdidas-por-las-tormentas/) · [Misiones Online](https://misionesonline.net/2026/10/24/un-fuerte-temporal-con-granizo-y-vientos-intensos-provoco-destrozos-en-comandante-andresito/)",
@@ -10004,123 +10143,123 @@
  "pronostico": {
   "nino": {
    "analisis": [
-    "**El pico todavía no llegó.** En octubre la anomalía diaria ya superó todos los valores de la serie desde 1982 (máximo de +3,57 °C el 18 de octubre), y los modelos de NOAA prevén que siga subiendo hasta **+3,85 °C en diciembre**, en plena temporada de lluvias del Litoral.",
-    "**Se mantiene muy fuerte hasta el otoño.** El promedio de los modelos sigue arriba de +2 °C hasta mayo de 2027. En 1983 y en 1998, las crecidas más grandes del Paraná llegaron en otoño e invierno, meses después del pico en el océano.",
-    "**La incertidumbre es grande.** En diciembre los modelos van de +3,15 a +4,71 °C. Uno solo (NASA) lo lleva arriba de +5 °C en febrero; el resto lo baja a entre +2,3 y +3,8 °C.",
+    "**El pico estaría en diciembre.** La nueva corrida de los modelos de NOAA ubica el máximo del promedio mensual en **+3,48 °C en diciembre**, algo menos que lo que preveían en octubre (+3,85 °C). La anomalía diaria ya está en ese nivel: +3,47 °C el 6 de noviembre, después del récord de +3,65 °C del 26 de octubre.",
+    "**Sigue fuerte hasta el otoño.** El promedio de los modelos sigue arriba de +2 °C hasta marzo de 2027 y arriba de +1,5 °C hasta mayo; recién en julio volvería a valores neutrales. En 1983 y en 1998 las crecidas más grandes del Paraná llegaron en otoño e invierno, meses después del pico en el océano.",
+    "**Los modelos se acercaron entre sí.** En diciembre van de +3,07 °C (NCAR CCSM4) a +4,19 °C (GEM5.2 NEMO de Canadá); ninguno pasa ya de +5 °C. Este mes no llegaron a tiempo los modelos de NASA ni de GFDL, así que el rango es de cinco modelos.",
     "**Que el océano bata récords no garantiza un daño récord.** El daño depende de dónde caiga la lluvia: el mapa de abajo muestra qué esperan los modelos para cada trimestre."
    ],
-   "nota": "Anomalía diaria de la temperatura del mar en la región Niño-3.4 (5° N a 5° S y 170° O a 120° O), calculada con la serie OISST v2.1 de NOAA respecto del promedio 1991-2020. Por usar otro período de referencia, los valores pueden diferir en unas décimas de los de Climate Reanalyzer o Carbon Brief. 1877-78: reconstrucción mensual HadISST del Met Office británico (respecto de 1981-2010), hecha con mediciones dispersas de barcos; es solo una estimación y otras reconstrucciones, como ERSSTv5 de NOAA, lo ubican más alto (cerca de +2,7 °C). Pronóstico: promedio de los modelos de NOAA (NMME) emitido el 8 de octubre de 2026 y rango entre seis modelos; son valores mensuales. Índice relativo (cálculo propio): anomalía diaria de Niño-3.4 menos la anomalía tropical mensual de ERSSTv5 (20° N a 20° S, interpolada a días), multiplicada por 1,19 para mantener la escala del índice clásico, como hace NOAA con el RONI; en ese modo, 1877-78 usa ERSSTv5.",
+   "nota": "Anomalía diaria de la temperatura del mar en la región Niño-3.4 (5° N a 5° S y 170° O a 120° O), calculada con la serie OISST v2.1 de NOAA respecto del promedio 1991-2020. Por usar otro período de referencia, los valores pueden diferir en unas décimas de los de Climate Reanalyzer o Carbon Brief. 1877-78: reconstrucción mensual HadISST del Met Office británico (respecto de 1981-2010), hecha con mediciones dispersas de barcos; es solo una estimación y otras reconstrucciones, como ERSSTv5 de NOAA, lo ubican más alto (cerca de +2,7 °C). Pronóstico: promedio de los modelos de NOAA (NMME) emitido el 8 de noviembre de 2026 y rango entre cinco modelos (este mes no llegaron NASA ni GFDL); son valores mensuales. Índice relativo (cálculo propio): anomalía diaria de Niño-3.4 menos la anomalía tropical mensual de ERSSTv5 (20° N a 20° S, interpolada a días), multiplicada por 1,19 para mantener la escala del índice clásico, como hace NOAA con el RONI; en ese modo, 1877-78 usa ERSSTv5.",
    "explicacion_abs": "**Absoluto:** cuánto más caliente está el mar en la región Niño-3.4 respecto del promedio 1991-2020. No descuenta que el resto de los trópicos también está más caliente: en octubre de 2026 su anomalía media era de +0,94 °C, por el calentamiento de fondo y en parte por el propio Niño.",
-   "explicacion_rel": "**Relativo:** a la anomalía de Niño-3.4 se le resta la anomalía media de todos los trópicos (20° N a 20° S), porque lo que mueve las lluvias es la diferencia entre esa región y el resto. Es el criterio del índice relativo de NOAA (RONI), oficial desde el 1 de febrero de 2026: para julio-septiembre de 2026, NOAA da +2,16 °C en el índice clásico y +1,69 °C en el relativo. En 2026 la anomalía media de los trópicos fue subiendo hasta +0,94 °C en octubre, cuando en 1878 o 1983 estaba cerca de cero, así que con esta vara 2026 queda **a la par** de 1982-83 y 2015-16, no muy por encima, y la reconstrucción de 1877-78 (cerca de +2,7 °C en promedio de tres meses) podría ser la más alta. Aun así, una atmósfera más caliente retiene más humedad (alrededor de 7% más por cada grado), así que las lluvias pueden ser más intensas que lo que sugiere el índice relativo."
+   "explicacion_rel": "**Relativo:** a la anomalía de Niño-3.4 se le resta la anomalía media de todos los trópicos (20° N a 20° S), porque lo que mueve las lluvias es la diferencia entre esa región y el resto. Es el criterio del índice relativo de NOAA (RONI), oficial desde el 1 de febrero de 2026: para agosto-octubre de 2026, NOAA da +2,46 °C en el índice clásico (ONI) y +1,97 °C en el relativo (RONI). En 2026 la anomalía media de los trópicos fue subiendo hasta +0,94 °C en octubre, cuando en 1878 o 1983 estaba cerca de cero, así que con esta vara 2026 queda **a la par** de 1982-83 y 2015-16, no muy por encima, y la reconstrucción de 1877-78 (cerca de +2,7 °C en promedio de tres meses) podría ser la más alta. Aun así, una atmósfera más caliente retiene más humedad (alrededor de 7% más por cada grado), así que las lluvias pueden ser más intensas que lo que sugiere el índice relativo."
   },
   "lluvias": {
    "analisis": [
     {
-     "t": "Oct-Nov-Dic 2026",
-     "resumen": "**Lluvias sobre lo normal en casi toda la cuenca del Plata**, con la señal más fuerte en el sur de Brasil (63% de probabilidad) y la cuenca alta (53%). El NOA y la Amazonia, en cambio, van hacia lo seco.",
+     "t": "Nov-Dic-Ene 2026",
+     "resumen": "**El trimestre más húmedo para el Litoral y el NEA argentino** (65% de probabilidad de lluvias sobre lo normal), la región núcleo (63%) y el río Uruguay con el sur de Brasil (66%). La cuenca alta también va hacia lo húmedo (53%). El NOA (48% bajo lo normal) y la Amazonia (63%) van hacia lo seco.",
      "bloques": [
       [
        "Ríos y represas",
-       "Más lluvia sobre el sur de Brasil, Paraguay y Misiones mantiene alto el caudal que entra a **Yacyretá e Itaipú**, que ya supera su nivel de evacuación. El río **Uruguay** es el más expuesto: el sur de Brasil tiene la señal más fuerte del mapa, y eso presiona sobre **Salto Grande, Concordia y Paso de los Libres**. En Comahue, la lluvia sobre lo normal suma caudal a los ríos Neuquén y Limay en plena temporada de deshielo."
+       "Es la combinación más delicada: lluvia sobre lo normal **en la cuenca alta y en el tramo argentino a la vez**, justo cuando el Paraná sigue sobre la evacuación de Isla del Cerrito a Reconquista y la crecida avanza hacia Santa Fe, Paraná y Rosario. El río **Uruguay**, que ya volvió a crecer en el tramo alto, tiene la señal más fuerte del mapa: presión sobre **Santo Tomé, Paso de los Libres, Salto Grande y Concordia**. En Comahue (54% sobre lo normal) más caudal para el Neuquén y el Limay en pleno deshielo."
       ],
       [
        "Puertos y logística",
-       "Un río alto da más calado en el Gran Rosario, pero los caminos rurales anegados demoran la llegada de camiones. En el Litoral, con defensas al límite, cada lluvia fuerte complica la operación de los puertos de Corrientes, Barranqueras y Reconquista."
+       "El calado en el Gran Rosario se mantiene bueno, pero la operación terrestre es el cuello de botella: riesgo de cortes en accesos portuarios y en la RN 11, la RN 12 y rutas de islas y bajos del Litoral. En Corrientes, Barranqueras y Reconquista cada tormenta fuerte complica la operación con el río alto."
       ],
       [
        "Agricultura",
-       "En la región núcleo (48% sobre lo normal) la lluvia ayuda a la siembra de maíz y soja, pero llega justo con la **cosecha de trigo**: más riesgo de demoras y de fusariosis. En el NOA (43% bajo lo normal) puede atrasarse el comienzo de la temporada de lluvias y la siembra de verano."
+       "Coincide con la **ventana crítica de siembra de soja de primera y maíz tardío** y con la **cosecha de trigo**. Con 63% de chances de lluvias sobre lo normal en la región núcleo y 59% en el sur bonaerense, crece el riesgo de **lotes sin piso**, siembra fuera de fecha y enfermedades del trigo. En los bajos del Litoral, riesgo para el arroz y el algodón; en el NOA, una temporada de lluvias que podría arrancar tarde."
       ],
       [
        "Ganadería",
-       "Sigue el riesgo para la **hacienda de islas y bajos** del Paraná y del Uruguay, que ya está siendo evacuada. Los campos altos de la pampa, en cambio, ganan pasto."
+       "Sigue el riesgo para la **hacienda de islas y bajos** del Paraná y del Uruguay, que ya se está evacuando y donde murieron tres trabajadores rurales. Los campos altos de la pampa ganan pasto; en el NOA, la falta de lluvia puede demorar el rebrote."
       ],
       [
        "Ciudades e infraestructura",
-       "Más chances de **tormentas urbanas intensas** en Rosario, Santa Fe, Resistencia y Corrientes, donde los desagües ya trabajan contra un río alto. En Neuquén, con el suelo saturado, siguen los riesgos para rutas y accesos a Vaca Muerta."
-      ]
-     ]
-    },
-    {
-     "t": "Nov-Dic-Ene",
-     "resumen": "**El trimestre más húmedo para el Litoral y el NEA argentino** (60% de probabilidad de lluvias sobre lo normal) y la región núcleo (54%). La cuenca alta sigue húmeda (51%) y el norte de Sudamérica, seco.",
-     "bloques": [
-      [
-       "Ríos y represas",
-       "Es la combinación más delicada: lluvia sobre lo normal **en la cuenca alta y en el tramo argentino a la vez**. El agua que cae en Corrientes, Chaco y el norte de Santa Fe se suma a la crecida que baja de Yacyretá. Es el escenario en el que **Reconquista, Goya, Santa Fe y Paraná** podrían pasar de alerta a evacuación. El río Uruguay sigue bajo presión por el sur de Brasil (63%)."
-      ],
-      [
-       "Puertos y logística",
-       "Riesgo de cortes en accesos portuarios y rutas del Litoral (RN 11, RN 12, rutas provinciales de islas y bajos). El calado se mantiene bueno, pero la operación terrestre es el cuello de botella."
-      ],
-      [
-       "Agricultura",
-       "Coincide con la **ventana crítica del 15 de noviembre al 31 de diciembre**: siembra de soja de primera y maíz tardío. Con 54% de chances de lluvias sobre lo normal en la región núcleo, crece el riesgo de **lotes sin piso** y de siembra fuera de fecha. En los bajos del Litoral, anegamiento de arroz y algodón."
-      ],
-      [
-       "Ganadería",
-       "Es el momento de mayor riesgo para la **ganadería de islas** del Delta y del Paraná medio. También hay más riesgo de enfermedades por humedad y de pérdida de pasturas en bajos."
-      ],
-      [
-       "Ciudades e infraestructura",
-       "Riesgo alto en las ciudades sobre el Paraná con defensas incompletas: Corrientes, Goya, Reconquista y las islas frente a Rosario. Con calor y humedad, también se adelanta la **temporada de dengue**."
+       "Más chances de **tormentas urbanas intensas** en Rosario, Santa Fe, Paraná, Resistencia y Corrientes, donde los desagües trabajan contra un río alto, y de temporales con granizo y viento como los de octubre y noviembre en Misiones. En la costa del Uruguay, atención a Concordia, Colón y Gualeguaychú."
       ]
      ]
     },
     {
      "t": "Dic-Ene-Feb",
-     "resumen": "**La señal se corre hacia el sur**: la región núcleo pasa a ser la zona con más chances de lluvias sobre lo normal (56%), junto con el Litoral (54%). En la cuenca alta la señal se debilita (41%).",
+     "resumen": "**Sigue muy húmedo el Litoral y el NEA** (63% sobre lo normal), la región núcleo (60%) y el sur de Brasil con el río Uruguay (58%); el sur bonaerense y La Pampa, 50%. La cuenca alta baja a 45%. El NOA (43% bajo lo normal) y la Amazonia (61%) siguen hacia lo seco.",
      "bloques": [
       [
        "Ríos y represas",
-       "Si la cuenca alta se modera, el ingreso a Yacyretá podría empezar a bajar, pero el Paraná medio e inferior recibe tarde la crecida de los meses anteriores. Más lluvia local sobre Santa Fe, Entre Ríos y Buenos Aires complica el desagüe de **arroyos y bajos** (cuenca del Salado, sur de Santa Fe)."
+       "El aporte de la cuenca alta pierde fuerza, pero la lluvia local sobre Corrientes, Chaco, Santa Fe y Entre Ríos mantiene alto el Paraná medio e inferior en pleno verano. El **Uruguay** sigue bajo presión. Si se cumple, es el escenario en el que el río tarda en bajar de los niveles de evacuación del NEA."
       ],
       [
        "Puertos y logística",
-       "Con la región núcleo húmeda, los **caminos rurales** son el principal problema para la cosecha gruesa que empieza en marzo y para el movimiento de hacienda."
+       "Buen calado para la exportación, pero con caminos rurales anegados en la región núcleo y el Litoral. Puede haber demoras en la llegada de camiones a los puertos del Gran Rosario en el arranque de la cosecha gruesa temprana."
       ],
       [
        "Agricultura",
-       "Bueno para el **llenado de maíz y soja** de primera si no hay excesos; malo en suelos ya saturados, con anegamiento y enfermedades. En la región núcleo es el trimestre con mayor riesgo de pérdidas por exceso de agua."
+       "Para la soja y el maíz ya implantados, el agua es buena noticia en los lotes altos, pero los bajos de la región núcleo (60%) y del sur bonaerense pueden anegarse. Más humedad también trae más **enfermedades de hoja**. En el NOA, una temporada con menos lluvia (43% bajo lo normal) puede afectar la soja, el poroto y la caña."
       ],
       [
        "Ganadería",
-       "Pasturas abundantes en zonas altas; riesgo de anegamiento de rodeos y tambos en bajos de la cuenca del Salado y del centro de Santa Fe."
+       "Riesgo sostenido en islas y bajos: la hacienda evacuada no podría volver pronto. En la pampa, buena oferta de pasto; en el NOA, posible estrés en los campos de cría."
       ],
       [
        "Ciudades e infraestructura",
-       "Más chances de lluvias intensas sobre el **AMBA, Rosario y La Plata**, donde las muertes por tormentas urbanas súbitas son el mayor riesgo, como en La Plata en 2013."
+       "Calor húmedo y lluvias intensas: es la temporada de más riesgo de **dengue** y de **leptospirosis** en zonas inundadas. Tormentas urbanas en las ciudades del Litoral y la región núcleo."
       ]
      ]
     },
     {
-     "t": "Ene-Feb-Mar 2027",
-     "resumen": "**La señal húmeda se debilita**, salvo en el Litoral y el NEA (51%). La región núcleo baja a 44% y el resto del país queda cerca de lo normal o sin señal clara.",
+     "t": "Ene-Feb-Mar",
+     "resumen": "**La señal húmeda se debilita**: el Litoral y el NEA siguen con 51% de probabilidad de lluvias sobre lo normal, el río Uruguay y el sur de Brasil con 49%, la cuenca alta con 43% y la región núcleo con 42%. El sur bonaerense, Cuyo y Comahue quedan cerca de lo normal. El NOA (45% bajo lo normal) y la Amazonia (55%) siguen hacia lo seco.",
      "bloques": [
       [
        "Ríos y represas",
-       "Aunque llueva menos, el Paraná suele tardar meses en bajar: la crecida puede durar hasta el otoño, como en 1983 y en 1998. El Litoral sigue húmedo y eso mantiene la presión sobre las ciudades ribereñas del NEA."
+       "Menos presión de lluvia nueva, pero el Paraná responde lento: el agua acumulada en la cuenca puede mantener altos los niveles del NEA y del tramo medio. En 1983 y en 1998 los picos más altos llegaron justamente después del verano."
       ],
       [
        "Puertos y logística",
-       "Empieza la **cosecha gruesa**: si los suelos siguen saturados, habrá demoras en la cosecha y en el transporte a puertos."
+       "Con la cosecha gruesa acercándose, un río todavía alto ayuda al calado; la clave sigue siendo el estado de los caminos rurales y los accesos."
       ],
       [
        "Agricultura",
-       "Con menos señal en la región núcleo, mejora la perspectiva de cosecha, aunque la humedad previa puede bajar la calidad de granos. En el Litoral, riesgo para arroz y algodón en cosecha."
+       "Llenado de granos de la soja y del maíz: en el Litoral, el exceso de agua puede afectar la calidad; en el NOA, la falta de lluvia en esa etapa pesa sobre el rinde. En Cuyo, las tormentas de verano con granizo son el riesgo principal para la vid y los frutales."
       ],
       [
        "Ganadería",
-       "Recuperación de pasturas en zonas altas; en islas y bajos, la vuelta de la hacienda depende de que baje el río."
+       "La recuperación de los campos de islas depende de que el río baje; mientras tanto, la hacienda sigue en campos prestados o vendida."
       ],
       [
        "Ciudades e infraestructura",
-       "El riesgo se concentra en las ciudades del NEA sobre el Paraná y en las tormentas de fin de verano. Es la etapa en que suelen aparecer los **brotes de leptospirosis y dengue** tras las inundaciones."
+       "Sigue el riesgo sanitario por dengue en el NEA y el Litoral, y el desgaste de defensas y terraplenes tras meses de río alto."
+      ]
+     ]
+    },
+    {
+     "t": "Feb-Mar-Abr 2027",
+     "resumen": "**Vuelve a reforzarse la señal húmeda en el Litoral y el NEA (52%) y en el río Uruguay (52%)**, con la cuenca alta en 46% y la región núcleo en 43%. Cuyo, 40% sobre lo normal. El NOA (39% bajo lo normal) y la Amazonia (44%) siguen más secos.",
+     "bloques": [
+      [
+       "Ríos y represas",
+       "Es el período en el que, en 1983 y 1998, el Paraná alcanzó sus picos en Corrientes, Goya y Santa Fe. Una nueva señal húmeda en el otoño, con el río todavía alto, es la combinación que define el escenario de **repetición de 1997-98**."
+      ],
+      [
+       "Puertos y logística",
+       "Coincide con el pico de la cosecha gruesa: si el río y los caminos siguen complicados, puede haber demoras en la logística de la soja y el maíz hacia el Gran Rosario."
+      ],
+      [
+       "Agricultura",
+       "Riesgo de demoras en la **cosecha de soja y maíz** por lotes sin piso en el Litoral y la región núcleo, y de pérdidas de calidad. En el NEA, el arroz llega a cosecha con riesgo de anegamiento."
+      ],
+      [
+       "Ganadería",
+       "Si el río sigue alto, la hacienda de islas no vuelve antes del invierno; el pasto de los campos altos ayuda a sostener la recría."
+      ],
+      [
+       "Ciudades e infraestructura",
+       "Las defensas del NEA y del Litoral enfrentarían otra temporada de crecida con meses de desgaste acumulado; es clave el mantenimiento de terraplenes y estaciones de bombeo antes del otoño."
       ]
      ]
     }
    ],
-   "nota": "Pronóstico probabilístico de NOAA (NMME, varios modelos combinados), emitido el 7 de octubre de 2026, en una grilla de 1° (unos 100 km). Cada punto muestra qué categoría es más probable comparada con el período 1991-2020: lluvias **sobre lo normal**, **cerca de lo normal** o **bajo lo normal**. Una probabilidad de 33% en cada una equivale a no saber nada; por eso los puntos sin una categoría claramente más probable quedan en blanco. Los puntos vacíos son zonas en estación seca, donde NOAA no publica pronóstico. Es la misma fuente que usa el IRI de la Universidad de Columbia. El análisis es propio."
+   "nota": "Pronóstico probabilístico de NOAA (NMME, varios modelos combinados), emitido el 7 de noviembre de 2026, en una grilla de 1° (unos 100 km). Cada punto muestra qué categoría es más probable comparada con el período 1991-2020: lluvias **sobre lo normal**, **cerca de lo normal** o **bajo lo normal**. Una probabilidad de 33% en cada una equivale a no saber nada; por eso los puntos sin una categoría claramente más probable quedan en blanco. Los puntos vacíos son zonas en estación seca, donde NOAA no publica pronóstico. Es la misma fuente que usa el IRI de la Universidad de Columbia. El análisis es propio."
   }
  }
 }

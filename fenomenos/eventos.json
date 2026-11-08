@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-07",
- "desde": "2026-08-09",
+ "actualizado": "2026-11-08",
+ "desde": "2026-08-10",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "4 de agosto a 2 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-05",
+  "hasta": "2026-11-06",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -184,7 +184,8 @@
   ],
   "gdacs": [
    1103888,
-   1104269
+   1104269,
+   1104270
   ]
  },
  "eventos": [
@@ -9651,59 +9652,6 @@
    }
   },
   {
-   "id": "nam-m04",
-   "tipo": "incendio",
-   "titulo": "Incendio New Pass: 15.300 ha en el centro de Nevada",
-   "lugar": "Noroeste de Austin, límite de los condados de Churchill y Lander, Nevada",
-   "pais": "EE.UU.",
-   "inicio": "2026-07-26",
-   "fin": "2026-08-09",
-   "geom": {
-    "t": "area",
-    "c": [
-     -117.45,
-     39.75
-    ],
-    "r": 15
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "Empezó el 26 de julio a unos 48 km (30 millas) al noroeste de Austin, en el límite de los condados de Churchill y Lander. Al 9 de agosto había quemado 37.899 acres (15.337 ha) y estaba contenido al 81 %. No hubo órdenes de evacuación.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "intensidad",
-   "fuentes": [
-    {
-     "t": "2 News Nevada (KTVN), 9 ago 2026",
-     "u": "https://www.2news.com/news/local/new-pass-fire-now-43-contained-in-lander-county/article_23512fd9-04f8-4485-9b38-b6666ea8e98c.html"
-    },
-    {
-     "t": "KOLO 8, 2 ago 2026",
-     "u": "https://www.kolotv.com/2026/08/02/new-pass-fire-keeps-charred-acreage-steady-into-sunday/"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "15.337 ha (37.899 acres)",
-    "ref": "entre 10.000 y 49.999 ha",
-    "fuente": 0
-   }
-  },
-  {
    "id": "nam-m05",
    "tipo": "incendio",
    "titulo": "Incendio Sand Creek: 14.400 ha cerca de Wisdom, Montana",
@@ -12533,10 +12481,10 @@
     80.05,
     15.5
    ],
-   "muertes": null,
+   "muertes": 8,
    "afectados": null,
    "evacuados": null,
-   "texto": "El ciclón Murasu tocó tierra en la costa sur de Andhra Pradesh cerca de Ongole hacia la 1 del 3 de noviembre (hora de India), con vientos de hasta 110 km/h y ráfagas de 120 km/h según el servicio meteorológico de India, que pronosticó una marea de tormenta de 1 a 1,5 m. Derribó árboles y postes e inundó zonas bajas; miles de personas fueron trasladadas a lugares seguros. En los primeros reportes no había muertos ni heridos. GDACS emitió alerta roja.",
+   "texto": "El ciclón Murasu tocó tierra en la costa sur de Andhra Pradesh cerca de Ongole hacia la 1 del 3 de noviembre (hora de India), con vientos de hasta 110 km/h y ráfagas de 120 km/h según el servicio meteorológico de India. Según el balance del gobierno estatal difundido el 6 de noviembre, murieron 8 personas (5 en Bapatla, 2 en Guntur y 1 en Palnadu), se dañaron 143.122 hectáreas de cultivos de 186.063 agricultores y 983 viviendas. GDACS emitió alerta roja.",
    "intensidad": {
     "nivel": 1,
     "medida": "120 km/h de viento máximo (GDACS, 1 de noviembre)",
@@ -12546,9 +12494,9 @@
    "danos": {
     "usd": null,
     "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Árboles y postes caídos y zonas bajas inundadas; sin cifras publicadas."
+    "tipo": "oficial",
+    "fuente": 5,
+    "texto": "Pérdidas estimadas por el gobierno de Andhra Pradesh en Rs 1.918,55 crore (unos 19.185 millones de rupias); 143.122 ha de cultivos y 983 viviendas dañadas."
    },
    "efectos": {
     "corto": [
@@ -12563,12 +12511,16 @@
      {
       "cat": "economia",
       "t": "Sri Lanka ordenó a pescadores y marinos salir de la zona entre 10° y 15° N y 80° y 90° E."
+     },
+     {
+      "cat": "agro",
+      "t": "143.122 hectáreas de cultivos dañadas, que afectan a 186.063 agricultores."
      }
     ],
     "mediano": [],
     "largo": []
    },
-   "criterio": "alerta_gdacs",
+   "criterio": "muertes",
    "fuentes": [
     {
      "t": "GDACS, alerta roja TC 1001346, 1-nov-2026",
@@ -12589,6 +12541,10 @@
     {
      "t": "The Week, 3-nov-2026",
      "u": "https://www.theweek.in/news/india/2026/11/03/cyclone-murasu-landfall-andhra-pradesh.html"
+    },
+    {
+     "t": "Telangana Today (IANS), 6-nov-2026",
+     "u": "https://telanganatoday.com/andhra-cyclone-murasu-claimed-eight-lives-caused-rs-1918-crore-loss"
     }
    ]
   },
@@ -13401,6 +13357,136 @@
     {
      "t": "GDACS, alerta verde FL 1104259, 6-nov-2026",
      "u": "https://www.gdacs.org/report.aspx?eventid=1104259&eventtype=FL"
+    }
+   ]
+  },
+  {
+   "id": "eur-s01",
+   "tipo": "inundacion",
+   "titulo": "Inundaciones en Córcega del Sur",
+   "lugar": "Porto-Vecchio, Bonifacio y Conca (Córcega del Sur); Gard",
+   "pais": "Francia",
+   "inicio": "2026-11-04",
+   "fin": "2026-11-07",
+   "origen": "ambos",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104270,
+     "a": "verde"
+    }
+   ],
+   "geom": {
+    "t": "area",
+    "c": [
+     9.25,
+     41.6
+    ],
+    "r": 40
+   },
+   "impacto": null,
+   "muertes": 2,
+   "afectados": null,
+   "evacuados": 120,
+   "texto": "Entre el 4 y el 6 de noviembre cayeron hasta 300 mm cerca de Porto-Vecchio y Conca, según la prefectura. Dos personas murieron cuando un torrente arrastró su vehículo en la RT10, entre Bonifacio y Porto-Vecchio, en la noche del 5 al 6; una tercera fue rescatada en helicóptero. Hubo 43 intervenciones, 32 personas puestas a salvo y hasta 120 alojadas en un gimnasio de Porto-Vecchio. Las dos Córcegas estuvieron en vigilancia naranja por lluvia e inundación.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "hasta 300 mm en tres días cerca de Porto-Vecchio y Conca",
+    "ref": "sin comparación con lo normal ni récord publicados",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Viviendas dañadas en Muratello y Précojo (Porto-Vecchio), según la recopilación de prensa de GDACS; sin estimación publicada."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "transporte",
+      "t": "Cortes en la RT10 entre Bonifacio y Porto-Vecchio."
+     },
+     {
+      "cat": "vivienda",
+      "t": "Hasta 120 personas alojadas en el gimnasio COSEC de Porto-Vecchio."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "Bulletin des Communes, 7-nov-2026",
+     "u": "https://bulletindescommunes.net/inondations-en-corse-du-sud-porto-vecchio-bilan/"
+    },
+    {
+     "t": "GDACS, alerta verde",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1104270&eventtype=FL"
+    }
+   ]
+  },
+  {
+   "id": "nam-s02",
+   "tipo": "inundacion",
+   "titulo": "Crecida récord del río Toccoa-Ocoee en Georgia y Tennessee",
+   "lugar": "McCaysville (Georgia) y Copperhill (Tennessee); condados de Fannin, Polk y Murray",
+   "pais": "EE.UU.",
+   "inicio": "2026-11-05",
+   "fin": "2026-11-06",
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     -84.37,
+     34.98
+    ],
+    "r": 50
+   },
+   "impacto": null,
+   "muertes": 1,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Tras 8 a 10 pulgadas (unos 200 a 250 mm) de lluvia en una noche, el río Toccoa-Ocoee subió unos 16 pies en 12 horas y llegó a 18,05 pies en McCaysville, por encima del récord de 17,75 pies de 1990. Hubo 68 rescates en el condado de Polk (Tennessee) y más de 80 en el de Fannin (Georgia); una mujer murió en el condado de Murray. El gobernador de Georgia declaró la emergencia en varios condados.",
+   "intensidad": {
+    "nivel": 3,
+    "medida": "18,05 pies en McCaysville",
+    "ref": "récord del río: superó los 17,75 pies de 1990",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Viviendas y comercios inundados en McCaysville y Copperhill; sin estimación publicada."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "vivienda",
+      "t": "Más de 140 rescates en los dos estados."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "record",
+   "fuentes": [
+    {
+     "t": "WSMV, 5-nov-2026",
+     "u": "https://www.wsmv.com/2026/11/05/state-reports-nearly-70-rescues-southeast-tennessee-responds-severe-flooding-heres-what-we-know/"
+    },
+    {
+     "t": "AJC, 5-nov-2026",
+     "u": "https://www.ajc.com/news/2026/11/heavy-rains-cause-flash-flooding-water-rescues-on-georgia-tennessee-border/"
+    },
+    {
+     "t": "CNN, 5-nov-2026",
+     "u": "https://www.cnn.com/2026/11/05/weather/flooding-georgia-tennessee-mccaysville-copperhill-climate"
     }
    ]
   }
