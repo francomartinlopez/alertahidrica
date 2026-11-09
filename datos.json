@@ -1,30 +1,30 @@
 {
  "meta": {
   "titulo": "Súper Niño 2026-27 en Argentina",
-  "actualizado": "2026-11-08",
-  "actualizado_texto": "8 de noviembre de 2026",
+  "actualizado": "2026-11-09",
+  "actualizado_texto": "9 de noviembre de 2026",
   "proxima": "Se actualiza todos los días por la mañana.",
   "autor": "Franco Martín López",
-  "version": 28,
+  "version": 29,
   "cambios": [
-   "Paraná (Entre Ríos) superó la alerta el sábado 7 (4,73 m) y el domingo a las 6 marcaba 4,85 m; Santa Fe 4,75 m y Rosario 4,14 m siguen subiendo. Itatí repuntó a 7,48 m, a 2 cm de la evacuación.",
-   "El Uruguay sigue creciendo en el tramo alto: Santo Tomé 9,90 m el sábado y Paso de los Libres 6,10 m; el INA ve probable superar la alerta desde el 11 de noviembre.",
-   "Nuevo pronóstico NMME (8 nov): pico de +3,48 °C en diciembre y vuelta a neutral hacia julio de 2027. Lluvias NDE: 65% sobre lo normal en el Litoral. ONI ASO +2,46 y RONI +1,97.",
-   "Chaco ratificó 2.239 desplazados (parte del 7 nov); reabrió el paso provisorio sobre el Pindaytí. SMN: solo alerta amarilla por viento en Santa Cruz y Tierra del Fuego."
+   "El Paraná llegó al nivel de evacuación en la capital entrerriana (5,03 m el lunes a las 6) y el domingo empezaron los traslados en Bajada Grande; Santa Fe 4,87 m y Rosario 4,22 m siguen subiendo.",
+   "Corrientes bajó a 6,93 m, por primera vez debajo de la evacuación; Itatí 7,42 m e Isla del Cerrito 7,38 m en baja.",
+   "El Uruguay sigue creciendo: Santo Tomé 10,83 m, Paso de los Libres 6,83 m y Concordia 7,66 m; Alba Posse y Panambí sobre la alerta.",
+   "NOAA (semana del 4 nov): Niño-3.4 +3,3 °C y Niño-1+2 +5,6 °C, el más alto del evento. SMN: alertas amarillas por viento en ocho provincias y por nevadas en Mendoza."
   ]
  },
  "alerta": {
   "nivel": "rojo",
-  "titular": "El Paraná superó la alerta en Paraná y sigue subiendo, mientras el Uruguay crece en el tramo alto rumbo a Paso de los Libres",
-  "bajada": "Este domingo 8 de noviembre **el Paraná superó la alerta en el puerto de Paraná: 4,85 m**, en suba y a 15 cm de la evacuación; Santa Fe marcó 4,75 m y Rosario 4,14 m, también crecientes, y La Paz sigue sobre la alerta. En el norte el río sigue **sobre la evacuación en Isla del Cerrito (7,41 m), Barranqueras (6,81 m), Goya (6,00 m) y Reconquista (5,86 m)**; **Corrientes sigue en 7,00 m**, justo en la evacuación, e **Itatí repuntó a 7,48 m**, a 2 cm de ese nivel. **El río Uruguay sigue creciendo**: Santo Tomé llegó a 9,90 m y Paso de los Libres a 6,10 m, y el INA ve probable que supere la alerta desde el 11 de noviembre; siguen cerrados los pasos fluviales a Brasil. Hay unos **4.300 desplazados** (Chaco 2.239, Corrientes 1.967 y Santa Fe unos 124) y **murieron tres trabajadores rurales**. Hoy solo rige **alerta amarilla por viento en Santa Cruz y Tierra del Fuego**. Los nuevos modelos de NOAA ubican el pico del Niño en **diciembre (+3,5 °C)**, con lluvias sobre lo normal en el Litoral hasta enero. **No hay emergencia nacional declarada.**"
+  "titular": "El Paraná llegó al nivel de evacuación en la capital entrerriana y empezaron los traslados en Bajada Grande, mientras el Uruguay sigue creciendo en Corrientes",
+  "bajada": "Este lunes 9 de noviembre **el Paraná llegó al nivel de evacuación en el puerto de Paraná: 5,03 m a las 6**, en suba; el domingo el municipio abrió un punto de asistencia en Bajada Grande y **empezaron los traslados de familias**. Aguas abajo siguen subiendo **Santa Fe (4,87 m) y Rosario (4,22 m)**, todavía bajo la alerta, y La Paz está en 6,13 m, sobre la alerta. En el norte el río sigue **sobre la evacuación en Isla del Cerrito (7,38 m), Barranqueras (6,80 m), Goya (6,00 m) y Reconquista (5,83 m)**, en baja lenta; **Corrientes bajó a 6,93 m**, por primera vez debajo de la evacuación, e Itatí marcó 7,42 m. **El río Uruguay sigue creciendo**: Santo Tomé 10,83 m, Paso de los Libres 6,83 m (a 67 cm de la alerta) y Concordia 7,66 m; el INA ve probable superar la alerta en Paso de los Libres desde el 11, y siguen cerrados los pasos fluviales a Brasil. Hay unos **4.300 desplazados** (Chaco 2.239, Corrientes 1.967 y Santa Fe unos 124, más las familias de Bajada Grande, sin cifra oficial) y **murieron tres trabajadores rurales**. Hoy rigen **alertas amarillas por viento en ocho provincias del centro, el oeste y el sur, y por nevadas en el noroeste de Mendoza**. **No hay emergencia nacional declarada.**"
  },
  "kpis": [
   {
    "id": "nino",
    "label": "Niño-3.4 semanal",
-   "valor": "+3,4",
+   "valor": "+3,3",
    "unidad": "°C",
-   "detalle": "Semana centrada el 28 de octubre (boletín de NOAA del 2 de noviembre): igual que la semana anterior, el valor más alto del evento y **siete semanas seguidas sobre +3 °C**. Niño-1+2, frente a Perú y Ecuador, en +5,4 °C. El dato diario llegó a **+3,65 °C el 26 de octubre**, el más alto desde 1982 (cálculo propio con OISST); el 6 de noviembre marcó +3,47 °C. Trimestre agosto-octubre: ONI +2,46 °C y RONI +1,97 °C",
+   "detalle": "Semana centrada el 4 de noviembre (boletín de NOAA del 9 de noviembre): una décima menos que el máximo del evento (+3,4 °C), pero **ocho semanas seguidas sobre +3 °C**. **Niño-1+2, frente a Perú y Ecuador, subió a +5,6 °C**, el valor más alto del evento. El dato diario llegó a **+3,65 °C el 26 de octubre**, el más alto desde 1982 (cálculo propio con OISST); el 7 de noviembre marcó +3,36 °C. Trimestre agosto-octubre: ONI +2,46 °C y RONI +1,97 °C",
    "tono": "critico",
    "fuente": "[NOAA CPC, datos semanales](https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for) · [NOAA CPC, ONI](https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt)"
   },
@@ -33,9 +33,9 @@
    "label": "Evacuados y autoevacuados",
    "valor": "~4.300",
    "unidad": "personas",
-   "detalle": "1.967 en Corrientes (Defensa Civil, 5 nov), 2.239 en Chaco (parte oficial del 7 nov, sin cambios desde el 29 de octubre) y unas 124 en Santa Fe (88 en el norte al 29 oct y 36 en la capital al 6 nov)",
+   "detalle": "1.967 en Corrientes (Defensa Civil, 5 nov), 2.239 en Chaco (parte oficial del 7 nov, sin cambios desde el 29 de octubre) y unas 124 en Santa Fe (88 en el norte al 29 oct y 36 en la capital al 6 nov). En Paraná (Entre Ríos) empezaron los traslados en Bajada Grande el 8 de noviembre, sin cifra oficial",
    "tono": "critico",
-   "fuente": "[El Litoral (Corrientes), 5 nov](https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida) · [La Voz del Chaco, 3 nov](https://www.diariolavozdelchaco.com/2026/11/03/emergencia-hidrica-chaco-parana-paraguay-bermejo-3-noviembre/) · [Sin Mordaza](https://sinmordaza.com/noticia/523550-el-parana-supera-el-nivel-de-evacuacion-en-el-norte-de-santa-fe-hay-88-personas-evacuadas.html) · [Mirador Provincial, 6 nov](https://www.miradorprovincial.com/2026/11/06/crecida-del-rio-en-santa-fe-ya-son-10-las-familias-alojadas-en-los-modulos-de-alto-verde/)"
+   "fuente": "[El Litoral (Corrientes), 5 nov](https://www.ellitoral.com.ar/sociedad/2026-11-5-19-39-0-el-parana-se-estaciona-y-corrientes-tiene-1-967-evacuados-por-la-crecida) · [La Voz del Chaco, 3 nov](https://www.diariolavozdelchaco.com/2026/11/03/emergencia-hidrica-chaco-parana-paraguay-bermejo-3-noviembre/) · [Sin Mordaza](https://sinmordaza.com/noticia/523550-el-parana-supera-el-nivel-de-evacuacion-en-el-norte-de-santa-fe-hay-88-personas-evacuadas.html) · [Mirador Provincial, 6 nov](https://www.miradorprovincial.com/2026/11/06/crecida-del-rio-en-santa-fe-ya-son-10-las-familias-alojadas-en-los-modulos-de-alto-verde/) · [Elonce, 8 nov](https://www.elonce.com/parana/el-rio-parana-llego-a-4-95-metros-y-comenzaron-a-evacuar-familias-en-bajada-grande.htm)"
   },
   {
    "id": "muertes",
@@ -51,9 +51,9 @@
    "label": "Puertos sobre evacuación",
    "valor": "5",
    "unidad": "",
-   "detalle": "Isla del Cerrito (7,41 m), Barranqueras (6,81 m), Goya (6,00 m) y Reconquista (5,86 m), en baja lenta; **Corrientes sigue justo en la evacuación (7,00 m)** e Itatí repuntó a 7,48 m. **Paraná (Entre Ríos) superó la alerta: 4,85 m** el 8 de noviembre, y el Uruguay crece hacia Paso de los Libres (6,10 m)",
+   "detalle": "**Paraná (Entre Ríos) llegó a la evacuación: 5,03 m** el 9 de noviembre, en suba. Isla del Cerrito (7,38 m), Barranqueras (6,80 m), Goya (6,00 m) y Reconquista (5,83 m) siguen sobre ese nivel, en baja lenta; **Corrientes bajó a 6,93 m**, debajo de la evacuación. El Uruguay crece hacia Paso de los Libres (6,83 m)",
    "tono": "alerta",
-   "fuente": "[Prefectura vía RíoAlert, 8 nov](https://rioalert.com.ar/rios/parana)"
+   "fuente": "[Prefectura vía RíoAlert, 9 nov](https://rioalert.com.ar/rios/parana)"
   },
   {
    "id": "emerg",
@@ -93,6 +93,46 @@
   }
  ],
  "hoy": [
+  {
+   "fecha": "9 nov",
+   "f": "2026-11-09",
+   "lugar": "Paraná (Entre Ríos)",
+   "prov": "Entre Ríos",
+   "texto": "**El Paraná llegó al nivel de evacuación en la capital entrerriana: 5,03 m el lunes a las 6** (evacuación 5,00 m), en suba. Aguas arriba La Paz marcó 6,13 m y Hernandarias 5,91 m, sobre la alerta; Santa Fe 4,87 m, Diamante 5,20 m y Rosario 4,22 m, en suba.",
+   "tipo": "rio",
+   "url": "https://rioalert.com.ar/rios/parana",
+   "fuente": "Prefectura vía RíoAlert"
+  },
+  {
+   "fecha": "9 nov",
+   "f": "2026-11-09",
+   "lugar": "Santo Tomé, Paso de los Libres y Concordia",
+   "prov": "Corrientes",
+   "texto": "**El río Uruguay sigue creciendo**: Santo Tomé 10,83 m, Garruchos 11,06 m, Paso de los Libres 6,83 m (73 cm más en un día) y Concordia 7,66 m, todos en suba. Alba Posse y Panambí (Misiones) están sobre la alerta.",
+   "tipo": "rio",
+   "url": "https://rioalert.com.ar/rios/uruguay",
+   "fuente": "Prefectura vía RíoAlert"
+  },
+  {
+   "fecha": "9 nov",
+   "f": "2026-11-09",
+   "lugar": "Corrientes e Itatí",
+   "prov": "Corrientes",
+   "texto": "El Paraná **bajó a 6,93 m en Corrientes**, por primera vez debajo de la evacuación (7,00 m) en varios días; Itatí marcó 7,42 m e Isla del Cerrito 7,38 m, en baja.",
+   "tipo": "rio",
+   "url": "https://rioalert.com.ar/rios/parana",
+   "fuente": "Prefectura vía RíoAlert"
+  },
+  {
+   "fecha": "8 nov",
+   "f": "2026-11-08",
+   "lugar": "Bajada Grande (Paraná)",
+   "prov": "Entre Ríos",
+   "texto": "Con el río en 4,95 m, **empezaron las evacuaciones en Bajada Grande**: la Municipalidad montó un punto de encuentro y asistencia con alojamiento transitorio en el camping, que cierra al público desde el lunes. Unas 20 viviendas de la costanera son las más expuestas; varias familias se fueron a casas de parientes. No hay cifra oficial de evacuados.",
+   "tipo": "evacuacion",
+   "url": "https://www.elonce.com/parana/el-rio-parana-llego-a-4-95-metros-y-comenzaron-a-evacuar-familias-en-bajada-grande.htm",
+   "fuente": "Elonce"
+  },
   {
    "fecha": "8 nov",
    "f": "2026-11-08",
@@ -442,7 +482,9 @@
    "tipo": "tormenta",
    "url": "https://radiocataratas.com/2026/11/02/el-inym-relevo-6-581-hectareas-de-yerba-mate-danadas-por-el-granizo-en-el-centro-y-nordeste-de-misiones/",
    "fuente": "Radio Cataratas"
-  },
+  }
+ ],
+ "eventos_previos": [
   {
    "fecha": "1 nov",
    "f": "2026-11-01",
@@ -502,9 +544,7 @@
    "tipo": "tormenta",
    "url": "https://misiones.gob.ar/policia-fuerte-temporal-en-eldorado-12-voladuras-de-techos-arboles-y-postes-caidos-un-herido-y-zonas-sin-luz-ni-internet/",
    "fuente": "Gobierno de Misiones"
-  }
- ],
- "eventos_previos": [
+  },
   {
    "fecha": "31 oct",
    "f": "2026-10-31",
@@ -1587,19 +1627,19 @@
   }
  ],
  "senales": {
-  "empeora": "**Paraná (Entre Ríos) superó la alerta** (4,85 m) y Santa Fe, Diamante, Victoria y Rosario siguen subiendo. **El Uruguay crece en el tramo alto** (Santo Tomé 9,90 m, Paso de los Libres 6,10 m) y el INA ve probable superar la alerta desde el 11. Los modelos de NOAA prevén lluvias sobre lo normal en el Litoral (65%) y en el sur de Brasil (66%) hasta enero.",
-  "mejora": "El Paraná sigue bajando muy lento en Isla del Cerrito, Barranqueras, Goya y Reconquista, y Concordia está lejos de la alerta. El pico previsto del Niño bajó de +3,85 a +3,48 °C en la nueva corrida de NOAA."
+  "empeora": "**Paraná (Entre Ríos) llegó al nivel de evacuación** (5,03 m) y empezaron los traslados en Bajada Grande; Santa Fe, Diamante y Rosario siguen subiendo. **El Uruguay crece en el tramo alto** (Santo Tomé 10,83 m, Paso de los Libres 6,83 m) y el INA ve probable superar la alerta desde el 11. Niño-1+2 llegó a +5,6 °C, el valor más alto del evento.",
+  "mejora": "**Corrientes bajó a 6,93 m**, debajo de la evacuación, y el Paraná sigue bajando lento en Isla del Cerrito, Barranqueras, Goya y Reconquista. Niño-3.4 semanal bajó una décima (+3,3 °C) y el pico previsto por NOAA bajó de +3,85 a +3,48 °C. No hay alertas por tormentas en el país."
  },
  "rios": [
   {
    "puerto": "Itatí",
    "rio": "Paraná",
-   "altura": 7.48,
-   "fecha": "8 nov",
+   "altura": 7.42,
+   "fecha": "9 nov",
    "alerta": 6.8,
    "evac": 7.5,
    "estado": "alerta",
-   "lectura": "**7,48 m el 8 de noviembre, en repunte** y a 2 cm de la evacuación (7,50 m).",
+   "lectura": "7,42 m el 9 de noviembre, en baja tras el repunte del domingo (7,48 m); la evacuación es 7,50 m.",
    "lon": -58.24,
    "lat": -27.27,
    "hist": [
@@ -1666,6 +1706,10 @@
     [
      "2026-11-08",
      7.48
+    ],
+    [
+     "2026-11-09",
+     7.42
     ]
    ],
    "proy": []
@@ -1673,12 +1717,12 @@
   {
    "puerto": "Isla del Cerrito",
    "rio": "Paraná",
-   "altura": 7.41,
-   "fecha": "8 nov",
+   "altura": 7.38,
+   "fecha": "9 nov",
    "alerta": null,
    "evac": 6.8,
    "estado": "evacuacion",
-   "lectura": "Sobre evacuación (6,80 m): **7,41 m el 8 de noviembre**, en baja lenta.",
+   "lectura": "Sobre evacuación (6,80 m): **7,38 m el 9 de noviembre**, en baja lenta.",
    "lon": -58.62,
    "lat": -27.29,
    "hist": [
@@ -1713,6 +1757,10 @@
     [
      "2026-11-08",
      7.41
+    ],
+    [
+     "2026-11-09",
+     7.38
     ]
    ],
    "proy": []
@@ -1720,14 +1768,14 @@
   {
    "puerto": "Corrientes",
    "rio": "Paraná",
-   "altura": 7.0,
-   "fecha": "8 nov",
+   "altura": 6.93,
+   "fecha": "9 nov",
    "alerta": 6.5,
    "evac": 7.0,
    "record": 8.65,
    "record_txt": "Récord 1983: 8,65 m; 1998: 8,38 m",
-   "estado": "evacuacion",
-   "lectura": "**7,00 m el 8 de noviembre, estable justo en el nivel de evacuación** desde hace tres días. El INA lo ve oscilando con leve descenso y con alta probabilidad de seguir sobre la alerta.",
+   "estado": "alerta",
+   "lectura": "**6,93 m el 9 de noviembre: bajó por debajo de la evacuación (7,00 m)** tras varios días justo en ese nivel; sigue sobre la alerta (6,50 m). El INA lo veía oscilando con leve descenso.",
    "lon": -58.83,
    "lat": -27.47,
    "hist": [
@@ -1806,6 +1854,10 @@
     [
      "2026-11-08",
      7.0
+    ],
+    [
+     "2026-11-09",
+     6.93
     ]
    ],
    "proy": []
@@ -1813,12 +1865,12 @@
   {
    "puerto": "Barranqueras",
    "rio": "Paraná",
-   "altura": 6.81,
-   "fecha": "8 nov",
+   "altura": 6.8,
+   "fecha": "9 nov",
    "alerta": 6.0,
    "evac": 6.5,
    "estado": "evacuacion",
-   "lectura": "6,81 m el 8 de noviembre, en baja muy lenta y sobre la evacuación (6,50 m).",
+   "lectura": "6,80 m el 9 de noviembre, en baja muy lenta y sobre la evacuación (6,50 m).",
    "lon": -58.93,
    "lat": -27.49,
    "hist": [
@@ -1893,6 +1945,10 @@
     [
      "2026-11-08",
      6.81
+    ],
+    [
+     "2026-11-09",
+     6.8
     ]
    ],
    "proy": []
@@ -1901,11 +1957,11 @@
    "puerto": "Goya",
    "rio": "Paraná",
    "altura": 6.0,
-   "fecha": "8 nov",
+   "fecha": "9 nov",
    "alerta": 5.2,
    "evac": 5.7,
    "estado": "evacuacion",
-   "lectura": "6,00 m el 8 de noviembre, en baja lenta y sobre la evacuación (5,70 m). El INA prevé una estabilización gradual.",
+   "lectura": "6,00 m el 9 de noviembre, en baja muy lenta y sobre la evacuación (5,70 m). El INA prevé una estabilización gradual.",
    "lon": -59.26,
    "lat": -29.14,
    "hist": [
@@ -1972,6 +2028,10 @@
     [
      "2026-11-08",
      6.0
+    ],
+    [
+     "2026-11-09",
+     6.0
     ]
    ],
    "proy": []
@@ -1979,12 +2039,12 @@
   {
    "puerto": "Reconquista",
    "rio": "Paraná",
-   "altura": 5.86,
-   "fecha": "8 nov",
+   "altura": 5.83,
+   "fecha": "9 nov",
    "alerta": 5.1,
    "evac": 5.3,
    "estado": "evacuacion",
-   "lectura": "5,86 m el 8 de noviembre, en bajante lenta sobre la evacuación (5,30 m); en Villa Ocampo el agua bajó 30 a 40 cm.",
+   "lectura": "5,83 m el 9 de noviembre, en bajante lenta sobre la evacuación (5,30 m).",
    "lon": -59.65,
    "lat": -29.15,
    "hist": [
@@ -2059,6 +2119,10 @@
     [
      "2026-11-08",
      5.86
+    ],
+    [
+     "2026-11-09",
+     5.83
     ]
    ],
    "proy": [
@@ -2071,12 +2135,12 @@
   {
    "puerto": "Santa Fe",
    "rio": "Paraná",
-   "altura": 4.75,
-   "fecha": "8 nov",
+   "altura": 4.87,
+   "fecha": "9 nov",
    "alerta": 5.3,
    "evac": 5.7,
    "estado": "subiendo",
-   "lectura": "4,75 m el 8 de noviembre, en suba (7 cm en un día); la alerta es 5,30 m. El INA prevé un ascenso gradual; el dato ya superó su proyección del 5 de noviembre (4,58 m para el 10).",
+   "lectura": "4,87 m el 9 de noviembre, en suba (12 cm en un día); la alerta es 5,30 m. El INA prevé un ascenso gradual.",
    "lon": -60.7,
    "lat": -31.63,
    "hist": [
@@ -2135,6 +2199,10 @@
     [
      "2026-11-08",
      4.75
+    ],
+    [
+     "2026-11-09",
+     4.87
     ]
    ],
    "proy": []
@@ -2142,12 +2210,12 @@
   {
    "puerto": "Paraná",
    "rio": "Paraná",
-   "altura": 4.85,
-   "fecha": "8 nov",
+   "altura": 5.03,
+   "fecha": "9 nov",
    "alerta": 4.7,
    "evac": 5.0,
-   "estado": "alerta",
-   "lectura": "**Superó la alerta (4,70 m) el sábado 7** (4,73 m a las 8) y el domingo 8 a las 6 marcaba **4,85 m, en suba**; la evacuación es 5,00 m. Prefectura emitió recomendaciones para isleños y navegantes.",
+   "estado": "evacuacion",
+   "lectura": "**Llegó al nivel de evacuación (5,00 m): 5,03 m el lunes 9 a las 6**, en suba; había superado la alerta (4,70 m) el sábado 7. El domingo empezaron los traslados de familias en Bajada Grande.",
    "lon": -60.52,
    "lat": -31.73,
    "hist": [
@@ -2206,6 +2274,10 @@
     [
      "2026-11-08",
      4.85
+    ],
+    [
+     "2026-11-09",
+     5.03
     ]
    ],
    "proy": []
@@ -2213,12 +2285,12 @@
   {
    "puerto": "Rosario",
    "rio": "Paraná",
-   "altura": 4.14,
-   "fecha": "8 nov",
+   "altura": 4.22,
+   "fecha": "9 nov",
    "alerta": 5.0,
    "evac": 5.25,
    "estado": "subiendo",
-   "lectura": "4,14 m el 8 de noviembre, en suba lenta; la alerta es 5,00 m. El INA prevé un ascenso gradual en 7 a 14 días.",
+   "lectura": "4,22 m el 9 de noviembre, en suba lenta (8 cm en un día); la alerta es 5,00 m. El INA prevé un ascenso gradual en 7 a 14 días.",
    "lon": -60.64,
    "lat": -32.95,
    "hist": [
@@ -2285,6 +2357,10 @@
     [
      "2026-11-08",
      4.14
+    ],
+    [
+     "2026-11-09",
+     4.22
     ]
    ],
    "proy": []
@@ -2292,12 +2368,12 @@
   {
    "puerto": "Paso de los Libres",
    "rio": "Uruguay",
-   "altura": 6.1,
-   "fecha": "8 nov",
+   "altura": 6.83,
+   "fecha": "9 nov",
    "alerta": 7.5,
    "evac": 8.5,
    "estado": "subiendo",
-   "lectura": "**6,10 m el 8 de noviembre, 63 cm más que el sábado.** Llega la crecida del tramo alto: Santo Tomé marcó 9,90 m el sábado al mediodía (alerta 11,50 m). El INA ve posible superar la alerta (7,50 m), más probable desde el 11 de noviembre.",
+   "lectura": "**6,83 m el 9 de noviembre, 73 cm más que el domingo**, a 67 cm de la alerta (7,50 m). Aguas arriba Santo Tomé llegó a 10,83 m y Garruchos a 11,06 m, en suba. El INA ve probable superar la alerta desde el 11 de noviembre.",
    "lon": -57.09,
    "lat": -29.71,
    "hist": [
@@ -2344,6 +2420,10 @@
     [
      "2026-11-08",
      6.1
+    ],
+    [
+     "2026-11-09",
+     6.83
     ]
    ],
    "proy": []
@@ -2351,12 +2431,12 @@
   {
    "puerto": "Concordia",
    "rio": "Uruguay",
-   "altura": 7.0,
-   "fecha": "8 nov",
+   "altura": 7.66,
+   "fecha": "9 nov",
    "alerta": 11.0,
    "evac": 12.5,
-   "estado": "normal",
-   "lectura": "7,00 m el 8 de noviembre, lejos de la alerta (11 m). El INA preveía un franco descenso; la crecida del tramo alto todavía no llegó.",
+   "estado": "subiendo",
+   "lectura": "7,66 m el 9 de noviembre, en suba (66 cm desde el domingo) pero lejos de la alerta (11 m); empieza a llegar la crecida del tramo alto.",
    "lon": -58.02,
    "lat": -31.39,
    "hist": [
@@ -2411,6 +2491,10 @@
     [
      "2026-11-08",
      7.0
+    ],
+    [
+     "2026-11-09",
+     7.66
     ]
    ],
    "proy": []
@@ -2418,12 +2502,12 @@
   {
    "puerto": "Puerto Iguazú",
    "rio": "Iguazú",
-   "altura": 26.0,
-   "fecha": "8 nov",
+   "altura": 25.9,
+   "fecha": "9 nov",
    "alerta": 25.0,
    "evac": 28.0,
    "estado": "alerta",
-   "lectura": "26,00 m el 8 de noviembre, estable sobre la alerta del INA (25 m). El INA advierte una posible nueva onda de crecida a corto plazo; en Andresito el caudal subió a 7.265 m³/s.",
+   "lectura": "25,90 m el 9 de noviembre, en leve baja y sobre la alerta del INA (25 m); en Andresito el río sube (4,60 m).",
    "lon": -54.57,
    "lat": -25.6,
    "hist": [
@@ -2494,6 +2578,10 @@
     [
      "2026-11-08",
      26.0
+    ],
+    [
+     "2026-11-09",
+     25.9
     ]
    ],
    "proy": []
@@ -2532,8 +2620,8 @@
   "indicadores": [
    {
     "label": "Niño-3.4 semanal",
-    "valor": "+3,4 °C",
-    "nota": "Semana centrada el 28 de octubre (boletín de NOAA del 2 de noviembre): igual que la semana anterior y el valor más alto del evento; **siete semanas seguidas sobre +3 °C**. Niño-1+2 subió a +5,4 °C. Septiembre cerró en +2,84 °C. El dato diario de NOAA (OISST v2.1) marcó **+3,65 °C el 26 de octubre**, el más alto de la serie diaria desde 1982 (cálculo propio); el 6 de noviembre estaba en +3,47 °C. CPC todavía no publicó la semana del 4 de noviembre.",
+    "valor": "+3,3 °C",
+    "nota": "Semana centrada el 4 de noviembre (boletín de NOAA del 9 de noviembre): una décima menos que el máximo del evento (+3,4 °C, semanas del 21 y el 28 de octubre); **ocho semanas seguidas sobre +3 °C**. Niño-1+2 subió a +5,6 °C. Septiembre cerró en +2,84 °C. El dato diario de NOAA (OISST v2.1) marcó **+3,65 °C el 26 de octubre**, el más alto de la serie diaria desde 1982 (cálculo propio); el 7 de noviembre estaba en +3,36 °C.",
     "fuente": "[NOAA CPC, datos semanales](https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for)"
    },
    {
@@ -2568,8 +2656,8 @@
    },
    {
     "label": "Niño costero (Niño 1+2)",
-    "valor": "+5,4 °C (NOAA, semana del 28 oct)",
-    "nota": "Frente a Perú y Ecuador. **ENFEN, Comunicado Oficial N° 19-2026 (30 oct):** sigue la Alerta de El Niño Costero, con **magnitud extraordinaria hasta febrero de 2027** y baja gradual hasta junio; no menciona un segundo pico ni un nuevo calentamiento en 2027. Sin comunicado nuevo al 8 de noviembre; el próximo sería el 13. Cada organismo usa su propia base de datos: los valores no son comparables entre sí.",
+    "valor": "+5,6 °C (NOAA, semana del 4 nov)",
+    "nota": "Frente a Perú y Ecuador; es el valor semanal más alto del evento (+5,4 °C la semana anterior). **ENFEN, Comunicado Oficial N° 19-2026 (30 oct):** sigue la Alerta de El Niño Costero, con **magnitud extraordinaria hasta febrero de 2027** y baja gradual hasta junio; no menciona un segundo pico ni un nuevo calentamiento en 2027. Sin comunicado nuevo al 9 de noviembre; el próximo sería el 13. Cada organismo usa su propia base de datos: los valores no son comparables entre sí.",
     "fuente": "[ENFEN, Comunicado N° 19-2026](https://enfen.imarpe.gob.pe/2026/10/30/comunicado-oficial-enfen-n19-2026/) · [NOAA CPC, datos semanales](https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for)"
    }
   ],
@@ -3020,7 +3108,7 @@
  "disparadores": [
   {
    "indicador": "Río Uruguay en Concordia",
-   "ultimo": "7,00 m en Concordia el 8 de noviembre, lejos de la alerta; **la crecida del tramo alto avanza**: Santo Tomé 9,90 m (7 nov) y Paso de los Libres 6,10 m (8 nov)",
+   "ultimo": "7,66 m en Concordia el 9 de noviembre, en suba pero lejos de la alerta; **la crecida del tramo alto avanza**: Santo Tomé 10,83 m y Paso de los Libres 6,83 m (9 nov)",
    "umbral": "11,00 m y 12,50 m",
    "anticipa": "Evacuaciones en la costa entrerriana, en días",
    "estado": "subiendo"
@@ -3034,21 +3122,21 @@
   },
   {
    "indicador": "Paraná en Corrientes",
-   "ultimo": "7,00 m el 8 de noviembre, estable justo en la evacuación; Itatí repuntó a 7,48 m",
+   "ultimo": "6,93 m el 9 de noviembre, en baja y debajo de la evacuación por primera vez en varios días; Itatí 7,42 m",
    "umbral": "6,50 m y 7,00 m",
    "anticipa": "Lo que llegará a Santa Fe y Rosario",
-   "estado": "evacuacion"
+   "estado": "alerta"
   },
   {
    "indicador": "Río Paraguay",
-   "ultimo": "Asunción 2,39 m el 6 de noviembre, en baja tras el pico de 3,02 m del 26 de octubre; Formosa 5,33 m e Isla del Cerrito 7,41 m el 8, en baja",
+   "ultimo": "Asunción 2,39 m el 6 de noviembre, en baja tras el pico de 3,02 m del 26 de octubre; Formosa 5,27 m e Isla del Cerrito 7,38 m el 9, en baja",
    "umbral": "Puerto Pilcomayo: 5,35 y 6,00 m",
    "anticipa": "Si sube, se pierde el freno principal del sistema",
    "estado": "vigilar"
   },
   {
    "indicador": "Paraná en Santa Fe y Rosario",
-   "ultimo": "Santa Fe 4,75 m y Rosario 4,14 m el 8 de noviembre, en suba; **Paraná (Entre Ríos) superó la alerta (4,85 m)**",
+   "ultimo": "Santa Fe 4,87 m y Rosario 4,22 m el 9 de noviembre, en suba; **Paraná (Entre Ríos) llegó a la evacuación (5,03 m)**",
    "umbral": "Santa Fe 5,30 y 5,70 m; Rosario 5,00 y 5,25 m",
    "anticipa": "Evacuación de costa baja e islas",
    "estado": "subiendo"
@@ -3062,7 +3150,7 @@
   },
   {
    "indicador": "Índice trimestral de NOAA",
-   "ultimo": "ONI agosto-octubre +2,46 °C (RONI +1,97); 83% de probabilidad de superar +2,5 en octubre-diciembre; semanal +3,4 °C al 28 de octubre",
+   "ultimo": "ONI agosto-octubre +2,46 °C (RONI +1,97); 83% de probabilidad de superar +2,5 en octubre-diciembre; semanal +3,3 °C al 4 de noviembre",
    "umbral": "Próximo boletín: 12 de noviembre",
    "anticipa": "Confirma o descarta el evento récord",
    "estado": "alerta"
@@ -3345,7 +3433,7 @@
   "Entre Ríos": {
    "estado": "vigente",
    "impacto": "alto",
-   "situacion": "Más de 30.000 vacunos evacuados de las islas de Victoria; unas 460.000 cabezas en alerta en islas. El río Uruguay tuvo su pico cerca de 11,3 m en Concordia, sobre alerta, y ya baja. Gualeguaychú tuvo la costanera bajo agua. El 23 de octubre el Uruguay bajó a 10,44 m en Concordia, bajo la alerta. [Diario Río Uruguay](https://diarioriouruguay.com/interes-general/creciente-a-pesar-de-las-lluvias-el-rio-uruguay-continua-bajando-en-concordia.htm) **25 de octubre:** el Paraná marcó 4,06 m en la capital y el INA prevé que llegue a la alerta (4,70 m) a comienzos de noviembre; el Uruguay bajó a 9,32 m en Concordia. [Elonce](https://www.elonce.com/sociedad/el-rio-parana-llegaria-al-nivel-de-alerta-en-noviembre.htm) · [Examedia](https://examedia.com.ar/portada/post/88117816) **5 de noviembre:** el Paraná llegó a 4,54 m en la capital, a 16 cm de la alerta, y el Uruguay bajó a 7,66 m en Concordia. [RíoAlert](https://rioalert.com.ar/rios/parana) **8 de noviembre:** el Paraná **superó la alerta en la capital** (4,73 m el 7 y 4,85 m el 8, en suba; evacuación 5,00 m). Prefectura difundió recomendaciones para isleños y navegantes: teléfonos 106 (Prefectura), 101, 107. [EntreRíosYa](https://entreriosya.com.ar/el-rio-llego-a-474-metros-en-parana-y-quedo-a-26-centimetros-del-nivel-de-evacuacion/) [Elonce](https://www.elonce.com/parana/creciente-del-rio-parana-prefectura-emitio-recomendaciones-ante-el-alerta-hidrico-vigente.htm)",
+   "situacion": "Más de 30.000 vacunos evacuados de las islas de Victoria; unas 460.000 cabezas en alerta en islas. El río Uruguay tuvo su pico cerca de 11,3 m en Concordia, sobre alerta, y ya baja. Gualeguaychú tuvo la costanera bajo agua. El 23 de octubre el Uruguay bajó a 10,44 m en Concordia, bajo la alerta. [Diario Río Uruguay](https://diarioriouruguay.com/interes-general/creciente-a-pesar-de-las-lluvias-el-rio-uruguay-continua-bajando-en-concordia.htm) **25 de octubre:** el Paraná marcó 4,06 m en la capital y el INA prevé que llegue a la alerta (4,70 m) a comienzos de noviembre; el Uruguay bajó a 9,32 m en Concordia. [Elonce](https://www.elonce.com/sociedad/el-rio-parana-llegaria-al-nivel-de-alerta-en-noviembre.htm) · [Examedia](https://examedia.com.ar/portada/post/88117816) **5 de noviembre:** el Paraná llegó a 4,54 m en la capital, a 16 cm de la alerta, y el Uruguay bajó a 7,66 m en Concordia. [RíoAlert](https://rioalert.com.ar/rios/parana) **8 de noviembre:** el Paraná **superó la alerta en la capital** (4,73 m el 7 y 4,85 m el 8, en suba; evacuación 5,00 m). Prefectura difundió recomendaciones para isleños y navegantes: teléfonos 106 (Prefectura), 101, 107. [EntreRíosYa](https://entreriosya.com.ar/el-rio-llego-a-474-metros-en-parana-y-quedo-a-26-centimetros-del-nivel-de-evacuacion/) [Elonce](https://www.elonce.com/parana/creciente-del-rio-parana-prefectura-emitio-recomendaciones-ante-el-alerta-hidrico-vigente.htm) **9 de noviembre:** el Paraná **llegó al nivel de evacuación en la capital (5,03 m)**; el 8 la Municipalidad abrió un punto de asistencia con alojamiento transitorio en Bajada Grande y empezaron los traslados de familias, sin cifra oficial. El Uruguay sube en Concordia (7,66 m), lejos de la alerta. [Elonce](https://www.elonce.com/parana/el-rio-parana-llego-a-4-95-metros-y-comenzaron-a-evacuar-familias-en-bajada-grande.htm) · [RíoAlert](https://rioalert.com.ar/rios/parana)",
    "emergencia": "**Emergencia hídrica vigente** en toda la provincia por 180 días desde el 27 o 28 de agosto (vence hacia fines de febrero de 2027). **Desastre o emergencia agropecuaria** (decreto del 4 de noviembre) para la ganadería y la apicultura de islas y bajos del Paraná, retroactiva al 1 de agosto y hasta julio de 2027. [Infobae](https://www.infobae.com/politica/2026/11/04/el-nino-entre-rios-declaro-el-estado-de-desastre-y-emergencia-agropecuaria/)",
    "medidas": [
     "Plan de Acción Preventiva ante el Riesgo Hídrico (15 de septiembre): defensas, limpieza de canales y alcantarillas, protección de hospitales, tomas de agua y puentes, y equipos de bombeo y rescate.",
@@ -6165,6 +6253,23 @@
      "u": "https://www.bcr.com.ar/es/mercados/gea/seguimiento-de-cultivos/informe-semanal-zona-nucleo"
     }
    ]
+  },
+  {
+   "grupo": "Ríos, evacuados y alertas (9 de noviembre)",
+   "items": [
+    {
+     "t": "Elonce: evacuaciones en Bajada Grande (8 nov)",
+     "u": "https://www.elonce.com/parana/el-rio-parana-llego-a-4-95-metros-y-comenzaron-a-evacuar-familias-en-bajada-grande.htm"
+    },
+    {
+     "t": "Examedia: el río a 5 cm de la evacuación en Paraná (9 nov)",
+     "u": "https://examedia.com.ar/portada/post/88203694"
+    },
+    {
+     "t": "La Nación: alertas del SMN del 9 de noviembre",
+     "u": "https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-lluvias-nevadas-y-vientos-para-este-lunes-9-de-noviembre-las-provincias-nid08112026/"
+    }
+   ]
   }
  ],
  "fuentes_extra": "Mapa: [Natural Earth](https://www.naturalearthdata.com/), dominio público.",
@@ -6827,10 +6932,10 @@
     "rio",
     "arroyos"
    ],
-   "nivel": "medio",
-   "datos": "Puerto en 3,30 m el 8 de octubre (alerta 4,70 m), en ascenso.",
-   "defensa": "Sin dato.",
-   "fuentes": "[Elonce](https://www.elonce.com/uid-888751)"
+   "nivel": "alto",
+   "datos": "Puerto en **5,03 m el 9 de noviembre, en el nivel de evacuación** (alerta 4,70 m; evacuación 5,00 m) y en suba. El 8 empezaron los traslados de familias en Bajada Grande; el agua llegó a patios en Arenales y Puerto Sánchez.",
+   "defensa": "Comité Técnico de Emergencia municipal: punto de encuentro y asistencia en el camping de Bajada Grande, con Protección Civil, policía, bomberos y ambulancia. Prefectura: 106; emergencias médicas: 107.",
+   "fuentes": "[Elonce, 8 nov](https://www.elonce.com/parana/el-rio-parana-llego-a-4-95-metros-y-comenzaron-a-evacuar-familias-en-bajada-grande.htm) · [RíoAlert](https://rioalert.com.ar/rios/parana)"
   },
   {
    "n": "Rosario",
@@ -8353,19 +8458,43 @@
   "serie_fuente": "Corrientes, según Defensa Civil citada por [Perfil](https://www.perfil.com/noticias/amp/nea/crecida-del-rio-parana-supero-los-6-metros-en-la-capital-y-ya-hay-222-evacuados-en-corrientes.phtml), [Elonce](https://www.elonce.com/uid-889713), [Elonce](https://www.elonce.com/uid-889636), [Elonce](https://www.elonce.com/uid-889762) y [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/21/202420-corrientes-mas-de-mil-personas-fueron-evacuadas-por-la-crecida-de-los-rios-parana-y-uruguay). Chaco, según el Comité Provincial de Emergencia citado por [FARCO](https://agencia.farco.org.ar/2026/10/22/chaco-mas-de-mil-evacuados-crecida-parana/) e [Infobae](https://www.infobae.com/sociedad/2026/10/25/el-nino-habia-1800-los-evacuados-en-chaco-misiones-fue-afectada-por-fuertes-tormentas-y-santa-fe-preve-otra-suba-del-parana/). Misiones, según [iProfesional](https://www.iprofesional.com/actualidad/466769-crecida-rios-misiones-19-evacuados-cerro-pasos-fronterizos) y [Misiones Online](https://misionesonline.net/2026/10/24/temporal-en-misiones-mas-evacuados-viviendas-danadas). Actualización del 26 de octubre: Chaco según el reporte oficial citado por [Perfil](https://www.perfil.com/noticias/nea/la-crecida-en-chaco-mantiene-a-mas-de-2000-personas-fuera-de-sus-viviendas.phtml); Corrientes según [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia); Misiones según [Canal 12 Misiones](https://www.canal12misiones.com/informacion-general/crecida-rios-el-nino-14-pasos-fronterizos-evacuados-misiones). Actualización del 30 de octubre: Chaco según el parte oficial citado por [Perfil](https://perfil.com/nea/inundaciones-en-chaco-2.239-personas-dejaron-sus-casas-por-la-crecida-de-los-rios-anGoB6g1QKvC)."
  },
  "alertas_smn": {
-  "fecha": "2026-11-08",
-  "texto": "domingo 8 de noviembre",
+  "fecha": "2026-11-09",
+  "texto": "lunes 9 de noviembre",
   "prov": {
    "Santa Cruz": {
     "nivel": "amarilla",
-    "fen": "Viento del oeste (40 a 60 km/h, ráfagas de hasta 90 km/h) en el sur"
+    "fen": "Lluvias en el sudoeste (10 a 30 mm) y viento en el sur"
    },
    "Tierra del Fuego": {
     "nivel": "amarilla",
-    "fen": "Viento del oeste (40 a 60 km/h, ráfagas de hasta 90 km/h)"
+    "fen": "Viento"
+   },
+   "Mendoza": {
+    "nivel": "amarilla",
+    "fen": "Nevadas en el noroeste (5 a 15 cm)"
+   },
+   "Córdoba": {
+    "nivel": "amarilla",
+    "fen": "Viento en el noroeste"
+   },
+   "Catamarca": {
+    "nivel": "amarilla",
+    "fen": "Viento en el este"
+   },
+   "La Rioja": {
+    "nivel": "amarilla",
+    "fen": "Viento en el este"
+   },
+   "San Luis": {
+    "nivel": "amarilla",
+    "fen": "Viento"
+   },
+   "La Pampa": {
+    "nivel": "amarilla",
+    "fen": "Viento"
    }
   },
-  "fuente": "[La Nación, 8 nov](https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-fuertes-vientos-para-este-domingo-8-de-noviembre-las-provincias-afectadas-nid08112026/)"
+  "fuente": "[La Nación, 8 nov](https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-lluvias-nevadas-y-vientos-para-este-lunes-9-de-noviembre-las-provincias-nid08112026/)"
  },
  "rutas": {
   "nota": "**No se encontró un parte oficial consolidado de rutas cortadas por la crecida.** Lista armada con notas de prensa; antes de viajar consultá a Vialidad Nacional, Vialidad provincial o la policía caminera.",
@@ -9093,6 +9222,18 @@
    "v": 28,
    "fecha": "2026-11-08",
    "resumen": "El Paraná supera la alerta en Paraná, el Uruguay crece hacia Paso de los Libres y NOAA ubica el pico del Niño en diciembre.",
+   "prob": [
+    40,
+    45,
+    15
+   ],
+   "muertes": 3,
+   "evac": "~4.300"
+  },
+  {
+   "v": 29,
+   "fecha": "2026-11-09",
+   "resumen": "El Paraná llega a la evacuación en la capital entrerriana y empiezan los traslados en Bajada Grande; el Uruguay sigue creciendo.",
    "prob": [
     40,
     45,

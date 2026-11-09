@@ -1,27 +1,27 @@
 {
- "actualizado": "2026-11-08",
- "desde": "2026-08-10",
+ "actualizado": "2026-11-09",
+ "desde": "2026-08-11",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
-  "ventana": "4 de agosto a 2 de noviembre",
+  "ventana": "11 de agosto a 9 de noviembre",
   "fuente": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH",
   "nota": "Alertas naranja y roja de GDACS que se superponen con la ventana de cada año. GDACS cubre ciclones e inundaciones desde antes de 2012, sequías desde 2018 con cambios de método e incendios desde 2021, así que las barras no son del todo comparables entre años. Las alertas de GDACS combinan la fuerza del fenómeno con la población expuesta y su vulnerabilidad, así que también miden impacto posible, no solo intensidad.",
   "anios": [
    {
     "a": 2012,
-    "TC": 8,
-    "FL": 10,
-    "DR": 0,
-    "WF": 0,
-    "rojas": 6
-   },
-   {
-    "a": 2013,
-    "TC": 9,
+    "TC": 7,
     "FL": 8,
     "DR": 0,
     "WF": 0,
     "rojas": 5
+   },
+   {
+    "a": 2013,
+    "TC": 10,
+    "FL": 8,
+    "DR": 0,
+    "WF": 0,
+    "rojas": 7
    },
    {
     "a": 2014,
@@ -37,11 +37,11 @@
     "FL": 5,
     "DR": 0,
     "WF": 0,
-    "rojas": 5
+    "rojas": 4
    },
    {
     "a": 2016,
-    "TC": 11,
+    "TC": 10,
     "FL": 6,
     "DR": 0,
     "WF": 0,
@@ -49,7 +49,7 @@
    },
    {
     "a": 2017,
-    "TC": 11,
+    "TC": 10,
     "FL": 1,
     "DR": 0,
     "WF": 0,
@@ -65,26 +65,26 @@
    },
    {
     "a": 2019,
-    "TC": 10,
-    "FL": 9,
+    "TC": 9,
+    "FL": 7,
     "DR": 10,
     "WF": 0,
-    "rojas": 7
+    "rojas": 8
    },
    {
     "a": 2020,
-    "TC": 14,
-    "FL": 5,
-    "DR": 6,
+    "TC": 13,
+    "FL": 6,
+    "DR": 5,
     "WF": 0,
-    "rojas": 7
+    "rojas": 8
    },
    {
     "a": 2021,
     "TC": 10,
-    "FL": 7,
+    "FL": 8,
     "DR": 0,
-    "WF": 2,
+    "WF": 1,
     "rojas": 4
    },
    {
@@ -97,34 +97,34 @@
    },
    {
     "a": 2023,
-    "TC": 12,
+    "TC": 11,
     "FL": 6,
     "DR": 1,
     "WF": 2,
-    "rojas": 9
+    "rojas": 10
    },
    {
     "a": 2024,
-    "TC": 13,
+    "TC": 17,
     "FL": 8,
     "DR": 0,
-    "WF": 9,
-    "rojas": 7
+    "WF": 7,
+    "rojas": 9
    },
    {
     "a": 2025,
-    "TC": 11,
+    "TC": 12,
     "FL": 11,
     "DR": 1,
-    "WF": 9,
-    "rojas": 7
+    "WF": 8,
+    "rojas": 8
    },
    {
     "a": 2026,
-    "TC": 9,
+    "TC": 8,
     "FL": 4,
     "DR": 4,
-    "WF": 4,
+    "WF": 3,
     "rojas": 5
    }
   ]
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-06",
+  "hasta": "2026-11-07",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -185,7 +185,10 @@
   "gdacs": [
    1103888,
    1104269,
-   1104270
+   1104270,
+   1104272,
+   1104274,
+   1104275
   ]
  },
  "eventos": [
@@ -1638,76 +1641,6 @@
     "medida": "−13% de la lluvia normal de junio a septiembre",
     "ref": "promedio de largo plazo del IMD; según Business Today (26-sep) iba camino a ser el monzón más seco en 17 años",
     "fuente": 2
-   }
-  },
-  {
-   "id": "asi-005",
-   "tipo": "inundacion",
-   "titulo": "Inundaciones y aludes en Kerala",
-   "lugar": "Pathanamthitta y cuencas del Pamba, Manimala y Meenachil",
-   "pais": "India",
-   "inicio": "2026-07-30",
-   "fin": "2026-08-10",
-   "geom": {
-    "t": "area",
-    "c": [
-     76.8,
-     9.3
-    ],
-    "r": 90
-   },
-   "muertes": 28,
-   "evacuados": 27000,
-   "texto": "La lluvia más intensa cayó el 1 de agosto y desbordó ríos sobre ciudades del centro y sur de Kerala. Dejó 28 muertos y 4 desaparecidos; más de 27.000 personas pasaron por refugios según Sphere India.",
-   "efectos": {
-    "corto": [
-     {
-      "cat": "transporte",
-      "t": "Cortes en las principales vías de transporte."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "Wikipedia, inundaciones de Kerala 2026",
-     "u": "https://en.wikipedia.org/wiki/2026_Kerala_floods"
-    },
-    {
-     "t": "Al Jazeera, 5 ago",
-     "u": "https://www.aljazeera.com/news/2026/8/5/indias-severe-monsoon-season-causes-more-than-100-deaths-since-july"
-    },
-    {
-     "t": "Sphere India, SitRep 5, 2-ago-2026",
-     "u": "https://www.sphereindia.org.in/sites/default/files/2026-08/02.08.2026%20SitRep-%205%20Extreme%20Weather%20Events%20in%20India.pdf"
-    },
-    {
-     "t": "Deccan Herald, 3-ago-2026",
-     "u": "https://www.deccanherald.com/amp/story/india/kerala/deaths-due-to-calamities-reach-15-in-kerala-seven-still-missing-orange-alert-in-12-districts-4097841"
-    },
-    {
-     "t": "Sphere India, SitRep 6, 8 ago",
-     "u": "https://www.sphereindia.org.in/sites/default/files/2026-08/8.08.2026%20SitRep-%206%20%20Extreme%20Weather%20Events%20in%20India.pdf"
-    }
-   ],
-   "impacto": null,
-   "afectados": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "casi 5 veces la lluvia normal en tres días en Ranni (Pathanamthitta)",
-    "ref": "lluvia normal del período; ≥3 veces lo normal = nivel 2",
-    "fuente": 3
    }
   },
   {
@@ -3657,7 +3590,7 @@
    },
    "muertes": 3,
    "evacuados": 4330,
-   "texto": "El Paraná superó el nivel de evacuación en Itatí, Isla del Cerrito, Corrientes, Barranqueras, Goya y Reconquista, y el Iguazú en Puerto Iguazú. Al 5 y 6 de noviembre hay unas 4.300 personas evacuadas o autoevacuadas: 2.239 en Chaco, 1.967 en Corrientes y unas 124 en Santa Fe. El 6 de noviembre el río Uruguay volvió a crecer en el tramo alto y se cerraron cuatro pasos fluviales a Brasil. Tres trabajadores rurales murieron mientras trasladaban hacienda.",
+   "texto": "El Paraná superó el nivel de evacuación en Itatí, Isla del Cerrito, Corrientes, Barranqueras, Goya y Reconquista, y el 9 de noviembre también en Paraná (Entre Ríos), donde empezaron las evacuaciones en Bajada Grande; el Iguazú sigue sobre la alerta en Puerto Iguazú. Hay unas 4.300 personas evacuadas o autoevacuadas: 2.239 en Chaco, 1.967 en Corrientes y unas 124 en Santa Fe. El río Uruguay crece en el tramo alto (Santo Tomé 10,83 m) y siguen cerrados cuatro pasos fluviales a Brasil. Tres trabajadores rurales murieron mientras trasladaban hacienda.",
    "danos": {
     "texto": "Sin estimación publicada. El Senasa registra unos 147.500 bovinos y bubalinos evacuados desde agosto en cinco provincias.",
     "usd": null,
@@ -3732,6 +3665,10 @@
     {
      "t": "Infobae, 6-nov-2026",
      "u": "https://www.infobae.com/politica/2026/11/06/el-nino-la-crecida-del-rio-uruguay-obligo-a-cerrar-cuatro-pasos-fluviales-a-brasil/"
+    },
+    {
+     "t": "Elonce, 8-nov-2026",
+     "u": "https://www.elonce.com/parana/el-rio-parana-llego-a-4-95-metros-y-comenzaron-a-evacuar-familias-en-bajada-grande.htm"
     }
    ],
    "impacto": null,
@@ -7000,59 +6937,6 @@
    }
   },
   {
-   "id": "nam-n08",
-   "tipo": "incendio",
-   "titulo": "Incendio Gann en Calaveras: un muerto y más de 1.400 evacuados",
-   "lugar": "Valley Springs, Angels Camp y Copperopolis, condado de Calaveras, California",
-   "pais": "EE.UU.",
-   "inicio": "2026-08-04",
-   "fin": "2026-08-10",
-   "geom": {
-    "t": "area",
-    "c": [
-     -120.75,
-     38.1
-    ],
-    "r": 12
-   },
-   "impacto": null,
-   "muertes": 1,
-   "afectados": null,
-   "evacuados": 1400,
-   "texto": "Quemó 10.339 acres (4.184 ha) en el condado de Calaveras, con viviendas destruidas cerca de Angels Camp y Copperopolis. Murió una persona y más de 1.400 vecinos debieron dejar sus casas.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Viviendas y estructuras destruidas cerca de Angels Camp y Copperopolis (sin total publicado)."
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "GV Wire, 10 ago 2026",
-     "u": "https://gvwire.com/2026/08/10/california-and-nevada-battle-multiple-large-wildfires/"
-    },
-    {
-     "t": "Outlook India, 6 ago 2026",
-     "u": "https://www.outlookindia.com/international/in-photos-wildfires-engulf-california"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 1,
-    "medida": "4.184 ha (10.339 acres)",
-    "ref": "entre 1.000 y 9.999 ha",
-    "fuente": 0
-   }
-  },
-  {
    "id": "nam-n09",
    "tipo": "incendio",
    "titulo": "Incendio Norte: 16.000 evacuados en San Clemente",
@@ -8345,63 +8229,6 @@
     "medida": "+2,52 °C en la temperatura mínima media nacional",
     "ref": "récord nacional de septiembre (anterior: +2,51 °C en 2020; base 1961-1990, serie desde 1910)",
     "fuente": 0
-   }
-  },
-  {
-   "id": "oce-n05",
-   "tipo": "inundacion",
-   "titulo": "Lluvias récord y crecidas en el noreste de Victoria",
-   "lugar": "Alpes victorianos, Wangaratta y cuencas de los ríos Ovens, King y Loddon",
-   "pais": "Australia",
-   "inicio": "2026-08-07",
-   "fin": "2026-08-10",
-   "geom": {
-    "t": "area",
-    "c": [
-     146.0,
-     -36.6
-    ],
-    "r": 200
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "Un frente frío con humedad tropical dejó más de 100 mm en al menos 13 localidades del noreste de Victoria, con 165,6 mm en Mount Buffalo Chalet, récord diario para agosto. La Oficina de Meteorología emitió avisos de crecida mayor para los ríos Loddon, Ovens y King, y Wangaratta quedó en alerta por su segunda crecida importante en dos meses. En Thredbo se registraron ráfagas de 135 km/h.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "record",
-   "fuentes": [
-    {
-     "t": "Bureau of Meteorology, resumen mensual de agosto 2026 (sep-2026)",
-     "u": "https://www.bom.gov.au/clim_data/IDCKGC1AR0/202608.summary.shtml"
-    },
-    {
-     "t": "Elders Weather / Weatherzone, 10-ago-2026",
-     "u": "https://eldersweather.com.au/news/flood-warnings-after-heavy-se-australia-rain-record-august-totals-in-parts-of-vic/1891498"
-    },
-    {
-     "t": "Wangaratta Chronicle, 10-ago-2026",
-     "u": "https://www.wangarattachronicle.com.au/news/wangaratta-on-major-flood-alert-after-heavy-downpour-oo6vfnku"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "165,6 mm en 24 h en Mount Buffalo Chalet (10-ago)",
-    "ref": "récord diario de agosto en la estación; avisos de crecida mayor en tres ríos",
-    "fuente": 1
    }
   },
   {
@@ -9711,92 +9538,6 @@
     "medida": "14.374 ha (35.520 acres)",
     "ref": "entre 10.000 y 49.999 ha",
     "fuente": 0
-   }
-  },
-  {
-   "id": "eur-m01",
-   "tipo": "sequia",
-   "titulo": "El Danubio en mínimo histórico: Hungría apaga Paks y Rumania declara alerta energética",
-   "lugar": "Danubio medio y bajo: Budapest, Puertas de Hierro, Cernavodă",
-   "pais": "Hungría, Rumania, Serbia",
-   "inicio": "2026-07-19",
-   "fin": "2026-08-10",
-   "geom": {
-    "t": "area",
-    "c": [
-     23.5,
-     45.8
-    ],
-    "r": 450
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "El 3 de agosto el Danubio marcaba unos 10 cm en Budapest, por debajo del mínimo histórico de 33 cm de 2018. Hungría detuvo por completo la central nuclear de Paks por primera vez y Rumania declaró un estado de alerta en el sector energético y sacó de servicio un reactor de Cernavodă. Serbia operaba su principal central hidroeléctrica al 20%.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": 1,
-    "texto": "Paks producía 240 MW frente a unos 2.000 MW normales antes de su cierre total; Dacia y Ford frenaron su producción en Rumania hasta el 19 de agosto."
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "servicios",
-      "t": "Hungría habilitó por decreto el ahorro obligatorio de electricidad para grandes consumidores industriales y comerciales."
-     },
-     {
-      "cat": "transporte",
-      "t": "Ferris suspendidos y barcazas de granos detenidas en Rumania; en Hungría se restringieron los trenes de carga eléctricos en horas pico."
-     },
-     {
-      "cat": "agro",
-      "t": "Rumania limitó el agua para riego en el sudeste del país."
-     },
-     {
-      "cat": "logistica",
-      "t": "El nivel récord del río restringió el paso de granos del mar Negro por Rumania."
-     },
-     {
-      "cat": "economia",
-      "t": "Dacia y Ford pararon sus plantas en Rumania hasta el 19 de agosto."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "record",
-   "fuentes": [
-    {
-     "t": "Daily Maverick (Reuters), 20-jul-2026",
-     "u": "https://www.dailymaverick.co.za/article/2026-07-20-danube-water-levels-reach-lowest-in-30-years-hampering-farming-and-shipping/"
-    },
-    {
-     "t": "KOB (AP), 3-ago-2026",
-     "u": "https://www.kob.com/?p=1114925"
-    },
-    {
-     "t": "bne IntelliNews, 29-jul-2026",
-     "u": "https://www.intellinews.com/record-low-water-levels-halt-danube-shipping-457678/"
-    },
-    {
-     "t": "Boston Globe (AP), 7-ago-2026",
-     "u": "https://www.bostonglobe.com/2026/08/07/world/serbia-races-contain-wildfires-europes-blistering-heat-wave-grips-balkans/"
-    },
-    {
-     "t": "gCaptain, notas del 2 y 10-ago-2026",
-     "u": "https://gcaptain.com/tag/danube/"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 3,
-    "medida": "unos 10 cm en Budapest el 3-ago (26 cm el 28-jul)",
-    "ref": "por debajo del mínimo histórico de 33 cm (2018)",
-    "fuente": 1
    }
   },
   {
@@ -13487,6 +13228,231 @@
     {
      "t": "CNN, 5-nov-2026",
      "u": "https://www.cnn.com/2026/11/05/weather/flooding-georgia-tennessee-mccaysville-copperhill-climate"
+    }
+   ]
+  },
+  {
+   "id": "afr-u01",
+   "tipo": "inundacion",
+   "titulo": "Lluvias e inundaciones en campamentos de Gaza: cinco muertos",
+   "lugar": "Franja de Gaza",
+   "pais": "Palestina",
+   "inicio": "2026-11-06",
+   "fin": null,
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     34.4,
+     31.4
+    ],
+    "r": 30
+   },
+   "impacto": null,
+   "muertes": 5,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Lluvias y viento desde la noche del viernes 6 de noviembre anegaron unas 70.000 carpas de desplazados y derribaron decenas de muros en la Franja de Gaza. Murieron al menos cinco personas, cuatro de ellas niños, según las autoridades sanitarias locales; la Defensa Civil recibió más de 1.500 llamados de emergencia.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "",
+    "ref": "",
+    "fuente": null
+   },
+   "danos": {
+    "usd": 3,
+    "rango": null,
+    "tipo": "oficial",
+    "fuente": 0,
+    "texto": "Unos USD 3 millones en carpas y refugios, según la Oficina de Medios del gobierno local."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "vivienda",
+      "t": "Unas 70.000 carpas de desplazados anegadas; la Defensa Civil advierte que más de 2.000 edificios están en riesgo."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "Al Jazeera (Anadolu), 8-nov-2026",
+     "u": "https://www.aljazeera.com/news/2026/11/8/floods-in-gaza-leave-tens-of-thousands-without-shelter"
+    }
+   ]
+  },
+  {
+   "id": "sam-u01",
+   "tipo": "inundacion",
+   "titulo": "Lluvias e inundaciones en Caracas y Carabobo",
+   "lugar": "Caracas (Antímano) y Carabobo (Valencia, San Diego, Los Guayos, Naguanagua)",
+   "pais": "Venezuela",
+   "inicio": "2026-11-07",
+   "fin": null,
+   "origen": "ambos",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104275,
+     "a": "verde"
+    }
+   ],
+   "geom": {
+    "t": "area",
+    "c": [
+     -67.5,
+     10.3
+    ],
+    "r": 90
+   },
+   "impacto": null,
+   "muertes": 3,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Lluvias intensas desde la madrugada del domingo 8 de noviembre desbordaron ríos y quebradas en Carabobo, con evacuaciones en San Diego por el desborde del río La Cumaca y anegamientos en Valencia, Los Guayos y Naguanagua. GDACS registra tres muertos en Antímano (Caracas) y unas 270 viviendas dañadas o destruidas en Carabobo.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "",
+    "ref": "",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Viviendas anegadas y una casa colonial derrumbada en Naguanagua; árboles caídos. Cifras de víctimas de la recopilación automática de prensa de GDACS (alerta verde)."
+   },
+   "efectos": {
+    "corto": [],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "El Nacional, 8-nov-2026",
+     "u": "https://www.elnacional.com/2026/11/lluvias-torrenciales-provocaron-inundaciones-desbordamientos-de-rios-y-caida-de-arboles-en-carabobo/"
+    },
+    {
+     "t": "El Estímulo, 8-nov-2026",
+     "u": "https://elestimulo.com/medio-ambiente/clima/2026-11-08/lluvias-carabobo-rios/"
+    },
+    {
+     "t": "GDACS, alerta verde FL 1104275, 9-nov-2026",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1104275&eventtype=FL"
+    }
+   ]
+  },
+  {
+   "id": "afr-u02",
+   "tipo": "inundacion",
+   "titulo": "Inundación en Erbil: dos muertos",
+   "lugar": "Erbil, Kurdistán iraquí",
+   "pais": "Irak",
+   "inicio": "2026-11-07",
+   "fin": null,
+   "origen": "gdacs",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104272,
+     "a": "verde"
+    }
+   ],
+   "geom": {
+    "t": "punto",
+    "c": [
+     44.01,
+     36.19
+    ]
+   },
+   "impacto": null,
+   "muertes": 2,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "GDACS registra una inundación en Erbil desde el 7 de noviembre, con dos muertos y una persona rescatada.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "",
+    "ref": "",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Cifras de la recopilación automática de prensa de GDACS (alerta verde); sin balance oficial encontrado."
+   },
+   "efectos": {
+    "corto": [],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "GDACS, alerta verde FL 1104272, 9-nov-2026",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1104272&eventtype=FL"
+    }
+   ]
+  },
+  {
+   "id": "afr-u03",
+   "tipo": "inundacion",
+   "titulo": "Inundación en Al-Bukamal: un muerto",
+   "lugar": "Al-Bukamal, Deir ez-Zor",
+   "pais": "Siria",
+   "inicio": "2026-11-07",
+   "fin": null,
+   "origen": "gdacs",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104274,
+     "a": "verde"
+    }
+   ],
+   "geom": {
+    "t": "punto",
+    "c": [
+     40.92,
+     34.45
+    ]
+   },
+   "impacto": null,
+   "muertes": 1,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "GDACS registra una inundación en Al-Bukamal (Deir ez-Zor) desde el 7 de noviembre, con un muerto y 50 edificios dañados.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "",
+    "ref": "",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "50 edificios dañados según la recopilación automática de prensa de GDACS (alerta verde); sin balance oficial encontrado."
+   },
+   "efectos": {
+    "corto": [],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "GDACS, alerta verde FL 1104274, 9-nov-2026",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1104274&eventtype=FL"
     }
    ]
   }
