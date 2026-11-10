@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-09",
- "desde": "2026-08-11",
+ "actualizado": "2026-11-10",
+ "desde": "2026-08-12",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "11 de agosto a 9 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-07",
+  "hasta": "2026-11-08",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -1641,58 +1641,6 @@
     "medida": "−13% de la lluvia normal de junio a septiembre",
     "ref": "promedio de largo plazo del IMD; según Business Today (26-sep) iba camino a ser el monzón más seco en 17 años",
     "fuente": 2
-   }
-  },
-  {
-   "id": "asi-007",
-   "tipo": "rayos",
-   "titulo": "Muertes por rayos en Bihar y Jharkhand",
-   "lugar": "Banka, Lakhisarai y Patna (Bihar); Jharkhand",
-   "pais": "India",
-   "inicio": "2026-08-01",
-   "fin": "2026-08-11",
-   "geom": {
-    "t": "punto",
-    "c": [
-     86.9,
-     24.9
-    ]
-   },
-   "muertes": 23,
-   "texto": "Nueve muertos por rayos el 11 de agosto en tres distritos de Bihar, sumados a 14 trabajadores rurales muertos en Jharkhand a comienzos de agosto.",
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "Telangana Today, 12 ago",
-     "u": "https://telanganatoday.com/nine-killed-in-lightning-strikes-across-three-bihar-districts"
-    },
-    {
-     "t": "Al Jazeera, 5 ago",
-     "u": "https://www.aljazeera.com/news/2026/8/5/indias-severe-monsoon-season-causes-more-than-100-deaths-since-july"
-    }
-   ],
-   "impacto": null,
-   "afectados": null,
-   "evacuados": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
    }
   },
   {
@@ -3228,11 +3176,11 @@
     ],
     "r": 280
    },
-   "muertes": 9,
-   "afectados": 36308,
-   "texto": "Más de dos meses de lluvia desbordaron ríos en la costa. Según la Secretaría Nacional de Gestión de Riesgos, al 1 de noviembre había nueve muertos, tres heridos, 36.308 personas afectadas, 10.598 viviendas afectadas y 37 destruidas desde el 29 de agosto, con 993 eventos en las 24 provincias. El 31 de octubre un aguacero en la isla Santa Cruz (Galápagos) dejó dos muertos y unas 2.000 personas afectadas. El 26 de octubre las lluvias inundaron 86 zonas de Guayaquil. El 1 de noviembre nuevas inundaciones afectaron 90 sectores de Guayaquil y una persona murió al caer una pared en Flor de Bastión.",
+   "muertes": 12,
+   "afectados": 56323,
+   "texto": "Más de dos meses de lluvia desbordaron ríos en la costa. Según el informe de situación 71 de la Secretaría Nacional de Gestión de Riesgos (corte del 4 de noviembre), desde el 29 de agosto hubo 12 muertos, 56.323 personas afectadas (10.450 damnificadas), 12.793 viviendas afectadas y 38 destruidas, 26 puentes dañados y 2 destruidos en 1.142 eventos. El 5 de noviembre había 30 ríos y esteros desbordados en Guayas, Manabí, Santa Elena, Los Ríos y Esmeraldas. El 31 de octubre un aguacero en la isla Santa Cruz (Galápagos) dejó dos muertos y el 1 de noviembre nuevas inundaciones afectaron 90 sectores de Guayaquil.",
    "danos": {
-    "texto": "10.598 viviendas afectadas y 37 destruidas (SNGR, 1 de noviembre); pérdidas agrícolas de USD 60,8 millones según el balance difundido el 27 de octubre.",
+    "texto": "12.793 viviendas afectadas y 38 destruidas, 26 puentes afectados y 2 destruidos, 10.585 ha agrícolas afectadas (SNGR, corte del 4 de noviembre); pérdidas agrícolas de USD 60,8 millones según el balance difundido el 27 de octubre.",
     "usd": 60.8,
     "rango": null,
     "tipo": "prensa",
@@ -3293,6 +3241,10 @@
     {
      "t": "Infobae (EFE), 2-nov-2026",
      "u": "https://www.infobae.com/america/agencias/2026/11/02/un-fallecido-en-guayaquil-por-inundaciones-derivadas-de-las-lluvias-de-el-nino-en-ecuador/"
+    },
+    {
+     "t": "Infobae (SNGR), 5-nov-2026",
+     "u": "https://www.infobae.com/america/america-latina/2026/11/05/ecuador-registra-30-rios-y-esteros-desbordados-por-las-intensas-lluvias-y-mas-de-56000-personas-afectadas/"
     }
    ],
    "impacto": null,
@@ -13453,6 +13405,76 @@
     {
      "t": "GDACS, alerta verde FL 1104274, 9-nov-2026",
      "u": "https://www.gdacs.org/report.aspx?eventid=1104274&eventtype=FL"
+    }
+   ]
+  },
+  {
+   "id": "sam-v01",
+   "tipo": "lluvia",
+   "titulo": "Temporal en Santa Catarina: un muerto y 76 municipios afectados",
+   "lugar": "Planalto y oeste de Santa Catarina (Lages, Rio do Sul, Rio Negrinho, Vargem, Chapecó)",
+   "pais": "Brasil",
+   "inicio": "2026-11-03",
+   "fin": "2026-11-05",
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     -50.8,
+     -27.1
+    ],
+    "r": 180
+   },
+   "impacto": null,
+   "muertes": 1,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Entre el 3 y la madrugada del 5 de noviembre lluvias y vientos fuertes causaron 671 ocurrencias en 76 municipios de Santa Catarina, según los bomberos del estado. Un hombre de 20 años murió en Rio Negrinho al derrumbarse la estructura de una estación de servicio sobre la BR-280, y más de 110 personas fueron rescatadas en Lages y Rio do Sul. En Lages cayeron unos 124 mm en 24 horas y la Defensa Civil contó 668 personas afectadas; Vargem decretó emergencia con 100 desalojados.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "unos 124 mm en 24 horas en Lages",
+    "ref": "sin comparación con lo normal publicada",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Techos arrancados (118 casos solo en Lages), 100 viviendas afectadas en Vargem, daños en el aeropuerto de Chapecó; sin estimación publicada."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "vivienda",
+      "t": "668 afectados en Lages y 100 desalojados en Vargem; más de 400 familias atendidas en Chapecó."
+     },
+     {
+      "cat": "servicios",
+      "t": "Clases presenciales suspendidas en cuatro municipios de la región de Campos Novos."
+     },
+     {
+      "cat": "transporte",
+      "t": "Aeropuerto de Chapecó afectado y vías interrumpidas en Abdon Batista."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "Governo de Santa Catarina (CBMSC), 5-nov-2026",
+     "u": "https://noticias.sc.gov.br/cbmsc-atende-mais-de-670-ocorrencias-em-76-municipios-catarinenses-atingidos-por-fortes-temporais/"
+    },
+    {
+     "t": "Prefeitura de Lages, 5-nov-2026",
+     "u": "https://www.lages.sc.gov.br/noticia-descricao/11201/chuvas-em-lages%3A-defesa-civil-registra-668-pessoas-afetadas-e-167-ocorrencias-em-33-bairros-da-cidade"
+    },
+    {
+     "t": "OPS, Monitoreo de amenazas naturales, 5-nov-2026",
+     "u": "https://www.paho.org/es/monitoreo-amenazas-naturales/monitoreo-amenazas-naturales-5-noviembre-2026"
     }
    ]
   }
