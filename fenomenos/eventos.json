@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-10",
- "desde": "2026-08-12",
+ "actualizado": "2026-11-11",
+ "desde": "2026-08-13",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "11 de agosto a 9 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-08",
+  "hasta": "2026-11-09",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -3177,8 +3177,8 @@
     "r": 280
    },
    "muertes": 12,
-   "afectados": 56323,
-   "texto": "Más de dos meses de lluvia desbordaron ríos en la costa. Según el informe de situación 71 de la Secretaría Nacional de Gestión de Riesgos (corte del 4 de noviembre), desde el 29 de agosto hubo 12 muertos, 56.323 personas afectadas (10.450 damnificadas), 12.793 viviendas afectadas y 38 destruidas, 26 puentes dañados y 2 destruidos en 1.142 eventos. El 5 de noviembre había 30 ríos y esteros desbordados en Guayas, Manabí, Santa Elena, Los Ríos y Esmeraldas. El 31 de octubre un aguacero en la isla Santa Cruz (Galápagos) dejó dos muertos y el 1 de noviembre nuevas inundaciones afectaron 90 sectores de Guayaquil.",
+   "afectados": 57625,
+   "texto": "Más de dos meses de lluvia desbordaron ríos en la costa. Según el informe de situación 71 de la Secretaría Nacional de Gestión de Riesgos (corte del 4 de noviembre), desde el 29 de agosto hubo 12 muertos, 56.323 personas afectadas (10.450 damnificadas), 12.793 viviendas afectadas y 38 destruidas, 26 puentes dañados y 2 destruidos en 1.142 eventos. El 5 de noviembre había 30 ríos y esteros desbordados en Guayas, Manabí, Santa Elena, Los Ríos y Esmeraldas. El 31 de octubre un aguacero en la isla Santa Cruz (Galápagos) dejó dos muertos y el 1 de noviembre nuevas inundaciones afectaron 90 sectores de Guayaquil. Según el COE nacional, al 9 de noviembre las lluvias sumaban 12 muertos, 57.625 personas afectadas y más de 13.700 viviendas con daños.",
    "danos": {
     "texto": "12.793 viviendas afectadas y 38 destruidas, 26 puentes afectados y 2 destruidos, 10.585 ha agrícolas afectadas (SNGR, corte del 4 de noviembre); pérdidas agrícolas de USD 60,8 millones según el balance difundido el 27 de octubre.",
     "usd": 60.8,
@@ -3245,6 +3245,10 @@
     {
      "t": "Infobae (SNGR), 5-nov-2026",
      "u": "https://www.infobae.com/america/america-latina/2026/11/05/ecuador-registra-30-rios-y-esteros-desbordados-por-las-intensas-lluvias-y-mas-de-56000-personas-afectadas/"
+    },
+    {
+     "t": "Prensa Latina (COE), 9-nov-2026",
+     "u": "https://prensa-latina.cu/2026/11/09/lluvias-dejan-12-muertos-y-mas-de-57-mil-afectados-en-ecuador"
     }
    ],
    "impacto": null,
@@ -12248,7 +12252,7 @@
    "lugar": "Pacífico occidental, de las Islas Marshall al norte de las Marianas",
    "pais": "Océano Pacífico",
    "inicio": "2026-10-23",
-   "fin": null,
+   "fin": "2026-11-10",
    "origen": "noticias",
    "gdacs": [],
    "geom": {
@@ -13475,6 +13479,60 @@
     {
      "t": "OPS, Monitoreo de amenazas naturales, 5-nov-2026",
      "u": "https://www.paho.org/es/monitoreo-amenazas-naturales/monitoreo-amenazas-naturales-5-noviembre-2026"
+    }
+   ]
+  },
+  {
+   "id": "eur-v01",
+   "tipo": "lluvia",
+   "titulo": "Borrascas Charles y Bruna en España y Portugal",
+   "lugar": "Sur de Ávila y norte de Cáceres, Canarias, costa andaluza; Madeira y centro y sur de Portugal",
+   "pais": "España, Portugal",
+   "inicio": "2026-11-10",
+   "fin": null,
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     -6.0,
+     39.5
+    ],
+    "r": 400
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": null,
+   "evacuados": 3000,
+   "texto": "El 10 de noviembre la Guardia Civil evacuó a unas 3.000 personas de Piedralaves (Ávila) por riesgo de colapso de la presa de Horcajo. AEMET activó avisos rojos en el sur de Ávila y el norte de Cáceres, con más de 120 l/m² en unas 12 horas, y en La Palma por rachas de más de 130 km/h. En Portugal hubo aviso rojo en Madeira y naranja en ocho distritos del continente.",
+   "intensidad": {
+    "nivel": 1,
+    "medida": "más de 120 l/m² en unas 12 horas en Ávila y Cáceres; rachas de más de 130 km/h en La Palma",
+    "ref": "aviso rojo de AEMET (nivel máximo)",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Sin balance publicado; 130 incidencias sin heridos en Lisboa."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "vivienda",
+      "t": "Unas 3.000 personas evacuadas en Piedralaves."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "afectados",
+   "fuentes": [
+    {
+     "t": "Euronews, 10-nov-2026",
+     "u": "https://es.euronews.com/2026/11/10/espana-y-portugal-en-alerta-por-el-fuerte-temporal-de-las-borrascas-charles-y-bruna"
     }
    ]
   }
