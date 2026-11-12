@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-11",
- "desde": "2026-08-13",
+ "actualizado": "2026-11-12",
+ "desde": "2026-08-14",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "11 de agosto a 9 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-09",
+  "hasta": "2026-11-10",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -192,131 +192,6 @@
   ]
  },
  "eventos": [
-  {
-   "id": "pac-001",
-   "tipo": "ciclon",
-   "titulo": "Súper tifón Dolphin: Okinawa y la costa de Zhejiang",
-   "lugar": "Okinawa (Japón) y Zhejiang (China)",
-   "pais": "Japón, China, Taiwán",
-   "inicio": "2026-07-26",
-   "fin": "2026-08-13",
-   "geom": {
-    "t": "trayectoria",
-    "pts": [
-     [
-      176.7,
-      13.4
-     ],
-     [
-      169.9,
-      13.7
-     ],
-     [
-      164.9,
-      16.9
-     ],
-     [
-      159.1,
-      19.8
-     ],
-     [
-      152.2,
-      23.2
-     ],
-     [
-      145.7,
-      25
-     ],
-     [
-      138.3,
-      25.4
-     ],
-     [
-      131.5,
-      26.5
-     ],
-     [
-      126,
-      27
-     ],
-     [
-      120.6,
-      27.9
-     ]
-    ],
-    "src": "eonet"
-   },
-   "impacto": [
-    121.25,
-    28.13
-   ],
-   "evacuados": 1000000,
-   "texto": "Alcanzó categoría 5 y pasó por Okinawa el 7 de agosto. Tocó tierra en Yuhuan, Zhejiang, el 9 de agosto. China evacuó a más de un millón de personas.",
-   "danos": {
-    "texto": "Seis heridos en Okinawa y uno en Kagoshima. Sin estimación de daños publicada.",
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "servicios",
-      "t": "Más de 50.000 edificios sin luz en Kagoshima y Okinawa."
-     },
-     {
-      "cat": "logistica",
-      "t": "Zhejiang frenó la operación de sus puertos; el puerto de Yangshan (Shanghái) quedó sin buques; China pidió a los barcos del estrecho de Taiwán seguir su control de tráfico."
-     },
-     {
-      "cat": "transporte",
-      "t": "Se suspendieron vuelos en Okinawa y en el aeropuerto de Ningbo, trenes en el delta del Yangtsé y 78 vuelos en Taiwán."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "afectados",
-   "fuentes": [
-    {
-     "t": "The Star, 8 ago",
-     "u": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/08/typhoon-dolphin-hits-japan039s-okinawa-as-china-shuts-major-ports-ahead-of-landfall"
-    },
-    {
-     "t": "iHeart, 9 ago",
-     "u": "https://wtam.iheart.com/content/2026-08-09-typhoon-dolphin-hits-china-over-1-million-evacuated/"
-    },
-    {
-     "t": "Wikipedia, temporada de tifones 2026",
-     "u": "https://en.wikipedia.org/wiki/2026_Pacific_typhoon_season"
-    },
-    {
-     "t": "GDACS, alerta naranja",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1001297&eventtype=TC"
-    },
-    {
-     "t": "NASA EONET, trayectoria",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_21776"
-    }
-   ],
-   "muertes": null,
-   "afectados": null,
-   "origen": "ambos",
-   "gdacs": [
-    {
-     "t": "TC",
-     "id": 1001297,
-     "a": "naranja"
-    }
-   ],
-   "intensidad": {
-    "nivel": 3,
-    "medida": "vientos máximos sostenidos de 269 km/h (categoría 5)",
-    "ref": "pico de la tormenta según NASA EONET; escala Saffir-Simpson",
-    "fuente": null
-   }
-  },
   {
    "id": "pac-003",
    "tipo": "ciclon",
@@ -3545,8 +3420,8 @@
     "r": 330
    },
    "muertes": 3,
-   "evacuados": 4330,
-   "texto": "El Paraná superó el nivel de evacuación en Itatí, Isla del Cerrito, Corrientes, Barranqueras, Goya y Reconquista, y el 9 de noviembre también en Paraná (Entre Ríos), donde empezaron las evacuaciones en Bajada Grande; el Iguazú sigue sobre la alerta en Puerto Iguazú. Hay unas 4.300 personas evacuadas o autoevacuadas: 2.239 en Chaco, 1.967 en Corrientes y unas 124 en Santa Fe. El río Uruguay crece en el tramo alto (Santo Tomé 10,83 m) y siguen cerrados cuatro pasos fluviales a Brasil. Tres trabajadores rurales murieron mientras trasladaban hacienda.",
+   "evacuados": 4500,
+   "texto": "El Paraná sigue sobre el nivel de evacuación en Barranqueras, Goya, Reconquista, La Paz y Paraná (Entre Ríos, 5,49 m el 12 de noviembre), y el 11 superó la alerta en Santa Fe (5,39 m el 12), donde el INA proyecta 5,78 m para el 24, sobre la evacuación. El Uruguay está sobre la alerta en Paso de los Libres (7,86 m). Hay unas 4.500 personas evacuadas o autoevacuadas: 2.242 en Chaco, 2.005 en Corrientes, unas 189 en Santa Fe y al menos 80 en Entre Ríos. Tres trabajadores rurales murieron mientras trasladaban hacienda.",
    "danos": {
     "texto": "Sin estimación publicada. El Senasa registra unos 147.500 bovinos y bubalinos evacuados desde agosto en cinco provincias.",
     "usd": null,
@@ -3625,6 +3500,14 @@
     {
      "t": "Elonce, 8-nov-2026",
      "u": "https://www.elonce.com/parana/el-rio-parana-llego-a-4-95-metros-y-comenzaron-a-evacuar-familias-en-bajada-grande.htm"
+    },
+    {
+     "t": "Aire de Santa Fe, 12-nov-2026",
+     "u": "https://www.airedesantafe.com.ar/santa-fe/el-rio-parana-sigue-creciendo-santa-fe-llego-los-539-metros-este-jueves-n676524"
+    },
+    {
+     "t": "Telefe Santa Fe, 11-nov-2026",
+     "u": "https://santafe.mitelefe.com/noticias/crecida-del-parana-ya-son-101-los-evacuados-en-el-centro-de-alto-verde-pid2571949"
     }
    ],
    "impacto": null,
@@ -5268,60 +5151,6 @@
    }
   },
   {
-   "id": "afr-011",
-   "tipo": "inundacion",
-   "titulo": "Inundaciones en Adré",
-   "lugar": "Adré, frontera con Sudán",
-   "pais": "Chad",
-   "inicio": "2026-08-11",
-   "fin": "2026-08-13",
-   "origen": "gdacs",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104086,
-     "a": "verde"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     22.2,
-     13.47
-    ]
-   },
-   "muertes": 3,
-   "texto": "GDACS registra tres muertos y 20 edificios dañados en Adré.",
-   "danos": {
-    "texto": "Cifras de la recopilación automática de prensa de GDACS; pueden ser parciales.",
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104086&eventtype=FL"
-    }
-   ],
-   "impacto": null,
-   "afectados": null,
-   "evacuados": null,
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
    "id": "afr-012",
    "tipo": "inundacion",
    "titulo": "Crecidas en Jufra y Jabal al Gharbi",
@@ -6103,62 +5932,6 @@
    }
   },
   {
-   "id": "asi-e-n02",
-   "tipo": "calor",
-   "titulo": "Máxima histórica en Hong Kong: 36,9 °C en el Observatorio",
-   "lugar": "Hong Kong (Observatorio y Sheung Shui)",
-   "pais": "China (Hong Kong)",
-   "inicio": "2026-08-05",
-   "fin": "2026-08-13",
-   "geom": {
-    "t": "punto",
-    "c": [
-     114.17,
-     22.3
-    ]
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "El 9 de agosto el Observatorio de Hong Kong registró 36,9 °C, su máxima histórica, y Sheung Shui llegó a 39,8 °C, la mayor temperatura medida en el territorio desde que hay estaciones automáticas. El 12 de agosto la mínima de 30,2 °C fue la más alta registrada. Hubo nueve días seguidos muy calurosos, del 5 al 13 de agosto.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "record",
-   "fuentes": [
-    {
-     "t": "Gobierno de Hong Kong (Observatorio), 2-sep-2026",
-     "u": "https://www.info.gov.hk/gia/general/202609/02/P2026090200408.htm"
-    },
-    {
-     "t": "Observatorio de Hong Kong, resumen de agosto de 2026",
-     "u": "https://www.hko.gov.hk/en/wxinfo/pastwx/mws2026/mws202608.htm"
-    },
-    {
-     "t": "Asia News Network, 3-sep-2026",
-     "u": "https://asianews.network/?p=298609"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 3,
-    "medida": "36,9 °C en el Observatorio y 39,8 °C en Sheung Shui (9 de agosto)",
-    "ref": "récord absoluto del Observatorio y la temperatura más alta registrada en Hong Kong desde la década de 1980; mínima récord de 30,2 °C",
-    "fuente": 0
-   }
-  },
-  {
    "id": "asi-e-n03",
    "tipo": "lluvia",
    "titulo": "Lluvia récord en Nagoya: 104,5 mm en una hora",
@@ -6837,59 +6610,6 @@
     "medida": "147.473 ha (Rowe Creek Complex, 364.413 acres)",
     "ref": "≥50.000 ha; el estado sumaba unas 688.000 ha frente al récord de 781.000 ha (1,93 millones de acres) de 2024",
     "fuente": 0
-   }
-  },
-  {
-   "id": "nam-n07",
-   "tipo": "incendio",
-   "titulo": "Incendio Widemouth 2: el tercero más grande de Utah desde 2002",
-   "lugar": "Bosque Nacional Fishlake, cerca de Fillmore, Kanosh y Meadow (condado de Millard), Utah",
-   "pais": "EE.UU.",
-   "inicio": "2026-08-04",
-   "fin": "2026-08-13",
-   "geom": {
-    "t": "area",
-    "c": [
-     -112.2,
-     38.85
-    ],
-    "r": 30
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "A comienzos de agosto ardía sin contención cerca de Fillmore y obligó a evacuar a muchos vecinos de Fillmore, Kanosh y Meadow y la cárcel del condado de Millard. Llegó a 129.741 acres (52.500 ha), el tercer incendio más grande de Utah desde 2002. Utah tuvo en 2026 su peor temporada de incendios desde 2007, con más de 500.000 acres quemados.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "intensidad",
-   "fuentes": [
-    {
-     "t": "Deseret News, 4 ago 2026",
-     "u": "https://www.deseret.com/environment/2026/08/04/utah-fire-season-is-second-worst-in-state-history/"
-    },
-    {
-     "t": "USU Extension, 25 sep 2026",
-     "u": "https://extension.usu.edu/news/ask-an-expert-utahs-2026-wildfire-season-by-the-numbers.php"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 3,
-    "medida": "52.504 ha (129.741 acres)",
-    "ref": "≥50.000 ha; tercer mayor incendio de Utah desde 2002",
-    "fuente": 1
    }
   },
   {
@@ -9493,89 +9213,6 @@
     "nivel": 2,
     "medida": "14.374 ha (35.520 acres)",
     "ref": "entre 10.000 y 49.999 ha",
-    "fuente": 0
-   }
-  },
-  {
-   "id": "eur-m02",
-   "tipo": "sequia",
-   "titulo": "El Po en su nivel más bajo registrado en Cremona",
-   "lugar": "Cuenca del Po (Piamonte, Lombardía, Emilia-Romaña y Véneto) y lagos Maggiore, Como e Iseo",
-   "pais": "Italia",
-   "inicio": "2026-07-30",
-   "fin": "2026-08-13",
-   "geom": {
-    "t": "area",
-    "c": [
-     10.2,
-     45.1
-    ],
-    "r": 250
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "El 31 de julio el Po bajó a 8,59 m bajo el cero hidrométrico en Cremona, por debajo del récord de la sequía de 2022. La Autoridad de cuenca declaró la severidad hídrica «alta», el nivel más grave de su escala, en todo el distrito. El 12 de agosto el caudal en Pontelagoscuro era de 233 m³/s, frente a un umbral crítico de 450 m³/s, y el lago Maggiore estaba al 5,3% de su capacidad.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": 2,
-    "texto": "Confagricoltura Pavia estimó un posible daño de más de 100 millones de euros para el arroz de la zona."
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "agro",
-      "t": "Riego por turnos en los arrozales de la Lomellina y restricción de las tomas agrícolas en el delta."
-     },
-     {
-      "cat": "agro",
-      "t": "Intrusión de agua salada de 20 a 25 km río arriba en el delta del Po."
-     },
-     {
-      "cat": "transporte",
-      "t": "Cerrada temporalmente la esclusa de Isola Serafini, cerca de Piacenza."
-     },
-     {
-      "cat": "servicios",
-      "t": "Se pidió a las hidroeléctricas reducir sus tomas de agua."
-     }
-    ],
-    "mediano": [
-     {
-      "cat": "agro",
-      "t": "Previsto: las organizaciones agrícolas advierten pérdidas de cosecha de hasta 30%, como en 2022."
-     }
-    ],
-    "largo": []
-   },
-   "criterio": "record",
-   "fuentes": [
-    {
-     "t": "Il Sole 24 Ore, 4-ago-2026",
-     "u": "https://en.ilsole24ore.com/art/po-cremona-record-drought-859-metres-below-the-hydrometric-zero-AJDCgNe"
-    },
-    {
-     "t": "L'Espresso, 11-ago-2026",
-     "u": "https://lespresso.it/c/sostenibilita/2026/08/11/po-acque-emergenza-siccita-livello-laghi/64025"
-    },
-    {
-     "t": "Il Post, 16-ago-2026",
-     "u": "https://www.ilpost.it/2026/08/16/siccita-italia-foto-satellitari/"
-    },
-    {
-     "t": "InTrieste, 13-ago-2026",
-     "u": "https://intrieste.com/2026/08/13/po-river-falls-to-a-third-of-normal-flow-as-drought-deepens-across-northern-italy/"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 3,
-    "medida": "8,59 m bajo el cero hidrométrico en Cremona",
-    "ref": "nivel más bajo registrado; supera el récord de la sequía de 2022",
     "fuente": 0
    }
   },
@@ -13533,6 +13170,61 @@
     {
      "t": "Euronews, 10-nov-2026",
      "u": "https://es.euronews.com/2026/11/10/espana-y-portugal-en-alerta-por-el-fuerte-temporal-de-las-borrascas-charles-y-bruna"
+    }
+   ]
+  },
+  {
+   "id": "sam-w01",
+   "tipo": "sequia",
+   "titulo": "Sequía agrícola en el norte de Sudamérica",
+   "lugar": "Venezuela, Colombia, Guayanas, norte de Brasil, Panamá y Costa Rica",
+   "pais": "Venezuela, Colombia, Brasil, Guyana, Surinam, Guayana Francesa, Panamá, Costa Rica, Aruba",
+   "inicio": "2022-09-21",
+   "fin": null,
+   "origen": "gdacs",
+   "gdacs": [
+    {
+     "t": "DR",
+     "id": 1023877,
+     "a": "naranja"
+    }
+   ],
+   "geom": {
+    "t": "area",
+    "c": [
+     -66.7,
+     7.1
+    ],
+    "r": 700
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "GDACS registra alerta naranja por sequía agrícola de impacto medio en 1.735.191 km² del norte de Sudamérica, Panamá y Costa Rica; el episodio figura activo desde el 21 de septiembre de 2022.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "",
+    "ref": "",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Sin estimación de daños en GDACS."
+   },
+   "efectos": {
+    "corto": [],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "alerta_gdacs",
+   "fuentes": [
+    {
+     "t": "GDACS, alerta naranja (12-nov-2026)",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1023877&eventtype=DR"
     }
    ]
   }
