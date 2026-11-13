@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-12",
- "desde": "2026-08-14",
+ "actualizado": "2026-11-13",
+ "desde": "2026-08-15",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "11 de agosto a 9 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-10",
+  "hasta": "2026-11-11",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -3420,8 +3420,8 @@
     "r": 330
    },
    "muertes": 3,
-   "evacuados": 4500,
-   "texto": "El Paraná sigue sobre el nivel de evacuación en Barranqueras, Goya, Reconquista, La Paz y Paraná (Entre Ríos, 5,49 m el 12 de noviembre), y el 11 superó la alerta en Santa Fe (5,39 m el 12), donde el INA proyecta 5,78 m para el 24, sobre la evacuación. El Uruguay está sobre la alerta en Paso de los Libres (7,86 m). Hay unas 4.500 personas evacuadas o autoevacuadas: 2.242 en Chaco, 2.005 en Corrientes, unas 189 en Santa Fe y al menos 80 en Entre Ríos. Tres trabajadores rurales murieron mientras trasladaban hacienda.",
+   "evacuados": 4600,
+   "texto": "El Paraná sigue sobre el nivel de evacuación en Barranqueras, Goya, Reconquista, La Paz, Diamante, Hernandarias y Paraná (Entre Ríos, 5,57 m el 13 de noviembre), y en Santa Fe llegó a 5,50 m, a 20 cm de la evacuación. El Uruguay está sobre la alerta en Paso de los Libres (7,98 m). Hay unas 4.600 personas evacuadas o autoevacuadas: 2.236 en Chaco, 2.005 en Corrientes, unas 254 en Santa Fe y 136 en Entre Ríos. Tres trabajadores rurales murieron mientras trasladaban hacienda.",
    "danos": {
     "texto": "Sin estimación publicada. El Senasa registra unos 147.500 bovinos y bubalinos evacuados desde agosto en cinco provincias.",
     "usd": null,
@@ -3508,6 +3508,10 @@
     {
      "t": "Telefe Santa Fe, 11-nov-2026",
      "u": "https://santafe.mitelefe.com/noticias/crecida-del-parana-ya-son-101-los-evacuados-en-el-centro-de-alto-verde-pid2571949"
+    },
+    {
+     "t": "El Litoral, 12-nov-2026",
+     "u": "https://www.ellitoral.com/area-metropolitana/santafe-rioparana-metros-crecida-rio-personas-evacuadas-emergencia-hidrica_0_s70Q9aEBWY.html"
     }
    ],
    "impacto": null,
@@ -4527,60 +4531,6 @@
    ],
    "impacto": null,
    "muertes": null,
-   "evacuados": null,
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
-   "id": "asi-026",
-   "tipo": "inundacion",
-   "titulo": "Crecidas en Rolpa y Bajura",
-   "lugar": "Thabang (Rolpa) y Bajura",
-   "pais": "Nepal",
-   "inicio": "2026-08-12",
-   "fin": "2026-08-14",
-   "origen": "gdacs",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104091,
-     "a": "verde"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     82.7,
-     28.5
-    ]
-   },
-   "muertes": 11,
-   "texto": "GDACS registra 10 muertos y 3 desaparecidos en Thabang (Rolpa), un muerto en Bajura y 4 desaparecidos en Sunchhahari.",
-   "danos": {
-    "texto": "Cifras de la recopilación automática de prensa de GDACS; pueden ser parciales.",
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104091&eventtype=FL"
-    }
-   ],
-   "impacto": null,
-   "afectados": null,
    "evacuados": null,
    "efectos": {
     "corto": [],
@@ -6290,150 +6240,6 @@
     "medida": "",
     "ref": "",
     "fuente": null
-   }
-  },
-  {
-   "id": "asi-s-n07",
-   "tipo": "deslizamiento",
-   "titulo": "Alud en un túnel en Chamoli: 7 muertos",
-   "lugar": "Pipalkoti, distrito de Chamoli, Uttarakhand",
-   "pais": "India",
-   "inicio": "2026-08-13",
-   "fin": "2026-08-14",
-   "geom": {
-    "t": "punto",
-    "c": [
-     79.43,
-     30.43
-    ]
-   },
-   "impacto": null,
-   "muertes": 7,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "El 13 de agosto un alud metió agua y escombros en un túnel en construcción de una central hidroeléctrica en Pipalkoti. Murieron 7 trabajadores y 14 resultaron heridos. Ese día había 61 caminos bloqueados en 10 distritos y alerta naranja por lluvias en cuatro distritos de Uttarakhand.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": "prensa",
-    "fuente": 1,
-    "texto": "Túnel en construcción de la empresa THDC invadido por agua y escombros."
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "transporte",
-      "t": "61 caminos bloqueados en 10 distritos de Uttarakhand el 14 de agosto."
-     },
-     {
-      "cat": "servicios",
-      "t": "Escuelas cerradas en Pithoragarh, Dehradun y Nainital."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "News On AIR, 14-ago-2026",
-     "u": "https://newsonair.gov.in/7-killed-14-injured-following-landslide-water-seepage-in-under-construction-tunnel-in-chamoli-uttarakhand/"
-    },
-    {
-     "t": "Bhaskar English, 14-ago-2026",
-     "u": "https://english.bhaskardigital.com/uttarakhand-landslides-kill-7-schools-shut-in-3-districts-61-roads-blocked-as-rain-alert-continues"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
-   "id": "nam-n01",
-   "tipo": "deslizamiento",
-   "titulo": "Flujos de barro en Beaver tras el incendio Cottonwood",
-   "lugar": "Beaver y cañón de Beaver, condados de Beaver y Piute, Utah",
-   "pais": "EE.UU.",
-   "inicio": "2026-07-18",
-   "fin": "2026-08-14",
-   "geom": {
-    "t": "area",
-    "c": [
-     -112.64,
-     38.28
-    ],
-    "r": 20
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "Desde el 18 de julio, las lluvias sobre la zona quemada por el incendio Cottonwood arrastraron barro y detritos hacia los barrios de Beaver, que declaró estado de emergencia local. El 10 de agosto se ordenó otra evacuación del área de Grove y el 13 rigió una alerta por crecidas en las zonas quemadas. El 8 de octubre se firmó la declaración federal de desastre para los condados de Beaver y Piute.",
-   "danos": {
-    "usd": 47,
-    "rango": null,
-    "tipo": "oficial",
-    "fuente": 0,
-    "texto": "Al menos 47 millones de dólares en daños elegibles según la evaluación de FEMA, el estado y los gobiernos locales; unas 200 viviendas de Beaver afectadas por el agua y daños graves en el sistema hidroeléctrico de Beaver City Power."
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "servicios",
-      "t": "Daños en las redes de agua potable y de riego, con órdenes de hervir el agua y cortes de suministro."
-     },
-     {
-      "cat": "transporte",
-      "t": "Tramos de la ruta estatal 153 en el cañón de Beaver destruidos y cerrados."
-     },
-     {
-      "cat": "vivienda",
-      "t": "Familias del área de Grove desplazadas; se abrió un refugio en la escuela secundaria."
-     }
-    ],
-    "mediano": [
-     {
-      "cat": "transporte",
-      "t": "Previsto: algunos tramos de la ruta 153 no reabrirían hasta al menos el año próximo."
-     }
-    ],
-    "largo": []
-   },
-   "criterio": "emergencia",
-   "fuentes": [
-    {
-     "t": "KSL.com, 8 oct 2026",
-     "u": "https://www.ksl.com/article/51633989"
-    },
-    {
-     "t": "KUTV, 21 jul 2026",
-     "u": "https://kutv.com/news/local/beaver-county-declares-local-state-of-emergency-due-to-devastating-floods"
-    },
-    {
-     "t": "St George News, 10 ago 2026",
-     "u": "https://www.stgeorgeutah.com/flood-and-fire/alert-thunderstorms-over-cottonwood-fire-burn-scar-prompt-evacuations-of-grove-area-in-beaver/article_129335d8-3941-4b4a-9539-95afba65daa7.html"
-    },
-    {
-     "t": "KUTV, 13 ago 2026",
-     "u": "https://kutv.com/news/local/heavy-rains-prompt-flash-flood-warnings-for-burn-scar-areas-throughout-utah"
-    },
-    {
-     "t": "FOX 13 Utah, 8 oct 2026",
-     "u": "https://www.fox13now.com/news/utah-wildfires/trump-signs-major-disaster-declaration-for-cottonwood-fire"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": null,
-    "medida": "13 a 19 mm sobre la zona quemada el 10 de agosto",
-    "ref": "sin comparación publicada con lo normal del lugar",
-    "fuente": 2
    }
   },
   {
@@ -8557,68 +8363,6 @@
     "nivel": 3,
     "medida": "1.313.650 ha (28 de agosto)",
     "ref": "supera el umbral de 50.000 ha; el área se triplicó entre el 6 y el 28 de agosto",
-    "fuente": 0
-   }
-  },
-  {
-   "id": "asi-em02",
-   "tipo": "inundacion",
-   "titulo": "Crecidas en la cuenca del Amur: emergencia regional en Zabaikalie",
-   "lugar": "Krai de Zabaikalie, Óblast de Amur, Óblast Autónomo Hebreo, Krai de Jabárovsk y Krai de Primorie",
-   "pais": "Rusia",
-   "inicio": "2026-06-21",
-   "fin": "2026-08-14",
-   "geom": {
-    "t": "area",
-    "c": [
-     124.5,
-     50.5
-    ],
-    "r": 900
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "El Ministerio de Emergencias de Rusia informó el 14 de agosto crecidas por lluvia en cinco regiones de la cuenca del Amur. En Zabaikalie, donde la lluvia de los tres meses previos superó varias veces la norma climática, rige la emergencia regional. Había 484 terrenos particulares y 11 tramos de ruta inundados y dos puentes dañados, y el pico de la crecida pasaba por Jabárovsk.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "484 terrenos particulares y 11 tramos de ruta inundados, 2 puentes dañados; comisiones evaluaban los daños en viviendas de Zabaikalie."
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "transporte",
-      "t": "11 tramos de ruta inundados y 2 puentes dañados al 14 de agosto."
-     },
-     {
-      "cat": "vivienda",
-      "t": "El Óblast Autónomo Hebreo habilitó 32 centros de alojamiento temporal y pasó a estado de alerta el 7 de agosto."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "emergencia",
-   "fuentes": [
-    {
-     "t": "MChS de Rusia, 14-ago-2026",
-     "u": "https://mchs.gov.ru/deyatelnost/press-centr/novosti/5810750"
-    },
-    {
-     "t": "OSN (Obshchestvennaya Sluzhba Novostei), 21-jun-2026",
-     "u": "https://www.osnmedia.ru/obshhestvo/v-zabajkale-obyavleno-preduprezhdenie-iz-za-pavodka/amp/"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 1,
-    "medida": "lluvia de tres meses varias veces superior a la norma climática en Zabaikalie",
-    "ref": "comparación con la norma climática, según el Ministerio de Emergencias",
     "fuente": 0
    }
   },
