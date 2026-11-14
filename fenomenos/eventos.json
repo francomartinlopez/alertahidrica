@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-13",
- "desde": "2026-08-15",
+ "actualizado": "2026-11-14",
+ "desde": "2026-08-16",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "11 de agosto a 9 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-11",
+  "hasta": "2026-11-12",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -3753,109 +3753,6 @@
    "intensidad": {
     "nivel": 2,
     "medida": "vientos máximos sostenidos de 194 km/h (categoría 3)",
-    "ref": "pico de la tormenta según NASA EONET; escala Saffir-Simpson",
-    "fuente": null
-   }
-  },
-  {
-   "id": "pac-014",
-   "tipo": "ciclon",
-   "titulo": "Tormenta Chan-hom: primera llegada a tierra registrada en Ibaraki",
-   "lugar": "Prefectura de Ibaraki",
-   "pais": "Japón",
-   "inicio": "2026-08-05",
-   "fin": "2026-08-15",
-   "geom": {
-    "t": "trayectoria",
-    "pts": [
-     [
-      165.3,
-      25
-     ],
-     [
-      162.3,
-      27.3
-     ],
-     [
-      160.8,
-      29.2
-     ],
-     [
-      158.1,
-      32
-     ],
-     [
-      153.2,
-      33.1
-     ],
-     [
-      151,
-      32.4
-     ],
-     [
-      150.2,
-      33.2
-     ],
-     [
-      147.9,
-      35.5
-     ],
-     [
-      143.7,
-      36.8
-     ],
-     [
-      137.4,
-      35.8
-     ]
-    ],
-    "src": "eonet"
-   },
-   "impacto": [
-    140.6,
-    36.5
-   ],
-   "texto": "Tocó tierra en Ibaraki como tormenta tropical severa, con vientos de 95 km/h. Es la primera vez que una tormenta llega a tierra en esa prefectura desde que hay registros (1951). Hubo siete heridos.",
-   "efectos": {
-    "corto": [
-     {
-      "cat": "servicios",
-      "t": "Unos 22.000 hogares sin luz."
-     },
-     {
-      "cat": "transporte",
-      "t": "Se cancelaron 60 vuelos en Haneda."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "record",
-   "fuentes": [
-    {
-     "t": "Wikipedia, temporada de tifones 2026",
-     "u": "https://en.wikipedia.org/wiki/2026_Pacific_typhoon_season"
-    },
-    {
-     "t": "NASA EONET, trayectoria",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22306"
-    }
-   ],
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 1,
-    "medida": "vientos máximos sostenidos de 93 km/h (tormenta tropical)",
     "ref": "pico de la tormenta según NASA EONET; escala Saffir-Simpson",
     "fuente": null
    }
@@ -11524,7 +11421,7 @@
    "lugar": "Costa sur de Andhra Pradesh (Ongole, distrito de Prakasam) y Bahía de Bengala",
    "pais": "India, Sri Lanka",
    "inicio": "2026-11-01",
-   "fin": null,
+   "fin": "2026-11-03",
    "origen": "ambos",
    "gdacs": [
     {
@@ -12227,7 +12124,7 @@
    "lugar": "Cagayan de Oro (Misamis Oriental) y Tulunan (Cotabato del Norte)",
    "pais": "Filipinas",
    "inicio": "2026-10-29",
-   "fin": null,
+   "fin": "2026-11-03",
    "origen": "gdacs",
    "gdacs": [
     {
@@ -12629,7 +12526,7 @@
    "lugar": "Caracas (Antímano) y Carabobo (Valencia, San Diego, Los Guayos, Naguanagua)",
    "pais": "Venezuela",
    "inicio": "2026-11-07",
-   "fin": null,
+   "fin": "2026-11-09",
    "origen": "ambos",
    "gdacs": [
     {
@@ -12692,7 +12589,7 @@
    "lugar": "Erbil, Kurdistán iraquí",
    "pais": "Irak",
    "inicio": "2026-11-07",
-   "fin": null,
+   "fin": "2026-11-09",
    "origen": "gdacs",
    "gdacs": [
     {
@@ -12746,7 +12643,7 @@
    "lugar": "Al-Bukamal, Deir ez-Zor",
    "pais": "Siria",
    "inicio": "2026-11-07",
-   "fin": null,
+   "fin": "2026-11-09",
    "origen": "gdacs",
    "gdacs": [
     {
@@ -12969,6 +12866,305 @@
     {
      "t": "GDACS, alerta naranja (12-nov-2026)",
      "u": "https://www.gdacs.org/report.aspx?eventid=1023877&eventtype=DR"
+    }
+   ]
+  },
+  {
+   "id": "asi-x01",
+   "tipo": "inundacion",
+   "titulo": "Inundaciones en el centro y el norte de Vietnam",
+   "lugar": "Đắk Lắk, Gia Lai y Da Nang; Thanh Hóa y Lào Cai",
+   "pais": "Vietnam",
+   "inicio": "2026-11-06",
+   "fin": "2026-11-13",
+   "origen": "gdacs",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104271,
+     "a": "verde"
+    }
+   ],
+   "geom": {
+    "t": "area",
+    "c": [
+     108.3,
+     14.5
+    ],
+    "r": 450
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": null,
+   "evacuados": 2770,
+   "texto": "GDACS registra inundaciones en Vietnam entre el 6 y el 13 de noviembre, con 2.770 personas evacuadas en Đắk Lắk y Thanh Hóa, además de 102 familias en Gia Lai y 214 en Da Nang, y 1.147 familias afectadas en Quy Nhon Bắc (Gia Lai). Hubo más de 2.000 edificios dañados, la mayoría en la comuna de Nông Cống (Thanh Hóa).",
+   "intensidad": {
+    "nivel": null,
+    "medida": "",
+    "ref": "",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Cifras de la recopilación automática de prensa de GDACS (alerta verde): 1.577 edificios dañados en Nông Cống (Thanh Hóa), 452 en Đắk Lắk, 39 en Bắc Hà (Lào Cai) y un puente; sin balance oficial encontrado."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "vivienda",
+      "t": "2.770 personas evacuadas y más de 2.000 edificios dañados."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "afectados",
+   "fuentes": [
+    {
+     "t": "GDACS, alerta verde FL 1104271, 13-nov-2026",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1104271&eventtype=FL"
+    }
+   ]
+  },
+  {
+   "id": "asi-x02",
+   "tipo": "inundacion",
+   "titulo": "Inundaciones en Selangor y Perak: 1.002 evacuados",
+   "lugar": "Kuala Selangor (Selangor) y Hilir Perak (Perak)",
+   "pais": "Malasia",
+   "inicio": "2026-11-04",
+   "fin": null,
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     101.1,
+     3.6
+    ],
+    "r": 90
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": null,
+   "evacuados": 1002,
+   "texto": "Las inundaciones en el oeste de Malasia peninsular obligaron a abrir centros de evacuación desde el 4 de noviembre. El 9 de noviembre había 1.002 personas en seis centros: 583 en Kuala Selangor y 419 en Hilir Perak. Los ríos Kinta y Bidor superaron el nivel de peligro.",
+   "intensidad": {
+    "nivel": 1,
+    "medida": "río Kinta en Tanjung Tualang a 12,52 m, sobre el nivel de peligro",
+    "ref": "nivel de peligro de los ríos de Perak",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Sin balance de daños publicado."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "vivienda",
+      "t": "1.002 personas en centros de evacuación el 9 de noviembre."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "afectados",
+   "fuentes": [
+    {
+     "t": "The Edge Malaysia (Bernama), 9-nov-2026",
+     "u": "https://theedgemalaysia.com/node/825060"
+    },
+    {
+     "t": "Malay Mail, 9-nov-2026",
+     "u": "https://www.malaymail.com/amp/news/malaysia/2026/11/09/selangor-flood-evacuees-more-than-double-to-583-as-perak-numbers-ease/242604"
+    },
+    {
+     "t": "Malay Mail, 4-nov-2026",
+     "u": "https://www.malaymail.com/amp/news/malaysia/2026/11/04/sungai-buloh-floods-leave-306-people-at-three-evacuation-centres/241988"
+    }
+   ]
+  },
+  {
+   "id": "asi-x03",
+   "tipo": "inundacion",
+   "titulo": "Inundaciones y aludes en Lumajang: dos muertos",
+   "lugar": "Distrito de Lumajang, Java Oriental",
+   "pais": "Indonesia",
+   "inicio": "2026-11-03",
+   "fin": "2026-11-04",
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     113.2,
+     -8.13
+    ],
+    "r": 30
+   },
+   "impacto": null,
+   "muertes": 2,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Según la agencia nacional de desastres (BNPB), las crecidas repentinas y los aludes en Lumajang dejaron dos muertos, un padre y su hijo, 1.567 familias afectadas y 13 casas dañadas.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "",
+    "ref": "",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": "oficial",
+    "fuente": 0,
+    "texto": "13 casas dañadas; también afectó caminos, tendido eléctrico y cultivos."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "vivienda",
+      "t": "1.567 familias afectadas y 13 casas dañadas."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "Okezone (RCTI+), 4-nov-2026",
+     "u": "https://www.rctiplus.com/news/detail/okezone/5508727/banjir-dan-longsor-di-lumajang--2-orang-tewas-dan-1-567-keluarga-terdampak"
+    },
+    {
+     "t": "NU Online, 6-nov-2026",
+     "u": "https://nu.or.id/daerah/bencana-banjir-dan-longsor-landa-aceh-dan-lumajang-lebih-dari-1-600-kk-terdampak-emXIr"
+    }
+   ]
+  },
+  {
+   "id": "asi-x04",
+   "tipo": "deslizamiento",
+   "titulo": "Alud en Gayo Lues: un muerto",
+   "lugar": "Terangun y Putri Betung, Gayo Lues (Aceh)",
+   "pais": "Indonesia",
+   "inicio": "2026-11-03",
+   "fin": "2026-11-03",
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "punto",
+    "c": [
+     97.3,
+     3.95
+    ]
+   },
+   "impacto": null,
+   "muertes": 1,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Un alud en los subdistritos de Terangun y Putri Betung, en Gayo Lues, dejó un muerto según BNPB. Colapsó el puente Agusen Toa y quedó cortada la ruta hacia Aceh Barat Daya.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "",
+    "ref": "",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": "oficial",
+    "fuente": 0,
+    "texto": "Un puente colapsado."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "transporte",
+      "t": "Ruta de Gayo Lues a Aceh Barat Daya cortada por el colapso de un puente."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "NU Online, 6-nov-2026",
+     "u": "https://nu.or.id/daerah/bencana-banjir-dan-longsor-landa-aceh-dan-lumajang-lebih-dari-1-600-kk-terdampak-emXIr"
+    }
+   ]
+  },
+  {
+   "id": "afr-x01",
+   "tipo": "inundacion",
+   "titulo": "Lluvias e inundaciones en Irán: cuatro muertos",
+   "lugar": "Lorestán, Juzestán, Kohkiluyeh y Boyer-Ahmad, Bushehr y otras provincias",
+   "pais": "Irán",
+   "inicio": "2026-11-06",
+   "fin": null,
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     49.5,
+     32.5
+    ],
+    "r": 450
+   },
+   "impacto": null,
+   "muertes": 4,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Las lluvias, tormentas e inundaciones en varias provincias de Irán dejaron cuatro muertos (dos por rayos en Juzestán) y 11 heridos desde el 6 de noviembre, y cortaron el acceso a 190 aldeas de Lorestán. Rigieron alertas rojas en varias provincias y se ordenó una evacuación en Borujerd por riesgo de aludes.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "",
+    "ref": "",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Sin balance de daños publicado."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "transporte",
+      "t": "190 aldeas de Lorestán quedaron sin acceso."
+     },
+     {
+      "cat": "servicios",
+      "t": "Unas 1.600 personas recibieron asistencia de emergencia."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "Iran International, 8-nov-2026",
+     "u": "https://www.iranintl.com/en/202611081460"
+    },
+    {
+     "t": "Shabtab News, 8-nov-2026",
+     "u": "https://english.shabtabnews.com/2026/11/08/floods-and-severe-weather-kill-four-injure-11-across-iran/"
+    },
+    {
+     "t": "Tasnim, 7-nov-2026",
+     "u": "https://www.tasnimnews.ir/en/news/2026/11/07/3742488/iran-mobilizes-18-000-emergency-teams-as-heavy-rains-hit-several-provinces/amp"
     }
    ]
   }
