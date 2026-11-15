@@ -96,6 +96,7 @@ section.blk>.wrap{display:flex;flex-direction:column;gap:22px}
 .alertbar .stripe{background:var(--evac);border-radius:0 3px 3px 0}
 .alertbar h1{font-size:clamp(1.9rem,5vw,3.2rem);font-weight:800;font-stretch:70%;letter-spacing:-.01em}
 .alertbar .txt{display:flex;flex-direction:column;gap:12px;min-width:0}
+.alertbar .lead{max-width:none}
 .kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
 .kpi{background:var(--panel);padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;min-width:0}
 .kpi .v{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 4px;font:700 2.1rem/1 var(--f-data);font-variant-numeric:tabular-nums;letter-spacing:-.02em}
@@ -474,7 +475,7 @@ ul.plain.g2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,3
     <div class="brand"><b>Súper Niño · Argentina</b><span class="stamp" id="stamp"><span class="dot"></span>Cargando datos…</span></div>
     <button class="navbtn" id="navbtn" type="button" aria-expanded="false" aria-controls="idx"><span class="k">Estás en:</span><span class="c" id="navcur">Hoy</span></button>
     <div class="navrow" id="navrow"><button class="navar l" type="button" aria-label="Ver secciones anteriores">‹</button><nav class="idx" id="idx" aria-label="Secciones">
-      <a href="#hoy">Hoy</a><a href="#mapa">Provincias</a><a href="#zonas">Zonas y ciudades</a><a href="#rios">Ríos</a><a href="#tormentas">Tormentas</a><a href="#nino">El Niño</a><a href="#lluvias">Lluvias</a><a href="#mundo">Mundo</a><a href="#escenarios">Escenarios</a><a href="#impacto">Impacto y fondos</a><a href="#economias">Economías regionales</a><a href="#calendario">Calendario</a><a href="#guia">Qué hacer</a><a href="#nacion">Nación</a><a href="#evaluacion">Evaluación</a><a href="#vigilar">Qué vigilar</a><a href="#analisis">Análisis</a><a href="#glosario">Glosario</a><a href="#historicos">Niños históricos</a><a href="#fuentes">Fuentes</a>
+      <a href="#hoy">Hoy</a><a href="#rios">Ríos</a><a href="#mapa">Provincias</a><a href="#zonas">Zonas y ciudades</a><a href="#tormentas">Tormentas</a><a href="#nino">El Niño</a><a href="#lluvias">Lluvias</a><a href="#mundo">Mundo</a><a href="#escenarios">Escenarios</a><a href="#impacto">Impacto y fondos</a><a href="#economias">Economías regionales</a><a href="#calendario">Calendario</a><a href="#guia">Qué hacer</a><a href="#nacion">Nación</a><a href="#evaluacion">Evaluación</a><a href="#vigilar">Qué vigilar</a><a href="#analisis">Análisis</a><a href="#glosario">Glosario</a><a href="#historicos">Niños históricos</a><a href="#fuentes">Fuentes</a>
     </nav><button class="navar r" type="button" aria-label="Ver más secciones">›</button></div>
   </div>
 </header>
@@ -720,6 +721,12 @@ function render(D,M,ZG,PX){PX=PX||{};
   const k=D.kpis.map(x=>`<div class="kpi ${x.tono}"><span class="eyebrow">${esc(x.label)}</span><span class="v${/[a-zñ]{3}/i.test(x.valor)?' tx':''}">${esc(x.valor)}${x.unidad?`<small>${esc(x.unidad)}</small>`:''}</span><span class="d">${md(x.detalle)}</span>${x.fuente?`<span class="s">${md(x.fuente)}</span>`:''}</div>`).join('');
   const old=(Date.now()-new Date(meta.actualizado+'T12:00:00-03:00').getTime())/864e5>2.5;
   const SR=D.evacuados.serie||{};const evp=Object.keys(SR).filter(p=>(SR[p]||[]).length).sort((x,y)=>SR[y].length-SR[x].length);const evk=evp.length>1?[...evp,'Total']:evp;const ev0=evp[0];
+  // RÍOS
+  const riosH=sect('rios','Ríos','La escala de cada puerto','Cada regla muestra la altura del río frente a sus niveles de **alerta** y **evacuación**. Cada escala tiene su propio rango: Iguazú se mide en decenas de metros y Rosario en pocos metros.',
+   `<p class="hint mo">Línea naranja: alerta · línea roja: evacuación. Tocá un puerto para ver su evolución ↓</p><div class="staffs" id="staffs"></div><div class="rlist" id="rlist"></div>
+    <div class="card chart linked" id="rcard"><h3>Evolución por puerto</h3><p class="hint">Elegí un puerto para ver cómo cambió su altura ↓</p><div class="where" id="rsel">${D.rios.filter(r=>(r.hist||[]).length).map((r,i)=>`<button data-r="${esc(r.puerto)}" aria-pressed="${r.puerto==='Corrientes'}">${esc(r.puerto)}</button>`).join('')}</div><div id="rchart"></div><p class="small muted">${md(D.rios_hist_nota)}</p></div>
+    <p class="small muted src">Fuentes: ${md(D.rios_fuentes)}</p>`);
+
   h+=`<section class="blk" id="hoy"><div class="wrap">
     ${old?`<div class="warn">Esta edición es del ${esc(meta.actualizado_texto)}. La actualización diaria puede estar demorada.</div>`:''}
     <div class="alertbar"><div class="stripe"></div><div class="txt"><span class="eyebrow">Situación al ${esc(meta.actualizado_texto)}</span><h1>${esc(D.alerta.titular)}</h1><p class="lead">${md(D.alerta.bajada)}</p></div></div>
@@ -729,6 +736,8 @@ function render(D,M,ZG,PX){PX=PX||{};
       <h3 style="margin-top:6px">Por provincia</h3>
       <div class="tw"><table><thead><tr><th>Provincia</th><th>Total</th><th>Fecha</th><th>Detalle</th></tr></thead><tbody>${D.evacuados.provs.map(x=>`<tr><td><strong>${esc(x.prov)}</strong></td><td class="n">${x.total!=null?fmt(x.total):'—'}</td><td class="n">${esc(x.fecha)}</td><td class="small">${md(x.detalle)}${x.fuente?` <span class="src">${md(x.fuente)}</span>`:''}</td></tr>`).join('')}</tbody></table></div>
       <p class="small muted">${md(D.evacuados.nota)}</p></div>
+  </div></section>${riosH}<section class="blk" id="hoy-mas" data-nav="hoy"><div class="wrap">
+    <div class="sechead"><span class="eyebrow">Hoy</span><h2>Señales, campo, hechos y rutas</h2></div>
     <div class="card"><h3>Dos señales en sentido opuesto</h3><div class="sig2"><div><span class="tag t-evac">Empeora</span><p>${md(D.senales.empeora)}</p></div><div><span class="tag t-ok">Mejora</span><p>${md(D.senales.mejora)}</p></div></div></div>
     <div class="card"><h3>El campo</h3>${ul(D.campo,'plain g2')}</div>
     <div class="card"><div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center"><h3>Qué pasó</h3>
@@ -763,12 +772,6 @@ function render(D,M,ZG,PX){PX=PX||{};
     <div style="display:flex;flex-direction:column;gap:14px;min-width:0"><div class="ficha linked" id="zficha" aria-live="polite"></div>
       <div class="card"><h3>Ciudades por nivel de riesgo</h3><div class="citylist" id="clist"></div></div></div></div>
     <p class="small muted">${md(D.zonas_nota)}</p>`);
-
-  // RÍOS
-  h+=sect('rios','Ríos','La escala de cada puerto','Cada regla muestra la altura del río frente a sus niveles de **alerta** y **evacuación**. Cada escala tiene su propio rango: Iguazú se mide en decenas de metros y Rosario en pocos metros.',
-   `<p class="hint mo">Línea naranja: alerta · línea roja: evacuación. Tocá un puerto para ver su evolución ↓</p><div class="staffs" id="staffs"></div><div class="rlist" id="rlist"></div>
-    <div class="card chart linked" id="rcard"><h3>Evolución por puerto</h3><p class="hint">Elegí un puerto para ver cómo cambió su altura ↓</p><div class="where" id="rsel">${D.rios.filter(r=>(r.hist||[]).length).map((r,i)=>`<button data-r="${esc(r.puerto)}" aria-pressed="${r.puerto==='Corrientes'}">${esc(r.puerto)}</button>`).join('')}</div><div id="rchart"></div><p class="small muted">${md(D.rios_hist_nota)}</p></div>
-    <p class="small muted src">Fuentes: ${md(D.rios_fuentes)}</p>`);
 
   // TORMENTAS
   const TO=D.tormentas,TTY={granizo:['Granizo','t-acc'],viento:['Viento','t-alert'],tornado:['Tornado','t-evac'],lluvia:['Lluvia intensa','t-rise']};
@@ -1209,7 +1212,7 @@ function render(D,M,ZG,PX){PX=PX||{};
   nav.addEventListener('click',e=>{if(e.target.closest('a'))closeNav()});
   document.addEventListener('click',e=>{if(htop.classList.contains('open')&&!e.target.closest('header.top'))closeNav()});
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closeNav()});
-  const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id));const a=links.find(a=>a.classList.contains('on'));if(a)$('#navcur').textContent=a.textContent;edges()}})},{rootMargin:'-45% 0px -50% 0px'});
+  const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+(e.target.dataset.nav||e.target.id)));const a=links.find(a=>a.classList.contains('on'));if(a)$('#navcur').textContent=a.textContent;edges()}})},{rootMargin:'-45% 0px -50% 0px'});
   document.querySelectorAll('section.blk').forEach(s=>io.observe(s));edges();balance();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>{balance();edges()});
   const hs=(location.hash||'').slice(1);
   const go=id=>setTimeout(()=>{const el=document.getElementById(id);if(el)el.scrollIntoView()},60);
