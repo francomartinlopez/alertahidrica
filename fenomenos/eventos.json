@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-14",
- "desde": "2026-08-16",
+ "actualizado": "2026-11-15",
+ "desde": "2026-08-17",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "11 de agosto a 9 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-12",
+  "hasta": "2026-11-13",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -180,7 +180,10 @@
    "EONET_25340",
    "EONET_25457",
    "EONET_25589",
-   "EONET_25730"
+   "EONET_25730",
+   "EONET_26157",
+   "EONET_26158",
+   "EONET_26159"
   ],
   "gdacs": [
    1103888,
@@ -2245,54 +2248,6 @@
    }
   },
   {
-   "id": "eur-005",
-   "tipo": "incendio",
-   "titulo": "Incendio en la isla de Salamina",
-   "lugar": "Salamina, Ática",
-   "pais": "Grecia",
-   "inicio": "2026-08-15",
-   "fin": "2026-08-16",
-   "geom": {
-    "t": "punto",
-    "c": [
-     23.48,
-     37.95
-    ]
-   },
-   "muertes": 2,
-   "texto": "Dos muertos y al menos 90 personas evacuadas por mar. Con esto, los incendios de este verano ya causaron 8 muertes en Grecia.",
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "CGTN, 17 ago",
-     "u": "https://news.cgtn.com/news/2026-08-17/Wildfires-across-Europe-leave-deaths-and-destruction-1PFUkVCUwJq/share_amp.html"
-    }
-   ],
-   "impacto": null,
-   "afectados": null,
-   "evacuados": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "sin superficie quemada publicada en el texto existente",
-    "fuente": null
-   }
-  },
-  {
    "id": "eur-006",
    "tipo": "incendio",
    "titulo": "Mayor incendio de la historia moderna de Bélgica",
@@ -4076,81 +4031,6 @@
     "medida": "",
     "ref": "",
     "fuente": null
-   }
-  },
-  {
-   "id": "asi-020",
-   "tipo": "lluvia",
-   "titulo": "Lluvia sin precedentes en Chiba",
-   "lugar": "Ciudad de Chiba y Oamishirasato",
-   "pais": "Japón",
-   "inicio": "2026-08-13",
-   "fin": "2026-08-16",
-   "origen": "ambos",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104090,
-     "a": "verde"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     140.12,
-     35.6
-    ]
-   },
-   "muertes": 13,
-   "evacuados": 7359,
-   "texto": "Cayeron 300 mm en 24 horas, el agosto más lluvioso en seis décadas. Por primera vez se emitió para Chiba la alerta máxima por lluvia. La prefectura elevó el saldo a 13 muertos y 37 heridos el 18 de agosto; algunos quedaron atrapados en autos bajo el agua.",
-   "danos": {
-    "texto": "2.314 viviendas inundadas y 17 destruidas o muy dañadas, según la prefectura.",
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "transporte",
-      "t": "Unos 1.200 autos abandonados en las calles; rutas y trenes interrumpidos."
-     },
-     {
-      "cat": "servicios",
-      "t": "Cortes de luz y alertas de aludes."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "The Star, 16 ago",
-     "u": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/16/eastern-japan-rain-kills-nine-report"
-    },
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104090&eventtype=FL"
-    },
-    {
-     "t": "Al Jazeera, 14-ago-2026",
-     "u": "https://www.aljazeera.com/amp/news/2026/8/14/record-rainfall-leaves-four-dead-thousands-stranded-in-japan"
-    },
-    {
-     "t": "Adnkronos (Jiji), 18 ago",
-     "u": "https://english.adnkronos.com/2026/08/18/chiba-downpour-death-toll-rises-to-13/"
-    }
-   ],
-   "impacto": null,
-   "afectados": null,
-   "intensidad": {
-    "nivel": 3,
-    "medida": "más de 360 mm en 24 h",
-    "ref": "lluvia récord en 24 h; primera alerta máxima (nivel 5) de lluvia emitida para Chiba",
-    "fuente": 2
    }
   },
   {
@@ -9933,60 +9813,6 @@
    }
   },
   {
-   "id": "afr-g01",
-   "tipo": "inundacion",
-   "titulo": "Inundaciones en Makarem",
-   "lugar": "Makarem",
-   "pais": "Túnez",
-   "inicio": "2026-08-14",
-   "fin": "2026-08-16",
-   "origen": "gdacs",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104098,
-     "a": "verde"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     9.65,
-     35.22
-    ]
-   },
-   "muertes": 1,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "GDACS registra 1 muerto en Makarem.",
-   "criterio": "muertes",
-   "impacto": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Cifras de la recopilación automática de prensa de GDACS; pueden ser parciales."
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "fuentes": [
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104098&eventtype=FL"
-    }
-   ],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
    "id": "sam-g03",
    "tipo": "inundacion",
    "titulo": "Inundaciones en Rio Grande do Sul",
@@ -13165,6 +12991,68 @@
     {
      "t": "Tasnim, 7-nov-2026",
      "u": "https://www.tasnimnews.ir/en/news/2026/11/07/3742488/iran-mobilizes-18-000-emergency-teams-as-heavy-rains-hit-several-provinces/amp"
+    }
+   ]
+  },
+  {
+   "id": "oce-y01",
+   "tipo": "calor",
+   "titulo": "Calor récord de noviembre en el norte de Australia",
+   "lugar": "Península del Cabo York (Queensland), norte del Territorio del Norte y Kimberley",
+   "pais": "Australia",
+   "inicio": "2026-11-07",
+   "fin": null,
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     141.9,
+     -12.7
+    ],
+    "r": 600
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Weipa, en el Cabo York, tuvo el día de noviembre más caluroso de su registro: 39,8 °C el sábado 7 y 39,9 °C el martes 10, con 39 días seguidos sobre 36 °C. La Oficina de Meteorología de Australia mantiene avisos de ola de calor extrema en el Cabo York y severa desde el Golfo de Carpentaria hasta las Whitsundays.",
+   "intensidad": {
+    "nivel": 2,
+    "medida": "39,9 °C en Weipa, máxima de noviembre en 54 años de registros",
+    "ref": "récords locales de noviembre",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Sin balance de daños publicado."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "salud",
+      "t": "Queensland Health pidió cuidados extremos en la zona con aviso de ola de calor."
+     },
+     {
+      "cat": "servicios",
+      "t": "Bamaga y comunidades vecinas tienen cortes nocturnos de agua porque la planta potabilizadora no alcanza a cubrir la demanda."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "record",
+   "fuentes": [
+    {
+     "t": "ABC News, 14-nov-2026",
+     "u": "https://www.abc.net.au/news/2026-11-14/cape-york-town-of-weipa-breaks-weather-records-in-prolonged-heat/107384870"
+    },
+    {
+     "t": "ABC News, 9-nov-2026",
+     "u": "https://www.abc.net.au/news/2026-11-09/heatwave-far-north-queensland-storms-ease-south-east/107360646"
     }
    ]
   }
