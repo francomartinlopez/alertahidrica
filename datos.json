@@ -50,9 +50,9 @@
   {
    "id": "rios",
    "label": "Puertos sobre evacuación",
-   "valor": "5",
+   "valor": "6",
    "unidad": "",
-   "detalle": "**Santa Fe superó la evacuación: 5,77 m** el 16 de noviembre (5,70 m). Paraná (Entre Ríos) sigue en 5,69 m, Goya (5,82 m) y Reconquista (5,65 m) siguen sobre ese nivel, igual que Isla del Cerrito (6,91 m el 15). Fuera de esta lista, Diamante, Hernandarias, La Paz, Esquina y San Javier también están en evacuación. Barranqueras (6,39 m) sigue debajo de la evacuación, Itatí bajó de la alerta y el Uruguay bajó a 6,95 m en Paso de los Libres.",
+   "detalle": "**Santa Fe superó la evacuación: 5,77 m** el 16 de noviembre (5,70 m). Paraná (Entre Ríos) sigue en 5,69 m, Goya (5,82 m) y Reconquista (5,65 m) siguen sobre ese nivel, igual que Isla del Cerrito (6,91 m el 15). Fuera de esta lista, Diamante, Hernandarias, Esquina y San Javier también están en evacuación. Barranqueras (6,39 m) sigue debajo de la evacuación, Itatí bajó de la alerta y el Uruguay bajó a 6,95 m en Paso de los Libres. **La Paz (6,25 m)**, sumada a la lista el 16 de noviembre, también está sobre la evacuación (6,15 m).",
    "tono": "alerta",
    "fuente": "[Prefectura vía RíoAlert, 16 nov](https://rioalert.com.ar/rios/parana) · [Prefectura vía Copérnico, 16 nov](https://copernicus.com.ar/rio/) · [Infobae, 15 nov](https://www.infobae.com/sociedad/2026/11/15/el-rio-parana-alcanzo-el-nivel-de-evacuacion-en-la-ciudad-de-santa-fe-y-comenzaron-los-traslados-de-familias/)"
   },
@@ -2765,6 +2765,66 @@
    "proy": []
   },
   {
+   "puerto": "La Paz",
+   "rio": "Paraná",
+   "altura": 6.25,
+   "fecha": "16 nov",
+   "alerta": 5.8,
+   "evac": 6.15,
+   "estado": "evacuacion",
+   "lectura": "**6,25 m el 16 de noviembre, 10 cm sobre la evacuación (6,15 m)**, estable tras el máximo de 6,30 m del 14. El INA prevé que baje a 6,20 m hacia el 17 y a 6,00 m hacia el 24.",
+   "lon": -59.65,
+   "lat": -30.74,
+   "hist": [
+    [
+     "2026-11-08",
+     6.05
+    ],
+    [
+     "2026-11-09",
+     6.13
+    ],
+    [
+     "2026-11-10",
+     6.2
+    ],
+    [
+     "2026-11-11",
+     6.25
+    ],
+    [
+     "2026-11-12",
+     6.25
+    ],
+    [
+     "2026-11-13",
+     6.26
+    ],
+    [
+     "2026-11-14",
+     6.3
+    ],
+    [
+     "2026-11-15",
+     6.28
+    ],
+    [
+     "2026-11-16",
+     6.25
+    ]
+   ],
+   "proy": [
+    [
+     "2026-11-17",
+     6.2
+    ],
+    [
+     "2026-11-24",
+     6.0
+    ]
+   ]
+  },
+  {
    "puerto": "Santa Fe",
    "rio": "Paraná",
    "altura": 5.77,
@@ -3083,6 +3143,80 @@
    "proy": []
   },
   {
+   "puerto": "Victoria",
+   "rio": "Paraná",
+   "altura": 4.54,
+   "fecha": "16 nov",
+   "alerta": 4.6,
+   "evac": 4.9,
+   "estado": "subiendo",
+   "lectura": "**4,54 m el 16 de noviembre, 6 cm debajo de la alerta (4,60 m)** y en suba (4,38 m el 14). La evacuación es 4,90 m.",
+   "lon": -60.15,
+   "lat": -32.62,
+   "hist": [
+    [
+     "2026-11-14",
+     4.38
+    ],
+    [
+     "2026-11-15",
+     4.44
+    ],
+    [
+     "2026-11-16",
+     4.54
+    ]
+   ],
+   "proy": []
+  },
+  {
+   "puerto": "Santo Tomé",
+   "rio": "Uruguay",
+   "altura": 7.28,
+   "fecha": "16 nov",
+   "alerta": 11.5,
+   "evac": 12.5,
+   "estado": "normal",
+   "lectura": "**7,28 m el 16 de noviembre** a las 0, en baja rápida (32 cm en el día) tras el máximo de 11,02 m del 11; la alerta es 11,50 m y la evacuación 12,50 m.",
+   "lon": -56.04,
+   "lat": -28.55,
+   "hist": [
+    [
+     "2026-11-08",
+     9.87
+    ],
+    [
+     "2026-11-09",
+     10.83
+    ],
+    [
+     "2026-11-10",
+     10.95
+    ],
+    [
+     "2026-11-11",
+     11.02
+    ],
+    [
+     "2026-11-12",
+     10.44
+    ],
+    [
+     "2026-11-13",
+     8.9
+    ],
+    [
+     "2026-11-14",
+     7.96
+    ],
+    [
+     "2026-11-16",
+     7.28
+    ]
+   ],
+   "proy": []
+  },
+  {
    "puerto": "Paso de los Libres",
    "rio": "Uruguay",
    "altura": 6.95,
@@ -3273,6 +3407,53 @@
    "proy": []
   },
   {
+   "puerto": "Concepción del Uruguay",
+   "rio": "Uruguay",
+   "altura": 4.0,
+   "fecha": "16 nov",
+   "alerta": 5.3,
+   "evac": 6.3,
+   "estado": "normal",
+   "lectura": "**4,00 m el 16 de noviembre** a las 0, en suba lenta (50 cm en una semana); la alerta es 5,30 m y la evacuación 6,30 m.",
+   "lon": -58.23,
+   "lat": -32.48,
+   "hist": [
+    [
+     "2026-11-08",
+     3.49
+    ],
+    [
+     "2026-11-09",
+     3.5
+    ],
+    [
+     "2026-11-10",
+     3.5
+    ],
+    [
+     "2026-11-11",
+     3.64
+    ],
+    [
+     "2026-11-12",
+     3.8
+    ],
+    [
+     "2026-11-13",
+     3.9
+    ],
+    [
+     "2026-11-14",
+     3.98
+    ],
+    [
+     "2026-11-16",
+     4.0
+    ]
+   ],
+   "proy": []
+  },
+  {
    "puerto": "Puerto Iguazú",
    "rio": "Iguazú",
    "altura": 21.45,
@@ -3388,34 +3569,97 @@
    "proy": []
   },
   {
-   "puerto": "Asunción (Paraguay)",
+   "puerto": "Puerto Pilcomayo",
    "rio": "Paraguay",
-   "altura": 2.39,
-   "fecha": "6 nov",
-   "alerta": 4.5,
-   "evac": null,
+   "altura": 2.59,
+   "fecha": "14 nov",
+   "alerta": 5.35,
+   "evac": 6.0,
    "estado": "normal",
-   "lectura": "**2,39 m el 6 de noviembre** en Asunción, en baja (6 cm en el día) tras el pico de 3,02 m del 26 de octubre; la alerta es de 4,50 m. Pilar marca 6,34 m, también en baja.",
-   "lon": -57.63,
-   "lat": -25.28,
+   "lectura": "**2,59 m el 14 de noviembre**, en baja (6 cm en el día; 3,00 m el 8); la alerta es 5,35 m y la evacuación 6,00 m.",
+   "lon": -57.65,
+   "lat": -25.37,
    "hist": [
     [
-     "2026-10-19",
-     2.74
+     "2026-11-08",
+     3.0
     ],
     [
-     "2026-11-02",
-     2.57
+     "2026-11-09",
+     2.98
     ],
     [
-     "2026-11-06",
-     2.39
+     "2026-11-10",
+     2.9
+    ],
+    [
+     "2026-11-11",
+     2.82
+    ],
+    [
+     "2026-11-12",
+     2.72
+    ],
+    [
+     "2026-11-13",
+     2.65
+    ],
+    [
+     "2026-11-14",
+     2.59
+    ]
+   ],
+   "proy": []
+  },
+  {
+   "puerto": "Formosa",
+   "rio": "Paraguay",
+   "altura": 5.03,
+   "fecha": "14 nov",
+   "alerta": 7.8,
+   "evac": 8.3,
+   "estado": "normal",
+   "lectura": "**5,03 m el 14 de noviembre**, en baja lenta (7 cm en el día) tras 5,48 m el 1 de noviembre; la alerta es 7,80 m y la evacuación 8,30 m.",
+   "lon": -58.17,
+   "lat": -26.18,
+   "hist": [
+    [
+     "2026-11-01",
+     5.48
+    ],
+    [
+     "2026-11-08",
+     5.32
+    ],
+    [
+     "2026-11-09",
+     5.33
+    ],
+    [
+     "2026-11-10",
+     5.28
+    ],
+    [
+     "2026-11-11",
+     5.22
+    ],
+    [
+     "2026-11-12",
+     5.16
+    ],
+    [
+     "2026-11-13",
+     5.1
+    ],
+    [
+     "2026-11-14",
+     5.03
     ]
    ],
    "proy": []
   }
  ],
- "rios_fuentes": "[La Nación](https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-en-el-parana-hoy-miercoles-nid21102026/) · [El Esquiú](https://www.elesquiu.com/nacionales/2026/10/22/crecida-de-los-rios-parana-y-uruguay-600660.html) · [Aire de Santa Fe](https://www.airedesantafe.com.ar/santa-fe/la-proyeccion-crecida-del-rio-parana-santa-fe-se-redujo-pero-las-lluvias-la-cuenca-pueden-cambiar-el-escenario-n673983) · [Rosario3](https://www.rosario3.com/informaciongeneral/excesos-hidricos-y-crecidas-de-rios-el-mapa-del-impacto-de-el-nino-para-el-resto-de-octubre-y-la-situacion-del-parana-en-rosario-20261019-0019.html) · [ABC Color](https://www.abc.com.py/nacionales/2026/10/19/el-rio-paraguay-casi-llega-a-los-tres-metros-en-la-bahia-de-asuncion/) · [Radio Sudamericana](https://www.radiosudamericana.com/nota/sociedad/351555-Inundaciones-en-Corrientes--todas-las-crecidas-que-hicieron-historia.htm) · [Hidráulica (umbrales)](https://www.hidraulica.gob.ar/informes_hidrologicos/reporte/ReporteSala_20260818.pdf) · [Perfil](https://www.perfil.com/noticias/amp/nea/crecida-del-rio-parana-supero-los-6-metros-en-la-capital-y-ya-hay-222-evacuados-en-corrientes.phtml) · [Elonce](https://www.elonce.com/uid-889713) · [Conclusión](https://www.conclusion.com.ar/?p=1462775) · [Bichos de Campo](https://bichosdecampo.com/exodo-bovino-correntino-con-los-rios-parana-y-uruguay-en-crecida-los-productores-comenzaron-a-sacar-la-hacienda-de-las-islas-y-ya-se-teme-un-otono-sin-pasto/) · [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/21/202420-corrientes-mas-de-mil-personas-fueron-evacuadas-por-la-crecida-de-los-rios-parana-y-uruguay) · [El Litoral (Corrientes), 24 oct](https://www.ellitoral.com.ar/sociedad/2026-10-24-16-49-0-advierten-que-el-parana-seguira-alto-durante-las-proximas-semanas) · [Sin Mordaza, Reconquista](https://sinmordaza.com/noticia/522954-el-rio-parana-alcanzo-la-cota-de-evacuacion-en-reconquista.html) · [Alerta Urbana, Barranqueras](https://www.alertaurbana.com.ar/102777-monitoreo-fluvial-en-la-costa-chaquena-el-rio-parana-registra-727-metros-frente-a-barranqueras-este-sabado) · [Datachaco, Isla del Cerrito](https://www.datachaco.com/653274-crecida-del-parana-crece-el-riesgo-de-aislamiento-en-isla-del-cerrito) · [Aire de Santa Fe](https://www.airedesantafe.com.ar/santa-fe/el-rio-parana-llego-los-cuatro-metros-este-sabado-santa-fe-que-se-espera-los-proximos-dias-n674269) · [Copérnico, Rosario](https://copernicus.com.ar/rio/rosario) · [Infobae, 25 oct](https://www.infobae.com/sociedad/2026/10/25/el-nino-habia-1800-los-evacuados-en-chaco-misiones-fue-afectada-por-fuertes-tormentas-y-santa-fe-preve-otra-suba-del-parana/) · [Alerta Urbana, Yacyretá](https://www.alertaurbana.com.ar/102788-crecida-historica-en-yacyreta-el-rio-parana-registra-caudales-de-28000-metros-cubicos-por-segundo-este-sabado) · Alturas del 1 de noviembre: Prefectura Naval (datos sin validar) vía [RíoAlert](https://rioalert.com.ar/rios/parana); pronósticos del INA según [El Litoral vía Examedia](https://examedia.com.ar/portada/post/88157648).",
+ "rios_fuentes": "[La Nación](https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-en-el-parana-hoy-miercoles-nid21102026/) · [El Esquiú](https://www.elesquiu.com/nacionales/2026/10/22/crecida-de-los-rios-parana-y-uruguay-600660.html) · [Aire de Santa Fe](https://www.airedesantafe.com.ar/santa-fe/la-proyeccion-crecida-del-rio-parana-santa-fe-se-redujo-pero-las-lluvias-la-cuenca-pueden-cambiar-el-escenario-n673983) · [Rosario3](https://www.rosario3.com/informaciongeneral/excesos-hidricos-y-crecidas-de-rios-el-mapa-del-impacto-de-el-nino-para-el-resto-de-octubre-y-la-situacion-del-parana-en-rosario-20261019-0019.html) · [ABC Color](https://www.abc.com.py/nacionales/2026/10/19/el-rio-paraguay-casi-llega-a-los-tres-metros-en-la-bahia-de-asuncion/) · [Radio Sudamericana](https://www.radiosudamericana.com/nota/sociedad/351555-Inundaciones-en-Corrientes--todas-las-crecidas-que-hicieron-historia.htm) · [Hidráulica (umbrales)](https://www.hidraulica.gob.ar/informes_hidrologicos/reporte/ReporteSala_20260818.pdf) · [Perfil](https://www.perfil.com/noticias/amp/nea/crecida-del-rio-parana-supero-los-6-metros-en-la-capital-y-ya-hay-222-evacuados-en-corrientes.phtml) · [Elonce](https://www.elonce.com/uid-889713) · [Conclusión](https://www.conclusion.com.ar/?p=1462775) · [Bichos de Campo](https://bichosdecampo.com/exodo-bovino-correntino-con-los-rios-parana-y-uruguay-en-crecida-los-productores-comenzaron-a-sacar-la-hacienda-de-las-islas-y-ya-se-teme-un-otono-sin-pasto/) · [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/21/202420-corrientes-mas-de-mil-personas-fueron-evacuadas-por-la-crecida-de-los-rios-parana-y-uruguay) · [El Litoral (Corrientes), 24 oct](https://www.ellitoral.com.ar/sociedad/2026-10-24-16-49-0-advierten-que-el-parana-seguira-alto-durante-las-proximas-semanas) · [Sin Mordaza, Reconquista](https://sinmordaza.com/noticia/522954-el-rio-parana-alcanzo-la-cota-de-evacuacion-en-reconquista.html) · [Alerta Urbana, Barranqueras](https://www.alertaurbana.com.ar/102777-monitoreo-fluvial-en-la-costa-chaquena-el-rio-parana-registra-727-metros-frente-a-barranqueras-este-sabado) · [Datachaco, Isla del Cerrito](https://www.datachaco.com/653274-crecida-del-parana-crece-el-riesgo-de-aislamiento-en-isla-del-cerrito) · [Aire de Santa Fe](https://www.airedesantafe.com.ar/santa-fe/el-rio-parana-llego-los-cuatro-metros-este-sabado-santa-fe-que-se-espera-los-proximos-dias-n674269) · [Copérnico, Rosario](https://copernicus.com.ar/rio/rosario) · [Infobae, 25 oct](https://www.infobae.com/sociedad/2026/10/25/el-nino-habia-1800-los-evacuados-en-chaco-misiones-fue-afectada-por-fuertes-tormentas-y-santa-fe-preve-otra-suba-del-parana/) · [Alerta Urbana, Yacyretá](https://www.alertaurbana.com.ar/102788-crecida-historica-en-yacyreta-el-rio-parana-registra-caudales-de-28000-metros-cubicos-por-segundo-este-sabado) · Alturas del 1 de noviembre: Prefectura Naval (datos sin validar) vía [RíoAlert](https://rioalert.com.ar/rios/parana); pronósticos del INA según [El Litoral vía Examedia](https://examedia.com.ar/portada/post/88157648). · Puertos sumados el 16 de noviembre (Prefectura Naval e INA): [Formosa](https://news.agrofy.com.ar/altura-de-los-rios/puerto-formosa) y [El Monterizo](https://elmonterizo.com/el-rio-paraguay-volvio-a-subir-en-formosa-el-numero-que-mira-prefectura-y-por-que-no-es-tranquilizador); [La Paz](https://news.agrofy.com.ar/altura-de-los-rios/la-paz), [Elonce, 15 nov](https://www.elonce.com/sociedad/el-rio-parana-supero-el-nivel-de-evacuacion-en-cuatro-ciudades-entrerrianas-las-alturas-puerto-por-puerto.htm) y [Elonce, 16 nov](https://www.elonce.com/sociedad/creciente-del-parana-el-rio-mide-5-70-metros-en-parana.htm) para La Paz y Victoria; [Santo Tomé](https://news.agrofy.com.ar/altura-de-los-rios/santo-tome) y [Copernicus](https://copernicus.com.ar/rio/santo-tome); [Concepción del Uruguay](https://news.agrofy.com.ar/altura-de-los-rios/concepcion-del-uruguay) y [Copernicus](https://copernicus.com.ar/rio/concepcion-del-uruguay); umbrales también en el [reporte de la Sala de Situación de Hidráulica](https://hidraulica.gob.ar/informes_hidrologicos/reporte/ReporteSala_20260827.pdf). · Puerto Pilcomayo: [Agrofy](https://news.agrofy.com.ar/altura-de-los-rios/puerto-pilcomayo) (Prefectura e INA).",
  "nino": {
   "tesis": "**Ya es uno de los eventos más fuertes desde 1950 y lo más probable es que termine siendo el más intenso del registro instrumental.** Todavía no llegó a su pico, esperado entre noviembre y enero.",
   "indicadores": [
@@ -7370,6 +7614,55 @@
      "u": "https://rioalert.com.ar/rios/uruguay"
     }
    ]
+  },
+  {
+   "grupo": "Puertos sumados (16 de noviembre)",
+   "items": [
+    {
+     "t": "Agrofy: altura del río Paraguay en Puerto Formosa (Prefectura e INA)",
+     "u": "https://news.agrofy.com.ar/altura-de-los-rios/puerto-formosa"
+    },
+    {
+     "t": "El Monterizo: el río Paraguay volvió a subir en Formosa",
+     "u": "https://elmonterizo.com/el-rio-paraguay-volvio-a-subir-en-formosa-el-numero-que-mira-prefectura-y-por-que-no-es-tranquilizador"
+    },
+    {
+     "t": "Agrofy: altura del río Paraná en La Paz (Prefectura e INA)",
+     "u": "https://news.agrofy.com.ar/altura-de-los-rios/la-paz"
+    },
+    {
+     "t": "Elonce: el Paraná superó la evacuación en cuatro ciudades entrerrianas (15 nov)",
+     "u": "https://www.elonce.com/sociedad/el-rio-parana-supero-el-nivel-de-evacuacion-en-cuatro-ciudades-entrerrianas-las-alturas-puerto-por-puerto.htm"
+    },
+    {
+     "t": "Elonce: el río mide 5,70 metros en Paraná (16 nov)",
+     "u": "https://www.elonce.com/sociedad/creciente-del-parana-el-rio-mide-5-70-metros-en-parana.htm"
+    },
+    {
+     "t": "Agrofy: altura del río Uruguay en Santo Tomé (Prefectura e INA)",
+     "u": "https://news.agrofy.com.ar/altura-de-los-rios/santo-tome"
+    },
+    {
+     "t": "Copernicus: altura del río Uruguay en Santo Tomé",
+     "u": "https://copernicus.com.ar/rio/santo-tome"
+    },
+    {
+     "t": "Agrofy: altura del río Uruguay en Concepción del Uruguay (Prefectura e INA)",
+     "u": "https://news.agrofy.com.ar/altura-de-los-rios/concepcion-del-uruguay"
+    },
+    {
+     "t": "Copernicus: altura del río Uruguay en Concepción del Uruguay",
+     "u": "https://copernicus.com.ar/rio/concepcion-del-uruguay"
+    },
+    {
+     "t": "Subsecretaría de Recursos Hídricos: reporte de la Sala de Situación (umbrales)",
+     "u": "https://hidraulica.gob.ar/informes_hidrologicos/reporte/ReporteSala_20260827.pdf"
+    },
+    {
+     "t": "Agrofy: altura del río Paraguay en Puerto Pilcomayo (Prefectura e INA)",
+     "u": "https://news.agrofy.com.ar/altura-de-los-rios/puerto-pilcomayo"
+    }
+   ]
   }
  ],
  "fuentes_extra": "Mapa: [Natural Earth](https://www.naturalearthdata.com/), dominio público.",
@@ -10035,6 +10328,10 @@
    "d": "Versión del Niño-3.4 que descuenta el calentamiento general de los trópicos. Sirve para comparar eventos de distintas décadas."
   },
   {
+   "t": "Niño costero",
+   "d": "Calentamiento anormal del mar frente a las costas de Perú y Ecuador (región Niño 1+2). En Perú lo vigila y declara la Comisión Multisectorial ENFEN. Puede darse junto con El Niño del Pacífico central, como en 2026, o por separado."
+  },
+  {
    "t": "Anomalía",
    "d": "Diferencia entre el valor medido y el promedio histórico para esa época del año."
   },
@@ -11768,5 +12065,17 @@
    ],
    "nota": "Pronóstico probabilístico de NOAA (NMME, varios modelos combinados), emitido el 7 de noviembre de 2026, en una grilla de 1° (unos 100 km). Cada punto muestra qué categoría es más probable comparada con el período 1991-2020: lluvias **sobre lo normal**, **cerca de lo normal** o **bajo lo normal**. Una probabilidad de 33% en cada una equivale a no saber nada; por eso los puntos sin una categoría claramente más probable quedan en blanco. Los puntos vacíos son zonas en estación seca, donde NOAA no publica pronóstico. Es la misma fuente que usa el IRI de la Universidad de Columbia. El análisis es propio."
   }
+ },
+ "fase": {
+  "clave": "super_nino",
+  "estado_noaa": "Aviso de El Niño (El Niño Advisory)",
+  "oni": "+2,46 °C (agosto-octubre de 2026)",
+  "roni": "+1,97 °C (agosto-octubre de 2026)",
+  "pico": "ONI +2,46 °C (agosto-octubre de 2026)",
+  "revisado": "2026-11-16",
+  "clave_anterior": null,
+  "ultimo_cambio": null,
+  "criterio": "Se revisa una vez por mes con la discusión de NOAA CPC. Súper Niño: aviso de El Niño con el ONI o el RONI en +2,0 °C o más en algún trimestre del evento.",
+  "fuente": "[NOAA CPC, discusión del 12 nov](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml) · [NOAA CPC, ONI](https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt) · [NOAA CPC, RONI](https://www.cpc.ncep.noaa.gov/data/indices/RONI.ascii.txt)"
  }
 }

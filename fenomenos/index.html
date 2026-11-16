@@ -56,7 +56,7 @@ h3{font-size:1.35rem;font-weight:700;font-stretch:82%}
 h4{font:600 .72rem/1.2 var(--f-data);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 p{margin:0}
 .eyebrow{font:500 .74rem/1.2 var(--f-data);letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
-.lead{font-size:1.12rem;max-width:70ch}
+.lead{font-size:1.12rem;max-width:none}
 .muted{color:var(--muted)} .small{font-size:.9rem}
 .num{font-family:var(--f-data);font-variant-numeric:tabular-nums}
 .proto{background:var(--panel);border-bottom:1px solid var(--line)}
@@ -168,6 +168,20 @@ svg.has-sel .ev:not(.sel){opacity:.55}
 .cmp g.b:hover .bar.now,.cmp g.b:focus .bar.now{opacity:1}
 .tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--paper);font:500 .78rem/1.3 var(--f-body);padding:6px 8px;border-radius:5px;white-space:nowrap;transform:translate(-50%,-100%);display:none;z-index:2}
 details.tbl{display:block;min-width:0;max-width:100%;overflow:hidden}
+details.acc{background:var(--panel);border:1px solid var(--line);border-radius:var(--r)}
+details.acc>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;justify-content:space-between;gap:16px;align-items:center}
+details.acc>summary::-webkit-details-marker{display:none}
+details.acc>summary::after{content:"+";font:500 1.4rem/1 var(--f-data);color:var(--muted)}
+details.acc[open]>summary::after{content:"−"}
+details.acc>summary .sm{display:flex;flex-direction:column;gap:3px;min-width:0}
+details.acc>summary .sm small{font-size:.88rem;line-height:1.35;color:var(--muted)}
+details.acc>summary:hover h3{color:var(--accent)}
+details.acc[open]>summary{border-bottom:1px solid var(--line);margin-bottom:14px}
+details.acc>.body{padding:2px 20px 20px;display:flex;flex-direction:column;gap:12px}
+details.tbl.crit{border-top:1px solid var(--line);padding-top:10px}
+details.tbl.crit p{margin:8px 0 0;font-size:.86rem;line-height:1.5;color:var(--muted)}
+.mapcard .sep{border:0;border-top:1px solid var(--line);margin:2px 0}
+@media (min-width:861px){main .split{align-items:stretch}main .split>div:last-child .list{flex:1 1 auto;height:0;min-height:320px;max-height:none}}
 details.tbl summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:.88rem}
 details.tbl table{border-collapse:collapse;font:400 .82rem var(--f-data);margin-top:8px;width:100%;max-width:520px}
 details.tbl th,details.tbl td{padding:4px 6px;border-bottom:1px solid var(--line);text-align:right}
@@ -177,6 +191,8 @@ details.tbl th:first-child,details.tbl td:first-child{text-align:left}
 /* ficha + lista */
 .split{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:18px;align-items:start}
 @media (max-width:860px){.split{grid-template-columns:1fr}}
+/* lista del período a la izquierda */
+@media (min-width:861px){main .split{grid-template-columns:minmax(0,1fr) minmax(0,1.25fr)}main .split>#ficha{order:2}}
 .tagt{display:inline-flex;align-items:center;gap:6px;font:600 .7rem/1 var(--f-data);letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:4px;color:var(--ink);background:var(--soft)}
 .tagt i{width:9px;height:9px;border-radius:50%;background:var(--c)}
 .state{font:600 .7rem/1 var(--f-data);letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:4px;border:1px solid var(--line);color:var(--muted)}
@@ -229,7 +245,7 @@ html.emb .solo{display:none}
   if(EMB)document.documentElement.classList.add('emb');
   const syncTema=()=>{if(!P)return;const t=P.documentElement.getAttribute('data-theme');if(t)document.documentElement.setAttribute('data-theme',t);else document.documentElement.removeAttribute('data-theme')};
   syncTema();if(P)new MutationObserver(syncTema).observe(P.documentElement,{attributes:true,attributeFilter:['data-theme']});
-  const alto=()=>{if(EMB)window.parent.postMessage({fxAltura:Math.ceil(document.documentElement.scrollHeight)},'*')};
+  const alto=()=>{if(EMB&&document.body)window.parent.postMessage({fxAltura:Math.ceil(document.body.getBoundingClientRect().height)},'*')};
   window.addEventListener('load',alto);window.addEventListener('resize',alto);
   document.addEventListener('DOMContentLoaded',()=>{if('ResizeObserver' in window)new ResizeObserver(alto).observe(document.body);alto()});
   window.FX_IR=(el,forzar)=>{if(!el)return;const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -250,7 +266,7 @@ html.emb .solo{display:none}
 
   <div class="sum" id="sum" aria-live="polite"></div>
 
-  <div class="card">
+  <div class="card mapcard">
     <div class="row"><span class="small muted">Período:</span>
       <div class="toggle" role="group" aria-label="Período" id="per"><button data-d="7" aria-pressed="true">7 días</button><button data-d="30" aria-pressed="false">30 días</button><button data-d="90" aria-pressed="false">90 días</button></div>
       <span class="small muted" id="pernote"></span></div>
@@ -258,9 +274,7 @@ html.emb .solo{display:none}
       <div class="toggle" role="group" aria-label="Intensidad mínima" id="imin"><button data-i="0" aria-pressed="true">Todas</button><button data-i="2" aria-pressed="false">Muy inusual o más</button><button data-i="3" aria-pressed="false">Extremo o récord</button></div></div>
     <div id="fams" style="display:flex;flex-direction:column;gap:8px"></div>
     <div class="row"><button class="lnkbtn" id="all">Mostrar todos los tipos</button><button class="lnkbtn" id="none">Ocultar todos</button></div>
-  </div>
-
-  <div class="card mapcard">
+    <hr class="sep">
     <div class="maptools">
       <p class="hint">Tocá un evento para ver su ficha <span class="ar-d">↓</span><span class="ar-m">↓</span></p>
       <div class="maptools2"><div class="row" style="gap:6px 10px;flex-wrap:nowrap"><span class="small muted" style="white-space:nowrap">Tamaño según</span><div class="toggle" role="group" aria-label="Tamaño de los círculos según" id="szby"><button data-s="intensidad" aria-pressed="true">Intensidad</button><button data-s="muertes" aria-pressed="false">Muertes</button><button data-s="personas" aria-pressed="false">Afectados o evacuados</button></div></div>
@@ -277,6 +291,7 @@ html.emb .solo{display:none}
       <span><svg width="30" height="12" aria-hidden="true"><path d="M2 9 Q12 1 20 6 T28 4" fill="none" stroke="var(--muted)" stroke-width="2.2"/><circle cx="20" cy="6" r="3" fill="var(--muted)"/></svg>Trayectoria de ciclón y lugar de impacto</span>
       <span id="szleg"></span>
     </div>
+    <details class="tbl crit"><summary>Qué eventos entran en el mapa y de dónde salen los datos</summary><p id="foot"></p></details>
   </div>
 
   <div class="split">
@@ -295,13 +310,11 @@ html.emb .solo{display:none}
     <details class="tbl"><summary>Ver tabla</summary><div class="tblw" id="cmptbl"></div></details>
   </div>
 
-  <div class="card">
-    <div class="sechead" style="gap:6px"><h3>Comercio y logística internacional</h3>
-      <p class="small muted">Eventos de los últimos 90 días que cortaron puertos, canales, ríos navegables, corredores comerciales o exportaciones. Es lo que más puede repercutir en Argentina.</p></div>
+  <details class="acc" id="logidsp"><summary><span class="sm"><h3>Comercio y logística internacional</h3><small>Puertos, canales, ríos navegables y corredores cortados en los últimos 90 días</small></span></summary><div class="body">
+    <p class="small muted">Eventos de los últimos 90 días que cortaron puertos, canales, ríos navegables, corredores comerciales o exportaciones. Es lo que más puede repercutir en Argentina.</p>
     <div class="logi" id="logi"></div>
-  </div>
+  </div></details>
 
-  <footer><p id="foot"></p></footer>
 </div></main>
 
 <script>
