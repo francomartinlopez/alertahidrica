@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-16",
- "desde": "2026-08-18",
+ "actualizado": "2026-11-17",
+ "desde": "2026-08-19",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "18 de agosto a 16 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-14",
+  "hasta": "2026-11-15",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -5109,77 +5109,6 @@
    }
   },
   {
-   "id": "sam-012",
-   "tipo": "nieve",
-   "titulo": "Nevadas récord cierran el Cristo Redentor 34 días",
-   "lugar": "Cordillera de Mendoza y Neuquén; pasos a Chile",
-   "pais": "Argentina, Chile",
-   "inicio": "2026-07-14",
-   "fin": "2026-08-18",
-   "geom": {
-    "t": "area",
-    "c": [
-     -70.1,
-     -34.5
-    ],
-    "r": 330
-   },
-   "texto": "La nieve acumuló hasta 3 m en la frontera. El paso Cristo Redentor estuvo cerrado 34 días, del 14 de julio al 18 de agosto, y superó el récord de 26 días de 2023. También se cortaron Pino Hachado, Pehuenche y San Francisco.",
-   "danos": {
-    "texto": "Los camioneros (Aprocam) estiman USD 600 por día por camión detenido: más de USD 1,8 M diarios con más de 3.000 unidades varadas.",
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "logistica",
-      "t": "Más de 3.000 camiones varados: unos 2.000 en Mendoza y 1.581 en Neuquén, sobre todo en Cutral Co y Plaza Huincul."
-     },
-     {
-      "cat": "transporte",
-      "t": "Los pasos alternativos no tienen infraestructura aduanera suficiente para absorber el tránsito."
-     }
-    ],
-    "mediano": [
-     {
-      "cat": "agro",
-      "t": "Previsto: el manto de nieve de Mendoza suma unos 2.600 hm³, el doble de un año medio (1.300 hm³), y anticipa un caudal atípico del río Mendoza."
-     }
-    ],
-    "largo": []
-   },
-   "criterio": "record",
-   "fuentes": [
-    {
-     "t": "El Economista, 10 ago",
-     "u": "https://eleconomista.com.ar/internacional/caos-frontera-chile-mas-3000-camiones-varados-hay-fecha-reapertura-n97273"
-    },
-    {
-     "t": "Sitio Andino",
-     "u": "https://www.sitioandino.com.ar/sociedad/persiste-el-mal-tiempo-alta-montana-y-el-paso-internacional-los-libertadores-continuara-cerrado-n5706383"
-    },
-    {
-     "t": "Diario UNO",
-     "u": "https://www.diariouno.com.ar/super-nino-el-rio-mendoza-se-prepara-un-caudal-atipico-las-nevadas-n1590553"
-    }
-   ],
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 3,
-    "medida": "34 días de cierre del Cristo Redentor; hasta 3 m de nieve",
-    "ref": "récord de cierre del paso (el anterior, 26 días en 2023)",
-    "fuente": null
-   }
-  },
-  {
    "id": "sam-013",
    "tipo": "lluvia",
    "titulo": "Lluvia en el desierto y nieve en el altiplano del norte de Chile",
@@ -7990,63 +7919,6 @@
    }
   },
   {
-   "id": "asi-em03",
-   "tipo": "lluvia",
-   "titulo": "Lluvias de 968 mm en cuatro días en Geoje",
-   "lugar": "Geoje (Gyeongsang del Sur)",
-   "pais": "Corea del Sur",
-   "inicio": "2026-08-15",
-   "fin": "2026-08-18",
-   "geom": {
-    "t": "punto",
-    "c": [
-     128.62,
-     34.88
-    ]
-   },
-   "impacto": null,
-   "muertes": 1,
-   "afectados": null,
-   "evacuados": 100,
-   "texto": "Geoje acumuló 968,1 mm entre el 15 y el 18 de agosto, más que su promedio de todo el verano (935,1 mm). El 17 de agosto cayeron 654,3 mm, con 124,5 mm en una hora. Un alud sepultó la planta baja de un edificio de departamentos: una persona murió, tres resultaron heridas y unos 100 vecinos fueron evacuados.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Desborde de ríos y calles inundadas; un alud sepultó la planta baja de un edificio de departamentos."
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "transporte",
-      "t": "Rutas inundadas y tránsito interrumpido en Geoje; 20 vecinos aislados fueron rescatados."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "Herald Corp (datos de la KMA), 3-sep-2026",
-     "u": "https://mbiz.heraldcorp.com/article/10862006"
-    },
-    {
-     "t": "Atlas News (Reuters y Yonhap), 17-ago-2026",
-     "u": "https://www.atlas-news.com/internacional/l004-corea-sur-lluvias-torrenciales_4_02182218.html"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "968,1 mm en 4 días; 654,3 mm el 17 de agosto",
-    "ref": "más que el promedio de todo el verano en Geoje (935,1 mm); el tercer mayor registro diario de la ciudad, según la KMA",
-    "fuente": 0
-   }
-  },
-  {
    "id": "asi-em04",
    "tipo": "sequia",
    "titulo": "Sequía y alertas de emergencia en Java y Nusa Tenggara",
@@ -8836,80 +8708,6 @@
    }
   },
   {
-   "id": "cam-m03",
-   "tipo": "inundacion",
-   "titulo": "Emergencia nacional por inundaciones en el Caribe y el norte",
-   "lugar": "Guatuso, Turrialba, Sarapiquí, Limón, Pococí, Siquirres, Talamanca, Matina y Guácimo",
-   "pais": "Costa Rica",
-   "inicio": "2026-08-13",
-   "fin": "2026-08-18",
-   "geom": {
-    "t": "area",
-    "c": [
-     -83.6,
-     10.1
-    ],
-    "r": 130
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": 700,
-   "texto": "Entre el 20 de julio y el 18 de agosto pasaron ocho ondas tropicales; el 16 y 17 de agosto cayeron hasta 360 mm en 48 horas en el Caribe Sur y Turrialba y se desbordaron ríos. El gobierno declaró emergencia nacional en nueve cantones el 20 de agosto. Al 21 de agosto más de 700 personas estaban en albergues, y las comunidades indígenas de Alto Chirripó y Tayní quedaron incomunicadas por tierra.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Siete viviendas con pérdida total en Turrialba; rutas nacionales 10 y 32 afectadas por deslizamientos o inundaciones; varios caminos cerrados en Turrialba."
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "transporte",
-      "t": "Rutas nacionales 10 y 32 afectadas por deslizamientos o inundaciones."
-     },
-     {
-      "cat": "servicios",
-      "t": "145 escuelas cerradas."
-     },
-     {
-      "cat": "vivienda",
-      "t": "Siete viviendas con pérdida total en Turrialba y otras con daños parciales."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "emergencia",
-   "fuentes": [
-    {
-     "t": "La Nación, 2026-08-25",
-     "u": "https://www.nacion.com/el-pais/laura-fernandez-declara-emergencia-nacional-en/TNHI2DHWINHWNPJJYPXGVRATEE/story/"
-    },
-    {
-     "t": "Semanario Universidad, 2026-08-25",
-     "u": "https://semanariouniversidad.com/pais/costa-rica-declara-emergencia-nacional-en-nueve-cantones-por-lluvias/"
-    },
-    {
-     "t": "Delfino, 2026-08-25",
-     "u": "https://delfino.cr/2026/08/gobierno-declara-emergencia-nacional-en-nueve-cantones-por-temporales-de-agosto"
-    },
-    {
-     "t": "OPS/OMS, Monitoreo de amenazas naturales, 2026-08-21",
-     "u": "https://www.paho.org/en/natural-hazards-monitoring/natural-hazards-monitoring-21-august-2026"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": null,
-    "medida": "hasta 360 mm en 48 horas (16 y 17 de agosto)",
-    "ref": "CNE; suelos saturados al 80-100%; no se publicó comparación con lo normal",
-    "fuente": 1
-   }
-  },
-  {
    "id": "cam-m04",
    "tipo": "sequia",
    "titulo": "Sequía y cortes de agua rotativos en Guadalupe y Martinica",
@@ -9595,60 +9393,6 @@
     {
      "t": "GDACS, alerta verde",
      "u": "https://www.gdacs.org/report.aspx?eventid=1104084&eventtype=FL"
-    }
-   ],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
-   "id": "sam-g02",
-   "tipo": "inundacion",
-   "titulo": "Inundaciones en Zaragoza",
-   "lugar": "Zaragoza, Antioquia; Quibdó, Choco",
-   "pais": "Colombia",
-   "inicio": "2026-08-14",
-   "fin": "2026-08-18",
-   "origen": "gdacs",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104097,
-     "a": "verde"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     -74.87,
-     7.49
-    ]
-   },
-   "muertes": null,
-   "afectados": 2800,
-   "evacuados": null,
-   "texto": "GDACS registra 2.800 afectados en Zaragoza, Antioquia; 20 hogares afectados en Quibdó, Choco.",
-   "criterio": "afectados",
-   "impacto": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Cifras de la recopilación automática de prensa de GDACS; pueden ser parciales."
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "fuentes": [
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104097&eventtype=FL"
     }
    ],
    "intensidad": {
@@ -12966,6 +12710,80 @@
     {
      "t": "GDACS, evento FL 1104277",
      "u": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104277"
+    }
+   ]
+  },
+  {
+   "id": "asi-z01",
+   "tipo": "ciclon",
+   "titulo": "Ciclón Akvan en el golfo de Bengala",
+   "lugar": "Golfo de Bengala, frente a Andhra Pradesh y Odisha",
+   "pais": "India",
+   "inicio": "2026-11-16",
+   "fin": null,
+   "origen": "ambos",
+   "gdacs": [
+    {
+     "t": "TC",
+     "id": 1001351,
+     "a": "naranja"
+    }
+   ],
+   "geom": {
+    "t": "trayectoria",
+    "pts": [
+     [
+      87.3,
+      12.0
+     ]
+    ],
+    "src": "aprox"
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Se formó el 16 de noviembre en el sudeste del golfo de Bengala, con vientos máximos de 93 km/h según GDACS. El Departamento Meteorológico de la India prevé que llegue a la costa de Andhra Pradesh hacia el 20 de noviembre; Odisha ordenó evacuaciones preventivas en seis distritos y desplegó 74 equipos de rescate.",
+   "intensidad": {
+    "nivel": 1,
+    "medida": "Tormenta tropical, vientos máximos de 93 km/h",
+    "ref": "Escala Saffir-Simpson (GDACS)",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Sin daños informados al 17 de noviembre; se suspendieron las operaciones del puerto pesquero de Visakhapatnam."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "logistica",
+      "t": "Suspensión de las operaciones del puerto pesquero de Visakhapatnam y prohibición de salir al mar para los pescadores."
+     },
+     {
+      "cat": "vivienda",
+      "t": "Evacuaciones preventivas en el sur de Odisha y en distritos costeros de Andhra Pradesh."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "alerta_gdacs",
+   "fuentes": [
+    {
+     "t": "GDACS, evento TC 1001351",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1001351&eventtype=TC"
+    },
+    {
+     "t": "Business Standard, 17-nov-2026",
+     "u": "https://www.business-standard.com/india-news/after-arnab-and-murasu-third-cyclone-akvan-to-hit-andhra-what-we-know-126111700193_1.html"
+    },
+    {
+     "t": "Daily Jagran, nov-2026",
+     "u": "https://www.thedailyjagran.com/india/news/cyclone-akvan-live-tracker-landfall-news-heavy-rain-alert-in-odisha-andhra-pradesh-rescue-evacuations-injury-deaths-imd-latest-updates-10336536"
     }
    ]
   }
