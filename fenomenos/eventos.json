@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-17",
- "desde": "2026-08-19",
+ "actualizado": "2026-11-18",
+ "desde": "2026-08-20",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "18 de agosto a 16 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-15",
+  "hasta": "2026-11-16",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -183,7 +183,8 @@
    "EONET_25730",
    "EONET_26157",
    "EONET_26158",
-   "EONET_26159"
+   "EONET_26159",
+   "EONET_26463"
   ],
   "gdacs": [
    1103888,
@@ -8895,90 +8896,6 @@
    }
   },
   {
-   "id": "sam-m01",
-   "tipo": "lluvia",
-   "titulo": "Lluvias de agosto en Lima Sur y la costa sur de Perú",
-   "lugar": "Villa El Salvador y Villa María del Triunfo (Lima); Arequipa, Moquegua y Tacna",
-   "pais": "Perú",
-   "inicio": "2026-08-16",
-   "fin": "2026-08-19",
-   "geom": {
-    "t": "area",
-    "c": [
-     -73.0,
-     -15.5
-    ],
-    "r": 600
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": 386,
-   "evacuados": null,
-   "texto": "El 16 de agosto Villa María del Triunfo acumuló 8 mm en 24 horas y Tacna más de 10 mm, con lloviznas de hasta ocho horas seguidas en la costa sur. En Villa El Salvador colapsaron diez buzones de desagüe y entraron aguas servidas en 72 viviendas, con 386 vecinos afectados; el Gobierno declaró 60 días de emergencia allí y en Villa María del Triunfo. En Arequipa un huaico cortó la Panamericana Sur entre Ático y Ocoña y se cancelaron 22 vuelos.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "En Villa El Salvador colapsaron 10 buzones de desagüe y las aguas servidas afectaron 11 manzanas y 72 viviendas. El decreto de emergencia menciona daños en viviendas y escuelas, sin cifras."
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "servicios",
-      "t": "Colapso de 10 buzones de desagüe en Villa El Salvador; la municipalidad extrajo las aguas servidas con camiones cisterna."
-     },
-     {
-      "cat": "vivienda",
-      "t": "72 viviendas de Villa El Salvador con ingreso de aguas servidas."
-     },
-     {
-      "cat": "transporte",
-      "t": "Un huaico bloqueó la Panamericana Sur entre Ático y Ocoña y se cancelaron 22 vuelos en el aeropuerto de Arequipa."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "emergencia",
-   "fuentes": [
-    {
-     "t": "Infobae, 17-ago-2026",
-     "u": "https://www.infobae.com/peru/2026/08/17/lluvia-intensa-golpea-el-sur-de-lima-y-provoca-aniegos-en-ves-vmt-chorrillos-y-san-juan-de-miraflores/"
-    },
-    {
-     "t": "Andina, 23-ago-2026",
-     "u": "https://andina.pe/agencia/noticia-decretan-estado-emergencia-ves-y-vmt-danos-a-causa-lloviznas-1088783.aspx"
-    },
-    {
-     "t": "Panamericana, 18-ago-2026",
-     "u": "https://panamericana.pe/24horas/locales/472956-dana-anibal-senamhi-advierte-continuidad-lluvias-vientos-19-agosto"
-    },
-    {
-     "t": "Gestión, 17-ago-2026",
-     "u": "https://gestion.pe/peru/keiko-fujimori-anuncia-reestructuracion-de-sedapal-tras-inundaciones-en-lima-sur-noticia/"
-    },
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104071&eventtype=FL"
-    }
-   ],
-   "origen": "ambos",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104071,
-     "a": "verde"
-    }
-   ],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "8 mm en 24 h en Villa María del Triunfo; más de 10 mm en Tacna",
-    "ref": "uno de los registros más importantes de la historia reciente de Lima y Callao, según el meteorólogo Abraham Levy",
-    "fuente": 0
-   }
-  },
-  {
    "id": "sam-m02",
    "tipo": "lluvia",
    "titulo": "Lluvias récord en la costa de Tumbes y Piura",
@@ -9393,60 +9310,6 @@
     {
      "t": "GDACS, alerta verde",
      "u": "https://www.gdacs.org/report.aspx?eventid=1104084&eventtype=FL"
-    }
-   ],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
-   "id": "sam-g03",
-   "tipo": "inundacion",
-   "titulo": "Inundaciones en Rio Grande do Sul",
-   "lugar": "Rio Grande do Sul; Dom Pedrito, RS; Bonito, Pernambuco",
-   "pais": "Brasil",
-   "inicio": "2026-08-16",
-   "fin": "2026-08-19",
-   "origen": "gdacs",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104106,
-     "a": "verde"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     -54.67,
-     -30.98
-    ]
-   },
-   "muertes": 2,
-   "afectados": null,
-   "evacuados": 213,
-   "texto": "GDACS registra 2 muertos en Dom Pedrito, RS; 213 evacuados en Rio Grande do Sul.",
-   "criterio": "muertes",
-   "impacto": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Cifras de la recopilación automática de prensa de GDACS; pueden ser parciales."
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "fuentes": [
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104106&eventtype=FL"
     }
    ],
    "intensidad": {
@@ -12784,6 +12647,102 @@
     {
      "t": "Daily Jagran, nov-2026",
      "u": "https://www.thedailyjagran.com/india/news/cyclone-akvan-live-tracker-landfall-news-heavy-rain-alert-in-odisha-andhra-pradesh-rescue-evacuations-injury-deaths-imd-latest-updates-10336536"
+    }
+   ]
+  },
+  {
+   "id": "oce-z02",
+   "tipo": "ciclon",
+   "titulo": "Ciclón Xavier en el norte de las Islas Cook",
+   "lugar": "Norte de las Islas Cook (Manihiki y Rakahanga)",
+   "pais": "Islas Cook",
+   "inicio": "2026-11-15",
+   "fin": null,
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "trayectoria",
+    "pts": [
+     [
+      -158.9,
+      -8.2
+     ],
+     [
+      -160.1,
+      -8.1
+     ],
+     [
+      -160.6,
+      -8.3
+     ],
+     [
+      -161,
+      -8.5
+     ],
+     [
+      -161.9,
+      -8.8
+     ],
+     [
+      -162.6,
+      -8.9
+     ],
+     [
+      -163.2,
+      -9
+     ],
+     [
+      -163.5,
+      -9.1
+     ],
+     [
+      -163.8,
+      -9.3
+     ],
+     [
+      -163.8,
+      -9.6
+     ]
+    ],
+    "src": "eonet"
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Se formó el 15 de noviembre al norte de las Islas Cook y se intensificó rápido: pasó de 35 nudos el 15 a 130 nudos (unos 241 km/h) el 17 según los datos de NASA EONET. Rigen avisos de temporal para los atolones de Manihiki y Rakahanga; se prevé que siga en la zona hasta el 19 de noviembre.",
+   "intensidad": {
+    "nivel": 2,
+    "medida": "Vientos máximos de 241 km/h (130 nudos) el 17 de noviembre",
+    "ref": "Escala Saffir-Simpson: categoría 4 (NASA EONET)",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Sin daños informados al 18 de noviembre."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "transporte",
+      "t": "Se desaconsejaron los viajes por mar no esenciales en el norte de las Islas Cook."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "intensidad",
+   "fuentes": [
+    {
+     "t": "NASA EONET, evento EONET_26463",
+     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_26463"
+    },
+    {
+     "t": "The Watchers, 16-nov-2026",
+     "u": "https://watchers.news/2026/11/16/tropical-cyclone-xavier-northern-cook-islands-manihiki-rakahanga-november-2026/"
     }
    ]
   }
