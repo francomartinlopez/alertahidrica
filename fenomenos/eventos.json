@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-18",
- "desde": "2026-08-20",
+ "actualizado": "2026-11-19",
+ "desde": "2026-08-21",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "18 de agosto a 16 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-16",
+  "hasta": "2026-11-17",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -2381,62 +2381,6 @@
     "medida": "23,6 °C de promedio en junio-agosto, unos 1,9 °C sobre el promedio del siglo XX",
     "ref": "verano más cálido en 132 años de registros; supera por 0,2 °C a 1936 y 2021",
     "fuente": 0
-   }
-  },
-  {
-   "id": "nam-002",
-   "tipo": "incendio",
-   "titulo": "Incendio Bald Range: más de 20.000 evacuados en el Okanagan",
-   "lugar": "Summerland y Peachland, Columbia Británica",
-   "pais": "Canadá",
-   "inicio": "2026-08-07",
-   "fin": "2026-08-20",
-   "geom": {
-    "t": "punto",
-    "c": [
-     -119.7,
-     49.6
-    ]
-   },
-   "evacuados": 20000,
-   "texto": "Empezó el 7 de agosto, llegó a casi 5.000 ha en horas y obligó a evacuar a todo Summerland (unas 12.000 personas) y a unas 8.000 de Peachland. Se declaró estado de emergencia. Murió una mujer al intentar evacuar cerca de Summerland. El estado de emergencia provincial rigió del 8 al 27 de agosto.",
-   "danos": {
-    "texto": "Unas 150 viviendas destruidas o dañadas. En toda Columbia Británica se quemaron unas 470.000 ha en el año.",
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null
-   },
-   "criterio": "afectados",
-   "fuentes": [
-    {
-     "t": "Le360 (AFP), 8 ago",
-     "u": "https://en.le360.ma/world/canada-orders-more-than-20000-people-to-evacuate-as-wildfire-spreads-in-british-columbia_5RNJCUNBANEOJB7BUB5BJXWGX4/"
-    },
-    {
-     "t": "CP24, 18 ago",
-     "u": "https://www.cp24.com/news/canada/2026/08/18/wildfire-season-tracking-to-be-4th-worst-on-record/"
-    },
-    {
-     "t": "CFJC Today (The Canadian Press), 27 ago 2026",
-     "u": "https://cfjctoday.com/2026/08/27/cp-newsalert-b-c-ends-wildfire-state-of-emergency/"
-    }
-   ],
-   "impacto": null,
-   "muertes": 1,
-   "afectados": null,
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "25.200 ha (252 km²)",
-    "ref": "entre 10.000 y 49.999 ha",
-    "fuente": 2
    }
   },
   {
@@ -12606,7 +12550,7 @@
    "muertes": null,
    "afectados": null,
    "evacuados": null,
-   "texto": "Se formó el 16 de noviembre en el sudeste del golfo de Bengala, con vientos máximos de 93 km/h según GDACS. El Departamento Meteorológico de la India prevé que llegue a la costa de Andhra Pradesh hacia el 20 de noviembre; Odisha ordenó evacuaciones preventivas en seis distritos y desplegó 74 equipos de rescate.",
+   "texto": "Se formó el 16 de noviembre en el sudeste del golfo de Bengala. El Departamento Meteorológico de la India (IMD) prevé que se convierta en ciclón muy severo y que toque tierra en Andhra Pradesh, entre Nellore y Tuni, hacia el mediodía del 20 de noviembre, con vientos de 120 a 130 km/h, ráfagas de 145 km/h, lluvias de más de 210 mm en 24 horas y marejada de 1 a 2 m. Odisha ordenó evacuaciones preventivas en seis distritos y desplegó 74 equipos de rescate.",
    "intensidad": {
     "nivel": 1,
     "medida": "Tormenta tropical, vientos máximos de 93 km/h",
@@ -12647,6 +12591,10 @@
     {
      "t": "Daily Jagran, nov-2026",
      "u": "https://www.thedailyjagran.com/india/news/cyclone-akvan-live-tracker-landfall-news-heavy-rain-alert-in-odisha-andhra-pradesh-rescue-evacuations-injury-deaths-imd-latest-updates-10336536"
+    },
+    {
+     "t": "Oneindia (IMD), 17 nov",
+     "u": "https://www.oneindia.com/india/cyclone-akvan-andhra-pradesh-braces-for-145-kmph-winds-landfall-expected-on-november-20-8261885.html"
     }
    ]
   },
@@ -12676,20 +12624,12 @@
       -8.3
      ],
      [
-      -161,
-      -8.5
-     ],
-     [
       -161.9,
       -8.8
      ],
      [
       -162.6,
       -8.9
-     ],
-     [
-      -163.2,
-      -9
      ],
      [
       -163.5,
@@ -12700,8 +12640,16 @@
       -9.3
      ],
      [
+      -163.9,
+      -9.9
+     ],
+     [
+      -164,
+      -10.2
+     ],
+     [
       -163.8,
-      -9.6
+      -10.3
      ]
     ],
     "src": "eonet"
@@ -12743,6 +12691,60 @@
     {
      "t": "The Watchers, 16-nov-2026",
      "u": "https://watchers.news/2026/11/16/tropical-cyclone-xavier-northern-cook-islands-manihiki-rakahanga-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "nam-aa1",
+   "tipo": "lluvia",
+   "titulo": "Lluvia récord en San Francisco",
+   "lugar": "San Francisco y área de la Bahía, California",
+   "pais": "EE.UU.",
+   "inicio": "2026-11-18",
+   "fin": null,
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     -122.42,
+     37.77
+    ],
+    "r": 60
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Un río atmosférico dejó el miércoles 18 de noviembre 2,28 pulgadas (58 mm) de lluvia en el centro de San Francisco, récord para ese día desde 1918. Hubo árboles caídos, inundaciones y deslizamientos en el área de la Bahía, con alerta por crecidas repentinas.",
+   "intensidad": {
+    "nivel": 1,
+    "medida": "58 mm en un día en el centro de San Francisco",
+    "ref": "récord diario para el 18 de noviembre desde 1918",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Árboles caídos, calles inundadas y deslizamientos; sin estimación publicada."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "transporte",
+      "t": "Calles anegadas y caminos afectados por deslizamientos en el área de la Bahía."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "record",
+   "fuentes": [
+    {
+     "t": "San Francisco Chronicle, 18 nov",
+     "u": "https://www.sfchronicle.com/weather/article/live-storm-updates-22536019.php"
     }
    ]
   }
