@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-19",
- "desde": "2026-08-21",
+ "actualizado": "2026-11-20",
+ "desde": "2026-08-22",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "18 de agosto a 16 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-17",
+  "hasta": "2026-11-18",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -2059,77 +2059,6 @@
     "nivel": 3,
     "medida": "3,6 °C sobre lo normal en Francia",
     "ref": "el verano más cálido en Francia desde 1900 (dato del texto existente)",
-    "fuente": null
-   }
-  },
-  {
-   "id": "eur-002",
-   "tipo": "sequia",
-   "titulo": "El Rin en su nivel más bajo desde 1880",
-   "lugar": "Kaub y el Rin medio; Danubio",
-   "pais": "Alemania, Países Bajos, Hungría",
-   "inicio": "2026-07-25",
-   "fin": "2026-08-21",
-   "geom": {
-    "t": "area",
-    "c": [
-     7.7,
-     50.1
-    ],
-    "r": 280
-   },
-   "texto": "El 11 de agosto el Rin marcaba 14 cm en Kaub, el mínimo desde 1880, con 9 cm previstos. El tramo entre el Alto Rin y los puertos de Ámsterdam, Róterdam y Amberes quedó prácticamente intransitable. El Danubio también tocó mínimos. El 21 de agosto el nivel empezó a recuperarse.",
-   "danos": {
-    "texto": "Commerzbank estima que niveles críticos hasta mediados de septiembre restarían 0,35 puntos al PBI trimestral alemán. EnBW prevé un golpe de decenas de millones de euros en sus resultados.",
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "logistica",
-      "t": "Las barcazas viajan con poca carga o no pasan Kaub. Covestro calcula que hacen falta 60 camiones para reemplazar una barcaza de 1.500 toneladas."
-     },
-     {
-      "cat": "logistica",
-      "t": "BASF, Lanxess, Evonik, Covestro y Thyssenkrupp pasan carga a tren y camión; las exportaciones de nafta por barcaza de la refinería Miro están en riesgo."
-     },
-     {
-      "cat": "servicios",
-      "t": "En Hungría, la central nuclear de Paks ajustó su producción por el bajo caudal del Danubio."
-     }
-    ],
-    "mediano": [
-     {
-      "cat": "economia",
-      "t": "Previsto por Commerzbank: −0,35 puntos del PBI trimestral alemán. Los pronósticos no esperaban una suba firme antes de octubre."
-     }
-    ],
-    "largo": []
-   },
-   "criterio": "record",
-   "fuentes": [
-    {
-     "t": "gCaptain (Bloomberg), 11 ago",
-     "u": "https://gcaptain.com/rhine-river-hits-record-low-deepening-shipping-crisis/"
-    },
-    {
-     "t": "S&P Global, 21 ago",
-     "u": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/082126-rhine-water-levels-rebound-easing-barge-shipping-strain"
-    }
-   ],
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 3,
-    "medida": "14 cm en Kaub",
-    "ref": "nivel más bajo del Rin desde 1880 (dato del texto existente)",
     "fuente": null
    }
   },
@@ -9264,60 +9193,6 @@
    }
   },
   {
-   "id": "afr-g02",
-   "tipo": "inundacion",
-   "titulo": "Inundaciones en Darou Khoudoss",
-   "lugar": "Darou Khoudoss, Touba",
-   "pais": "Senegal",
-   "inicio": "2026-08-19",
-   "fin": "2026-08-21",
-   "origen": "gdacs",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104113,
-     "a": "verde"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     -15.89,
-     14.88
-    ]
-   },
-   "muertes": 1,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "GDACS registra 1 muerto en Darou Khoudoss, Touba.",
-   "criterio": "muertes",
-   "impacto": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Cifras de la recopilación automática de prensa de GDACS; pueden ser parciales."
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "fuentes": [
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104113&eventtype=FL"
-    }
-   ],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
    "id": "asi-g03",
    "tipo": "inundacion",
    "titulo": "Inundaciones en Gyalshing",
@@ -12620,12 +12495,8 @@
       -8.1
      ],
      [
-      -160.6,
-      -8.3
-     ],
-     [
-      -161.9,
-      -8.8
+      -161,
+      -8.5
      ],
      [
       -162.6,
@@ -12636,20 +12507,24 @@
       -9.1
      ],
      [
-      -163.8,
-      -9.3
-     ],
-     [
       -163.9,
       -9.9
      ],
      [
-      -164,
-      -10.2
+      -163.7,
+      -10.1
      ],
      [
-      -163.8,
-      -10.3
+      -163.5,
+      -10.4
+     ],
+     [
+      -163,
+      -10.6
+     ],
+     [
+      -162.6,
+      -11.1
      ]
     ],
     "src": "eonet"
@@ -12745,6 +12620,190 @@
     {
      "t": "San Francisco Chronicle, 18 nov",
      "u": "https://www.sfchronicle.com/weather/article/live-storm-updates-22536019.php"
+    }
+   ]
+  },
+  {
+   "id": "nam-ab1",
+   "tipo": "inundacion",
+   "titulo": "Inundaciones en Broward, Miami-Dade y Brevard",
+   "lugar": "Hollywood, Fort Lauderdale y Dania Beach (Broward), Miami-Dade y condado de Brevard, Florida",
+   "pais": "EE.UU.",
+   "inicio": "2026-11-17",
+   "fin": null,
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     -80.3,
+     26.6
+    ],
+    "r": 160
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Entre el 17 y el 19 de noviembre cayeron más de 15 pulgadas (unos 390 mm) en 72 horas en Plantation, Hollywood y Sunrise, y hasta 16 pulgadas en un barrio de Hollywood. Hubo decenas de rescates en Fort Lauderdale, más de 90 personas evacuadas o rescatadas de un complejo de departamentos en Hollywood y casi 100 rescates en Brevard, donde el río St. Johns superó cerca de Cocoa su récord de crecida de 1953. Hollywood, Fort Lauderdale y el condado de Broward declararon la emergencia; no se informaron muertes.",
+   "intensidad": {
+    "nivel": 3,
+    "medida": "más de 15 pulgadas (unos 390 mm) en 72 horas; St. Johns sobre su récord de 1953 cerca de Cocoa",
+    "ref": "récord de crecida del río St. Johns desde 1953",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Viviendas, calles y un hospital inundados en Hollywood; sin estimación publicada."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "servicios",
+      "t": "Escuelas públicas de Broward cerradas el 19 y 20 de noviembre y de Miami-Dade el 19; tribunales y oficinas cerrados."
+     },
+     {
+      "cat": "transporte",
+      "t": "Calles y rutas bajo el agua en Broward; la Guardia Nacional y 750 cuadrillas viales movilizadas."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "emergencia",
+   "fuentes": [
+    {
+     "t": "CBS News Miami, 19 nov",
+     "u": "https://www.cbsnews.com/miami/live-updates/south-florida-flooding-live-updates-heavy-rain-broward-miami-dade/"
+    }
+   ]
+  },
+  {
+   "id": "afr-ab1",
+   "tipo": "inundacion",
+   "titulo": "Inundaciones en Tana River y Taita-Taveta",
+   "lugar": "Madogo, Wardesa y Kono Ramadha (Tana River) y Voi (Taita-Taveta)",
+   "pais": "Kenia",
+   "inicio": "2026-11-12",
+   "fin": null,
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     39.2,
+     -1.2
+    ],
+    "r": 200
+   },
+   "impacto": null,
+   "muertes": 6,
+   "afectados": 15500,
+   "evacuados": null,
+   "texto": "Las lluvias cortas dejaron seis muertos en Kenia, con Tana River y Taita-Taveta entre los condados más afectados. En Tana River se desbordó un río estacional en Wardesa: más de 300 hogares y 400 animales afectados y el camino Kono Ramadha-Mlanjo cortado. La Cruz Roja registra a unas 15.500 personas para darles dinero para mudarse de las zonas inundables.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "",
+    "ref": "",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Viviendas inundadas y un camino cortado; sin estimación publicada."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "transporte",
+      "t": "Camino Kono Ramadha-Mlanjo intransitable."
+     },
+     {
+      "cat": "vivienda",
+      "t": "Familias sin techo en Voi tras el desborde de ríos."
+     }
+    ],
+    "mediano": [
+     {
+      "cat": "vivienda",
+      "t": "Previsto: el servicio meteorológico de Kenia esperaba el pico de lluvias entre el 17 y el 23 de noviembre."
+     }
+    ],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "Nation (Kenia), 19 nov",
+     "u": "https://nation.africa/kenya/news/floods-displace-hundreds-as-six-people-die-across-the-country-5675924"
+    },
+    {
+     "t": "The Star (Kenia), 18 nov",
+     "u": "https://www.the-star.co.ke/counties/north-eastern/2026-11-18-cash-aid-lined-up-for-15500-tana-river-flood-victims"
+    },
+    {
+     "t": "The Kenya Times",
+     "u": "https://thekenyatimes.com/weather/over-300-households-affected-road-cut-off-as-floods-hit-parts-of-the-country/"
+    }
+   ]
+  },
+  {
+   "id": "cam-ab1",
+   "tipo": "inundacion",
+   "titulo": "Lluvias en el centro de Veracruz",
+   "lugar": "Yecuatla, Alto Lucero, Poza Rica y Coatzacoalcos, Veracruz",
+   "pais": "México",
+   "inicio": "2026-11-16",
+   "fin": "2026-11-18",
+   "origen": "gdacs",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104289,
+     "a": "verde"
+    }
+   ],
+   "geom": {
+    "t": "area",
+    "c": [
+     -96.8,
+     19.9
+    ],
+    "r": 150
+   },
+   "impacto": null,
+   "muertes": 1,
+   "afectados": null,
+   "evacuados": 31,
+   "texto": "GDACS registra un muerto en Yecuatla, rescates en Coatzacoalcos, Alto Lucero y Poza Rica y 31 personas evacuadas en el estado de Veracruz.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "",
+    "ref": "",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Cifras de la recopilación automática de prensa de GDACS; pueden ser parciales."
+   },
+   "efectos": {
+    "corto": [],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "GDACS, alerta verde",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1104289&eventtype=FL"
     }
    ]
   }
