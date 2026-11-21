@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-20",
- "desde": "2026-08-22",
+ "actualizado": "2026-11-21",
+ "desde": "2026-08-23",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "18 de agosto a 16 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-18",
+  "hasta": "2026-11-19",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -1690,7 +1690,7 @@
    },
    "muertes": 80,
    "afectados": 5839856,
-   "texto": "Bangkok declaró desastre en toda la ciudad el 26 de septiembre tras casi 48 horas de lluvia. La inundación siguió en octubre: al 19 de octubre había 80 muertos y 5.839.856 afectados en 50 provincias y Bangkok, y seguían bajo el agua 22 provincias.",
+   "texto": "Bangkok declaró desastre en toda la ciudad el 26 de septiembre tras casi 48 horas de lluvia. La inundación siguió en octubre: al 19 de octubre había 80 muertos y 5.839.856 afectados en 50 provincias y Bangkok, y seguían bajo el agua 22 provincias. Al 15 de noviembre seguían afectados unos 48.700 hogares (121.400 personas) en Chumphon, Lop Buri, Nakhon Pathom, Phra Nakhon Si Ayutthaya y Suphan Buri, según el AHA Centre.",
    "danos": {
     "usd": 380,
     "rango": [
@@ -1740,6 +1740,10 @@
     {
      "t": "AHA Centre, informe semanal 12-18 oct",
      "u": "https://ahacentre.org/weekly-disaster-update/weekly-disaster-update-12-18-october-2026/"
+    },
+    {
+     "t": "AHA Centre, informe semanal 9-15 nov",
+     "u": "https://ahacentre.org/weekly-disaster-update/weekly-disaster-update-9-15-november-2026/"
     }
    ],
    "impacto": null,
@@ -6602,55 +6606,6 @@
     "nivel": null,
     "medida": "suelo saturado por encima del 90% en 12 de 22 departamentos",
     "ref": "Insivumeh; no se publicó comparación con lo normal",
-    "fuente": 0
-   }
-  },
-  {
-   "id": "cam-n03",
-   "tipo": "calor",
-   "titulo": "Récords de calor de agosto en Pinar del Río y Sancti Spíritus",
-   "lugar": "La Ceniza (Pinar del Río) y Sancti Spíritus",
-   "pais": "Cuba",
-   "inicio": "2026-08-19",
-   "fin": "2026-08-22",
-   "geom": {
-    "t": "area",
-    "c": [
-     -81.6,
-     22.1
-    ],
-    "r": 250
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "La estación La Ceniza, al sur de Pinar del Río, marcó 37,1 °C el 19 y el 20 de agosto y superó su récord de agosto de 36,8 °C de 2023, según el Insmet. Días antes, Sancti Spíritus llegó a 37,1 °C y superó su récord de agosto de 36,6 °C, de 1993. No fue récord nacional absoluto.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "record",
-   "fuentes": [
-    {
-     "t": "Directorio Cubano, 2026-08-22",
-     "u": "https://www.directoriocubano.info/panorama/cuba-encadena-records-de-calor-y-preve-temperaturas-de-hasta-36-grados-este-fin-de-semana/"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "37,1 °C en La Ceniza y en Sancti Spíritus",
-    "ref": "récords de agosto de cada estación: 36,8 °C (2023) y 36,6 °C (1993)",
     "fuente": 0
    }
   },
@@ -12491,24 +12446,20 @@
       -8.2
      ],
      [
-      -160.1,
-      -8.1
+      -160.6,
+      -8.3
      ],
      [
-      -161,
-      -8.5
-     ],
-     [
-      -162.6,
-      -8.9
+      -161.9,
+      -8.8
      ],
      [
       -163.5,
       -9.1
      ],
      [
-      -163.9,
-      -9.9
+      -163.8,
+      -9.6
      ],
      [
       -163.7,
@@ -12519,12 +12470,16 @@
       -10.4
      ],
      [
-      -163,
-      -10.6
+      -162.8,
+      -10.7
      ],
      [
-      -162.6,
-      -11.1
+      -162.8,
+      -11
+     ],
+     [
+      -164.2,
+      -11.5
      ]
     ],
     "src": "eonet"
