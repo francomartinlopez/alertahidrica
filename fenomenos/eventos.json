@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-21",
- "desde": "2026-08-23",
+ "actualizado": "2026-11-22",
+ "desde": "2026-08-24",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "18 de agosto a 16 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-19",
+  "hasta": "2026-11-20",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -4384,64 +4384,6 @@
    }
   },
   {
-   "id": "afr-005",
-   "tipo": "deslizamiento",
-   "titulo": "Derrumbe de un basural en Conakry durante lluvias intensas",
-   "lugar": "Dar-es-Salam, comuna de Gbessia",
-   "pais": "Guinea",
-   "inicio": "2026-08-23",
-   "fin": "2026-08-23",
-   "origen": "ambos",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104117,
-     "a": "verde"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     -13.62,
-     9.58
-    ]
-   },
-   "muertes": 31,
-   "texto": "Hacia las 2 de la madrugada del 23 de agosto, con fuertes lluvias sobre Conakry, se derrumbó parte del basural del barrio y sepultó casas y viviendas precarias. Murieron al menos 31 personas según Protección Civil, y había desaparecidos.",
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "Fraternité Matin, 24 ago",
-     "u": "https://www.fratmat.info/article/2644078/etranger/guinee/guinee-un-eboulement-fait-au-moins-31-morts-dans-une-decharge-a-conakry"
-    },
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104117&eventtype=FL"
-    }
-   ],
-   "impacto": null,
-   "afectados": null,
-   "evacuados": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
    "id": "afr-006",
    "tipo": "inundacion",
    "titulo": "Inundaciones en Luiza (Kasái Central)",
@@ -4984,64 +4926,6 @@
     "medida": "",
     "ref": "tornado sin clasificar en la escala Fujita",
     "fuente": 0
-   }
-  },
-  {
-   "id": "sam-013",
-   "tipo": "lluvia",
-   "titulo": "Lluvia en el desierto y nieve en el altiplano del norte de Chile",
-   "lugar": "Arica y Parinacota, Tarapacá y Antofagasta",
-   "pais": "Chile",
-   "inicio": "2026-08-21",
-   "fin": "2026-08-23",
-   "geom": {
-    "t": "area",
-    "c": [
-     -69.8,
-     -21.0
-    ],
-    "r": 300
-   },
-   "texto": "Un sistema frontal poco habitual llevó lluvia al desierto y nieve a la cordillera. Iquique acumuló más de 40 mm en menos de 48 horas, con calles inundadas y quebradas activadas. Las tres regiones fueron declaradas zona de catástrofe.",
-   "danos": {
-    "texto": "Viviendas afectadas e infraestructura vial dañada en Iquique; inundaciones y aludes en Arica y Parinacota. Sin estimación publicada.",
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "logistica",
-      "t": "El paso de Jama a Argentina siguió cerrado por nieve y hielo."
-     },
-     {
-      "cat": "transporte",
-      "t": "Restricciones en la ruta 27 CH por nieve en San Pedro de Atacama."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "emergencia",
-   "fuentes": [
-    {
-     "t": "Todo Jujuy, 22 ago",
-     "u": "https://www.todojujuy.com/el-norte-chile-alerta-nieve-lluvias-y-cortes-caminos-n295006"
-    }
-   ],
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "más de 40 mm en menos de 48 h en Iquique",
-    "ref": "lluvia en el desierto costero por un sistema frontal poco habitual; las fuentes no dan la comparación oficial con la normal",
-    "fuente": null
    }
   },
   {
@@ -12357,7 +12241,7 @@
    "lugar": "Golfo de Bengala, frente a Andhra Pradesh y Odisha",
    "pais": "India",
    "inicio": "2026-11-16",
-   "fin": null,
+   "fin": "2026-11-20",
    "origen": "ambos",
    "gdacs": [
     {
@@ -12372,15 +12256,22 @@
      [
       87.3,
       12.0
+     ],
+     [
+      84.9,
+      19.3
      ]
     ],
     "src": "aprox"
    },
-   "impacto": null,
+   "impacto": [
+    84.9,
+    19.3
+   ],
    "muertes": null,
    "afectados": null,
-   "evacuados": null,
-   "texto": "Se formó el 16 de noviembre en el sudeste del golfo de Bengala. El Departamento Meteorológico de la India (IMD) prevé que se convierta en ciclón muy severo y que toque tierra en Andhra Pradesh, entre Nellore y Tuni, hacia el mediodía del 20 de noviembre, con vientos de 120 a 130 km/h, ráfagas de 145 km/h, lluvias de más de 210 mm en 24 horas y marejada de 1 a 2 m. Odisha ordenó evacuaciones preventivas en seis distritos y desplegó 74 equipos de rescate.",
+   "evacuados": 300000,
+   "texto": "Se formó el 16 de noviembre en el sudeste del golfo de Bengala. Tocó tierra cerca de Gopalpur, entre el norte de Andhra Pradesh y el sur de Odisha, en la madrugada del 20 de noviembre, más al norte y con menos fuerza de lo previsto: vientos sostenidos de 70 a 80 km/h y ráfagas de 90 km/h, y luego se debilitó a depresión profunda. Odisha evacuó a más de 300.000 personas; Ichchapuram (Andhra Pradesh) registró 168,75 mm.",
    "intensidad": {
     "nivel": 1,
     "medida": "Tormenta tropical, vientos máximos de 93 km/h",
@@ -12392,7 +12283,7 @@
     "rango": null,
     "tipo": null,
     "fuente": null,
-    "texto": "Sin daños informados al 17 de noviembre; se suspendieron las operaciones del puerto pesquero de Visakhapatnam."
+    "texto": "Sin daños cuantificados informados al 20 de noviembre; se suspendieron las operaciones del puerto pesquero de Visakhapatnam."
    },
    "efectos": {
     "corto": [
@@ -12425,6 +12316,14 @@
     {
      "t": "Oneindia (IMD), 17 nov",
      "u": "https://www.oneindia.com/india/cyclone-akvan-andhra-pradesh-braces-for-145-kmph-winds-landfall-expected-on-november-20-8261885.html"
+    },
+    {
+     "t": "The Watchers, 20-nov-2026",
+     "u": "https://watchers.news/2026/11/20/cyclone-akvan-landfall-gopalpur-november-20-2026-deep-depression/"
+    },
+    {
+     "t": "Vajiram & Ravi (IMD), nov-2026",
+     "u": "https://vajiramias.com/upsc/cyclone-akvan-2026/"
     }
    ]
   },
@@ -12450,20 +12349,16 @@
       -8.3
      ],
      [
-      -161.9,
-      -8.8
-     ],
-     [
-      -163.5,
-      -9.1
+      -162.6,
+      -8.9
      ],
      [
       -163.8,
-      -9.6
+      -9.3
      ],
      [
-      -163.7,
-      -10.1
+      -164,
+      -10.2
      ],
      [
       -163.5,
@@ -12474,12 +12369,16 @@
       -10.7
      ],
      [
-      -162.8,
-      -11
+      -163.5,
+      -11.4
      ],
      [
-      -164.2,
-      -11.5
+      -164.7,
+      -11.6
+     ],
+     [
+      -166.8,
+      -11.9
      ]
     ],
     "src": "eonet"
@@ -12488,7 +12387,7 @@
    "muertes": null,
    "afectados": null,
    "evacuados": null,
-   "texto": "Se formó el 15 de noviembre al norte de las Islas Cook y se intensificó rápido: pasó de 35 nudos el 15 a 130 nudos (unos 241 km/h) el 17 según los datos de NASA EONET. Rigen avisos de temporal para los atolones de Manihiki y Rakahanga; se prevé que siga en la zona hasta el 19 de noviembre.",
+   "texto": "Se formó el 15 de noviembre al norte de las Islas Cook y se intensificó rápido: pasó de 35 nudos el 15 a 130 nudos (unos 241 km/h) el 17 según NASA EONET, y la prensa local informó que llegó a categoría 5. El 19 se debilitaba lentamente como categoría 4 entre Manihiki y Pukapuka, rumbo al sur. En Manihiki se dañaron el muelle y zonas costeras; las viviendas parecían haber escapado de lo peor y no se informaron víctimas.",
    "intensidad": {
     "nivel": 2,
     "medida": "Vientos máximos de 241 km/h (130 nudos) el 17 de noviembre",
@@ -12500,7 +12399,7 @@
     "rango": null,
     "tipo": null,
     "fuente": null,
-    "texto": "Sin daños informados al 18 de noviembre."
+    "texto": "Daños en el muelle y la costa de Manihiki según un residente; sin evaluación oficial al 19 de noviembre."
    },
    "efectos": {
     "corto": [
@@ -12521,6 +12420,10 @@
     {
      "t": "The Watchers, 16-nov-2026",
      "u": "https://watchers.news/2026/11/16/tropical-cyclone-xavier-northern-cook-islands-manihiki-rakahanga-november-2026/"
+    },
+    {
+     "t": "1News, 19-nov-2026",
+     "u": "https://www.1news.co.nz/2026/11/19/cyclone-xavier-slowly-weakens-as-it-tracks-through-cook-islands/"
     }
    ]
   },
@@ -12759,6 +12662,60 @@
     {
      "t": "GDACS, alerta verde",
      "u": "https://www.gdacs.org/report.aspx?eventid=1104289&eventtype=FL"
+    }
+   ]
+  },
+  {
+   "id": "oce-ac1",
+   "tipo": "viento",
+   "titulo": "Tormentas en el sur y el este de Australia: 24.000 propiedades sin luz",
+   "lugar": "Península de Eyre (Australia Meridional), Victoria y sur de Nueva Gales del Sur",
+   "pais": "Australia",
+   "inicio": "2026-11-18",
+   "fin": "2026-11-20",
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     137.0,
+     -33.5
+    ],
+    "r": 500
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": 24000,
+   "evacuados": null,
+   "texto": "Dos días de tormentas en el este y el sur de Australia derribaron torres de transmisión en la península de Eyre: unas 24.000 propiedades quedaron sin luz el jueves 19, con el servicio ya restablecido. En Victoria y el sur de Nueva Gales del Sur cayeron hasta 80 mm, con inundaciones repentinas. Para el fin de semana rigen avisos de ola de calor severa en Illawarra, la costa sur de Nueva Gales del Sur y Cape York.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "Hasta 80 mm de lluvia; sin dato de ráfagas publicado",
+    "ref": "Oficina de Meteorología de Australia",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Torres de transmisión derribadas en la península de Eyre; daños en la infraestructura eléctrica."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "servicios",
+      "t": "Unas 24.000 propiedades sin luz en la península de Eyre hasta la reparación de la red."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "afectados",
+   "fuentes": [
+    {
+     "t": "Yahoo News Australia, 20-nov-2026",
+     "u": "https://au.news.yahoo.com/australia-braces-for-wild-weekend-of-thunderstorms-and-scorching-46c-heat-215802923.html"
     }
    ]
   }
