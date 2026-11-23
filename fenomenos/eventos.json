@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-22",
- "desde": "2026-08-24",
+ "actualizado": "2026-11-23",
+ "desde": "2026-08-25",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
-  "ventana": "18 de agosto a 16 de noviembre",
+  "ventana": "25 de agosto a 23 de noviembre",
   "fuente": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH",
   "nota": "Alertas naranja y roja de GDACS que se superponen con la ventana de cada año. GDACS cubre ciclones e inundaciones desde antes de 2012, sequías desde 2018 con cambios de método e incendios desde 2021, así que las barras no son del todo comparables entre años. Las alertas de GDACS combinan la fuerza del fenómeno con la población expuesta y su vulnerabilidad, así que también miden impacto posible, no solo intensidad.",
   "anios": [
@@ -18,7 +18,7 @@
    {
     "a": 2013,
     "TC": 9,
-    "FL": 9,
+    "FL": 7,
     "DR": 0,
     "WF": 0,
     "rojas": 6
@@ -34,10 +34,10 @@
    {
     "a": 2015,
     "TC": 8,
-    "FL": 6,
+    "FL": 3,
     "DR": 0,
     "WF": 0,
-    "rojas": 4
+    "rojas": 3
    },
    {
     "a": 2016,
@@ -49,7 +49,7 @@
    },
    {
     "a": 2017,
-    "TC": 10,
+    "TC": 9,
     "FL": 0,
     "DR": 0,
     "WF": 0,
@@ -59,37 +59,37 @@
     "a": 2018,
     "TC": 10,
     "FL": 2,
-    "DR": 14,
+    "DR": 17,
     "WF": 0,
     "rojas": 7
    },
    {
     "a": 2019,
     "TC": 9,
-    "FL": 7,
+    "FL": 6,
     "DR": 10,
     "WF": 0,
-    "rojas": 7
+    "rojas": 6
    },
    {
     "a": 2020,
-    "TC": 13,
+    "TC": 15,
     "FL": 5,
     "DR": 5,
     "WF": 0,
-    "rojas": 9
+    "rojas": 10
    },
    {
     "a": 2021,
-    "TC": 10,
+    "TC": 9,
     "FL": 8,
     "DR": 0,
     "WF": 0,
-    "rojas": 4
+    "rojas": 3
    },
    {
     "a": 2022,
-    "TC": 14,
+    "TC": 13,
     "FL": 8,
     "DR": 1,
     "WF": 0,
@@ -97,26 +97,26 @@
    },
    {
     "a": 2023,
-    "TC": 12,
-    "FL": 6,
-    "DR": 2,
+    "TC": 11,
+    "FL": 5,
+    "DR": 3,
     "WF": 2,
     "rojas": 10
    },
    {
     "a": 2024,
-    "TC": 18,
+    "TC": 17,
     "FL": 8,
-    "DR": 1,
-    "WF": 5,
-    "rojas": 9
+    "DR": 2,
+    "WF": 4,
+    "rojas": 8
    },
    {
     "a": 2025,
     "TC": 11,
-    "FL": 10,
-    "DR": 2,
-    "WF": 4,
+    "FL": 11,
+    "DR": 3,
+    "WF": 0,
     "rojas": 8
    },
    {
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-20",
+  "hasta": "2026-11-21",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -193,7 +193,8 @@
    1104272,
    1104274,
    1104275,
-   1104277
+   1104277,
+   1104220
   ]
  },
  "eventos": [
@@ -2769,14 +2770,14 @@
     "r": 280
    },
    "muertes": 14,
-   "afectados": 57625,
-   "texto": "Más de dos meses de lluvia desbordaron ríos en la costa. Según el informe de situación 71 de la Secretaría Nacional de Gestión de Riesgos (corte del 4 de noviembre), desde el 29 de agosto hubo 12 muertos, 56.323 personas afectadas (10.450 damnificadas), 12.793 viviendas afectadas y 38 destruidas, 26 puentes dañados y 2 destruidos en 1.142 eventos. El 5 de noviembre había 30 ríos y esteros desbordados en Guayas, Manabí, Santa Elena, Los Ríos y Esmeraldas. El 31 de octubre un aguacero en la isla Santa Cruz (Galápagos) dejó dos muertos y el 1 de noviembre nuevas inundaciones afectaron 90 sectores de Guayaquil. Según el COE nacional, al 9 de noviembre las lluvias sumaban 12 muertos, 57.625 personas afectadas y más de 13.700 viviendas con daños. Las lluvias del 13 al 15 de noviembre desbordaron 16 ríos y esteros en Guayas, Los Ríos, Santa Elena y Manabí; en Milagro cayeron 172,8 mm hasta la madrugada del 14 y más del 80% de la zona urbana quedó inundada, con 283 personas albergadas. Según el informe de situación citado el 15 de noviembre, desde el 29 de agosto hubo 1.488 eventos en 24 provincias y 14 muertos.",
+   "afectados": 102187,
+   "texto": "Casi tres meses de lluvia desbordaron ríos en la costa. Según la Secretaría Nacional de Gestión de Riesgos, desde el 29 de agosto hubo 1.716 eventos en las 24 provincias (60% inundaciones y 17% deslizamientos) y 102.187 personas afectadas al 19 de noviembre; el corte del 17 contaba 14 muertos. La OPS registraba al 13 de noviembre 20.312 viviendas afectadas y 93 destruidas.",
    "danos": {
     "texto": "12.793 viviendas afectadas y 38 destruidas, 26 puentes afectados y 2 destruidos, 10.585 ha agrícolas afectadas (SNGR, corte del 4 de noviembre); pérdidas agrícolas de USD 60,8 millones según el balance difundido el 27 de octubre.",
     "usd": 60.8,
     "rango": null,
     "tipo": "prensa",
-    "fuente": 5
+    "fuente": 7
    },
    "efectos": {
     "corto": [
@@ -2794,6 +2795,14 @@
    },
    "criterio": "muertes",
    "fuentes": [
+    {
+     "t": "Infobae, 22-nov-2026",
+     "u": "https://www.infobae.com/america/america-latina/2026/11/22/ecuador-frente-a-un-nuevo-fenomeno-de-el-nino-que-cambio-desde-la-catastrofe-de-1997-y-por-que-el-pais-sigue-siendo-vulnerable/"
+    },
+    {
+     "t": "El Diario (Ecuador), 17-nov-2026",
+     "u": "https://www.eldiario.ec/ecuador/lluvias-en-ecuador-dejan-14-muertos-y-mas-de-77500-personas-perjudicadas-17112026/"
+    },
     {
      "t": "El Mercurio (Cuenca), 15-nov-2026",
      "u": "https://elmercurio.com.ec/actualidad/2026/11/15/se-elevan-a-14-los-fallecidos-producto-del-fenomeno-de-el-nino/"
@@ -4218,54 +4227,6 @@
    }
   },
   {
-   "id": "eur-014",
-   "tipo": "tornado",
-   "titulo": "Tornado en Carcasona",
-   "lugar": "Carcasona (Aude)",
-   "pais": "Francia",
-   "inicio": "2026-08-24",
-   "fin": "2026-08-24",
-   "geom": {
-    "t": "punto",
-    "c": [
-     2.35,
-     43.21
-    ]
-   },
-   "afectados": 1000,
-   "texto": "KERAUNOS lo calificó EF3. Dejó 41 heridos y 300 viviendas dañadas o destruidas; unas 1.000 personas necesitaron asistencia médica.",
-   "criterio": "afectados",
-   "fuentes": [
-    {
-     "t": "Wikipedia, tornados en Europa 2026",
-     "u": "https://en.wikipedia.org/wiki/List_of_European_tornadoes_in_2026"
-    }
-   ],
-   "impacto": null,
-   "muertes": null,
-   "evacuados": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "EF3",
-    "ref": "calificación de KERAUNOS (dato del texto existente)",
-    "fuente": null
-   }
-  },
-  {
    "id": "afr-002",
    "tipo": "sequia",
    "titulo": "Sequía agrícola en África oriental",
@@ -4827,60 +4788,6 @@
    }
   },
   {
-   "id": "sam-010",
-   "tipo": "inundacion",
-   "titulo": "Crecidas en Caracas",
-   "lugar": "La Vega y El Peñón (Caracas); Macarao (Miranda)",
-   "pais": "Venezuela",
-   "inicio": "2026-08-15",
-   "fin": "2026-08-24",
-   "origen": "gdacs",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104096,
-     "a": "verde"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     -66.93,
-     10.48
-    ]
-   },
-   "muertes": 3,
-   "texto": "GDACS registra tres muertos en Caracas y 100 personas rescatadas en Valle Abajo.",
-   "danos": {
-    "texto": "Cifras de la recopilación automática de prensa de GDACS; pueden ser parciales.",
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104096&eventtype=FL"
-    }
-   ],
-   "impacto": null,
-   "afectados": null,
-   "evacuados": null,
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
    "id": "sam-011",
    "tipo": "tornado",
    "titulo": "Tornado en San Pedro, Misiones",
@@ -5177,80 +5084,6 @@
     "medida": "",
     "ref": "",
     "fuente": null
-   }
-  },
-  {
-   "id": "asi-e-n01",
-   "tipo": "calor",
-   "titulo": "Récord nacional de calor en Corea del Sur: 42,5 °C en Yangsan",
-   "lugar": "Yangsan, Seúl, Hanam y Gwangyang",
-   "pais": "Corea del Sur",
-   "inicio": "2026-07-27",
-   "fin": "2026-08-24",
-   "geom": {
-    "t": "area",
-    "c": [
-     127.8,
-     36.3
-    ],
-    "r": 250
-   },
-   "impacto": null,
-   "muertes": 19,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "Yangsan marcó 42,5 °C el 2 de agosto, la temperatura más alta registrada en Corea del Sur desde 1904. El 7 de agosto Seúl superó los 40 °C por primera vez desde 2018 y Hanam llegó a 40,7 °C. La agencia de control de enfermedades (KDCA) contó 19 muertes por calor en el año al 4 de agosto.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "salud",
-      "t": "2.221 personas con enfermedades por calor entre el 15 de mayo y el 3 de agosto, según la KDCA."
-     },
-     {
-      "cat": "salud",
-      "t": "Seúl recibió su primera alerta de ola de calor desde que se creó esa categoría, en 2026."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "record",
-   "fuentes": [
-    {
-     "t": "The Korea Times (Yonhap), 25-ago-2026",
-     "u": "https://koreatimes.co.kr/southkorea/environment-animals/20260825/korea-records-20-heat-wave-days-this-year-double-long-term-average"
-    },
-    {
-     "t": "Jamaica Observer (AFP), 4-ago-2026",
-     "u": "https://www.jamaicaobserver.com/2026/08/04/heat-kills-19-south-korea-summer/"
-    },
-    {
-     "t": "The Star (Bernama-Yonhap), 7-ago-2026",
-     "u": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/07/temperatures-above-40-celsius-recorded-in-seoul-and-two-other-cities-in-south-korea"
-    },
-    {
-     "t": "Dhaka Tribune (DW), 4-ago-2026",
-     "u": "https://www.dhakatribune.com/world/asia/416695/south-korea-16-dead-amid-record-heat-wave"
-    },
-    {
-     "t": "Korea JoongAng Daily, 6-ago-2026",
-     "u": "https://www.koreajoongangdaily.com/korea/no-relief-even-after-dark-record-tropical-nights-add-to-koreas-heat-crisis/12810767"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 3,
-    "medida": "42,5 °C en Yangsan (2 de agosto)",
-    "ref": "récord nacional desde el inicio de las mediciones en 1904; al 24 de agosto hubo 20,1 días de ola de calor contra un promedio de 10,4",
-    "fuente": 0
    }
   },
   {
@@ -8059,54 +7892,6 @@
    }
   },
   {
-   "id": "nam-m02",
-   "tipo": "calor",
-   "titulo": "Máxima récord de 42,8 °C en Dallas-Fort Worth",
-   "lugar": "Dallas-Fort Worth, Texas",
-   "pais": "EE.UU.",
-   "inicio": "2026-08-24",
-   "fin": "2026-08-24",
-   "geom": {
-    "t": "punto",
-    "c": [
-     -97.04,
-     32.9
-    ]
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "El 24 de agosto la máxima en Dallas-Fort Worth llegó a 42,8 °C (109 °F) y superó el récord para esa fecha, de 41,7 °C (107 °F) en 2023. La mínima de 30 °C (86 °F) igualó por novena vez la mínima más alta registrada en la zona.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "record",
-   "fuentes": [
-    {
-     "t": "UPI (AccuWeather), 25 ago 2026",
-     "u": "https://www.upi.com/amp/Top_News/US/2026/08/25/texas-ross-wildfire/7381787693321/"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "42,8 °C (109 °F) de máxima; 30 °C (86 °F) de mínima",
-    "ref": "récord para el 24 de agosto (anterior: 107 °F en 2023); la mínima igualó la más alta registrada en la zona",
-    "fuente": 0
-   }
-  },
-  {
    "id": "nam-m05",
    "tipo": "incendio",
    "titulo": "Incendio Sand Creek: 14.400 ha cerca de Wisdom, Montana",
@@ -8273,68 +8058,6 @@
     "medida": "casi 100 mm en 24 h en Milán",
     "ref": "la fuente no compara con lo normal del lugar",
     "fuente": 0
-   }
-  },
-  {
-   "id": "eur-m06",
-   "tipo": "incendio",
-   "titulo": "Incendios en Macedonia del Norte: estado de crisis nacional",
-   "lugar": "Prilep, Studeničani, Kičevo, Lipkovo y Strumica",
-   "pais": "Macedonia del Norte",
-   "inicio": "2026-08-01",
-   "fin": "2026-08-24",
-   "geom": {
-    "t": "area",
-    "c": [
-     21.6,
-     41.6
-    ],
-    "r": 100
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "El Gobierno declaró a comienzos de agosto un estado de crisis de 30 días en todo el país por los incendios. El 23 de agosto seguían activos más de 15 focos, tras más de 30 en los días previos, con cientos de hectáreas quemadas y llamas cerca de viviendas en Strumica.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "salud",
-      "t": "Hubo casos de intoxicación por humo."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "emergencia",
-   "fuentes": [
-    {
-     "t": "FrontPages.EU, 1-ago-2026",
-     "u": "https://buttondown.com/frontpageseu/archive/north-macedonia-nation-declares-fire-crisis/"
-    },
-    {
-     "t": "ANSA, 24-ago-2026",
-     "u": "https://www.ansa.it/nuova_europa/en/news/sections/news/2026/08/24/balkans-north-macedonia-bosnia-and-serbia-gripped-by-wildfires_4f2e9c41-3e1d-4344-9702-c4c25df4acd0.html"
-    },
-    {
-     "t": "Current Wildfires, ago-2026",
-     "u": "https://currentwildfires.com/en/fire/wildfire-near-markov-grad-mk-2026/"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": null,
-    "medida": "unas 300 ha en el incendio de Markov Grad (Prilep), estimación satelital",
-    "ref": "por debajo de 1.000 ha; no hay total nacional publicado",
-    "fuente": 2
    }
   },
   {
@@ -11704,7 +11427,7 @@
    "lugar": "Sur de Ávila y norte de Cáceres, Canarias, costa andaluza; Madeira y centro y sur de Portugal",
    "pais": "España, Portugal",
    "inicio": "2026-11-10",
-   "fin": null,
+   "fin": "2026-11-21",
    "origen": "noticias",
    "gdacs": [],
    "geom": {
@@ -11869,7 +11592,7 @@
   {
    "id": "asi-x02",
    "tipo": "inundacion",
-   "titulo": "Inundaciones en Selangor y Perak: 1.002 evacuados",
+   "titulo": "Inundaciones en Selangor y Perak: hasta 2.151 evacuados",
    "lugar": "Kuala Selangor (Selangor) y Hilir Perak (Perak)",
    "pais": "Malasia",
    "inicio": "2026-11-04",
@@ -11887,8 +11610,8 @@
    "impacto": null,
    "muertes": null,
    "afectados": null,
-   "evacuados": 1002,
-   "texto": "Las inundaciones en el oeste de Malasia peninsular obligaron a abrir centros de evacuación desde el 4 de noviembre. El 9 de noviembre había 1.002 personas en seis centros: 583 en Kuala Selangor y 419 en Hilir Perak. Los ríos Kinta y Bidor superaron el nivel de peligro.",
+   "evacuados": 2151,
+   "texto": "Las inundaciones en el oeste de Malasia peninsular obligaron a abrir centros de evacuación desde el 4 de noviembre. El 9 de noviembre había 1.002 personas en seis centros: 583 en Kuala Selangor y 419 en Hilir Perak. Los ríos Kinta y Bidor superaron el nivel de peligro. Una nueva subida llevó a 2.151 personas a los centros de evacuación el 22 de noviembre; el 23 a la mañana quedaban 1.594 en Selangor y 382 en Perak.",
    "intensidad": {
     "nivel": 1,
     "medida": "río Kinta en Tanjung Tualang a 12,52 m, sobre el nivel de peligro",
@@ -11925,6 +11648,14 @@
     {
      "t": "Malay Mail, 4-nov-2026",
      "u": "https://www.malaymail.com/amp/news/malaysia/2026/11/04/sungai-buloh-floods-leave-306-people-at-three-evacuation-centres/241988"
+    },
+    {
+     "t": "Berita Harian, 22-nov-2026",
+     "u": "https://www.bharian.com.my/berita/nasional/2026/11/1725122/banjir-2151-masih-di-pps-jumlah-mangsa-di-selangor-perak-menurun"
+    },
+    {
+     "t": "Bernama, 23-nov-2026",
+     "u": "https://www.bernama.com/bm/am/news.php?id=2637995"
     }
    ]
   },
@@ -12270,8 +12001,8 @@
    ],
    "muertes": null,
    "afectados": null,
-   "evacuados": 300000,
-   "texto": "Se formó el 16 de noviembre en el sudeste del golfo de Bengala. Tocó tierra cerca de Gopalpur, entre el norte de Andhra Pradesh y el sur de Odisha, en la madrugada del 20 de noviembre, más al norte y con menos fuerza de lo previsto: vientos sostenidos de 70 a 80 km/h y ráfagas de 90 km/h, y luego se debilitó a depresión profunda. Odisha evacuó a más de 300.000 personas; Ichchapuram (Andhra Pradesh) registró 168,75 mm.",
+   "evacuados": 372000,
+   "texto": "Se formó el 16 de noviembre en el sudeste del golfo de Bengala. Tocó tierra cerca de Gopalpur, entre el norte de Andhra Pradesh y el sur de Odisha, en la madrugada del 20 de noviembre, más al norte y con menos fuerza de lo previsto: vientos sostenidos de 70 a 80 km/h y ráfagas de 90 km/h, y luego se debilitó a depresión profunda. Odisha evacuó a unas 372.000 personas y no informó muertos; Patrapur registró 209 mm en 24 horas e Ichchapuram (Andhra Pradesh) registró 168,75 mm.",
    "intensidad": {
     "nivel": 1,
     "medida": "Tormenta tropical, vientos máximos de 93 km/h",
@@ -12324,6 +12055,10 @@
     {
      "t": "Vajiram & Ravi (IMD), nov-2026",
      "u": "https://vajiramias.com/upsc/cyclone-akvan-2026/"
+    },
+    {
+     "t": "ETV Bharat, 20-nov-2026",
+     "u": "https://www.etvbharat.com/en/bharat/cyclone-akvan-makes-landfall-near-gopalpur-over-3-lakh-people-evacuated-in-odisha-enn26112002910"
     }
    ]
   },
@@ -12334,7 +12069,7 @@
    "lugar": "Norte de las Islas Cook (Manihiki y Rakahanga)",
    "pais": "Islas Cook",
    "inicio": "2026-11-15",
-   "fin": null,
+   "fin": "2026-11-20",
    "origen": "noticias",
    "gdacs": [],
    "geom": {
@@ -12349,24 +12084,20 @@
       -8.3
      ],
      [
-      -162.6,
-      -8.9
+      -163.2,
+      -9
      ],
      [
       -163.8,
-      -9.3
+      -9.6
      ],
      [
-      -164,
-      -10.2
+      -163.8,
+      -10.3
      ],
      [
-      -163.5,
-      -10.4
-     ],
-     [
-      -162.8,
-      -10.7
+      -163,
+      -10.6
      ],
      [
       -163.5,
@@ -12377,8 +12108,12 @@
       -11.6
      ],
      [
-      -166.8,
-      -11.9
+      -167.6,
+      -11.6
+     ],
+     [
+      -168.8,
+      -11.8
      ]
     ],
     "src": "eonet"
@@ -12387,7 +12122,7 @@
    "muertes": null,
    "afectados": null,
    "evacuados": null,
-   "texto": "Se formó el 15 de noviembre al norte de las Islas Cook y se intensificó rápido: pasó de 35 nudos el 15 a 130 nudos (unos 241 km/h) el 17 según NASA EONET, y la prensa local informó que llegó a categoría 5. El 19 se debilitaba lentamente como categoría 4 entre Manihiki y Pukapuka, rumbo al sur. En Manihiki se dañaron el muelle y zonas costeras; las viviendas parecían haber escapado de lo peor y no se informaron víctimas.",
+   "texto": "Se formó el 15 de noviembre al norte de las Islas Cook y se intensificó rápido: pasó de 35 nudos el 15 a 130 nudos (unos 241 km/h) el 17 según NASA EONET, y la prensa local informó que llegó a categoría 5. El 19 se debilitaba lentamente como categoría 4 entre Manihiki y Pukapuka, rumbo al sur. En Manihiki se dañaron el muelle y zonas costeras; las viviendas parecían haber escapado de lo peor y no se informaron víctimas. Fiji Met informó ráfagas de hasta 315 km/h; en Nassau rigió el estado de emergencia y sus 84 vecinos quedaron a salvo. Después se alejó de las islas hacia el oeste-sudoeste.",
    "intensidad": {
     "nivel": 2,
     "medida": "Vientos máximos de 241 km/h (130 nudos) el 17 de noviembre",
@@ -12424,6 +12159,10 @@
     {
      "t": "1News, 19-nov-2026",
      "u": "https://www.1news.co.nz/2026/11/19/cyclone-xavier-slowly-weakens-as-it-tracks-through-cook-islands/"
+    },
+    {
+     "t": "RNZ, nov-2026",
+     "u": "https://www.rnz.co.nz/news/pacific/2648447/category-5-cyclone-xavier-batters-northern-cook-islands-with-gusts-up-to-315km-h"
     }
    ]
   },
@@ -12488,7 +12227,7 @@
    "lugar": "Hollywood, Fort Lauderdale y Dania Beach (Broward), Miami-Dade y condado de Brevard, Florida",
    "pais": "EE.UU.",
    "inicio": "2026-11-17",
-   "fin": null,
+   "fin": "2026-11-20",
    "origen": "noticias",
    "gdacs": [],
    "geom": {
@@ -12503,7 +12242,7 @@
    "muertes": null,
    "afectados": null,
    "evacuados": null,
-   "texto": "Entre el 17 y el 19 de noviembre cayeron más de 15 pulgadas (unos 390 mm) en 72 horas en Plantation, Hollywood y Sunrise, y hasta 16 pulgadas en un barrio de Hollywood. Hubo decenas de rescates en Fort Lauderdale, más de 90 personas evacuadas o rescatadas de un complejo de departamentos en Hollywood y casi 100 rescates en Brevard, donde el río St. Johns superó cerca de Cocoa su récord de crecida de 1953. Hollywood, Fort Lauderdale y el condado de Broward declararon la emergencia; no se informaron muertes.",
+   "texto": "Entre el 17 y el 19 de noviembre cayeron más de 15 pulgadas (unos 390 mm) en 72 horas en Plantation, Hollywood y Sunrise, y hasta 16 pulgadas en un barrio de Hollywood. Hubo decenas de rescates en Fort Lauderdale, más de 90 personas evacuadas o rescatadas de un complejo de departamentos en Hollywood y casi 100 rescates en Brevard, donde el río St. Johns superó cerca de Cocoa su récord de crecida de 1953. Hollywood, Fort Lauderdale y el condado de Broward declararon la emergencia; no se informaron muertes. El 19 de noviembre el St. Johns en Cocoa llegó a unos 18,2 pies, sobre el récord de 17,55 pies de 1953, y podría seguir desbordado hasta diciembre.",
    "intensidad": {
     "nivel": 3,
     "medida": "más de 15 pulgadas (unos 390 mm) en 72 horas; St. Johns sobre su récord de 1953 cerca de Cocoa",
@@ -12536,6 +12275,10 @@
     {
      "t": "CBS News Miami, 19 nov",
      "u": "https://www.cbsnews.com/miami/live-updates/south-florida-flooding-live-updates-heavy-rain-broward-miami-dade/"
+    },
+    {
+     "t": "Bay News 9, 19-nov-2026",
+     "u": "https://baynews9.com/fl/tampa/news/2026/11/19/st-johns-river-in-cocoa-rises-above-record-level"
     }
    ]
   },
@@ -12716,6 +12459,238 @@
     {
      "t": "Yahoo News Australia, 20-nov-2026",
      "u": "https://au.news.yahoo.com/australia-braces-for-wild-weekend-of-thunderstorms-and-scorching-46c-heat-215802923.html"
+    }
+   ]
+  },
+  {
+   "id": "sam-ad1",
+   "tipo": "viento",
+   "titulo": "Temporal en Tupanciretã: cinco muertos y 265 heridos",
+   "lugar": "Tupanciretã y otros 41 municipios de Rio Grande do Sul",
+   "pais": "Brasil",
+   "inicio": "2026-11-20",
+   "fin": "2026-11-20",
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     -53.84,
+     -29.08
+    ],
+    "r": 120
+   },
+   "impacto": null,
+   "muertes": 5,
+   "afectados": 20000,
+   "evacuados": 20000,
+   "texto": "Un temporal con viento fuerte, lluvia intensa y granizo golpeó Tupanciretã en la madrugada del 20 de noviembre: cinco muertos, 265 heridos y más de 20.000 personas afectadas, unas 20.000 desalojadas y 40 sin techo. La Defensa Civil registra daños en otros 41 municipios y el gobierno federal reconoció el estado de calamidad.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "Vendaval con granizo; sin dato de ráfagas publicado",
+    "ref": "Defensa Civil de Rio Grande do Sul",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Viviendas destechadas y daños en la ciudad de Tupanciretã."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "vivienda",
+      "t": "Unas 20.000 personas desalojadas y 40 sin techo."
+     },
+     {
+      "cat": "salud",
+      "t": "265 heridos atendidos."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "Agência Brasil, 22-nov-2026",
+     "u": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/meio-ambiente/audio/2026-11/rs-numero-de-mortos-por-causa-de-temporal-sobe-para-cinco"
+    }
+   ]
+  },
+  {
+   "id": "oce-ad1",
+   "tipo": "sequia",
+   "titulo": "Fiyi declara el estado de desastre por sequía",
+   "lugar": "Todo el país, sobre todo zonas remotas y marítimas",
+   "pais": "Fiyi",
+   "inicio": "2026-11-18",
+   "fin": null,
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     178.0,
+     -17.8
+    ],
+    "r": 300
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "El gabinete de Fiyi aprobó el 18 de noviembre un estado de desastre nacional por sequía, por hasta 30 días prorrogables, para intensificar la respuesta. Las comunidades de zonas remotas y marítimas tienen cada vez menos agua, y el Servicio Meteorológico de Fiyi prevé lluvias por debajo de lo normal hasta comienzos de 2027.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "Sin dato de lluvia publicado",
+    "ref": "Servicio Meteorológico de Fiyi",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Presión sobre el abastecimiento de agua en comunidades remotas."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "servicios",
+      "t": "Falta de agua en comunidades remotas y de las islas."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "emergencia",
+   "fuentes": [
+    {
+     "t": "1News, 18-nov-2026",
+     "u": "https://www.1news.co.nz/2026/11/18/fiji-declares-nationwide-state-of-disaster-as-el-nino-drought-worsens/"
+    },
+    {
+     "t": "The Star, 19-nov-2026",
+     "u": "https://www.thestar.com.my/news/world/2026/11/19/fiji-declares-state-of-disaster-amid-el-nino-driven-drought"
+    }
+   ]
+  },
+  {
+   "id": "eur-ad1",
+   "tipo": "lluvia",
+   "titulo": "Lluvias y deslizamientos en el norte de Toscana",
+   "lugar": "Massa-Carrara, Lucca y Alpes Apuanos, Toscana",
+   "pais": "Italia",
+   "inicio": "2026-11-09",
+   "fin": "2026-11-17",
+   "origen": "ambos",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104220,
+     "a": "verde"
+    }
+   ],
+   "geom": {
+    "t": "area",
+    "c": [
+     10.2,
+     44.0
+    ],
+    "r": 80
+   },
+   "impacto": null,
+   "muertes": 0,
+   "afectados": 1500,
+   "evacuados": null,
+   "texto": "Entre el 9 y el 17 de noviembre cayeron 831 mm en Fornovolasco, tanto como un año entero de lluvia en Florencia, y 276 mm en un solo día en Orto di Donna. Hubo muchos deslizamientos, más de 1.500 vecinos aislados en Massa y alerta roja en Carrara el 12; no hubo muertos. GDACS también registra evacuaciones en Latina y rescates en Lipari y Nápoles.",
+   "intensidad": {
+    "nivel": 2,
+    "medida": "831 mm en nueve días en Fornovolasco; 276 mm en un día",
+    "ref": "Igual a la lluvia de un año en Florencia (consorcio LaMMA)",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Deslizamientos y caminos cortados en los Alpes Apuanos."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "transporte",
+      "t": "Caminos cortados por deslizamientos; más de 1.500 vecinos aislados en Massa."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "afectados",
+   "fuentes": [
+    {
+     "t": "La Nazione, 18-nov-2026",
+     "u": "https://www.lanazione.it/cronaca/dati-maltempo-toscana-ye0wn0ec"
+    },
+    {
+     "t": "CNR-IRPI, 15-nov-2026",
+     "u": "https://polaris.irpi.cnr.it/10-13-novembre-2026-frane-e-inondazioni-in-toscana-settentrionale/"
+    },
+    {
+     "t": "GDACS, FL 1104220",
+     "u": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104220"
+    }
+   ]
+  },
+  {
+   "id": "eur-ad2",
+   "tipo": "calor",
+   "titulo": "Récord de calor tardío en Murcia: 32,2 °C",
+   "lugar": "Murcia",
+   "pais": "España",
+   "inicio": "2026-11-18",
+   "fin": "2026-11-18",
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "punto",
+    "c": [
+     -1.13,
+     37.98
+    ]
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "Murcia llegó a 32,2 °C el 18 de noviembre: según AEMET, es la fecha más tardía del año en que la España peninsular alcanzó los 32 °C, y supera el récord de noviembre de 31,0 °C de 2013.",
+   "intensidad": {
+    "nivel": 3,
+    "medida": "32,2 °C el 18 de noviembre",
+    "ref": "Récord de noviembre en la España peninsular (31,0 °C en 2013), según AEMET",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Sin daños informados."
+   },
+   "efectos": {
+    "corto": [],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "record",
+   "fuentes": [
+    {
+     "t": "The Olive Press, 19-nov-2026",
+     "u": "https://www.theolivepress.es/spain-news/2026/11/19/spain-november-heat-record/"
     }
    ]
   }
