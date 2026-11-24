@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-23",
- "desde": "2026-08-25",
+ "actualizado": "2026-11-24",
+ "desde": "2026-08-26",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "25 de agosto a 23 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-21",
+  "hasta": "2026-11-22",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -400,81 +400,6 @@
     "nivel": 1,
     "medida": "vientos máximos sostenidos de 74 km/h (tormenta tropical)",
     "ref": "pico de la tormenta según NASA EONET; escala Saffir-Simpson",
-    "fuente": null
-   }
-  },
-  {
-   "id": "pac-005",
-   "tipo": "ciclon",
-   "titulo": "Tormenta Gaenari: 910 mm en Kaohsiung",
-   "lugar": "Sur de Taiwán y Quanzhou (Fujian)",
-   "pais": "Taiwán, China",
-   "inicio": "2026-08-18",
-   "fin": "2026-08-25",
-   "geom": {
-    "t": "trayectoria",
-    "pts": [
-     [
-      124.5,
-      15
-     ],
-     [
-      122,
-      18
-     ],
-     [
-      120.8,
-      21
-     ],
-     [
-      120.2,
-      22.8
-     ],
-     [
-      118.6,
-      24.9
-     ]
-    ],
-    "src": "aprox"
-   },
-   "impacto": [
-    120.3,
-    22.6
-   ],
-   "muertes": 1,
-   "evacuados": 6100,
-   "texto": "Kaohsiung acumuló unos 910 mm en tres días. Hubo un muerto y cuatro desaparecidos en Kaohsiung y Tainan, 164 heridos y más de 6.100 evacuados. Tocó tierra en Quanzhou el 24 de agosto.",
-   "efectos": {
-    "corto": [
-     {
-      "cat": "servicios",
-      "t": "21.071 clientes sin luz en Taiwán."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "Wikipedia, temporada de tifones 2026",
-     "u": "https://en.wikipedia.org/wiki/2026_Pacific_typhoon_season"
-    }
-   ],
-   "afectados": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 1,
-    "medida": "tormenta tropical; 910 mm en tres días en Kaohsiung",
-    "ref": "sin comparación publicada con lo normal",
     "fuente": null
    }
   },
@@ -4168,65 +4093,6 @@
    }
   },
   {
-   "id": "eur-013",
-   "tipo": "incendio",
-   "titulo": "Incendios en Serbia",
-   "lugar": "Arenas de Deliblato y Bela Crkva",
-   "pais": "Serbia",
-   "inicio": "2026-08-05",
-   "fin": "2026-08-25",
-   "origen": "ambos",
-   "gdacs": [
-    {
-     "t": "WF",
-     "id": 1030252,
-     "a": "naranja"
-    }
-   ],
-   "geom": {
-    "t": "area",
-    "c": [
-     21.2,
-     44.9
-    ],
-    "r": 60
-   },
-   "texto": "Copernicus midió unas 13.920 ha quemadas al 26 de agosto (GDACS: 18.310 ha). Serbia pidió ayuda a la UE el 21 de agosto; llegaron cuatro helicópteros rescEU y un equipo terrestre de Rumania, con apoyo extendido hasta el 5 de septiembre.",
-   "criterio": "alerta_gdacs",
-   "fuentes": [
-    {
-     "t": "Delegación de la UE en Serbia, 28 ago",
-     "u": "https://europa.rs/eu-further-extends-support-to-serbia-as-wildfires-intensify/?lang=en"
-    },
-    {
-     "t": "GDACS, alerta naranja",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1030252&eventtype=WF"
-    }
-   ],
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "intensidad": {
-    "nivel": 2,
-    "medida": "13.920 ha (Copernicus); 18.310 ha (GDACS)",
-    "ref": "rango 10.000-49.999 ha (dato del texto existente)",
-    "fuente": null
-   }
-  },
-  {
    "id": "afr-002",
    "tipo": "sequia",
    "titulo": "Sequía agrícola en África oriental",
@@ -5509,63 +5375,6 @@
    }
   },
   {
-   "id": "nam-n06",
-   "tipo": "incendio",
-   "titulo": "Grandes complejos de incendios en el centro-norte de Oregón",
-   "lugar": "Condados de Jefferson, Wasco, Hood River y Clackamas, Oregón",
-   "pais": "EE.UU.",
-   "inicio": "2026-08-03",
-   "fin": "2026-08-25",
-   "geom": {
-    "t": "area",
-    "c": [
-     -121.4,
-     45.0
-    ],
-    "r": 90
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": 1900,
-   "texto": "A comienzos de agosto ardían 30 grandes incendios sin contener en Oregón, que llevaba más de 1,7 millones de acres (688.000 ha) quemados en el año, cerca del récord de 1,93 millones de 2024. El Rowe Creek Complex alcanzó 364.413 acres (147.500 ha), con unas 1.900 personas bajo orden de evacuación. El incendio Grasshopper superó los 49.000 acres (19.800 ha), con partes del condado de Clackamas bajo orden de evacuación.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "afectados",
-   "fuentes": [
-    {
-     "t": "OPB, 7 ago 2026",
-     "u": "https://opb.org/article/2026/08/07/wildfires-oregon-red-flag-air-quality"
-    },
-    {
-     "t": "Good Morning America (ABC News), 3 ago 2026",
-     "u": "https://www.goodmorningamerica.com/news/story/dangerous-heat-millions-west-critical-wildfire-alerts-pacific-135291675"
-    },
-    {
-     "t": "KPTV, 15 ago 2026",
-     "u": "https://kptv.com/2026/08/15/wildfire-updates-austin-fire-grows-over-2000-acres-crosses-clackamas-river"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 3,
-    "medida": "147.473 ha (Rowe Creek Complex, 364.413 acres)",
-    "ref": "≥50.000 ha; el estado sumaba unas 688.000 ha frente al récord de 781.000 ha (1,93 millones de acres) de 2024",
-    "fuente": 0
-   }
-  },
-  {
    "id": "nam-n09",
    "tipo": "incendio",
    "titulo": "Incendio Norte: 16.000 evacuados en San Clemente",
@@ -6808,63 +6617,6 @@
     "nivel": 3,
     "medida": "+2,52 °C en la temperatura mínima media nacional",
     "ref": "récord nacional de septiembre (anterior: +2,51 °C en 2020; base 1961-1990, serie desde 1910)",
-    "fuente": 0
-   }
-  },
-  {
-   "id": "oce-n06",
-   "tipo": "lluvia",
-   "titulo": "Lluvias récord de agosto en Australia Meridional",
-   "lugar": "Cordillera de Flinders, Mid North, Adelaida y península de Fleurieu",
-   "pais": "Australia",
-   "inicio": "2026-08-07",
-   "fin": "2026-08-25",
-   "geom": {
-    "t": "area",
-    "c": [
-     138.4,
-     -33.8
-    ],
-    "r": 300
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "Decenas de estaciones de Australia Meridional batieron su récord de lluvia diaria de agosto, sobre todo el 10 y el 25: Wilmington registró 90,4 mm (récord previo 50,0 mm, de 1985) y Mount Compass 78,6 mm. Hubo inundaciones repentinas en partes de Adelaida y daños a propiedades. Fue el agosto más lluvioso del estado desde 1992.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Daños a propiedades e inundaciones repentinas y de ríos en el sur del estado; sin cifras publicadas."
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "record",
-   "fuentes": [
-    {
-     "t": "Bureau of Meteorology, resumen de Australia Meridional, agosto 2026 (1-sep-2026)",
-     "u": "https://www.bom.gov.au/climate/current/month/sa/archive/202608.summary.shtml"
-    },
-    {
-     "t": "Bureau of Meteorology, resumen mensual de agosto 2026 (sep-2026)",
-     "u": "https://www.bom.gov.au/clim_data/IDCKGC1AR0/202608.summary.shtml"
-    },
-    {
-     "t": "Elders Weather / Weatherzone, 10-ago-2026",
-     "u": "https://eldersweather.com.au/news/flood-warnings-after-heavy-se-australia-rain-record-august-totals-in-parts-of-vic/1891498"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "90,4 mm en 24 h en Wilmington (10-ago); el estado, 115% sobre lo normal en agosto",
-    "ref": "récords diarios de agosto en decenas de estaciones (Quorn, serie desde 1886); cuarto agosto más lluvioso desde 1900",
     "fuente": 0
    }
   },
@@ -8647,60 +8399,6 @@
    }
   },
   {
-   "id": "eur-g02",
-   "tipo": "inundacion",
-   "titulo": "Inundaciones en Manzanedo de Valdueza",
-   "lugar": "Manzanedo de Valdueza; Cambil; Calasparra",
-   "pais": "España",
-   "inicio": "2026-08-06",
-   "fin": "2026-08-25",
-   "origen": "gdacs",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104080,
-     "a": "verde"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     -6.52,
-     42.46
-    ]
-   },
-   "muertes": 2,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "GDACS registra 2 muertos en Manzanedo de Valdueza.",
-   "criterio": "muertes",
-   "impacto": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Cifras de la recopilación automática de prensa de GDACS; pueden ser parciales."
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "fuentes": [
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104080&eventtype=FL"
-    }
-   ],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
    "id": "eur-g03",
    "tipo": "inundacion",
    "titulo": "Inundaciones en Sixt-Fer-à-Cheval",
@@ -9784,7 +9482,7 @@
    "lugar": "Nippes, Sur y Grand'Anse",
    "pais": "Haití",
    "inicio": "2026-10-25",
-   "fin": null,
+   "fin": "2026-10-27",
    "origen": "noticias",
    "gdacs": [],
    "geom": {
@@ -10722,7 +10420,7 @@
    "lugar": "Sonora (Guaymas, Cajeme, Hermosillo), Baja California, Baja California Sur y Coahuila",
    "pais": "México",
    "inicio": "2026-10-30",
-   "fin": null,
+   "fin": "2026-11-01",
    "origen": "noticias",
    "gdacs": [],
    "geom": {
@@ -12192,7 +11890,7 @@
    "intensidad": {
     "nivel": 1,
     "medida": "58 mm en un día en el centro de San Francisco",
-    "ref": "récord diario para el 18 de noviembre desde 1918",
+    "ref": "récord diario para el 18 de noviembre; el anterior era de 57 mm (2,24 pulgadas) en 1918",
     "fuente": 0
    },
    "danos": {
@@ -12217,6 +11915,10 @@
     {
      "t": "San Francisco Chronicle, 18 nov",
      "u": "https://www.sfchronicle.com/weather/article/live-storm-updates-22536019.php"
+    },
+    {
+     "t": "NBC Bay Area, 18-nov-2026",
+     "u": "https://www.nbcbayarea.com/news/local/downtown-san-francisco-sets-new-daily-rainfall-record/4178295/"
     }
    ]
   },
@@ -12542,7 +12244,7 @@
    "muertes": null,
    "afectados": null,
    "evacuados": null,
-   "texto": "El gabinete de Fiyi aprobó el 18 de noviembre un estado de desastre nacional por sequía, por hasta 30 días prorrogables, para intensificar la respuesta. Las comunidades de zonas remotas y marítimas tienen cada vez menos agua, y el Servicio Meteorológico de Fiyi prevé lluvias por debajo de lo normal hasta comienzos de 2027.",
+   "texto": "El gabinete de Fiyi aprobó el 18 de noviembre un estado de desastre nacional por sequía, por hasta 30 días prorrogables, para intensificar la respuesta. Las comunidades de zonas remotas y marítimas tienen cada vez menos agua, y el Servicio Meteorológico de Fiyi prevé lluvias por debajo de lo normal hasta comienzos de 2027. El gobierno reasignó 20 millones de dólares fiyianos (unos USD 8,5 millones) para la respuesta.",
    "intensidad": {
     "nivel": null,
     "medida": "Sin dato de lluvia publicado",
@@ -12691,6 +12393,109 @@
     {
      "t": "The Olive Press, 19-nov-2026",
      "u": "https://www.theolivepress.es/spain-news/2026/11/19/spain-november-heat-record/"
+    }
+   ]
+  },
+  {
+   "id": "asi-ae1",
+   "tipo": "inundacion",
+   "titulo": "Inundaciones en Phatthalung",
+   "lugar": "Khuan Khanun y otros distritos de Phatthalung",
+   "pais": "Tailandia",
+   "inicio": "2026-11-22",
+   "fin": null,
+   "origen": "gdacs",
+   "gdacs": [
+    {
+     "t": "FL",
+     "id": 1104297,
+     "a": "verde"
+    }
+   ],
+   "geom": {
+    "t": "punto",
+    "c": [
+     100.0,
+     7.73
+    ]
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": 4614,
+   "evacuados": null,
+   "texto": "GDACS registra 4.614 personas afectadas en la provincia de Phatthalung, 50 hogares afectados y edificios dañados en Khuan Khanun.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "",
+    "ref": "",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Edificios dañados en Khuan Khanun, sin cifra. Cifras de la recopilación automática de prensa de GDACS; pueden ser parciales."
+   },
+   "efectos": {
+    "corto": [],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "afectados",
+   "fuentes": [
+    {
+     "t": "GDACS, alerta verde",
+     "u": "https://www.gdacs.org/report.aspx?eventid=1104297&eventtype=FL"
+    }
+   ]
+  },
+  {
+   "id": "nam-ae1",
+   "tipo": "calor",
+   "titulo": "Calor récord de noviembre en el noreste de Wisconsin",
+   "lugar": "Green Bay, Appleton, Oshkosh y Antigo, Wisconsin",
+   "pais": "EE.UU.",
+   "inicio": "2026-11-20",
+   "fin": "2026-11-21",
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     -88.4,
+     44.4
+    ],
+    "r": 120
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "El viernes 20 y el sábado 21 de noviembre se batieron o igualaron varios récords diarios de temperatura en el noreste de Wisconsin, según los informes del Servicio Meteorológico Nacional. Green Bay llegó a 19,4 °C (67 °F) el sábado y superó una marca de 1913; esa noche la mínima no bajó de 13,3 °C (56 °F), también récord.",
+   "intensidad": {
+    "nivel": 2,
+    "medida": "19,4 °C (67 °F) en Green Bay y Appleton el 21 de noviembre",
+    "ref": "récords diarios locales; los anteriores eran de 1913",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Sin daños informados."
+   },
+   "efectos": {
+    "corto": [],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "record",
+   "fuentes": [
+    {
+     "t": "WFRV Local 5 (vía Yahoo News), 22-nov-2026",
+     "u": "https://www.yahoo.com/news/weather-news/articles/northeast-wisconsin-sees-record-breaking-183356964.html"
     }
    ]
   }

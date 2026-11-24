@@ -1,30 +1,30 @@
 {
  "meta": {
   "titulo": "Súper Niño 2026-27 en Argentina",
-  "actualizado": "2026-11-23",
-  "actualizado_texto": "23 de noviembre de 2026",
+  "actualizado": "2026-11-24",
+  "actualizado_texto": "24 de noviembre de 2026",
   "proxima": "Se actualiza todos los días por la mañana.",
   "autor": "Franco Martín López",
-  "version": 43,
+  "version": 44,
   "cambios": [
-   "Rosario llegó a 4,91 m, a 9 cm de la alerta (mayor altura de noviembre desde 1998); siguen sobre la evacuación Santa Fe (5,81 m), Paraná (5,63 m), Reconquista (5,38 m) y Victoria (5,24 m, en suba). Alturas del 23 tomadas de Prefectura vía RíoAlert porque la página de Prefectura no respondió.",
-   "Se sumaron el despliegue del Ejército y la Armada (Infodefensa), el cierre del último centro de evacuados de Corrientes capital y el tercer centro de asistencia en Santa Fe; desplazados sin cambios (~4.610).",
-   "SMN lunes 23: amarilla por tormentas en Córdoba, San Luis, La Rioja, Mendoza y Salta y por viento en Chubut y Santa Cruz. BCR (19 nov): 90.000 ha con granizo. Boletín Epidemiológico N° 834: 8 casos de dengue confirmados, todos importados.",
-   "Sin dato nuevo de Niño-3.4: OISST de NOAA llega hasta el 18 nov y el servidor de PSL respondió con error; NOAA no publicó todavía la semana del 18. ENFEN sin comunicado nuevo (sigue el N° 20-2026). Se sumó el boletín de noviembre del CIIFEN."
+   "Rosario llegó a 4,99 m, a 1 cm de la alerta; Victoria sube (5,30 m) y siguen sobre la evacuación Santa Fe (5,80 m), Paraná (5,59 m), Reconquista (5,31 m, a 1 cm del umbral) y Victoria. En el norte sigue la bajante (Corrientes 5,63 m, Barranqueras 5,54 m). Alturas del 24 de Prefectura vía RíoAlert.",
+   "SMN martes 24: alerta naranja por tormentas en Chaco, Formosa, Corrientes y Misiones (ráfagas de 90 km/h, granizo, 70 a 100 mm) y amarilla en otras nueve provincias más viento en la Patagonia. Desplazados sin cambios (~4.610).",
+   "NOAA publicó la semana del 18 de noviembre: Niño-3.4 +3,3 °C (sube una décima) y Niño 1+2 +5,7 °C, nuevo máximo semanal del evento. OISST diario sigue sin datos después del 18 (PSL respondió con error y NCEI llega al 18). El boletín de NOAA del 23 da +2,4 °C en la escala relativa; ENFEN sin comunicado nuevo (el próximo, el 30 de noviembre).",
+   "Misiones: pérdidas de cerca del 80% en sandía por exceso de agua, granizo y noches frías (Infobae, 23 nov)."
   ]
  },
  "alerta": {
   "nivel": "rojo",
-  "titular": "Rosario queda a 9 cm de la alerta con su mayor altura de noviembre desde 1998, mientras el Paraná baja en Santa Fe pero sigue sobre la evacuación en cuatro puertos",
-  "bajada": "Este lunes 23 de noviembre **el Paraná marcó 4,91 m en Rosario, a 9 cm de la alerta (5,00 m)** y la mayor altura para un noviembre desde 1998; el INA prevé que pase la evacuación (5,29 m) hacia el 1 de diciembre. Más arriba el río baja, pero **siguen sobre la evacuación Santa Fe (5,81 m), Paraná (5,63 m), Reconquista (5,38 m) y Victoria (5,24 m, en suba)**. La Paz (6,10 m) y Goya (5,54 m) siguen debajo de la evacuación, y en el norte continúa la bajante (Corrientes 5,68 m, Barranqueras 5,62 m), aunque **el INA anticipa un repunte desde el 26 y la alerta en Corrientes hacia el 1 de diciembre**. En el **río Uruguay llega una onda nueva desde el martes 24**: Paso de los Libres ya sube (5,13 m). Hay unos **4.610 desplazados** (Chaco 2.026, Corrientes 2.005, Santa Fe unos 425 y Entre Ríos unos 158), con **298 evacuados en la capital santafesina**, y **cuatro muertes**; el Ejército y la Armada sumaron un vehículo anfibio, un puente en Goya y buques sanitarios en el Chaco. Hoy rige **alerta amarilla por tormentas con granizo en Córdoba, San Luis, La Rioja, Mendoza y Salta** y por viento en Chubut y Santa Cruz, sin alertas naranjas. **No hay emergencia nacional declarada.**"
+  "titular": "Rosario queda a 1 cm de la alerta y rige alerta naranja por tormentas en el NEA, con cuatro puertos del Paraná todavía sobre la evacuación",
+  "bajada": "Este martes 24 de noviembre **el Paraná marcó 4,99 m en Rosario, a 1 cm de la alerta (5,00 m)**, y sigue subiendo; el INA prevé que supere la evacuación (5,25 m) hacia el 1 de diciembre. **Siguen sobre la evacuación Santa Fe (5,80 m), Paraná (5,59 m), Victoria (5,30 m, en suba) y Reconquista (5,31 m, apenas 1 cm sobre el umbral)**; La Paz (6,06 m) y Goya (5,47 m) siguen en alerta. En el norte continúa la bajante (Corrientes 5,63 m, Barranqueras 5,54 m), aunque el INA anticipa un repunte desde el 26. Hay unos **4.610 desplazados** (Chaco 2.026, Corrientes 2.005, Santa Fe unos 425 y Entre Ríos unos 158), con **298 evacuados en la capital santafesina**, y **cuatro muertes**. Hoy rige **alerta naranja por tormentas fuertes en Chaco, Formosa, Corrientes y Misiones**, con ráfagas de hasta 90 km/h, granizo y 70 a 100 mm, justo sobre la cuenca en crecida; hay amarilla por tormentas en otras nueve provincias y por viento en la Patagonia. **No hay emergencia nacional declarada.**"
  },
  "kpis": [
   {
    "id": "nino",
    "label": "Niño-3.4 semanal",
-   "valor": "+3,2",
+   "valor": "+3,3",
    "unidad": "°C",
-   "detalle": "Semana centrada el 11 de noviembre (último dato de NOAA; la semana del 18 todavía no se publicó el 23): una décima menos que la semana anterior y **nueve semanas seguidas sobre +3 °C**; Niño-1+2, frente a Perú y Ecuador, +5,4 °C. **NOAA (12 nov): El Niño se sigue fortaleciendo** y da **~60% de chances de un evento histórico** (RONI de +2,5 °C o más) en octubre-diciembre y noviembre-enero. El dato diario llegó a **+3,65 °C el 26 de octubre**, el más alto desde 1982 (cálculo propio con OISST); el 18 de noviembre marcó +3,56 °C. Trimestre agosto-octubre: ONI +2,46 °C y RONI +1,97 °C",
+   "detalle": "Semana centrada el 18 de noviembre (NOAA, publicada el 23): **una décima más que la semana anterior** y **diez semanas seguidas sobre +3 °C**; Niño-1+2, frente a Perú y Ecuador, **+5,7 °C, el máximo semanal del evento**. **NOAA (12 nov): El Niño se sigue fortaleciendo** y da **~60% de chances de un evento histórico** (RONI de +2,5 °C o más) en octubre-diciembre y noviembre-enero. El dato diario llegó a **+3,65 °C el 26 de octubre**, el más alto desde 1982 (cálculo propio con OISST); el 18 de noviembre marcó +3,56 °C. Trimestre agosto-octubre: ONI +2,46 °C y RONI +1,97 °C",
    "tono": "critico",
    "fuente": "[NOAA CPC, discusión del 12 nov](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml) · [NOAA CPC, datos semanales](https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for) · [NOAA CPC, ONI](https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt)"
   },
@@ -51,9 +51,9 @@
    "label": "Puertos sobre evacuación",
    "valor": "4",
    "unidad": "",
-   "detalle": "Santa Fe (5,81 m, en baja), Paraná (5,63 m), Reconquista (5,38 m, 8 cm sobre la evacuación) y **Victoria (5,24 m, en suba**, 34 cm sobre la referencia de 4,90 m que usa Entre Ríos) siguen sobre la evacuación. La Paz (6,10 m) y Goya (5,54 m) siguen afuera. **Rosario (4,91 m) está a 9 cm de la alerta**, su mayor altura de noviembre desde 1998, y el INA prevé que pase la evacuación (5,29 m) hacia el 1 de diciembre; **Corrientes podría volver a la alerta (6,50 m) hacia el 1 de diciembre** según la proyección del INA citada por El Litoral de Corrientes, y en el Uruguay se espera una onda nueva desde el 24",
+   "detalle": "Santa Fe (5,80 m, en baja), Paraná (5,59 m), Reconquista (5,31 m, **apenas 1 cm sobre la evacuación**) y **Victoria (5,30 m, en suba**, 40 cm sobre la referencia de 4,90 m que usa Entre Ríos) siguen sobre la evacuación. La Paz (6,06 m) y Goya (5,47 m) siguen en alerta. **Rosario (4,99 m) está a 1 cm de la alerta**, su mayor altura de noviembre desde 1998, y el INA prevé que pase la evacuación (5,29 m) hacia el 1 de diciembre; **Corrientes podría volver a la alerta (6,50 m) hacia el 1 de diciembre** según la proyección del INA citada por El Litoral de Corrientes",
    "tono": "alerta",
-   "fuente": "[Prefectura vía RíoAlert, 23 nov](https://rioalert.com.ar/rios/parana) · [La Capital, 22 nov](https://www.lacapital.com.ar/la-ciudad/crecida-del-rio-parana-rosario-llego-este-domingo-solo-9-centimetros-del-nivel-alerta-n10293634.html) · [INA](https://alerta.ina.gob.ar/a5/diario/reporte_diario)"
+   "fuente": "[Prefectura vía RíoAlert, 24 nov](https://rioalert.com.ar/rios/parana) · [Infobae, 23 nov](https://www.infobae.com/politica/2026/11/24/el-nino-santa-fe-y-parana-estan-en-situacion-de-evacuacion-y-rosario-se-acerca-al-nivel-de-alerta/) · [INA](https://alerta.ina.gob.ar/a5/diario/reporte_diario)"
   },
   {
    "id": "emerg",
@@ -93,6 +93,46 @@
   }
  ],
  "hoy": [
+  {
+   "fecha": "24 nov",
+   "f": "2026-11-24",
+   "lugar": "Rosario, Santa Fe, Paraná, Victoria y Reconquista",
+   "prov": "Santa Fe",
+   "tipo": "rio",
+   "texto": "**Rosario llegó a 4,99 m, a 1 cm de la alerta**, y sigue subiendo. **Siguen sobre la evacuación Santa Fe (5,80 m), Paraná (5,59 m), Victoria (5,30 m, en suba) y Reconquista (5,31 m, 1 cm sobre el umbral)**; La Paz (6,06 m) y Goya (5,47 m) siguen en alerta. En el norte la bajante continúa (Corrientes 5,63 m, Barranqueras 5,54 m).",
+   "url": "https://rioalert.com.ar/rios/parana",
+   "fuente": "Prefectura vía RíoAlert"
+  },
+  {
+   "fecha": "24 nov",
+   "f": "2026-11-24",
+   "lugar": "Chaco, Formosa, Corrientes y Misiones",
+   "prov": "Corrientes",
+   "tipo": "tormenta",
+   "texto": "El SMN emitió **alerta naranja por tormentas fuertes o severas en Chaco, Formosa, Corrientes y Misiones**, con ráfagas de hasta 90 km/h, granizo y 70 a 100 mm acumulados, y amarilla por tormentas en Salta, Jujuy, Santiago del Estero, Catamarca, La Rioja, Córdoba, Santa Fe, Entre Ríos y el cordón balneario bonaerense. Viento con ráfagas de más de 90 km/h en el sur de Buenos Aires y la Patagonia.",
+   "url": "https://es-us.noticias.yahoo.com/alertas-naranja-amarilla-tormentas-vientos-030100995.html",
+   "fuente": "La Nación vía Yahoo Noticias"
+  },
+  {
+   "fecha": "23 nov",
+   "f": "2026-11-23",
+   "lugar": "Rosario",
+   "prov": "Santa Fe",
+   "tipo": "rio",
+   "texto": "La crecida trae **camalotales frente a Rosario**, en las desembocaduras de los arroyos Ludueña y Saladillo. La planta potabilizadora de Aguas Santafesinas en Arroyito (650 millones de litros por día) ya tuvo que interrumpir varias veces la captación desde abril para sacar vegetación.",
+   "url": "https://www.infobae.com/sociedad/2026/11/23/sigue-la-alerta-por-la-crecida-del-rio-parana-el-agua-esta-cada-vez-mas-cerca-de-los-niveles-de-evacuacion-en-rosario/",
+   "fuente": "Infobae"
+  },
+  {
+   "fecha": "23 nov",
+   "f": "2026-11-23",
+   "lugar": "Misiones",
+   "prov": "Misiones",
+   "tipo": "lluvia",
+   "texto": "Se estiman **pérdidas de cerca del 80% en la cosecha de sandía** de Misiones por exceso de agua, granizo y noches frías; también hay daños en melón y pepino, lo que podría subir los precios.",
+   "url": "https://www.infobae.com/politica/2026/11/24/el-nino-santa-fe-y-parana-estan-en-situacion-de-evacuacion-y-rosario-se-acerca-al-nivel-de-alerta/",
+   "fuente": "Infobae"
+  },
   {
    "fecha": "23 nov",
    "f": "2026-11-23",
@@ -492,7 +532,9 @@
    "texto": "En el norte la bajante sigue: **Corrientes (6,36 m) salió de la alerta** e Isla del Cerrito (6,65 m) bajó de la evacuación. Barranqueras marca 6,23 m.",
    "url": "https://rioalert.com.ar/rios/parana",
    "fuente": "Prefectura vía RíoAlert"
-  },
+  }
+ ],
+ "eventos_previos": [
   {
    "fecha": "16 nov",
    "f": "2026-11-16",
@@ -592,9 +634,7 @@
    "texto": "**Alerta naranja del SMN por tormentas fuertes, algunas severas,** con 80 a 120 mm, granizo y ráfagas de más de 90 km/h; amarilla por tormentas o lluvias en otras ocho provincias.",
    "url": "https://es-us.noticias.yahoo.com/alerta-naranja-amarilla-tormentas-lluvias-063131197.html",
    "fuente": "La Nación vía Yahoo (SMN)"
-  }
- ],
- "eventos_previos": [
+  },
   {
    "fecha": "15 nov",
    "f": "2026-11-15",
@@ -2597,19 +2637,19 @@
   }
  ],
  "senales": {
-  "empeora": "**Victoria volvió a subir (5,24 m)** y sigue sobre la evacuación junto con Santa Fe (5,81 m, **298 evacuados**), Paraná (5,63 m) y Reconquista (5,38 m). **Rosario quedó a 9 cm de la alerta (4,91 m)**, su mayor altura de noviembre desde 1998, y el INA prevé que pase la evacuación hacia el 1 de diciembre; también anticipa un **repunte en Corrientes y Goya** desde el 26 y una **onda nueva en el Uruguay** desde el 24 (Paso de los Libres ya sube: 5,13 m). Alerta amarilla por tormentas con granizo en Córdoba, San Luis, La Rioja, Mendoza y Salta.",
-  "mejora": "El Paraná baja en el norte y en Santa Fe: Corrientes 5,68 m, Barranqueras 5,62 m, Goya 5,54 m y **La Paz 6,10 m, ya debajo de la evacuación**. En la capital correntina cerró el último centro de evacuados. El río Paraguay sigue lejos de la alerta (Formosa 4,43 m)."
+  "empeora": "**Rosario llegó a 4,99 m, a 1 cm de la alerta**, y el INA prevé que pase la evacuación hacia el 1 de diciembre. **Victoria sigue subiendo (5,30 m)** y sigue sobre la evacuación junto con Santa Fe (5,80 m, **298 evacuados**), Paraná (5,59 m) y Reconquista (5,31 m). **Hoy rige alerta naranja por tormentas en Chaco, Formosa, Corrientes y Misiones** (hasta 100 mm y ráfagas de 90 km/h), sobre la cuenca en crecida, y el INA anticipa un **repunte en Corrientes y Goya** desde el 26. Niño 1+2 marcó +5,7 °C, el máximo semanal del evento. En Misiones se estima una pérdida de cerca del 80% en la sandía.",
+  "mejora": "El Paraná baja en el norte y en Santa Fe: Corrientes 5,63 m, Barranqueras 5,54 m, Goya 5,47 m y La Paz 6,06 m, debajo de la evacuación; **Reconquista quedó a 1 cm de salir de la evacuación**. En el río Uruguay, Concordia (6,22 m) y Paso de los Libres (5,07 m) siguen lejos de la alerta, y el río Paraguay también (Formosa 4,39 m)."
  },
  "rios": [
   {
    "puerto": "Itatí",
    "rio": "Paraná",
-   "altura": 5.89,
-   "fecha": "23 nov",
+   "altura": 5.88,
+   "fecha": "24 nov",
    "alerta": 6.8,
    "evac": 7.5,
    "estado": "normal",
-   "lectura": "**5,89 m el 23 de noviembre**, en baja (3 cm en un día): 91 cm debajo de la alerta (6,80 m). El INA (20 nov) prevé descenso leve y oscilante y un posible repunte desde el 26.",
+   "lectura": "**5,88 m el 24 de noviembre**, en baja leve (1 cm en un día): 92 cm debajo de la alerta (6,80 m). El INA (20 nov) prevé descenso leve y oscilante y un posible repunte desde el 26.",
    "lon": -58.24,
    "lat": -27.27,
    "hist": [
@@ -2736,6 +2776,10 @@
     [
      "2026-11-23",
      5.89
+    ],
+    [
+     "2026-11-24",
+     5.88
     ]
    ],
    "proy": []
@@ -2810,14 +2854,14 @@
   {
    "puerto": "Corrientes",
    "rio": "Paraná",
-   "altura": 5.68,
-   "fecha": "23 nov",
+   "altura": 5.63,
+   "fecha": "24 nov",
    "alerta": 6.5,
    "evac": 7.0,
    "record": 8.65,
    "record_txt": "Récord 1983: 8,65 m; 1998: 8,38 m",
    "estado": "normal",
-   "lectura": "**5,68 m el 23 de noviembre**, en baja (8 cm en un día): 82 cm debajo de la alerta (6,50 m). El reporte del INA del 20 prevé un leve descenso y **una nueva suba probable desde el 26**; según El Litoral de Corrientes (21 nov), la proyección del INA indica que **podría llegar a la alerta (6,50 m) hacia el 1 de diciembre**. En la capital cerró el último centro de evacuados (Escuela 293).",
+   "lectura": "**5,63 m el 24 de noviembre**, en baja (5 cm en un día): 87 cm debajo de la alerta (6,50 m). El INA (20 nov) prevé una nueva suba probable desde el 26 y, según El Litoral de Corrientes, la alerta hacia el 1 de diciembre. Hoy rige **alerta naranja por tormentas** en la provincia.",
    "lon": -58.83,
    "lat": -27.47,
    "hist": [
@@ -2956,6 +3000,10 @@
     [
      "2026-11-23",
      5.68
+    ],
+    [
+     "2026-11-24",
+     5.63
     ]
    ],
    "proy": [
@@ -2968,12 +3016,12 @@
   {
    "puerto": "Barranqueras",
    "rio": "Paraná",
-   "altura": 5.62,
-   "fecha": "23 nov",
+   "altura": 5.54,
+   "fecha": "24 nov",
    "alerta": 6.0,
    "evac": 6.5,
    "estado": "normal",
-   "lectura": "**5,62 m el 23 de noviembre**, en baja (4 cm en un día) y 38 cm debajo de la alerta (6,00 m). Chaco mantiene la alerta roja en Barranqueras, Isla del Cerrito y Puerto Vilelas. El INA (17 nov) preveía 5,59 m hacia el 24 y un repunte a 5,89 m hacia el 1 de diciembre.",
+   "lectura": "**5,54 m el 24 de noviembre**, en baja (8 cm en un día): 46 cm debajo de la alerta (6,00 m). El INA preveía 5,59 m para hoy y 5,89 m para el 1 de diciembre. Barranqueras sigue en alerta roja provincial y hoy rige **alerta naranja por tormentas** en el Chaco.",
    "lon": -58.93,
    "lat": -27.49,
    "hist": [
@@ -3108,6 +3156,10 @@
     [
      "2026-11-23",
      5.62
+    ],
+    [
+     "2026-11-24",
+     5.54
     ]
    ],
    "proy": [
@@ -3124,12 +3176,12 @@
   {
    "puerto": "Goya",
    "rio": "Paraná",
-   "altura": 5.54,
-   "fecha": "23 nov",
+   "altura": 5.47,
+   "fecha": "24 nov",
    "alerta": 5.2,
    "evac": 5.7,
    "estado": "alerta",
-   "lectura": "**5,54 m el 23 de noviembre** a las 6, 4 cm menos que el domingo: 16 cm debajo de la evacuación (5,70 m) y 34 cm sobre la alerta (5,20 m). El INA (20 nov) prevé que se estabilice hacia el 26 y pueda volver a subir; según El Litoral de Corrientes (21 nov), **podría llegar a 6,50 m hacia el 1 de diciembre**, sobre la evacuación. El Ejército instala un puente en La Soledad por riesgo de aislamiento.",
+   "lectura": "**5,47 m el 24 de noviembre**, en baja (7 cm en un día): sigue sobre la alerta (5,20 m) y 23 cm debajo de la evacuación (5,70 m). El INA (20 nov) prevé un repunte desde el 26 que podría llevarla a 6,50 m hacia el 1 de diciembre.",
    "lon": -59.26,
    "lat": -29.14,
    "hist": [
@@ -3256,6 +3308,10 @@
     [
      "2026-11-23",
      5.54
+    ],
+    [
+     "2026-11-24",
+     5.47
     ]
    ],
    "proy": [
@@ -3268,12 +3324,12 @@
   {
    "puerto": "Reconquista",
    "rio": "Paraná",
-   "altura": 5.38,
-   "fecha": "23 nov",
+   "altura": 5.31,
+   "fecha": "24 nov",
    "alerta": 5.1,
    "evac": 5.3,
    "estado": "evacuacion",
-   "lectura": "**5,38 m el 23 de noviembre** a las 3 según Prefectura (8 cm menos que el 21), todavía 8 cm sobre la evacuación (5,30 m). En General Obligado (Reconquista, Las Toscas y Tacuarendí) había **127 personas fuera de sus casas** según el parte provincial del 20. El INA prevé que se estabilice hacia el 26 y pueda repuntar después.",
+   "lectura": "**5,31 m el 24 de noviembre**, en baja (7 cm en un día): apenas 1 cm sobre la evacuación (5,30 m). El INA preveía 5,21 m para hoy y 5,02 m para el 1 de diciembre.",
    "lon": -59.65,
    "lat": -29.15,
    "hist": [
@@ -3396,6 +3452,10 @@
     [
      "2026-11-23",
      5.38
+    ],
+    [
+     "2026-11-24",
+     5.31
     ]
    ],
    "proy": [
@@ -3412,12 +3472,12 @@
   {
    "puerto": "La Paz",
    "rio": "Paraná",
-   "altura": 6.1,
-   "fecha": "23 nov",
+   "altura": 6.06,
+   "fecha": "24 nov",
    "alerta": 5.8,
    "evac": 6.15,
    "estado": "alerta",
-   "lectura": "**6,10 m el 23 de noviembre**, 4 cm menos: 5 cm debajo de la evacuación (6,15 m) y 30 cm sobre la alerta (5,80 m). Defensa Civil de Entre Ríos cuenta una familia evacuada y nueve autoevacuadas. Elonce (22 nov) cita una proyección de 6,08 m para el 24 y 6,01 m para el 1 de diciembre.",
+   "lectura": "**6,06 m el 24 de noviembre**, en baja (4 cm en un día): sobre la alerta (5,80 m) y 9 cm debajo de la evacuación (6,15 m). Hay 10 familias evacuadas o autoevacuadas (Infobae, 23 nov).",
    "lon": -59.65,
    "lat": -30.74,
    "hist": [
@@ -3484,6 +3544,10 @@
     [
      "2026-11-23",
      6.1
+    ],
+    [
+     "2026-11-24",
+     6.06
     ]
    ],
    "proy": [
@@ -3500,12 +3564,12 @@
   {
    "puerto": "Santa Fe",
    "rio": "Paraná",
-   "altura": 5.81,
-   "fecha": "23 nov",
+   "altura": 5.8,
+   "fecha": "24 nov",
    "alerta": 5.3,
    "evac": 5.7,
    "estado": "evacuacion",
-   "lectura": "**5,81 m el 23 de noviembre** a las 6, 5 cm menos que el domingo y todavía 11 cm sobre la evacuación (5,70 m). Siguen **298 personas evacuadas** en Alto Verde (268) y Colastiné Sur (30); el municipio arma un tercer centro de asistencia (40 módulos) y el miércoles instala bombas en la zona del puerto. El INA (20 nov) prevé un descenso gradual.",
+   "lectura": "**5,80 m el 24 de noviembre** (−1 cm): 10 cm sobre la evacuación (5,70 m). La Municipalidad asiste a **298 personas** en los centros de Alto Verde y Colastiné Sur. El INA (20 nov) prevé descenso gradual (5,49 m el 1 de diciembre).",
    "lon": -60.7,
    "lat": -31.63,
    "hist": [
@@ -3624,6 +3688,10 @@
     [
      "2026-11-23",
      5.81
+    ],
+    [
+     "2026-11-24",
+     5.8
     ]
    ],
    "proy": [
@@ -3640,12 +3708,12 @@
   {
    "puerto": "Paraná",
    "rio": "Paraná",
-   "altura": 5.63,
-   "fecha": "23 nov",
+   "altura": 5.59,
+   "fecha": "24 nov",
    "alerta": 4.7,
    "evac": 5.0,
    "estado": "evacuacion",
-   "lectura": "**5,63 m el 23 de noviembre** (−2 cm), 63 cm sobre la evacuación (5,00 m). Según Elonce (22 nov) hay 14 personas en el centro de Bajada Grande, unas 50 familias autoevacuadas y 62 aisladas; la proyección citada es 5,67 m para el 24 y 5,51 m para el 1 de diciembre.",
+   "lectura": "**5,59 m el 24 de noviembre** (−4 cm): 59 cm sobre la evacuación (5,00 m). En la ciudad hay **266 personas asistidas** (unas 60 jefas o jefes de familia siguen en sus casas anegadas). Entre Ríos prevé que baje a comienzos de diciembre pero siga sobre la evacuación varias semanas.",
    "lon": -60.52,
    "lat": -31.73,
    "hist": [
@@ -3764,6 +3832,10 @@
     [
      "2026-11-23",
      5.63
+    ],
+    [
+     "2026-11-24",
+     5.59
     ]
    ],
    "proy": [
@@ -3780,12 +3852,12 @@
   {
    "puerto": "Rosario",
    "rio": "Paraná",
-   "altura": 4.91,
-   "fecha": "23 nov",
+   "altura": 4.99,
+   "fecha": "24 nov",
    "alerta": 5.0,
    "evac": 5.25,
    "estado": "subiendo",
-   "lectura": "**4,91 m el 23 de noviembre**, 1 cm más que el sábado y **a 9 cm de la alerta (5,00 m)**: según La Capital, es la mayor altura para un noviembre desde 1998. La prensa cita que llegaría a la alerta el martes 24; el INA (20 nov) preveía 5,21 m hacia el 24 y **5,29 m hacia el 1 de diciembre, sobre la evacuación** (5,25 m para el INA; La Capital usa 5,30 m).",
+   "lectura": "**4,99 m el 24 de noviembre**, en suba (8 cm en un día): **a 1 cm de la alerta (5,00 m)** y 26 cm debajo de la referencia de evacuación (5,25 m), la mayor altura de noviembre desde 1998. El INA (20 nov) preveía 5,21 m para hoy y 5,29 m para el 1 de diciembre.",
    "lon": -60.64,
    "lat": -32.95,
    "hist": [
@@ -3908,6 +3980,10 @@
     [
      "2026-11-23",
      4.91
+    ],
+    [
+     "2026-11-24",
+     4.99
     ]
    ],
    "proy": [
@@ -3924,12 +4000,12 @@
   {
    "puerto": "Victoria",
    "rio": "Paraná",
-   "altura": 5.24,
-   "fecha": "23 nov",
+   "altura": 5.3,
+   "fecha": "24 nov",
    "alerta": 4.6,
    "evac": 4.9,
    "estado": "evacuacion",
-   "lectura": "**5,24 m el 23 de noviembre** según Prefectura, en suba (Elonce daba 5,22 m el 22): **34 cm sobre el nivel de evacuación que usa la provincia (4,90 m)**; el INA toma 5,90 m como referencia de evacuación para esta escala. Hay 22 autoevacuados y rige la emergencia hídrica municipal (Decreto 918, 180 días desde el 17 de noviembre).",
+   "lectura": "**5,30 m el 24 de noviembre**, en suba (6 cm en un día): 40 cm sobre la referencia de evacuación (4,90 m) que usa Entre Ríos. Hay 22 autoevacuados entre Hernandarias y Victoria (Infobae, 23 nov).",
    "lon": -60.15,
    "lat": -32.62,
    "hist": [
@@ -3972,6 +4048,10 @@
     [
      "2026-11-23",
      5.24
+    ],
+    [
+     "2026-11-24",
+     5.3
     ]
    ],
    "proy": []
@@ -3979,12 +4059,12 @@
   {
    "puerto": "Santo Tomé",
    "rio": "Uruguay",
-   "altura": 6.04,
-   "fecha": "23 nov",
+   "altura": 5.98,
+   "fecha": "24 nov",
    "alerta": 11.5,
    "evac": 12.5,
    "estado": "normal",
-   "lectura": "**6,04 m el 23 de noviembre**, 36 cm menos que el domingo y lejos de la alerta (11,50 m). El INA anticipa una **nueva onda de crecida desde el martes 24** en el tramo San Javier–Santo Tomé.",
+   "lectura": "**5,98 m el 24 de noviembre**, en baja: lejos de la alerta (11,50 m). Aguas arriba suben El Soberbio, San Javier y Puerto Concepción: llega una onda nueva del sur de Brasil.",
    "lon": -56.04,
    "lat": -28.55,
    "hist": [
@@ -4047,6 +4127,10 @@
     [
      "2026-11-23",
      6.04
+    ],
+    [
+     "2026-11-24",
+     5.98
     ]
    ],
    "proy": []
@@ -4054,12 +4138,12 @@
   {
    "puerto": "Paso de los Libres",
    "rio": "Uruguay",
-   "altura": 5.13,
-   "fecha": "23 nov",
+   "altura": 5.07,
+   "fecha": "24 nov",
    "alerta": 7.5,
    "evac": 8.5,
-   "estado": "subiendo",
-   "lectura": "**5,13 m el 23 de noviembre**, 7 cm más que el domingo y 2,37 m debajo de la alerta (7,50 m). El INA (20 nov) prevé que siga subiendo desde el 26 con la nueva onda del Uruguay; aguas arriba suben El Soberbio, Alvear, La Cruz y Yapeyú.",
+   "estado": "normal",
+   "lectura": "**5,07 m el 24 de noviembre** (−6 cm, aunque Prefectura la marca en suba): lejos de la alerta (7,50 m). Yapeyú y Bompland suben con la onda que baja del tramo superior.",
    "lon": -57.09,
    "lat": -29.71,
    "hist": [
@@ -4166,6 +4250,10 @@
     [
      "2026-11-23",
      5.13
+    ],
+    [
+     "2026-11-24",
+     5.07
     ]
    ],
    "proy": []
@@ -4173,12 +4261,12 @@
   {
    "puerto": "Concordia",
    "rio": "Uruguay",
-   "altura": 6.28,
-   "fecha": "23 nov",
+   "altura": 6.22,
+   "fecha": "24 nov",
    "alerta": 11.0,
    "evac": 12.5,
    "estado": "normal",
-   "lectura": "**6,28 m el 23 de noviembre** según Prefectura (12 cm más que el dato del domingo), lejos de la alerta (11,00 m).",
+   "lectura": "**6,22 m el 24 de noviembre**, en baja: lejos de la alerta (11,00 m). Se espera un leve crecimiento en los próximos días, lejos de la alerta (Infobae, 23 nov).",
    "lon": -58.02,
    "lat": -31.39,
    "hist": [
@@ -4293,6 +4381,10 @@
     [
      "2026-11-23",
      6.28
+    ],
+    [
+     "2026-11-24",
+     6.22
     ]
    ],
    "proy": []
@@ -4300,12 +4392,12 @@
   {
    "puerto": "Concepción del Uruguay",
    "rio": "Uruguay",
-   "altura": 2.78,
-   "fecha": "23 nov",
+   "altura": 2.7,
+   "fecha": "24 nov",
    "alerta": 5.3,
    "evac": 6.3,
    "estado": "normal",
-   "lectura": "**2,78 m el 23 de noviembre**, en baja (14 cm) y lejos de la alerta (5,30 m).",
+   "lectura": "**2,70 m el 24 de noviembre**, en baja: lejos de la alerta (5,30 m).",
    "lon": -58.23,
    "lat": -32.48,
    "hist": [
@@ -4368,6 +4460,10 @@
     [
      "2026-11-23",
      2.78
+    ],
+    [
+     "2026-11-24",
+     2.7
     ]
    ],
    "proy": []
@@ -4376,11 +4472,11 @@
    "puerto": "Puerto Iguazú",
    "rio": "Iguazú",
    "altura": 21.0,
-   "fecha": "23 nov",
+   "fecha": "24 nov",
    "alerta": 25.0,
    "evac": 28.0,
    "estado": "subiendo",
-   "lectura": "**21,00 m el 23 de noviembre** según Prefectura, informado en suba (el domingo se publicó 21,30 m), 4 m debajo de la alerta (25 m). El INA (20 nov) preveía una nueva onda de crecida en el Iguazú desde el 21 y más caudal en Yacyretá (22.100 m³/s de ingreso; alerta en 25.000).",
+   "lectura": "**21,00 m el 24 de noviembre**, en suba según Prefectura: 4 m debajo de la alerta (25 m). Andresito (2,90 m) también sube. Hoy rige **alerta naranja por tormentas** en Misiones, con 70 a 100 mm.",
    "lon": -54.57,
    "lat": -25.6,
    "hist": [
@@ -4511,6 +4607,10 @@
     [
      "2026-11-23",
      21.0
+    ],
+    [
+     "2026-11-24",
+     21.0
     ]
    ],
    "proy": []
@@ -4518,12 +4618,12 @@
   {
    "puerto": "Puerto Pilcomayo",
    "rio": "Paraguay",
-   "altura": 2.58,
-   "fecha": "23 nov",
+   "altura": 2.7,
+   "fecha": "24 nov",
    "alerta": 5.35,
    "evac": 6.0,
    "estado": "subiendo",
-   "lectura": "**2,58 m el 23 de noviembre** (+17 cm desde el 20), en suba y lejos de la alerta (5,35 m). El INA prevé un probable repunte hacia aguas medias.",
+   "lectura": "**2,70 m el 24 de noviembre**, en suba (12 cm desde el 23): lejos de la alerta (5,35 m). El INA prevé un probable repunte hacia aguas medias.",
    "lon": -57.65,
    "lat": -25.37,
    "hist": [
@@ -4574,6 +4674,10 @@
     [
      "2026-11-23",
      2.58
+    ],
+    [
+     "2026-11-24",
+     2.7
     ]
    ],
    "proy": []
@@ -4581,12 +4685,12 @@
   {
    "puerto": "Formosa",
    "rio": "Paraguay",
-   "altura": 4.43,
-   "fecha": "23 nov",
+   "altura": 4.39,
+   "fecha": "24 nov",
    "alerta": 7.8,
    "evac": 8.3,
    "estado": "normal",
-   "lectura": "**4,43 m el 23 de noviembre** (−21 cm desde el 20), lejos de la alerta (7,80 m). El INA prevé un probable repunte en aguas medias por las lluvias en el tramo medio de la cuenca.",
+   "lectura": "**4,39 m el 24 de noviembre**, en baja: lejos de la alerta (7,80 m). Hoy rige **alerta naranja por tormentas** en Formosa.",
    "lon": -58.17,
    "lat": -26.18,
    "hist": [
@@ -4641,20 +4745,24 @@
     [
      "2026-11-23",
      4.43
+    ],
+    [
+     "2026-11-24",
+     4.39
     ]
    ],
    "proy": []
   }
  ],
- "rios_fuentes": "[Prefectura vía RíoAlert, 23 nov](https://rioalert.com.ar/rios/parana) · [RíoAlert, río Uruguay](https://rioalert.com.ar/rios/uruguay) · [RíoAlert, río Paraguay](https://rioalert.com.ar/rios/paraguay) · [RíoAlert, Iguazú](https://rioalert.com.ar/rios/iguazu) · [INA, reporte diario](https://alerta.ina.gob.ar/a5/diario/reporte_diario) · [Elonce, 22 nov](https://www.elonce.com/sociedad/rio-parana-bajo-a-5-64-metros-y-sigue-en-evacuacion.htm) · [La Capital, 22 nov](https://www.lacapital.com.ar/la-ciudad/crecida-del-rio-parana-rosario-llego-este-domingo-solo-9-centimetros-del-nivel-alerta-n10293634.html) · [UNO Santa Fe, 22 nov](https://www.unosantafe.com.ar/santa-fe/el-rio-parana-3-centimetros-24-horas-santa-fe-son-298-los-evacuados-y-acondicionan-el-tercer-centro-asistencial-n10293649.html) · [Prefectura vía Copérnico, 22 nov](https://copernicus.com.ar/rio) · [Defensa Civil de Entre Ríos vía El Diario, 21 nov](https://eldiario.com.ar/2026/11/21/tormentas-en-entre-rios-defensa-civil-renovo-alerta-amarilla-en-13-departamentos) · [Rosario la Ciudad, 21 nov](https://rosariolaciudad.com.ar/crecida-del-rio-parana-en-santa-fe-localidades-en-alerta-y-evacuados/) · [El Litoral (Corrientes), 21 nov](https://www.ellitoral.com.ar/sociedad/2026-11-21-14-21-0-proyectan-una-nueva-crecida-de-los-rios-en-corrientes-como-seran-los-niveles-en-diciembre) · [Elonce, 19 nov](https://www.elonce.com/sociedad/crecida-del-rio-parana-nueve-puertos-siguen-en-evacuacion.htm) · [UNO Santa Fe, 18 nov](https://www.unosantafe.com.ar/santa-fe/el-parana-tendra-un-comportamiento-dispar-bajara-puertos-santafesinos-y-subira-corrientes-n10292818.html/amp) · [La Nación](https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-en-el-parana-hoy-miercoles-nid21102026/) · [El Esquiú](https://www.elesquiu.com/nacionales/2026/10/22/crecida-de-los-rios-parana-y-uruguay-600660.html) · [Aire de Santa Fe](https://www.airedesantafe.com.ar/santa-fe/la-proyeccion-crecida-del-rio-parana-santa-fe-se-redujo-pero-las-lluvias-la-cuenca-pueden-cambiar-el-escenario-n673983) · [Rosario3](https://www.rosario3.com/informaciongeneral/excesos-hidricos-y-crecidas-de-rios-el-mapa-del-impacto-de-el-nino-para-el-resto-de-octubre-y-la-situacion-del-parana-en-rosario-20261019-0019.html) · [ABC Color](https://www.abc.com.py/nacionales/2026/10/19/el-rio-paraguay-casi-llega-a-los-tres-metros-en-la-bahia-de-asuncion/) · [Radio Sudamericana](https://www.radiosudamericana.com/nota/sociedad/351555-Inundaciones-en-Corrientes--todas-las-crecidas-que-hicieron-historia.htm) · [Hidráulica (umbrales)](https://www.hidraulica.gob.ar/informes_hidrologicos/reporte/ReporteSala_20260818.pdf) · [Perfil](https://www.perfil.com/noticias/amp/nea/crecida-del-rio-parana-supero-los-6-metros-en-la-capital-y-ya-hay-222-evacuados-en-corrientes.phtml) · [Elonce](https://www.elonce.com/uid-889713) · [Conclusión](https://www.conclusion.com.ar/?p=1462775) · [Bichos de Campo](https://bichosdecampo.com/exodo-bovino-correntino-con-los-rios-parana-y-uruguay-en-crecida-los-productores-comenzaron-a-sacar-la-hacienda-de-las-islas-y-ya-se-teme-un-otono-sin-pasto/) · [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/21/202420-corrientes-mas-de-mil-personas-fueron-evacuadas-por-la-crecida-de-los-rios-parana-y-uruguay) · [El Litoral (Corrientes), 24 oct](https://www.ellitoral.com.ar/sociedad/2026-10-24-16-49-0-advierten-que-el-parana-seguira-alto-durante-las-proximas-semanas) · [Sin Mordaza, Reconquista](https://sinmordaza.com/noticia/522954-el-rio-parana-alcanzo-la-cota-de-evacuacion-en-reconquista.html) · [Alerta Urbana, Barranqueras](https://www.alertaurbana.com.ar/102777-monitoreo-fluvial-en-la-costa-chaquena-el-rio-parana-registra-727-metros-frente-a-barranqueras-este-sabado) · [Datachaco, Isla del Cerrito](https://www.datachaco.com/653274-crecida-del-parana-crece-el-riesgo-de-aislamiento-en-isla-del-cerrito) · [Aire de Santa Fe](https://www.airedesantafe.com.ar/santa-fe/el-rio-parana-llego-los-cuatro-metros-este-sabado-santa-fe-que-se-espera-los-proximos-dias-n674269) · [Copérnico, Rosario](https://copernicus.com.ar/rio/rosario) · [Infobae, 25 oct](https://www.infobae.com/sociedad/2026/10/25/el-nino-habia-1800-los-evacuados-en-chaco-misiones-fue-afectada-por-fuertes-tormentas-y-santa-fe-preve-otra-suba-del-parana/) · [Alerta Urbana, Yacyretá](https://www.alertaurbana.com.ar/102788-crecida-historica-en-yacyreta-el-rio-parana-registra-caudales-de-28000-metros-cubicos-por-segundo-este-sabado) · Alturas del 1 de noviembre: Prefectura Naval (datos sin validar) vía [RíoAlert](https://rioalert.com.ar/rios/parana); pronósticos del INA según [El Litoral vía Examedia](https://examedia.com.ar/portada/post/88157648). · Puertos sumados el 16 de noviembre (Prefectura Naval e INA): [Formosa](https://news.agrofy.com.ar/altura-de-los-rios/puerto-formosa) y [El Monterizo](https://elmonterizo.com/el-rio-paraguay-volvio-a-subir-en-formosa-el-numero-que-mira-prefectura-y-por-que-no-es-tranquilizador); [La Paz](https://news.agrofy.com.ar/altura-de-los-rios/la-paz), [Elonce, 15 nov](https://www.elonce.com/sociedad/el-rio-parana-supero-el-nivel-de-evacuacion-en-cuatro-ciudades-entrerrianas-las-alturas-puerto-por-puerto.htm) y [Elonce, 16 nov](https://www.elonce.com/sociedad/creciente-del-parana-el-rio-mide-5-70-metros-en-parana.htm) para La Paz y Victoria; [Santo Tomé](https://news.agrofy.com.ar/altura-de-los-rios/santo-tome) y [Copernicus](https://copernicus.com.ar/rio/santo-tome); [Concepción del Uruguay](https://news.agrofy.com.ar/altura-de-los-rios/concepcion-del-uruguay) y [Copernicus](https://copernicus.com.ar/rio/concepcion-del-uruguay); umbrales también en el [reporte de la Sala de Situación de Hidráulica](https://hidraulica.gob.ar/informes_hidrologicos/reporte/ReporteSala_20260827.pdf). · Puerto Pilcomayo: [Agrofy](https://news.agrofy.com.ar/altura-de-los-rios/puerto-pilcomayo) (Prefectura e INA).",
+ "rios_fuentes": "[Prefectura vía RíoAlert, 24 nov](https://rioalert.com.ar/rios/parana) · [RíoAlert, río Uruguay](https://rioalert.com.ar/rios/uruguay) · [RíoAlert, río Paraguay](https://rioalert.com.ar/rios/paraguay) · [RíoAlert, Iguazú](https://rioalert.com.ar/rios/iguazu) · [INA, reporte diario](https://alerta.ina.gob.ar/a5/diario/reporte_diario) · [Infobae, 23 nov](https://www.infobae.com/politica/2026/11/24/el-nino-santa-fe-y-parana-estan-en-situacion-de-evacuacion-y-rosario-se-acerca-al-nivel-de-alerta/) · [UNO Santa Fe, 23 nov](https://www.unosantafe.com.ar/santa-fe/el-rio-parana-sigue-bajando-santa-fe-llego-los-580-metros-y-continua-la-asistencia-298-personas-n10293722.html) · [INA, reporte diario](https://alerta.ina.gob.ar/a5/diario/reporte_diario) · [Elonce, 22 nov](https://www.elonce.com/sociedad/rio-parana-bajo-a-5-64-metros-y-sigue-en-evacuacion.htm) · [La Capital, 22 nov](https://www.lacapital.com.ar/la-ciudad/crecida-del-rio-parana-rosario-llego-este-domingo-solo-9-centimetros-del-nivel-alerta-n10293634.html) · [UNO Santa Fe, 22 nov](https://www.unosantafe.com.ar/santa-fe/el-rio-parana-3-centimetros-24-horas-santa-fe-son-298-los-evacuados-y-acondicionan-el-tercer-centro-asistencial-n10293649.html) · [Prefectura vía Copérnico, 22 nov](https://copernicus.com.ar/rio) · [Defensa Civil de Entre Ríos vía El Diario, 21 nov](https://eldiario.com.ar/2026/11/21/tormentas-en-entre-rios-defensa-civil-renovo-alerta-amarilla-en-13-departamentos) · [Rosario la Ciudad, 21 nov](https://rosariolaciudad.com.ar/crecida-del-rio-parana-en-santa-fe-localidades-en-alerta-y-evacuados/) · [El Litoral (Corrientes), 21 nov](https://www.ellitoral.com.ar/sociedad/2026-11-21-14-21-0-proyectan-una-nueva-crecida-de-los-rios-en-corrientes-como-seran-los-niveles-en-diciembre) · [Elonce, 19 nov](https://www.elonce.com/sociedad/crecida-del-rio-parana-nueve-puertos-siguen-en-evacuacion.htm) · [UNO Santa Fe, 18 nov](https://www.unosantafe.com.ar/santa-fe/el-parana-tendra-un-comportamiento-dispar-bajara-puertos-santafesinos-y-subira-corrientes-n10292818.html/amp) · [La Nación](https://www.lanacion.com.ar/sociedad/altura-de-los-rios-en-la-argentina-segun-prefectura-esta-es-la-situacion-en-el-parana-hoy-miercoles-nid21102026/) · [El Esquiú](https://www.elesquiu.com/nacionales/2026/10/22/crecida-de-los-rios-parana-y-uruguay-600660.html) · [Aire de Santa Fe](https://www.airedesantafe.com.ar/santa-fe/la-proyeccion-crecida-del-rio-parana-santa-fe-se-redujo-pero-las-lluvias-la-cuenca-pueden-cambiar-el-escenario-n673983) · [Rosario3](https://www.rosario3.com/informaciongeneral/excesos-hidricos-y-crecidas-de-rios-el-mapa-del-impacto-de-el-nino-para-el-resto-de-octubre-y-la-situacion-del-parana-en-rosario-20261019-0019.html) · [ABC Color](https://www.abc.com.py/nacionales/2026/10/19/el-rio-paraguay-casi-llega-a-los-tres-metros-en-la-bahia-de-asuncion/) · [Radio Sudamericana](https://www.radiosudamericana.com/nota/sociedad/351555-Inundaciones-en-Corrientes--todas-las-crecidas-que-hicieron-historia.htm) · [Hidráulica (umbrales)](https://www.hidraulica.gob.ar/informes_hidrologicos/reporte/ReporteSala_20260818.pdf) · [Perfil](https://www.perfil.com/noticias/amp/nea/crecida-del-rio-parana-supero-los-6-metros-en-la-capital-y-ya-hay-222-evacuados-en-corrientes.phtml) · [Elonce](https://www.elonce.com/uid-889713) · [Conclusión](https://www.conclusion.com.ar/?p=1462775) · [Bichos de Campo](https://bichosdecampo.com/exodo-bovino-correntino-con-los-rios-parana-y-uruguay-en-crecida-los-productores-comenzaron-a-sacar-la-hacienda-de-las-islas-y-ya-se-teme-un-otono-sin-pasto/) · [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/21/202420-corrientes-mas-de-mil-personas-fueron-evacuadas-por-la-crecida-de-los-rios-parana-y-uruguay) · [El Litoral (Corrientes), 24 oct](https://www.ellitoral.com.ar/sociedad/2026-10-24-16-49-0-advierten-que-el-parana-seguira-alto-durante-las-proximas-semanas) · [Sin Mordaza, Reconquista](https://sinmordaza.com/noticia/522954-el-rio-parana-alcanzo-la-cota-de-evacuacion-en-reconquista.html) · [Alerta Urbana, Barranqueras](https://www.alertaurbana.com.ar/102777-monitoreo-fluvial-en-la-costa-chaquena-el-rio-parana-registra-727-metros-frente-a-barranqueras-este-sabado) · [Datachaco, Isla del Cerrito](https://www.datachaco.com/653274-crecida-del-parana-crece-el-riesgo-de-aislamiento-en-isla-del-cerrito) · [Aire de Santa Fe](https://www.airedesantafe.com.ar/santa-fe/el-rio-parana-llego-los-cuatro-metros-este-sabado-santa-fe-que-se-espera-los-proximos-dias-n674269) · [Copérnico, Rosario](https://copernicus.com.ar/rio/rosario) · [Infobae, 25 oct](https://www.infobae.com/sociedad/2026/10/25/el-nino-habia-1800-los-evacuados-en-chaco-misiones-fue-afectada-por-fuertes-tormentas-y-santa-fe-preve-otra-suba-del-parana/) · [Alerta Urbana, Yacyretá](https://www.alertaurbana.com.ar/102788-crecida-historica-en-yacyreta-el-rio-parana-registra-caudales-de-28000-metros-cubicos-por-segundo-este-sabado) · Alturas del 1 de noviembre: Prefectura Naval (datos sin validar) vía [RíoAlert](https://rioalert.com.ar/rios/parana); pronósticos del INA según [El Litoral vía Examedia](https://examedia.com.ar/portada/post/88157648). · Puertos sumados el 16 de noviembre (Prefectura Naval e INA): [Formosa](https://news.agrofy.com.ar/altura-de-los-rios/puerto-formosa) y [El Monterizo](https://elmonterizo.com/el-rio-paraguay-volvio-a-subir-en-formosa-el-numero-que-mira-prefectura-y-por-que-no-es-tranquilizador); [La Paz](https://news.agrofy.com.ar/altura-de-los-rios/la-paz), [Elonce, 15 nov](https://www.elonce.com/sociedad/el-rio-parana-supero-el-nivel-de-evacuacion-en-cuatro-ciudades-entrerrianas-las-alturas-puerto-por-puerto.htm) y [Elonce, 16 nov](https://www.elonce.com/sociedad/creciente-del-parana-el-rio-mide-5-70-metros-en-parana.htm) para La Paz y Victoria; [Santo Tomé](https://news.agrofy.com.ar/altura-de-los-rios/santo-tome) y [Copernicus](https://copernicus.com.ar/rio/santo-tome); [Concepción del Uruguay](https://news.agrofy.com.ar/altura-de-los-rios/concepcion-del-uruguay) y [Copernicus](https://copernicus.com.ar/rio/concepcion-del-uruguay); umbrales también en el [reporte de la Sala de Situación de Hidráulica](https://hidraulica.gob.ar/informes_hidrologicos/reporte/ReporteSala_20260827.pdf). · Puerto Pilcomayo: [Agrofy](https://news.agrofy.com.ar/altura-de-los-rios/puerto-pilcomayo) (Prefectura e INA).",
  "nino": {
   "tesis": "**Ya es uno de los eventos más fuertes desde 1950 y lo más probable es que termine siendo el más intenso del registro instrumental.** Todavía no llegó a su pico, esperado entre noviembre y enero.",
   "indicadores": [
    {
     "label": "Niño-3.4 semanal",
-    "valor": "+3,2 °C",
-    "nota": "Semana centrada el 11 de noviembre (datos de NOAA del 16 de noviembre): una décima menos que la semana anterior y dos menos que el máximo del evento (+3,4 °C, semanas del 21 y el 28 de octubre); **nueve semanas seguidas sobre +3 °C**. Niño-1+2 bajó a +5,4 °C. Septiembre cerró en +2,84 °C. El dato diario de NOAA (OISST v2.1) marcó **+3,65 °C el 26 de octubre**, el más alto de la serie diaria desde 1982 (cálculo propio); el 16 de noviembre estaba en +3,51 °C. En la versión relativa que NOAA usa desde este año, el boletín del 9 de noviembre daba +2,3 °C para Niño-3.4 y +4,7 °C para Niño-1+2. En la discusión mensual del 12 de noviembre, NOAA dio para octubre +2,5 °C en Niño-3.4, +3,6 °C en Niño-3 y +4,4 °C en Niño-1+2, con anomalías de más de 4 °C extendiéndose hacia el oeste.",
-    "fuente": "[NOAA CPC, datos semanales](https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for) · [NOAA CPC, boletín del 9 nov (PDF)](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf)"
+    "valor": "+3,3 °C",
+    "nota": "Semana centrada el 18 de noviembre (datos de NOAA del 23 de noviembre): una décima más que la semana anterior y una menos que el máximo del evento (+3,4 °C, semanas del 21 y el 28 de octubre); **diez semanas seguidas sobre +3 °C**. Niño-3 subió a +4,7 °C y **Niño-1+2 a +5,7 °C, el máximo semanal del evento**. Septiembre cerró en +2,84 °C. El dato diario de NOAA (OISST v2.1) marcó **+3,65 °C el 26 de octubre**, el más alto de la serie diaria desde 1982 (cálculo propio); el 18 de noviembre estaba en +3,56 °C. En la versión relativa que NOAA usa desde este año, **el boletín del 23 de noviembre da +2,4 °C para Niño-3.4 y +4,9 °C para Niño-1+2** (el del 9 de noviembre daba +2,3 y +4,7 °C), y mantiene más de 79% de chances de un Niño fuerte a muy fuerte hasta enero-marzo de 2027. En la discusión mensual del 12 de noviembre, NOAA dio para octubre +2,5 °C en Niño-3.4, +3,6 °C en Niño-3 y +4,4 °C en Niño-1+2, con anomalías de más de 4 °C extendiéndose hacia el oeste.",
+    "fuente": "[NOAA CPC, datos semanales](https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for) · [NOAA CPC, boletín del 23 nov (PDF)](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf)"
    },
    {
     "label": "Pico previsto",
@@ -4688,8 +4796,8 @@
    },
    {
     "label": "Niño costero (Niño 1+2)",
-    "valor": "+5,4 °C (NOAA, semana del 11 nov)",
-    "nota": "Frente a Perú y Ecuador; bajó dos décimas desde el máximo semanal del evento (+5,6 °C, semana del 4 de noviembre). En promedio mensual, **NOAA dio +4,4 °C para octubre** (discusión del 12 de noviembre) y anomalías bajo la superficie de más de +10 °C en el Pacífico oriental; prevé que el evento empiece a debilitarse a comienzos de 2027 y no menciona un segundo pico. **ENFEN, comunicado oficial del 13 de noviembre** (N° 20-2026): sigue la Alerta de El Niño Costero con **magnitud extraordinaria hasta febrero de 2027** y **debilitamiento gradual hasta julio de 2027** (el N° 19-2026 decía junio); en el Pacífico central, muy fuerte hasta febrero y neutral hacia junio. Prevé lluvias sobre lo normal en la costa norte y central de Perú entre noviembre y enero. **No menciona un segundo pico ni un nuevo calentamiento en 2027.** Al 23 de noviembre no hay comunicado nuevo: el próximo se espera hacia fin de mes. El CIIFEN (boletín de noviembre) también ubica las anomalías más altas frente a Perú y Ecuador y espera El Niño al menos hasta marzo de 2027. Cada organismo usa su propia base de datos: los valores no son comparables entre sí.",
+    "valor": "+5,7 °C (NOAA, semana del 18 nov)",
+    "nota": "Frente a Perú y Ecuador; **subió tres décimas y marcó un nuevo máximo semanal del evento** (el anterior era +5,6 °C, semana del 4 de noviembre). En promedio mensual, **NOAA dio +4,4 °C para octubre** (discusión del 12 de noviembre) y anomalías bajo la superficie de más de +10 °C en el Pacífico oriental; prevé que el evento empiece a debilitarse a comienzos de 2027 y no menciona un segundo pico. **ENFEN, comunicado oficial del 13 de noviembre** (N° 20-2026): sigue la Alerta de El Niño Costero con **magnitud extraordinaria hasta febrero de 2027** y **debilitamiento gradual hasta julio de 2027** (el N° 19-2026 decía junio); en el Pacífico central, muy fuerte hasta febrero y neutral hacia junio. Prevé lluvias sobre lo normal en la costa norte y central de Perú entre noviembre y enero. **No menciona un segundo pico ni un nuevo calentamiento en 2027.** Al 24 de noviembre no hay comunicado nuevo: el próximo está previsto para el 30 de noviembre (Infobae Perú). En la escala relativa, el boletín de NOAA del 23 de noviembre da +4,9 °C para Niño 1+2. El CIIFEN (boletín de noviembre) también ubica las anomalías más altas frente a Perú y Ecuador y espera El Niño al menos hasta marzo de 2027. Cada organismo usa su propia base de datos: los valores no son comparables entre sí.",
     "fuente": "[ENFEN, Comunicado N° 20-2026](https://www.gob.pe/institucion/senamhi/informes-publicaciones/8827660-comunicado-oficial-enfen-n-20-2026) · [CIIFEN, noviembre 2026](https://ciifen.org/wp-content/uploads/2026/11/Boletin_ElNino_LaNina_Noviembre_2026.pdf) · [Infobae Perú, 14 nov](https://www.infobae.com/peru/2026/11/14/el-nino-costero-no-cede-y-seguira-con-magnitud-extraordinaria-hasta-el-invierno-del-2027-segun-el-enfen/) · [RPP, 13 nov](https://rpp.pe/peru/actualidad/enfen-alerta-que-el-nino-costero-se-extenderia-hasta-inicios-del-invierno-de-2027-noticia-1717743) · [ENFEN, Comunicado N° 19-2026](https://enfen.imarpe.gob.pe/2026/10/30/comunicado-oficial-enfen-n19-2026/) · [NOAA CPC, datos semanales](https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for) · [NOAA CPC, discusión del 12 nov](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml)"
    }
   ],
@@ -5156,7 +5264,7 @@
  "disparadores": [
   {
    "indicador": "Río Uruguay en Concordia",
-   "ultimo": "6,28 m en Concordia el 23 de noviembre, lejos de la alerta. **Aguas arriba llega una onda nueva: Paso de los Libres sube (5,13 m)**, igual que El Soberbio, Alvear, La Cruz y Yapeyú; el INA (20 nov) prevé que San Javier se acerque a la evacuación el 24 y que Paso de los Libres se acerque a la alerta desde el 27",
+   "ultimo": "6,22 m en Concordia el 24 de noviembre, lejos de la alerta. **Aguas arriba sube una onda nueva:** El Soberbio, San Javier, Puerto Concepción, Yapeyú y Bompland suben; Paso de los Libres marcó 5,07 m. El INA (20 nov) preveía que San Javier se acerque a la evacuación el 24 y que Paso de los Libres se acerque a la alerta desde el 27",
    "umbral": "11,00 m y 12,50 m",
    "anticipa": "Evacuaciones en la costa entrerriana, en días",
    "estado": "vigilar"
@@ -5170,21 +5278,21 @@
   },
   {
    "indicador": "Paraná en Corrientes",
-   "ultimo": "5,68 m el 23 de noviembre, en baja: 82 cm debajo de la alerta (6,50 m); Itatí 5,89 m. El INA (20 nov) prevé una nueva suba probable desde el 26 y, según El Litoral de Corrientes, la alerta (6,50 m) hacia el 1 de diciembre",
+   "ultimo": "5,63 m el 24 de noviembre, en baja: 87 cm debajo de la alerta (6,50 m); Itatí 5,88 m. El INA (20 nov) prevé una nueva suba probable desde el 26 y, según El Litoral de Corrientes, la alerta (6,50 m) hacia el 1 de diciembre. Hoy rige alerta naranja por tormentas en Corrientes, Chaco, Formosa y Misiones",
    "umbral": "6,50 m y 7,00 m",
    "anticipa": "Lo que llegará a Santa Fe y Rosario",
    "estado": "vigilar"
   },
   {
    "indicador": "Río Paraguay",
-   "ultimo": "Puerto Pilcomayo 2,58 m (en suba) y Formosa 4,43 m (23 de noviembre); el INA prevé un probable repunte hacia aguas medias. Isla del Cerrito 6,04 m, debajo de la evacuación",
+   "ultimo": "Puerto Pilcomayo 2,70 m (en suba) y Formosa 4,39 m (24 de noviembre); el INA prevé un probable repunte hacia aguas medias. Isla del Cerrito 6,04 m (23 nov), debajo de la evacuación",
    "umbral": "Puerto Pilcomayo: 5,35 y 6,00 m",
    "anticipa": "Si sube, se pierde el freno principal del sistema",
    "estado": "vigilar"
   },
   {
    "indicador": "Paraná en Santa Fe y Rosario",
-   "ultimo": "**Santa Fe 5,81 m el 23 de noviembre** (−5 cm), 11 cm sobre la evacuación; el INA (20 nov) prevé descenso gradual. **Rosario 4,91 m**, a 9 cm de la alerta y su mayor altura de noviembre desde 1998, con 5,21 m previstos para el 24 y **5,29 m para el 1 de diciembre, sobre la evacuación**. Paraná (Entre Ríos) 5,63 m y Victoria 5,24 m, en suba",
+   "ultimo": "**Santa Fe 5,80 m el 24 de noviembre** (−1 cm), 10 cm sobre la evacuación; el INA (20 nov) prevé descenso gradual. **Rosario 4,99 m, a 1 cm de la alerta** y su mayor altura de noviembre desde 1998; el INA preveía 5,21 m para el 24 y **5,29 m para el 1 de diciembre, sobre la evacuación**. Paraná (Entre Ríos) 5,59 m y Victoria 5,30 m, en suba",
    "umbral": "Santa Fe 5,30 y 5,70 m; Rosario 5,00 y 5,25 m",
    "anticipa": "Evacuación de costa baja e islas",
    "estado": "alerta"
@@ -5205,7 +5313,7 @@
   },
   {
    "indicador": "Tormentas urbanas",
-   "ultimo": "Ráfagas de 90 a 140 km/h y 117 mm en el centro de Córdoba el 20 de noviembre (70% de San Francisco sin luz); el lunes 23 rige **alerta amarilla por tormentas con granizo en Córdoba, San Luis, La Rioja, Mendoza y Salta**, sin alertas naranjas",
+   "ultimo": "Ráfagas de 90 a 140 km/h y 117 mm en el centro de Córdoba el 20 de noviembre (70% de San Francisco sin luz); el martes 24 rige **alerta naranja por tormentas fuertes o severas en Chaco, Formosa, Corrientes y Misiones** (ráfagas de 90 km/h, granizo, 70 a 100 mm) y amarilla en otras nueve provincias",
    "umbral": "Alertas naranja o roja del SMN",
    "anticipa": "Anegamiento súbito, el mayor riesgo de vida",
    "estado": "alerta"
@@ -7353,6 +7461,10 @@
    "grupo": "Economías regionales",
    "items": [
     {
+     "t": "Infobae: pérdida de ~80% en la sandía de Misiones (23 nov)",
+     "u": "https://www.infobae.com/politica/2026/11/24/el-nino-santa-fe-y-parana-estan-en-situacion-de-evacuacion-y-rosario-se-acerca-al-nivel-de-alerta/"
+    },
+    {
      "t": "Saladillo Campo, hacienda evacuada, 22 nov",
      "u": "https://saladillocampo.com.ar/blog/2026/11/22/crecida-del-parana-mas-de-860-000-vacunos-evacuados-y-alerta-sanitaria-en-el-litoral/"
     },
@@ -8941,6 +9053,23 @@
     {
      "t": "C5N: tormenta en Rafaela, 21 nov",
      "u": "https://www.c5n.com/sociedad/rafaela-tormenta-lluvia-destrozos-sabado-21-noviembre-2026"
+    }
+   ]
+  },
+  {
+   "grupo": "Ríos, alertas y Niño costero (24 de noviembre)",
+   "items": [
+    {
+     "t": "Infobae: camalotes y crecida en Rosario (23 nov)",
+     "u": "https://www.infobae.com/sociedad/2026/11/23/sigue-la-alerta-por-la-crecida-del-rio-parana-el-agua-esta-cada-vez-mas-cerca-de-los-niveles-de-evacuacion-en-rosario/"
+    },
+    {
+     "t": "La Nación vía Yahoo: alertas naranja y amarilla del martes 24 de noviembre",
+     "u": "https://es-us.noticias.yahoo.com/alertas-naranja-amarilla-tormentas-vientos-030100995.html"
+    },
+    {
+     "t": "Infobae: Santa Fe y Paraná en evacuación, Rosario se acerca a la alerta (23 nov)",
+     "u": "https://www.infobae.com/politica/2026/11/24/el-nino-santa-fe-y-parana-estan-en-situacion-de-evacuacion-y-rosario-se-acerca-al-nivel-de-alerta/"
     }
    ]
   }
@@ -10987,10 +11116,10 @@
    },
    {
     "prov": "Entre Ríos",
-    "fecha": "22 nov",
+    "fecha": "23 nov",
     "total": 158,
-    "detalle": "Unas **158 personas**: las 136 que contaba la Agencia Federal de Emergencias más **22 autoevacuados en Victoria**, donde el río sube (5,24 m el 23). Según Elonce (22 nov), en Paraná hay 14 personas en el centro de Bajada Grande, unas 50 familias autoevacuadas y 62 personas aisladas; en La Paz, una familia evacuada y nueve autoevacuadas; en Las Cuevas, seis familias autoevacuadas y 15 personas aisladas.",
-    "fuente": "[Elonce, 22 nov](https://www.elonce.com/sociedad/rio-parana-bajo-a-5-64-metros-y-sigue-en-evacuacion.htm) · [El Diario (Defensa Civil de Entre Ríos), 21 nov](https://eldiario.com.ar/2026/11/21/tormentas-en-entre-rios-defensa-civil-renovo-alerta-amarilla-en-13-departamentos) · [Elonce, 19 nov](https://www.elonce.com/sociedad/victoria-quedo-a-cinco-centimetros-del-nivel-de-evacuacion-y-reporto-22-autoevacuados.htm) · [Infobae, 16 nov](https://www.infobae.com/sociedad/2026/11/16/alarma-por-la-crecida-del-rio-parana-hay-cientos-de-evacuados-y-crece-la-preocupacion-por-nuevas-tormentas/) · [EntreMedios (Defensa Civil), 15 nov](https://entremediosweb.com/creciente-defensa-civil-informa-12-evacuados-y-50-familias-autoevacuadas-en-entre-rios/) · [Infobae, 13 nov](https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/) · [Radio Franca, 13 nov](https://www.radiofrancafm.com.ar/2026/11/13/el-gobierno-de-entre-rios-asiste-a-las-familias-afectadas-por-la-creciente-del-parana/) · [APF (Defensa Civil), 12 nov](https://www.apfdigital.com.ar/noticias/2026/11/12/478844-defensa-civil-preciso-que-registran-63-familias-evacuadas-en-la-provincia-por-la-creciente-del-parana) · [El Monterizo, 12 nov](https://elmonterizo.com/crecida-del-parana-4547-evacuados-y-un-viaje-oficial-que-nadie-esperaba-en-corrientes) · [Elonce (Defensa Civil), 10 nov](https://elonce.com/sociedad/la-creciente-del-parana-mantiene-a-34-familias-fuera-de-sus-hogares-en-entre-rios.htm) · [Elonce, 10 nov](https://www.elonce.com/sociedad/el-rio-parana-llego-a-5-21-metros-y-ampliaron-la-asistencia.htm) · [Elonce, 9 nov](https://www.elonce.com/parana/crecida-del-parana-ocho-familias-evacuadas-en-bajada-grande.htm) · [Infobae, 9 nov](https://www.infobae.com/sociedad/2026/11/09/el-nino-la-crecida-del-parana-provoco-evacuaciones-en-dos-capitales-del-litoral/)"
+    "detalle": "Unas **158 personas**: las 136 que contaba la Agencia Federal de Emergencias más **22 autoevacuados en Victoria**, donde el río sube (5,24 m el 23). Según Elonce (22 nov), en Paraná hay 14 personas en el centro de Bajada Grande, unas 50 familias autoevacuadas y 62 personas aisladas; en La Paz, una familia evacuada y nueve autoevacuadas; en Las Cuevas, seis familias autoevacuadas y 15 personas aisladas. Infobae (23 nov) cuenta **266 personas asistidas en la ciudad de Paraná** (unas 60 jefas o jefes de familia siguen aislados en sus casas), seis familias autoevacuadas en Diamante y diez familias evacuadas o autoevacuadas en La Paz; no suma un total provincial nuevo.",
+    "fuente": "[Infobae, 23 nov](https://www.infobae.com/politica/2026/11/24/el-nino-santa-fe-y-parana-estan-en-situacion-de-evacuacion-y-rosario-se-acerca-al-nivel-de-alerta/) · [Elonce, 22 nov](https://www.elonce.com/sociedad/rio-parana-bajo-a-5-64-metros-y-sigue-en-evacuacion.htm) · [El Diario (Defensa Civil de Entre Ríos), 21 nov](https://eldiario.com.ar/2026/11/21/tormentas-en-entre-rios-defensa-civil-renovo-alerta-amarilla-en-13-departamentos) · [Elonce, 19 nov](https://www.elonce.com/sociedad/victoria-quedo-a-cinco-centimetros-del-nivel-de-evacuacion-y-reporto-22-autoevacuados.htm) · [Infobae, 16 nov](https://www.infobae.com/sociedad/2026/11/16/alarma-por-la-crecida-del-rio-parana-hay-cientos-de-evacuados-y-crece-la-preocupacion-por-nuevas-tormentas/) · [EntreMedios (Defensa Civil), 15 nov](https://entremediosweb.com/creciente-defensa-civil-informa-12-evacuados-y-50-familias-autoevacuadas-en-entre-rios/) · [Infobae, 13 nov](https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/) · [Radio Franca, 13 nov](https://www.radiofrancafm.com.ar/2026/11/13/el-gobierno-de-entre-rios-asiste-a-las-familias-afectadas-por-la-creciente-del-parana/) · [APF (Defensa Civil), 12 nov](https://www.apfdigital.com.ar/noticias/2026/11/12/478844-defensa-civil-preciso-que-registran-63-familias-evacuadas-en-la-provincia-por-la-creciente-del-parana) · [El Monterizo, 12 nov](https://elmonterizo.com/crecida-del-parana-4547-evacuados-y-un-viaje-oficial-que-nadie-esperaba-en-corrientes) · [Elonce (Defensa Civil), 10 nov](https://elonce.com/sociedad/la-creciente-del-parana-mantiene-a-34-familias-fuera-de-sus-hogares-en-entre-rios.htm) · [Elonce, 10 nov](https://www.elonce.com/sociedad/el-rio-parana-llego-a-5-21-metros-y-ampliaron-la-asistencia.htm) · [Elonce, 9 nov](https://www.elonce.com/parana/crecida-del-parana-ocho-familias-evacuadas-en-bajada-grande.htm) · [Infobae, 9 nov](https://www.infobae.com/sociedad/2026/11/09/el-nino-la-crecida-del-parana-provoco-evacuaciones-en-dos-capitales-del-litoral/)"
    },
    {
     "prov": "Santa Fe",
@@ -11229,39 +11358,79 @@
   "serie_fuente": "Corrientes, según Defensa Civil citada por [Perfil](https://www.perfil.com/noticias/amp/nea/crecida-del-rio-parana-supero-los-6-metros-en-la-capital-y-ya-hay-222-evacuados-en-corrientes.phtml), [Elonce](https://www.elonce.com/uid-889713), [Elonce](https://www.elonce.com/uid-889636), [Elonce](https://www.elonce.com/uid-889762) y [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/21/202420-corrientes-mas-de-mil-personas-fueron-evacuadas-por-la-crecida-de-los-rios-parana-y-uruguay). Chaco, según el Comité Provincial de Emergencia citado por [FARCO](https://agencia.farco.org.ar/2026/10/22/chaco-mas-de-mil-evacuados-crecida-parana/) e [Infobae](https://www.infobae.com/sociedad/2026/10/25/el-nino-habia-1800-los-evacuados-en-chaco-misiones-fue-afectada-por-fuertes-tormentas-y-santa-fe-preve-otra-suba-del-parana/). Misiones, según [iProfesional](https://www.iprofesional.com/actualidad/466769-crecida-rios-misiones-19-evacuados-cerro-pasos-fronterizos) y [Misiones Online](https://misionesonline.net/2026/10/24/temporal-en-misiones-mas-evacuados-viviendas-danadas). Actualización del 26 de octubre: Chaco según el reporte oficial citado por [Perfil](https://www.perfil.com/noticias/nea/la-crecida-en-chaco-mantiene-a-mas-de-2000-personas-fuera-de-sus-viviendas.phtml); Corrientes según [Noticias de la Calle](https://www.noticiasdelacalle.com.ar/noticias/2026/10/25/203175-mas-de-1400-evacuados-en-corrientes-y-la-armada-se-sumo-al-operativo-de-asistencia); Misiones según [Canal 12 Misiones](https://www.canal12misiones.com/informacion-general/crecida-rios-el-nino-14-pasos-fronterizos-evacuados-misiones). Actualización del 30 de octubre: Chaco según el parte oficial citado por [Perfil](https://perfil.com/nea/inundaciones-en-chaco-2.239-personas-dejaron-sus-casas-por-la-crecida-de-los-rios-anGoB6g1QKvC)."
  },
  "alertas_smn": {
-  "fecha": "2026-11-23",
-  "texto": "lunes 23 de noviembre",
+  "fecha": "2026-11-24",
+  "texto": "martes 24 de noviembre",
   "prov": {
-   "Córdoba": {
-    "nivel": "amarilla",
-    "fen": "Tormentas fuertes o severas con granizo y ráfagas (30 a 70 mm en zonas bajas de Calamuchita y Santa María)"
+   "Chaco": {
+    "nivel": "naranja",
+    "fen": "Tormentas fuertes o severas con ráfagas de hasta 90 km/h, granizo y 70 a 100 mm"
    },
-   "San Luis": {
-    "nivel": "amarilla",
-    "fen": "Tormentas con granizo y ráfagas (20 a 40 mm en Coronel Pringles y General Pedernera)"
+   "Formosa": {
+    "nivel": "naranja",
+    "fen": "Tormentas fuertes o severas con ráfagas de hasta 90 km/h, granizo y 70 a 100 mm"
    },
-   "La Rioja": {
-    "nivel": "amarilla",
-    "fen": "Tormentas fuertes o severas con granizo y ráfagas"
+   "Corrientes": {
+    "nivel": "naranja",
+    "fen": "Tormentas fuertes o severas con ráfagas de hasta 90 km/h, granizo y 70 a 100 mm"
    },
-   "Mendoza": {
-    "nivel": "amarilla",
-    "fen": "Tormentas fuertes o severas con granizo y ráfagas"
+   "Misiones": {
+    "nivel": "naranja",
+    "fen": "Tormentas fuertes o severas con ráfagas de hasta 90 km/h, granizo y 70 a 100 mm"
    },
    "Salta": {
     "nivel": "amarilla",
-    "fen": "Tormentas (30 a 70 mm, madrugada y mañana)"
+    "fen": "Tormentas (30 a 70 mm) en el este"
+   },
+   "Jujuy": {
+    "nivel": "amarilla",
+    "fen": "Tormentas (30 a 70 mm)"
+   },
+   "Santiago del Estero": {
+    "nivel": "amarilla",
+    "fen": "Tormentas (30 a 70 mm)"
+   },
+   "Catamarca": {
+    "nivel": "amarilla",
+    "fen": "Tormentas con ráfagas y granizo (madrugada y mañana, once departamentos)"
+   },
+   "La Rioja": {
+    "nivel": "amarilla",
+    "fen": "Tormentas (30 a 70 mm)"
+   },
+   "Córdoba": {
+    "nivel": "amarilla",
+    "fen": "Tormentas con granizo y ráfagas (30 a 70 mm)"
+   },
+   "Santa Fe": {
+    "nivel": "amarilla",
+    "fen": "Tormentas (30 a 70 mm)"
+   },
+   "Entre Ríos": {
+    "nivel": "amarilla",
+    "fen": "Tormentas (30 a 70 mm)"
+   },
+   "Buenos Aires": {
+    "nivel": "amarilla",
+    "fen": "Tormentas en el cordón balneario y viento con ráfagas de más de 90 km/h en el extremo sur"
+   },
+   "Río Negro": {
+    "nivel": "amarilla",
+    "fen": "Viento del oeste o sudoeste de 40 a 70 km/h con ráfagas de más de 90 km/h"
    },
    "Chubut": {
     "nivel": "amarilla",
-    "fen": "Viento del oeste de 40 a 70 km/h con ráfagas de más de 90 km/h en el sur"
+    "fen": "Viento del oeste o sudoeste de 40 a 70 km/h con ráfagas de más de 90 km/h"
    },
    "Santa Cruz": {
     "nivel": "amarilla",
-    "fen": "Viento del oeste de 40 a 70 km/h con ráfagas de más de 90 km/h"
+    "fen": "Viento del oeste o sudoeste de 40 a 70 km/h con ráfagas de más de 90 km/h"
+   },
+   "Tierra del Fuego": {
+    "nivel": "amarilla",
+    "fen": "Viento del oeste o sudoeste de 40 a 70 km/h con ráfagas de más de 90 km/h"
    }
   },
-  "fuente": "[La Nación, 23 nov](https://www.lanacion.com.ar/sociedad/hay-alerta-amarilla-por-tormentas-y-vientos-para-este-lunes-23-de-noviembre-las-provincias-afectadas-nid23112026/) · [El Cronista, 23 nov](https://www.cronista.com/informacion-gral/se-aproxima-una-gran-tormenta-el-lunes-23-de-noviembre-el-smn-confirmo-alerta-amarilla-por-constantes-lluvias-fuerte-actividad-electrica-y-caida-de-granizo-en-cordoba-y-san-luis/) · [Hola Salta, 23 nov](https://holasalta.com/post/alerta-amarilla-por-tormentas-en-salta-que-zonas-y-horarios-afectara-el-fenomeno/) · [SMN, alertas](https://www.smn.gob.ar/alertas)"
+  "fuente": "[La Nación vía Yahoo Noticias, 24 nov](https://es-us.noticias.yahoo.com/alertas-naranja-amarilla-tormentas-vientos-030100995.html) · [El Cronista (Misiones), 24 nov](https://www.cronista.com/informacion-gral/se-aproxima-una-fuerte-tormenta-el-martes-24-de-noviembre-alerta-amarilla-por-abundantes-lluvias-de-hasta-70mm-actividad-electrica-y-ocasional-caida-de-granizo-en-misiones/) · [El Esquiú (Catamarca), 23 nov](https://www.elesquiu.com/sociedad/2026/11/23/rige-una-alerta-amarilla-por-tormentas-para-la-madrugada-de-este-martes-en-catamarca-604527.html) · [Jujuy al Día, 24 nov](https://www.jujuyaldia.com.ar/2026/11/24/jujuy-rige-alerta-amarilla-por-tormentas-para-varias-localidades/) · [SMN, alertas](https://www.smn.gob.ar/alertas)"
  },
  "rutas": {
   "nota": "**No se encontró un parte oficial consolidado de rutas cortadas por la crecida.** Lista armada con notas de prensa; antes de viajar consultá a Vialidad Nacional, Vialidad provincial o la policía caminera.",
@@ -12212,6 +12381,18 @@
    ],
    "muertes": 4,
    "evac": "~4.610"
+  },
+  {
+   "v": 44,
+   "fecha": "2026-11-24",
+   "resumen": "Rosario queda a 1 cm de la alerta, cuatro puertos del Paraná siguen sobre la evacuación y rige alerta naranja por tormentas en el NEA.",
+   "prob": [
+    40,
+    45,
+    15
+   ],
+   "muertes": 4,
+   "evac": "~4.610"
   }
  ],
  "tormentas": {
@@ -12970,8 +13151,9 @@
     "provs": "Cinturón de Santa Fe, Misiones, Corrientes",
     "estado": "dano",
     "amenaza": "Suelos saturados, viento y granizo sobre invernáculos",
-    "resumen": "El cinturón hortícola de Santa Fe perdió casi toda la verdura de hoja en abril y en Misiones el viento y el granizo destruyeron invernáculos. Es la economía regional que más rápido llega al precio.",
+    "resumen": "El cinturón hortícola de Santa Fe perdió casi toda la verdura de hoja en abril, en Misiones el viento y el granizo destruyeron invernáculos y ahora se estima una pérdida de cerca del 80% en la sandía. Es la economía regional que más rápido llega al precio.",
     "hoy": [
+     "**23 nov, Misiones:** se estiman **pérdidas de cerca del 80% en la cosecha de sandía** por exceso de agua, granizo y noches frías, con daños también en melón y pepino; podría subir el precio. [Infobae, 23 nov](https://www.infobae.com/politica/2026/11/24/el-nino-santa-fe-y-parana-estan-en-situacion-de-evacuacion-y-rosario-se-acerca-al-nivel-de-alerta/)",
      "**Octubre, Aristóbulo del Valle (Misiones):** el temporal dañó invernaderos de verdura de al menos cuatro familias productoras, según el intendente. [Primera Edición](https://www.primeraedicion.com.ar/nota/101153889/temporal-aristobulo-del-valle-familias-afectadas-sin-luz/)",
      "**Gran Santa Fe (abril):** la Sociedad de Quinteros estimó pérdidas de cerca de **90%** en Recreo, Monte Vera, Ángel Gallardo y Gobernador Candiotti, sobre todo en verdura de hoja. La lechuga duplicó su precio en pocos días. Es una estimación del sector, no un dato oficial. [Elonce, 20 abr](https://www.elonce.com/uid-871755)",
      "**Misiones (octubre):** feriantes de Oberá contaron invernáculos destruidos por viento y granizo y plantas podridas en lotes sin drenaje. [iProfesional, 16 oct](https://www.iprofesional.com/economia/466721-como-impacta-el-super-nino-en-yerba-tabaco-frutas-y-verduras)",
