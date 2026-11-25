@@ -8,6 +8,12 @@ Baja la página de AgroENSO (para leer la versión de los datos y la clasificaci
 los archivos d/ar_depto, d/ar_provincia y d/ar_pais (.stats.json y .geo.json), y reescribe rindes.json.
 Hace falta acceso a agroenso.netlify.app. No se corre todos los días: solo si los autores publican
 datos nuevos (cambia la versión, que queda en rindes.json["version"]).
+
+Campañas: AgroENSO rotula cada dato con el año de siembra; acá se escribe como campaña
+("2025" = "2025/26"). Cada fila guarda desde/hasta (primera y última campaña con dato), la última
+campaña observada y la anterior (rinde sin corregir, kg/ha cosechada, del MAGyP vía AgroENSO) y su
+variación. rindes.json["campana_actual"] es la campaña más nueva con dato en el país y
+rindes.json["fases_campanas"] lista qué campañas fueron Niño, neutrales y Niña.
 """
 import json,re,math,sys,os,urllib.request,tempfile
 RAIZ=os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -45,6 +51,8 @@ def path(geom):
                 if p!=last:q.append(p);last=p
             if len(q)>=3: out.append('M'+'L'.join(f'{a:g} {b:g}' for a,b in q)+'Z')
     return ''.join(out)
+def camp(y):
+    return f'{y}/{str(y+1)[2:]}'
 def fila(d):
     sc=d.get('sc') or [];m=d.get('overall_mean')
     if m is None:return None
@@ -58,16 +66,31 @@ def fila(d):
     dic=dict((BASE+x,v) for x,v in sc)
     for y in FUERTES: f.append(round((dic[y]/m-1)*100,1) if y in dic and m else None)
     r+=[f, d.get('r'), d.get('rp')]
+    # campañas: primera y última con dato, última observada frente a la anterior (rinde sin corregir)
+    raw=sorted(d.get('raw_sc') or sc)
+    if raw:
+        u=raw[-1];prev=dict(raw).get(u[0]-1)
+        r+=[camp(BASE+raw[0][0]), camp(BASE+u[0]), [camp(BASE+u[0]), round(u[1])],
+            ([camp(BASE+u[0]-1), round(prev)] if prev else None),
+            (round((u[1]/prev-1)*100,1) if prev else None)]
+    else:
+        r+=[None,None,None,None,None]
     return r
 def bloque(nivel):
     S_=json.load(open(os.path.join(B,'d',f'ar_{nivel}.stats.json')))
     return {uid:{c:fila(v[c]) for c in CROPS if c in v and fila(v[c])} for uid,v in S_.items()}
 dep=bloque('depto');prov=bloque('provincia');pais=bloque('pais')['PAIS']
 R={'version':VER,'fuertes':FUERTES,'w':W,'h':H,'cultivos':CROPS,
-   'campos':['promedio','campanas','nino_dif','nino_n','nino_p','nino_sobre','neutral_dif','neutral_n','neutral_p','neutral_sobre','nina_dif','nina_n','nina_p','nina_sobre','fuertes','r','p_r'],
+   'campos':['promedio','campanas','nino_dif','nino_n','nino_p','nino_sobre','neutral_dif','neutral_n','neutral_p','neutral_sobre','nina_dif','nina_n','nina_p','nina_sobre','fuertes','r','p_r','desde','hasta','ult','ant','var'],
    'provs':[{'id':f['properties']['id'],'n':f['properties']['nombre'],'d':path(f['geometry'])} for f in gp['features']],
    'deptos':[{'id':f['properties']['id'],'n':f['properties']['nombre'],'p':f['properties']['parent'],'d':path(f['geometry'])} for f in gd['features']],
    'datos':{'pais':pais,'prov':prov,'depto':dep}}
+_ult=[int(v[18][:4]) for v in pais.values() if v[18]]
+_hasta=max(_ult) if _ult else BASE
+R['campana_actual']=camp(_hasta)
+R['fuertes_campanas']=[camp(y) for y in FUERTES]
+R['fases_campanas']={f:[camp(y) for y in range(BASE,_hasta+1) if YE.get(y)==i] for i,f in enumerate(['nino','neutral','nina'])}
+R['nota_campanas']='Cada campaña se nombra por su año de siembra: 2025/26 es la sembrada en 2025. Trigo y cebada se cosechan en diciembre del mismo año; maíz, soja y girasol, entre marzo y julio del año siguiente.'
 s=json.dumps(R,ensure_ascii=False,separators=(',',':'))
 open(OUT,'w',encoding='utf8').write(s)
 print('w,h',W,H,'fuertes',FUERTES,'bytes',len(s.encode()),'deptos',len(R['deptos']),'provs',len(R['provs']))

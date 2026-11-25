@@ -121,6 +121,25 @@ section.blk>.wrap{display:flex;flex-direction:column;gap:22px}
 .kpis.full{grid-auto-rows:auto}
 .kpis.full .kpi .d{display:block;-webkit-line-clamp:none;line-clamp:none;overflow:visible}
 .kpis.full .kpi .s{display:block}
+/* otros rubros y campañas de los rindes */
+.rdf .pos{color:var(--ok)}.rdf .neg{color:var(--evac)}
+.rdcamp summary{cursor:pointer;font-size:.84rem;color:var(--accent);font-weight:600}
+.rdcamp summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+.rdcamp p{margin-top:6px;line-height:1.5}
+.rbgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));grid-auto-rows:1fr;gap:12px}
+.rbc{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;display:flex;flex-direction:column;gap:9px;min-width:0}
+.rbc .eyebrow{font-size:.72rem}
+.rbv{display:flex;flex-direction:column;gap:3px}
+.rbv b{font:700 1.65rem/1.1 var(--f-data)}
+.rbd{display:flex;flex-direction:column;gap:10px}
+.rbd+.rbd{border-top:1px solid var(--line);padding-top:16px;margin-top:6px}
+.rbd h4{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:1.05rem}
+.rbd .lb{font-size:.84rem;font-weight:700}
+.rbd td.nw{white-space:nowrap}
+@media (max-width:560px){.rbgrid{grid-auto-rows:auto}}
+.rdkey .rdku{display:none}
+.rdkey[data-m="ult"] .rdku{display:inline-flex}
+.rdkey[data-m="ult"] .rdks{display:none}
 /* mapa de los ríos y sus puertos */
 :root{--r-parana:#1F63C6;--r-uruguay:#18A3AD;--r-paraguay:#9C7A17;--r-iguazu:#D55181}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--r-parana:#3F7EDD;--r-uruguay:#17A8AE;--r-paraguay:#B3891F;--r-iguazu:#DC5E86}}
@@ -622,7 +641,7 @@ ul.plain.g2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,3
     <div class="brand"><span class="bt"><b>Súper Niño · Argentina</b><small class="sub">Alerta hídrica · Fenómeno ENSO en la Argentina y el mundo</small></span><span class="stamp" id="stamp"><span class="dot"></span>Cargando datos…</span></div>
     <button class="navbtn" id="navbtn" type="button" aria-expanded="false" aria-controls="idx"><span class="k">Estás en:</span><span class="c" id="navcur">Hoy</span></button>
     <div class="navrow" id="navrow"><button class="navar l" type="button" aria-label="Ver secciones anteriores">‹</button><nav class="idx" id="idx" aria-label="Secciones">
-      <a href="#hoy">Hoy</a><a href="#rios">Ríos</a><a href="#mapa">Provincias</a><a href="#zonas">Zonas y ciudades</a><a href="#tormentas">Tormentas</a><a href="#nino">El Niño</a><a href="#lluvias">Lluvias</a><a href="#mundo">Mundo</a><a href="#escenarios">Escenarios</a><a href="#impacto">Impacto y fondos</a><a href="#economias">Economías regionales</a><a href="#calendario">Calendario</a><a href="#guia">Qué hacer</a><a href="#nacion">Nación</a><a href="#evaluacion">Evaluación</a><a href="#vigilar">Qué vigilar</a><a href="#analisis">Análisis</a><a href="#historicos">Niños históricos</a><a href="#glosario">Glosario</a><a href="#fuentes">Fuentes</a>
+      <a href="#hoy">Hoy</a><a href="#rios">Ríos</a><a href="#mapa">Provincias</a><a href="#zonas">Zonas y ciudades</a><a href="#tormentas">Tormentas</a><a href="#nino">El Niño</a><a href="#lluvias">Lluvias</a><a href="#mundo">Mundo</a><a href="#escenarios">Escenarios</a><a href="#impacto">Impacto y fondos</a><a href="#economias">Economías regionales</a><a href="#rubros">Otros rubros</a><a href="#calendario">Calendario</a><a href="#guia">Qué hacer</a><a href="#nacion">Nación</a><a href="#evaluacion">Evaluación</a><a href="#vigilar">Qué vigilar</a><a href="#analisis">Análisis</a><a href="#historicos">Niños históricos</a><a href="#glosario">Glosario</a><a href="#fuentes">Fuentes</a>
     </nav><button class="navar r" type="button" aria-label="Ver más secciones">›</button></div>
   </div>
 </header>
@@ -726,29 +745,35 @@ svg.addEventListener('pointermove',mv);svg.addEventListener('pointerdown',mv);sv
 // Rinde por fase ENSO y departamento (datos de AgroENSO: Monzon, Aramburu-Merlos y Mercau, 2026)
 function rdBloque(RD){
   return `<div class="card linked" id="rindes" style="gap:14px">
-    <span class="eyebrow" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">Qué dice la historia · campañas 1990/91 a 2025/26${lnk('rindes')}</span>
+    <span class="eyebrow" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">Qué dice la historia · campañas 1990/91 a ${esc(RD.campana_actual||'2025/26')}${lnk('rindes')}</span>
     <h3 style="font-size:1.45rem">El rinde en años Niño, neutrales y Niña, departamento por departamento</h3>
     <p class="small">Cuánto rindió cada cultivo en las campañas con El Niño, neutrales y con La Niña, comparado con su promedio y ya descontada la mejora tecnológica. Es lo que pasó en las últimas 35 campañas, no un pronóstico.</p>
     <div class="rdres" id="rdres"></div>
     <div style="display:flex;flex-direction:column;gap:8px">
       <div class="where" id="rdcul" role="group" aria-label="Cultivo">${RD.cultivos.map((c,i)=>`<button type="button" data-c="${esc(c)}" aria-pressed="${i===0}">${esc(rdNom(c))}</button>`).join('')}</div>
-      <div class="toggle" id="rdfase" role="group" aria-label="Fase del Pacífico"><button type="button" data-f="nino" aria-pressed="true">Años Niño</button><button type="button" data-f="neutral" aria-pressed="false">Neutrales</button><button type="button" data-f="nina" aria-pressed="false">Años Niña</button></div>
+      <div class="toggle" id="rdfase" role="group" aria-label="Qué mostrar en el mapa"><button type="button" data-f="nino" aria-pressed="true">Años Niño</button><button type="button" data-f="neutral" aria-pressed="false">Neutrales</button><button type="button" data-f="nina" aria-pressed="false">Años Niña</button><button type="button" data-f="ult" aria-pressed="false">Última campaña</button></div>
     </div>
     <div class="zgrid"><div class="zmap rdmap">
       <p class="hint">Tocá un departamento para ver su ficha <span class="ar-d">→</span><span class="ar-m">↓</span></p>
       <svg id="rdmap" viewBox="0 0 ${RD.w} ${RD.h}" role="img" aria-label="Mapa de departamentos agrícolas con la diferencia de rinde por fase"></svg>
-      <div><span class="small muted" id="rdlegt"></span><div class="rdleg" id="rdleg"></div><div class="rdlegl"><span>−20% o menos</span><span>igual</span><span>+20% o más</span></div></div>
-      <div class="rdkey"><span><i style="background:var(--rd0);border:2px solid var(--rdsig)"></i>Diferencia significativa</span><span><i class="rdhatch"></i>Pocas campañas</span><span><i style="background:transparent;border:1px solid var(--line)"></i>Sin el cultivo</span></div>
+      <div><span class="small muted" id="rdlegt"></span><div class="rdleg" id="rdleg"></div><div class="rdlegl" id="rdlegl"><span>−20% o menos</span><span>igual</span><span>+20% o más</span></div></div>
+      <div class="rdkey" id="rdkey"><span class="rdks"><i style="background:var(--rd0);border:2px solid var(--rdsig)"></i>Diferencia significativa</span><span class="rdks"><i class="rdhatch"></i>Pocas campañas</span><span class="rdku"><i style="background:var(--nd-soft)"></i>Sin dato de esa campaña</span><span><i style="background:transparent;border:1px solid var(--line)"></i>Sin el cultivo</span></div>
       <label class="small muted" for="rdsel">Elegir departamento</label>
       <select id="rdsel" class="provsel"></select>
     </div>
     <div class="rdcol" style="display:flex;flex-direction:column;gap:14px;min-width:0"><div class="ficha linked rdf" id="rdficha" aria-live="polite"></div>
       <div class="rdprovbox"><h3 style="margin-bottom:8px">Por provincia</h3><div class="tw rt rdscroll"><table class="rt rdtab" id="rdprov"></table></div>
       <p class="small muted" style="margin-top:6px">En negrita, las diferencias significativas. Tocá una provincia para ver su ficha.</p></div></div></div>
-    <p class="small muted">Datos: <a href="https://agroenso.netlify.app" target="_blank" rel="noopener">AgroENSO</a> (Monzon, Aramburu-Merlos y Mercau, CONICET-UNMdP e INTA, 2026), con los rindes por departamento de las Estimaciones Agrícolas del Ministerio de Agricultura (campañas 1990/91 a 2025/26), corregidos por la mejora tecnológica, y el índice ONI de NOAA de octubre a diciembre para clasificar cada campaña. Diferencia significativa: test de Wilcoxon, p &lt; 0,05. Los departamentos con menos de 10 campañas con dato quedan sin análisis. Los autores aclaran que no es un pronóstico de rinde y que el resultado de cada lote depende también del agua en el suelo, la napa, el tipo de suelo y la posición en el paisaje. La fila de Niños muy fuertes (ONI de oct-dic de 2 °C o más) es cálculo propio con los mismos datos.</p>
+    <p class="small muted">Datos: <a href="https://agroenso.netlify.app" target="_blank" rel="noopener">AgroENSO</a> (Monzon, Aramburu-Merlos y Mercau, CONICET-UNMdP e INTA, 2026), con los rindes por departamento de las Estimaciones Agrícolas del Ministerio de Agricultura (${esc(rdRango(RD))}), corregidos por la mejora tecnológica, y el índice ONI de NOAA de octubre a diciembre para clasificar cada campaña. Diferencia significativa: test de Wilcoxon, p &lt; 0,05. Los departamentos con menos de 10 campañas con dato quedan sin análisis. Los autores aclaran que no es un pronóstico de rinde y que el resultado de cada lote depende también del agua en el suelo, la napa, el tipo de suelo y la posición en el paisaje. La fila de Niños muy fuertes (ONI de oct-dic de 2 °C o más) y la comparación de la última campaña con la anterior (con el rinde observado, sin corregir) son cálculo propio con los mismos datos. ${esc(RD.nota_campanas||'')}</p>
   </div>`;
 }
 function rdNom(c){return ({'Soja 1ra':'Soja de primera','Soja 2da':'Soja de segunda'})[c]||c}
+function rdRango(RD){const P=(RD.datos||{}).pais||{},iH=RD.campos.indexOf('hasta'),iD=RD.campos.indexOf('desde');if(iH<0)return 'campañas 1990/91 a 2025/26';
+  const g={};RD.cultivos.forEach(c=>{const r=P[c];if(r&&r[iH])(g[r[iH]]=g[r[iH]]||[]).push(c)});
+  const ks=Object.keys(g).sort().reverse(),d0=RD.cultivos.map(c=>P[c]&&P[c][iD]).filter(Boolean).sort()[0]||'1990/91';
+  const nom=l=>[...new Set(l.map(c=>c.startsWith('Soja')?'soja':c.toLowerCase()))].join(', ').replace(/, ([^,]*)$/,' y $1');
+  if(ks.length<2)return `campañas ${d0} a ${ks[0]||'2025/26'}`;
+  return `campañas ${d0} a ${ks[0]} en ${nom(g[ks[0]])}; ${ks.slice(1).map(k=>`a ${k} en ${nom(g[k])}`).join('; ')}`}
 function initRindes(PX){
   const RD=PX.rd;if(!RD||!$('#rdmap'))return;
   const I=Object.fromEntries(RD.campos.map((k,i)=>[k,i]));
@@ -762,6 +787,13 @@ function initRindes(PX){
   const COLS=['var(--b4)','var(--b3)','var(--b2)','var(--b1)','var(--rd0)','var(--a1)','var(--a2)','var(--a3)','var(--a4)'];
   const col=v=>v==null?null:COLS[v<=-20?0:v<=-12?1:v<=-7?2:v<=-3?3:v<3?4:v<7?5:v<12?6:v<20?7:8];
   const camp=y=>`${y}/${String(y+1).slice(2)}`;
+  // campañas: última observada frente a la anterior (campos nuevos de rindes.json)
+  const iU=I.ult,iA=I.ant,iV=I.var,iH=I.hasta,iDe=I.desde,tieneU=iU!=null;
+  const ULT=c=>{const r=RD.datos.pais[c];return r&&tieneU&&r[iU]?r[iU][0]:null};
+  const ANT=l=>{if(!l)return null;const y=+l.slice(0,4);return `${y-1}/${String(y).slice(2)}`};
+  const ultR=(r,c)=>r&&tieneU&&r[iU]&&r[iA]&&r[iU][0]===ULT(c)?r:null;
+  const colU=v=>v==null?null:COLS[v<=-40?0:v<=-25?1:v<=-15?2:v<=-5?3:v<5?4:v<15?5:v<25?6:v<40?7:8];
+  if(!tieneU){const b=document.querySelector('#rdfase [data-f="ult"]');if(b)b.remove()}
   const row=(nv,id,c)=>{const D=RD.datos;const o=nv==='pais'?D.pais:(nv==='prov'?D.prov[id]:D.depto[id]);return o?o[c]||null:null};
   const ok=r=>r&&r[I.campanas]>=10;
   const sigf=(r,f)=>ok(r)&&r[I[f+'_p']]!=null&&r[I[f+'_p']]<0.05;
@@ -772,6 +804,14 @@ function initRindes(PX){
   $('#rdleg').innerHTML=COLS.map(c=>`<i style="background:${c}"></i>`).join('');
   $('#rdsel').innerHTML='<option value="">Elegí un departamento…</option>'+[...new Set(RD.deptos.map(d=>d.p))].sort((a,b)=>a.localeCompare(b,'es')).map(p=>`<optgroup label="${esc(p)}">${RD.deptos.filter(d=>d.p===p).sort((a,b)=>a.n.localeCompare(b.n,'es')).map(d=>`<option value="${d.id}">${esc(d.n)}</option>`).join('')}</optgroup>`).join('');
   const paint=()=>{
+    $('#rdkey').dataset.m=fase==='ult'?'ult':'';
+    if(fase==='ult'){const U=ULT(cul),A=ANT(U);$('#rdlegt').textContent=`${rdNom(cul)}: campaña ${U} frente a ${A}, rinde observado`;$('#rdlegl').innerHTML='<span>−40% o menos</span><span>igual</span><span>+40% o más</span>';
+      paths.forEach(p=>{const d=DP[p.dataset.d],r=row('depto',d.id,cul),u=ultR(r,cul);let f='transparent',t=`${d.n} (${d.p}): sin ${rdNom(cul).toLowerCase()} en la serie`;
+        if(r&&!u){f='var(--nd-soft)';t=`${d.n} (${d.p}): sin dato de ${U}${r[iU]?` (el último es de ${r[iU][0]})`:''}`}
+        else if(u){f=colU(u[iV])||'var(--nd-soft)';t=`${d.n} (${d.p}): ${fmt(u[iU][1])} kg/ha en ${U} frente a ${fmt(u[iA][1])} en ${A} (${fp(u[iV])})`}
+        p.style.fill=f;p.firstChild.textContent=t});
+      $('#rdsg').innerHTML='';$('#rdsl').innerHTML=sel.nv==='depto'&&DP[sel.id]?`<path class="rdsel" d="${DP[sel.id].d}"/>`:'';return}
+    $('#rdlegl').innerHTML='<span>−20% o menos</span><span>igual</span><span>+20% o más</span>';
     $('#rdlegt').textContent=`${rdNom(cul)} en ${FL[fase]}: rinde frente a su promedio`;
     let sg='';
     paths.forEach(p=>{const d=DP[p.dataset.d],r=row('depto',d.id,cul);let f='transparent',t=`${d.n} (${d.p}): sin ${rdNom(cul).toLowerCase()} en la serie`;
@@ -783,10 +823,12 @@ function initRindes(PX){
   };
   const provTabla=()=>{
     const ids=Object.keys(RD.datos.prov).filter(id=>row('prov',id,cul));
-    ids.sort((a,b)=>{const x=row('prov',a,cul),y=row('prov',b,cul);return (y[I[fase+'_dif']]??-999)-(x[I[fase+'_dif']]??-999)});
+    const key=r=>fase==='ult'?((ultR(r,cul)||[])[iV]??-999):(r[I[fase+'_dif']]??-999);
+    ids.sort((a,b)=>key(row('prov',b,cul))-key(row('prov',a,cul)));
+    const U=ULT(cul),celU=r=>{if(!tieneU||!U)return '';const u=ultR(r,cul);return `<td class="il${u&&fase==='ult'?' sig':''}" data-l="${U} frente a ${ANT(U)}">${u?fp(u[iV]):'—'}</td>`};
     const cel=(r,f)=>!ok(r)?`<td class="nsig il" data-l="${FN[f]}">—</td>`:`<td class="${sigf(r,f)?'sig':'nsig'} il" data-l="${FN[f]}">${fp(r[I[f+'_dif']])}</td>`;
-    const tr=(nv,id,n)=>{const r=row(nv,id,cul);return `<tr data-nv="${nv}" data-id="${id}" tabindex="0" class="${sel.nv===nv&&sel.id===id?'on':''}"><td data-l="Provincia"><strong>${esc(n)}</strong></td>${cel(r,'nino')}${cel(r,'neutral')}${cel(r,'nina')}</tr>`};
-    $('#rdprov').innerHTML=`<thead><tr><th>Provincia</th><th>Años Niño</th><th>Neutrales</th><th>Años Niña</th></tr></thead><tbody>${row('pais','PAIS',cul)?tr('pais','PAIS','Argentina (total)'):''}${ids.map(id=>tr('prov',id,PV[id]||id)).join('')}</tbody>`;
+    const tr=(nv,id,n)=>{const r=row(nv,id,cul);return `<tr data-nv="${nv}" data-id="${id}" tabindex="0" class="${sel.nv===nv&&sel.id===id?'on':''}"><td data-l="Provincia"><strong>${esc(n)}</strong></td>${cel(r,'nino')}${cel(r,'neutral')}${cel(r,'nina')}${celU(r)}</tr>`};
+    $('#rdprov').innerHTML=`<thead><tr><th>Provincia</th><th>Años Niño</th><th>Neutrales</th><th>Años Niña</th>${tieneU&&U?`<th>${U}<br><span class="small muted">frente a ${ANT(U)}</span></th>`:''}</tr></thead><tbody>${row('pais','PAIS',cul)?tr('pais','PAIS','Argentina (total)'):''}${ids.map(id=>tr('prov',id,PV[id]||id)).join('')}</tbody>`;
   };
   const ficha=()=>{
     const r=row(sel.nv,sel.id,cul);let ey,nm,extra='';
@@ -795,14 +837,18 @@ function initRindes(PX){
     else{const d=DP[sel.id];ey='Departamento · '+d.p;nm=d.n;const pid=sel.id.slice(0,2);if(RD.datos.prov[pid])extra=`<button class="chipbtn" type="button" data-nv="prov" data-id="${pid}">Ver ${esc(PV[pid]||d.p)}</button>`}
     if(sel.nv!=='pais')extra+=`<button class="chipbtn" type="button" data-nv="pais" data-id="PAIS">Ver Argentina</button>`;
     const hd=`<div class="rdhd"><span class="eyebrow">${esc(ey)}</span><div class="t"><h3>${esc(nm)}</h3><span class="tag t-acc">${esc(rdNom(cul))}</span></div></div>`;
+    const U_=ULT(cul),u_=r&&tieneU?r[iU]:null,a_=r&&tieneU?r[iA]:null;
+    const ultRow=!u_?'':`<div class="row in"><span class="lbl">Última campaña</span><p><strong>${u_[0]}: ${fmt(u_[1])} kg/ha</strong>${a_?` frente a ${fmt(a_[1])} kg/ha en ${a_[0]} <strong class="${r[iV]>0?'pos':r[iV]<0?'neg':''}">(${fp(r[iV])})</strong>`:' <span class="small muted">sin dato de la campaña anterior</span>'}${U_&&u_[0]!==U_?` <span class="small muted">· sin dato de ${U_}</span>`:''}${U_&&RD.campana_actual&&U_!==RD.campana_actual?` <span class="small muted">· la campaña ${RD.campana_actual} todavía no está en la base</span>`:''}</p></div>`;
     let body;
     if(!r)body=`<p class="muted">Sin ${esc(rdNom(cul).toLowerCase())} en la serie de este lugar.</p>`;
-    else if(!ok(r))body=`<p class="muted">Solo ${r[I.campanas]} campañas con dato: muy pocas para comparar entre fases.</p>`;
+    else if(!ok(r))body=`<p class="muted">Solo ${r[I.campanas]} campañas con dato: muy pocas para comparar entre fases.</p>${ultRow}`;
     else{
       const fila=f=>{const v=r[I[f+'_dif']],s=sigf(r,f);return `<tr><td data-l="Fase"><span class="ph"><i style="background:${FC[f]}"></i>${FN[f]}</span></td><td class="il ${s?(v>0?'pos':'neg'):''}" data-l="Frente al promedio">${fp(v)}</td><td class="il" data-l="Campañas sobre el promedio">${r[I[f+'_sobre']]} de ${r[I[f+'_n']]}</td><td class="il" data-l="Significativa">${s?'Sí':'No'}<span class="small muted"> · ${fpp(r[I[f+'_p']])}</span></td></tr>`};
-      const fu=r[I.fuertes]||[];
-      body=`<div class="row in"><span class="lbl">Rinde promedio</span><p><strong>${fmt(r[I.promedio])} kg/ha</strong> <span class="small muted">llevado al nivel tecnológico actual · ${r[I.campanas]} campañas con dato</span></p></div>
+      const fu=r[I.fuertes]||[],FC_=RD.fases_campanas;
+      body=`<div class="row in"><span class="lbl">Rinde promedio</span><p><strong>${fmt(r[I.promedio])} kg/ha</strong> <span class="small muted">llevado al nivel tecnológico actual · ${r[I.campanas]} campañas con dato${tieneU&&r[iDe]?`, de ${r[iDe]} a ${r[iH]}`:''}</span></p></div>
+        ${ultRow}
         <div class="tw rt"><table class="rt"><thead><tr><th>Fase</th><th>Frente al promedio</th><th>Campañas sobre el promedio</th><th>Significativa</th></tr></thead><tbody>${fila('nino')}${fila('neutral')}${fila('nina')}</tbody></table></div>
+        ${FC_?`<details class="rdcamp"><summary>Qué campañas fueron Niño, neutrales y Niña</summary><p class="small">${['nino','neutral','nina'].map(f=>`<strong>${FN[f]}:</strong> ${(FC_[f]||[]).join(', ')}`).join('<br>')}</p><p class="small muted">${esc(RD.nota_campanas||'')} Clasificación de AgroENSO con el índice ONI de octubre a diciembre.</p></details>`:''}
         <div class="rd2"><div class="row"><span class="lbl">Los tres Niños muy fuertes del período</span><p>${RD.fuertes.map((y,i)=>`${camp(y)}: <strong>${fp(fu[i])}</strong>`).join(' · ')}</p><p class="small muted">Cada campaña por separado, frente al promedio. Son solo tres casos, sin test estadístico.</p></div>
         <div class="row"><span class="lbl">Relación con la temperatura del Pacífico</span><p class="small">Correlación entre el rinde y el índice ONI de octubre a diciembre: r = ${r[I.r]==null?'—':r[I.r].toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})}${r[I.p_r]==null?'':(r[I.p_r]<0.05?' (significativa)':' (no significativa)')}.</p></div></div>`;
     }
@@ -810,6 +856,9 @@ function initRindes(PX){
   };
   const resumen=()=>{
     const P=RD.datos.pais,L=[];
+    if(tieneU&&RD.campana_actual){const CA=RD.campana_actual,nu=RD.cultivos.filter(c=>P[c]&&P[c][iU]&&P[c][iU][0]===CA&&P[c][iA]),vi=RD.cultivos.filter(c=>P[c]&&P[c][iU]&&P[c][iU][0]!==CA);
+      const y=l=>l.join(', ').replace(/, ([^,]*)$/,' y $1');
+      if(nu.length)L.push(`**Campaña ${CA} frente a ${ANT(CA)} en el país (rinde observado):** ${y(nu.map(c=>`${rdNom(c).toLowerCase()} **${fp(P[c][iV])}** (${fmt(P[c][iU][1])} kg/ha)`))}.${vi.length?` En ${y(vi.map(c=>rdNom(c).toLowerCase()))} la última campaña con dato todavía es la ${y([...new Set(vi.map(c=>P[c][iU][0]))])}: ${y(vi.map(c=>`${rdNom(c).toLowerCase()} ${fp(P[c][iV])}`))} frente a la anterior. La ${CA} se suma sola cuando se publica.`:''}`)}
     ['Maíz','Soja 1ra','Soja 2da'].forEach(c=>{const r=P[c];if(!r)return;
       L.push(`**${rdNom(c)}:** en las ${r[I.nino_n]} campañas Niño rindió en promedio **${fp(r[I.nino_dif])}** frente a lo normal y quedó por encima en **${r[I.nino_sobre]} de ${r[I.nino_n]}**${sigf(r,'nino')?'':' (diferencia no significativa)'}. En las ${r[I.nina_n]} campañas Niña, **${fp(r[I.nina_dif])}**${sigf(r,'nina')?'':' (no significativa)'}, por encima en ${r[I.nina_sobre]} de ${r[I.nina_n]}.`)});
     const sin=RD.cultivos.filter(c=>P[c]&&!['nino','neutral','nina'].some(f=>sigf(P[c],f))).map(c=>rdNom(c).toLowerCase());
@@ -1015,6 +1064,35 @@ function render(D,M,ZG,PX){PX=PX||{};
     <div class="tw"><table><thead><tr><th>Jurisdicción</th><th>Estado</th><th>Detalle</th><th>Fuente</th></tr></thead><tbody>${EC.normas.map(n=>{const e=EC.normas_estados[n.estado]||['—','t-nd'];return `<tr><td><strong>${esc(n.jur)}</strong></td><td><span class="tag ${e[1]}">${esc(e[0])}</span></td><td>${md(n.txt)}</td><td class="small src">${md(n.fuente||'—')}</td></tr>`}).join('')}</tbody></table></div>
     <p class="small muted">${md(EC.nota)}</p>`)}
     <p><a href="#calendario" class="small">Ver el calendario de lluvias contra labores</a> · <a href="#tormentas" class="small">Ver granizo y viento</a></p>`);
+  }
+
+  // OTROS RUBROS: riesgo climático fuera del agro (datos.json["rubros"]; el río sale de datos.json["rios"])
+  const RB=D.rubros;
+  if(RB&&RB.items&&RB.items.length){
+    const NV=RB.niveles||{alto:['Riesgo alto','t-evac'],medio:['Riesgo medio','t-alert'],bajo:['Riesgo bajo','t-ok'],favorable:['Favorable','t-acc'],mixto:['Mixto','t-rise'],sin_datos:['Sin datos','t-nd']};
+    const MS=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'],fd=s=>{const d=new Date(s+'T12:00:00');return isNaN(d)?s:`${d.getDate()} ${MS[d.getMonth()]}`};
+    const auto=x=>{if(!x||!x.auto)return x||{};const [k,p]=x.auto.split(':'),r=(D.rios||[]).find(q=>q.puerto===p);
+      if(!r)return {...x,valor:'sin dato',fecha:'',ref:''};
+      if(k==='rio'){const um=[r.alerta!=null?`alerta ${fm(r.alerta)} m`:'',r.evac!=null?`evacuación ${fm(r.evac)} m`:''].filter(Boolean).join(' · ');
+        return {...x,valor:`${fm(r.altura)} m`,fecha:r.fecha,ref:um?um.charAt(0).toUpperCase()+um.slice(1)+` · ${(EST[r.estado]||EST.sin_dato)[0].toLowerCase()}`:'',fuente:x.fuente||'Prefectura e INA, en [Ríos](#rios)'}}
+      if(k==='proy'){const last=((r.hist||[]).slice(-1)[0]||[''])[0],P=(r.proy||[]).filter(q=>q[0]>last);
+        if(!P.length)return {...x,valor:'sin proyección vigente',fecha:'',ref:''};
+        const q=P[P.length-1];return {...x,valor:`${fm(q[1])} m`,fecha:fd(q[0]),ref:r.evac!=null?(q[1]>=r.evac?`Sobre la evacuación (${fm(r.evac)} m)`:`Evacuación ${fm(r.evac)} m`):'',fuente:x.fuente||'[INA](https://alerta.ina.gob.ar/a5/diario/reporte_diario)'}}
+      return x};
+    const card=it=>{const n=NV[it.nivel]||NV.sin_datos,p=auto(it.principal);
+      return `<div class="rbc"><span class="eyebrow">${esc(it.rubro)}</span><span class="tag ${n[1]}" style="align-self:flex-start">${esc(n[0])}</span>
+        <div class="rbv"><b>${esc(p.valor||'—')}</b><span class="small muted">${esc(p.nombre||'')}${p.fecha?' · '+esc(p.fecha):''}</span>${p.ref?`<span class="small">${esc(p.ref)}</span>`:''}</div>
+        <p class="small">${md(it.resumen||'')}</p></div>`};
+    const det=it=>{const n=NV[it.nivel]||NV.sin_datos,ind=(it.indicadores||[]).map(auto);
+      return `<div class="rbd" id="rb-${esc(it.id)}"><h4>${esc(it.rubro)} <span class="tag ${n[1]}">${esc(n[0])}</span></h4>
+        <div class="tw rt"><table class="rt"><thead><tr><th>Indicador</th><th>Último dato</th><th>Fecha</th><th>Referencia</th><th>Fuente</th></tr></thead><tbody>${ind.map(x=>`<tr><td data-l="Indicador"><strong>${esc(x.nombre||'')}</strong></td><td class="il" data-l="Último dato">${esc(x.valor||'—')}</td><td class="il nw" data-l="Fecha">${esc(x.fecha||'—')}</td><td class="small" data-l="Referencia">${md(x.ref||'')}</td><td class="small src" data-l="Fuente">${md(x.fuente||'—')}</td></tr>`).join('')}</tbody></table></div>
+        ${(it.riesgos||[]).length?`<div><span class="lb">Qué puede pasar</span>${ul(it.riesgos)}</div>`:''}
+        ${(it.a_favor||[]).length?`<div><span class="lb">A favor</span>${ul(it.a_favor)}</div>`:''}
+        ${it.vigilar?`<p class="small"><strong>Qué mirar:</strong> ${md(it.vigilar)}</p>`:''}</div>`};
+    h+=sect('rubros','Otros rubros','Riesgo climático fuera del agro',RB.tesis,
+      `<div class="rbgrid">${RB.items.map(card).join('')}</div>
+       ${dsp('rbdsp','Indicadores, riesgos y fuentes por rubro',`${RB.items.length} rubros: el último dato de cada indicador y de dónde sale`,RB.items.map(det).join(''))}
+       ${RB.nota?`<p class="small muted">${md(RB.nota)}</p>`:''}`);
   }
 
   // CALENDARIO

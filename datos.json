@@ -9072,6 +9072,31 @@
      "u": "https://www.infobae.com/politica/2026/11/24/el-nino-santa-fe-y-parana-estan-en-situacion-de-evacuacion-y-rosario-se-acerca-al-nivel-de-alerta/"
     }
    ]
+  },
+  {
+   "grupo": "Otros rubros (25 de noviembre)",
+   "items": [
+    {
+     "t": "INA: reporte diario de la cuenca del Plata (caudal en Yacyretá)",
+     "u": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
+    },
+    {
+     "t": "Economía Sustentable: El Niño pone en alerta al negocio eléctrico (23 oct)",
+     "u": "https://economiasustentable.com/noticias/el-nino-pone-en-alerta-al-negocio-electrico-y-expone-a-las-principales-generadoras/amp/"
+    },
+    {
+     "t": "El Economista: el verano eléctrico, con datos de CAMMESA (16 oct)",
+     "u": "https://eleconomista.com.ar/energia/el-verano-electrico-tiene-una-paradoja-podria-bajar-costo-promedio-pero-dispararse-horas-criticas-n98930"
+    },
+    {
+     "t": "Agrofy: plan de dragado de la vía navegable por la crecida (27 oct)",
+     "u": "https://news.agrofy.com.ar/noticia/216880/crecida-parana-traen-dragas-singapur-croacia-puede-pasar-hidrovia-sale-cosecha"
+    },
+    {
+     "t": "INDEC: Indicador sintético de la actividad de la construcción, septiembre de 2026",
+     "u": "https://www.indec.gob.ar/uploads/informesdeprensa/isac_11_26F4E69BED3F.pdf"
+    }
+   ]
   }
  ],
  "fuentes_extra": "Mapa: [Natural Earth](https://www.naturalearthdata.com/), dominio público.",
@@ -13766,5 +13791,213 @@
   "ultimo_cambio": null,
   "criterio": "Se revisa una vez por mes con la discusión de NOAA CPC. Súper Niño: aviso de El Niño con el ONI o el RONI en +2,0 °C o más en algún trimestre del evento.",
   "fuente": "[NOAA CPC, discusión del 12 nov](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml) · [NOAA CPC, ONI](https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt) · [NOAA CPC, RONI](https://www.cpc.ncep.noaa.gov/data/indices/RONI.ascii.txt)"
+ },
+ "rubros": {
+  "tesis": "**El agua de más ayuda a las represas y a los barcos, pero complica las obras, las redes eléctricas y la vía navegable cuando el río pasa la alerta.** Cuatro rubros fuera del campo, con su último dato.",
+  "actualizado": "2026-11-25",
+  "niveles": {
+   "alto": [
+    "Riesgo alto",
+    "t-evac"
+   ],
+   "medio": [
+    "Riesgo medio",
+    "t-alert"
+   ],
+   "bajo": [
+    "Riesgo bajo",
+    "t-ok"
+   ],
+   "favorable": [
+    "Favorable",
+    "t-acc"
+   ],
+   "mixto": [
+    "Mixto",
+    "t-rise"
+   ],
+   "sin_datos": [
+    "Sin datos",
+    "t-nd"
+   ]
+  },
+  "nota": "El nivel de cada rubro es un criterio propio de esta web a partir de sus indicadores, no una calificación oficial: **riesgo alto** si ya hay daños o interrupciones en curso, **medio** si un indicador está en alerta o un organismo prevé que la pase, **bajo** si los indicadores están normales, **favorable** si el efecto neto es positivo y **mixto** si hay efectos de los dos signos. El Paraná en Rosario, su proyección y el río Uruguay en Concordia salen de la sección [Ríos](#rios) y se actualizan solos.",
+  "items": [
+   {
+    "id": "hidro",
+    "rubro": "Generación hidroeléctrica",
+    "nivel": "mixto",
+    "resumen": "Más agua en el Litoral: Yacyretá recibe más caudal del que puede turbinar y vierte el resto. CAMMESA espera que la generación hidráulica se recupere este verano y que baje la térmica.",
+    "principal": {
+     "nombre": "Caudal que entra a Yacyretá",
+     "valor": "22.100 m³/s",
+     "fecha": "20 nov",
+     "ref": "Turbina unos 16.600 m³/s · alerta en 25.000"
+    },
+    "indicadores": [
+     {
+      "nombre": "Caudal que entra a Yacyretá",
+      "valor": "22.100 m³/s (salen 21.900)",
+      "fecha": "20 nov",
+      "ref": "Alerta en 25.000 m³/s; la central turbina unos 16.600 m³/s y el resto va por los vertederos",
+      "fuente": "[INA](https://alerta.ina.gob.ar/a5/diario/reporte_diario) · [Economía Sustentable, 23 oct](https://economiasustentable.com/noticias/el-nino-pone-en-alerta-al-negocio-electrico-y-expone-a-las-principales-generadoras/amp/)"
+     },
+     {
+      "nombre": "Caudales a Yacyretá frente al promedio",
+      "valor": "+37% en septiembre y +88% en la primera parte de octubre",
+      "fecha": "oct",
+      "ref": "Promedio 1971-2025",
+      "fuente": "Entidad Binacional Yacyretá, en [Economía Sustentable, 23 oct](https://economiasustentable.com/noticias/el-nino-pone-en-alerta-al-negocio-electrico-y-expone-a-las-principales-generadoras/amp/)"
+     },
+     {
+      "auto": "rio:Concordia",
+      "nombre": "Río Uruguay en Concordia, aguas abajo de Salto Grande"
+     },
+     {
+      "nombre": "Generación térmica prevista para el verano",
+      "valor": "47,9% del total (56,4% el verano pasado)",
+      "fecha": "oct",
+      "ref": "Programación de CAMMESA, con recuperación de la generación hidráulica",
+      "fuente": "[El Economista, 16 oct](https://eleconomista.com.ar/energia/el-verano-electrico-tiene-una-paradoja-podria-bajar-costo-promedio-pero-dispararse-horas-criticas-n98930)"
+     }
+    ],
+    "riesgos": [
+     "Con caudales por encima de lo que puede turbinar, Yacyretá abre los vertederos: lo hizo el 12 de octubre. La Entidad Binacional aclaró que las inundaciones no pueden atribuirse a esa apertura. [Economía Sustentable](https://economiasustentable.com/noticias/el-nino-pone-en-alerta-al-negocio-electrico-y-expone-a-las-principales-generadoras/amp/)",
+     "Salto Grande reforzó su plan de emergencia con un sistema de aviso sonoro para las poblaciones cercanas. [Economía Sustentable](https://economiasustentable.com/noticias/el-nino-pone-en-alerta-al-negocio-electrico-y-expone-a-las-principales-generadoras/amp/)",
+     "En las represas del Comahue, la temporada 2026/27 es la primera con El Niño para los nuevos operadores privados. [Economía Sustentable](https://economiasustentable.com/noticias/el-nino-pone-en-alerta-al-negocio-electrico-y-expone-a-las-principales-generadoras/amp/)"
+    ],
+    "a_favor": [
+     "Más generación hidráulica significa menos gas y gasoil para las térmicas; CAMMESA todavía no calculó cuánto combustible se ahorraría. [Economía Sustentable](https://economiasustentable.com/noticias/el-nino-pone-en-alerta-al-negocio-electrico-y-expone-a-las-principales-generadoras/amp/)"
+    ],
+    "vigilar": "Que el caudal que entra a Yacyretá pase los 25.000 m³/s (alerta del INA) y que el río Uruguay suba en Concordia."
+   },
+   {
+    "id": "fluvial",
+    "rubro": "Transporte fluvial",
+    "nivel": "medio",
+    "resumen": "El Paraná en Rosario quedó a 1 cm de la alerta el 24 de noviembre y el INA preveía 5,29 m para el 1 de diciembre, sobre la referencia de evacuación. Con el río alto los buques salen más cargados, pero la corriente y la bajante que viene después complican la vía navegable.",
+    "principal": {
+     "auto": "rio:Rosario",
+     "nombre": "Paraná en Rosario"
+    },
+    "indicadores": [
+     {
+      "auto": "rio:Rosario",
+      "nombre": "Paraná en Rosario"
+     },
+     {
+      "auto": "proy:Rosario",
+      "nombre": "Proyección del INA para Rosario"
+     },
+     {
+      "nombre": "Dragado de la vía navegable troncal",
+      "valor": "5 dragas operando; llegan 2 más (fines de noviembre y mediados de diciembre) y otra a comienzos de enero",
+      "fecha": "27 oct",
+      "ref": "Plan de contingencia de Vía Navegable Argentina por la crecida",
+      "fuente": "[Agrofy, 27 oct](https://news.agrofy.com.ar/noticia/216880/crecida-parana-traen-dragas-singapur-croacia-puede-pasar-hidrovia-sale-cosecha)"
+     },
+     {
+      "nombre": "Calado en el Gran Rosario y buques demorados",
+      "valor": "No encontrado",
+      "fecha": "",
+      "ref": "Con el río alto, más calado y buques más cargados",
+      "fuente": ""
+     }
+    ],
+    "riesgos": [
+     "Corrientes fuertes y vegetación arrastrada que pueden dañar la señalización, según Vía Navegable Argentina. [Agrofy](https://news.agrofy.com.ar/noticia/216880/crecida-parana-traen-dragas-singapur-croacia-puede-pasar-hidrovia-sale-cosecha)",
+     "Cuando el agua baje, el sedimento puede acumularse en tramos clave como el canal Emilio Mitre y reducir la profundidad. [Agrofy](https://news.agrofy.com.ar/noticia/216880/crecida-parana-traen-dragas-singapur-croacia-puede-pasar-hidrovia-sale-cosecha)",
+     "Si Rosario pasa la referencia de evacuación (5,25 m), el riesgo es para la costa baja y las islas, según [Qué vigilar](#vigilar)."
+    ],
+    "a_favor": [
+     "Con el río alto los buques salen completos: en la bajante de 2021 cada buque perdía entre 6.000 y 10.000 toneladas de carga. [Mundo Marítimo](https://mundomaritimo.cl/noticias/editor/42113)"
+    ],
+    "vigilar": "Rosario en 5,25 m (referencia de evacuación) y avisos de Vía Navegable Argentina o de Prefectura sobre restricciones a la navegación."
+   },
+   {
+    "id": "construccion",
+    "rubro": "Construcción",
+    "nivel": "medio",
+    "resumen": "La actividad venía en alza (+5,1% interanual en septiembre), pero empieza el trimestre con más chances de lluvia sobre lo normal en el Litoral y la región núcleo: más días sin obra y obras anegadas. Todavía no hay datos que lo muestren.",
+    "principal": {
+     "nombre": "Actividad de la construcción (ISAC)",
+     "valor": "+5,1%",
+     "fecha": "sep",
+     "ref": "Interanual · +7,8% frente a agosto, sin estacionalidad"
+    },
+    "indicadores": [
+     {
+      "nombre": "Actividad de la construcción (ISAC)",
+      "valor": "+5,1% interanual; +7,8% frente a agosto, sin estacionalidad",
+      "fecha": "sep",
+      "ref": "+1,3% en lo que va del año",
+      "fuente": "[INDEC, 6 nov](https://www.indec.gob.ar/uploads/informesdeprensa/isac_11_26F4E69BED3F.pdf)"
+     },
+     {
+      "nombre": "Cemento pórtland (insumo)",
+      "valor": "+4,6% interanual",
+      "fecha": "sep",
+      "ref": "Hormigón elaborado +12,8%",
+      "fuente": "[INDEC, 6 nov](https://www.indec.gob.ar/uploads/informesdeprensa/isac_11_26F4E69BED3F.pdf)"
+     },
+     {
+      "nombre": "Lluvia prevista de noviembre a enero",
+      "valor": "65% de chances sobre lo normal en el Litoral y el NEA; 63% en la región núcleo",
+      "fecha": "7 nov",
+      "ref": "Pronóstico de NOAA (NMME)",
+      "fuente": "[Lluvias](#lluvias)"
+     }
+    ],
+    "riesgos": [
+     "Días de lluvia sin obra, excavaciones anegadas y caminos de acceso cortados en el Litoral y la región núcleo.",
+     "El efecto se va a ver tarde en las estadísticas: el ISAC de septiembre salió el 6 de noviembre, así que el de diciembre llega recién en febrero. [INDEC](https://www.indec.gob.ar/uploads/informesdeprensa/isac_11_26F4E69BED3F.pdf)"
+    ],
+    "a_favor": [],
+    "vigilar": "El ISAC y el despacho de cemento de cada mes, y las suspensiones de obra por lluvia en municipios del Litoral."
+   },
+   {
+    "id": "energia",
+    "rubro": "Energía eléctrica",
+    "nivel": "medio",
+    "resumen": "El riesgo está en las redes y en los picos: CAMMESA prevé un récord de demanda de 32.000 MW este verano, con un faltante de unos 2.090 MW, y los temporales de noviembre ya dejaron ciudades sin luz.",
+    "principal": {
+     "nombre": "Pico de demanda previsto para el verano",
+     "valor": "32.000 MW",
+     "fecha": "oct",
+     "ref": "5,8% sobre el récord histórico · faltan unos 2.090 MW"
+    },
+    "indicadores": [
+     {
+      "nombre": "Pico de demanda previsto para el verano",
+      "valor": "32.000 MW",
+      "fecha": "oct",
+      "ref": "14,3% sobre el verano pasado y 5,8% sobre el récord; faltan unos 2.090 MW, de los que 1.374,6 MW llegarían hasta abril",
+      "fuente": "CAMMESA y Aleph Energy, en [El Economista, 16 oct](https://eleconomista.com.ar/energia/el-verano-electrico-tiene-una-paradoja-podria-bajar-costo-promedio-pero-dispararse-horas-criticas-n98930)"
+     },
+     {
+      "nombre": "Cortes de luz por temporales",
+      "valor": "Cerca del 70% de San Francisco (Córdoba) sin luz, con ocho subestaciones afectadas",
+      "fecha": "20 nov",
+      "ref": "También Rafaela (21 nov), Rosario (16 nov) y Córdoba capital (13 nov); ver [Tormentas](#tormentas)",
+      "fuente": "[El Litoral, 21 nov](https://ellitoral.com/nacionales/cordoba-sanfrancisco-temporal-evacuaciones-generalcabrera-generaldeheza-inundaciones-calchinoeste_0_psVxuSspEv.html)"
+     },
+     {
+      "nombre": "Red de alta tensión",
+      "valor": "Apagón en parte de Catamarca y La Rioja: salieron de servicio transformadores de 500 kV de la estación Recreo",
+      "fecha": "14 nov",
+      "ref": "La distribuidora lo atribuyó a una contingencia de Transener",
+      "fuente": "[Infobae, 14 nov](https://www.infobae.com/sociedad/2026/11/14/una-mujer-murio-arrastrada-por-el-agua-durante-un-temporal-mientras-intentaba-proteger-su-auto-del-granizo/)"
+     }
+    ],
+    "riesgos": [
+     "Ráfagas y árboles sobre los cables: es la causa de los cortes de noviembre en Córdoba y Santa Fe (ver [Tormentas](#tormentas)).",
+     "Con calor extremo y fallas, el precio en las horas críticas podría superar los US$ 100 por MWh y acercarse a US$ 200 hacia fines de abril, según Aleph Energy. [El Economista](https://eleconomista.com.ar/energia/el-verano-electrico-tiene-una-paradoja-podria-bajar-costo-promedio-pero-dispararse-horas-criticas-n98930)"
+    ],
+    "a_favor": [
+     "Más generación hidráulica en el Litoral: menos térmica y menos combustible (ver Generación hidroeléctrica)."
+    ],
+    "vigilar": "Alertas del SMN por tormentas fuertes, usuarios sin luz que informan el ENRE y las distribuidoras, y avisos de CAMMESA en días de calor."
+   }
+  ]
  }
 }
