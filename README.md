@@ -1,8 +1,8 @@
-# Alerta hídrica · Súper Niño 2026-27 en Argentina
+# Alerta hídrica · Argentina
 
-Web pública de seguimiento diario del Súper Niño 2026-27 en Argentina: ríos, evacuados, alertas, emergencias y planes por provincia, zonas de riesgo, qué hacer, escenarios, evaluación de la gestión y El Niño en el mundo.
+Web pública de seguimiento diario del fenómeno ENSO (El Niño y La Niña) en la Argentina, empezando por el Súper Niño 2026-27: ríos, evacuados, alertas, emergencias y planes por provincia, zonas de riesgo, qué hacer, escenarios, evaluación de la gestión y El Niño en el mundo.
 
-- `index.html`: la página.
+- `index.html`: la página. El nombre es fijo; la fase del fenómeno (Súper Niño, El Niño, ENSO neutral, La Niña...) sale de `datos.json["fase"]` y se ve como subtítulo en la cabecera y en el título de la sección del Niño.
 - `datos.json`: todo el contenido. Se actualiza todos los días.
 - `mapa.json` y `zonas.json`: geometría de provincias y zonas (Natural Earth y departamentos del IGN, SIG 250).
 - `fenomenos/`: mapa mundial de fenómenos meteorológicos y climáticos anómalos (página propia, embebida en la sección Mundo). `eventos.json` se actualiza todos los días; `capas/` tiene las anomalías de lluvia y temperatura de NOAA CPC; `mundo.json` es el mapa base (Natural Earth, proyección Equal Earth).
