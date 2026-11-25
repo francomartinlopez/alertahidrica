@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-24",
- "desde": "2026-08-26",
+ "actualizado": "2026-11-25",
+ "desde": "2026-08-27",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "25 de agosto a 23 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-22",
+  "hasta": "2026-11-23",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -8288,60 +8288,6 @@
     "medida": "23.686 ha",
     "ref": "acumulado nacional del 1 de enero al 22 de septiembre de 2026 (SNGR); Imbabura 5.741 ha y Loja 4.050 ha",
     "fuente": 1
-   }
-  },
-  {
-   "id": "asi-g01",
-   "tipo": "inundacion",
-   "titulo": "Inundaciones en Lao Cai",
-   "lugar": "Lao Cai; Gia Phù, Son La; Son La",
-   "pais": "Vietnam",
-   "inicio": "2026-07-15",
-   "fin": "2026-08-26",
-   "origen": "gdacs",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104029,
-     "a": "verde"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     104.16,
-     21.23
-    ]
-   },
-   "muertes": 3,
-   "afectados": 320,
-   "evacuados": null,
-   "texto": "GDACS registra 3 muertos en Gia Phù, Son La; 320 afectados en Lao Cai; 16 rescatados en Lâm Ð?ng; 42 hogares evacuados en Lao Cai; 188 hogares evacuados en Son La.",
-   "criterio": "muertes",
-   "impacto": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Cifras de la recopilación automática de prensa de GDACS; pueden ser parciales."
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "fuentes": [
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104029&eventtype=FL"
-    }
-   ],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
    }
   },
   {
