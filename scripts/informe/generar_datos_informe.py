@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Arma datos-informe.json para la web de informes de Plexum.
 
-Especificación: «Datos que cada web publica para la web de informes de Plexum», v1.2
+Especificación: «Datos que cada web publica para la web de informes de Plexum», v1.3
 (parte común y apartado 14, Alerta Hídrica).
 
 Lee datos.json, nino34.json y lluvias.json (y el datos-informe.json anterior, para
@@ -16,7 +16,7 @@ import calendar, datetime as dt, json, math, pathlib, re, sys, unicodedata
 
 RAIZ = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else '.')
 WEB = 'Alerta Hídrica'
-VERSION = '1.2'
+VERSION = '1.3'
 BASE = 'https://francomartinlopez.github.io/alertahidrica/'
 EJE = 'Clima y riesgo productivo'
 AR = dt.timezone(dt.timedelta(hours=-3))
@@ -372,6 +372,82 @@ for f in ANTES.get('faltantes', []):
     if f['id'] not in ids_ahora and f['id'] not in {x['id'] for x in faltantes} and not any(f['id'].startswith(p) for p in ('reserva-', 'anomalia-')):
         faltantes.append(f)
 
+# Versión 1.3: tipo de valor, frecuencia, comparaciones, serie y grupos
+TIPOS_VALOR = ['tasa', 'nivel', 'estado']
+FRECUENCIAS = ['diaria', 'semanal', 'mensual', 'trimestral', 'semestral', 'anual']
+ESCALA_EMERGENCIA = ['Sin medidas halladas', 'Plan sin emergencia', 'Emergencia vencida', 'Emergencia vigente']
+
+
+def serie_fin_de_mes(puntos, n=25):
+    """Un valor por mes (el último de cada mes, con su fecha real), del más viejo al más nuevo."""
+    por_mes = {}
+    for f, v in sorted(puntos):
+        if isinstance(v, (int, float)):
+            por_mes[f[:7]] = (f, v)
+    return [{'fecha': f, 'valor': v} for f, v in sorted(por_mes.values())][-n:]
+
+
+def puntos_nino(anios, hasta):
+    """Valores diarios de nino34.json desde dos años antes hasta la fecha del último dato."""
+    pts = []
+    for anio in range(hasta.year - 2, hasta.year + 1):
+        for k, v in enumerate(anios.get(str(anio), [])):
+            f = dt.date(anio, 1, 1) + dt.timedelta(days=k)
+            if f <= hasta and v is not None:
+                pts.append((f.isoformat(), round(v, 2)))
+    return pts
+
+
+def comparaciones(serie):
+    if len(serie) < 2:
+        return []
+    c = ['mensual']
+    if dt.date.fromisoformat(serie[0]['fecha']) <= dt.date.fromisoformat(serie[-1]['fecha']) - dt.timedelta(days=365):
+        c.append('interanual')
+    return c
+
+
+RIOS_POR_ID = {'altura-rio-' + slug(r['puerto']): r for r in D.get('rios', [])}
+for i in indicadores:
+    id_ = i['id']
+    serie, grupo = None, None
+    if id_ == 'estado-enso':
+        tv, fr = 'estado', 'mensual'
+    elif id_ in ('oni', 'roni'):
+        tv, fr = 'tasa', 'mensual'
+    elif id_ in ('nino34-diario', 'nino34-relativo-diario'):
+        tv, fr = 'tasa', 'diaria'
+        anios = N['anios'] if id_ == 'nino34-diario' else N['relativo']['anios']
+        serie = serie_fin_de_mes(puntos_nino(anios, dt.date.fromisoformat(i['fecha_dato'])))
+    elif id_.startswith('altura-rio-'):
+        tv, fr = 'nivel', 'diaria'
+        serie = serie_fin_de_mes([tuple(h) for h in RIOS_POR_ID[id_].get('hist') or []])
+    elif id_.startswith('lluvia-pronostico-'):
+        tv, fr = 'tasa', 'mensual'
+        cual = 'sobre' if '-sobre-' in id_ else 'bajo'
+        grupo = {'id': f'lluvia-pronostico-{cual}-normal-por-region',
+                 'nombre': f'Probabilidad de lluvia {cual} lo normal en el próximo trimestre, por región',
+                 'dimension': 'otro', 'clave': i['nombre'].rsplit(': ', 1)[1]}
+    elif id_.startswith('desplazados-'):
+        tv, fr = 'nivel', 'diaria'
+        nombre_prov = next(k for k in serie_ev if prov_ok(k) == i['alcance']['provincia'])
+        pts = [tuple(x) for x in serie_ev.get(nombre_prov, []) if x[0] < i['fecha_dato']] + [(i['fecha_dato'], i['valor'])]
+        serie = serie_fin_de_mes(pts)
+    elif id_.startswith('emergencia-'):
+        tv, fr = 'estado', 'diaria'
+        grupo = {'id': 'emergencia-por-provincia', 'nombre': 'Emergencia hídrica o climática por provincia',
+                 'dimension': 'provincia', 'clave': i['alcance']['provincia'], 'escala': ESCALA_EMERGENCIA}
+    elif id_.startswith('riesgo-climatico-'):
+        tv, fr = 'estado', 'diaria'
+    else:
+        tv, fr = 'estado' if isinstance(i['valor'], str) else 'nivel', 'diaria'
+    i['tipo_valor'], i['frecuencia'] = tv, fr
+    if serie and len(serie) >= 2:
+        i['serie'] = serie
+    i['comparar'] = comparaciones(i.get('serie', []))
+    if grupo:
+        i['grupo'] = grupo
+
 salida = {'web': WEB, 'version': VERSION, 'generado': dt.datetime.now(AR).isoformat(timespec='seconds'),
           'indicadores': indicadores, 'novedades': novedades, 'agenda': agenda, 'faltantes': faltantes}
 
@@ -396,6 +472,33 @@ def validar(o):
         if not i.get('fuente_original') or not i.get('url', '').startswith('https://'): err.append(f'{d}: fuente o url')
         if any(r not in RUBROS for r in i['rubros']) or any(x not in EXPOSICION for x in i['exposicion']): err.append(f'{d}: rubros o exposición')
         alc_ok(i['alcance'], d)
+        # versión 1.3
+        if i.get('tipo_valor') not in TIPOS_VALOR or i.get('frecuencia') not in FRECUENCIAS: err.append(f'{d}: tipo_valor o frecuencia')
+        if not isinstance(i.get('comparar'), list) or any(c not in ('mensual', 'interanual') for c in i['comparar']): err.append(f'{d}: comparar')
+        s = i.get('serie')
+        if s is not None:
+            if i['tipo_valor'] == 'estado' or len(s) < 2: err.append(f'{d}: serie en un indicador sin historia numérica')
+            fechas = [x.get('fecha') for x in s]
+            if not all(fecha_ok(f) for f in fechas) or fechas != sorted(set(fechas)): err.append(f'{d}: fechas de la serie')
+            if not all(isinstance(x.get('valor'), (int, float)) and not isinstance(x.get('valor'), bool) for x in s): err.append(f'{d}: valores de la serie')
+            if s and (s[-1]['fecha'] != i['fecha_dato'] or s[-1]['valor'] != i['valor']): err.append(f'{d}: el último de la serie no es el valor publicado')
+        if 'interanual' in i.get('comparar', []) and not (s and dt.date.fromisoformat(s[0]['fecha']) <= dt.date.fromisoformat(s[-1]['fecha']) - dt.timedelta(days=365)):
+            err.append(f'{d}: interanual sin un año de serie')
+        g = i.get('grupo')
+        if g and (g.get('dimension') not in ('provincia', 'rubro', 'pais', 'otro') or not g.get('clave')): err.append(f'{d}: grupo')
+        if g and g['dimension'] == 'provincia' and g['clave'] not in PROVINCIAS: err.append(f'{d}: clave de provincia')
+        if g and g['dimension'] == 'rubro' and g['clave'] not in RUBROS: err.append(f'{d}: clave de rubro')
+        if g and 'escala' in g and i['valor'] not in g['escala']: err.append(f'{d}: valor fuera de la escala')
+    grupos = {}
+    for i in o['indicadores']:
+        if i.get('grupo'):
+            grupos.setdefault(i['grupo']['id'], []).append(i)
+    for gid, ms in grupos.items():
+        if len(ms) < 3: err.append(f'grupo {gid}: menos de 3 miembros')
+        for campo in (lambda x: x['grupo']['nombre'], lambda x: x['grupo']['dimension'], lambda x: x['unidad'],
+                      lambda x: x['fecha_dato'], lambda x: json.dumps(x['grupo'].get('escala'))):
+            if len({campo(x) for x in ms}) > 1: err.append(f'grupo {gid}: miembros distintos en nombre, dimensión, unidad, fecha o escala')
+        if len({x['grupo']['clave'] for x in ms}) < len(ms): err.append(f'grupo {gid}: clave repetida')
     nids = set()
     for n in o['novedades']:
         d = f"novedad {n['id']}"

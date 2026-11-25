@@ -1,7 +1,7 @@
 {
  "web": "Alerta Hídrica",
- "version": "1.2",
- "generado": "2026-11-25T11:01:05-03:00",
+ "version": "1.3",
+ "generado": "2026-11-25T14:11:14-03:00",
  "indicadores": [
   {
    "id": "estado-enso",
@@ -20,7 +20,10 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#nino"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#nino",
+   "tipo_valor": "estado",
+   "frecuencia": "mensual",
+   "comparar": []
   },
   {
    "id": "oni",
@@ -39,7 +42,10 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#nino"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#nino",
+   "tipo_valor": "tasa",
+   "frecuencia": "mensual",
+   "comparar": []
   },
   {
    "id": "roni",
@@ -58,7 +64,10 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#nino"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#nino",
+   "tipo_valor": "tasa",
+   "frecuencia": "mensual",
+   "comparar": []
   },
   {
    "id": "nino34-diario",
@@ -82,7 +91,115 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#nino"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#nino",
+   "tipo_valor": "tasa",
+   "frecuencia": "diaria",
+   "serie": [
+    {
+     "fecha": "2024-11-30",
+     "valor": 0.07
+    },
+    {
+     "fecha": "2024-12-31",
+     "valor": -0.7
+    },
+    {
+     "fecha": "2025-01-31",
+     "valor": -0.92
+    },
+    {
+     "fecha": "2025-02-28",
+     "valor": -0.08
+    },
+    {
+     "fecha": "2025-03-31",
+     "valor": 0.0
+    },
+    {
+     "fecha": "2025-04-30",
+     "valor": 0.09
+    },
+    {
+     "fecha": "2025-05-31",
+     "valor": 0.16
+    },
+    {
+     "fecha": "2025-06-30",
+     "valor": 0.23
+    },
+    {
+     "fecha": "2025-07-31",
+     "valor": -0.17
+    },
+    {
+     "fecha": "2025-08-31",
+     "valor": -0.42
+    },
+    {
+     "fecha": "2025-09-30",
+     "valor": -0.33
+    },
+    {
+     "fecha": "2025-10-31",
+     "valor": -0.46
+    },
+    {
+     "fecha": "2025-11-30",
+     "valor": -0.34
+    },
+    {
+     "fecha": "2025-12-31",
+     "valor": -0.62
+    },
+    {
+     "fecha": "2026-01-31",
+     "valor": -0.64
+    },
+    {
+     "fecha": "2026-02-28",
+     "valor": -0.19
+    },
+    {
+     "fecha": "2026-03-31",
+     "valor": 0.18
+    },
+    {
+     "fecha": "2026-04-30",
+     "valor": 1.11
+    },
+    {
+     "fecha": "2026-05-31",
+     "valor": 1.19
+    },
+    {
+     "fecha": "2026-06-30",
+     "valor": 1.94
+    },
+    {
+     "fecha": "2026-07-31",
+     "valor": 2.57
+    },
+    {
+     "fecha": "2026-08-31",
+     "valor": 2.74
+    },
+    {
+     "fecha": "2026-09-30",
+     "valor": 3.25
+    },
+    {
+     "fecha": "2026-10-31",
+     "valor": 3.56
+    },
+    {
+     "fecha": "2026-11-18",
+     "valor": 3.56
+    }
+   ],
+   "comparar": [
+    "mensual",
+    "interanual"
+   ]
   },
   {
    "id": "nino34-relativo-diario",
@@ -106,7 +223,115 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#nino"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#nino",
+   "tipo_valor": "tasa",
+   "frecuencia": "diaria",
+   "serie": [
+    {
+     "fecha": "2024-11-30",
+     "valor": -0.34
+    },
+    {
+     "fecha": "2024-12-31",
+     "valor": -1.2
+    },
+    {
+     "fecha": "2025-01-31",
+     "valor": -1.47
+    },
+    {
+     "fecha": "2025-02-28",
+     "valor": -0.49
+    },
+    {
+     "fecha": "2025-03-31",
+     "valor": -0.36
+    },
+    {
+     "fecha": "2025-04-30",
+     "valor": -0.23
+    },
+    {
+     "fecha": "2025-05-31",
+     "valor": -0.1
+    },
+    {
+     "fecha": "2025-06-30",
+     "valor": 0.04
+    },
+    {
+     "fecha": "2025-07-31",
+     "valor": -0.46
+    },
+    {
+     "fecha": "2025-08-31",
+     "valor": -0.75
+    },
+    {
+     "fecha": "2025-09-30",
+     "valor": -0.61
+    },
+    {
+     "fecha": "2025-10-31",
+     "valor": -0.7
+    },
+    {
+     "fecha": "2025-11-30",
+     "valor": -0.55
+    },
+    {
+     "fecha": "2025-12-31",
+     "valor": -0.92
+    },
+    {
+     "fecha": "2026-01-31",
+     "valor": -1.03
+    },
+    {
+     "fecha": "2026-02-28",
+     "valor": -0.6
+    },
+    {
+     "fecha": "2026-03-31",
+     "valor": -0.24
+    },
+    {
+     "fecha": "2026-04-30",
+     "valor": 0.78
+    },
+    {
+     "fecha": "2026-05-31",
+     "valor": 0.77
+    },
+    {
+     "fecha": "2026-06-30",
+     "valor": 1.55
+    },
+    {
+     "fecha": "2026-07-31",
+     "valor": 2.17
+    },
+    {
+     "fecha": "2026-08-31",
+     "valor": 2.26
+    },
+    {
+     "fecha": "2026-09-30",
+     "valor": 2.78
+    },
+    {
+     "fecha": "2026-10-31",
+     "valor": 3.11
+    },
+    {
+     "fecha": "2026-11-18",
+     "valor": 3.1
+    }
+   ],
+   "comparar": [
+    "mensual",
+    "interanual"
+   ]
   },
   {
    "id": "altura-rio-itati",
@@ -130,7 +355,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "serie": [
+    {
+     "fecha": "2026-10-30",
+     "valor": 8.09
+    },
+    {
+     "fecha": "2026-11-25",
+     "valor": 5.95
+    }
+   ],
+   "comparar": [
+    "mensual"
+   ]
   },
   {
    "id": "altura-rio-isla-del-cerrito",
@@ -154,7 +394,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "serie": [
+    {
+     "fecha": "2026-10-28",
+     "valor": 8.0
+    },
+    {
+     "fecha": "2026-11-23",
+     "valor": 6.04
+    }
+   ],
+   "comparar": [
+    "mensual"
+   ]
   },
   {
    "id": "altura-rio-corrientes",
@@ -178,7 +433,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "serie": [
+    {
+     "fecha": "2026-10-30",
+     "valor": 7.36
+    },
+    {
+     "fecha": "2026-11-25",
+     "valor": 5.67
+    }
+   ],
+   "comparar": [
+    "mensual"
+   ]
   },
   {
    "id": "altura-rio-barranqueras",
@@ -202,7 +472,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "serie": [
+    {
+     "fecha": "2026-10-30",
+     "valor": 7.19
+    },
+    {
+     "fecha": "2026-11-25",
+     "valor": 5.56
+    }
+   ],
+   "comparar": [
+    "mensual"
+   ]
   },
   {
    "id": "altura-rio-goya",
@@ -226,7 +511,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "serie": [
+    {
+     "fecha": "2026-10-29",
+     "valor": 5.77
+    },
+    {
+     "fecha": "2026-11-25",
+     "valor": 5.42
+    }
+   ],
+   "comparar": [
+    "mensual"
+   ]
   },
   {
    "id": "altura-rio-reconquista",
@@ -250,7 +550,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "serie": [
+    {
+     "fecha": "2026-10-31",
+     "valor": 5.87
+    },
+    {
+     "fecha": "2026-11-25",
+     "valor": 5.27
+    }
+   ],
+   "comparar": [
+    "mensual"
+   ]
   },
   {
    "id": "altura-rio-la-paz",
@@ -274,7 +589,10 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "comparar": []
   },
   {
    "id": "altura-rio-santa-fe",
@@ -298,7 +616,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "serie": [
+    {
+     "fecha": "2026-10-27",
+     "valor": 4.16
+    },
+    {
+     "fecha": "2026-11-25",
+     "valor": 5.77
+    }
+   ],
+   "comparar": [
+    "mensual"
+   ]
   },
   {
    "id": "altura-rio-parana",
@@ -322,7 +655,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "serie": [
+    {
+     "fecha": "2026-10-31",
+     "valor": 4.35
+    },
+    {
+     "fecha": "2026-11-25",
+     "valor": 5.55
+    }
+   ],
+   "comparar": [
+    "mensual"
+   ]
   },
   {
    "id": "altura-rio-rosario",
@@ -346,7 +694,26 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "serie": [
+    {
+     "fecha": "2026-09-30",
+     "valor": 2.93
+    },
+    {
+     "fecha": "2026-10-27",
+     "valor": 3.75
+    },
+    {
+     "fecha": "2026-11-25",
+     "valor": 4.95
+    }
+   ],
+   "comparar": [
+    "mensual"
+   ]
   },
   {
    "id": "altura-rio-victoria",
@@ -370,7 +737,10 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "comparar": []
   },
   {
    "id": "altura-rio-santo-tome",
@@ -394,7 +764,10 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "comparar": []
   },
   {
    "id": "altura-rio-paso-de-los-libres",
@@ -418,7 +791,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "serie": [
+    {
+     "fecha": "2026-10-28",
+     "valor": 7.56
+    },
+    {
+     "fecha": "2026-11-25",
+     "valor": 5.04
+    }
+   ],
+   "comparar": [
+    "mensual"
+   ]
   },
   {
    "id": "altura-rio-concordia",
@@ -442,7 +830,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "serie": [
+    {
+     "fecha": "2026-10-30",
+     "valor": 9.04
+    },
+    {
+     "fecha": "2026-11-25",
+     "valor": 6.46
+    }
+   ],
+   "comparar": [
+    "mensual"
+   ]
   },
   {
    "id": "altura-rio-concepcion-del-uruguay",
@@ -466,7 +869,10 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "comparar": []
   },
   {
    "id": "altura-rio-puerto-iguazu",
@@ -490,7 +896,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "serie": [
+    {
+     "fecha": "2026-10-29",
+     "valor": 28.41
+    },
+    {
+     "fecha": "2026-11-25",
+     "valor": 21.0
+    }
+   ],
+   "comparar": [
+    "mensual"
+   ]
   },
   {
    "id": "altura-rio-puerto-pilcomayo",
@@ -514,7 +935,10 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "comparar": []
   },
   {
    "id": "altura-rio-formosa",
@@ -538,7 +962,10 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "comparar": []
   },
   {
    "id": "lluvia-pronostico-sobre-normal-cuenca-alta-sur-de-brasil-paraguay-misiones",
@@ -557,7 +984,16 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias",
+   "tipo_valor": "tasa",
+   "frecuencia": "mensual",
+   "comparar": [],
+   "grupo": {
+    "id": "lluvia-pronostico-sobre-normal-por-region",
+    "nombre": "Probabilidad de lluvia sobre lo normal en el próximo trimestre, por región",
+    "dimension": "otro",
+    "clave": "Cuenca alta (sur de Brasil, Paraguay, Misiones)"
+   }
   },
   {
    "id": "lluvia-pronostico-bajo-normal-cuenca-alta-sur-de-brasil-paraguay-misiones",
@@ -576,7 +1012,16 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias",
+   "tipo_valor": "tasa",
+   "frecuencia": "mensual",
+   "comparar": [],
+   "grupo": {
+    "id": "lluvia-pronostico-bajo-normal-por-region",
+    "nombre": "Probabilidad de lluvia bajo lo normal en el próximo trimestre, por región",
+    "dimension": "otro",
+    "clave": "Cuenca alta (sur de Brasil, Paraguay, Misiones)"
+   }
   },
   {
    "id": "lluvia-pronostico-sobre-normal-litoral-y-nea",
@@ -595,7 +1040,16 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias",
+   "tipo_valor": "tasa",
+   "frecuencia": "mensual",
+   "comparar": [],
+   "grupo": {
+    "id": "lluvia-pronostico-sobre-normal-por-region",
+    "nombre": "Probabilidad de lluvia sobre lo normal en el próximo trimestre, por región",
+    "dimension": "otro",
+    "clave": "Litoral y NEA"
+   }
   },
   {
    "id": "lluvia-pronostico-bajo-normal-litoral-y-nea",
@@ -614,7 +1068,16 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias",
+   "tipo_valor": "tasa",
+   "frecuencia": "mensual",
+   "comparar": [],
+   "grupo": {
+    "id": "lluvia-pronostico-bajo-normal-por-region",
+    "nombre": "Probabilidad de lluvia bajo lo normal en el próximo trimestre, por región",
+    "dimension": "otro",
+    "clave": "Litoral y NEA"
+   }
   },
   {
    "id": "lluvia-pronostico-sobre-normal-region-nucleo",
@@ -633,7 +1096,16 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias",
+   "tipo_valor": "tasa",
+   "frecuencia": "mensual",
+   "comparar": [],
+   "grupo": {
+    "id": "lluvia-pronostico-sobre-normal-por-region",
+    "nombre": "Probabilidad de lluvia sobre lo normal en el próximo trimestre, por región",
+    "dimension": "otro",
+    "clave": "Región núcleo"
+   }
   },
   {
    "id": "lluvia-pronostico-bajo-normal-region-nucleo",
@@ -652,7 +1124,16 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias",
+   "tipo_valor": "tasa",
+   "frecuencia": "mensual",
+   "comparar": [],
+   "grupo": {
+    "id": "lluvia-pronostico-bajo-normal-por-region",
+    "nombre": "Probabilidad de lluvia bajo lo normal en el próximo trimestre, por región",
+    "dimension": "otro",
+    "clave": "Región núcleo"
+   }
   },
   {
    "id": "lluvia-pronostico-sobre-normal-sur-bonaerense-y-la-pampa",
@@ -671,7 +1152,16 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias",
+   "tipo_valor": "tasa",
+   "frecuencia": "mensual",
+   "comparar": [],
+   "grupo": {
+    "id": "lluvia-pronostico-sobre-normal-por-region",
+    "nombre": "Probabilidad de lluvia sobre lo normal en el próximo trimestre, por región",
+    "dimension": "otro",
+    "clave": "Sur bonaerense y La Pampa"
+   }
   },
   {
    "id": "lluvia-pronostico-bajo-normal-sur-bonaerense-y-la-pampa",
@@ -690,7 +1180,16 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias",
+   "tipo_valor": "tasa",
+   "frecuencia": "mensual",
+   "comparar": [],
+   "grupo": {
+    "id": "lluvia-pronostico-bajo-normal-por-region",
+    "nombre": "Probabilidad de lluvia bajo lo normal en el próximo trimestre, por región",
+    "dimension": "otro",
+    "clave": "Sur bonaerense y La Pampa"
+   }
   },
   {
    "id": "lluvia-pronostico-sobre-normal-noa",
@@ -709,7 +1208,16 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias",
+   "tipo_valor": "tasa",
+   "frecuencia": "mensual",
+   "comparar": [],
+   "grupo": {
+    "id": "lluvia-pronostico-sobre-normal-por-region",
+    "nombre": "Probabilidad de lluvia sobre lo normal en el próximo trimestre, por región",
+    "dimension": "otro",
+    "clave": "NOA"
+   }
   },
   {
    "id": "lluvia-pronostico-bajo-normal-noa",
@@ -728,7 +1236,16 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias",
+   "tipo_valor": "tasa",
+   "frecuencia": "mensual",
+   "comparar": [],
+   "grupo": {
+    "id": "lluvia-pronostico-bajo-normal-por-region",
+    "nombre": "Probabilidad de lluvia bajo lo normal en el próximo trimestre, por región",
+    "dimension": "otro",
+    "clave": "NOA"
+   }
   },
   {
    "id": "lluvia-pronostico-sobre-normal-cuyo",
@@ -747,7 +1264,16 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias",
+   "tipo_valor": "tasa",
+   "frecuencia": "mensual",
+   "comparar": [],
+   "grupo": {
+    "id": "lluvia-pronostico-sobre-normal-por-region",
+    "nombre": "Probabilidad de lluvia sobre lo normal en el próximo trimestre, por región",
+    "dimension": "otro",
+    "clave": "Cuyo"
+   }
   },
   {
    "id": "lluvia-pronostico-bajo-normal-cuyo",
@@ -766,7 +1292,16 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias",
+   "tipo_valor": "tasa",
+   "frecuencia": "mensual",
+   "comparar": [],
+   "grupo": {
+    "id": "lluvia-pronostico-bajo-normal-por-region",
+    "nombre": "Probabilidad de lluvia bajo lo normal en el próximo trimestre, por región",
+    "dimension": "otro",
+    "clave": "Cuyo"
+   }
   },
   {
    "id": "lluvia-pronostico-sobre-normal-comahue",
@@ -785,7 +1320,16 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias",
+   "tipo_valor": "tasa",
+   "frecuencia": "mensual",
+   "comparar": [],
+   "grupo": {
+    "id": "lluvia-pronostico-sobre-normal-por-region",
+    "nombre": "Probabilidad de lluvia sobre lo normal en el próximo trimestre, por región",
+    "dimension": "otro",
+    "clave": "Comahue"
+   }
   },
   {
    "id": "lluvia-pronostico-bajo-normal-comahue",
@@ -804,7 +1348,16 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias",
+   "tipo_valor": "tasa",
+   "frecuencia": "mensual",
+   "comparar": [],
+   "grupo": {
+    "id": "lluvia-pronostico-bajo-normal-por-region",
+    "nombre": "Probabilidad de lluvia bajo lo normal en el próximo trimestre, por región",
+    "dimension": "otro",
+    "clave": "Comahue"
+   }
   },
   {
    "id": "lluvia-pronostico-sobre-normal-rio-uruguay-y-sur-de-brasil",
@@ -823,7 +1376,16 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias",
+   "tipo_valor": "tasa",
+   "frecuencia": "mensual",
+   "comparar": [],
+   "grupo": {
+    "id": "lluvia-pronostico-sobre-normal-por-region",
+    "nombre": "Probabilidad de lluvia sobre lo normal en el próximo trimestre, por región",
+    "dimension": "otro",
+    "clave": "Río Uruguay y sur de Brasil"
+   }
   },
   {
    "id": "lluvia-pronostico-bajo-normal-rio-uruguay-y-sur-de-brasil",
@@ -842,7 +1404,16 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias",
+   "tipo_valor": "tasa",
+   "frecuencia": "mensual",
+   "comparar": [],
+   "grupo": {
+    "id": "lluvia-pronostico-bajo-normal-por-region",
+    "nombre": "Probabilidad de lluvia bajo lo normal en el próximo trimestre, por región",
+    "dimension": "otro",
+    "clave": "Río Uruguay y sur de Brasil"
+   }
   },
   {
    "id": "desplazados-chaco",
@@ -866,7 +1437,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#hoy-mas"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#hoy-mas",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "serie": [
+    {
+     "fecha": "2026-10-29",
+     "valor": 2239
+    },
+    {
+     "fecha": "2026-11-21",
+     "valor": 2026
+    }
+   ],
+   "comparar": [
+    "mensual"
+   ]
   },
   {
    "id": "desplazados-corrientes",
@@ -890,7 +1476,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#hoy-mas"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#hoy-mas",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "serie": [
+    {
+     "fecha": "2026-10-31",
+     "valor": 1673
+    },
+    {
+     "fecha": "2026-11-09",
+     "valor": 2005
+    }
+   ],
+   "comparar": [
+    "mensual"
+   ]
   },
   {
    "id": "desplazados-misiones",
@@ -914,7 +1515,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#hoy-mas"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#hoy-mas",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "serie": [
+    {
+     "fecha": "2026-10-26",
+     "valor": 0
+    },
+    {
+     "fecha": "2026-11-24",
+     "valor": 31
+    }
+   ],
+   "comparar": [
+    "mensual"
+   ]
   },
   {
    "id": "desplazados-entre-rios",
@@ -938,7 +1554,10 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#hoy-mas"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#hoy-mas",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "comparar": []
   },
   {
    "id": "desplazados-santa-fe",
@@ -962,7 +1581,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#hoy-mas"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#hoy-mas",
+   "tipo_valor": "nivel",
+   "frecuencia": "diaria",
+   "serie": [
+    {
+     "fecha": "2026-10-29",
+     "valor": 88
+    },
+    {
+     "fecha": "2026-11-24",
+     "valor": 436
+    }
+   ],
+   "comparar": [
+    "mensual"
+   ]
   },
   {
    "id": "emergencia-corrientes",
@@ -981,7 +1615,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Corrientes",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-chaco",
@@ -1000,7 +1649,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Chaco",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-santa-fe",
@@ -1019,7 +1683,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Santa Fe",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-entre-rios",
@@ -1038,7 +1717,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Entre Ríos",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-misiones",
@@ -1057,7 +1751,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Misiones",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-formosa",
@@ -1076,7 +1785,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Formosa",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-buenos-aires",
@@ -1095,7 +1819,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Buenos Aires",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-caba",
@@ -1114,7 +1853,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "CABA",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-cordoba",
@@ -1133,7 +1887,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Córdoba",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-mendoza",
@@ -1152,7 +1921,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Mendoza",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-salta",
@@ -1171,7 +1955,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Salta",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-jujuy",
@@ -1190,7 +1989,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Jujuy",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-tucuman",
@@ -1209,7 +2023,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Tucumán",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-santiago-del-estero",
@@ -1228,7 +2057,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Santiago del Estero",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-la-pampa",
@@ -1247,7 +2091,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "La Pampa",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-rio-negro",
@@ -1266,7 +2125,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Río Negro",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-neuquen",
@@ -1285,7 +2159,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Neuquén",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-catamarca",
@@ -1304,7 +2193,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Catamarca",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-la-rioja",
@@ -1323,7 +2227,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "La Rioja",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-san-juan",
@@ -1342,7 +2261,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "San Juan",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-san-luis",
@@ -1361,7 +2295,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "San Luis",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-chubut",
@@ -1380,7 +2329,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Chubut",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-santa-cruz",
@@ -1399,7 +2363,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Santa Cruz",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "emergencia-tierra-del-fuego",
@@ -1418,7 +2397,22 @@
    "rubros": [],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": [],
+   "grupo": {
+    "id": "emergencia-por-provincia",
+    "nombre": "Emergencia hídrica o climática por provincia",
+    "dimension": "provincia",
+    "clave": "Tierra del Fuego",
+    "escala": [
+     "Sin medidas halladas",
+     "Plan sin emergencia",
+     "Emergencia vencida",
+     "Emergencia vigente"
+    ]
+   }
   },
   {
    "id": "riesgo-climatico-hidro",
@@ -1441,7 +2435,10 @@
    "exposicion": [
     "Energía intensiva"
    ],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rubros"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rubros",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": []
   },
   {
    "id": "riesgo-climatico-fluvial",
@@ -1467,7 +2464,10 @@
     "Exporta",
     "Importa insumos"
    ],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rubros"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rubros",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": []
   },
   {
    "id": "riesgo-climatico-construccion",
@@ -1488,7 +2488,10 @@
    ],
    "subrubros": [],
    "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rubros"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rubros",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": []
   },
   {
    "id": "riesgo-climatico-energia",
@@ -1511,7 +2514,10 @@
    "exposicion": [
     "Energía intensiva"
    ],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rubros"
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rubros",
+   "tipo_valor": "estado",
+   "frecuencia": "diaria",
+   "comparar": []
   }
  ],
  "novedades": [
