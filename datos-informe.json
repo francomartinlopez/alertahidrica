@@ -1,0 +1,2665 @@
+{
+ "web": "Alerta Hídrica",
+ "version": "1.2",
+ "generado": "2026-11-25T11:01:05-03:00",
+ "indicadores": [
+  {
+   "id": "estado-enso",
+   "nombre": "Estado del fenómeno ENSO (El Niño o La Niña) según NOAA",
+   "valor": "Súper Niño",
+   "unidad": "",
+   "fecha_dato": "2026-11-12",
+   "fuente_original": "NOAA CPC",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "mundo",
+    "provincia": "",
+    "localidad": "",
+    "pais": ""
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#nino"
+  },
+  {
+   "id": "oni",
+   "nombre": "Índice ONI de NOAA (anomalía de Niño-3.4, promedio de tres meses): agosto-octubre de 2026",
+   "valor": 2.46,
+   "unidad": "°C",
+   "fecha_dato": "2026-10-31",
+   "fuente_original": "NOAA CPC",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "mundo",
+    "provincia": "",
+    "localidad": "",
+    "pais": ""
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#nino"
+  },
+  {
+   "id": "roni",
+   "nombre": "Índice relativo RONI de NOAA (Niño-3.4 menos el resto de los trópicos, promedio de tres meses): agosto-octubre de 2026",
+   "valor": 1.97,
+   "unidad": "°C",
+   "fecha_dato": "2026-10-31",
+   "fuente_original": "NOAA CPC",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "mundo",
+    "provincia": "",
+    "localidad": "",
+    "pais": ""
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#nino"
+  },
+  {
+   "id": "nino34-diario",
+   "nombre": "Anomalía diaria de la temperatura del mar en la región Niño-3.4",
+   "valor": 3.56,
+   "unidad": "°C",
+   "variacion": {
+    "valor": 0.04,
+    "unidad": "°C",
+    "contra": "día anterior"
+   },
+   "fecha_dato": "2026-11-18",
+   "fuente_original": "NOAA PSL (OISST v2.1)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "mundo",
+    "provincia": "",
+    "localidad": "",
+    "pais": ""
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#nino"
+  },
+  {
+   "id": "nino34-relativo-diario",
+   "nombre": "Índice relativo diario de Niño-3.4 (descuenta el calentamiento del resto de los trópicos)",
+   "valor": 3.1,
+   "unidad": "°C",
+   "variacion": {
+    "valor": 0.04,
+    "unidad": "°C",
+    "contra": "día anterior"
+   },
+   "fecha_dato": "2026-11-18",
+   "fuente_original": "NOAA PSL (OISST v2.1) y NOAA ERSSTv5",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "mundo",
+    "provincia": "",
+    "localidad": "",
+    "pais": ""
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#nino"
+  },
+  {
+   "id": "altura-rio-itati",
+   "nombre": "Altura del río Paraná en Itatí",
+   "valor": 5.95,
+   "unidad": "m",
+   "variacion": {
+    "valor": 0.07,
+    "unidad": "m",
+    "contra": "medición anterior (2026-11-24)"
+   },
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Prefectura Naval Argentina e INA",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Corrientes",
+    "localidad": "Itatí",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "altura-rio-isla-del-cerrito",
+   "nombre": "Altura del río Paraná en Isla del Cerrito",
+   "valor": 6.04,
+   "unidad": "m",
+   "variacion": {
+    "valor": -0.45,
+    "unidad": "m",
+    "contra": "medición anterior (2026-11-18)"
+   },
+   "fecha_dato": "2026-11-23",
+   "fuente_original": "Prefectura Naval Argentina e INA",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Chaco",
+    "localidad": "Isla del Cerrito",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "altura-rio-corrientes",
+   "nombre": "Altura del río Paraná en Corrientes",
+   "valor": 5.67,
+   "unidad": "m",
+   "variacion": {
+    "valor": 0.04,
+    "unidad": "m",
+    "contra": "medición anterior (2026-11-24)"
+   },
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Prefectura Naval Argentina e INA",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Corrientes",
+    "localidad": "Corrientes",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "altura-rio-barranqueras",
+   "nombre": "Altura del río Paraná en Barranqueras",
+   "valor": 5.56,
+   "unidad": "m",
+   "variacion": {
+    "valor": 0.02,
+    "unidad": "m",
+    "contra": "medición anterior (2026-11-24)"
+   },
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Prefectura Naval Argentina e INA",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Chaco",
+    "localidad": "Barranqueras",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "altura-rio-goya",
+   "nombre": "Altura del río Paraná en Goya",
+   "valor": 5.42,
+   "unidad": "m",
+   "variacion": {
+    "valor": -0.05,
+    "unidad": "m",
+    "contra": "medición anterior (2026-11-24)"
+   },
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Prefectura Naval Argentina e INA",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Corrientes",
+    "localidad": "Goya",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "altura-rio-reconquista",
+   "nombre": "Altura del río Paraná en Reconquista",
+   "valor": 5.27,
+   "unidad": "m",
+   "variacion": {
+    "valor": -0.04,
+    "unidad": "m",
+    "contra": "medición anterior (2026-11-24)"
+   },
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Prefectura Naval Argentina e INA",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Santa Fe",
+    "localidad": "Reconquista",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "altura-rio-la-paz",
+   "nombre": "Altura del río Paraná en La Paz",
+   "valor": 6.05,
+   "unidad": "m",
+   "variacion": {
+    "valor": -0.01,
+    "unidad": "m",
+    "contra": "medición anterior (2026-11-24)"
+   },
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Prefectura Naval Argentina e INA",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Entre Ríos",
+    "localidad": "La Paz",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "altura-rio-santa-fe",
+   "nombre": "Altura del río Paraná en Santa Fe",
+   "valor": 5.77,
+   "unidad": "m",
+   "variacion": {
+    "valor": -0.03,
+    "unidad": "m",
+    "contra": "medición anterior (2026-11-24)"
+   },
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Prefectura Naval Argentina e INA",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Santa Fe",
+    "localidad": "Santa Fe",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "altura-rio-parana",
+   "nombre": "Altura del río Paraná en Paraná",
+   "valor": 5.55,
+   "unidad": "m",
+   "variacion": {
+    "valor": -0.04,
+    "unidad": "m",
+    "contra": "medición anterior (2026-11-24)"
+   },
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Prefectura Naval Argentina e INA",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Entre Ríos",
+    "localidad": "Paraná",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "altura-rio-rosario",
+   "nombre": "Altura del río Paraná en Rosario",
+   "valor": 4.95,
+   "unidad": "m",
+   "variacion": {
+    "valor": -0.04,
+    "unidad": "m",
+    "contra": "medición anterior (2026-11-24)"
+   },
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Prefectura Naval Argentina e INA",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Santa Fe",
+    "localidad": "Rosario",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "altura-rio-victoria",
+   "nombre": "Altura del río Paraná en Victoria",
+   "valor": 5.36,
+   "unidad": "m",
+   "variacion": {
+    "valor": 0.06,
+    "unidad": "m",
+    "contra": "medición anterior (2026-11-24)"
+   },
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Prefectura Naval Argentina e INA",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Entre Ríos",
+    "localidad": "Victoria",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "altura-rio-santo-tome",
+   "nombre": "Altura del río Uruguay en Santo Tomé",
+   "valor": 8.05,
+   "unidad": "m",
+   "variacion": {
+    "valor": 2.07,
+    "unidad": "m",
+    "contra": "medición anterior (2026-11-24)"
+   },
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Prefectura Naval Argentina e INA",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Corrientes",
+    "localidad": "Santo Tomé",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "altura-rio-paso-de-los-libres",
+   "nombre": "Altura del río Uruguay en Paso de los Libres",
+   "valor": 5.04,
+   "unidad": "m",
+   "variacion": {
+    "valor": -0.03,
+    "unidad": "m",
+    "contra": "medición anterior (2026-11-24)"
+   },
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Prefectura Naval Argentina e INA",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Corrientes",
+    "localidad": "Paso de los Libres",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "altura-rio-concordia",
+   "nombre": "Altura del río Uruguay en Concordia",
+   "valor": 6.46,
+   "unidad": "m",
+   "variacion": {
+    "valor": 0.24,
+    "unidad": "m",
+    "contra": "medición anterior (2026-11-24)"
+   },
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Prefectura Naval Argentina e INA",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Entre Ríos",
+    "localidad": "Concordia",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "altura-rio-concepcion-del-uruguay",
+   "nombre": "Altura del río Uruguay en Concepción del Uruguay",
+   "valor": 2.68,
+   "unidad": "m",
+   "variacion": {
+    "valor": -0.02,
+    "unidad": "m",
+    "contra": "medición anterior (2026-11-24)"
+   },
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Prefectura Naval Argentina e INA",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Entre Ríos",
+    "localidad": "Concepción del Uruguay",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "altura-rio-puerto-iguazu",
+   "nombre": "Altura del río Iguazú en Puerto Iguazú",
+   "valor": 21.0,
+   "unidad": "m",
+   "variacion": {
+    "valor": 0.0,
+    "unidad": "m",
+    "contra": "medición anterior (2026-11-24)"
+   },
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Prefectura Naval Argentina e INA",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Misiones",
+    "localidad": "Puerto Iguazú",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "altura-rio-puerto-pilcomayo",
+   "nombre": "Altura del río Paraguay en Puerto Pilcomayo",
+   "valor": 2.96,
+   "unidad": "m",
+   "variacion": {
+    "valor": 0.26,
+    "unidad": "m",
+    "contra": "medición anterior (2026-11-24)"
+   },
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Prefectura Naval Argentina e INA",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Formosa",
+    "localidad": "Puerto Pilcomayo",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "altura-rio-formosa",
+   "nombre": "Altura del río Paraguay en Formosa",
+   "valor": 4.41,
+   "unidad": "m",
+   "variacion": {
+    "valor": 0.02,
+    "unidad": "m",
+    "contra": "medición anterior (2026-11-24)"
+   },
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Prefectura Naval Argentina e INA",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Formosa",
+    "localidad": "Formosa",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "lluvia-pronostico-sobre-normal-cuenca-alta-sur-de-brasil-paraguay-misiones",
+   "nombre": "Probabilidad de lluvia sobre lo normal en Nov-Dic-Ene 2026 (pronóstico NOAA NMME): Cuenca alta (sur de Brasil, Paraguay, Misiones)",
+   "valor": 53,
+   "unidad": "%",
+   "fecha_dato": "2026-11-07",
+   "fuente_original": "NOAA CPC (NMME)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+  },
+  {
+   "id": "lluvia-pronostico-bajo-normal-cuenca-alta-sur-de-brasil-paraguay-misiones",
+   "nombre": "Probabilidad de lluvia bajo lo normal en Nov-Dic-Ene 2026 (pronóstico NOAA NMME): Cuenca alta (sur de Brasil, Paraguay, Misiones)",
+   "valor": 20,
+   "unidad": "%",
+   "fecha_dato": "2026-11-07",
+   "fuente_original": "NOAA CPC (NMME)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+  },
+  {
+   "id": "lluvia-pronostico-sobre-normal-litoral-y-nea",
+   "nombre": "Probabilidad de lluvia sobre lo normal en Nov-Dic-Ene 2026 (pronóstico NOAA NMME): Litoral y NEA",
+   "valor": 65,
+   "unidad": "%",
+   "fecha_dato": "2026-11-07",
+   "fuente_original": "NOAA CPC (NMME)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+  },
+  {
+   "id": "lluvia-pronostico-bajo-normal-litoral-y-nea",
+   "nombre": "Probabilidad de lluvia bajo lo normal en Nov-Dic-Ene 2026 (pronóstico NOAA NMME): Litoral y NEA",
+   "valor": 9,
+   "unidad": "%",
+   "fecha_dato": "2026-11-07",
+   "fuente_original": "NOAA CPC (NMME)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+  },
+  {
+   "id": "lluvia-pronostico-sobre-normal-region-nucleo",
+   "nombre": "Probabilidad de lluvia sobre lo normal en Nov-Dic-Ene 2026 (pronóstico NOAA NMME): Región núcleo",
+   "valor": 63,
+   "unidad": "%",
+   "fecha_dato": "2026-11-07",
+   "fuente_original": "NOAA CPC (NMME)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+  },
+  {
+   "id": "lluvia-pronostico-bajo-normal-region-nucleo",
+   "nombre": "Probabilidad de lluvia bajo lo normal en Nov-Dic-Ene 2026 (pronóstico NOAA NMME): Región núcleo",
+   "valor": 13,
+   "unidad": "%",
+   "fecha_dato": "2026-11-07",
+   "fuente_original": "NOAA CPC (NMME)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+  },
+  {
+   "id": "lluvia-pronostico-sobre-normal-sur-bonaerense-y-la-pampa",
+   "nombre": "Probabilidad de lluvia sobre lo normal en Nov-Dic-Ene 2026 (pronóstico NOAA NMME): Sur bonaerense y La Pampa",
+   "valor": 59,
+   "unidad": "%",
+   "fecha_dato": "2026-11-07",
+   "fuente_original": "NOAA CPC (NMME)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+  },
+  {
+   "id": "lluvia-pronostico-bajo-normal-sur-bonaerense-y-la-pampa",
+   "nombre": "Probabilidad de lluvia bajo lo normal en Nov-Dic-Ene 2026 (pronóstico NOAA NMME): Sur bonaerense y La Pampa",
+   "valor": 15,
+   "unidad": "%",
+   "fecha_dato": "2026-11-07",
+   "fuente_original": "NOAA CPC (NMME)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+  },
+  {
+   "id": "lluvia-pronostico-sobre-normal-noa",
+   "nombre": "Probabilidad de lluvia sobre lo normal en Nov-Dic-Ene 2026 (pronóstico NOAA NMME): NOA",
+   "valor": 25,
+   "unidad": "%",
+   "fecha_dato": "2026-11-07",
+   "fuente_original": "NOAA CPC (NMME)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+  },
+  {
+   "id": "lluvia-pronostico-bajo-normal-noa",
+   "nombre": "Probabilidad de lluvia bajo lo normal en Nov-Dic-Ene 2026 (pronóstico NOAA NMME): NOA",
+   "valor": 48,
+   "unidad": "%",
+   "fecha_dato": "2026-11-07",
+   "fuente_original": "NOAA CPC (NMME)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+  },
+  {
+   "id": "lluvia-pronostico-sobre-normal-cuyo",
+   "nombre": "Probabilidad de lluvia sobre lo normal en Nov-Dic-Ene 2026 (pronóstico NOAA NMME): Cuyo",
+   "valor": 42,
+   "unidad": "%",
+   "fecha_dato": "2026-11-07",
+   "fuente_original": "NOAA CPC (NMME)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+  },
+  {
+   "id": "lluvia-pronostico-bajo-normal-cuyo",
+   "nombre": "Probabilidad de lluvia bajo lo normal en Nov-Dic-Ene 2026 (pronóstico NOAA NMME): Cuyo",
+   "valor": 30,
+   "unidad": "%",
+   "fecha_dato": "2026-11-07",
+   "fuente_original": "NOAA CPC (NMME)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+  },
+  {
+   "id": "lluvia-pronostico-sobre-normal-comahue",
+   "nombre": "Probabilidad de lluvia sobre lo normal en Nov-Dic-Ene 2026 (pronóstico NOAA NMME): Comahue",
+   "valor": 54,
+   "unidad": "%",
+   "fecha_dato": "2026-11-07",
+   "fuente_original": "NOAA CPC (NMME)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+  },
+  {
+   "id": "lluvia-pronostico-bajo-normal-comahue",
+   "nombre": "Probabilidad de lluvia bajo lo normal en Nov-Dic-Ene 2026 (pronóstico NOAA NMME): Comahue",
+   "valor": 18,
+   "unidad": "%",
+   "fecha_dato": "2026-11-07",
+   "fuente_original": "NOAA CPC (NMME)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+  },
+  {
+   "id": "lluvia-pronostico-sobre-normal-rio-uruguay-y-sur-de-brasil",
+   "nombre": "Probabilidad de lluvia sobre lo normal en Nov-Dic-Ene 2026 (pronóstico NOAA NMME): Río Uruguay y sur de Brasil",
+   "valor": 66,
+   "unidad": "%",
+   "fecha_dato": "2026-11-07",
+   "fuente_original": "NOAA CPC (NMME)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+  },
+  {
+   "id": "lluvia-pronostico-bajo-normal-rio-uruguay-y-sur-de-brasil",
+   "nombre": "Probabilidad de lluvia bajo lo normal en Nov-Dic-Ene 2026 (pronóstico NOAA NMME): Río Uruguay y sur de Brasil",
+   "valor": 11,
+   "unidad": "%",
+   "fecha_dato": "2026-11-07",
+   "fuente_original": "NOAA CPC (NMME)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#lluvias"
+  },
+  {
+   "id": "desplazados-chaco",
+   "nombre": "Personas evacuadas y autoevacuadas por las crecidas: Chaco",
+   "valor": 2026,
+   "unidad": "personas",
+   "variacion": {
+    "valor": -21,
+    "unidad": "personas",
+    "contra": "dato anterior (2026-11-17)"
+   },
+   "fecha_dato": "2026-11-21",
+   "fuente_original": "Data Chaco",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Chaco",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#hoy-mas"
+  },
+  {
+   "id": "desplazados-corrientes",
+   "nombre": "Personas evacuadas y autoevacuadas por las crecidas: Corrientes",
+   "valor": 2005,
+   "unidad": "personas",
+   "variacion": {
+    "valor": 38,
+    "unidad": "personas",
+    "contra": "dato anterior (2026-11-05)"
+   },
+   "fecha_dato": "2026-11-09",
+   "fuente_original": "Noticias del Paraná",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Corrientes",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#hoy-mas"
+  },
+  {
+   "id": "desplazados-misiones",
+   "nombre": "Personas evacuadas y autoevacuadas por las crecidas: Misiones",
+   "valor": 31,
+   "unidad": "personas",
+   "variacion": {
+    "valor": 31,
+    "unidad": "personas",
+    "contra": "dato anterior (2026-10-26)"
+   },
+   "fecha_dato": "2026-11-24",
+   "fuente_original": "Misiones Online",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Misiones",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#hoy-mas"
+  },
+  {
+   "id": "desplazados-entre-rios",
+   "nombre": "Personas evacuadas y autoevacuadas por las crecidas: Entre Ríos",
+   "valor": 158,
+   "unidad": "personas",
+   "variacion": {
+    "valor": 22,
+    "unidad": "personas",
+    "contra": "dato anterior (2026-11-12)"
+   },
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Infobae",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Entre Ríos",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#hoy-mas"
+  },
+  {
+   "id": "desplazados-santa-fe",
+   "nombre": "Personas evacuadas y autoevacuadas por las crecidas: Santa Fe",
+   "valor": 436,
+   "unidad": "personas",
+   "variacion": {
+    "valor": 11,
+    "unidad": "personas",
+    "contra": "dato anterior (2026-11-22)"
+   },
+   "fecha_dato": "2026-11-24",
+   "fuente_original": "UNO Santa Fe",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Fe",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#hoy-mas"
+  },
+  {
+   "id": "emergencia-corrientes",
+   "nombre": "Emergencia hídrica o climática provincial: Corrientes",
+   "valor": "Emergencia vigente",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Corrientes",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-chaco",
+   "nombre": "Emergencia hídrica o climática provincial: Chaco",
+   "valor": "Emergencia vencida",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Chaco",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-santa-fe",
+   "nombre": "Emergencia hídrica o climática provincial: Santa Fe",
+   "valor": "Emergencia vigente",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Fe",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-entre-rios",
+   "nombre": "Emergencia hídrica o climática provincial: Entre Ríos",
+   "valor": "Emergencia vigente",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Entre Ríos",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-misiones",
+   "nombre": "Emergencia hídrica o climática provincial: Misiones",
+   "valor": "Plan sin emergencia",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Misiones",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-formosa",
+   "nombre": "Emergencia hídrica o climática provincial: Formosa",
+   "valor": "Plan sin emergencia",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Formosa",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-buenos-aires",
+   "nombre": "Emergencia hídrica o climática provincial: Buenos Aires",
+   "valor": "Plan sin emergencia",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Buenos Aires",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-caba",
+   "nombre": "Emergencia hídrica o climática provincial: CABA",
+   "valor": "Plan sin emergencia",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "CABA",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-cordoba",
+   "nombre": "Emergencia hídrica o climática provincial: Córdoba",
+   "valor": "Plan sin emergencia",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Córdoba",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-mendoza",
+   "nombre": "Emergencia hídrica o climática provincial: Mendoza",
+   "valor": "Emergencia vigente",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Mendoza",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-salta",
+   "nombre": "Emergencia hídrica o climática provincial: Salta",
+   "valor": "Plan sin emergencia",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Salta",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-jujuy",
+   "nombre": "Emergencia hídrica o climática provincial: Jujuy",
+   "valor": "Sin medidas halladas",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Jujuy",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-tucuman",
+   "nombre": "Emergencia hídrica o climática provincial: Tucumán",
+   "valor": "Sin medidas halladas",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Tucumán",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-santiago-del-estero",
+   "nombre": "Emergencia hídrica o climática provincial: Santiago del Estero",
+   "valor": "Sin medidas halladas",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santiago del Estero",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-la-pampa",
+   "nombre": "Emergencia hídrica o climática provincial: La Pampa",
+   "valor": "Sin medidas halladas",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "La Pampa",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-rio-negro",
+   "nombre": "Emergencia hídrica o climática provincial: Río Negro",
+   "valor": "Sin medidas halladas",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Río Negro",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-neuquen",
+   "nombre": "Emergencia hídrica o climática provincial: Neuquén",
+   "valor": "Emergencia vigente",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Neuquén",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-catamarca",
+   "nombre": "Emergencia hídrica o climática provincial: Catamarca",
+   "valor": "Sin medidas halladas",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Catamarca",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-la-rioja",
+   "nombre": "Emergencia hídrica o climática provincial: La Rioja",
+   "valor": "Sin medidas halladas",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "La Rioja",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-san-juan",
+   "nombre": "Emergencia hídrica o climática provincial: San Juan",
+   "valor": "Sin medidas halladas",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "San Juan",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-san-luis",
+   "nombre": "Emergencia hídrica o climática provincial: San Luis",
+   "valor": "Sin medidas halladas",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "San Luis",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-chubut",
+   "nombre": "Emergencia hídrica o climática provincial: Chubut",
+   "valor": "Plan sin emergencia",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Chubut",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-santa-cruz",
+   "nombre": "Emergencia hídrica o climática provincial: Santa Cruz",
+   "valor": "Sin medidas halladas",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Cruz",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "emergencia-tierra-del-fuego",
+   "nombre": "Emergencia hídrica o climática provincial: Tierra del Fuego",
+   "valor": "Sin medidas halladas",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Boletines oficiales y gobiernos provinciales",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Tierra del Fuego",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#mapa"
+  },
+  {
+   "id": "riesgo-climatico-hidro",
+   "nombre": "Riesgo climático: Generación hidroeléctrica",
+   "valor": "Mixto",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Alerta Hídrica, con datos de las fuentes de la sección",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Energía"
+   ],
+   "subrubros": [],
+   "exposicion": [
+    "Energía intensiva"
+   ],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rubros"
+  },
+  {
+   "id": "riesgo-climatico-fluvial",
+   "nombre": "Riesgo climático: Transporte fluvial",
+   "valor": "Riesgo medio",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Alerta Hídrica, con datos de las fuentes de la sección",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Agro",
+    "Industria",
+    "Comercio y servicios"
+   ],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta",
+    "Importa insumos"
+   ],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rubros"
+  },
+  {
+   "id": "riesgo-climatico-construccion",
+   "nombre": "Riesgo climático: Construcción",
+   "valor": "Riesgo medio",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Alerta Hídrica, con datos de las fuentes de la sección",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Construcción"
+   ],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rubros"
+  },
+  {
+   "id": "riesgo-climatico-energia",
+   "nombre": "Riesgo climático: Energía eléctrica",
+   "valor": "Riesgo medio",
+   "unidad": "",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Alerta Hídrica, con datos de las fuentes de la sección",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Energía"
+   ],
+   "subrubros": [],
+   "exposicion": [
+    "Energía intensiva"
+   ],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rubros"
+  }
+ ],
+ "novedades": [
+  {
+   "id": "rio-goya-alerta",
+   "fecha_dato": "2026-11-25",
+   "titulo": "El río Paraná en Goya está sobre la cota de alerta",
+   "resumen": "El Paraná marcó 5,42 m en Goya (Corrientes) el 25 de noviembre; la cota de alerta es 5,20 m y la de evacuación, 5,70 m.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Corrientes",
+    "localidad": "Goya",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "rio-reconquista-alerta",
+   "fecha_dato": "2026-11-25",
+   "titulo": "El río Paraná en Reconquista está sobre la cota de alerta",
+   "resumen": "El Paraná marcó 5,27 m en Reconquista (Santa Fe) el 25 de noviembre; la cota de alerta es 5,10 m y la de evacuación, 5,30 m.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Santa Fe",
+    "localidad": "Reconquista",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "rio-la-paz-alerta",
+   "fecha_dato": "2026-11-25",
+   "titulo": "El río Paraná en La Paz está sobre la cota de alerta",
+   "resumen": "El Paraná marcó 6,05 m en La Paz (Entre Ríos) el 25 de noviembre; la cota de alerta es 5,80 m y la de evacuación, 6,15 m.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Entre Ríos",
+    "localidad": "La Paz",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "rio-santa-fe-evacuacion",
+   "fecha_dato": "2026-11-25",
+   "titulo": "El río Paraná en Santa Fe está sobre la cota de evacuación",
+   "resumen": "El Paraná marcó 5,77 m en Santa Fe el 25 de noviembre; la cota de alerta es 5,30 m y la de evacuación, 5,70 m.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Santa Fe",
+    "localidad": "Santa Fe",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "rio-parana-evacuacion",
+   "fecha_dato": "2026-11-25",
+   "titulo": "El río Paraná en Paraná está sobre la cota de evacuación",
+   "resumen": "El Paraná marcó 5,55 m en Paraná (Entre Ríos) el 25 de noviembre; la cota de alerta es 4,70 m y la de evacuación, 5,00 m.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Entre Ríos",
+    "localidad": "Paraná",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "rio-victoria-evacuacion",
+   "fecha_dato": "2026-11-25",
+   "titulo": "El río Paraná en Victoria está sobre la cota de evacuación",
+   "resumen": "El Paraná marcó 5,36 m en Victoria (Entre Ríos) el 25 de noviembre; la cota de alerta es 4,60 m y la de evacuación, 4,90 m.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Entre Ríos",
+    "localidad": "Victoria",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "2026-11-25-alerta-smn-salta",
+   "fecha_dato": "2026-11-25",
+   "titulo": "Alerta naranja del SMN en Salta",
+   "resumen": "Tormentas aisladas fuertes o severas con granizo, ráfagas de hasta 90 km/h y 70 a 100 mm (norte); amarilla por tormentas en el resto",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Salta",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-25-alerta-smn-formosa",
+   "fecha_dato": "2026-11-25",
+   "titulo": "Alerta naranja del SMN en Formosa",
+   "resumen": "Tormentas aisladas fuertes o severas con granizo, ráfagas de hasta 90 km/h y 70 a 100 mm",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Formosa",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-25-alerta-smn-jujuy",
+   "fecha_dato": "2026-11-25",
+   "titulo": "Alerta amarilla del SMN en Jujuy",
+   "resumen": "Tormentas aisladas, algunas fuertes, con granizo ocasional y ráfagas intensas",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Jujuy",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-25-alerta-smn-corrientes",
+   "fecha_dato": "2026-11-25",
+   "titulo": "Alerta amarilla del SMN en Corrientes",
+   "resumen": "Tormentas aisladas, algunas fuertes, con granizo ocasional y ráfagas intensas",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Corrientes",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-25-alerta-smn-catamarca",
+   "fecha_dato": "2026-11-25",
+   "titulo": "Alerta amarilla del SMN en Catamarca",
+   "resumen": "Tormentas aisladas, algunas fuertes, con granizo ocasional y ráfagas intensas",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Catamarca",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-25-alerta-smn-la-rioja",
+   "fecha_dato": "2026-11-25",
+   "titulo": "Alerta amarilla del SMN en La Rioja",
+   "resumen": "Tormentas aisladas, algunas fuertes, con granizo ocasional y ráfagas intensas (sectores)",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "La Rioja",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-25-alerta-smn-san-juan",
+   "fecha_dato": "2026-11-25",
+   "titulo": "Alerta amarilla del SMN en San Juan",
+   "resumen": "Tormentas aisladas, algunas fuertes, con granizo ocasional y ráfagas intensas (sectores)",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "San Juan",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-25-alerta-smn-buenos-aires",
+   "fecha_dato": "2026-11-25",
+   "titulo": "Alerta amarilla del SMN en Buenos Aires",
+   "resumen": "Viento del oeste o sudoeste de 40 a 70 km/h con ráfagas de más de 90 km/h en el área balnearia",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Buenos Aires",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-25-alerta-smn-santa-cruz",
+   "fecha_dato": "2026-11-25",
+   "titulo": "Alerta amarilla del SMN en Santa Cruz",
+   "resumen": "Viento del oeste o sudoeste de 40 a 70 km/h con ráfagas de más de 90 km/h",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Cruz",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-25-alerta-smn-tierra-del-fuego",
+   "fecha_dato": "2026-11-25",
+   "titulo": "Alerta amarilla del SMN en Tierra del Fuego",
+   "resumen": "Viento del oeste o sudoeste de 40 a 70 km/h con ráfagas de más de 90 km/h",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Tierra del Fuego",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-24-temporal-fortin-inca",
+   "fecha_dato": "2026-11-24",
+   "titulo": "Temporal con granizo, viento y lluvia intensa en Fortín Inca (Santiago del Estero)",
+   "resumen": "Temporal de madrugada (hacia las 4) con granizo, ráfagas que los vecinos describieron como de tornado y unos 80 mm en poco tiempo. Techos volados en viviendas de cinco o seis familias, paredes de ladrillo derrumbadas, árboles arrancados, postes y cables caídos. Sin heridos.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Santiago del Estero",
+    "localidad": "Fortín Inca",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.diariopanorama.com/noticia/574063/granizo-rafagas-destrozos-violento-temporal-golpeo-fortin-inca-durante-madrugada"
+  },
+  {
+   "id": "2026-11-24-temporal-posadas-san-antonio-y-otras-localidades",
+   "fecha_dato": "2026-11-24",
+   "titulo": "Temporal con lluvia intensa en Posadas, San Antonio y otras localidades (Misiones)",
+   "resumen": "Tormentas con alerta naranja del SMN y lluvias intensas. 31 evacuados, unas 100 personas damnificadas, cinco viviendas inundadas, tres desbordes de arroyos, un poste caído, cortes de luz y de rutas; en Posadas una descarga dañó un transformador.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Misiones",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://misionesonline.net/2026/11/24/temporal-misiones-evacuados/"
+  },
+  {
+   "id": "2026-11-21-temporal-rafaela",
+   "fecha_dato": "2026-11-21",
+   "titulo": "Temporal con granizo y viento en Rafaela (Santa Fe)",
+   "resumen": "Tormenta breve de madrugada (unos cinco minutos, hacia las 4.45) con granizo, ráfagas intensas y 14 mm. Árboles y ramas caídos en el oeste y sobre una colectora; varios barrios sin luz; desprendimiento de cartelería y mampostería en la Terminal de Ómnibus. Sin heridos informados.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Santa Fe",
+    "localidad": "Rafaela",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.c5n.com/sociedad/rafaela-tormenta-lluvia-destrozos-sabado-21-noviembre-2026"
+  },
+  {
+   "id": "2026-11-20-temporal-san-francisco-calchin-oeste-general-cabr",
+   "fecha_dato": "2026-11-20",
+   "titulo": "Temporal con viento y lluvia intensa en San Francisco, Calchín Oeste, General Cabrera y General Deheza (Córdoba)",
+   "resumen": "Temporal de madrugada con ráfagas de 90 a 140 km/h según el gobierno provincial y 117 mm en 24 horas en General Cabrera y General Deheza. Techos volados, estructuras derrumbadas, árboles arrancados y al menos cinco autos aplastados en San Francisco; ~70% de la ciudad sin luz (ocho subestaciones). Calchín Oeste sin energía.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Córdoba",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://ellitoral.com/nacionales/cordoba-sanfrancisco-temporal-evacuaciones-generalcabrera-generaldeheza-inundaciones-calchinoeste_0_psVxuSspEv.html"
+  },
+  {
+   "id": "2026-11-18-temporal-2a-seccion-rural-buena-vista-y-norte-del",
+   "fecha_dato": "2026-11-18",
+   "titulo": "Temporal con granizo y lluvia intensa en 2ª sección rural Buena Vista y norte del AMBA (Corrientes)",
+   "resumen": "Tormenta intensa con granizo de «considerable tamaño» y viento fuerte en la zona rural de Goya al mediodía del miércoles. En el norte del conurbano y de la Ciudad cayó granizo al mediodía: conductores se refugiaron bajo los puentes de la Panamericana. Sin daños ni tamaño de granizo informados al cierre.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Corrientes",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.ellitoral.com.ar/interior/2026-11-18-7-48-0-tormenta-y-granizo-en-una-localidad-de-corrientes"
+  },
+  {
+   "id": "2026-11-16-temporal-las-varillas-noetinger-general-deheza-ri",
+   "fecha_dato": "2026-11-16",
+   "titulo": "Temporal con granizo, viento y lluvia intensa en Las Varillas, Noetinger, General Deheza, Río Cuarto y sur de Córdoba (Córdoba)",
+   "resumen": "Línea de tormentas el lunes: ráfagas de 116 km/h en Las Varillas, 111 km/h en Noetinger y unos 80 km/h en Córdoba capital; 92 a 95 mm en pocas horas en General Deheza, 32 mm en 20 minutos en Río Cuarto y unos 110 mm en una hora en La Cautiva según productores (sin confirmación oficial).",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Córdoba",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.infobae.com/sociedad/2026/11/17/las-tormentas-afectaron-a-varias-provincias-granizo-calles-anegadas-actividad-electrica-y-rafagas-de-mas-de-100-kmh/"
+  },
+  {
+   "id": "2026-11-16-temporal-junin-y-chivilcoy",
+   "fecha_dato": "2026-11-16",
+   "titulo": "Temporal con lluvia intensa en Junín y Chivilcoy (Buenos Aires)",
+   "resumen": "Entre 90 y 100 mm en poco más de dos horas en Chivilcoy el lunes a la noche (una celda dejó unos 50 mm en media hora). Calles anegadas y agua dentro de viviendas; familias evacuadas en Chivilcoy (barrio Varela entre los más afectados) y al menos tres en Junín, donde se activó el Comité de Emergencia.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Buenos Aires",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.infobae.com/sociedad/2026/11/17/las-tormentas-afectaron-a-varias-provincias-granizo-calles-anegadas-actividad-electrica-y-rafagas-de-mas-de-100-kmh/"
+  },
+  {
+   "id": "2026-11-16-temporal-la-punta-y-san-luis-capital-general-alve",
+   "fecha_dato": "2026-11-16",
+   "titulo": "Temporal con granizo, viento y lluvia intensa en La Punta y San Luis capital; General Alvear y Valle de Uco; Realicó (San Luis)",
+   "resumen": "Granizo fuerte en La Punta, Juana Koslay, San Luis capital, Potrero de los Funes y Los Puquios, con piedras del tamaño de una nuez; granizo acumulado en General Alvear y en el sur del Valle de Uco (Mendoza) y ráfagas del sur en el Gran Mendoza; más de 95 mm en Realicó (La Pampa). Tránsito detenido por granizo en Desaguadero;",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "San Luis",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://examedia.com.ar/portada/post/88251935"
+  },
+  {
+   "id": "2026-11-16-temporal-rosario-granadero-baigorria-santa-fe-cap",
+   "fecha_dato": "2026-11-16",
+   "titulo": "Temporal con granizo, viento y lluvia intensa en Rosario, Granadero Baigorria, Santa Fe capital y centro santafesino (Santa Fe)",
+   "resumen": "Línea de tormentas el lunes a la noche: ráfagas de 86 km/h en Rosario (varias sobre 70 km/h) y 60 km/h en Alto Verde; 52 mm en Rosario, 50 en Granadero Baigorria, 48,9 en Villa Cañás y 51 mm en una hora en Alto Verde. En un campo de San Jorge las ráfagas superaron los 90 km/h, con granizo.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Fe",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.lanacion.com.ar/sociedad/el-parana-crece-y-una-tormenta-complico-aun-mas-la-situacion-en-santa-fe-nid17112026/"
+  },
+  {
+   "id": "2026-11-14-temporal-san-fernando-del-valle-de-catamarca",
+   "fecha_dato": "2026-11-14",
+   "titulo": "Temporal con granizo y lluvia intensa en San Fernando del Valle de Catamarca (Catamarca)",
+   "resumen": "Temporal en la madrugada del sábado con lluvia intensa, granizo y fuerte correntada en las avenidas de la capital. Una mujer murió arrastrada por el agua en la avenida Güemes Oeste y su hija fue rescatada con vida.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Catamarca",
+    "localidad": "San Fernando del Valle de Catamarca",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.infobae.com/sociedad/2026/11/14/una-mujer-murio-arrastrada-por-el-agua-durante-un-temporal-mientras-intentaba-proteger-su-auto-del-granizo/"
+  },
+  {
+   "id": "2026-11-13-temporal-arequito-y-zona-rural-de-villa-canas",
+   "fecha_dato": "2026-11-13",
+   "titulo": "Temporal con granizo, viento, tornado y lluvia intensa en Arequito y zona rural de Villa Cañás (Santa Fe)",
+   "resumen": "Tormenta el viernes cerca de las 14 en Arequito: 96 mm en 40 minutos según la Comuna (intensidad de hasta 264 mm por hora en registros locales) y ráfagas de 88 km/h. Ese día se registró un tornado de baja intensidad en la zona rural de Villa Cañás.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Fe",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.todonea.com/2026/11/14/un-tornado-sorprendio-al-sur-de-santa-fe-arboles-caidos-danos-en-campos-y-destrozos-por-el-temporal/"
+  },
+  {
+   "id": "2026-11-13-temporal-general-roca-y-los-surgentes",
+   "fecha_dato": "2026-11-13",
+   "titulo": "Temporal con granizo y lluvia intensa en General Roca y Los Surgentes (Córdoba)",
+   "resumen": "Granizo de gran tamaño (sin medición publicada) y 44 a 45 mm. Cultivos y frutales destruidos, vidrios de autos y comercios rotos y techos golpeados, sin heridos. Pérdida total de trigo y maíz en una franja de unos 8 km hacia Roca y lotes que habrá que resembrar (relato de productores, sin relevamiento oficial).",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Córdoba",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://cordobainteriorinforma.com/2026/11/13/granizo-de-gran-tamano-afecto-a-general-roca-y-los-surgentes/"
+  },
+  {
+   "id": "2026-11-13-temporal-cordoba-capital-rio-cuarto-e-inriville",
+   "fecha_dato": "2026-11-13",
+   "titulo": "Temporal con granizo, viento y lluvia intensa en Córdoba capital, Río Cuarto e Inriville (Córdoba)",
+   "resumen": "Tormentas desde la tarde y en la noche del viernes: 61 mm en Río Cuarto, 48 mm en Corral de Bustos y 42 mm en Villa Urquiza (Córdoba); granizo en la capital, Inriville, La Carolina y El Potosí. En Córdoba capital, 122 llamados a Defensa Civil por anegamientos, 22 postes en riesgo y 9 árboles caídos;",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Córdoba",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.infobae.com/sociedad/2026/11/14/calles-inundadas-granizo-y-el-rescate-de-un-hombre-arrastrado-por-un-rio-durante-la-tormenta-que-azoto-a-cordoba/"
+  },
+  {
+   "id": "2026-11-13-temporal-san-jeronimo-norte-san-javier-nelson-y-h",
+   "fecha_dato": "2026-11-13",
+   "titulo": "Temporal con granizo, viento y lluvia intensa en San Jerónimo Norte, San Javier, Nelson y Humboldt (Santa Fe)",
+   "resumen": "Temporal del viernes a la noche en el centro-norte santafesino: la estación de San Javier registró ráfagas de 118 km/h (el meteorólogo Pablo Lucero estimó que superaron los 120 km/h) y cayó granizo grande y abundante en San Jerónimo Norte; también granizó en Nelson y Humboldt. Lluvias: 53 mm en Villa Cañás y 39 mm en Reconquista.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Fe",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.airedesantafe.com.ar/santa-fe/fuerte-temporal-el-centro-norte-santafesino-granizo-y-destrozos-diversas-localidades-n676824"
+  },
+  {
+   "id": "2026-11-13-temporal-germania",
+   "fecha_dato": "2026-11-13",
+   "titulo": "Temporal con viento en Germania (Buenos Aires)",
+   "resumen": "El viento del temporal del viernes 13 arrancó techos, paredes, ventanas y puertas de la Escuela Secundaria Agraria N° 1 de Germania con unos 110 alumnos adentro, poco antes del recreo. Un silo terminó a unos 50 metros de su lugar.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Buenos Aires",
+    "localidad": "Germania",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://urgente24.com/termoscopio/tormenta-terror-destroza-escuela-bonaerense-el-dramatico-relato-n637088"
+  },
+  {
+   "id": "2026-11-12-temporal-embarcacion",
+   "fecha_dato": "2026-11-12",
+   "titulo": "Temporal con granizo, viento y lluvia intensa en Embarcación (Salta)",
+   "resumen": "Temporal de viento muy fuerte, lluvia intensa y granizo el jueves por la tarde; no se informó la velocidad de las ráfagas. Unas 150 personas atendidas por heridas en el hospital San Roque: más de diez derivadas a Pichanal y Orán, con fracturas y cortes, y un nene de 4 años con traumatismo de cráneo grave trasladado en código rojo.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Salta",
+    "localidad": "Embarcación",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.eltribuno.com/municipios/2026-11-12-22-23-0-temporal-en-embarcacion-hay-mas-de-150-heridos-y-evaluan-suspender-las-clases"
+  },
+  {
+   "id": "2026-11-04-temporal-resistencia",
+   "fecha_dato": "2026-11-04",
+   "titulo": "Temporal con viento en Resistencia (Chaco)",
+   "resumen": "Ráfagas fuertes en las primeras horas del miércoles, dentro de la alerta naranja por tormentas en el este del Chaco; llovió poco. Árboles, ramas y carteles caídos en distintos puntos de la ciudad; sin anegamientos importantes. No se informaron heridos ni usuarios sin luz.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Chaco",
+    "localidad": "Resistencia",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.diarionorte.com/336046-el-viento-provoco-caida-de-arboles-y-danos-en-distintos-puntos-de-resistencia"
+  },
+  {
+   "id": "2026-11-04-temporal-panambi-puerto-rosario-itacaruare-posada",
+   "fecha_dato": "2026-11-04",
+   "titulo": "Temporal con viento, tornado y lluvia intensa en Panambí, Puerto Rosario, Itacaruaré, Posadas, Jardín América y otras localidades (Misiones)",
+   "resumen": "Temporal con ráfagas muy fuertes y lluvia intensa (104,8 mm en Posadas hasta las 13:30, el 59% del promedio de noviembre). Las autoridades locales hablaron de un posible tornado con epicentro en Panambí, no confirmado por organismos meteorológicos. 197 viviendas dañadas en 21 localidades, siete escuelas y 50 instalaciones productivas (galpones de tabaco, una fábrica de almidón);",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Misiones",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://revistacodigos.com/temporal-misiones-viviendas-familias-asistidas/"
+  },
+  {
+   "id": "2026-11-03-temporal-timbues-pueblo-andino-lucio-v-lopez-sero",
+   "fecha_dato": "2026-11-03",
+   "titulo": "Temporal con granizo, viento y lluvia intensa en Timbúes, Pueblo Andino, Lucio V. López, Serodino, Salto Grande y Rosario (Santa Fe)",
+   "resumen": "Granizo intenso de distintos tamaños el martes por la tarde en el sur santafesino, con calles cubiertas de hielo en Serodino; viento y lluvia en Rosario. Árboles caídos en Rosario, uno sobre un auto (sin heridos). No hubo relevamiento oficial de daños en viviendas, autos ni cultivos.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Fe",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.lacapital.com.ar/fuerte-temporal-rosario-y-la-region-granizo-arboles-caidos-y-destrozos-la-tormenta-n10290319.html"
+  },
+  {
+   "id": "2026-11-03-temporal-rio-tercero",
+   "fecha_dato": "2026-11-03",
+   "titulo": "Temporal con granizo en Río Tercero (Córdoba)",
+   "resumen": "Granizada intensa en sectores de la ciudad el martes por la tarde. No se informaron oficialmente daños estructurales de consideración ni evacuados.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Córdoba",
+    "localidad": "Río Tercero",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.cadena3.com/noticia/clima/una-impactante-caida-de-granizo-azoto-a-rio-tercero_609849"
+  },
+  {
+   "id": "2026-11-03-temporal-santa-rosa-y-los-campamentos",
+   "fecha_dato": "2026-11-03",
+   "titulo": "Temporal con granizo en Santa Rosa y Los Campamentos (Mendoza)",
+   "resumen": "Granizada con piedras de gran tamaño el martes por la tarde en el este mendocino. Sin daños materiales de consideración reportados; el relevamiento en el departamento seguía en curso (no hay datos sobre viñedos).",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Mendoza",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.losandes.com.ar/sociedad/una-fuerte-granizada-sorprendio-santa-rosa-y-afecto-la-villa-cabecera-y-las-catitas-n6012892"
+  },
+  {
+   "id": "2026-11-03-temporal-corral-de-bustos-justiniano-posse-y-bust",
+   "fecha_dato": "2026-11-03",
+   "titulo": "Temporal con granizo, viento y lluvia intensa en Corral de Bustos, Justiniano Posse y Bustinza; Armstrong (Córdoba)",
+   "resumen": "Tormenta del martes con 116 mm en Corral de Bustos (unos 76 mm en menos de dos horas), ráfagas de 101,4 km/h en Justiniano Posse y granizo en Bustinza; en Armstrong cayeron 28 mm en menos de 15 minutos con granizo. Daños en techos en Justiniano Posse.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Córdoba",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.lacapital.com.ar/agro/tormentas-intensas-la-region-agricola-registros-116-milimetros-y-rafagas-100-kmh-n10290418.html"
+  },
+  {
+   "id": "2026-11-01-temporal-oncativo-luque-villa-del-rosario-colonia",
+   "fecha_dato": "2026-11-01",
+   "titulo": "Temporal con granizo, viento y lluvia intensa en Oncativo, Luque, Villa del Rosario, Colonia Almada y Río Tercero (Córdoba)",
+   "resumen": "Temporal del domingo con granizo \"de considerable tamaño\", ráfagas y más de 35 mm, dentro de la alerta naranja del SMN para el centro de Córdoba. Árboles y postes caídos y daños en el tendido eléctrico; no se informó cuántos usuarios quedaron sin luz ni daños en cultivos.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Córdoba",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://reporteregional.com/provinciales/granizo-danos-oncativo-alerta-meteorologico-rio-primero/"
+  },
+  {
+   "id": "2026-11-01-temporal-eldorado-9-de-julio-santiago-de-liniers-",
+   "fecha_dato": "2026-11-01",
+   "titulo": "Temporal con granizo, viento y lluvia intensa en Eldorado, 9 de Julio, Santiago de Liniers y Montecarlo (Misiones)",
+   "resumen": "Temporal entre las 17 y las 18 del domingo, con ráfagas, lluvia intensa y granizo chico en Montecarlo. En Eldorado, 12 voladuras de techos, 25 postes o tramos del tendido afectados, 20 árboles y ramas caídos y un herido atrapado en su casa (relevamiento preliminar de la Policía); cortes de luz e internet.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Misiones",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://misiones.gob.ar/policia-fuerte-temporal-en-eldorado-12-voladuras-de-techos-arboles-y-postes-caidos-un-herido-y-zonas-sin-luz-ni-internet/"
+  },
+  {
+   "id": "2026-10-31-temporal-valle-medio",
+   "fecha_dato": "2026-10-31",
+   "titulo": "Temporal con granizo y viento en Valle Medio (Río Negro)",
+   "resumen": "Temporal de la tarde del sábado, sin alerta vigente del SMN para la zona según el diario. Árboles caídos, voladuras de techos y daños en viviendas; se derrumbó el paredón de la cancha de tenis del club Sportsman en Choele Choel y un ciclista sufrió una fractura al caerle un árbol.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Río Negro",
+    "localidad": "Valle Medio",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://diariopampero.com/temporal-en-rio-negro-y-cordoba-dejo-danos-y-heridos/"
+  },
+  {
+   "id": "2026-10-31-temporal-rio-cuarto-alta-gracia-anisacate-agua-de",
+   "fecha_dato": "2026-10-31",
+   "titulo": "Temporal con granizo y lluvia intensa en Río Cuarto, Alta Gracia, Anisacate, Agua de Oro y sierras (Córdoba)",
+   "resumen": "Tormentas con alerta: 62 mm en 25 minutos en Río Cuarto (más de 65 mm en el día) y cerca de 60 mm en La Cumbrecita y Los Reartes. Granizo en Alta Gracia (dos episodios), Anisacate y Agua de Oro, sin daños informados. Una mujer se lesionó en el cerro Champaquí y el granizo dificultó el rescate.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Córdoba",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://diariopampero.com/temporal-en-rio-negro-y-cordoba-dejo-danos-y-heridos/"
+  },
+  {
+   "id": "2026-10-30-temporal-sur-del-amba-canuelas-lobos-navarro-y-sa",
+   "fecha_dato": "2026-10-30",
+   "titulo": "Temporal con granizo, viento y lluvia intensa en Sur del AMBA, Cañuelas, Lobos, Navarro y San Vicente (Buenos Aires)",
+   "resumen": "Tormentas de la mañana con alerta amarilla (20 a 50 mm previstos en el AMBA). Granizo en Burzaco, Adrogué y Temperley; anegamientos temporarios en accesos urbanos y caída de ramas por ráfagas en Cañuelas, Lobos, Navarro y San Vicente. Sin balance oficial de daños.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Buenos Aires",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.canal26.com/clima/2026/10/30/viernes-de-granizo-tormentas-y-fuertes-vientos-las-fotos-y-videos-del-temporal-que-azoto-al-amba/"
+  },
+  {
+   "id": "2026-10-27-temporal-gran-mendoza",
+   "fecha_dato": "2026-10-27",
+   "titulo": "Temporal con viento y lluvia intensa en Gran Mendoza (Mendoza)",
+   "resumen": "Tormenta entre las 20 del lunes 26 y las 8 del martes 27, con alerta amarilla vigente. Siete incidentes en cuatro departamentos según Defensa Civil: árboles y ramas caídos, un cable cortado en Maipú, problemas en el tendido eléctrico y filtraciones en viviendas; Guaymallén fue el más afectado.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Mendoza",
+    "localidad": "Gran Mendoza",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://elmonterizo.com/la-tormenta-dejo-siete-emergencias-en-mendoza-y-guaymallen-se-llevo-la-peor-parte"
+  },
+  {
+   "id": "2026-10-27-temporal-balcarce-y-loberia",
+   "fecha_dato": "2026-10-27",
+   "titulo": "Temporal con granizo y lluvia intensa en Balcarce y Lobería (Buenos Aires)",
+   "resumen": "Tormenta del martes con granizo y unos 110 mm en pocas horas en Dos Naciones. Daños en lotes de trigo y en ensayos del INTA Balcarce, árboles caídos y campos anegados. Un asesor considera que el estado general del trigo en la zona sigue siendo bueno, pero preocupa la baja radiación solar.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Buenos Aires",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.lanacion.com.ar/economia/campo/una-violenta-tormenta-con-granizo-sorprendio-en-una-region-golpeada-por-otro-fenomeno-la-falta-de-nid30102026/"
+  },
+  {
+   "id": "2026-10-24-temporal-comandante-andresito-y-sur-de-misiones",
+   "fecha_dato": "2026-10-24",
+   "titulo": "Temporal con granizo, viento y lluvia intensa en Comandante Andresito y sur de Misiones (Misiones)",
+   "resumen": "Cerca de las 17 cayó granizo con viento fuerte en Comandante Andresito; a la noche llovieron 30,1 mm en Posadas. En Andresito, árboles y postes caídos, daños en tabacales y galpones de tabaco (paraje Las 500 Hectáreas, Ruta 19) y cortes de luz; sin heridos. En Posadas, árboles y cables caídos.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Misiones",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://misionesonline.net/2026/10/24/un-fuerte-temporal-con-granizo-y-vientos-intensos-provoco-destrozos-en-comandante-andresito/"
+  },
+  {
+   "id": "2026-10-23-temporal-centro-y-norte-de-misiones",
+   "fecha_dato": "2026-10-23",
+   "titulo": "Temporal con granizo, viento y lluvia intensa en Centro y norte de Misiones (Misiones)",
+   "resumen": "Segundo día de temporal con voladuras de techos y arroyos desbordados. En Dos de Mayo, una granizada \"histórica\" cubrió de blanco calles y patios. 112 viviendas afectadas y cuatro familias evacuadas al cierre del 23 (antes 66): 35 en Aristóbulo del Valle, unas 30 en Gobernador Roca y unas 40 familias afectadas en Campo Grande.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Misiones",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://nortemisionero.com.ar/actualidad/ascienden-a-66-las-viviendas-afectadas-por-el-temporal-en-misiones-con-familias-evacuadas-y-nuevos-cortes-de-rutas-y-puentes/"
+  },
+  {
+   "id": "2026-10-23-temporal-gran-resistencia",
+   "fecha_dato": "2026-10-23",
+   "titulo": "Temporal con granizo, viento y lluvia intensa en Gran Resistencia (Chaco)",
+   "resumen": "Lluvias de 68 mm en Barranqueras, 58 en Puerto Vilelas y 57 en Resistencia, con ráfagas de hasta 70 km/h y granizo en algunos sectores, sobre una zona ya inundada por el Paraná. Calles anegadas, árboles caídos y derrumbe parcial del techo de un comercio sobre la Ruta 16. Empeoró la situación de casi 250 familias evacuadas y autoevacuadas.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Chaco",
+    "localidad": "Gran Resistencia",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.diariolavozdelchaco.com/2026/10/23/la-tormenta-complico-la-situacion-de-los-evacuados-y-los-anegamientos/"
+  },
+  {
+   "id": "2026-10-23-temporal-gran-mendoza-y-otros-seis-departamentos",
+   "fecha_dato": "2026-10-23",
+   "titulo": "Temporal con lluvia intensa en Gran Mendoza y otros seis departamentos (Mendoza)",
+   "resumen": "Lluvia débil pero persistente sobre suelos poco preparados. Defensa Civil registró 48 incidentes: al menos tres socavones en el Gran Mendoza, desbordes cloacales, árboles caídos, filtraciones y evacuados (sin cifra).",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Mendoza",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.mdzol.com/sociedad/2026/10/23/tenue-lluvia-y-graves-consecuencias-socavones-desbordes-cloacales-y-arboles-caidos-1990406.html"
+  },
+  {
+   "id": "2026-10-22-temporal-centro-y-norte-de-santa-fe-este-de-cordo",
+   "fecha_dato": "2026-10-22",
+   "titulo": "Temporal con granizo y viento en Centro y norte de Santa Fe; este de Córdoba (Santa Fe)",
+   "resumen": "Granizo del tamaño de un huevo en Rafaela, Ataliva, Colonia Bigand, Susana y Ramona, y en Freyre y Porteña (Córdoba). Una franja de granizo de 3 a 5 km cruzó el departamento San Justo. Maíz y girasol dañados entre Videla y San Justo;",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Fe",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.lacapital.com.ar/la-region/fuerte-temporal-granizo-localidades-santa-fe-piedras-del-tamano-un-huevo-destrozos-y-cortes-luz-n10288145.html"
+  },
+  {
+   "id": "2026-10-22-temporal-centro-y-norte-de-neuquen",
+   "fecha_dato": "2026-10-22",
+   "titulo": "Temporal con granizo y lluvia intensa en Centro y norte de Neuquén (Neuquén)",
+   "resumen": "Varios días de tormentas con suelo saturado. Cerca de Piedra del Águila se acumularon unos 50 cm de granizo en uno o dos kilómetros de ruta. La provincia suspendió la circulación en todas las rutas desde las 20 del 22 de octubre. Ruta Provincial 5 cortada por la crecida del arroyo Carranza;",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Neuquén",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.noticiasnqn.com.ar/noticias/2026/10/22/357757-desde-la-secretaria-de-emergencia-advierten-que-el-riesgo-continuara"
+  },
+  {
+   "id": "2026-10-22-temporal-centro-y-norte-de-misiones",
+   "fecha_dato": "2026-10-22",
+   "titulo": "Temporal con granizo, viento y lluvia intensa en Centro y norte de Misiones (Misiones)",
+   "resumen": "Granizo \"de tamaños considerables\" en Aristóbulo del Valle, Campo Viera (fuerte acumulación en Colonia Seguín), Dos de Mayo y Colonia Paraíso (San Pedro); lluvia torrencial en Apóstoles. En Dos de Mayo las ráfagas arrancaron cerca de la mitad del techo de una vivienda sobre la Ruta 14; la familia fue evacuada, sin heridos. No se informaron daños en cultivos.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Misiones",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.primeraedicion.com.ar/nota/101153742/fuerte-temporal-en-misiones-intensas-granizadas-en-varias-localidades-y-lluvias-torrenciales/"
+  },
+  {
+   "id": "2026-10-22-temporal-coronel-du-graty",
+   "fecha_dato": "2026-10-22",
+   "titulo": "Temporal con granizo en Coronel Du Graty (Chaco)",
+   "resumen": "Granizo mayormente chico, con piedras más grandes en algunos sectores de la zona rural. Daño parcial en lotes de girasol, sobre todo defoliación; sin grandes pérdidas según el relevamiento local.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Chaco",
+    "localidad": "Coronel Du Graty",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.diarionorte.com/335355-el-granizo-afecto-varios-lotes-de-girasol-aunque-sin-registrarse-grandes-perdidas"
+  },
+  {
+   "id": "2026-10-07-temporal-cordoba-amba-y-rosario",
+   "fecha_dato": "2026-10-07",
+   "titulo": "Temporal con granizo, viento y lluvia intensa en Córdoba, AMBA y Rosario (Córdoba)",
+   "resumen": "Granizo en Altas Cumbres, Calamuchita y Río Cuarto; anegamientos en el AMBA y 73,2 mm por hora en Rosario. En Rosario, 93 incidencias: 76 por anegamientos y ocho por cables o columnas.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Córdoba",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://diariopanorama.com/noticia/568993/fuerte-temporal-golpeo-varias-provincias-granizo-calles-inundadas-familias-evacuadas"
+  },
+  {
+   "id": "2026-10-02-temporal-gran-catamarca",
+   "fecha_dato": "2026-10-02",
+   "titulo": "Temporal con viento en Gran Catamarca (Catamarca)",
+   "resumen": "Ráfagas en la Capital, Fray Mamerto Esquiú y Valle Viejo. Un árbol cayó en el predio del Hospital de Niños; dos postes de luz caídos en la Ruta 41 y otros en riesgo; un transformador humeando y cortes de luz.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Catamarca",
+    "localidad": "Gran Catamarca",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://elancasti.com.ar/edicion-impresa/rafagas-viento-provocaron-la-caida-arboles-y-postes-luz-n623040"
+  },
+  {
+   "id": "2026-09-21-temporal-cordoba-santa-fe-y-entre-rios",
+   "fecha_dato": "2026-09-21",
+   "titulo": "Temporal con granizo y viento en Córdoba, Santa Fe y Entre Ríos (Córdoba)",
+   "resumen": "Granizo del tamaño de pelotas de tenis y hasta de una naranja en el sur de Córdoba y Calamuchita; ráfagas fuertes y granizo en Paraná. Techos, ventanas, parabrisas y vehículos dañados; calles anegadas.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Córdoba",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://mediosrioja.com.ar/temporal-en-el-centro-del-pais-granizo-del-tamano-de-pelotas-de-tenis-y-severos-destrozos-en-cordoba-santa-fe-y-entre-rios/"
+  },
+  {
+   "id": "2026-08-27-temporal-sur-de-santa-fe-y-este-de-cordoba",
+   "fecha_dato": "2026-08-27",
+   "titulo": "Temporal con granizo y viento en Sur de Santa Fe y este de Córdoba (Santa Fe)",
+   "resumen": "Tormenta de Santa Rosa con \"piedra grande\" y viento en Las Rosas, Díaz, Clason, Armstrong y Las Parejas; granizo en seco en Bell Ville, Río Cuarto y Marcos Juárez. Al menos 15 viviendas con voladura de techos, árboles caídos, cortes de luz severos en Las Rosas; sin heridos graves.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Fe",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.c5n.com/sociedad/fuerte-temporal-cordoba-y-santa-fe-granizo-y-rafagas-destruyeron-techos-y-tumbaron-arboles-n247339"
+  }
+ ],
+ "agenda": [
+  {
+   "fecha": "2026-12-05",
+   "evento": "Pronóstico estacional del ECMWF (SEAS5): Niño-3.4 y lluvias de los próximos meses",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "mundo",
+    "provincia": "",
+    "localidad": "",
+    "pais": ""
+   },
+   "rubros": [],
+   "url": "https://www.ecmwf.int/en/forecasts/datasets/nino-plumes-seasonal-forecast-seas5"
+  },
+  {
+   "fecha": "2026-12-09",
+   "evento": "Pronóstico trimestral de lluvias y de Niño-3.4 de NOAA (NMME), que usa la sección Lluvias",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "url": "https://www.cpc.ncep.noaa.gov/products/NMME/"
+  },
+  {
+   "fecha": "2026-12-10",
+   "evento": "Discusión mensual de NOAA sobre El Niño: estado del fenómeno ENSO e índices ONI y RONI",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "mundo",
+    "provincia": "",
+    "localidad": "",
+    "pais": ""
+   },
+   "rubros": [],
+   "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+  },
+  {
+   "fecha": "2026-12-13",
+   "evento": "Pronóstico estacional multimodelo de Copernicus (C3S)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "mundo",
+    "provincia": "",
+    "localidad": "",
+    "pais": ""
+   },
+   "rubros": [],
+   "url": "https://climate.copernicus.eu/seasonal-forecasts"
+  },
+  {
+   "fecha": "2027-01-05",
+   "evento": "Pronóstico estacional del ECMWF (SEAS5): Niño-3.4 y lluvias de los próximos meses",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "mundo",
+    "provincia": "",
+    "localidad": "",
+    "pais": ""
+   },
+   "rubros": [],
+   "url": "https://www.ecmwf.int/en/forecasts/datasets/nino-plumes-seasonal-forecast-seas5"
+  },
+  {
+   "fecha": "2027-01-09",
+   "evento": "Pronóstico trimestral de lluvias y de Niño-3.4 de NOAA (NMME), que usa la sección Lluvias",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "url": "https://www.cpc.ncep.noaa.gov/products/NMME/"
+  },
+  {
+   "fecha": "2027-01-13",
+   "evento": "Pronóstico estacional multimodelo de Copernicus (C3S)",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "mundo",
+    "provincia": "",
+    "localidad": "",
+    "pais": ""
+   },
+   "rubros": [],
+   "url": "https://climate.copernicus.eu/seasonal-forecasts"
+  },
+  {
+   "fecha": "2027-01-14",
+   "evento": "Discusión mensual de NOAA sobre El Niño: estado del fenómeno ENSO e índices ONI y RONI",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "mundo",
+    "provincia": "",
+    "localidad": "",
+    "pais": ""
+   },
+   "rubros": [],
+   "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+  }
+ ],
+ "faltantes": [
+  {
+   "id": "reserva-agua-suelo",
+   "nombre": "Reserva de agua en el suelo por provincia",
+   "motivo": "La web no muestra la reserva de agua en el suelo",
+   "ultimo_dato": null
+  },
+  {
+   "id": "anomalia-lluvia-observada-provincia",
+   "nombre": "Anomalía de lluvia observada por provincia",
+   "motivo": "La web muestra la lluvia observada solo como mapa (capas de NOAA), sin valores por provincia; se publica el pronóstico trimestral por región",
+   "ultimo_dato": null
+  }
+ ]
+}

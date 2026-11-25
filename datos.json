@@ -14031,6 +14031,7 @@
   "roni": "+1,97 °C (agosto-octubre de 2026)",
   "pico": "ONI +2,46 °C (agosto-octubre de 2026)",
   "revisado": "2026-11-16",
+  "fecha_noaa": "2026-11-12",
   "clave_anterior": null,
   "ultimo_cambio": null,
   "criterio": "Se revisa una vez por mes con la discusión de NOAA CPC. Súper Niño: aviso de El Niño con el ONI o el RONI en +2,0 °C o más en algún trimestre del evento.",
