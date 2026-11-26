@@ -5492,7 +5492,7 @@
   },
   {
    "indicador": "Caudal que llega a Yacyretá",
-   "ultimo": "Entran 22.300 m³/s y salen 22.000 m³/s (INA, 24 nov), debajo del umbral de alerta (25.000); el INA prevé que siga oscilante en aguas medias altas y un probable nuevo repunte hacia aguas medias altas o altas. Andresito (Iguazú) aporta 4.258 m³/s, en suba",
+   "ultimo": "Entran unos **24.500 m³/s** (EBY, 25 nov), con las **18 compuertas del vertedero abiertas**; la represa prevé 25.000 a 26.000 m³/s en los próximos días, en el umbral de alerta (25.000). [Elonce](https://www.elonce.com/sociedad/yacyreta-volvio-a-abrir-compuertas-y-emitio-una-alerta-hidrologica-por-la-crecida-del-parana.htm)",
    "umbral": "25.000 y 30.000 m³/s",
    "anticipa": "Crecida del Paraná medio, con una a dos semanas de margen",
    "estado": "vigilar"
