@@ -1,7 +1,7 @@
 {
  "web": "Alerta Hídrica",
  "version": "1.3",
- "generado": "2026-11-25T14:11:14-03:00",
+ "generado": "2026-11-26T07:14:18-03:00",
  "indicadores": [
   {
    "id": "estado-enso",
@@ -72,14 +72,14 @@
   {
    "id": "nino34-diario",
    "nombre": "Anomalía diaria de la temperatura del mar en la región Niño-3.4",
-   "valor": 3.56,
+   "valor": 3.68,
    "unidad": "°C",
    "variacion": {
-    "valor": 0.04,
+    "valor": -0.02,
     "unidad": "°C",
     "contra": "día anterior"
    },
-   "fecha_dato": "2026-11-18",
+   "fecha_dato": "2026-11-24",
    "fuente_original": "NOAA PSL (OISST v2.1)",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -192,8 +192,8 @@
      "valor": 3.56
     },
     {
-     "fecha": "2026-11-18",
-     "valor": 3.56
+     "fecha": "2026-11-24",
+     "valor": 3.68
     }
    ],
    "comparar": [
@@ -204,14 +204,14 @@
   {
    "id": "nino34-relativo-diario",
    "nombre": "Índice relativo diario de Niño-3.4 (descuenta el calentamiento del resto de los trópicos)",
-   "valor": 3.1,
+   "valor": 3.25,
    "unidad": "°C",
    "variacion": {
-    "valor": 0.04,
+    "valor": -0.03,
     "unidad": "°C",
     "contra": "día anterior"
    },
-   "fecha_dato": "2026-11-18",
+   "fecha_dato": "2026-11-24",
    "fuente_original": "NOAA PSL (OISST v2.1) y NOAA ERSSTv5",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -324,8 +324,8 @@
      "valor": 3.11
     },
     {
-     "fecha": "2026-11-18",
-     "valor": 3.1
+     "fecha": "2026-11-24",
+     "valor": 3.25
     }
    ],
    "comparar": [
@@ -597,14 +597,14 @@
   {
    "id": "altura-rio-santa-fe",
    "nombre": "Altura del río Paraná en Santa Fe",
-   "valor": 5.77,
+   "valor": 5.74,
    "unidad": "m",
    "variacion": {
     "valor": -0.03,
     "unidad": "m",
-    "contra": "medición anterior (2026-11-24)"
+    "contra": "medición anterior (2026-11-25)"
    },
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Prefectura Naval Argentina e INA",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -625,8 +625,8 @@
      "valor": 4.16
     },
     {
-     "fecha": "2026-11-25",
-     "valor": 5.77
+     "fecha": "2026-11-26",
+     "valor": 5.74
     }
    ],
    "comparar": [
@@ -1418,15 +1418,15 @@
   {
    "id": "desplazados-chaco",
    "nombre": "Personas evacuadas y autoevacuadas por las crecidas: Chaco",
-   "valor": 2026,
+   "valor": 2024,
    "unidad": "personas",
    "variacion": {
-    "valor": -21,
+    "valor": -2,
     "unidad": "personas",
-    "contra": "dato anterior (2026-11-17)"
+    "contra": "dato anterior (2026-11-21)"
    },
-   "fecha_dato": "2026-11-21",
-   "fuente_original": "Data Chaco",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Noticias del Paraná (APA)",
    "eje": "Clima y riesgo productivo",
    "alcance": {
     "nivel": "provincia",
@@ -1446,8 +1446,8 @@
      "valor": 2239
     },
     {
-     "fecha": "2026-11-21",
-     "valor": 2026
+     "fecha": "2026-11-25",
+     "valor": 2024
     }
    ],
    "comparar": [
@@ -1457,15 +1457,15 @@
   {
    "id": "desplazados-corrientes",
    "nombre": "Personas evacuadas y autoevacuadas por las crecidas: Corrientes",
-   "valor": 2005,
+   "valor": 1381,
    "unidad": "personas",
    "variacion": {
-    "valor": 38,
+    "valor": -624,
     "unidad": "personas",
-    "contra": "dato anterior (2026-11-05)"
+    "contra": "dato anterior (2026-11-09)"
    },
-   "fecha_dato": "2026-11-09",
-   "fuente_original": "Noticias del Paraná",
+   "fecha_dato": "2026-11-23",
+   "fuente_original": "Época",
    "eje": "Clima y riesgo productivo",
    "alcance": {
     "nivel": "provincia",
@@ -1485,8 +1485,8 @@
      "valor": 1673
     },
     {
-     "fecha": "2026-11-09",
-     "valor": 2005
+     "fecha": "2026-11-23",
+     "valor": 1381
     }
    ],
    "comparar": [
@@ -1496,15 +1496,15 @@
   {
    "id": "desplazados-misiones",
    "nombre": "Personas evacuadas y autoevacuadas por las crecidas: Misiones",
-   "valor": 31,
+   "valor": 20,
    "unidad": "personas",
    "variacion": {
-    "valor": 31,
+    "valor": -11,
     "unidad": "personas",
-    "contra": "dato anterior (2026-10-26)"
+    "contra": "dato anterior (2026-11-24)"
    },
-   "fecha_dato": "2026-11-24",
-   "fuente_original": "Misiones Online",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Primera Edición",
    "eje": "Clima y riesgo productivo",
    "alcance": {
     "nivel": "provincia",
@@ -1524,8 +1524,8 @@
      "valor": 0
     },
     {
-     "fecha": "2026-11-24",
-     "valor": 31
+     "fecha": "2026-11-25",
+     "valor": 20
     }
    ],
    "comparar": [
@@ -1562,15 +1562,15 @@
   {
    "id": "desplazados-santa-fe",
    "nombre": "Personas evacuadas y autoevacuadas por las crecidas: Santa Fe",
-   "valor": 436,
+   "valor": 442,
    "unidad": "personas",
    "variacion": {
-    "valor": 11,
+    "valor": 6,
     "unidad": "personas",
-    "contra": "dato anterior (2026-11-22)"
+    "contra": "dato anterior (2026-11-24)"
    },
-   "fecha_dato": "2026-11-24",
-   "fuente_original": "UNO Santa Fe",
+   "fecha_dato": "2026-11-25",
+   "fuente_original": "Aire de Santa Fe",
    "eje": "Clima y riesgo productivo",
    "alcance": {
     "nivel": "provincia",
@@ -1590,8 +1590,8 @@
      "valor": 88
     },
     {
-     "fecha": "2026-11-24",
-     "valor": 436
+     "fecha": "2026-11-25",
+     "valor": 442
     }
    ],
    "comparar": [
@@ -1603,7 +1603,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Corrientes",
    "valor": "Emergencia vigente",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1637,7 +1637,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Chaco",
    "valor": "Emergencia vencida",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1671,7 +1671,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Santa Fe",
    "valor": "Emergencia vigente",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1705,7 +1705,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Entre Ríos",
    "valor": "Emergencia vigente",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1739,7 +1739,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Misiones",
    "valor": "Plan sin emergencia",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1773,7 +1773,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Formosa",
    "valor": "Plan sin emergencia",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1807,7 +1807,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Buenos Aires",
    "valor": "Plan sin emergencia",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1841,7 +1841,7 @@
    "nombre": "Emergencia hídrica o climática provincial: CABA",
    "valor": "Plan sin emergencia",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1875,7 +1875,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Córdoba",
    "valor": "Plan sin emergencia",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1909,7 +1909,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Mendoza",
    "valor": "Emergencia vigente",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1943,7 +1943,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Salta",
    "valor": "Plan sin emergencia",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1977,7 +1977,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Jujuy",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2011,7 +2011,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Tucumán",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2045,7 +2045,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Santiago del Estero",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2079,7 +2079,7 @@
    "nombre": "Emergencia hídrica o climática provincial: La Pampa",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2113,7 +2113,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Río Negro",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2147,7 +2147,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Neuquén",
    "valor": "Emergencia vigente",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2181,7 +2181,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Catamarca",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2215,7 +2215,7 @@
    "nombre": "Emergencia hídrica o climática provincial: La Rioja",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2249,7 +2249,7 @@
    "nombre": "Emergencia hídrica o climática provincial: San Juan",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2283,7 +2283,7 @@
    "nombre": "Emergencia hídrica o climática provincial: San Luis",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2317,7 +2317,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Chubut",
    "valor": "Plan sin emergencia",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2351,7 +2351,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Santa Cruz",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2385,7 +2385,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Tierra del Fuego",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2419,7 +2419,7 @@
    "nombre": "Riesgo climático: Generación hidroeléctrica",
    "valor": "Mixto",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Alerta Hídrica, con datos de las fuentes de la sección",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2445,7 +2445,7 @@
    "nombre": "Riesgo climático: Transporte fluvial",
    "valor": "Riesgo medio",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Alerta Hídrica, con datos de las fuentes de la sección",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2474,7 +2474,7 @@
    "nombre": "Riesgo climático: Construcción",
    "valor": "Riesgo medio",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Alerta Hídrica, con datos de las fuentes de la sección",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2498,7 +2498,7 @@
    "nombre": "Riesgo climático: Energía eléctrica",
    "valor": "Riesgo medio",
    "unidad": "",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Alerta Hídrica, con datos de las fuentes de la sección",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2521,6 +2521,114 @@
   }
  ],
  "novedades": [
+  {
+   "id": "rio-santa-fe-evacuacion",
+   "fecha_dato": "2026-11-26",
+   "titulo": "El río Paraná en Santa Fe está sobre la cota de evacuación",
+   "resumen": "El Paraná marcó 5,74 m en Santa Fe el 26 de noviembre; la cota de alerta es 5,30 m y la de evacuación, 5,70 m.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Santa Fe",
+    "localidad": "Santa Fe",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
+   "id": "2026-11-26-alerta-smn-santa-cruz",
+   "fecha_dato": "2026-11-26",
+   "titulo": "Alerta naranja del SMN en Santa Cruz",
+   "resumen": "Viento del oeste de 60 a 80 km/h con ráfagas de hasta 110 km/h",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Cruz",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-26-alerta-smn-mendoza",
+   "fecha_dato": "2026-11-26",
+   "titulo": "Alerta amarilla del SMN en Mendoza",
+   "resumen": "Tormentas aisladas, algunas fuertes o localmente severas, con granizo ocasional y ráfagas intensas",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Mendoza",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-26-alerta-smn-san-juan",
+   "fecha_dato": "2026-11-26",
+   "titulo": "Alerta amarilla del SMN en San Juan",
+   "resumen": "Tormentas aisladas, algunas fuertes o localmente severas, con granizo ocasional y ráfagas intensas",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "San Juan",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-26-alerta-smn-la-rioja",
+   "fecha_dato": "2026-11-26",
+   "titulo": "Alerta amarilla del SMN en La Rioja",
+   "resumen": "Tormentas aisladas, algunas fuertes o localmente severas, con granizo ocasional y ráfagas intensas",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "La Rioja",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-26-alerta-smn-tierra-del-fuego",
+   "fecha_dato": "2026-11-26",
+   "titulo": "Alerta amarilla del SMN en Tierra del Fuego",
+   "resumen": "Tormentas aisladas, algunas fuertes, con ráfagas intensas",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Tierra del Fuego",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
   {
    "id": "rio-goya-alerta",
    "fecha_dato": "2026-11-25",
@@ -2576,24 +2684,6 @@
    "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
   },
   {
-   "id": "rio-santa-fe-evacuacion",
-   "fecha_dato": "2026-11-25",
-   "titulo": "El río Paraná en Santa Fe está sobre la cota de evacuación",
-   "resumen": "El Paraná marcó 5,77 m en Santa Fe el 25 de noviembre; la cota de alerta es 5,30 m y la de evacuación, 5,70 m.",
-   "tipo": "clima",
-   "eje": "Clima y riesgo productivo",
-   "alcance": {
-    "nivel": "localidad",
-    "provincia": "Santa Fe",
-    "localidad": "Santa Fe",
-    "pais": "Argentina"
-   },
-   "rubros": [],
-   "subrubros": [],
-   "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
-  },
-  {
    "id": "rio-parana-evacuacion",
    "fecha_dato": "2026-11-25",
    "titulo": "El río Paraná en Paraná está sobre la cota de evacuación",
@@ -2630,186 +2720,6 @@
    "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
   },
   {
-   "id": "2026-11-25-alerta-smn-salta",
-   "fecha_dato": "2026-11-25",
-   "titulo": "Alerta naranja del SMN en Salta",
-   "resumen": "Tormentas aisladas fuertes o severas con granizo, ráfagas de hasta 90 km/h y 70 a 100 mm (norte); amarilla por tormentas en el resto",
-   "tipo": "clima",
-   "eje": "Clima y riesgo productivo",
-   "alcance": {
-    "nivel": "provincia",
-    "provincia": "Salta",
-    "localidad": "",
-    "pais": "Argentina"
-   },
-   "rubros": [],
-   "subrubros": [],
-   "exposicion": [],
-   "url": "https://www.smn.gob.ar/alertas"
-  },
-  {
-   "id": "2026-11-25-alerta-smn-formosa",
-   "fecha_dato": "2026-11-25",
-   "titulo": "Alerta naranja del SMN en Formosa",
-   "resumen": "Tormentas aisladas fuertes o severas con granizo, ráfagas de hasta 90 km/h y 70 a 100 mm",
-   "tipo": "clima",
-   "eje": "Clima y riesgo productivo",
-   "alcance": {
-    "nivel": "provincia",
-    "provincia": "Formosa",
-    "localidad": "",
-    "pais": "Argentina"
-   },
-   "rubros": [],
-   "subrubros": [],
-   "exposicion": [],
-   "url": "https://www.smn.gob.ar/alertas"
-  },
-  {
-   "id": "2026-11-25-alerta-smn-jujuy",
-   "fecha_dato": "2026-11-25",
-   "titulo": "Alerta amarilla del SMN en Jujuy",
-   "resumen": "Tormentas aisladas, algunas fuertes, con granizo ocasional y ráfagas intensas",
-   "tipo": "clima",
-   "eje": "Clima y riesgo productivo",
-   "alcance": {
-    "nivel": "provincia",
-    "provincia": "Jujuy",
-    "localidad": "",
-    "pais": "Argentina"
-   },
-   "rubros": [],
-   "subrubros": [],
-   "exposicion": [],
-   "url": "https://www.smn.gob.ar/alertas"
-  },
-  {
-   "id": "2026-11-25-alerta-smn-corrientes",
-   "fecha_dato": "2026-11-25",
-   "titulo": "Alerta amarilla del SMN en Corrientes",
-   "resumen": "Tormentas aisladas, algunas fuertes, con granizo ocasional y ráfagas intensas",
-   "tipo": "clima",
-   "eje": "Clima y riesgo productivo",
-   "alcance": {
-    "nivel": "provincia",
-    "provincia": "Corrientes",
-    "localidad": "",
-    "pais": "Argentina"
-   },
-   "rubros": [],
-   "subrubros": [],
-   "exposicion": [],
-   "url": "https://www.smn.gob.ar/alertas"
-  },
-  {
-   "id": "2026-11-25-alerta-smn-catamarca",
-   "fecha_dato": "2026-11-25",
-   "titulo": "Alerta amarilla del SMN en Catamarca",
-   "resumen": "Tormentas aisladas, algunas fuertes, con granizo ocasional y ráfagas intensas",
-   "tipo": "clima",
-   "eje": "Clima y riesgo productivo",
-   "alcance": {
-    "nivel": "provincia",
-    "provincia": "Catamarca",
-    "localidad": "",
-    "pais": "Argentina"
-   },
-   "rubros": [],
-   "subrubros": [],
-   "exposicion": [],
-   "url": "https://www.smn.gob.ar/alertas"
-  },
-  {
-   "id": "2026-11-25-alerta-smn-la-rioja",
-   "fecha_dato": "2026-11-25",
-   "titulo": "Alerta amarilla del SMN en La Rioja",
-   "resumen": "Tormentas aisladas, algunas fuertes, con granizo ocasional y ráfagas intensas (sectores)",
-   "tipo": "clima",
-   "eje": "Clima y riesgo productivo",
-   "alcance": {
-    "nivel": "provincia",
-    "provincia": "La Rioja",
-    "localidad": "",
-    "pais": "Argentina"
-   },
-   "rubros": [],
-   "subrubros": [],
-   "exposicion": [],
-   "url": "https://www.smn.gob.ar/alertas"
-  },
-  {
-   "id": "2026-11-25-alerta-smn-san-juan",
-   "fecha_dato": "2026-11-25",
-   "titulo": "Alerta amarilla del SMN en San Juan",
-   "resumen": "Tormentas aisladas, algunas fuertes, con granizo ocasional y ráfagas intensas (sectores)",
-   "tipo": "clima",
-   "eje": "Clima y riesgo productivo",
-   "alcance": {
-    "nivel": "provincia",
-    "provincia": "San Juan",
-    "localidad": "",
-    "pais": "Argentina"
-   },
-   "rubros": [],
-   "subrubros": [],
-   "exposicion": [],
-   "url": "https://www.smn.gob.ar/alertas"
-  },
-  {
-   "id": "2026-11-25-alerta-smn-buenos-aires",
-   "fecha_dato": "2026-11-25",
-   "titulo": "Alerta amarilla del SMN en Buenos Aires",
-   "resumen": "Viento del oeste o sudoeste de 40 a 70 km/h con ráfagas de más de 90 km/h en el área balnearia",
-   "tipo": "clima",
-   "eje": "Clima y riesgo productivo",
-   "alcance": {
-    "nivel": "provincia",
-    "provincia": "Buenos Aires",
-    "localidad": "",
-    "pais": "Argentina"
-   },
-   "rubros": [],
-   "subrubros": [],
-   "exposicion": [],
-   "url": "https://www.smn.gob.ar/alertas"
-  },
-  {
-   "id": "2026-11-25-alerta-smn-santa-cruz",
-   "fecha_dato": "2026-11-25",
-   "titulo": "Alerta amarilla del SMN en Santa Cruz",
-   "resumen": "Viento del oeste o sudoeste de 40 a 70 km/h con ráfagas de más de 90 km/h",
-   "tipo": "clima",
-   "eje": "Clima y riesgo productivo",
-   "alcance": {
-    "nivel": "provincia",
-    "provincia": "Santa Cruz",
-    "localidad": "",
-    "pais": "Argentina"
-   },
-   "rubros": [],
-   "subrubros": [],
-   "exposicion": [],
-   "url": "https://www.smn.gob.ar/alertas"
-  },
-  {
-   "id": "2026-11-25-alerta-smn-tierra-del-fuego",
-   "fecha_dato": "2026-11-25",
-   "titulo": "Alerta amarilla del SMN en Tierra del Fuego",
-   "resumen": "Viento del oeste o sudoeste de 40 a 70 km/h con ráfagas de más de 90 km/h",
-   "tipo": "clima",
-   "eje": "Clima y riesgo productivo",
-   "alcance": {
-    "nivel": "provincia",
-    "provincia": "Tierra del Fuego",
-    "localidad": "",
-    "pais": "Argentina"
-   },
-   "rubros": [],
-   "subrubros": [],
-   "exposicion": [],
-   "url": "https://www.smn.gob.ar/alertas"
-  },
-  {
    "id": "2026-11-24-temporal-fortin-inca",
    "fecha_dato": "2026-11-24",
    "titulo": "Temporal con granizo, viento y lluvia intensa en Fortín Inca (Santiago del Estero)",
@@ -2844,6 +2754,24 @@
    "subrubros": [],
    "exposicion": [],
    "url": "https://misionesonline.net/2026/11/24/temporal-misiones-evacuados/"
+  },
+  {
+   "id": "2026-11-23-temporal-sampacho-achiras-y-cuatro-vientos-y-nort",
+   "fecha_dato": "2026-11-23",
+   "titulo": "Temporal con granizo y lluvia intensa en Sampacho, Achiras y Cuatro Vientos y norte de San Luis (Córdoba)",
+   "resumen": "Temporal con granizo y casi 100 mm de lluvia (95 mm en Cuatro Vientos). Cortes en la Ruta Nacional 8 entre Sampacho y Holmberg y en la E-86 entre Sampacho y Achiras; complicaciones en rutas de San Luis y personas heridas en Los Cerrillos (sin número informado).",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Córdoba",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.primerafuente.com.ar/noticias/133665/fuerte-temporal-cordoba-san-luis-casi-100-milimetros-lluvia-granizo-rutas-cortadas-personas-heridas"
   },
   {
    "id": "2026-11-21-temporal-rafaela",
@@ -3528,24 +3456,6 @@
    "subrubros": [],
    "exposicion": [],
    "url": "https://mediosrioja.com.ar/temporal-en-el-centro-del-pais-granizo-del-tamano-de-pelotas-de-tenis-y-severos-destrozos-en-cordoba-santa-fe-y-entre-rios/"
-  },
-  {
-   "id": "2026-08-27-temporal-sur-de-santa-fe-y-este-de-cordoba",
-   "fecha_dato": "2026-08-27",
-   "titulo": "Temporal con granizo y viento en Sur de Santa Fe y este de Córdoba (Santa Fe)",
-   "resumen": "Tormenta de Santa Rosa con \"piedra grande\" y viento en Las Rosas, Díaz, Clason, Armstrong y Las Parejas; granizo en seco en Bell Ville, Río Cuarto y Marcos Juárez. Al menos 15 viviendas con voladura de techos, árboles caídos, cortes de luz severos en Las Rosas; sin heridos graves.",
-   "tipo": "clima",
-   "eje": "Clima y riesgo productivo",
-   "alcance": {
-    "nivel": "provincia",
-    "provincia": "Santa Fe",
-    "localidad": "",
-    "pais": "Argentina"
-   },
-   "rubros": [],
-   "subrubros": [],
-   "exposicion": [],
-   "url": "https://www.c5n.com/sociedad/fuerte-temporal-cordoba-y-santa-fe-granizo-y-rafagas-destruyeron-techos-y-tumbaron-arboles-n247339"
   }
  ],
  "agenda": [

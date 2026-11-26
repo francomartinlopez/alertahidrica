@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-25",
- "desde": "2026-08-27",
+ "actualizado": "2026-11-26",
+ "desde": "2026-08-28",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "25 de agosto a 23 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-23",
+  "hasta": "2026-11-24",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -311,94 +311,6 @@
    "intensidad": {
     "nivel": 2,
     "medida": "vientos máximos sostenidos de 213 km/h (categoría 4)",
-    "ref": "pico de la tormenta según NASA EONET; escala Saffir-Simpson",
-    "fuente": null
-   }
-  },
-  {
-   "id": "pac-004",
-   "tipo": "ciclon",
-   "titulo": "Tormenta Narra en Hainan, Guangdong y el golfo de Tonkín",
-   "lugar": "Hainan, Zhanjiang y Guangxi",
-   "pais": "China, Vietnam",
-   "inicio": "2026-08-17",
-   "fin": "2026-08-27",
-   "geom": {
-    "t": "trayectoria",
-    "pts": [
-     [
-      120.8,
-      21.9
-     ],
-     [
-      116,
-      20.5
-     ],
-     [
-      111,
-      19.5
-     ],
-     [
-      109.2,
-      19.3
-     ],
-     [
-      108,
-      20.3
-     ],
-     [
-      107.6,
-      21.2
-     ],
-     [
-      110.4,
-      21.3
-     ]
-    ],
-    "src": "aprox"
-   },
-   "impacto": [
-    110.36,
-    21.27
-   ],
-   "muertes": 1,
-   "evacuados": 54000,
-   "texto": "Tocó tierra en Hainan el 25 de agosto y en Zhanjiang el 26. Quedó casi estacionaria en el golfo de Tonkín: más de 54.000 evacuados en Guangxi (GDACS dio alerta naranja por inundación) y un muerto en el norte de Vietnam.",
-   "danos": {
-    "texto": "Crecidas repentinas en Guangxi descriptas como las peores en 18 años.",
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null
-   },
-   "criterio": "afectados",
-   "fuentes": [
-    {
-     "t": "Wikipedia, temporada de tifones 2026",
-     "u": "https://en.wikipedia.org/wiki/2026_Pacific_typhoon_season"
-    },
-    {
-     "t": "GDACS, alerta naranja",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104123&eventtype=FL"
-    }
-   ],
-   "afectados": null,
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "origen": "ambos",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104123,
-     "a": "naranja"
-    }
-   ],
-   "intensidad": {
-    "nivel": 1,
-    "medida": "vientos máximos sostenidos de 74 km/h (tormenta tropical)",
     "ref": "pico de la tormenta según NASA EONET; escala Saffir-Simpson",
     "fuente": null
    }
@@ -12442,6 +12354,172 @@
     {
      "t": "WFRV Local 5 (vía Yahoo News), 22-nov-2026",
      "u": "https://www.yahoo.com/news/weather-news/articles/northeast-wisconsin-sees-record-breaking-183356964.html"
+    }
+   ]
+  },
+  {
+   "id": "sam-af1",
+   "tipo": "inundacion",
+   "titulo": "Lluvias e inundaciones en el estado de Paraná: seis muertos",
+   "lugar": "Sudoeste de Paraná (Francisco Beltrão, Pato Branco), Campo Largo y Mato Rico",
+   "pais": "Brasil",
+   "inicio": "2026-11-23",
+   "fin": null,
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     -52.9,
+     -25.9
+    ],
+    "r": 150
+   },
+   "impacto": null,
+   "muertes": 6,
+   "afectados": 10000,
+   "evacuados": null,
+   "texto": "Lluvias intensas desde el 23 de noviembre dejaron seis muertos y unas 10.000 personas afectadas en unos 40 municipios del estado de Paraná, según la Defensa Civil estatal. En Francisco Beltrão cayeron 106,8 mm y en Pato Branco 87,6 mm; el Inmet mantuvo la alerta por tormentas.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "106,8 mm en Francisco Beltrão",
+    "ref": "Sin comparación con lo normal publicada",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Daños en unos 40 municipios."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "vivienda",
+      "t": "Unas 10.000 personas afectadas."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "The Rio Times, 25-nov-2026",
+     "u": "https://www.riotimesonline.com/parana-storms-kill-four-hit-10000-brazil-2026"
+    }
+   ]
+  },
+  {
+   "id": "asi-af1",
+   "tipo": "inundacion",
+   "titulo": "Inundación de una mina en Java Occidental: 13 muertos",
+   "lugar": "Java Occidental",
+   "pais": "Indonesia",
+   "inicio": "2026-11-23",
+   "fin": "2026-11-23",
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     107.0,
+     -6.9
+    ],
+    "r": 80
+   },
+   "impacto": null,
+   "muertes": 13,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "El 23 de noviembre un aguacero desbordó un río e inundó una mina de oro ilegal en Java Occidental: 13 muertos y 13 desaparecidos al 26 de noviembre.",
+   "intensidad": {
+    "nivel": null,
+    "medida": "Sin dato de lluvia publicado",
+    "ref": "",
+    "fuente": null
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Mina inundada."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "salud",
+      "t": "13 desaparecidos."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "muertes",
+   "fuentes": [
+    {
+     "t": "24NewsHD, 26-nov-2026",
+     "u": "https://24newshd.tv/26-Nov-2026/indonesia-mine-flooding-death-toll-rises-13-13-still-missing"
+    }
+   ]
+  },
+  {
+   "id": "sam-af2",
+   "tipo": "inundacion",
+   "titulo": "Crecida del río Tumbes y emergencia por lluvias en Piura",
+   "lugar": "Tumbes y Piura",
+   "pais": "Perú",
+   "inicio": "2026-11-23",
+   "fin": null,
+   "origen": "noticias",
+   "gdacs": [],
+   "geom": {
+    "t": "area",
+    "c": [
+     -80.4,
+     -4.4
+    ],
+    "r": 150
+   },
+   "impacto": null,
+   "muertes": null,
+   "afectados": null,
+   "evacuados": null,
+   "texto": "El río Tumbes superó el umbral naranja en la estación El Tigre (811,93 m³/s el 24 de noviembre) y el Ministerio de Desarrollo Agrario habló de un caudal inédito en un siglo; hubo evacuaciones en Puerto Perú por el río Zarumilla. En Piura, declarada en emergencia, cayeron 134 mm en Tambogrande y 118 mm en Las Lomas.",
+   "intensidad": {
+    "nivel": 2,
+    "medida": "Río Tumbes: 811,93 m³/s en El Tigre (umbral naranja 800)",
+    "ref": "Caudal descrito por el Midagri como inédito en un siglo",
+    "fuente": 0
+   },
+   "danos": {
+    "usd": null,
+    "rango": null,
+    "tipo": null,
+    "fuente": null,
+    "texto": "Quebradas activadas y evacuaciones en zonas ribereñas."
+   },
+   "efectos": {
+    "corto": [
+     {
+      "cat": "vivienda",
+      "t": "Evacuaciones en Puerto Perú (Tumbes)."
+     }
+    ],
+    "mediano": [],
+    "largo": []
+   },
+   "criterio": "emergencia",
+   "fuentes": [
+    {
+     "t": "Infobae Perú, 25-nov-2026",
+     "u": "https://www.infobae.com/peru/2026/11/25/fenomeno-el-nino-se-adelanta-en-el-norte-del-peru-rio-tumbes-llega-a-un-caudal-que-no-se-veia-hace-un-siglo/"
+    },
+    {
+     "t": "El Búho, 25-nov-2026",
+     "u": "https://elbuho.pe/2026/11/piura-en-estado-de-emergencia-por-lluvias-inundaciones-activacion-de-quebradas-altas-temperaturas-y-dengue/"
     }
    ]
   }
