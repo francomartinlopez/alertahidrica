@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-26",
- "desde": "2026-08-28",
+ "actualizado": "2026-11-27",
+ "desde": "2026-08-29",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "25 de agosto a 23 de noviembre",
@@ -663,104 +663,6 @@
    }
   },
   {
-   "id": "pac-009",
-   "tipo": "ciclon",
-   "titulo": "Huracán Lala pasa al sur de la Isla Grande de Hawái",
-   "lugar": "Isla Grande (Hawái)",
-   "pais": "EE.UU. (Hawái)",
-   "inicio": "2026-08-13",
-   "fin": "2026-08-28",
-   "geom": {
-    "t": "trayectoria",
-    "pts": [
-     [
-      -142.2,
-      14.7
-     ],
-     [
-      -149,
-      16.5
-     ],
-     [
-      -156.5,
-      19.1
-     ],
-     [
-      -165,
-      20.3
-     ],
-     [
-      -170.7,
-      21.9
-     ],
-     [
-      -171.9,
-      26.1
-     ],
-     [
-      -172.7,
-      31.3
-     ],
-     [
-      -175.2,
-      33.5
-     ],
-     [
-      -177.9,
-      35.6
-     ],
-     [
-      -179.1,
-      38.1
-     ]
-    ],
-    "src": "eonet"
-   },
-   "impacto": [
-    -155.6,
-    18.95
-   ],
-   "muertes": 3,
-   "texto": "Pasó cerca de la Isla Grande el 16 de agosto con vientos de unos 130 km/h. Hubo dos muertes directas y una indirecta en Nāʻālehu, Ocean View y Waiʻōhinu.",
-   "danos": {
-    "usd": 1000,
-    "tipo": "aseguradora",
-    "fuente": 0,
-    "texto": "Más de USD 1.000 M de pérdidas económicas según Gallagher Re: el segundo desastre climático de más de USD 1.000 M del año en Hawái. El registro de la temporada anota USD 81,4 M.",
-    "rango": null
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "Artemis (Gallagher Re), 21 oct",
-     "u": "https://www.artemis.bm/news/gallagher-re-estimates-global-insured-cat-losses-at-92bn-for-9m26-lowest-since-2019/"
-    },
-    {
-     "t": "Wikipedia, temporada de huracanes del Pacífico 2026",
-     "u": "https://en.wikipedia.org/wiki/2026_Pacific_hurricane_season"
-    },
-    {
-     "t": "NASA EONET, trayectoria",
-     "u": "https://eonet.gsfc.nasa.gov/api/v3/events/EONET_22563"
-    }
-   ],
-   "afectados": null,
-   "evacuados": null,
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 2,
-    "medida": "vientos máximos sostenidos de 213 km/h (categoría 4)",
-    "ref": "pico de la tormenta según NASA EONET; escala Saffir-Simpson",
-    "fuente": null
-   }
-  },
-  {
    "id": "pac-010",
    "tipo": "ciclon",
    "titulo": "Huracán Lowell golpea Kauai",
@@ -1114,103 +1016,6 @@
     "nivel": 2,
     "medida": "vientos máximos sostenidos de 194 km/h (categoría 3)",
     "ref": "pico de la tormenta según NASA EONET; escala Saffir-Simpson",
-    "fuente": null
-   }
-  },
-  {
-   "id": "asi-001",
-   "tipo": "inundacion",
-   "titulo": "Colapso de un glaciar y crecida en la frontera Nepal-Tíbet",
-   "lugar": "Rasuwa, Nuwakot y Dhading (Nepal); Gyirong (Tíbet)",
-   "pais": "Nepal, China",
-   "inicio": "2026-08-26",
-   "fin": "2026-08-28",
-   "geom": {
-    "t": "area",
-    "c": [
-     85.3,
-     28.1
-    ],
-    "r": 70
-   },
-   "muertes": 1455,
-   "texto": "Un colapso de glaciar a 5.200 m represó el río Lhende y el dique natural cedió el 26 de agosto. La crecida bajó por el Bhote Koshi y el Trishuli. Nepal registra 1.455 muertos y 5.285 desaparecidos, entre ellos turistas de 34 países. China informó 562 muertos o desaparecidos de su lado.",
-   "danos": {
-    "usd": 1660,
-    "rango": [
-     1660,
-     2700
-    ],
-    "tipo": "oficial",
-    "fuente": 1,
-    "texto": "El Banco Mundial estima USD 1.660 M de daño físico directo: USD 1.380 M en infraestructura y USD 185 M en viviendas. El gobierno calcula USD 2.700 M de efectos totales. Rasuwa concentra el 64%."
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "transporte",
-      "t": "Se perdieron 40 km de ruta, 37 puentes vehiculares y 68 colgantes."
-     },
-     {
-      "cat": "servicios",
-      "t": "Quedaron fuera de la red 149,6 MW; 12 centrales hidroeléctricas y una solar resultaron afectadas."
-     }
-    ],
-    "mediano": [
-     {
-      "cat": "logistica",
-      "t": "Se dañaron 55 de los 82 km del corredor comercial de Rasuwa, que une Katmandú con el paso fronterizo de Rasuwagadhi hacia China."
-     },
-     {
-      "cat": "servicios",
-      "t": "El 10,6% de la capacidad hidroeléctrica y solar instalada de Nepal quedó afectada; la central de Rasuwagadhi seguía parada en octubre."
-     }
-    ],
-    "largo": [
-     {
-      "cat": "economia",
-      "t": "Previsto por el Banco Mundial: reconstruir con redes críticas redundantes y mejor alerta temprana."
-     }
-    ]
-   },
-   "criterio": "muertes",
-   "fuentes": [
-    {
-     "t": "Al Jazeera, 27 ago",
-     "u": "https://www.aljazeera.com/news/2026/8/27/nepal-tibet-floods-what-happened-what-caused-them-and-who-is-missing"
-    },
-    {
-     "t": "DT Next (Banco Mundial), 9 oct",
-     "u": "https://www.dtnext.in/news/world/nepal-floods-cause-166-billion-in-direct-physical-damage-world-bank"
-    },
-    {
-     "t": "AsiaOne, oct",
-     "u": "https://www.asiaone.com/china/chinas-natural-disaster-losses-hit-38b-first-nine-months-2026"
-    },
-    {
-     "t": "Sharesansar, 8 oct",
-     "u": "https://www.sharesansar.com/newsdetail/rasuwagadhi-hydropower-plant-remains-shut-after-devastating-bhotekoshi-flood-92-people-still-unaccounted-for-2026-10-08"
-    },
-    {
-     "t": "GDACS, alerta roja",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104124&eventtype=FL"
-    }
-   ],
-   "impacto": null,
-   "afectados": null,
-   "evacuados": null,
-   "origen": "ambos",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104124,
-     "a": "roja"
-    }
-   ],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
     "fuente": null
    }
   },
@@ -1901,63 +1706,6 @@
     "nivel": 3,
     "medida": "3,6 °C sobre lo normal en Francia",
     "ref": "el verano más cálido en Francia desde 1900 (dato del texto existente)",
-    "fuente": null
-   }
-  },
-  {
-   "id": "eur-003",
-   "tipo": "granizo",
-   "titulo": "Granizada \"Raphaela\": Francia, Suiza, Alemania e Italia",
-   "lugar": "Besanzón, Meseta suiza, sur de Alemania, Lombardía y Emilia-Romaña",
-   "pais": "Francia, Suiza, Alemania, Italia",
-   "inicio": "2026-08-26",
-   "fin": "2026-08-28",
-   "geom": {
-    "t": "punto",
-    "c": [
-     8.0,
-     47.0
-    ]
-   },
-   "texto": "Granizo de 4 a 8 cm en los cuatro países y de hasta 13 cm en el norte de Italia, con ráfagas y crecidas repentinas. La franja de granizo cruzó Suiza del lago Lemán al lago de Constanza. No hubo muertos.",
-   "danos": {
-    "usd": 3800,
-    "tipo": "aseguradora",
-    "fuente": 1,
-    "texto": "Gallagher Re estima unos USD 3.800 M asegurados; PERILS calcula 3.296 M de euros en propiedades y vehículos. Es una de las mayores pérdidas de la historia del seguro suizo.",
-    "rango": null
-   },
-   "efectos": {
-    "mediano": [
-     {
-      "cat": "economia",
-      "t": "Es el segundo evento de tormentas del año en Europa con más de 2.000 M de euros asegurados; el total europeo de 2026 supera los USD 9.000 M."
-     }
-    ],
-    "corto": [],
-    "largo": []
-   },
-   "criterio": "afectados",
-   "fuentes": [
-    {
-     "t": "Artemis (PERILS), 19 oct",
-     "u": "https://www.artemis.bm/news/late-august-euro-scs-and-hail-event-raphaela-estimated-near-eur-3-3bn-industry-loss-perils/"
-    },
-    {
-     "t": "Artemis (Gallagher Re), 21 oct",
-     "u": "https://www.artemis.bm/news/gallagher-re-estimates-global-insured-cat-losses-at-92bn-for-9m26-lowest-since-2019/"
-    }
-   ],
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 3,
-    "medida": "granizo de hasta 13 cm",
-    "ref": "norte de Italia; 4 a 8 cm en los otros tres países (dato del texto existente)",
     "fuente": null
    }
   },
@@ -2995,8 +2743,8 @@
     "r": 330
    },
    "muertes": 3,
-   "evacuados": 4700,
-   "texto": "El Paraná superó el nivel de evacuación en la ciudad de Santa Fe (5,77 m el 16 de noviembre) y sigue sobre ese nivel en Goya, Reconquista, La Paz, Hernandarias, Diamante, Paraná (5,69 m) e Isla del Cerrito; en el norte baja lento y Barranqueras (6,39 m) ya está debajo de la evacuación. El Uruguay bajó a 6,95 m en Paso de los Libres, debajo de la alerta. Hay unas 4.700 personas evacuadas o autoevacuadas: 2.236 en Chaco, 2.005 en Corrientes, unas 325 en Santa Fe y 136 en Entre Ríos. Tres trabajadores rurales murieron mientras trasladaban hacienda.",
+   "evacuados": 4025,
+   "texto": "El Paraná sigue sobre el nivel de evacuación en Santa Fe (5,72 m el 26 de noviembre), Paraná y Victoria, y en alerta en Goya, Reconquista y La Paz; a Yacyretá entran 26.000 m³/s. El río Uruguay vuelve a crecer (Santo Tomé 9,36 m) y se prevé alerta en Paso de los Libres desde el 29. Hay unas 4.000 personas evacuadas o autoevacuadas, sobre todo en Chaco (2.024) y Corrientes (1.381). Murieron tres trabajadores rurales que trasladaban hacienda.",
    "danos": {
     "texto": "Sin estimación publicada. El Senasa registra unos 147.500 bovinos y bubalinos evacuados desde agosto en cinco provincias.",
     "usd": null,
@@ -3095,6 +2843,14 @@
     {
      "t": "El Litoral, 12-nov-2026",
      "u": "https://www.ellitoral.com/area-metropolitana/santafe-rioparana-metros-crecida-rio-personas-evacuadas-emergencia-hidrica_0_s70Q9aEBWY.html"
+    },
+    {
+     "t": "INA, reporte diario, 26 nov",
+     "u": "https://alerta.ina.gob.ar/a5/diario/reporte_diario"
+    },
+    {
+     "t": "Infobae, 26 nov",
+     "u": "https://www.infobae.com/sociedad/2026/11/26/el-nino-la-crecida-del-rio-iguazu-obligo-a-cerrar-el-acceso-en-el-lado-brasileno-y-misiones-esta-en-alerta-por-lluvias/"
     }
    ],
    "impacto": null,
@@ -7071,64 +6827,6 @@
    }
   },
   {
-   "id": "asi-em01",
-   "tipo": "incendio",
-   "titulo": "Incendios en Yakutia: más de 1,3 millones de hectáreas",
-   "lugar": "Distritos de Verjneviliuisk, Kobiai, Mirni, Niurba, Jangalas y Oleniok (Yakutia)",
-   "pais": "Rusia",
-   "inicio": "2026-08-06",
-   "fin": "2026-08-28",
-   "geom": {
-    "t": "area",
-    "c": [
-     119.5,
-     64.0
-    ],
-    "r": 500
-   },
-   "impacto": null,
-   "muertes": null,
-   "afectados": null,
-   "evacuados": null,
-   "texto": "Al 28 de agosto había 68 incendios activos sobre 1.313.650 hectáreas en seis distritos de Yakutia, tres veces el área informada el 6 de agosto (440.340 ha). Rige la emergencia regional en toda la república y emergencias municipales en Mirni, Oleniok, Niurba y Kobiai. El 27 de agosto el Ministerio de Emergencias informó humo en más de 40 localidades, entre ellas Yakutsk.",
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": ""
-   },
-   "efectos": {
-    "corto": [
-     {
-      "cat": "salud",
-      "t": "En Yakutsk, Rospotrebnadzor midió PM2,5 al doble del límite admisible y PM10 a 1,4 veces a fines de agosto."
-     }
-    ],
-    "mediano": [],
-    "largo": []
-   },
-   "criterio": "emergencia",
-   "fuentes": [
-    {
-     "t": "Travelto.ru, 6-ago-2026 (act. 9-sep-2026)",
-     "u": "https://travelto.ru/blog/lesnye-pozhary-v-yakutii/"
-    },
-    {
-     "t": "LEO Network (Yakutia.Info), 10-ago-2026",
-     "u": "https://leonetwork.org/posts/show/2A2E0637-2385-4CEA-8013-D0C220B8923C"
-    }
-   ],
-   "origen": "noticias",
-   "gdacs": [],
-   "intensidad": {
-    "nivel": 3,
-    "medida": "1.313.650 ha (28 de agosto)",
-    "ref": "supera el umbral de 50.000 ha; el área se triplicó entre el 6 y el 28 de agosto",
-    "fuente": 0
-   }
-  },
-  {
    "id": "asi-em04",
    "tipo": "sequia",
    "titulo": "Sequía y alertas de emergencia en Java y Nusa Tenggara",
@@ -8247,60 +7945,6 @@
     {
      "t": "GDACS, alerta verde",
      "u": "https://www.gdacs.org/report.aspx?eventid=1104053&eventtype=FL"
-    }
-   ],
-   "intensidad": {
-    "nivel": null,
-    "medida": "",
-    "ref": "",
-    "fuente": null
-   }
-  },
-  {
-   "id": "eur-g03",
-   "tipo": "inundacion",
-   "titulo": "Inundaciones en Sixt-Fer-à-Cheval",
-   "lugar": "Sixt-Fer-à-Cheval; Lac de la Muzelle, Les Deux Alpes; Peyrehorade",
-   "pais": "Francia",
-   "inicio": "2026-08-08",
-   "fin": "2026-08-28",
-   "origen": "gdacs",
-   "gdacs": [
-    {
-     "t": "FL",
-     "id": 1104084,
-     "a": "verde"
-    }
-   ],
-   "geom": {
-    "t": "punto",
-    "c": [
-     5.98,
-     47.27
-    ]
-   },
-   "muertes": 1,
-   "afectados": 40,
-   "evacuados": 30,
-   "texto": "GDACS registra 1 muerto en Sixt-Fer-à-Cheval; 30 evacuados en Peyrehorade; 40 afectados en Lac de la Muzelle, Les Deux Alpes; 17 rescatados en Saint-Christophe-en-Oisans; 23 rescatados en Val-d'Isère.",
-   "criterio": "muertes",
-   "impacto": null,
-   "danos": {
-    "usd": null,
-    "rango": null,
-    "tipo": null,
-    "fuente": null,
-    "texto": "Cifras de la recopilación automática de prensa de GDACS; pueden ser parciales."
-   },
-   "efectos": {
-    "corto": [],
-    "mediano": [],
-    "largo": []
-   },
-   "fuentes": [
-    {
-     "t": "GDACS, alerta verde",
-     "u": "https://www.gdacs.org/report.aspx?eventid=1104084&eventtype=FL"
     }
    ],
    "intensidad": {

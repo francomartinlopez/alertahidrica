@@ -1,7 +1,7 @@
 {
  "web": "Alerta Hídrica",
  "version": "1.3",
- "generado": "2026-11-26T07:14:48-03:00",
+ "generado": "2026-11-27T07:13:07-03:00",
  "indicadores": [
   {
    "id": "estado-enso",
@@ -75,11 +75,11 @@
    "valor": 3.68,
    "unidad": "°C",
    "variacion": {
-    "valor": -0.02,
+    "valor": -0.0,
     "unidad": "°C",
     "contra": "día anterior"
    },
-   "fecha_dato": "2026-11-24",
+   "fecha_dato": "2026-11-25",
    "fuente_original": "NOAA PSL (OISST v2.1)",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -192,7 +192,7 @@
      "valor": 3.56
     },
     {
-     "fecha": "2026-11-24",
+     "fecha": "2026-11-25",
      "valor": 3.68
     }
    ],
@@ -207,11 +207,11 @@
    "valor": 3.25,
    "unidad": "°C",
    "variacion": {
-    "valor": -0.03,
+    "valor": -0.0,
     "unidad": "°C",
     "contra": "día anterior"
    },
-   "fecha_dato": "2026-11-24",
+   "fecha_dato": "2026-11-25",
    "fuente_original": "NOAA PSL (OISST v2.1) y NOAA ERSSTv5",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -324,7 +324,7 @@
      "valor": 3.11
     },
     {
-     "fecha": "2026-11-24",
+     "fecha": "2026-11-25",
      "valor": 3.25
     }
    ],
@@ -339,11 +339,11 @@
    "valor": 5.95,
    "unidad": "m",
    "variacion": {
-    "valor": 0.07,
+    "valor": 0.0,
     "unidad": "m",
-    "contra": "medición anterior (2026-11-24)"
+    "contra": "medición anterior (2026-11-25)"
    },
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Prefectura Naval Argentina e INA",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -364,7 +364,7 @@
      "valor": 8.09
     },
     {
-     "fecha": "2026-11-25",
+     "fecha": "2026-11-26",
      "valor": 5.95
     }
    ],
@@ -414,14 +414,14 @@
   {
    "id": "altura-rio-corrientes",
    "nombre": "Altura del río Paraná en Corrientes",
-   "valor": 5.67,
+   "valor": 5.65,
    "unidad": "m",
    "variacion": {
-    "valor": 0.04,
+    "valor": -0.02,
     "unidad": "m",
-    "contra": "medición anterior (2026-11-24)"
+    "contra": "medición anterior (2026-11-25)"
    },
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Prefectura Naval Argentina e INA",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -442,8 +442,8 @@
      "valor": 7.36
     },
     {
-     "fecha": "2026-11-25",
-     "valor": 5.67
+     "fecha": "2026-11-26",
+     "valor": 5.65
     }
    ],
    "comparar": [
@@ -453,14 +453,14 @@
   {
    "id": "altura-rio-barranqueras",
    "nombre": "Altura del río Paraná en Barranqueras",
-   "valor": 5.56,
+   "valor": 5.55,
    "unidad": "m",
    "variacion": {
-    "valor": 0.02,
+    "valor": -0.01,
     "unidad": "m",
-    "contra": "medición anterior (2026-11-24)"
+    "contra": "medición anterior (2026-11-25)"
    },
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Prefectura Naval Argentina e INA",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -481,8 +481,8 @@
      "valor": 7.19
     },
     {
-     "fecha": "2026-11-25",
-     "valor": 5.56
+     "fecha": "2026-11-26",
+     "valor": 5.55
     }
    ],
    "comparar": [
@@ -492,14 +492,14 @@
   {
    "id": "altura-rio-goya",
    "nombre": "Altura del río Paraná en Goya",
-   "valor": 5.42,
+   "valor": 5.39,
    "unidad": "m",
    "variacion": {
-    "valor": -0.05,
+    "valor": -0.03,
     "unidad": "m",
-    "contra": "medición anterior (2026-11-24)"
+    "contra": "medición anterior (2026-11-25)"
    },
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Prefectura Naval Argentina e INA",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -520,8 +520,8 @@
      "valor": 5.77
     },
     {
-     "fecha": "2026-11-25",
-     "valor": 5.42
+     "fecha": "2026-11-26",
+     "valor": 5.39
     }
    ],
    "comparar": [
@@ -531,14 +531,14 @@
   {
    "id": "altura-rio-reconquista",
    "nombre": "Altura del río Paraná en Reconquista",
-   "valor": 5.27,
+   "valor": 5.22,
    "unidad": "m",
    "variacion": {
-    "valor": -0.04,
+    "valor": -0.05,
     "unidad": "m",
-    "contra": "medición anterior (2026-11-24)"
+    "contra": "medición anterior (2026-11-25)"
    },
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Prefectura Naval Argentina e INA",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -559,8 +559,8 @@
      "valor": 5.87
     },
     {
-     "fecha": "2026-11-25",
-     "valor": 5.27
+     "fecha": "2026-11-26",
+     "valor": 5.22
     }
    ],
    "comparar": [
@@ -570,14 +570,14 @@
   {
    "id": "altura-rio-la-paz",
    "nombre": "Altura del río Paraná en La Paz",
-   "valor": 6.05,
+   "valor": 6.01,
    "unidad": "m",
    "variacion": {
-    "valor": -0.01,
+    "valor": -0.04,
     "unidad": "m",
-    "contra": "medición anterior (2026-11-24)"
+    "contra": "medición anterior (2026-11-25)"
    },
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Prefectura Naval Argentina e INA",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -597,10 +597,10 @@
   {
    "id": "altura-rio-santa-fe",
    "nombre": "Altura del río Paraná en Santa Fe",
-   "valor": 5.74,
+   "valor": 5.72,
    "unidad": "m",
    "variacion": {
-    "valor": -0.03,
+    "valor": -0.05,
     "unidad": "m",
     "contra": "medición anterior (2026-11-25)"
    },
@@ -626,7 +626,7 @@
     },
     {
      "fecha": "2026-11-26",
-     "valor": 5.74
+     "valor": 5.72
     }
    ],
    "comparar": [
@@ -636,14 +636,14 @@
   {
    "id": "altura-rio-parana",
    "nombre": "Altura del río Paraná en Paraná",
-   "valor": 5.55,
+   "valor": 5.52,
    "unidad": "m",
    "variacion": {
-    "valor": -0.04,
+    "valor": -0.03,
     "unidad": "m",
-    "contra": "medición anterior (2026-11-24)"
+    "contra": "medición anterior (2026-11-25)"
    },
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Prefectura Naval Argentina e INA",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -664,8 +664,8 @@
      "valor": 4.35
     },
     {
-     "fecha": "2026-11-25",
-     "valor": 5.55
+     "fecha": "2026-11-26",
+     "valor": 5.52
     }
    ],
    "comparar": [
@@ -678,11 +678,11 @@
    "valor": 4.95,
    "unidad": "m",
    "variacion": {
-    "valor": -0.04,
+    "valor": 0.0,
     "unidad": "m",
-    "contra": "medición anterior (2026-11-24)"
+    "contra": "medición anterior (2026-11-25)"
    },
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Prefectura Naval Argentina e INA",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -707,7 +707,7 @@
      "valor": 3.75
     },
     {
-     "fecha": "2026-11-25",
+     "fecha": "2026-11-26",
      "valor": 4.95
     }
    ],
@@ -721,11 +721,11 @@
    "valor": 5.36,
    "unidad": "m",
    "variacion": {
-    "valor": 0.06,
+    "valor": 0.0,
     "unidad": "m",
-    "contra": "medición anterior (2026-11-24)"
+    "contra": "medición anterior (2026-11-25)"
    },
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Prefectura Naval Argentina e INA",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -745,14 +745,14 @@
   {
    "id": "altura-rio-santo-tome",
    "nombre": "Altura del río Uruguay en Santo Tomé",
-   "valor": 8.05,
+   "valor": 9.36,
    "unidad": "m",
    "variacion": {
-    "valor": 2.07,
+    "valor": 1.31,
     "unidad": "m",
-    "contra": "medición anterior (2026-11-24)"
+    "contra": "medición anterior (2026-11-25)"
    },
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Prefectura Naval Argentina e INA",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -772,14 +772,14 @@
   {
    "id": "altura-rio-paso-de-los-libres",
    "nombre": "Altura del río Uruguay en Paso de los Libres",
-   "valor": 5.04,
+   "valor": 5.59,
    "unidad": "m",
    "variacion": {
-    "valor": -0.03,
+    "valor": 0.55,
     "unidad": "m",
-    "contra": "medición anterior (2026-11-24)"
+    "contra": "medición anterior (2026-11-25)"
    },
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Prefectura Naval Argentina e INA",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -800,8 +800,8 @@
      "valor": 7.56
     },
     {
-     "fecha": "2026-11-25",
-     "valor": 5.04
+     "fecha": "2026-11-26",
+     "valor": 5.59
     }
    ],
    "comparar": [
@@ -811,14 +811,14 @@
   {
    "id": "altura-rio-concordia",
    "nombre": "Altura del río Uruguay en Concordia",
-   "valor": 6.46,
+   "valor": 7.4,
    "unidad": "m",
    "variacion": {
-    "valor": 0.24,
+    "valor": 0.94,
     "unidad": "m",
-    "contra": "medición anterior (2026-11-24)"
+    "contra": "medición anterior (2026-11-25)"
    },
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Prefectura Naval Argentina e INA",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -839,8 +839,8 @@
      "valor": 9.04
     },
     {
-     "fecha": "2026-11-25",
-     "valor": 6.46
+     "fecha": "2026-11-26",
+     "valor": 7.4
     }
    ],
    "comparar": [
@@ -850,14 +850,14 @@
   {
    "id": "altura-rio-concepcion-del-uruguay",
    "nombre": "Altura del río Uruguay en Concepción del Uruguay",
-   "valor": 2.68,
+   "valor": 2.96,
    "unidad": "m",
    "variacion": {
-    "valor": -0.02,
+    "valor": 0.28,
     "unidad": "m",
-    "contra": "medición anterior (2026-11-24)"
+    "contra": "medición anterior (2026-11-25)"
    },
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Prefectura Naval Argentina e INA",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -877,14 +877,14 @@
   {
    "id": "altura-rio-puerto-iguazu",
    "nombre": "Altura del río Iguazú en Puerto Iguazú",
-   "valor": 21.0,
+   "valor": 22.1,
    "unidad": "m",
    "variacion": {
-    "valor": 0.0,
+    "valor": 1.1,
     "unidad": "m",
-    "contra": "medición anterior (2026-11-24)"
+    "contra": "medición anterior (2026-11-25)"
    },
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Prefectura Naval Argentina e INA",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -905,8 +905,8 @@
      "valor": 28.41
     },
     {
-     "fecha": "2026-11-25",
-     "valor": 21.0
+     "fecha": "2026-11-26",
+     "valor": 22.1
     }
    ],
    "comparar": [
@@ -916,14 +916,14 @@
   {
    "id": "altura-rio-puerto-pilcomayo",
    "nombre": "Altura del río Paraguay en Puerto Pilcomayo",
-   "valor": 2.96,
+   "valor": 3.29,
    "unidad": "m",
    "variacion": {
-    "valor": 0.26,
+    "valor": 0.33,
     "unidad": "m",
-    "contra": "medición anterior (2026-11-24)"
+    "contra": "medición anterior (2026-11-25)"
    },
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Prefectura Naval Argentina e INA",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -943,14 +943,14 @@
   {
    "id": "altura-rio-formosa",
    "nombre": "Altura del río Paraguay en Formosa",
-   "valor": 4.41,
+   "valor": 4.58,
    "unidad": "m",
    "variacion": {
-    "valor": 0.02,
+    "valor": 0.17,
     "unidad": "m",
-    "contra": "medición anterior (2026-11-24)"
+    "contra": "medición anterior (2026-11-25)"
    },
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "fuente_original": "Prefectura Naval Argentina e INA",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1465,7 +1465,7 @@
     "contra": "dato anterior (2026-11-09)"
    },
    "fecha_dato": "2026-11-23",
-   "fuente_original": "Época",
+   "fuente_original": "Perfil",
    "eje": "Clima y riesgo productivo",
    "alcance": {
     "nivel": "provincia",
@@ -1542,8 +1542,8 @@
     "unidad": "personas",
     "contra": "dato anterior (2026-11-12)"
    },
-   "fecha_dato": "2026-11-25",
-   "fuente_original": "Infobae",
+   "fecha_dato": "2026-11-26",
+   "fuente_original": "APF (Defensa Civil)",
    "eje": "Clima y riesgo productivo",
    "alcance": {
     "nivel": "provincia",
@@ -1569,8 +1569,8 @@
     "unidad": "personas",
     "contra": "dato anterior (2026-11-24)"
    },
-   "fecha_dato": "2026-11-25",
-   "fuente_original": "Aire de Santa Fe",
+   "fecha_dato": "2026-11-26",
+   "fuente_original": "Mirador Provincial",
    "eje": "Clima y riesgo productivo",
    "alcance": {
     "nivel": "provincia",
@@ -1590,7 +1590,7 @@
      "valor": 88
     },
     {
-     "fecha": "2026-11-25",
+     "fecha": "2026-11-26",
      "valor": 442
     }
    ],
@@ -1603,7 +1603,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Corrientes",
    "valor": "Emergencia vigente",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1637,7 +1637,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Chaco",
    "valor": "Emergencia vencida",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1671,7 +1671,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Santa Fe",
    "valor": "Emergencia vigente",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1705,7 +1705,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Entre Ríos",
    "valor": "Emergencia vigente",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1739,7 +1739,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Misiones",
    "valor": "Plan sin emergencia",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1773,7 +1773,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Formosa",
    "valor": "Plan sin emergencia",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1807,7 +1807,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Buenos Aires",
    "valor": "Plan sin emergencia",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1841,7 +1841,7 @@
    "nombre": "Emergencia hídrica o climática provincial: CABA",
    "valor": "Plan sin emergencia",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1875,7 +1875,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Córdoba",
    "valor": "Plan sin emergencia",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1909,7 +1909,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Mendoza",
    "valor": "Emergencia vigente",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1943,7 +1943,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Salta",
    "valor": "Plan sin emergencia",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -1977,7 +1977,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Jujuy",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2011,7 +2011,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Tucumán",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2045,7 +2045,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Santiago del Estero",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2079,7 +2079,7 @@
    "nombre": "Emergencia hídrica o climática provincial: La Pampa",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2113,7 +2113,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Río Negro",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2147,7 +2147,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Neuquén",
    "valor": "Emergencia vigente",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2181,7 +2181,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Catamarca",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2215,7 +2215,7 @@
    "nombre": "Emergencia hídrica o climática provincial: La Rioja",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2249,7 +2249,7 @@
    "nombre": "Emergencia hídrica o climática provincial: San Juan",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2283,7 +2283,7 @@
    "nombre": "Emergencia hídrica o climática provincial: San Luis",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2317,7 +2317,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Chubut",
    "valor": "Plan sin emergencia",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2351,7 +2351,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Santa Cruz",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2385,7 +2385,7 @@
    "nombre": "Emergencia hídrica o climática provincial: Tierra del Fuego",
    "valor": "Sin medidas halladas",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Boletines oficiales y gobiernos provinciales",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2419,7 +2419,7 @@
    "nombre": "Riesgo climático: Generación hidroeléctrica",
    "valor": "Mixto",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Alerta Hídrica, con datos de las fuentes de la sección",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2445,7 +2445,7 @@
    "nombre": "Riesgo climático: Transporte fluvial",
    "valor": "Riesgo medio",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Alerta Hídrica, con datos de las fuentes de la sección",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2474,7 +2474,7 @@
    "nombre": "Riesgo climático: Construcción",
    "valor": "Riesgo medio",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Alerta Hídrica, con datos de las fuentes de la sección",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2498,7 +2498,7 @@
    "nombre": "Riesgo climático: Energía eléctrica",
    "valor": "Riesgo medio",
    "unidad": "",
-   "fecha_dato": "2026-11-26",
+   "fecha_dato": "2026-11-27",
    "fuente_original": "Alerta Hídrica, con datos de las fuentes de la sección",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2522,33 +2522,15 @@
  ],
  "novedades": [
   {
-   "id": "rio-santa-fe-evacuacion",
-   "fecha_dato": "2026-11-26",
-   "titulo": "El río Paraná en Santa Fe está sobre la cota de evacuación",
-   "resumen": "El Paraná marcó 5,74 m en Santa Fe el 26 de noviembre; la cota de alerta es 5,30 m y la de evacuación, 5,70 m.",
-   "tipo": "clima",
-   "eje": "Clima y riesgo productivo",
-   "alcance": {
-    "nivel": "localidad",
-    "provincia": "Santa Fe",
-    "localidad": "Santa Fe",
-    "pais": "Argentina"
-   },
-   "rubros": [],
-   "subrubros": [],
-   "exposicion": [],
-   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
-  },
-  {
-   "id": "2026-11-26-alerta-smn-santa-cruz",
-   "fecha_dato": "2026-11-26",
-   "titulo": "Alerta naranja del SMN en Santa Cruz",
-   "resumen": "Viento del oeste de 60 a 80 km/h con ráfagas de hasta 110 km/h",
+   "id": "2026-11-27-alerta-smn-misiones",
+   "fecha_dato": "2026-11-27",
+   "titulo": "Alerta naranja del SMN en Misiones",
+   "resumen": "Tormentas fuertes o severas con 70 a 100 mm, granizo, actividad eléctrica y ráfagas de hasta 90 km/h (alerta amarilla y naranja según sectores)",
    "tipo": "clima",
    "eje": "Clima y riesgo productivo",
    "alcance": {
     "nivel": "provincia",
-    "provincia": "Santa Cruz",
+    "provincia": "Misiones",
     "localidad": "",
     "pais": "Argentina"
    },
@@ -2558,15 +2540,15 @@
    "url": "https://www.smn.gob.ar/alertas"
   },
   {
-   "id": "2026-11-26-alerta-smn-mendoza",
-   "fecha_dato": "2026-11-26",
-   "titulo": "Alerta amarilla del SMN en Mendoza",
-   "resumen": "Tormentas aisladas, algunas fuertes o localmente severas, con granizo ocasional y ráfagas intensas",
+   "id": "2026-11-27-alerta-smn-corrientes",
+   "fecha_dato": "2026-11-27",
+   "titulo": "Alerta naranja del SMN en Corrientes",
+   "resumen": "Tormentas fuertes o severas con 70 a 100 mm, granizo y ráfagas de hasta 90 km/h (alerta amarilla y naranja según sectores)",
    "tipo": "clima",
    "eje": "Clima y riesgo productivo",
    "alcance": {
     "nivel": "provincia",
-    "provincia": "Mendoza",
+    "provincia": "Corrientes",
     "localidad": "",
     "pais": "Argentina"
    },
@@ -2576,15 +2558,15 @@
    "url": "https://www.smn.gob.ar/alertas"
   },
   {
-   "id": "2026-11-26-alerta-smn-san-juan",
-   "fecha_dato": "2026-11-26",
-   "titulo": "Alerta amarilla del SMN en San Juan",
-   "resumen": "Tormentas aisladas, algunas fuertes o localmente severas, con granizo ocasional y ráfagas intensas",
+   "id": "2026-11-27-alerta-smn-formosa",
+   "fecha_dato": "2026-11-27",
+   "titulo": "Alerta naranja del SMN en Formosa",
+   "resumen": "Tormentas fuertes o severas con 70 a 100 mm, granizo y ráfagas de hasta 90 km/h (alerta amarilla y naranja según sectores)",
    "tipo": "clima",
    "eje": "Clima y riesgo productivo",
    "alcance": {
     "nivel": "provincia",
-    "provincia": "San Juan",
+    "provincia": "Formosa",
     "localidad": "",
     "pais": "Argentina"
    },
@@ -2594,10 +2576,28 @@
    "url": "https://www.smn.gob.ar/alertas"
   },
   {
-   "id": "2026-11-26-alerta-smn-la-rioja",
-   "fecha_dato": "2026-11-26",
+   "id": "2026-11-27-alerta-smn-catamarca",
+   "fecha_dato": "2026-11-27",
+   "titulo": "Alerta amarilla del SMN en Catamarca",
+   "resumen": "Lluvias y tormentas con 20 a 40 mm, granizo y ráfagas fuertes",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Catamarca",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-27-alerta-smn-la-rioja",
+   "fecha_dato": "2026-11-27",
    "titulo": "Alerta amarilla del SMN en La Rioja",
-   "resumen": "Tormentas aisladas, algunas fuertes o localmente severas, con granizo ocasional y ráfagas intensas",
+   "resumen": "Lluvias y tormentas con 20 a 40 mm, granizo y ráfagas fuertes",
    "tipo": "clima",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2612,15 +2612,87 @@
    "url": "https://www.smn.gob.ar/alertas"
   },
   {
-   "id": "2026-11-26-alerta-smn-tierra-del-fuego",
-   "fecha_dato": "2026-11-26",
-   "titulo": "Alerta amarilla del SMN en Tierra del Fuego",
-   "resumen": "Tormentas aisladas, algunas fuertes, con ráfagas intensas",
+   "id": "2026-11-27-alerta-smn-san-juan",
+   "fecha_dato": "2026-11-27",
+   "titulo": "Alerta amarilla del SMN en San Juan",
+   "resumen": "Lluvias y tormentas con 20 a 40 mm, granizo y ráfagas fuertes",
    "tipo": "clima",
    "eje": "Clima y riesgo productivo",
    "alcance": {
     "nivel": "provincia",
-    "provincia": "Tierra del Fuego",
+    "provincia": "San Juan",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-27-alerta-smn-buenos-aires",
+   "fecha_dato": "2026-11-27",
+   "titulo": "Alerta amarilla del SMN en Buenos Aires",
+   "resumen": "Temperaturas extremas en el sur de la provincia",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Buenos Aires",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-27-alerta-smn-la-pampa",
+   "fecha_dato": "2026-11-27",
+   "titulo": "Alerta amarilla del SMN en La Pampa",
+   "resumen": "Temperaturas extremas en el oeste (hasta 35 °C)",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "La Pampa",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-27-alerta-smn-rio-negro",
+   "fecha_dato": "2026-11-27",
+   "titulo": "Alerta amarilla del SMN en Río Negro",
+   "resumen": "Temperaturas extremas (hasta 36 °C)",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Río Negro",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://www.smn.gob.ar/alertas"
+  },
+  {
+   "id": "2026-11-27-alerta-smn-neuquen",
+   "fecha_dato": "2026-11-27",
+   "titulo": "Alerta amarilla del SMN en Neuquén",
+   "resumen": "Temperaturas extremas en el este (hasta 36 °C)",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Neuquén",
     "localidad": "",
     "pais": "Argentina"
    },
@@ -2631,9 +2703,9 @@
   },
   {
    "id": "rio-goya-alerta",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "titulo": "El río Paraná en Goya está sobre la cota de alerta",
-   "resumen": "El Paraná marcó 5,42 m en Goya (Corrientes) el 25 de noviembre; la cota de alerta es 5,20 m y la de evacuación, 5,70 m.",
+   "resumen": "El Paraná marcó 5,39 m en Goya (Corrientes) el 26 de noviembre; la cota de alerta es 5,20 m y la de evacuación, 5,70 m.",
    "tipo": "clima",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2649,9 +2721,9 @@
   },
   {
    "id": "rio-reconquista-alerta",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "titulo": "El río Paraná en Reconquista está sobre la cota de alerta",
-   "resumen": "El Paraná marcó 5,27 m en Reconquista (Santa Fe) el 25 de noviembre; la cota de alerta es 5,10 m y la de evacuación, 5,30 m.",
+   "resumen": "El Paraná marcó 5,22 m en Reconquista (Santa Fe) el 26 de noviembre; la cota de alerta es 5,10 m y la de evacuación, 5,30 m.",
    "tipo": "clima",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2667,9 +2739,9 @@
   },
   {
    "id": "rio-la-paz-alerta",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "titulo": "El río Paraná en La Paz está sobre la cota de alerta",
-   "resumen": "El Paraná marcó 6,05 m en La Paz (Entre Ríos) el 25 de noviembre; la cota de alerta es 5,80 m y la de evacuación, 6,15 m.",
+   "resumen": "El Paraná marcó 6,01 m en La Paz (Entre Ríos) el 26 de noviembre; la cota de alerta es 5,80 m y la de evacuación, 6,15 m.",
    "tipo": "clima",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2684,10 +2756,28 @@
    "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
   },
   {
+   "id": "rio-santa-fe-evacuacion",
+   "fecha_dato": "2026-11-26",
+   "titulo": "El río Paraná en Santa Fe está sobre la cota de evacuación",
+   "resumen": "El Paraná marcó 5,72 m en Santa Fe el 26 de noviembre; la cota de alerta es 5,30 m y la de evacuación, 5,70 m.",
+   "tipo": "clima",
+   "eje": "Clima y riesgo productivo",
+   "alcance": {
+    "nivel": "localidad",
+    "provincia": "Santa Fe",
+    "localidad": "Santa Fe",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://francomartinlopez.github.io/alertahidrica/#rios"
+  },
+  {
    "id": "rio-parana-evacuacion",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "titulo": "El río Paraná en Paraná está sobre la cota de evacuación",
-   "resumen": "El Paraná marcó 5,55 m en Paraná (Entre Ríos) el 25 de noviembre; la cota de alerta es 4,70 m y la de evacuación, 5,00 m.",
+   "resumen": "El Paraná marcó 5,52 m en Paraná (Entre Ríos) el 26 de noviembre; la cota de alerta es 4,70 m y la de evacuación, 5,00 m.",
    "tipo": "clima",
    "eje": "Clima y riesgo productivo",
    "alcance": {
@@ -2703,9 +2793,9 @@
   },
   {
    "id": "rio-victoria-evacuacion",
-   "fecha_dato": "2026-11-25",
+   "fecha_dato": "2026-11-26",
    "titulo": "El río Paraná en Victoria está sobre la cota de evacuación",
-   "resumen": "El Paraná marcó 5,36 m en Victoria (Entre Ríos) el 25 de noviembre; la cota de alerta es 4,60 m y la de evacuación, 4,90 m.",
+   "resumen": "El Paraná marcó 5,36 m en Victoria (Entre Ríos) el 26 de noviembre; la cota de alerta es 4,60 m y la de evacuación, 4,90 m.",
    "tipo": "clima",
    "eje": "Clima y riesgo productivo",
    "alcance": {
