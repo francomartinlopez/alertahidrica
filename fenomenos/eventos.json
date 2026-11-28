@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-27",
- "desde": "2026-08-29",
+ "actualizado": "2026-11-28",
+ "desde": "2026-08-30",
  "nota": "Fenómenos meteorológicos y climáticos anómalos con al menos un muerto, 1.000 afectados o evacuados, una emergencia declarada, una alerta naranja o roja de GDACS, un récord confirmado o una intensidad física muy inusual o extrema respecto de lo normal del lugar. No se asume relación con El Niño. Áreas y trayectorias aproximadas.",
  "comparacion": {
   "ventana": "25 de agosto a 23 de noviembre",
@@ -142,7 +142,7 @@
     "90": "capas/anom_temp_90.png"
    }
   },
-  "hasta": "2026-11-24",
+  "hasta": "2026-11-26",
   "nota": "Datos: NOAA CPC (análisis diario con estaciones, grilla de 0,5°, solo sobre tierra). Normal: 1991-2020. En zonas con pocas estaciones, como gran parte de África, el dato es menos confiable."
  },
  "revisados": {
@@ -2354,9 +2354,9 @@
     ],
     "r": 280
    },
-   "muertes": 14,
-   "afectados": 102187,
-   "texto": "Casi tres meses de lluvia desbordaron ríos en la costa. Según la Secretaría Nacional de Gestión de Riesgos, desde el 29 de agosto hubo 1.716 eventos en las 24 provincias (60% inundaciones y 17% deslizamientos) y 102.187 personas afectadas al 19 de noviembre; el corte del 17 contaba 14 muertos. La OPS registraba al 13 de noviembre 20.312 viviendas afectadas y 93 destruidas.",
+   "muertes": 34,
+   "afectados": 121000,
+   "texto": "Casi tres meses de lluvia desbordaron ríos en la costa. Según la Secretaría Nacional de Gestión de Riesgos, desde el 29 de agosto hubo 1.716 eventos en las 24 provincias (60% inundaciones y 17% deslizamientos) y 102.187 personas afectadas al 19 de noviembre; el corte del 17 contaba 14 muertos. La OPS registraba al 13 de noviembre 20.312 viviendas afectadas y 93 destruidas. Al 27 de noviembre, la Secretaría de Gestión de Riesgos suma más de 121.000 afectados o damnificados en casi tres meses y la prensa internacional informa 34 muertos; en Manta se desbordaron dos ríos y hubo inundaciones en Machala, Daule, Durán y Samborondón, con un puente caído en Los Ríos.",
    "danos": {
     "texto": "12.793 viviendas afectadas y 38 destruidas, 26 puentes afectados y 2 destruidos, 10.585 ha agrícolas afectadas (SNGR, corte del 4 de noviembre); pérdidas agrícolas de USD 60,8 millones según el balance difundido el 27 de octubre.",
     "usd": 60.8,
@@ -2447,6 +2447,14 @@
     {
      "t": "Prensa Latina (COE), 9-nov-2026",
      "u": "https://prensa-latina.cu/2026/11/09/lluvias-dejan-12-muertos-y-mas-de-57-mil-afectados-en-ecuador"
+    },
+    {
+     "t": "Al Jazeera (AFP y Anadolu), 28-nov-2026",
+     "u": "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador"
+    },
+    {
+     "t": "Primicias, 27-nov-2026",
+     "u": "https://www.primicias.ec/sociedad/lluvias-fenomeno-elnino-27noviembre-inundaciones-machala-clima-ecuador-138111/"
     }
    ],
    "impacto": null,
@@ -12131,7 +12139,7 @@
    "muertes": null,
    "afectados": null,
    "evacuados": null,
-   "texto": "El río Tumbes superó el umbral naranja en la estación El Tigre (811,93 m³/s el 24 de noviembre) y el Ministerio de Desarrollo Agrario habló de un caudal inédito en un siglo; hubo evacuaciones en Puerto Perú por el río Zarumilla. En Piura, declarada en emergencia, cayeron 134 mm en Tambogrande y 118 mm en Las Lomas.",
+   "texto": "El río Tumbes superó el umbral naranja en la estación El Tigre (811,93 m³/s el 24 de noviembre) y el Ministerio de Desarrollo Agrario habló de un caudal inédito en un siglo; hubo evacuaciones en Puerto Perú por el río Zarumilla. En Piura, declarada en emergencia, cayeron 134 mm en Tambogrande y 118 mm en Las Lomas. El 26 y 27 de noviembre, unas 12 horas de lluvia inundaron el centro de Piura, con unas 2.000 familias afectadas según el balance preliminar de Defensa Civil y pacientes del hospital José Cayetano Heredia trasladados.",
    "intensidad": {
     "nivel": 2,
     "medida": "Río Tumbes: 811,93 m³/s en El Tigre (umbral naranja 800)",
@@ -12164,6 +12172,10 @@
     {
      "t": "El Búho, 25-nov-2026",
      "u": "https://elbuho.pe/2026/11/piura-en-estado-de-emergencia-por-lluvias-inundaciones-activacion-de-quebradas-altas-temperaturas-y-dengue/"
+    },
+    {
+     "t": "Al Jazeera (AFP y Anadolu), 28-nov-2026",
+     "u": "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador"
     }
    ]
   }
